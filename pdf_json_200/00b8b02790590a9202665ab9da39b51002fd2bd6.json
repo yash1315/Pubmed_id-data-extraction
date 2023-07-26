@@ -1,0 +1,1394 @@
+{
+    "paper_id": "00b8b02790590a9202665ab9da39b51002fd2bd6",
+    "metadata": {
+        "title": "The community psychosocial burden during the COVID-19 pandemic in Indonesia",
+        "authors": [
+            {
+                "first": "Hario",
+                "middle": [],
+                "last": "Megatsari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universitas Airlangga",
+                    "location": {
+                        "settlement": "Surabaya",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Agung",
+                "middle": [
+                    "Dwi"
+                ],
+                "last": "Laksono",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Indonesian Ministry of Health",
+                    "location": {
+                        "settlement": "Jakarta",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yeni",
+                "middle": [],
+                "last": "Tri Herwanto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Indonesian Public Health Union",
+                    "location": {
+                        "settlement": "Makassar",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kinanty",
+                "middle": [
+                    "Putri"
+                ],
+                "last": "Sarweni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Indonesian Public Health Union",
+                    "location": {
+                        "settlement": "Makassar",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rachmad",
+                "middle": [],
+                "last": "Ardiansyah",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pua",
+                "middle": [],
+                "last": "Geno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Indonesian Public Health Union",
+                    "location": {
+                        "settlement": "Makassar",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Estiningtyas",
+                "middle": [],
+                "last": "Nugraheni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The Indonesian Public Health Union",
+                    "location": {
+                        "settlement": "Makassar",
+                        "country": "Indonesia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Restricting community mobility during COVID-19 can potentially trigger anxiety, depression and stress in the community. The study aims to analyze variables associated with the community psychosocial burden (anxiety level) during the co-19 pandemic in Indonesia. Methods: This study collected data (n \u00bc 8,031) online. Psychosocial burden was measured based on the anxiety level which include 5 aspects, such as economic, religious, educational, employment, and social issues. Each question used a Likert scale. Six independent were examined, such as age, gender, religion, marital, education, and employement. In the final stage, a multivariate test was performed using a multinomial logistic regression. Results: Someone older experienced less high anxiety. The age group of 20-29 years was 4,330 times likely to experience higher anxiety than the age group of 50 years. While, those in the age group of 40-49 years weer 2,322 times more likely to have higher anxiety than those in the age group of 50 years. Male respondents had lower possibility of medium to high anxiety than females. Respondents with secondary and lower education had 3,117 times possibilities to experience higher anxiety than those with high education level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Indonesia so far has not shown a decline in COVID-19 cases. Data accessed on 15 June 2020 from the official website of the Indonesian government, www.covid19.go.id, illustrates that the distribution of COVID-19 cases has been fairly distributed in all provinces and districts/ cities. Some regions have indicated a new case. In other words, it has not indicated that this outbreak will end soon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The government has taken several strategies to break the chain of COVID-19 transmission. For example, it issued the Regulation of Indonesian Minsitry of Health No. 9 of 2020 concerning Large-Scale Social Limitation Guidelines in accelerating COVID-19 management. It regulates some restrictions for the community, such as in school hours, operation of public transportation, work from home, and so forth. This regulation limits the mobility of community (Task Force for the Acceleration of Handling COVID-19, 2020a ; the Minister of Health of the Republic of Indonesia, 2020).",
+            "cite_spans": [
+                {
+                    "start": 498,
+                    "end": 513,
+                    "text": "COVID-19, 2020a",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The regulation and restrictions have affected all aspects, such as religious, economy, education and social psychology. Mass media reported that some people still have to work outside even though the local government has reinforced the regulation (Laksono et al., 2020) . A study found longer large scale social restrictions might result in more violations in the community (Ibad et al., 2020) . Another phenomenon is that some religious groups still gather to perform religious rituals in which some new cases potentially can occur.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 269,
+                    "text": "(Laksono et al., 2020)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 374,
+                    "end": 393,
+                    "text": "(Ibad et al., 2020)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The limitation of community mobility during COVID-19 can potentially trigger anxiety, depression and stress in the society (Bohlken et al., 2020) . Several factors that affect anxiety include environmental, emotional, and physical factors. Anxiety can arise as people are urged to stay at home. It, therefore, results in a domino effect due to the suppressed situation. For example, people cannot do daily activities like normally, interact with their social group, perform religious activities outside, and so on (Mukhtar and Rana, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 145,
+                    "text": "(Bohlken et al., 2020)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 514,
+                    "end": 538,
+                    "text": "(Mukhtar and Rana, 2020)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several recent studies in some countries have reported anxiety which resulted in psychosocial anomalies during the COVID-19 pandemic. This situation can lead to a negative situation, such as decreasing immunity. During the COVID-19 pandemic, people should maintain their immunity (Lima et al., 2020; Mukhtar and Rana, 2020; Rajkumar 2020) . One study even reported high anxiety could lead to suicide incidents during COVID-19 pandemic (Sher, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 299,
+                    "text": "(Lima et al., 2020;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 300,
+                    "end": 323,
+                    "text": "Mukhtar and Rana, 2020;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 324,
+                    "end": 338,
+                    "text": "Rajkumar 2020)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 435,
+                    "end": 447,
+                    "text": "(Sher, 2020)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Anxiety is also caused by the abundance of hoax information on social media, and eventually it can worsen the community pshycological condition (Athbi and Hassan, 2019; Costa, 2019; Evans, 2020) . Such worse situation might be originated from the opinion of celebrities and influencers about the theory of conspiracy on the COVID-19 pandemic (Task Force for the Acceleration of Handling COVID-19 2020b). For example, the president of the USA, Donald Trump, believed that the pandemic was brought by the theory of conspiracy as a form of resistance to the power of government (Dyer, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 168,
+                    "text": "(Athbi and Hassan, 2019;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 169,
+                    "end": 181,
+                    "text": "Costa, 2019;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 182,
+                    "end": 194,
+                    "text": "Evans, 2020)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 575,
+                    "end": 587,
+                    "text": "(Dyer, 2020)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Public anxiety can lead to new public health problems. The WHO defines health as a good condition seen from physical, social and mental dimensions (World Health Organization, 1946) . Anxiety is considered as an unhealthy condition, which needs special attention, especially in the current outbreak of COVID-19. Based on the background, this study analyzed variables associated with the community psychosocial burden (anxiety level) during the COVID-19 pandemic in Indonesia.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 180,
+                    "text": "(World Health Organization, 1946)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The data collection was carried out by distributing an online survey to Indonesian citizens in 8 days (June 6th-13th, 2020). The final number of respondents was 8,031 respondents.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data source"
+        },
+        {
+            "text": "Psychosocial burden was determined based on anxiety level (Li et al., 2020; Moccia et al., 2020) . The anxiety level was measured from 5 aspects, such as economic, religious, educational, employment, and social relationship aspects. Each question in the questionnaire used a Likert scale. The anxiety level was measured by adding up scores of those five aspects. The results were categorized into low, middle, and high category. This study has some limitations as it does not validate and measure the accuracy of data based on certain standards.",
+            "cite_spans": [
+                {
+                    "start": 58,
+                    "end": 75,
+                    "text": "(Li et al., 2020;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 76,
+                    "end": 96,
+                    "text": "Moccia et al., 2020)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variables"
+        },
+        {
+            "text": "This study included 6 independent variables in the analysis, such as age group, gender, religion, marital status, education level, and employement. Age group was the respondent's last birth day categorized into 19, 20-29, 30-39, 40-49, and 50 years. While, gender was categorized into male and female. In terms of religion, the respondents were categorized into Moslem, Christian, Catholic, Hindu, and Buddist. Marital status were grouped into single, married, and divorced/widowed. Education level was the latest of education level, categorized into secondary and under, and higher education. Employement referred to the respondents' job. It was divided into unemployed, public servant/army/ police, private sector, entrepreneur, farmer/fisherman/labor, and housewife.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variables"
+        },
+        {
+            "text": "All dependent and independent variables were dichotomous variables. In the initial stage, the researchers performed Chi-Square bivariate tests to examine the relationship of dependent and independent variables. In the final stage, a multivariate multinomial logistic regression test was performed to determine factors associated with anxietylevel. All statistical analyses were carried out using SPSS 22 software.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "This study has received an ethical approval from the National Ethics Commission (No: RK.05/KEPK/STIK/VIK/2020). While, the respondents' identities were removed from the dataset. The respondents provided a written approval for their involvement in the study. Table 1 shows the composite distribution of psychosocial burden variables. Education and employement trigger higher anxiety level in the respondents than other aspects do.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 258,
+                    "end": 265,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Ethical approval"
+        },
+        {
+            "text": "The co-linearity test of the psychosocial burden variables is presented in Table 2 . The tolerance value of all variables was at > 0.10, and VIF value for all variables was at <10.00. These results show no symptoms of multicollinearity in the regression model. Table 3 shows the statistical description of respondents' characteristics. It can be seen that the respondents who experienced high anxiety level were dominated by those in the age group of 20-29 years and females. Table 3 informs that the Moslem respondents dominated all anxiety levels. The respondents who have been married dominantly experienced all anxiety levels. From the perspective of education level, those with higher education level were dominantly at all anxiety levels.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 82,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 261,
+                    "end": 268,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 476,
+                    "end": 483,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Moreover, the respondents who worked in a private sector or professional job had high anxiety level. Low and middle anxiety level was dominated by those who worked as public servants, army, or police. Table 4 displays the multinomial logistic regression of the psychosocial burden conducted using low anxiety level as a reference. Table 4 shows that male respondents were 0.544 times more likely to experience medium anxiety level than female respondents (OR 0.544; 95% CI 0.372-0.795). It means that males had a lower probability to experience the medium anxiety level than females.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 201,
+                    "end": 208,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 331,
+                    "end": 338,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Farmers, fishermen, or labors had the possibility of 1392586.887 times to be at the medium anxiety level compared to housewives (OR 1392586.887; 95% CI 824529.062-2352007.136). It indicates the respondents who worked as a farmer, fisherman, or labor had much higher chance of being at the medium anxiety level than a housewife.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "With respect to age, the respondents aged between 20-29 years were 4,330 times more likely to experience high anxiety level than those aged 50 (OR 4,330; 95% CI 2,061-9,093). While, those in the 30-39 age group were 3,802 times more likely to bet at high anxiety level than those in the 50 age group (OR 3,802; 95% CI 2,240-6,453). The respondents who were 40-49 years had 2,322 times more possibilities of experiencing high anxiety than those in the 50 age group (OR 2,322; 95% CI 1,402-3,846). It explains older people tend to have lower possibility of experiencing high anxiety.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Table 4 also illustrates that male respondents were 0.510 times more likely to experience high anxiety than females (OR 0.510; 95% CI 0.349-0.746). It indicates males had a lower likelihood of high anxiety than females.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Additionally, the respondents with secondary and lower education levels had 3,117 times more possibilities of high anxiety than those with high education level (OR 3,117; 95% CI 1, 904) . In other words, those with higher education level were less likely at the high anxiety level.",
+            "cite_spans": [
+                {
+                    "start": 181,
+                    "end": 185,
+                    "text": "904)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The respondents who worked as public servants, army, police were 0.120 times more likely to feel highly anxious compared to housewives (OR 0.120; 95% CI 0.016-0.884). It means some employement status, such as public servant, army, or police had a lower likelihood of experiencing high anxiety.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "This study has some limitations as it does not validate and measure the accuracy of data based on certain standards. However, in general, the Note: * P < 0.05; ** P < 0.01; *** P < 0.001.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "results of this study are in line with the previous research which found the severity of negative psychological impacts on psychiatric patients during the COVID-19 epidemic due to strict lockdown measures (Hao et al., 2020) . This study found that older ages tend to experience high anxiety level less frequently. In other words, younger age might overcome anxiety due to situations encountered during the pandemic. People with older age usually have experienced many events in their lives as they can learn from their past experience and adapt to new situations.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 223,
+                    "text": "(Hao et al., 2020)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Other studies also show maturity and age were hypothesized to be positively related to subjective well-being, i.e, having the ability to overcome and adapt to existing problems and situations (Wang, Pan, Wan, Tan, and Xu, 2020) . Another article also found that older people generally could interpret events in their lives better than those younger (Wang, Pan, Wan, Tan, Xu, et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 227,
+                    "text": "(Wang, Pan, Wan, Tan, and Xu, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 349,
+                    "end": 388,
+                    "text": "(Wang, Pan, Wan, Tan, Xu, et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Analyzed from gender, males had a lower probability to experience medium to high anxiety level than females. This study reveals that males could cope with stressful situations better during the pandemic than females. Identified from the aspects studied, only education and employement aspects could have more tendency to increase anxiety level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "These results reinforce another study, which found that males had more safe psychosocial condition (Kiely et al., 2019) . The While, female respondents were more likely to experience mental disorders in the form of depression and anxiety than male respondents.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 119,
+                    "text": "(Kiely et al., 2019)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As previously said, it was no surprise that education became the determinant of anxiety level. Someone with a high education level could access the right information that calm his psychological condition (Hurwitz et al., 2008) . A better education level can also make someone more careful and thoughtful about decision making from various perspectives (Tappe et al., 2010) .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 226,
+                    "text": "(Hurwitz et al., 2008)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 352,
+                    "end": 372,
+                    "text": "(Tappe et al., 2010)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Some studies in several countries, such as in America (Banks et al., 2019) , Lithuania (Kalediene and Petrauskiene, 2000) , and in the Netherlands (Clo\u00efn et al., 2011) informed the same findings. In general, some of the studies reported education level was directly proportional to indivdual's ability to respond to various situations in his life.",
+            "cite_spans": [
+                {
+                    "start": 54,
+                    "end": 74,
+                    "text": "(Banks et al., 2019)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 87,
+                    "end": 121,
+                    "text": "(Kalediene and Petrauskiene, 2000)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 147,
+                    "end": 167,
+                    "text": "(Clo\u00efn et al., 2011)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In another aspcet, employement is the other determinant of the community psychosocial burden during the COVID-19 pandemic. Farmers, fishermen, and factory workers who were involved in this study experienced quite high anxiety compared to other occupational groups. It may be due to job characteristics contrary to the existing health protocols applied, such as wearing masks, physical distancing, and avoiding crowds (Task Force for the Acceleration of Handling COVID-19 2020a). However, this study shows opposite finding to the previous research which found low anxiety in factory workers could be due to precautionary measures (Tan et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 629,
+                    "end": 647,
+                    "text": "(Tan et al., 2020)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Those employments also cannot be restricted since the respondents who worked in those sectors had to meet their family needs (Baker, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 138,
+                    "text": "(Baker, 2020)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While, other employments can be relatively modified and adjusted to the existing regulations (Kramer and Kramer, 2020) . Among others include private employees who can work from home by changing some details of assigned tasks. Besides, public services also encounter some adjustments, for instance automation in its processes. In other words, people do not need to be present when they are in needs of the services.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 118,
+                    "text": "(Kramer and Kramer, 2020)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The anxiety level can be reduced by using cognitive behavior therapy (Ho et al., 2020) to avoid more assigned serious health problems.",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 86,
+                    "text": "(Ho et al., 2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study concluded that four variables affected the community psychosocial burden during the COVID-19 pandemic in Indonesia. These include age, gender, education, and employment. The results of this study are expected to encourage the Indonesian government to develop mental health programs during the COVID-19 pandemic. Note: * P < 0.05; ** P < 0.01; *** P < 0.001.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Health beliefs of patients with coronary heart disease toward secondary prevention: the health beliefs model as a theoretical framework",
+            "authors": [
+                {
+                    "first": "Hassan",
+                    "middle": [],
+                    "last": "Athbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Abdullah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Huda",
+                    "middle": [],
+                    "last": "Hassan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Indian J. Pub. Health Res. Dev",
+            "volume": "10",
+            "issn": "1",
+            "pages": "272--278",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Who cannot work from home? Characterizing occupations facing increased risk during the COVID-19 pandemic using 2018 BLS data",
+            "authors": [
+                {
+                    "first": "Marissa",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Education, decision making, and economic rationality",
+            "authors": [
+                {
+                    "first": "James",
+                    "middle": [],
+                    "last": "Banks",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Perez-Arce",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Francisco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Leandro",
+                    "middle": [],
+                    "last": "Carvalho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rev. Econ. Stat",
+            "volume": "101",
+            "issn": "3",
+            "pages": "428--441",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 pandemic: stress experience of healthcare workers: a short current review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bohlken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatr. Prax",
+            "volume": "47",
+            "issn": "4",
+            "pages": "190--197",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A matter of culture and cost? A comparison of the employment decisions made by mothers with a lower, intermediate and higher level of education in The Netherlands",
+            "authors": [
+                {
+                    "first": "Mari\u20ac",
+                    "middle": [],
+                    "last": "Clo\u00efn",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Keuzenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Saskia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Janneke",
+                    "middle": [],
+                    "last": "Plantenga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Work. Employ. Soc",
+            "volume": "25",
+            "issn": "3",
+            "pages": "468--486",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Health belief model for coronavirus infection risk determinants",
+            "authors": [
+                {
+                    "first": "Marcelo",
+                    "middle": [
+                        "Fernandes"
+                    ],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Da",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rev. Saude Publica",
+            "volume": "54",
+            "issn": "47",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Trump claims public health warnings on covid-19 are a conspiracy against him",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ (Clin. Res. Ed.). Clini",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Questions: COVID-19 mortality, conspiracy theories, and the mysterious lack of sick children: 'flu has a mortality of 0.1% -this has a mortality 10 times that",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Hospital Infection Control and Prevention",
+            "volume": "47",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Do psychiatric patients experience more psychiatric symptoms during COVID-19 pandemic and lockdown? A case-control study with service and research implications for immunopsychiatry",
+            "authors": [
+                {
+                    "first": "Fengyi",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav. Immun",
+            "volume": "87",
+            "issn": "",
+            "pages": "100--106",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Mental health strategies to combat the psychological impact of COVID-19 beyond paranoia and panic",
+            "authors": [
+                {
+                    "first": "Cyrus",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cornelia",
+                    "middle": [],
+                    "last": "Chee",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Roger",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann. Acad. Med. Singapore",
+            "volume": "49",
+            "issn": "3",
+            "pages": "155--160",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Narrative research in health and illness",
+            "authors": [
+                {
+                    "first": "Brian",
+                    "middle": [],
+                    "last": "Hurwitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Greenhalgh",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Trisha",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Skultans",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vieda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Narrative Res. Health Illness",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "East Java Needs \"Public Health\" Police (Jawa Timur Perlu Polisi",
+            "authors": [
+                {
+                    "first": "Mursyidul",
+                    "middle": [],
+                    "last": "Ibad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kesehatan Masyarakat\"). Surabaya",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Inequalities in life expectancy in Lithuania by level of education",
+            "authors": [
+                {
+                    "first": "Ramune",
+                    "middle": [],
+                    "last": "Kalediene",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Petrauskiene",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jadvyga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Scand. J. Publ. Health",
+            "volume": "28",
+            "issn": "1",
+            "pages": "4--9",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Gender, mental health and ageing",
+            "authors": [
+                {
+                    "first": "Kim",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kiely",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Brooke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julie",
+                    "middle": [],
+                    "last": "Byles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Maturitas",
+            "volume": "129",
+            "issn": "",
+            "pages": "76--84",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The potential impact of the covid-19 pandemic on occupational status, work from home, and occupational mobility",
+            "authors": [
+                {
+                    "first": "Amit",
+                    "middle": [],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Karen",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Kramer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Vocat. Behav",
+            "volume": "119",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Evaluation of the Implementation of Large Scale Social",
+            "authors": [
+                {
+                    "first": "Agung",
+                    "middle": [],
+                    "last": "Laksono",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Dwi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The psychological impacts of a COVID-19 outbreak on college students in China: a longitudinal study",
+            "authors": [
+                {
+                    "first": "Hong",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dorisy",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wah",
+                    "middle": [],
+                    "last": "Yim",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Environ. Res. Publ. Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The emotional impact of coronavirus 2019-NCoV (new coronavirus disease)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K T"
+                    ],
+                    "last": "Lima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatr. Res",
+            "volume": "287",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Affective temperament, attachment style, and the psychological impact of the COVID-19 outbreak: an early report on the Italian general population",
+            "authors": [
+                {
+                    "first": "Lorenzo",
+                    "middle": [],
+                    "last": "Moccia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav. Immun",
+            "volume": "87",
+            "issn": "",
+            "pages": "75--79",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "COVID-19 and individuals with mental illness in psychiatric facilities",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mukhtar",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatr. Res",
+            "volume": "289",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "COVID-19 and mental health: a review of the existing literature",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rajkumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian J. Psychiatr",
+            "volume": "52",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Is returning to work during the COVID-19 pandemic stressful? A study on immediate mental health status and psychoneuroimmunity prevention measures of Chinese workforce",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sher",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wanqiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav. Immun",
+            "volume": "70",
+            "issn": "",
+            "pages": "84--92",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Health Promotion Programes: from Theory to Practice Promoting Health in Schools and Universities. Task Force for the Acceleration of Handling COVID-19, 2020a. COVID-19 Health Handling Protocol (Protokol Kesehatan Penanganan COVID-19). Indonesia. Task Force for the Acceleration of Handling COVID-19, 2020b. Hoax Buster. Jakarta. the Minister of Health of the Republic of Indonesia, 2020. Regulation of the Minister of Health of the Republic of Indonesia Number 9 of 2020 Concerning Large-Scale Social Limitation Guidelines in the Framework of Accelerating Handling of Corona Virus Disease",
+            "authors": [
+                {
+                    "first": "Marlene",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tappe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Diane",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Allensworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jim",
+                    "middle": [],
+                    "last": "Grizzell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A longitudinal study on the mental health of general population during the COVID-19 epidemic in China",
+            "authors": [
+                {
+                    "first": "Cuiyan",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Riyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xiaoyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yilin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Linkang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav. Immun",
+            "volume": "87",
+            "issn": "",
+            "pages": "40--48",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Immediate psychological responses and associated factors during the initial stage of the 2019 coronavirus disease (COVID-19) epidemic among the general population in China",
+            "authors": [
+                {
+                    "first": "Cuiyan",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Riyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xiaoyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yilin",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Linkang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Environ. Res. Publ. Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Preamble to the Constitution of WHO",
+            "authors": [],
+            "year": 1946,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "E. Nugraheni: Conceived and designed the experiments. R. A. P. Geno: Performed the experiments. A. D. Laksono, H. Megatsari: Analyzed and interpreted the data; Wrote the paper. M. Ibad: Analyzed and interpreted the data. K. P. Sarweni, Y. T. Herwanto: Contributed reagents, materials, analysis tools or data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The composite distribution of the community psychosocial burden during the COVID-19 pandemic in Indonesia, 2020 (n \u00bc 8,031).Note: 1 \u00bc not significantly worried; 2 \u00bc not worried; 3 \u00bc moderately worried; 4 \u00bc worried; 5 \u00bc very worried.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The results of the co-linearity test of the community psychosocial burden during the COVID-19 pandemic period in Indonesia, 2020 (n \u00bc 8,031).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Statistical description of respondents' characteristics (n \u00bc 8,031).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The result of multinomial logistic regression of community psychosocial burden during COVID-19 pandemic in Indonesia, 2020 (n \u00bc 8,031).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The author would like to thank all the The Indonesian Public Health Union and Airlangga Surabaya Alumni Association who gave permission to use the data from the online survey about psychosocial burden.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding statement"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interest statement"
+        },
+        {
+            "text": "No additional information is available for this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Additional information"
+        }
+    ]
+}

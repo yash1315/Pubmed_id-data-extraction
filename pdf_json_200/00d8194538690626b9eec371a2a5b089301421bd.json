@@ -1,0 +1,173 @@
+{
+    "paper_id": "00d8194538690626b9eec371a2a5b089301421bd",
+    "metadata": {
+        "title": "SUPPLEMENTAL MATERIAL",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "\u2022 Acute respiratory distress syndrome was defined by moderate to severe hypoxemia, PaO2:FiO2 < 200 (ratio of partial pressure of arterial oxygenation to fractionated inspired oxygenation) and bilateral pulmonary infiltrates on chest imaging unexplained by heart failure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Definition Details"
+        },
+        {
+            "text": "\u2022 Acute kidney injury was identified by a rise in serum creatinine of \u2265 0.3 mg/dl within 48 hours; or \u22651.5 times the baseline value within 7 days.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Definition Details"
+        },
+        {
+            "text": "\u2022 Septic shock was defined according to the 3 rd international consensus definitions for sepsis and septic shock guidelines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Definition Details"
+        },
+        {
+            "text": "Covid-19 patients with cardiac injury (defined by elevated Troponin levels) have a higher incidence of adverse outcomes, including requiring mechanical ventilation and death. Covid-19 patients have reportedly high rates of cardiac arrhythmias (though poorly defined in most studies), ranging from 16.7% to 30.3%, with the highest rates being reported in critically ill patients, ranging from 44.4% to 74.6% (Wang et al). Accordingly, we hypothesized that Covid-19 patients that die will have a substantially higher incidence of acute malignant cardiac arrhythmias (AMCAs = VT/VF or AV block) than Covid-19 patients that survive to discharge.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Considerations"
+        },
+        {
+            "text": "For the power calculation, the incidence of AMCAs in the Mortality group is estimated to be 17%, based on Guo et al who reported a 17.3% rate of \"malignant arrhythmia\" (defined as >30 sec VT or VF) in patients with abnormal Troponin levels. Similarly, they reported a 1.5% rate of \"malignant arrhythmia\" in patients with normal troponin levels; accordingly, the estimated incidence of AMCAs in the discharged group is 3%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Considerations"
+        },
+        {
+            "text": "In this retrospective/prospective study, consecutive patients were enrolled. We did not know what the relative rate of accrual between the two groups would be. Thus, if we required an equal number of patients between groups, we were concerned that a strategy of enrolling that target number in one group and thereafter only accumulating patients in the other group, might introduce a bias in enrollment as treatment strategies varied over time. Accordingly, the below sample size curve was constructed to determine the requisite sample size, yet accommodating a number of potential Discharged:Mortality accrual ratios. The below power calculations are based on an 80% chance of detecting, as significant at the 5% level, an increase in the primary outcome from 3% in the Discharged group to 17% in the Mortality group. For example, a sufficient sample size would be 46 patients in the Mortality group, and * Mutltivariable binary logistic regression analysis was performed to calculate the odds ratio to estimate the association of risk between mortality and various covariates. The dependent variable in the model was mortality. Those variables which were significant on univariable analysis and had \u226510 events were included in the multivariable model. All covariates were considered as categorical variables. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Considerations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--1069",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Cardiovascular Implications of Fatal Outcomes of Patients with Coronavirus Disease 2019 (COVID-19)",
+            "authors": [],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacardio.2020.1017"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "009 \u2020 Based on peak Troponin I value.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Cardiac Arrhythmias. Shown are example of the onset of ventricular fibrillation (A) and atrio-ventricular block in the setting of an acute myocardial infarction (B). For the latter, the p waves are indicated by the asterisks, and the arrows denote the QRS complexes with ST elevation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Telemetry vs No Telemetry Patients that Died: Selected Demographics, Clinical and Laboratory Data & Outcomes All values are expressed as median (IQR), unless otherwise specified. * Values are upon admission, unless otherwise specified. \u2020 Poisson Regression Analysis shows a HR 13.6, 95% CI (1.7 -107.9), p=0.01 Table S2: Descriptive Analysis of Acute Malignant Cardiac Events, and Relationship to Death Clinical interpretation as to whether this acute cardiac event was a primary causative factor in death?",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Descriptive Analysis of Patients with AV block",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Predictors of Mortality -Univariable Analysis",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Predictors of Mortality -Multivariable Binary Logistic Regression Analysis *",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "12-Lead Electrocardiographic and Telemetric Monitoring Sinus tachycardia -no.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

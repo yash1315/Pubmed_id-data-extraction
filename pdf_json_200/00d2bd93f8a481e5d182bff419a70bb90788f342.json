@@ -1,0 +1,3647 @@
+{
+    "paper_id": "00d2bd93f8a481e5d182bff419a70bb90788f342",
+    "metadata": {
+        "title": "Comparative study of machine learning methods for COVID-19 transmission forecasting",
+        "authors": [
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Harrou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [],
+                "last": "Zeroual",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "Mazen"
+                ],
+                "last": "Hittawe",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "M"
+                ],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Within the recent pandemic, scientists and clinicians are engaged in seeking new technology to stop or slow down the COVID-19 pandemic. The benefit of machine learning, as an essential aspect of artificial intelligence, on past epidemics offers a new line to tackle the novel Coronavirus outbreak. Accurate short-term forecasting of COVID-19 spread plays an essential role in improving the management of the overcrowding problem in hospitals and enables appropriate optimization of the available resources (i.e., materials and staff). This paper presents a comparative study of machine learning methods for COVID-19 transmission forecasting. We investigated the performances of deep learning methods, including the hybrid convolutional neural networks-Long short-term memory (LSTM-CNN), the hybrid gated recurrent unit-convolutional neural networks (GAN-GRU), GAN, CNN, LSTM, and Restricted Boltzmann Machine (RBM), as well as baseline machine learning methods, namely logistic regression (LR) and support vector regression (SVR). The employment of hybrid models (i.e., LSTM-CNN and GAN-GRU) is expected to eventually improve the forecasting accuracy of COVID-19 future trends. The performance of the investigated deep learning and machine learning models was tested using confirmed and recovered COVID-19 cases time-series data from seven impacted countries: Brazil, France, India, Mexico, Russia, Saudi Arabia, and the US. The results reveal that hybrid deep learning models can efficiently forecast COVID-19 cases. Also, results confirmed the superior performance of deep learning models compared to the two considered baseline machine learning models. Furthermore, results showed that LSTM-CNN achieved improved performances with an averaged mean absolute percentage error of 3.718%, among others.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Humanity in the World has experienced various disease outbreaks in the past. World Health Organization (WHO) and numerous national authorities worldwide battle facing these pandemics to date. The coronavirus COVID-19 pandemic that has initially been identified in Wuhan, China, in December 2019 remains a significant problem facing our modern world [1] . As reported by the World Health Organization, 213 countries and territories worldwide are contaminated with the COVID-19. The COVID-19 virus can spread in diverse ways, such as direct body contact, infected money, air from contaminated persons when coughing, or sneezing [2] . The incubation period of COVID-19 of a minimum of fourteen days plays a crucial in its propagation [3, 4] . Thus, the accurate forecast of recovered and contaminated COVID-19 cases is indispensable in managing the outbreak and preparing efficient procedures to slow down the spread of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 349,
+                    "end": 352,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 626,
+                    "end": 629,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 731,
+                    "end": 734,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 735,
+                    "end": 737,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 pandemic has had a serious effect on population health and prosperity. Research efforts of COVID-19 forecasting become critical; in particular, biomedical informatics is major and central for each research efforts to deliver healthcare for COVID-19 patients. With recent advancements in computer and software technologies, artificial intelligence (AI) becomes more prevalent in healthcare systems to detect disease and perform clinical diagnosis. Moreover, this recent outbreak shows the necessity and possibility of using AI for outbreaks prediction. In other words, AI tools possess powerful feature extraction capabilities, which enables extracting relevant features from rapidly evolving data to support public health experts in decision-making. One of the key features of AI is its ability to rapidly extract pertinent information from multi-sources including health reports, social media, news, and media. In past outbreaks (e.g., Severe Acute Respiratory Syndrome (SARS) in China in 2003), limited data were available [5] . With easy access to different data sources, AI tools have become even more necessary in healthcare systems.",
+            "cite_spans": [
+                {
+                    "start": 1034,
+                    "end": 1037,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Note that artificial intelligence has already been employed in epidemiology. For example, the HealthMap group, founded by software developers and epidemiologists at Boston Children's Hospital founded in 2006, focuses on using online informal sources to monitor disease outbreaks and real-time surveillance of emerging public health threats [6] . HealthMap group considered monitoring the informal data sources in the COVID-19 outbreak. Also, there is Google Flu, which used search engine queries for improving the track of the flu epidemic. Remarkably, BlueDot, a Canadian software company, has signaled an alert to its customers about the COVID-19 outbreak on December 31 [5] . Hence, this company specializing in infectious disease epidemiology indicated an early detection nine days before the first WHO warning on January 9, 2020 [7] .",
+            "cite_spans": [
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 673,
+                    "end": 676,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 834,
+                    "end": 837,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This software company has also succeeded in predicting the transmission of the Zika virus from Brazil [8] .",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 105,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Hence, advances in AI methods to early detect epidemiologic risks will be necessary for enhancing the prediction and detection of future health risks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Over the last decay, many advances have been made in AI methods. Machine learning and, in particular, deep learning is considered as an essential aspect of artificial intelligence that can automatically extract relevant features from complex data. These aspects are represented as a promising technology used by various healthcare providers and researchers [9, 10, 11, 12, 13, 14] . Particularly, deep learning technology has achieved progress in multiple fields, such as computer vision, robotics, medical imaging, chemistry, and biology [15, 16, 17, 18] . The deep learning-driven methods benefit other machine learning methods because they do not rely on feature engineering.",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 360,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 365,
+                    "end": 368,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 369,
+                    "end": 372,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 373,
+                    "end": 376,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 377,
+                    "end": 380,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 539,
+                    "end": 543,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 544,
+                    "end": 547,
+                    "text": "16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 548,
+                    "end": 551,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 552,
+                    "end": 555,
+                    "text": "18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The ongoing development in machine learning and deep learning has significantly enhanced healthcare experts. Recently, COVID-19 has received remarkable consideration from the research community, the epidemiological experts, and local authorities [19, 20, 15] . Various studies have been reported in the literature for detecting and diagnosing COVID-19 diseases using X-ray imagery [21, 22, 23, 24, 25, 26] . In [1] , COVID-19 detection is addressed as a classification problem involving three classes: pneumonia, COVID-19 affected cases, and normal cases based on X-ray imagery. To this end, a support vector machine (SVM) is applied to the extracted features by CNN models (MobileNetV2 and SqueezeNet). However, the detection is performed in a supervised way, which demands data labeling. In [22] , Goel et al. considered an optimized CNN (called OptCoNet) to automatically diagnosing of COVID-19 based on chest X-ray images. The Grey Wolf Optimizer has been used to optimize the hyperparameters of the CNN model during the training phase. They applied the OptCoNet approach for discriminating normal from pneumonia patients and showed satisfying results. In [25] , Turkoglu Muammer proposed an expert-designed system for COVID-19 diagnosis based on X-ray images. Specifically, a pre-trained CNN-based AlexNet model has been used as a features extractor.",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 255,
+                    "end": 258,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 381,
+                    "end": 385,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 386,
+                    "end": 389,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 390,
+                    "end": 393,
+                    "text": "23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 394,
+                    "end": 397,
+                    "text": "24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 793,
+                    "end": 797,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1160,
+                    "end": 1164,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Then, the SVM algorithm is applied to the extracted features to discriminate between healthy, COVID-19, and Pneumonia patients. This approach showed high classification accuracy of 99.18%. Further, in [27] , Zebin and Rezvy applied three pre-trained convolutional backbones (ResNet50, VGG-16, and EfficientNetB0 pre-trained on ImageNet dataset) to detect COVID-19 and related infection based on chest X-ray images.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 274,
+                    "end": 311,
+                    "text": "(ResNet50, VGG-16, and EfficientNetB0",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Also, a generative adversarial framework is trained for the generation and augmentation of the minority COVID-19 class. It has been reported that even with a small number of images in the COVID-19 class, good discrimination performance has been achieved by these pre-trained models. The method in [28] applied a deep CNN model called Decompose, Transfer, and Compose (DeTraC) to classify COVID-19 chest X-ray images. They showed that DeTraC could handle irregularities in the image dataset and detect COVID-19 cases.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 301,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "For understanding and managing this epidemic, numerous studies in the literature focused on modeling, predicting, and forecasting COVID-19 spread based on the recorded COVID-19 time series data [29] . In [30] , Sarkar et al. proposed a mathematical model called SARII q S q to model and forecast the transmission dynamics of COVID-19. This model is based on monitoring the dynamics of six behaviors named susceptible (S), asymptomatic (A), recovered (R), infected (I), isolated infected (Iq), and quarantined susceptible (Sq).",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is an extended version of the traditional SEIR (Susceptible, Exposed, Infectious, Removed) model. In [31] , Abbasi et al. presented an alternative version of the SEIR model called SQEIAR that considers Quarantined individuals (Q) and Asymptomatic (A) parameters to describe the COVID-19 epidemical dynamics.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 111,
+                    "end": 134,
+                    "text": "Abbasi et al. presented",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The method in [32] combines the benefits of the Ensemble of Kalman filter and the SIR (Susceptible, Infected, Recovered) model for modeling COVID-19 transmission. This coupled approach enables estimating the unknown transmission rates of the COVID-19 to reconstruct the basic reproduction number R 0 . The forecasting performance of this approach has been verified based on real data from March 6 to May 17, 2020, of the current COVID-19 pandemic outbreak in Cameroon. In [33] , Ribeiro et al. applied regression models for forecasting COVID-19 cases in Brazil. Specifically, they considered ARIMA, cubist regression, random forest, ridge regression, SVR, and stacking-ensemble learning for one, three, and six-step ahead forecasting.",
+            "cite_spans": [
+                {
+                    "start": 14,
+                    "end": 18,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "They showed that the SVM regression and stacking-ensemble learning achieved better forecasting than the other models. In [34] , SVR with different nonlinearity structures is used to predict COVID-19 cases. It has been shown that the SVR with Gaussian kernel presented better prediction compared to SVR with other Kernel functions. In [35] , for the global forecast of the COVID-19, a nonlinear machine learning approach is coupled with partial derivative regression to build an epidemiological prediction method. For more computation efficiency and better dataset parameters, the Progressive Partial Derivative Linear Regression is used.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 125,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Recently deep learning methods have gained particular attention in time-series modeling and analysis because of their outstanding generalization capability and superior nonlinear approximation [36, 37] . Deep learning models can be obtained by concatenating several layers into the neural network structures [38] .",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 197,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 198,
+                    "end": 201,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 308,
+                    "end": 312,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The main feature of deep learning models consists of their capacity to automatically extracting relevant information from large data [39] . They have attracted attention in the machine-learning community and investigated in a wide range of applications [38, 40, 41, 11] . For instance, in [42] , an long short-term memory (LSTM) model is applied to forecast new confirmed cases of COVID-19 in Canadian. They used data from January 22 to March 31, 2020. Similarly, in [43] , an improved LSTM model has been employed to predict the epidemic trends of COVID-19 in Russia, Peru, and Iran. In [44] , support vector regression (SVR), LSTM, bidirectional LSTM (BiLSTM), and GRU are employed to forecast COVID-19 time-series data in ten countries most affected by COVID-19. Results reveal the superior performance of the BiLSTM based on COVID-19 data available until June 27, 2020.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[38,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "40,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 588,
+                    "end": 592,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The deep learning technology has realized advancement in different areas, such as computer vision [45, 46] , natural language processing [47] , speech recognition [48] , renewable energy forecasting [13] , anomaly detection [49, 11, 50] , and reinforcement learning [51] . This paper is aimed at presenting a comparative study of machine learning-driven methods for COVID-19 transmission forecasting. Notably, this study investigates the efficiency of deep learning methods to forecast recovered and confirmed COVID-19 time-series and assess their performance compared to the traditional forecasting methods. Essentially, six deep learning models, including the hybrid convolutional neural networks-Long short-term memory (CNN-LSTM), the hybrid gated recurrent unit-convolutional neural networks (GAN-GRU), GAN, CNN, LSTM, and Restricted Boltzmann Machine (RBM), are introduced and compared to the base-line methods, namely logistic regression (LR) and support vector regression (SVR), for forecasting confirmed and recovered COVID-19 cases time-series data. Here, the employment of hybrid models (i.e., LSTM-CNN and GAN-GRU) is expected to eventually improve the forecasting accuracy of COVID-19 future trends. For instance, in CNN-LSTM, this combination aims to integrate the capabilities of the LSTM in modeling time dependencies and the good ability of CNN in extracting features from complex data. As far as we know, this is the first time these two hybrid models were investigated to enhance the forecasting of COVID-19 time-series data. Confirmed and recovered COVID-19 cases time-series data from seven impacted countries, namely Brazil, France, India, Mexico, Russia, Saudi Arabia, and the US, are used to compare and verify the performance of the considered deep learning methods. The six deep learning methods and two commonly used machine learning methods, namely LR and SVR, were applied to daily recovered and confirmed COVID-19 time-series datasets from January 22nd, 2020, to September 6th, 2020.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "[45,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[49,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 229,
+                    "end": 232,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 233,
+                    "end": 236,
+                    "text": "50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 266,
+                    "end": 270,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Measurements of effectiveness including coefficient of determination (R2), Root Mean Square Error (RMSE), mean absolute error (MAE), Mean Squared Logarithmic Error (MLSE), and explained variance (EV) were adopted to assess the forecasting quality. Results confirmed the superior performance of deep learning models compared to the two considered shallow machine learning models, namely logistic regression and support vector regression. The results highlight that the hybrid LSTM-CNN model reaches the best forecasting performance, followed by the hybrid GRU-GAN model. Also, it has been shown that the considered hybrid models outperform the other considered non-hybrid models. Furthermore, this study has demonstrated that time-series modeling and forecasting are not restricted to only recurrent models like LSTM and GRU. Still, it can be extended to other generative composite models, such as GAN-DNN and GAN-GRU, or standalone models like RBM that showed a good forecasting ability with low computation cost and less number of parameters compared to the other considered models. Moreover, we showed that deep learning models provided satisfying forecasting results even with a relatively small amount of data. Thus, these methods can be extended to deal with different communicable diseases, such as SARS [52] , EBOLA [53] , HIV [54, 55] , and COVID-19, and non-communicable diseases including Cancer [56] , Diabetic [57] , and Heart disease [58] outbreak. In the next section, we provide a brief review of the essential features of DBN, RBM, CNN-GRU, and GAN-RNN models. In the third section, we present how they can be employed in forecasting. The fourth section offers the involved multivariate patient flow datasets and discusses the models forecasting results and comparisons. Lastly, in the fifth section, we conclude this study.",
+            "cite_spans": [
+                {
+                    "start": 1310,
+                    "end": 1314,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1323,
+                    "end": 1327,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1334,
+                    "end": 1338,
+                    "text": "[54,",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1339,
+                    "end": 1342,
+                    "text": "55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1406,
+                    "end": 1410,
+                    "text": "[56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1422,
+                    "end": 1426,
+                    "text": "[57]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1447,
+                    "end": 1451,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Deep learning techniques, which could automatically learn relevant information from time-series data, are considered in this study to forecast confirmed and recovered COVID-19 time-series data. This section briefly describes the considered deep learning models, namely LSTM [59] , CNN [60, 61] , RBM [62] , Generative adversarial networks based on deep fully connected neural network (GAN-DNN) [63] , GAN-GRU [64, 63] , and LSTM-CNN. Table 1 offers the pros and cons of the five benchmark deep learning architectures.",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[60,",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 394,
+                    "end": 398,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[64,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 414,
+                    "end": 417,
+                    "text": "63]",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 434,
+                    "end": 441,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Methodology"
+        },
+        {
+            "text": "A hybrid deep learning architecture called LSTM-CNN has been introduced to merges the benefits of the LSTM, which learn and model temporal dependencies embedded in the data sequence, and the CNN model, which cam well process high-dimensional data. The LSTM is equipped with recurrent connections and a gating mechanism that help to memorize features. Table 2 lists the LSTM gates, memory cell, and hidden state equations. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 358,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The hybrid LSTM-CNN model"
+        },
+        {
+            "text": "In this study, we construct six deep learning models: non-hybrid models (i.e., LSTM, CNN, and RBM) and three hybrid models (i.e., GAN-DNN, and GAN-GRU, and LSTM-CNN). The COVID-19 time-series data is first normalized by min-max normalization within the interval [0, 1]. It should be noted that after the COVID-19 time-series forecasting using testing data, this normalization is reversed so that the forecasted ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Forecasting model"
+        },
+        {
+            "text": "Hidden State Ht = Ot tanh(Ct). data is comparable to the original testing time-series data. Also, the normalized data is preprocessed before the application of the deep learning models. Specifically, to train the six considered models, data preparation is performed, the normalized time series is transformed into a set of sequences X of fixed length using the window sliding methods, where for each sequence x \u2208 X is mapped y that represent the next value of the sequence x to form the mapping set of the subsequent values Y. The general framework of the proposed deep learning-driven forecasting strategy is depicted in Figure 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 622,
+                    "end": 630,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Forecasting model"
+        },
+        {
+            "text": "After normalizing and reshaping the COVID-19 time-series data, we will train the deep learning models. The training stage aims to learn complex features and construct the final forecasting model. It is worth pointing out that every model has its particularity regarding the learning approach, supervised or unsupervised.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Forecasting model"
+        },
+        {
+            "text": "It is worth noticing that four deep learning models are trained in an unsupervised way (i.e., LSTM, RBM, GAN-DNN, and GAN-GRU ), and two models (i.e., CNN and LSTM-CNN) are trained in a supervised manner. For instance, GANs and RBM are generative models trained only with the historical data X . At first, these two models try to learn the probability distribution without the need for Y, and later a finetuning procedure is applied through supervised training to optimize the models' parameters via learning the mapping X \u21d2 Y. During the fine-tuning step, a predictor layer with a single output to perform the The performance of the considered deep learning-driven methods is compared with traditional forecasting methods, SVR and LR, to validate their efficiency. The SVR and LR are deployed on a rolling window where the previous five days records are taken as covariates to forecast counts of one day ahead. Indeed, SVR showed good performance in various time series forecasting problems [65, 66, 67] . This is mainly because of its capacity to feel with the overfitting problem using kernel tricks and without the need for the specification of data distribution [68] . LR, which are usually incorporated into machine learning and deep learning models, can be viewed as a shallow neural network composed of one layer with a logistic function also called sigmoid formulated as f (x) = 1 a+e \u2212x [69] . LR has also been used in forecasting time-series data [69] . Here, a window sliding procedure is applied to reshape time-series data used by the SVR and LR models. Of course, SVR and LR are trained to learn to map a given sequence to its next value in the training phase, and then they are applied to unseen data to predict future observation (forecasted data).",
+            "cite_spans": [
+                {
+                    "start": 992,
+                    "end": 996,
+                    "text": "[65,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 997,
+                    "end": 1000,
+                    "text": "66,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1001,
+                    "end": 1004,
+                    "text": "67]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1167,
+                    "end": 1171,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1397,
+                    "end": 1401,
+                    "text": "[69]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 1458,
+                    "end": 1462,
+                    "text": "[69]",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Forecasting model"
+        },
+        {
+            "text": "For performance comparisons, the following indexes have been adopted to quantify the forecasting of ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Evaluation metrics"
+        },
+        {
+            "text": "With y t is the number of Confirmed or Recovered patients,\u0177 t is its corresponding forecasted values, and n is the number of data points.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Metric Definition"
+        },
+        {
+            "text": "In this study, daily confirmed and recovered COVID-19 cases time series data of seven different countries Before applying the deep learning-based forecasting methods, the COVID-19 time series data displayed in Figure 4 are first normalized via min-max normalization within the interval [0, 1], and the used for constructing the deep learning models.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 210,
+                    "end": 218,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Data description"
+        },
+        {
+            "text": "where x min and x max denotes the minimum and maximum of the raw data, respectively. After the forecasting process, we allied a reverse operation so that the forecasted data correspond to the original confirmed and recovered COVID-19 time-series data. The normalized time series data (confirmed and recovered) are depicted in Figure 5 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 326,
+                    "end": 334,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Data description"
+        },
+        {
+            "text": "This study focus on the univariate daily forecasting of the number of confirmed and recovered COVID-19 cases from the seven considered countries (i.e., Brazil, France, India, Mexico, Russia, Saudi Arabia, and the US). Forecast models were developed for each time series. To do so, we split the normalized data into training and testing sub-datasets. The training data from January 22, 2020, to September 6, 2020, The methods in this study provide one-step-ahead forecasting. The observation window is five, i.e., we are using the previous five days to predict the next day. The window size that maximizes the forecasting accuracy is chosen during the training phase using the grid search approach. For all deep learning models, we used the cross-entropy as loss function and Rmsprop as an optimizer in training. Table 4 lists the models'",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 812,
+                    "end": 819,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "hyper-parameters used in the training stage. Reliable daily forecasting of the number of recovered and confirmed COVID-19 data offers pertinent information to assist medium-term planning(e.g., the assignment of rotas). This enables the hospital managers to improve decisions on staff that need to be contacted on call and getting prior knowledge on situational awareness. Overall, accurate forecasting is required for providing support for decisions. Now, we will explore and investigate the performance when applied to a relatively small-sized dataset. The testing data consists of confirmed and recovered COVID-19 cases recorded from June 06, 2020, to September 06, 2020, in the seven considered countries. Forecasting results from the trained deep learning models using testing data are depicted in Figure 6 . The shaded zone represents the testing period. From Figure 6 , we observe that these models are following the trend of recorded and confirmed COVID-19cases from the starting of the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 802,
+                    "end": 810,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF9"
+                },
+                {
+                    "start": 865,
+                    "end": 873,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF9"
+                }
+            ],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "After forecasting the COVID-19 time series using each trained model, to judge the quality of each model quantitatively, we calculate the evaluation metrics (R2, EV, RMSE, MAE, MAPE, and MSLE) from the testing datasets for the six deep learning models and two baseline machine learning models (i.e., LR and SVR). The obtained forecasting results are tabulated in Tables 6. Results in Table 6 show that the quality of the forecast from the six trained models is promising. Table 6 indicates that deep learning models exhibited improved forecasting performance compared to the shallow methods (LR and SVR). We observe that the MAPE values of SVR and LR (data recorded from India and Brazil) are larger than 100%, which means that the forecasting errors are much greater than the actual values [70, 71] . It is interesting to see better outcomes from the three hybrid models (GAN-DNN, GAN (Table 6 ). In comparison, the non-hybrid models can achieve acceptable outcomes for all time-series. Again, the LSTM-CNN model keeps the best score in terms of the evaluation metrics and dominates the other models. Table 7 presents the averaged statistical metric per model to evaluate the overall performance of the considered models. The forecasting results support that the hybrid models outperform the considered standalone models. The LSTM-CNN is dominating the other models by achieving an MAPE of 3.718%. It is followed by GAN-GRU and GAN-DNN with MAPE values of 5.254% and 11.105%, respectively.",
+            "cite_spans": [
+                {
+                    "start": 790,
+                    "end": 794,
+                    "text": "[70,",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 795,
+                    "end": 798,
+                    "text": "71]",
+                    "ref_id": "BIBREF70"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 383,
+                    "end": 390,
+                    "text": "Table 6",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 471,
+                    "end": 478,
+                    "text": "Table 6",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 871,
+                    "end": 884,
+                    "text": "(GAN-DNN, GAN",
+                    "ref_id": null
+                },
+                {
+                    "start": 885,
+                    "end": 893,
+                    "text": "(Table 6",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 1101,
+                    "end": 1108,
+                    "text": "Table 7",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "In summary, this study highlights the highest forecasting accuracy of the hybrid models achieved by joining the two models in a single architecture, even with small-sized data. The results obtained base on hybrid and composite models are better than those obtained with the standalone models. Also, it can be Furthermore, this study has demonstrated that time-series modeling and forecasting are not restricted to only recurrent models like LSTM and GRU. Still, it can be extended to other generative composite models, such as GAN-DNN and GAN-GRU, or standalone models like RBM that shown a good forecasting ability with low computation cost and less number of parameters compared to the other considered models.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "Moreover, we showed that deep learning models provided satisfying forecasting results even with a relatively small amount of data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "Deep learning models have outperformed the baseline approaches (i.e., LR and SVR). Because deep learning models are efficient to model long temporal dependencies embed in time-series data (e.g., RNNs, LSTM-CNN, and GAN-GRU). The RNN-based models can capture short and long temporal dependencies in time-series data using memory and gate mechanisms. Also, RNN considers the past data to generate its output. This structure makes it appropriate to model time dependency than the traditional feed-forward that generates the output using only the current input.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A comparison of methods for COVID-19 transmission forecasting"
+        },
+        {
+            "text": "Deep learning technology and artificial intelligence are promising techniques applied by different healthcare providers. The accurate COVID-19 spread forecasting models do not only support the management of the available resources in hospitals but also help slow down the progression of such diseases. In this study, short term forecasting of COVID-19 cases has been carried out through hybrid deep learning models to provide suitable forecasting accuracy. Towards this purpose, the LSTM-CNN model has been introduced for COVID-19 time series forecasting. Overall, we compared three hybrid models (i.e., LSTM-CNN, GAN-DNN, and GAN-GRU) and three standalone deep learning models (i.e., CNN, LSTM, and RBM). In other words, we examined the capability of advanced structures of deep learning methods in forecasting COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "time-series data on datasets of limited size. The data from daily confirmed and recovered cases from seven of the most impacted countries, namely Brazil, France, India, Mexico, Russia, Saudi Arabia, and the US, are modeled using six advanced data-driven models. The number of daily confirmed and recovered COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "cases recorded from January 22nd, 2020, to September 6th, 2020, are used in this study. We applied the six deep learning models and two baseline machine learning models (i.e., LR and SVR) to forecast COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "confirmed and recovered cases for a 92-day forecast horizon from June 6th, 2020. Six measurements of effectiveness are adopted to assess and compare the forecasting performance: R2, RMSE, MAE, MAPE, EV, and MSLE. Results show the domination of the LSTM-CNN model due to its capability to learn higher-level features that permit good forecasting precision.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The main challenges of training deep learning models are the availability of a sufficient amount of data to build an accurate model. Unfortunately, till now, there are no exact rules or methods to check these criteria.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Essentially, we investigate the performance of deep learning models when applied to a small amount of time-series data and compare their forecasting accuracy with the traditional time-series models. Results in this study showed that deep learning models provide satisfying results, even with relatively small-sized data. The second challenge resides in tuning the hyper-parameter model used in the design of deep neural networks and the way to learn like the number of layers, the number of neural units by layer, the activation function, the optimizer, the learning rate, the loss function, number of epoch and batch size. To mitigate this challenge several approaches are reported in the literature, such as grid search, random search, and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Bayesian optimizating, to help optimize the set of hyper-parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "A direction for future improvement is to incorporate explanatory variables, such as meteorological measurements and lockdown indicators, in constructing the deep learning models. Further, it will be interesting to conduct comparative studies to investigate the impacts of measures established during this pandemic event and to extend this method to deal with different communicable and non-communicable diseases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 detection using deep learning models to exploit Social Mimic Optimization and structured chest X-ray images using fuzzy color and stacking approaches",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "To\u011fa\u00e7ar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "C\u00f6mert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computers in Biology and Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Modelling and forecasting of new cases, deaths and recover cases of covid-19 by using vector autoregressive model in pakistan",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Saeed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "140",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus disease 2019: What we know?",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of medical virology",
+            "volume": "92",
+            "issn": "7",
+            "pages": "719--725",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "2019 novel coronavirus: where we are and what we know",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infection",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The role of augmented intelligence (ai) in detecting and preventing the spread of novel coronavirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ehrenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Niller E. An AI Epidemiologist Sent the First Warnings of the Wuhan Virus: WIRED",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Anticipating the international spread of zika virus from brazil",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Bogoch",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "German",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Creatore",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kulkarni",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Brownstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mekaru",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Hay",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Groot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "The Lancet",
+            "volume": "387",
+            "issn": "10016",
+            "pages": "335--336",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The potential for artificial intelligence in healthcare",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Davenport",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kalakota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Future healthcare journal",
+            "volume": "6",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A smart dental health-iot platform based on intelligent hardware, deep learning, and mobile terminal",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-C",
+                    "middle": [],
+                    "last": "Yeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-R",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE journal of biomedical and health informatics",
+            "volume": "24",
+            "issn": "3",
+            "pages": "898--906",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Early detection of parkinson's disease using deep learning and machine learning",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Access",
+            "volume": "8",
+            "issn": "",
+            "pages": "147--635",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Transfer learning with intelligent training data selection for prediction of alzheimer's disease",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE Access",
+            "volume": "7",
+            "issn": "",
+            "pages": "72--726",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Forecasting emergency department overcrowding: A deep learning framework",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kadri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A deep learning-based intelligent medicine recognition system for chronic patients",
+            "authors": [
+                {
+                    "first": "W.-J",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-H",
+                    "middle": [],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-P",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T.-C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE Access",
+            "volume": "7",
+            "issn": "",
+            "pages": "44--441",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Applications of machine learning and artificial intelligence for Covid-19 (SARS-CoV-2) pandemic: A review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lalmuanawma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hussain",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chhakchhuak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Text detection and recognition for images of medical laboratory reports with a deep learning approach",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE Access",
+            "volume": "8",
+            "issn": "",
+            "pages": "407--416",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "ScalpEye: A Deep Learning-Based Scalp Hair Inspection and Diagnosis System for Scalp Health",
+            "authors": [
+                {
+                    "first": "W.-J",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Chiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-Y.",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Access",
+            "volume": "8",
+            "issn": "",
+            "pages": "134--826",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Statistical monitoring of a wastewater treatment plant: A case study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Senouci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Journal of environmental management",
+            "volume": "223",
+            "issn": "",
+            "pages": "807--814",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "COVID-19 open source data sets: a comprehensive survey",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shuja",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alanazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Alasmary",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alashaikh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "1--30",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Deep learning system to screen coronavirus disease 2019 pneumonia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Butt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gill",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Babu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A review of mathematical modeling, artificial intelligence and datasets used in the study, prediction and management of covid-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mohamadou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Halidou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kapen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Optconet: an optimized convolutional neural network for an automatic diagnosis of covid-19",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Goel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Murugan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mirjalili",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chakrabartty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Explainable deep learning for pulmonary disease and coronavirus COVID-19 detection from X-rays",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Brunese",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mercaldo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Reginelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Santone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computer Methods and Programs in Biomedicine",
+            "volume": "196",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Coronet: A deep neural network for detection and diagnosis of COVID-19 from chest x-ray images",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bhat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computer Methods and Programs in Biomedicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "COVIDetectioNet: COVID-19 diagnosis system based on X-ray images using features selected from prelearned deep features ensemble",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Turkoglu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVIDiagnosis-Net: Deep Bayes-SqueezeNet based Diagnostic of the Coronavirus Disease 2019 (COVID-19) from X-Ray Images",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ucar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Korkmaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Medical Hypotheses",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "COVID-19 detection and disease progression visualization: Deep learning on chest X-rays for classification and coarse localization",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zebin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rezvy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Applied Intelligence",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Classification of COVID-19 in chest X-ray images using DeTraC deep convolutional neural network",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abbas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Abdelsamea",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gaber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2003.13815"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Deep learning methods for forecasting COVID-19 time-Series data: A Comparative study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zeroual",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "140",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Modeling and forecasting the covid-19 pandemic in india",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khajanchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nieto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Optimal control design of impulsive sqeiar epidemic models with application to covid-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Abbasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zamani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H A"
+                    ],
+                    "last": "Mehra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shafieirad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ibeas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Short-term forecasts of the covid-19 pandemic: a study case of cameroon",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nkwayep",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bowong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tewa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kurths",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "140",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Short-term forecasting COVID-19 cumulative confirmed cases: Perspectives for Brazil",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H D M"
+                    ],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mariani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dos Santos Coelho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "An empirical overview of nonlinearity and overfitting in machine learning using covid-19 data",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nagata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Partial derivative nonlinear global pandemic machine learning prediction of covid 19",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kavadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Patan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ramachandran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gandomi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Detecting abnormal ozone measurements with a deep learning-based strategy",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kadri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Sensors Journal",
+            "volume": "18",
+            "issn": "17",
+            "pages": "7222--7232",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Forecasting of wastewater treatment plant key features using deep learning-based models: A case study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kadri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Leiknes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Access",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Statistical Process Monitoring Using Advanced Data-Driven and Deep Learning Approaches: Theory and Practical Applications",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hering",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Madakyaru",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Obstacle detection for intelligent transportation systems using deep stacked autoencoder and k-nearest neighbor scheme",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Senouci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Sensors Journal",
+            "volume": "18",
+            "issn": "12",
+            "pages": "5122--5132",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Malicious attacks detection in crowded areas using deep learning-based approach",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hittawe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Beya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Instrumentation & Measurement Magazine",
+            "volume": "23",
+            "issn": "5",
+            "pages": "57--62",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Deep learning approach for sustainable WWTP operation: A case study on data-driven influent conditions monitoring",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dairi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Harrou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Leiknes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sustainable Cities and Society",
+            "volume": "50",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Time series forecasting of covid-19 transmission in canada using lstm networks",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K R"
+                    ],
+                    "last": "Chimmula",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Time series prediction for the epidemic trends of COVID-19 using the improved LSTM deep learning method: case studies in Russia, Peru and Iran",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Predictions for covid-19 with deep learning models of lstm, gru and bi-lstm",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shahid",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zameer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muneeb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos, Solitons & Fractals",
+            "volume": "140",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Imagenet classification with deep convolutional neural networks",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krizhevsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sutskever",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Advances in Neural Information Processing Systems",
+            "volume": "25",
+            "issn": "",
+            "pages": "1097--1105",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Bag of words representation and svm classifier for timber knots detection on color images",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hittawe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sidib\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "M\u00e9riaudeau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "2015 14th IAPR international conference on machine vision applications (MVA)",
+            "volume": "",
+            "issn": "",
+            "pages": "287--290",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Learning phrase representations using rnn encoder-decoder for statistical machine translation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Merrienboer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gulcehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bahdanau",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bougares",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schwenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Speech recognition with deep recurrent neural networks",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Graves",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rahman Mohamed",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "CoRR",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Abnormal events detection using deep neural networks: application to extreme sea surface temperature detection in the red sea",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hittawe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Afzal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jamil",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Snoussi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hoteit",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Knio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Electronic Imaging",
+            "volume": "28",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "A machine vision based approach for timber knots detection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hittawe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sidib\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "M\u00e9riaudeau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Twelfth International Conference on Quality Control by Artificial Vision",
+            "volume": "9534",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Mastering the game of go with deep neural networks and tree search",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Silver",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Maddison",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Guez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sifre",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Den Driessche",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schrittwieser",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Antonoglou",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Panneershelvam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lanctot",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dieleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Grewe",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nham",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kalchbrenner",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sutskever",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lillicrap",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leach",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kavukcuoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Graepel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hassabis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nature",
+            "volume": "529",
+            "issn": "",
+            "pages": "484--503",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "An adaptive machine learning approach to improve automatic iceberg detection from SAR images",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Barbat",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wesche",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Werhli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "ISPRS Journal of Photogrammetry and Remote Sensing",
+            "volume": "156",
+            "issn": "",
+            "pages": "247--259",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Machine-learning prognostic models from the 2014-16 Ebola outbreak: data-harmonization challenges, validation strategies, and mHealth applications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Colubri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-A",
+                    "middle": [],
+                    "last": "Hartley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Siakor",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Wolfman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Felix",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sesay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Levine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "EClinicalMedicine",
+            "volume": "11",
+            "issn": "",
+            "pages": "54--64",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Two-steps learning of Fuzzy Cognitive Maps for prediction and knowledge discovery on the HIV-1 drug resistance",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "N\u00e1poles",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Grau",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bello",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Grau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Expert Systems with Applications",
+            "volume": "41",
+            "issn": "3",
+            "pages": "821--830",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Automated diagnosis of HIV-associated neurocognitive disorders using large-scale Granger causality analysis of resting-state functional MRI",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Chockanathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Dsouza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Abidin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schifitto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wism\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Computers in Biology and Medicine",
+            "volume": "106",
+            "issn": "",
+            "pages": "24--30",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Machine learning methods for computer-aided breast cancer diagnosis using histopathology: A narrative review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Saxena",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gyanchandani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Imaging and Radiation Sciences",
+            "volume": "51",
+            "issn": "1",
+            "pages": "182--193",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Diabetic retinopathy detection through novel tetragonal local octa patterns and extreme learning machines",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nazir",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Irtaza",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Shabbir",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Javed",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Akram",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mahmood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Artificial intelligence in medicine",
+            "volume": "99",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Artificial plant optimization algorithm to detect heart rate & presence of heart disease using machine learning",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Choudhary",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chawla",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Artificial Intelligence in Medicine",
+            "volume": "102",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Long short-term memory",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hochreiter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schmidhuber",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Neural computation",
+            "volume": "9",
+            "issn": "8",
+            "pages": "1735--1780",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Gradient-based learning applied to document recognition",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lecun",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bottou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Haffner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Proceedings of the IEEE",
+            "volume": "86",
+            "issn": "11",
+            "pages": "2278--2324",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Deep learning",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lecun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "nature",
+            "volume": "521",
+            "issn": "7553",
+            "pages": "436--444",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Information processing in dynamical systems: Foundations of harmony theory; cu-cs-321-86",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Smolensky",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Generative adversarial nets",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Goodfellow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pouget-Abadie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mirza",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Warde-Farley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ozair",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Courville",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Advances in neural information processing systems",
+            "volume": "",
+            "issn": "",
+            "pages": "2672--2680",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Learning phrase representations using rnn encoder-decoder for statistical machine translation",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Merri\u00ebnboer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gulcehre",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bahdanau",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bougares",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Schwenk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bengio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1406.1078"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Support vector machine with adaptive parameters in financial time series forecasting",
+            "authors": [
+                {
+                    "first": "L.-J",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "E H"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "IEEE Transactions on neural networks",
+            "volume": "14",
+            "issn": "6",
+            "pages": "1506--1518",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Tunnel surrounding rock displacement prediction using support vector machine",
+            "authors": [
+                {
+                    "first": "B.-Z",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-B",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "International Journal of Computational Intelligence Systems",
+            "volume": "3",
+            "issn": "6",
+            "pages": "843--852",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Accurate multisteps traffic flow prediction based on svm",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mingheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yaobao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ganglong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Mathematical Problems in Engineering",
+            "volume": "2013",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "A tutorial on support vector regression",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smola",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sch\u00f6lkopf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Statistics and computing",
+            "volume": "14",
+            "issn": "3",
+            "pages": "199--222",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Using a logistic growth regression model to forecast the demand for tourism in las vegas",
+            "authors": [
+                {
+                    "first": "F.-L",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Tourism Management Perspectives",
+            "volume": "12",
+            "issn": "",
+            "pages": "62--67",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Another look at measures of forecast accuracy",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hyndman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Koehler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "International journal of forecasting",
+            "volume": "22",
+            "issn": "4",
+            "pages": "679--688",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "A new metric of absolute percentage error for intermittent demand forecasts",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "International Journal of Forecasting",
+            "volume": "32",
+            "issn": "3",
+            "pages": "669--679",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "and W ho are the weight parameters and B i , B f , B o , and B c are bias parameters, denotes the element-wise multiplication. The second model integrated into the hybrid model is the well-known one-dimensional CNN that aims to extract features from the temporal feature space built by the nonlinear transformation performed by LSTM. Indeed CNN learns to extract features based on a series of nonlinear transformations via several Convolution and Pooling operations that usually end with a fully connected layer. CNN can extract features first and perform the internal features mapping based on one-dimensional (1-D) sequences data represented by COVID-19 cases recorded. On the other hand, the CNN-1D layer structure is simple and thus has a low computational cost. The mathematical formulation of each convolutional layer l is done as follows:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "(.) is 1-D convolution function and \u03c3(.) is the activation function, while (W ,b) refers to the weight and bias of the layer l, respectively. Overall, in the LSTM-CNN approach, the LSTM process the input represented by the time-series data, and the CNN performs the forecasting. The basic flowchart of the LSTM-CNN is depicted in Figure 1, where LSTM and CNN are stacked to form the deep hybrid architecture. The forecasting is done actually by the fully connected output layer of the CNN.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Flowchart of the LSTM-CNN approach.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Flowchart of the proposed COVID-19 cases forecasting.forecasting is added. On the other hand, traditional LSTM and CNN are trained in a supervised way.Precisely, training a CNN model consists of extracting features from the input depending on the data structure like images, a 2D signal, or for sensory data of 1D. In contrast, LSTM belongs to gated recurrent neural networks designed to deal with time-series and data sequences to extract and discover temporal dependencies like text processing, where the objective is to predict the next word of a given sentence (a series of words).The training procedure of the deep hybrid LSTM-CNN is supervised. The two models LSTM, and CNN, are simultaneously trained (Figure 3). The time-series data (input) is processed first by LSTM, resulting in temporal features space that feeds CNN. The forecasting is done through the last layer of CNN with a single output. The role of CNN is to learn the mapping of the temporal features to the next value in the original input (recovered or confirmed COVID-19 cases).This study aims to compare deep learning methods to forecast COVID-19 time-series data. Towards this end, the present work uses two hybrid deep learning models (i.e., LSTM-CNN and GAN-GRU), four standalone deep learning models (i.e., GAN, CNN, LSTM, and RBM), and two baseline machine learning methods (i.e., LR, and SVR), and results are compared based on COVID-19 data from six well-impacted countries.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Deep hybrid LSTM-CNN approach for COVID-19 cases forecasting.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Confirmed and Recovered COVID-19: Coefficient of determination (R 2 ), Root Mean Square Error (RMSE), mean absolute error (MAE), Mean Squared Logarithmic Error (MSLE), and explained variance (EV).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Brazil, France, India, Mexico, Russia, Saudi Arabia, and the US) are used to assess the forecasting capability of the hybrid and non-hybrid deep learning models. The data are made accessible publicly by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (https://github.com/CSSEGISandData/COVID-19). Here, we consider the data from the appearance of the first cases in each country.Figure 4depicts the used COVID-19 time-series dataset in the considered countries recorded from January 22 to September 6, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Confirmed (a) and recovered (b) CODID-19 times series data recorded from January 22 to September 6, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Normalized confirmed (a) and recovered (b) CODID-19 times-series data. are used to construct the deep learning models: the standalone models (LSTM, CNN, and RBM) and the hybrid models (GAN-DNN, GAN-GRU, and LSTM-CNN), and baseline machine learning models: LR and SVR. The goal is to investigate the performance of the six considered models in the presence of small-sized datasets and compare their performance with the traditional machine learning models (i.e., LR and SVR).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Measured and forecasted confirmed COVID-19 cases from 6 June to 06 September 2020: (a) Brazil,(b) France, (c) India, (d) Mexico, (e) Russia, (f) Saudi Arabia, and (g) US.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "-GRU, and LSTM-CNN) than the other standalone models. We observe that the three hybrid models (GAN-DNN, GAN-GRU, and LSTM-CNN) can capture the most variability in confirmed time-series data by reaching values of EV and R 2 close to one. This indicates that the forecasted confirmed cases closely follow the trend of recorded confirmed cases. Also, the standalone models (LSTM, CNN, and RBM) can capture most of the variance in data with low forecasting error. By considering all metrics, LSTM-CNN is the best approach with high efficiency and satisfying forecasting accuracy. It could be attributed to its capacity to model time-dependent data and high features extraction capability.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "illustrates the forecasting results of six models based on the recovered COVID-19 time-series data. The forecasted data closely follow the trends of the recorded data. For shallow methods, the SVR model outperformed the LR forecasting method. It could be attributed to the SVR capacity in handling nonlinearity. Similarly to confirmed COVID-19 data, the hybrid models (GAN-DNN, GAN-GRU, and LSTM-CNN) record the highest score in terms of the statistical indicators",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "noticed that the hybrid LSTM-CNN provides improved forecasting compared to the standalone LSTM and for CNN models. This could be due to the fact the double feature extraction performed by the deep hybrid model during the learning process. In other words, in the hybrid LSTM-CNN model, LSTM can capture time dependencies and the 1D feature extractor CNN predict the next value of a sequence of values. On the other hand, GANs (GAN-DNN and GAN-GRU) as a deep composite architecture (designed initially for image generation) demonstrate the potential of the generative models to fit COVID-19 time-series data and their ability to approximate the data distribution of time series data accurately. Also, we noticed that the RBM model obtain acceptable forecasting performance even with a straightforward architecture based on only two layers (i.e., visible and hidden layers), making it suitable for online forecasting. This experimental study reveals that building a composite deep learning model can considerably improve the forecasting accuracy, where each element of the hybrid architecture plays an essential role in modeling temporal dependencies embed in the time-series data of the recorded COVID-19 cases. The proposed approach can be seen as hierarchical features extraction process resulting from a succession of nonlinear transformation performed in multi-stages (LSTM, CNN).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "Measured and forecasted recovered COVID-19 cases from 6 June to 06 September 2020(a) Brazil,(b) France, (c) India, (d) Mexico, (e) Russia, (f) Saudi Arabia, and (g) US.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The considered benchmark deep learning methods.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Long Short-Term Memory gates and Memory equations",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Definition of measurements of effectiveness.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Hyper-parameters using in the training of the investigated models.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Measurements of effectiveness for confirmed cases COVID-19 forecasting.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Validation Metrics for Recovered cases COVID-19 forecasting",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Averaged statistical metric per method.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

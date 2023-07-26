@@ -1,0 +1,1640 @@
+{
+    "paper_id": "00a71a90b4fb896291913c6d290833ade77e2aa1",
+    "metadata": {
+        "title": "Analysis of ACE2 Gene-Encoded Proteins Across Mammalian Species",
+        "authors": [
+            {
+                "first": "Ahmed",
+                "middle": [],
+                "last": "Ali",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jobin",
+                "middle": [
+                    "Jose"
+                ],
+                "last": "Kattoor",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cao",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sun",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tian",
+                "middle": [
+                    "X"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bai",
+                "middle": [
+                    "Z"
+                ],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Y",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qi",
+                "middle": [
+                    "J"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Liu",
+                "middle": [
+                    "D"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Liu",
+                "middle": [
+                    "W"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [
+                    "J"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ying",
+                "middle": [],
+                "last": "Cao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yeping",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2020",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaodong",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhihua",
+                "middle": [],
+                "last": "Bai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yue",
+                "middle": [],
+                "last": "Gong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jianxun",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Di",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Special Pathogens and Biosafety",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wenjun",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jing",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CAS Key Laboratory of Pathogenic Microbiology and Immunology",
+                    "institution": "Chinese Academy of Sciences",
+                    "location": {
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Human beings are currently experiencing a serious public health event. Novel coronavirus disease 2019 , caused by the novel severe acute respiratory syndrome coronavirus (SARS-CoV-2), has infected about 3 million people worldwide and killed more than 200,000, most being the elderly or people with potential chronic diseases or in immunosuppressive states. According to big data analysis, there are many proteins homologous to or interacting with the angiotensin-converting enzyme 2 (ACE2), which, therefore, may not be the only receptor for the novel coronavirus; other receptors may also exist in host cells of different species. These potential receptors may also play an important role in the infection process of the novel coronavirus. The current study aimed to discover such key proteins or receptors and analyze the susceptibility of different animals to the novel coronavirus, in order to reveal the transmission process of the virus in cross-species infection. We analyzed the proteins coded by the ACE2 gene in different mammalian species and predicted their correlation and homology with the human ACE2 receptor. The major finding of our predictive analysis suggested ACE2 gene-encoded proteins to be highly homologous across mammals. Based on their high homology, their possibility of binding the spike-protein of SARS-CoV-2 is quite high and species such as Felis catus, Bos taurus, Rattus norvegicus etc. may be potential susceptible hosts; special monitoring is particularly required for livestock that are in close contact with humans. Our results might provide ideas for the prevention and control of the novel coronavirus pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Human beings are currently experiencing a serious public health event. Novel coronavirus disease 2019 , caused by the novel severe acute respiratory syndrome coronavirus (SARS-CoV-2), has infected about 3 million people worldwide and killed more than 200,000, most being the elderly or people with potential chronic diseases or in immunosuppressive states. According to big data analysis, there are many proteins homologous to or interacting with the angiotensin-converting enzyme 2 (ACE2), which, therefore, may not be the only receptor for the novel coronavirus; other receptors may also exist in host cells of different species. These potential receptors may also play an important role in the infection process of the novel coronavirus. The current study aimed to discover such key proteins or receptors and analyze the susceptibility of different animals to the novel coronavirus, in order to reveal the transmission process of the virus in cross-species infection. We analyzed the proteins coded by the ACE2 gene in different mammalian species and predicted their correlation and homology with the human ACE2 receptor. The major finding of our predictive analysis suggested ACE2 gene-encoded proteins to be highly homologous across mammals. Based on their high homology, their possibility of binding the spike-protein of SARS-CoV-2 is quite high and species such as Felis catus, Bos taurus, Rattus norvegicus etc. may be potential susceptible hosts; special monitoring is particularly required for livestock that are in close contact with humans. Our results might provide ideas for the prevention and control of the novel coronavirus pneumonia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Keywords: COVID-19, SARS-CoV-2, ACE2 gene, protein, mammals Emerging infectious diseases (EIDs) pose a risk to global public health and biosafety. Over 5,000 viruses have been identified to date, of which \u223c75% are of a zoonotic origin, and can cross the species barrier and establish infection in human beings (1) . Since December 2019, multiple cases of pneumonia of an unknown cause had been reported, which was subsequently identified as an acute respiratory infectious disease caused by a novel coronavirus infection, i.e., coronavirus disease 2019 (COVID-19) (2) . Based on the results of genome comparisons, this novel coronavirus was named \"severe acute respiratory syndrome coronavirus type 2\" (SARS-CoV-2) by the International Committee on Taxonomy of Viruses, and was considered the primary pathogen of the current outbreak (3) . The frequent and occasional regional outbreaks and uncertain epidemics have triggered serious social panic and caused huge economic losses, as the disease gradually spread globally. A previous study revealed the potential relationship between infection and history of contact with seafood and wildlife markets at the early stage (4) . However, the source of SARS-CoV-2 has not been conclusively identified yet, since some patients did not have a history of exposure to wildlife markets at all.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 564,
+                    "end": 567,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 834,
+                    "end": 837,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1169,
+                    "end": 1172,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Previous studies had documented infection from coronaviruses in humans, pigs, cattle, sheep, birds, dogs, cats, mice, camels, bats, and whales (5) . Some hosts can be seriously infected with various coronaviruses, such as severe acute respiratory syndrome coronavirus (SARS-CoV) and the Middle East respiratory syndrome coronavirus (MERS-CoV). SARS-CoV-2 belongs to the \u03b2-coronavirus genus of the family Coronaviridae. The coronaviruses infecting human beings at present had originated from animals, and their natural hosts are generally Chiroptera (bats) and rodents (rats) (6) . Additionally, different types of coronavirus can also infect Artiodactyla, including livestock (pigs, cattle, and camels), and carnivorous intermediate hosts, such as minks and civets (7) . Whether SARS-CoV-2 can infect livestock (pigs and birds) and pets (such as dogs) is not yet clear. At present, there is insufficient understanding of the host-adaptive mechanisms of SARS-CoV-2, including the process of virus infection and replication, the function of virus coding proteins, interaction between the virus and its host factors, activation of the innate antiviral immune response of host, and the mechanism of viral escape from the host's immune system. Moreover, there is a lack of available approaches to deal with sudden viral infection events, to effectively target specific molecules to inhibit viral infection, and to treat the infection-related complications. In addition, with the source of the pathogen still being unclear, it significantly restricts extensive study and tracking of the route of transmission. Advancements in novel technologies could provide a new method to trace the source of the virus. Specifically, the possibility of suspect animals as intermediate hosts can be evaluated based on the binding characteristics of the viral proteins with different receptors. New technologies, such as artificial intelligence and shared data, are available for epidemiological investigation, thereby contributing to improved accuracy and screening efficiency.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 146,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 575,
+                    "end": 578,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 765,
+                    "end": 768,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Angiotensin-converting enzyme (ACE) is a monomeric, membrane-bound, zinc-and chlorine-dependent dipeptidase (8) . It can catalyze the conversion of decapeptide angiotensin (Ang) I to octapeptide Ang II, and hydrolyze bradykinin by removing a C-terminal dipeptide (9) . Angiotensin-converting enzyme 2 (ACE2), discovered as a homolog of ACE, functions as a carboxypeptidase that can preferentially cleave hydrophobic or basic amino acids at the carboxyl terminus. It can catalyze the conversion of Ang II to Ang-(1-7) and degrade Ang I to the inactive Ang-(1-9) (10). Ang- (1-7) is a vasodilator peptide with antioxidant, anti-fibrotic, and anti-inflammatory properties (11) . ACE2 is highly expressed in the heart, kidneys, testis, hepatobiliary duct, and alveolar type 2 cells (12) . Previous studies had predicted the structure of the spike-protein of SARS-CoV-2, and revealed it as a key protein that mediated virus invasion into host cells, interacted with ACE2 proteins, and mediated infection in humans (13) .",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 111,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 263,
+                    "end": 266,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 669,
+                    "end": 673,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 778,
+                    "end": 782,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1009,
+                    "end": 1013,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The receptor binding domain of SARS-CoV-2 shares high sequence homology with SARS-CoV, indicating the potential binding of ACE2 with SARS-CoV-2 (14) . The differences between SARS-CoV and SARS-CoV-2 were examined by electron microscopy. The results showed that SARS-CoV-2 binds to ACE2 with a higher affinity than SARS-CoV (15, 16) . In accordance with the current data analysis, other species also have proteins with the same amino acid composition as the key region of the human ACE2 protein. This key region refers to the region that binds to the coronavirus spike protein. Other potential receptors may also exist in host cells of different species, which may play an essential role in the invasion of SARS-CoV-2. Therefore, besides humans and proven animals that can be infected, it seems imperative to analyze potential receptors in other species.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "(15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 328,
+                    "end": 331,
+                    "text": "16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this study, protein sequences corresponding to the ACE2 gene were downloaded from UniProt database (17), with subsequent construction of the phylogenetic tree, with the protein sequences, using the maximum likelihood method (18, 19) . Figure 1 displays the distance distribution across ACE2 gene-encoded proteins in different species, with a high homology across those discovered in mammals.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "(18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 232,
+                    "end": 235,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 238,
+                    "end": 246,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Shared data comparison was conducted, focusing on the key homologous proteins and core regions of different species. With the random selection of one species from each clade, further Frontiers in Veterinary Science | www.frontiersin.org analysis was conducted on the crystal structure of N-terminal protease domain of ACE2 or key structural domains of other potential receptors and S-protein receptor-binding domain structure of SARS-CoV-2, so as to speculate the possibility of receptor-binding by SARS-CoV-2. Results indicated a high possibility of ACE2 binding to the S-protein of SARS-CoV-2 based on high homology (Figure 2) . Superposition of the structural model of SARS-CoV-2 S-RBD complexed with ACE2/ACE from human, Nyctereutes procyonoides (Raccoon dog), Neophocaena asiaeorientalis (Finless porpoise), and Rhinolophus sinicus (Chinese rufous horseshoe bat) showed the complexes to have highly similar overall structures (Figure 2A) . By analyzing the interacting residues between S-RBD and ACE2/ACE from different species in these complexes, two interacting regions (residues 19-84 and 346-360) were identified in ACE2/ACE. The sequences of these two regions from the species analyzed were found to be highly conserved ( Figure 2B) . However, the interaction interfaces between SARS-CoV-2 S-RBD and ACE2/ACE from different species in these complex structures were slightly different, with the ACE2 from humans having the maximum number of interacting residues, and being the largest buried area across the species (Figures 2C-F) . This suggested ACE2 from humans could have a have higher affinity to SARS-CoV-2 S-RDB than those from other species.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 618,
+                    "end": 628,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 931,
+                    "end": 942,
+                    "text": "(Figure 2A)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1232,
+                    "end": 1242,
+                    "text": "Figure 2B)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1525,
+                    "end": 1539,
+                    "text": "(Figures 2C-F)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Due to different protein sequence lengths, in order to get better local sequence alignment, the Needleman-Wunsch algorithm was applied for the comparison with human ACE2 protein sequence and for the calculation of their similarities to study the amino acid composition distribution in key domains of each protein sequence (20) . As shown in Figure 3 , there was a high similarity of ACE2 gene-encoded proteins with the human ACE2 receptor, especially in the three domains bound to the Sprotein of SARS-CoV-2. It consequently supported the higher potential susceptibility to infection in mammals.",
+            "cite_spans": [
+                {
+                    "start": 322,
+                    "end": 326,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 341,
+                    "end": 349,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Furthermore, the binding ability of proteins encoded by different ACE2 genes and the potential receptor models for stimulating different species was analyzed. The interaction between ACE2 and SARS-CoV-2 was speculated to be the possible primary cause for the rapid spread of SARS-CoV-2. Compared with SARS-CoV, four of the five key residues of three short insertion and receptor binding sequences in the Nterminal region of SARS-CoV-2 were changed (21). Shi et al. had reported the replication of SARS-CoV-2 to be poor in dogs, pigs, chickens, and ducks, although it was quite efficient in ferrets and cats (22) . They found SARS-CoV-2 to be transmitted across cats by respiratory droplets, the result consistent with homology comparisons (Figure 3) . Other questions, regarding the binding ability of other potential receptors to viral proteins, a potential mutation that could further improve the interaction between S-protein and ACE2, or on species having highly homologous proteins or interacting with ACE2, remain to be addressed. Answers to these questions would facilitate the design of agents and antibodies against S-protein or ACE2 protein (or other potential receptors), or of small molecules, to disrupt their interactions.",
+            "cite_spans": [
+                {
+                    "start": 607,
+                    "end": 611,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 739,
+                    "end": 749,
+                    "text": "(Figure 3)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, the study of ACE2 gene-encoded protein products in mammalian species would be helpful to obtain more genetic and functional information about SARS-CoV-2. Based on their high homology, their possibility of binding the spike-protein of SARS-CoV-2 is quite high and species such as Felis catus, Bos taurus, Rattus norvegicus, etc. may be potential susceptible hosts; special monitoring is particularly required for livestock and poultry that are in close contact with humans. The potential susceptibility analyses of mammalian reservoir hosts, as well as the understanding of immune recognition and escape of the virus, would be of great significance for controlling the virus' spread, treating viral diseases, and protecting the life and property of people.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The protein sequences encoded by the ACE2 gene were downloaded from the UniProt database (15) . If there were multiple identical protein sequences encoded by the ACE2 gene in each species, a sequence was randomly selected as the representative sequence of the species for subsequent processing. The screened sequences were aligned using Clustal Omega on the EBI web server (23) . Maximum likelihood (ML) phylogenies of all viral genes were estimated by RAxML-HPC2 on XSEDE (18), with GAMMA model and a bootstrap value of 1,000 selected.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Collection and Phylogenetic Analyses"
+        },
+        {
+            "text": "After screening, sequence similarity and identity were analyzed again to study further the relationship between the protein sequences encoded by the ACE2 gene. The key operation process can be divided into the following steps: The protein sequences from the source host that were not mammals were manually deleted, while the remaining protein sequences were compared with the ACE2 protein sequence encoded by the human ACE2 gene one by one using the Needleman-Wunsch algorithm (20) , and the similarity and identity between them were obtained. Then, regions of the human ACE2 protein sequence that interacted with the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) S proteins were highlighted and compared with the amino acid composition of protein sequences of other species.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Calculation of the Percent Identity of the Key Domains of Mammalian Reservoir Hosts"
+        },
+        {
+            "text": "The SARS-CoV-2 S-RBD in complex with ACE2 from Nyctereutes procyonoides, Neophocaena asiaeorientalis asiaeorientalis, and Rhinolophus sinicus was modeled with Coot (24) using the crystal structure of the SARS-CoV-2 S-RBD in complex with human ACE2 (PDB ID: 6LZG) (15) as the template. The contact residues of the two partners in these modeled complex structures were determined with CoCoMaps server (25) with an atom contact distance cutoff of 4 \u00c5.",
+            "cite_spans": [
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Prediction of S Protein-Binding Domain Structure of Key Domains"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Emerging or re-emerging bacterial zoonoses: factors of emergence, surveillance and control",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Blancou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chomel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Belotto",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Meslin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Vet Res",
+            "volume": "36",
+            "issn": "",
+            "pages": "507--529",
+            "other_ids": {
+                "DOI": [
+                    "10.1051/vetres:2005008"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The species severe acute respiratory syndrome-related coronavirus: classifying 2019-nCoV and naming it SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Baric",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "De Groot",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "536--580",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0695-z"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The outbreak of COVID-19: an overview",
+            "authors": [
+                {
+                    "first": "Y-C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-J",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Chin Med Assoc",
+            "volume": "83",
+            "issn": "",
+            "pages": "217--237",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/JCMA.0000000000000270"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Bats and Human Health: Ebola, SARS, Rabies and Beyond",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Beltz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Discovery of a novel coronavirus, China Rattus coronavirus HKU24, from Norway rats supports the murine origin of Betacoronavirus 1 has implications for the ancestor of Betacoronavirus lineage A",
+            "authors": [
+                {
+                    "first": "Skp",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pcy",
+                    "middle": [],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ksm",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Akl",
+                    "middle": [],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ryy",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hkh",
+                    "middle": [],
+                    "last": "Luk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "3076--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02420-14"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Animal source of the coronavirus continues to elude scientists",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mallapaty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/d41586-020-01449-8"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Peptidyl dipeptidase A: angiotensin I-converting enzyme",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Corvol",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Soubrier",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Methods Enzymol",
+            "volume": "248",
+            "issn": "",
+            "pages": "283--305",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0076-6879(95)48020-x"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Potentiation of bradykinin actions by ACE inhibitors",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Erd\u00f6s",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Deddish",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Marcic",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Trends Endocrinol Metabol",
+            "volume": "10",
+            "issn": "",
+            "pages": "223--232",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1043-2760(99)00156-3"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A novel angiotensin-converting enzyme-related carboxypeptidase (ACE2) converts angiotensin I to angiotensin 1-9",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Donoghue",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Baronas",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Godbout",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gosselin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stagliano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Circ Res",
+            "volume": "87",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/01.RES.87.5.e1"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Angiotensin-(1-7) prevents systemic hypertension, attenuates oxidative stress and tubulointerstitial fibrosis, and normalizes renal angiotensin-converting enzyme 2 and Mas receptor expression in diabetic mice",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-S",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Padda",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abdo",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Chenier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Filep",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Clin Sci",
+            "volume": "128",
+            "issn": "",
+            "pages": "649--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1042/CS20140329"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Single-cell RNA-seq data analysis on the receptor ACE2 expression reveals the potential risk of different human organs vulnerable to 2019-nCoV infection",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Med",
+            "volume": "14",
+            "issn": "",
+            "pages": "185--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11684-020-0754-0"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Structure, function, and antigenicity of the SARS-CoV-2 spike glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alejandra",
+                    "middle": [],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcguire",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Veesle",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "281--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.02.058"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "270--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.01.22.914952"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Structural and functional basis of SARS-CoV-2 entry by using human ACE2",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "894--904",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.03.045"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "",
+            "pages": "1444--1452",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb2762"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "UniProt: a worldwide hub of protein knowledge",
+            "authors": [
+                {
+                    "first": "Uniprot",
+                    "middle": [],
+                    "last": "Consortium",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "506--521",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gky1049"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Creating the CIPRES Science Gateway for inference of large phylogenetic trees",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pfeiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "2010 Gateway Computing Environments Workshop (GCE)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1109/GCE.2010.5676129"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Evolutionary trees from DNA sequences: a maximum likelihood approach",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Felsenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J Mol Evol",
+            "volume": "17",
+            "issn": "",
+            "pages": "368--76",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF01734359"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The EMBL-EBI search and sequence analysis tools APIs in 2019",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Madeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Buso",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gur",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Madhusoodanan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "636--677",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkz268"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Enhanced receptor binding of SARS-CoV-2 through networks of hydrogen-bonding and hydrophobic interactions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "117",
+            "issn": "",
+            "pages": "13967--74",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.2008209117"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Susceptibility of ferrets, cats, dogs, and other domesticated animals to SARS-coronavirus 2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "1016--1036",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb7015"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sievers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilm",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dineen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gibson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Karplus",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Mol Syst Biol",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/msb.2011.75"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Features and development of Coot",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Emsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lohkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cowtan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Acta Crystallogr D Biol Crystallogr",
+            "volume": "66",
+            "issn": "",
+            "pages": "486--501",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S0907444910007493"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "COCOMAPS: a web application to analyze and visualize contacts at the interface of biomolecular complexes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vangone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Spinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Scarano",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cavallo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Oliva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Bioinformatics",
+            "volume": "27",
+            "issn": "",
+            "pages": "2915--2921",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btr484"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Angiotensin-converting enzyme 2 gene-encoded proteins in mammalian species. The RAxML tree was generated using RAxML-HPC2, with GAMMA model and a bootstrap value of 1,000 selected.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Prediction of S protein-binding domain structure of key domains in different species and severe acute respiratory syndrome coronavirus type 2 (SARS-CoV-2). (A) Superposition of the S-RBD in complex with ACE2/ACE (yellow) from human, Nyctereutes procyonoides, Neophocaena asiaeorientalis asiaeorientalis, and Rhinolophus sinicus. (B) Sequence alignment of two S-RBD binding regions (residues 19-84 and 346-360) in ACE2 from different species. (C-F) The interfacial residues (purple) in ACE2 (white) from human (C), Nyctereutes procyonoides (D), Neophocaena asiaeorientalis (E), and Rhinolophus sinicus (F) that interact with S-RBD.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Comparison across the key domains of mammalian reservoir hosts. (A) The binding region of human ACE2 protein and SARS-CoV-2 virus S protein. (B) The results of the comparison between the key regions of proteins encoded by different mammalian ACE2 genes and human ACE2 protein. Red stars indicate the suspect species that deserves attention. The red stars indicate suspicious species that have been in close contact with humans or have been reported to be suspected of carrying SARS-CoV-2, such as Pongo abelii, Felis catus, Paguma larvata, Bos taurus, etc.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Publicly available datasets were analyzed in this study. This data can be found here: https://www.uniprot.org/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        },
+        {
+            "text": "YC and JL conceived of the research, prepared the manuscript, and completed its revision. YC and YS performed data analysis. XT and ZB polished and finalized the figures. YG, WL, JQ, and DL provided various suggestions. All authors contributed to the article and approved the submitted version. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        }
+    ]
+}

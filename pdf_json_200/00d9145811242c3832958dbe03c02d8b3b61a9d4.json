@@ -1,0 +1,2360 @@
+{
+    "paper_id": "00d9145811242c3832958dbe03c02d8b3b61a9d4",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The European Neuromuscular Centre (ENMC) has always supported the use of ventilatory support in NMD's. There is a lack of provision of mouthpiece ventilation (MPV) and a lack of consensus with regard to it can be delivered, The ENMC convened the 252nd ENMC International Workshop: Developing best practice guidelines for management of mouthpiece ventilation in Neuromuscular Disorders in Amsterdam, The Netherlands from the 6th to 8th March 2020. A total of 21 participants, 19 from Europe, one form the USA and one from Canada representing a total of 11 countries. The group included respiratory physicians, neurologists, nurses, respiratory physiotherapists with a specific experience in the provision of mouthpiece ventilation (MPV) in neuromuscular disorders, advocacy groups and patient representatives were also present, with the meeting program is available as Online Supplement 1. We would like to highlight that the workshop took place at the start of the COVID-19 pandemic. Some institutions had issued a travel ban. In such cases some individuals contributed to the meeting via Skype. All talks and discussions led to the production of the best practice algorithm to initiate MPV in patients who require daytime ventilatory support ( Figure 1 ). Neuromuscular disorders (NMDs) may affect skeletal, heart and respiratory muscles. The level of respiratory muscles weakness depends on the severity and evolution of NMDs.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1245,
+                    "end": 1253,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Introduction:"
+        },
+        {
+            "text": "Respiratory insufficiency and pneumonia are primary causes of mortality and comorbidity in many NMDs. The introduction of ventilatory support will improve nocturnal hypoventilation. Ventilatory support is usually offered via non invasive techniques such as the use of a nasal mask during sleep. In some conditions, tracheostomy may be proposed when non-invasive ventilation (NIV) is no longer possible, due to ventilator dependence or severe bulbar insufficiency. Studies show mechanical ventilation improves symptoms, gas exchange, quality of life and survival in NMD's [1] .",
+            "cite_spans": [
+                {
+                    "start": 571,
+                    "end": 574,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction:"
+        },
+        {
+            "text": "As disease progresses and ventilator dependency increases patients have a choice, either to continue with mask NIV or to have a tracheostomy inserted and continue with invasive mechanical ventilation. Whilst invasive ventilation (IV) negates the need for a mask on the face, complications from having direct access to the airway include tracheomalacia, pulmonary haemorrhage and loss of speech. Continuing with 24/7 mask NIV can lead to pressure sores, midfacial hypoplasia, lack of audibility of speech and swallowing difficulties [2] .",
+            "cite_spans": [
+                {
+                    "start": 532,
+                    "end": 535,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction:"
+        },
+        {
+            "text": "An alternative to having a mask on the face is to receive NIV via a mouthpiece. This is known as open circuit mouthpiece ventilation (MPV). MPV allows patients with NMD's to receive daytime support from a portable ventilator, which they can disconnect at will, for example, for speaking, eating, swallowing, and coughing. MPV is not a new technique. In 1953, Dr Affeldt reported at a post-poliomyelitis conference, \"respiratory equipment provided MPV via a simple mouthpiece used for pulmonary function testing attached to an intermittent positive pressure ventilation device\" [3] . Bach and co-workers played an important role to disseminate MPV technique around the world, making it increasingly popular [4] .",
+            "cite_spans": [
+                {
+                    "start": 577,
+                    "end": 580,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 706,
+                    "end": 709,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction:"
+        },
+        {
+            "text": "The overall aim of the workshop is to deliver the following:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Goals of the workshop"
+        },
+        {
+            "text": "\uf0b7 Evaluate the pre workshop international survey on MPV and publish the results in a separate manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Goals of the workshop"
+        },
+        {
+            "text": "\uf0b7 Produce a best practice guidline on the provision of MPV in NMD's by reviewing and recommend the most appropriate monitoring, mode, settings and equipment required for MPV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Goals of the workshop"
+        },
+        {
+            "text": "\uf0b7 Produce a best practice algorithm on MPV for daytime ventilatory support (see Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 88,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Goals of the workshop"
+        },
+        {
+            "text": "\uf0b7 Define optimal outcome measures for future studies in MPV. and workshop objectives and Jesus Gonzalez-Bermejo began the session with when to start more than night time ventilation. Night time ventilation is required as a result of respiratory muscle weakness. This leads to ventilatory insufficiency initially during rapid eye movement sleep due to selective inhibition of the accessory muscles of breathing. As the weakness progresses abnormalities in ventilation will occur during all stages of sleep and subsequently progress to daytime hypercapnic respiratory failure. Treatment with NIV at night will correct gas exchange and normalise blood gases [5] . Some patients will develop daytime hypercapnia and subsequently require daytime ventilatory support. Prior to commencing daytime ventilatory support it is Best practice to check that the patient is optimally ventilated overnight and using their device for the full period when they are asleep. It is recommended that patients are monitored over night with carbon dioxide (CO 2 ) (measured by arterial blood gas, end tidal CO 2 (EtCO 2 ) or transcutaneous CO 2 (TcCO 2 ) and oximetry.",
+            "cite_spans": [
+                {
+                    "start": 655,
+                    "end": 658,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Goals of the workshop"
+        },
+        {
+            "text": "Adjustments in settings should be carried out in the event of hypercapnia. If on ventilator download the patient is not using the device for long enough, they should be reviewed as to why and a strategy put in place to increase ventilator time. If the patient is normocapnic over-night then daytime ventilatory support might be commenced when indicated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introductory Talks"
+        },
+        {
+            "text": "However, it was discussed that daytime hypercapnia is a late sign for the commencement of daytime ventilatory support. Box 1 shows the criteria that would indicate the provision of daytime ventilation. Figure 2 for options.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 202,
+                    "end": 210,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Introductory Talks"
+        },
+        {
+            "text": "Goncalves led the discussion session on tracheostomy versus non-invasive support for daytime ventilation. The group would like to point out that sometimes the driver for a tracheostomy maybe dependent on what the centre has done historically and whether it was inserted due to an acute episode. In some countries having a tracheostomy leads to provision of round the clock care and in some instances this maybe by a nurse rather than a career. In other countries the insertion of a tracheostomy may lead to living in a care institution rather than independent living. Sometimes the driver for a tracheostomy is when secretions are troublesome and cannot be cleared with effective proximal airway clearance techniques or for the face to be free of a mask. MPV is an alternative to an interface on the face. There have been no randomised studies showing that either technique is superior in terms of survival. The group concluded for best practice that patients should be given a trial of MPV prior to consideration of tracheostomy. In the first instance nocturnal ventilatory support should be optimised and along with proximal airway clearance techniques [6, 7] . If a long-term tracheostomy is indicated then it should be the choice of the patient and not the doctor.",
+            "cite_spans": [
+                {
+                    "start": 1155,
+                    "end": 1158,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1159,
+                    "end": 1161,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Michel Toussaint and Miguel"
+        },
+        {
+            "text": "Peter Wijkstra, presented the mask options should MPV not be possible. He highlighted that a nasal mask and nasal pillows system can be used and that these are smaller options than the full face mask (see Figure 2 ). There is also the possibility to use negative pressure ventilators or a pneumobelt [8] .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 303,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 205,
+                    "end": 213,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Michel Toussaint and Miguel"
+        },
+        {
+            "text": "Miguel Goncalves and Michelle Chatwin presented the preliminary results from the MPV survey that was carried out. The results showed that there was wide variation in the provision of MPV within countries and internationally. Where there was a predominant practice identified this has been incorporated into the workshop algorithm ( Figure 1 ) for the suggested initiation of MPV in patients with NMD's. The workshop lectures and discussions in the next three topics also contributed to the production of Figure 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 332,
+                    "end": 340,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 504,
+                    "end": 512,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Michel Toussaint and Miguel"
+        },
+        {
+            "text": "This topic consisted a discussion about the modes and setting of MPV led by Michel Toussaint and Miguel Gon\u00e7alves. Only some centres offer MPV. It is typically delivered via a volume cycled mode of ventilation [9] set to deliver a tidal volume of greater than 700mls and up to 1500mls [10, 11] without positive expiratory pressure (PEEP), via a mouthpiece or straw supported by a flexible arm/support [10, 12] . However, patients may only have ventilators that have a pressure support or pressure control mode so there may be an indication to use a pressure cycle mode in this instance. There was also debate around whether pressure [9, 13] or volume [11, 14] modes are best and whether PEEP adds benefit.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 213,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 290,
+                    "end": 293,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 401,
+                    "end": 405,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 633,
+                    "end": 636,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 651,
+                    "end": 655,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 656,
+                    "end": 659,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Topic 1: Technicalities of MPV"
+        },
+        {
+            "text": "It was identified that some clinicians maybe concerned about using volume cycled ventilation as it may cause the patient to have a set volume delivered at a high pressure, especially in children. The group highlighted that they knew of no cases of pneumothorax as a result of MPV. Indeed if MPV is delivered in by a volume mode and the breath feels too deep for the patient all they have to do is open their mouth and let the air leak out. Some clinicians will set the device to deliver a large volume to enable the patient to take as much air as they want. The aim of a super-inspiration is to rest the patient so they are able to breathe without support for some breaths prior to requiring another super-inspiration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Topic 1: Technicalities of MPV"
+        },
+        {
+            "text": "Others will set the device to give the tidal volume that the patient requires. There is also the factor of using along with a dedicated MPV mode on a ventilator or a non-dedicated mode to deliver MPV. This means that they use MPV to support every breath rather than, intermittently. Depending on the settings and the aim of MPV there is the potential for the patient to be under ventilated when disconnected from the circuit [15] and therefore patients need to undergo daytime monitoring and re-evaluation of settings. However the group concluded it is possible to deliver MPV in pressure or volume mode but, pressure is the mode of choice in young children. The preference being to start with volume cycled ventilation and this recommendation for best practice has been inserted into Figure 1 .",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 429,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 785,
+                    "end": 793,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Topic 1: Technicalities of MPV"
+        },
+        {
+            "text": "reported there is no consensus around which type of mouthpiece is best or why certain patients prefer one type over another. Some centres advocate custom made supports are best [16] , whilst others are limited to commercially available arms. The key to a successful arm support is that it should move with the patient.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Doug McKim and Michel Toussaint"
+        },
+        {
+            "text": "This means that it is always in the correct position for when they need to have a breath. To facilitate the use of MPV the group recommended that centres without the ability to provide customisation, use commercially available supports. Patients should trial a straw or mouthpiece and be allowed to decide what is best for them. if required further support should be requested from a specialist centre.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Doug McKim and Michel Toussaint"
+        },
+        {
+            "text": "Hughes provided in site to what healthcare professional need to know from the patient and carers perspective. Patients need better anxiety support when starting MPV psychological adjustments are required. This should include signposting to psychology services, other users and advocacy groups as a source of independent encouragement and practical troubleshooting. Regular reviews by the prescriber helps patients to resolve problems before they escalate into a psychosocial barrier. Shared patient/clinician decision-making around the device and accessories is essential. Timings for intervention of MPV should be planned early to help lessen the burden. If a local centre cannot provide the support patients appreciate referral to a home mechanical ventilation centre.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "H\u00e9l\u00e8ne Prigent and Adam Ogna, provided the evidence form bench studies with regard to ventilator, modes for MPV. Home mechanical ventilators are primarily designed to provide ventilation support to patients in stable respiratory conditions, where the respiratory demand of patients, the workload of the ventilator and the resistances of the circuit remain almost stable or change smoothly over time [17] . MPV represents a difficult task for home ventilators, because of the irregular breathing pattern and the rapidly changing load conditions resulting from intermittent disconnection of the circuit [15] . This has been highlighted in studies showing a high burden of alarms during MPV [12] .",
+            "cite_spans": [
+                {
+                    "start": 399,
+                    "end": 403,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 601,
+                    "end": 605,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 688,
+                    "end": 692,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "The latest home ventilators have a pneumatic system based on a turbine and perform volumetric ventilation using an algorithm to adjust the working pressure based on the previous cycles, corresponding to a volume-targeted pressure ventilation. During volumetric MPV, the feedback loop is long, resulting in slow reactivity of the ventilator to changing loads, tidal volume overshoot during circuit disconnection, followed by a down-regulation of the ventilator's working pressure and a lower-than-expected delivered tidal volume in the subsequent cycles [13] . Similar changes can be observed between controlled and assisted ventilatory cycles even without circuit disconnection, with the ventilator adapting slowly to the changing muscular effort performed by the patient. This phenomenon varies significantly between the available ventilators, needing 2 to 6 cycles to stabilize tidal volume, and is particularly evident when a backup respiratory frequency is set [14] .",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 557,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 965,
+                    "end": 969,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "Furthermore, unintentional leaks, which are frequent in MPV, decrease the accuracy of ventilators to estimate the delivered tidal volume [18] [19] [20] potentially magnifying this phenomenon. The use of pressure cycled MPV results in an even larger volume overshoot during circuit disconnection, but reduces the drop in delivered tidal volume at the moment of the circuit reconnection [13] . This can be explained by a shorter feed-back loop, allowing the adjustment of the ventilator working pressure during the ongoing respiratory cycle.",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "Since the feed-back loop does not include the circuit and the patient, this ventilation mode doesn't guarantee a stable tidal volume in the case of changing resistance or compliance of the respiratory system (e.g. in case of airways obstruction due to secretions), potentially exposing dependent patients to a risk of insufficient ventilatory support.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "So, currently available ventilators show differences in their capacity to deal with the rapidly changing respiratory load features that characterize MPV. Therefore, the choice of the ventilator to be used for MPV in a specific patient should contemplate the advantages and limitations of each machine, which also depend on the planned ventilator mode.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "Alarms on ventilators can be a problem. Alarms going off unnecessarily may stop an individual for using this technique. Annalisa Carlucci led on this topic. An important issue is to distinguish intermittent from continuous use of ventilation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "In the non-ventilator dependent patient MPV may be used \"on demand\" with a frequency set to zero. In this case alarms are useless. Recently, the availability of MPV mode on the majority of manufactures allows to set the disconnection and apnoea alarm OFF and lowpressure alarm from 1 to 5 mbar as well as back-up frequency at zero. If MPV \"dedicated\" mode is not available or not applicable, a correct combination between tidal volume and inspiratory time and the choice of the mouthpiece (in term of resistance) may avoid disconnection and low-pressure alarm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "For ventilator-dependent patients, different alarm setting may be considered. In this case disconnection and apnoea alarm may be useful as well as a back-up frequency in very weak ventilator dependent patients (Figure 1) . A rebreathing alarm is useful in the ventilator dependent patient. In some ventilators it is on by default and in others can be set to \"on\". If a rebreathing alarm is not available it is recommended that a single limb with a exhalation valve is used.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 210,
+                    "end": 220,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Johan Chaulet and Wendy"
+        },
+        {
+            "text": "MPV needs to be initiated at the right time in order to maximise success. Josh Benditt presented on the timing of implementation of MPV. Medical society statements about when to commence daytime state when the patient experiences daytime hypercapnia [21] . MPV is recognised as a treatment choice for daytime ventilation. Clinical experts suggest when ventilatory support is greater than 12 hours per day with or without daytime hypercapnia [16] , MPV should be introduced in those that wish to peruse daytime ventilation and can maintain a lip seal [22] and or in those with symptoms of dyspnoea [23] and tachypnoea [23] [24] [25] .",
+            "cite_spans": [
+                {
+                    "start": 250,
+                    "end": 254,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 617,
+                    "end": 621,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 622,
+                    "end": 626,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 627,
+                    "end": 631,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Topic 2: Conditions for success of MPV"
+        },
+        {
+            "text": "The group concluded that the best practice timing for the initiation of MPV should be: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Topic 2: Conditions for success of MPV"
+        },
+        {
+            "text": "Oudenrijn highlighting the education, training, needs for the MPV and carers. Barriers to the provison of MPV have been identified as a lack of knowledge and training [9, 10] . At present there are no protocols, it has been suggested that individualized patient care is needed to successfully apply MPV [26, 27] . This causes issues for centres not familiar in the provision of MPV. Based on these sessions and discussion three documents were formulated to support the ongoing training needs of the MPV user and their team along with a check list for a clinical team providing MPV along with a prescription and equipment information sheet (see online supplement, S1, S2 and S3).",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 170,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 303,
+                    "end": 307,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 308,
+                    "end": 311,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety-risk management potential issues were highlighted by Jesus Gonzalez-Bermejo and Wendy Hughes. This session was followed by Johan Chaulet and Laura Verweij-van den"
+        },
+        {
+            "text": "It has been identified that secretions can affect the success of NIV. Barbara Garabelli provided a presentation on ACT, with a specific focus on MPV. MPV can be used as a proximal ACT [6, 7] . Breath-stacking is typically performed with an resuscitation bag [25] or volume-cycling ventilator [25] . MPV can be set in volume or pressure assist-control mode [25] . Patients can be taught either to have a deep breath in if MPV is in a pressure mode [28] or to breath stack in volume mode. The group concluded that when implementing MPV it is essential to teach how to assist cough by a single deep breath in or breath stacking with MPV in volume mode. When deciding what ventilator is appropriate for MPV you need to assess the ventilator with the chair and ask yourself if it is able to still tilt appropriately with the ventilator and equipment. Does the mouthpiece fix on to the chair or patient and does the support move with the patient? Is there any risk of clamping or loosening or the tubing. Are you able to connect to the wheelchair circuitry the ventilator and other accessories? We also need to remember that the external battery weight increases the ventilator weight. A ventilator backpack also exits for mobile patients to help with those that are mobile.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 187,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 188,
+                    "end": 190,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 356,
+                    "end": 360,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 447,
+                    "end": 451,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Safety-risk management potential issues were highlighted by Jesus Gonzalez-Bermejo and Wendy Hughes. This session was followed by Johan Chaulet and Laura Verweij-van den"
+        },
+        {
+            "text": "H\u00e9l\u00e8ne Prigent and Johan Chaulet presented on MPV in DMD. MPV has been proposed as an alternative NIV method in DMD since the 90's [30] . This technique has been increasingly used over the years to improve NIV tolerance and lengthen NIV duration therefore allowing NIV use for ventilator-dependent patient. This technique has become an integral part of the DMD patient's respiratory management in order to delay, if not completely avoid, tracheostomy ventilation. Patients report positive effect of the technique on dyspnoea and fatigue but they also highlight their preference for this NIV technique as it improves speech and communication [25] . One of the main challenges in the DMD population for MPV use is to ensure a proper and secured access to MPV interface as these patients present severe motor function impairment and cannot hold their mouthpiece.",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 135,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 641,
+                    "end": 645,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Topic 3: The experience (and effects) of MPV in NMD's, acute care and exercise"
+        },
+        {
+            "text": "(ALS). Like many NMD's the ALS patients suffer from progressive respiratory muscle weakness, leading to ventilatory failure and ineffective coughing. However, this is at a significantly faster rate. NIV is recognized as being able to prolong survival, relieve symptoms, avoid hospitalizations and improve quality of life in ALS patients [22] . Like other NMD's, NIV is used during sleep hours, but as respiratory muscles worsens, so does the requirement for ventilatory support. In some patients with ALS MPV is an option. MPV once started can prolong tracheostomy-free survival, up to 9.5 months [22] . However, only 19% ALS patients are able to successfully use MPV [22] . There are two factors that determine the success of the MPV; the presence of an effective assisted cough peak flow (CPF) capable of clearing secretions and the presence of sufficient bulbar function to retain a mouthpiece and achieve an adequate seal around it avoiding air-leaks and allowing an adequate Ventilation. As bulbar function worsens over time, MPV becomes ineffective and can be assessed by the maximum insufflation capacity (MIC) greater than their vital capacity.",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 597,
+                    "end": 601,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Doug McKim and Jesus Sancho prepared a session on MPV in amyotrophic lateral sclerosis"
+        },
+        {
+            "text": "Patients with ALS should be assessed to see whether they will benefit from MPV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Doug McKim and Jesus Sancho prepared a session on MPV in amyotrophic lateral sclerosis"
+        },
+        {
+            "text": "Brit Hov prepared a presentation on MPV in spinal muscular atrophy (SMA). With the introduction of emerging therapies (gene therapy and Nusinersen) the natural history of the disease is changing and whilst MPV may have been used in SMA type II [31] , it may be possible in SMA type I (bulbar function depending). In children who require daytime ventilatory support the advantage of a MPV over having a nasal mask include; prevention of mid facial hypoplasia, prevention or improvement in pectus excavatum. There may also be an impact on self-image with an increased ability to speak in class and participation. It maybe that children are better started in pressure support mode. This maybe because of concerns around barotrauma with volumes. However, volumes may be needed to assist in improving pectus excavatum. MPV is possible in the groups experience in children over the age of 8 years old. However, if a clinician wanted to start in children younger MPV can be trialled. MPV In SMA has also been reported to normalised ABG's [31] . [32] , myotonic dystrophy [32] and limb girdle muscular dystrophy [32] , fascioscapular muscular dystrophy [9] , congenital myopathy [9] , Becker muscular dystrophy [9] , metabolic myopathy [9] , post poliomyelitis [15] , primary adhalinopathy, congenital dystrophies [29] , Pompe's disease [15] and other neuromuscular diseases [9] . Based on the MPV survey use of MPV in other NMD's is common in congenital myopathies (n=60), cervical spine injury (n=46), myotonic dystrophy (n=30). Less commonly but, used in congenital muscular dystrophies and Pompe's disease. The group believes that all patients should be assessed on an individual basis and not be excluded from a trial of MPV due to there being no studies in this patient group.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1031,
+                    "end": 1035,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1064,
+                    "end": 1068,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1104,
+                    "end": 1108,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1145,
+                    "end": 1148,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1171,
+                    "end": 1174,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1203,
+                    "end": 1206,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1228,
+                    "end": 1231,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1253,
+                    "end": 1257,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1306,
+                    "end": 1310,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1329,
+                    "end": 1333,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1367,
+                    "end": 1370,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Doug McKim and Jesus Sancho prepared a session on MPV in amyotrophic lateral sclerosis"
+        },
+        {
+            "text": "Chaulet presented on the effects of MPV on swallowing. In normal individuals, the swallowing process is highly synchronized and the initiation of breathing immediately after swallowing occurs at a higher lung volume and is immediately followed by exhalation. This results in a positive subglottic pressure that is thought to be protective against aspiration [33] . In individuals with diffuse NMD the careful sequencing of swallowing can be lost, and, even in those without bulbar dysfunction, respiratory muscle weakness can lead to swallowing dysfunction likely through inability to develop a positive subglottic pressure [34] . Discoordination of pharyngeal and laryngeal swallowing sequences can occur as well as inhalation rather than exhalation occurring immediately after swallowing which increases the risk for aspiration. Garguilo et al., showed that nasal NIV improved swallowing function in DMD by increasing the number of swallows followed by expiration, reducing swallowing fragmentation and improved dyspnoea during swallow [35] . In a qualitative study of swallowing, subjects reported that MPV improved swallowing compared to spontaneous breathing and that nasal NIV was more difficult that MPV to use during eating [36] .",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 624,
+                    "end": 628,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 831,
+                    "end": 847,
+                    "text": "Garguilo et al.,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1232,
+                    "end": 1236,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "Clinically those using MPV are able to speak more with greater volume, with longer uninterrupted sentences. However, little evidence supports clinical impressions. A recent qualitative study showed that speech volume and duration was improved in patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "However, the need to take a breath was felt to interfere some with fluidity of speech and also when using voice recognition software [37] .",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 137,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "For best practice, when initiating MPV, we should educate pts how to swallow with MPV. In patients where aspiration is a concern an increase the volume delivered prior to deglutition gives when more time to eat and swallow. This may mean that patients need two MPV settings one for eating and one for breathing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "Miguel Gon\u00e7alves presented on MPV in acute care. Whilst there is no evidence for the use of MPV in acute care. MPV can be used to prevent intubation in chronic lung disease [38] .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "MPV can be used in the post extubation phase in a protocolised approach, which also used MPV to assist cough [39] . The group strongly recommends that MPV should be not taken away from any patients that normally use it long term in the critical care environment. A trial of MPV post extubation may prevent the need for tracheostomy in patients with very low vital capacities.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "Miguel Gon\u00e7alves also highlighted that MPV can supporting exercise (walking) in NMD's.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "NIV has been well documented in exercise. MPV has also been used as a tool to increase exercise tolerance in patients with diapragm paralysis [40] . MPV is also possible during walking but the equipment needs to be adapted so that it can be mounted on a walker, wheelchair, trolley or fitted into a back pack. One of the main problems is portability as placing the ventilator is heavy. One other option is to use a resuscitation bag. Patients also may need to use nose clips to ensure that there is no nasal passage leak.",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "Joan Escarrabill presented on MPV and patient reported experience. Survival, health related quality of life, physical activity or hospital admissions are examples of classical tools which primarily evaluate safety and effectiveness. Satisfaction is a subjective construct that is closely linked to expectations. The patient experience goes far beyond satisfaction. Some available tools are more generalizable (surveys) and others are mode descriptive (In-depth interviews, focus groups or patients' panels). At the end, through patient experience evaluation the healthcare organizations aim to identify unmet needs of the patients and to improve care. Measuring patient experience is important not only to guide service improvement, but also because people's experiences may be linked to clinical outcomes and costs [41] .",
+            "cite_spans": [
+                {
+                    "start": 816,
+                    "end": 820,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "Based on the discussions around which patients will benefit from MPV the group concluded that MPV is not specific to a single patient diagnosis but there are prerequisites for MPV to be a success these include the following:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "\uf0b7 Able to reliably retain mouthpiece. This can be assessed by asking the patient to keep their mouth shut and blow out their cheeks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "\uf0b7 Able to perform a maximum insufflation capacity which is greater than their vital capacity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "\uf0b7 Capable of understanding tracheostomy MPV trade-off.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Josh Benditt and Johan"
+        },
+        {
+            "text": "The workshop group identified that ventilator companies need to involve clinicians and patients when developing new technology for the provision of MPV. More commercially available options for arm supports and mouth interfaces are need for those that find customisation difficult. New innovations need to be bench tested to ensure devices reach the desired level of function to ensure they are fit for purpose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Areas for further work"
+        },
+        {
+            "text": "Further work is needed to evaluate the effects of MPV on speech and swallowing and quality of life. As MPV has the potential to stabilise patients for years a registry for patients on MPV is essential. This will provide further incite around timing for MPV for the initiation of MPV and to evaluate the amount of exacerbations patient have.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Areas for further work"
+        },
+        {
+            "text": "Further education is required so that patients can use MPV in the ICU. Either to prevent intubation or to help with successful extubation. Individualised MPV passports may aid in successful provision of therapy inside the critical care environment. Finally, social media and social networks could help patients support each other with MPV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Areas for further work"
+        },
+        {
+            "text": "Clinical experience of local teams seems to be the greatest barrier to individuals been offered MPV. Evidence based resources are a major driver for the provision of therapy in any condition. Where there is a lack of evidence base or publication of best practice therapies are not offered to patients outside that group. This is because clinicians often do not feel comfortable initiating treatment in a patient who they don't know will benefit. Therefore MPV is not offered or quickly discontinued due to a lack of clinical confidence and availability of equipment. Patient limiting factors include; the inability to close their mouth to seal around the interface, not wanting to trial MPV and a lack of available interfaces / equipment. The 252nd ENMC international workshop report provides documents to support best practice for the provision and management of MPV in NMD's.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion:"
+        },
+        {
+            "text": "The authors have no conflict of interest to report in relation to this manuscript. Pre-settings occur before the first trial with MPV when patient is not connected 6 A. Advised MPV mode Volume is 1st choice mode and allows: air-stacking, leaks NIV without untimely leak compensation 6 B. Suggested tidal volume Volume is presented as \"starting value (range)\". For a child, starting values can be 300 mL, for an adult DMD: 500-600mL, for an ALS patient: 1000mL 6 C. Suggested inspiration time Inspiration time is presented as \"starting value (range)\" 6 D. Suggested trigger MPV dedicated trigger is a high sensitive flow interruption trigger, classic flow trigger (high or medium sensitive) is less sensitive 6 E. Evaluation of NIV dependence In many countries in Europe, NIV use >16/24 hours defines NIV-dependence 6 F. Suggested rate Comfortable free time can be estimated as >4-6 consecutive hours without NIV 6 G. Suggested disconnection alarm Apnoea alarms may be set in the very dependent patients (example: alarm after 5 minutes with apnoea) 6 H. Choice interface Choice of the mouthpiece according to patient preference after trial with both pieces 6 I. Choice tubing support Custom support on the shoulders is advised for dependent patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "The trial & titration can be done in a 2 hour session 8. Monitoring during MPV initiation Monitoring at initiation is advised during a 20-30 minutes trial. Primary focus is comfort and the way they breath and less on CO 2 and saturation 9. Pressure mode Pressure mode is not advised as the first choice Pressure mode is possible (ST or PSV) with dedicated mode solely. This mode is sometimes preferred by children.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MPV trial"
+        },
+        {
+            "text": "Pressures can be set at 12-20cmH 2 O according to patient comfort Pressure mode is not adequate when the patient maintain MPV continuously in his mouth Lip seal around MPV is required. Air-stacking is not possible 10. Long-term monitoring Long-term monitoring is highly variable among countries and centre carbon dioxide (CO 2 ), oxygen saturation (SpO 2 ), respiratory rate (RR), work of breathing (WOB).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MPV trial"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Noninvasive ventilation for chest wall and neuromuscular disorders",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shneerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Simonds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "European Respiratory Journal",
+            "volume": "20",
+            "issn": "",
+            "pages": "480--487",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "British Thoracic Society guideline for respiratory management of children with neuromuscular weakness",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hull",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Aniapravan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Thorax",
+            "volume": "67",
+            "issn": "1",
+            "pages": "1--40",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Foundation for Infantile Paralysis-March of Dimes",
+            "authors": [],
+            "year": 1953,
+            "venue": "Round Table Conference on Poliomyelitis Equipment, Roosevelt Hotel, White Plaines",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Intermittent positive pressure ventilation via the mouth as an alternative to tracheostomy for 257 ventilator users",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bach",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alba",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Saporito",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Chest",
+            "volume": "103",
+            "issn": "",
+            "pages": "174--82",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Nocturnal mechanical ventilation for chronic hypoventilation in patients with neuromuscular and chest wall disorders",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Annane",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Orlikowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chevret",
+                    "suffix": ""
+                }
+            ],
+            "year": 1941,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "228th ENMC International Workshop:: Airway clearance techniques in neuromuscular disorders",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chatwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gonzales",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Berlowitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "289--298",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Airway clearance techniques in neuromuscular disorders: A state of the art review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chatwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Goncalves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Respiratory medicine",
+            "volume": "136",
+            "issn": "",
+            "pages": "98--110",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pneumobelt for sleep in the ventilator user: clinical experience",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alba",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Arch Phys Med Rehabil",
+            "volume": "70",
+            "issn": "",
+            "pages": "707--718",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Evaluation of ventilators for mouthpiece ventilation in neuromuscular disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khirani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ramirez",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Delord",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Respir Care",
+            "volume": "59",
+            "issn": "",
+            "pages": "1329--1366",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Mouthpiece ventilation and complementary techniques in patients with neuromuscular disease: A brief clinical review and update",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pinto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chatwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Banfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Winck",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicolini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chron Respir Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "187--193",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "An evaluation of home volume ventilators that support opencircuit mouthpiece ventilation",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Boitano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Benditt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Respir Care",
+            "volume": "50",
+            "issn": "",
+            "pages": "1457--61",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Noninvasive Ventilation for Neuromuscular Disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clinics in chest medicine",
+            "volume": "39",
+            "issn": "",
+            "pages": "437--447",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Accuracy of tidal volume delivered by home mechanical ventilation during mouthpiece ventilation: A bench evaluation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ogna",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prigent",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Falaize",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Chron Respir Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "353--360",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Home ventilator performances with mouthpiece ventilation: Does resistance change effectiveness?",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fiorentino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Esquinas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clin Respir J",
+            "volume": "12",
+            "issn": "",
+            "pages": "1765--1766",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Home monitoring of daytime mouthpiece ventilation effectiveness in patients with neuromuscular disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Orlikowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prigent",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lofaso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Chron Respir Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "67--74",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Diurnal ventilation via mouthpiece: survival in end-stage Duchenne patients",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Steens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wasteels",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Soudon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Eur Respir J",
+            "volume": "28",
+            "issn": "",
+            "pages": "549--55",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Are home ventilators able to guarantee a minimal tidal volume?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fauroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pepin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lofaso",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Louis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Intensive Care Med",
+            "volume": "36",
+            "issn": "",
+            "pages": "1008--1022",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Harms of unintentional leaks during volume targeted pressure support ventilation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khirani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Louis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Delord",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fauroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lofaso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Respiratory medicine",
+            "volume": "107",
+            "issn": "",
+            "pages": "1021--1030",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Effect of dynamic random leaks on the monitoring accuracy of home mechanical ventilators: a bench study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sogo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Montanya",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Monso",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blanch",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pomares",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lujan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "BMC Pulm Med",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The configuration of bi-level ventilator circuits may affect compensation for non-intentional leaks during volume-targeted ventilation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carlucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schreiber",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mattei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Intensive Care Med",
+            "volume": "39",
+            "issn": "",
+            "pages": "59--65",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Respiratory care of the patient with Duchenne muscular dystrophy: ATS consensus statement",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Finder",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Birnkrant",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "170",
+            "issn": "",
+            "pages": "456--65",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Daytime Mouthpiece for Continuous Noninvasive Ventilation in Individuals With Amyotrophic Lateral Sclerosis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bedard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mckim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Respir Care",
+            "volume": "61",
+            "issn": "",
+            "pages": "1341--1349",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Twenty-four hour noninvasive ventilation in Duchenne muscular dystrophy: a safe alternative to tracheostomy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mckim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Griller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leblanc",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Woolnough",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Can Respir J",
+            "volume": "20",
+            "issn": "",
+            "pages": "5--9",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Noninvasive Respiratory Management of Patients With Neuromuscular Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ann Rehabil Med",
+            "volume": "41",
+            "issn": "",
+            "pages": "519--538",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Open circuit mouthpiece ventilation: Concise clinical review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Garuti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Grecchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lusuardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Winck",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Rev Port Pneumol",
+            "volume": "20",
+            "issn": "",
+            "pages": "211--219",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Tidal volume during mouthpiece non-invasive home ventilation: When the choice is the right answer",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fiorentino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Esquinas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Chron Respir Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "383--384",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Mouthpiece ventilation: Individualized patient care is the key to success",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ogna",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lofaso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Chron Respir Dis",
+            "volume": "13",
+            "issn": "",
+            "pages": "385--386",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "On sleep and an apparatus for promoting artificial respiration",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dalziel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Br Assoc Advancement Sci",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Preference of neuromuscular patients regarding equipment for daytime mouthpiece ventilation: A randomized crossover study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chatwin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Verhulst",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Reychler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Respir J",
+            "volume": "14",
+            "issn": "",
+            "pages": "214--221",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Management of end stage respiratory failure in Duchenne muscular dystrophy",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bach",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "O&apos;brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Krotenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alba",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Muscle Nerve",
+            "volume": "10",
+            "issn": "",
+            "pages": "177--82",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Intermittent daytime mouthpiece ventilation successfully augments nocturnal non-invasive ventilation, controlling ventilatory failure and maintaining patient independence",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ford",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ashcroft",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Parker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMJ Case Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Mouthpiece Ventilation in Patients with Neuromuscular Disease: A Brief Clinical Review",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Garuti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Physical Medicine and Rehabilitation -International",
+            "volume": "1",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Lung volume effects on pharyngeal swallowing physiology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gross",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Atwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jr",
+                    "middle": [],
+                    "last": "Grayhack",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shaiman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "J Appl Physiol",
+            "volume": "95",
+            "issn": "",
+            "pages": "2211--2218",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Breathing-swallowing interaction in neuromuscular patients: a physiological evaluation",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Terzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Orlikowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Aegerter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "175",
+            "issn": "",
+            "pages": "269--76",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Noninvasive Mechanical Ventilation Improves Breathing-Swallowing Interaction of Ventilator Dependent Neuromuscular Patients: A Prospective Crossover Study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Garguilo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lejaille",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Vaugier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS One",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Swallowing with Noninvasive Positive-Pressure Ventilation (NPPV) in Individuals with Muscular Dystrophy: A Qualitative Analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Britton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hoit",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Benditt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Dysphagia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Experiences of Speaking With Noninvasive Positive Pressure Ventilation: A Qualitative Investigation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Britton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hoit",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pullen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Benditt",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Baylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yorkston",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Noninvasive ventilation using a mouthpiece in patients with chronic obstructive pulmonary disease and acute respiratory failure",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Glerant",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Oltean",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dayen",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mayeux",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Jounieaux",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Respiration",
+            "volume": "74",
+            "issn": "",
+            "pages": "632--641",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Extubation of patients with neuromuscular weakness: a new management paradigm",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gon\u00e7alves",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hamdani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Winck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Chest",
+            "volume": "137",
+            "issn": "",
+            "pages": "1033--1042",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Increased exercise tolerance using daytime mouthpiece ventilation for patients with diaphragm paralysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Koopman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vanfleteren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Steijns",
+                    "suffix": ""
+                },
+                {
+                    "first": "Efm",
+                    "middle": [],
+                    "last": "Wouters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sprooten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Breathe (Sheff)",
+            "volume": "13",
+            "issn": "",
+            "pages": "225--229",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The patient experience and health outcomes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Manary",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Boulding",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Staelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Glickman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "N Engl J Med",
+            "volume": "368",
+            "issn": "",
+            "pages": "201--204",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "a welcome from Alexandra Breukel, ENMC director, and the chairpersons of the workshop, Michelle Chatwin, Michel Toussaint, Miguel Gon\u00e7alves and Jesus Gonzalez-Bermejo. Michelle Chatwin and Michel Toussaint gave an overview of the meeting program",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Using mask ventilation for \u2265 12 hours/day. \uf0b7 Daytime hypercapnia with nocturnal normocapnia. \uf0b7 When dyspnoea is relieved by ventilatory support. \uf0b7 To increase voice volume \uf0b7 To improve cough strength outside the home (i.e. when a mechanical insufflationexsufflation device is unavailable) Miguel Gon\u00e7alves and Jesus Gonzalez-Bermejo, presented on the topic of monitoring for initiation of MPV and long-term use of MPV. Nardi et al.,[15] using daytime polygraphy at home showed patients may unknowingly under ventilate themselves, despite not having any symptoms. Not only is hypoventilation an issue with MPV but also hyperventilation can occur with MPV. SeeFigure 3for a suggested algorithm for monitoring patients with MPV.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Audag presented on the technicalities of the wheelchair and ventilator and external batteries. The wheelchair must be able to accommodate a strong and safe system for the ventilator and a fastening solution to ensure that the tubing/circuit/arm and the mouthpiece will be held in place. The main objectives are comfort, safety, battery life and manoeuvrability for the patients and their caregivers.Recently, ventilator companies developed a ventilator mode specially dedicated for MPV with dedicated arms and circuits without expiratory valve allowing the patient to exhale outside the mouthpiece[29]. Another advantage of this arms and circuits is the practicality to support and hold the mouthpiece in perfect position and easiest way to adapt it to a wheelchair. Nowadays the ventilator industries provide us life support ventilators with 8 hour battery, and the possibility of external batteries providing battery life up to 16 hours.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "MPV in other NMD's. When looking to the literature there is very little evidence of the use of MPV in other NMD's. Studies have shown MPV to be used in acid maltase deficiency",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Figure 1",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "shows the best practice algorithm for the initiation of mouthpiece ventilation (MPV) in the long-term setting. For each stage of the algorithm there is a description to assist in the provision of this service.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Noninvasive ventilation (NIV), arterial carbon dioxide (PaCO 2 ), oxygen saturation (SpO 2 ), forced vital capacity (FVC), positive end expiratory pressure (PEEP)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Figure 2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "shows five photographs, the left hand shows a patient with a nasal mask (Dreamwear, Phillips Respironics, Murrysville, PA, USA). The second left photograph shows the patient using a nasal mask (AirFit N30i ResMed, San Diego, CA, USA) The center photograph shows the patient using a nasal pillows interface (Swift Lt, ResMed, San Diego, CA, USA). The two right hand photographs show the same patient using mouthpiece ventilation with a mouthpiece (left) and straw (right) (Phillips Respironics, Murrysville, PA, USA).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Figure 3",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "shows the suggested algorithm for monitoring during the initial and follow up of patients with mouthpiece ventilation. Depending on the identified problem is a suggested solution.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Box 1: Indications for a trial of MPV Peter Wijkstra and Laura Verweij, highlighted the difference between night time and daytime ventilatory support. Patients are asleep when using nigh-time ventilation and lying down. During sleep there is decreased ventilator autonomy and their ventilatory support needs to capture this. In the day patients are awake, moving around, eating, drinking, socialising and coughing, leading to a different ventilation requirement highlighted by different daytime and night-time settings. The daytime ventilator needs to be portable and easily adapted to fit on to the wheelchair with good battery provision. With regards to the \uf0b7 Vital capacity < 30% predicted \uf0b7 Mask ventilation \u2265 12 hours/day \uf0b7 Dyspnoea >2.5 on the Borg scale which is relieved by ventilatory support \uf0b7 Weight loss \uf0b7 Breathlessness eating \uf0b7 Breathlessness with talking and / or loss of voice strength \uf0b7 Weaning from invasive ventilation \uf0b7 Adaptation to any NIV \uf0b7 Daytime hypercapnia, with normal overnight gas exchange on NIV \uf0b7 Atelectasis daytime interface it is usual to have a mask or although in some cases a tracheostomy. With mask ventilation the interface needs to be less in order to facilitate speech, swallowing and social interaction. See",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Scheduled visit to NIV centre Timing to visit the reference centre between 3-12 months according to disease progression 2. Screening MPV The screening is first based on symptoms (dyspnea), then PaCO 2 and SpO 2 , speed progression and severe drop in FVC 3. Indication MPV Timing for the choice of the ventilator (ideally with a dedicated MPV software) 4. Psychological and educational preparation This step includes the psychological preparation + the demonstration of the material + explanations on the impact of MPV: social impact, facilitating eating, speaking, protecting respiratory progression, etc.) 5. Choices material/settings: A similar tubing is desirable for night and daytime 5 A. Choice MPV tubing A passive tubing include a single tubing, active tubing includes an exhalation valve 5 B. Choice MPV dedicated A dedicated mode includes the availability of: PEEP at 0, high sensitive trigger via flow interruption, rate at 0, all alarms OFF 6. Pre-settings MPV",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

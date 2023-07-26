@@ -1,0 +1,1494 @@
+{
+    "paper_id": "00dafa9061b06d37f3f3d4c7f8453e87715add19",
+    "metadata": {
+        "title": "Seroprevalence of anti-SARS-CoV-2 antibodies in Iquitos, Peru in July and August, 2020: a population-based study",
+        "authors": [
+            {
+                "first": "Antonio",
+                "middle": [
+                    "M"
+                ],
+                "last": "Quispe",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Ingenier\u00eda y Tecnolog\u00eda",
+                    "location": {
+                        "postCode": "15063",
+                        "settlement": "Lima",
+                        "country": "Peru"
+                    }
+                },
+                "email": "aquispeg@utec.edu.pe"
+            },
+            {
+                "first": "Carlos",
+                "middle": [],
+                "last": "\u00c1lvarez-Antonio",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Graciela",
+                "middle": [],
+                "last": "Meza-S\u00e1nchez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carlos",
+                "middle": [],
+                "last": "Calampa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wilma",
+                "middle": [],
+                "last": "Casanova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Cristiam",
+                "middle": [],
+                "last": "Carey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Freddy",
+                "middle": [],
+                "last": "Alava",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hugo",
+                "middle": [],
+                "last": "Rodr\u00edguez-Ferrucci",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background Detection of anti-SARS-CoV-2 antibodies among people at risk of infection is crucial for understanding both the past transmission of COVID-19 and vulnerability of the population to continuing transmission and, when done serially, the intensity of ongoing transmission over an interval in a community. We aimed to estimate the seroprevalence of COVID-19 in a representative population-based cohort in Iquitos, one of the regions with the highest mortality rates from COVID-19 in Peru, where a devastating number of cases occurred in March, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We did a population-based study of SARS-CoV-2 transmission in Iquitos at two timepoints: July 13-18, 2020 (baseline), and Aug 13-18, 2020 (1-month follow-up). We obtained a geographically stratified representative sample of the city population using the 2017 census data, which was updated on Jan 20, 2020. We included people who were inhabitants of Iquitos since COVID-19 was identified in Peru (March 6, 2020) or earlier. We excluded people living in institutions, people receiving any pharmacological treatment for COVID-19, people with any contraindication for phlebotomy, and health workers or individuals living with an active health worker. We tested each participant for IgG and IgM anti-SARS-CoV-2 antibodies using the COVID-19 IgG/IgM Rapid Test (Zhejiang Orient Gene Biotech, China). We used survey analysis methods to estimate seroprevalence accounting for the sampling design effect and test performance characteristics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Findings We identified 726 eligible individuals and enrolled a total of 716 participants (99%), distributed across 40 strata (four districts, two sexes, and five age groups). We excluded ten individuals who: did not have consent from a parent or legal representative (n=3), had moved to Iquitos after March 6, 2020 (n=3), were in transit (n=2), or had respiratory symptoms (n=1). After adjusting for the study sampling effects and sensitivity and specificity of the test, we estimated a seroprevalence of 70% (95% CI 67-73) at baseline and 66% (95% CI 62-70) at 1 month of follow-up, with a test-retest positivity of 65% (95% CI 61-68), and an incidence of new exposures of 2% (95% CI 1-3). We observed significant differences in the seroprevalence between age groups, with participants aged 18-29 years having lower seroprevalence than those aged younger than 12 years (prevalence ratio 0\u00b785 [95% CI 0\u00b773-0\u00b798]; p=0\u00b7029).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Interpretation After the first epidemic peak, Iquitos had one of the highest rates of seroprevalence of anti-SARS-CoV-2 antibodies worldwide. Nevertheless, the city experienced a second wave starting in January, 2021, probably due to the emergence of the SARS-CoV-2 P1 variant, which has shown higher transmissibility and reinfection rates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "COVID-19 was first recognised in Peru in March, 2020, 1 and caused more than 90 000 deaths with more than 1 million confirmed infections by Aug 15, 2020, with presumably millions more infected but undetected. 2 One component of an effective public health response to the pandemic is determining what proportion of the population remains susceptible and immune to the virus and assessing the duration of protection; these questions are best answered through seroprevalence surveys. 3 The presence of anti-SARS-CoV-2 antibodies indicates previous exposure 4 and most of these individuals are protected against reinfection, with very few reported exceptions. 5 SARS-CoV-2 infections are either symptomatic, presymptomatic, or asymptomatic; asymptomatic individuals have similar viral loads to those who are symptomatic 6 and have a considerable role in transmission of the disease. 7 Without symptoms, most asymptomatic infections are not detected, except in seroprevalence studies. Nevertheless, seroprevalence estimates vary widely depending on country and risk groups. For example, some states such as San Francisco in the USA reported seroprevalence as low as 0\u00b726%, 8 Wuhan, China had 3\u00b72-3\u00b78%, 9 Switzerland had 11%, 10 New York City, NY, USA had 19%, 11 and more recently the highest was reported in Manaus, Brazil, with 55\u00b71-61\u00b74%. 12 In Peru, preliminary results from two sero prevalence studies have been reported: one study done in July, 2020, reported a seroprevalence of 29\u00b77% in the region of Lambayeque; 13 and another done in December, 2020, found a seroprevalence of 39\u00b73% in the regions of Lima and Callao using population-based sampling techniques. 14 We aimed to estimate SARS-CoV-2 seroprevalence in Iquitos, Peru, one of the first and hardest-hit cities in the country during the pandemic. In Iquitos, over two-thirds of the total excess deaths occurred during 1 month (April 19-May 18, 2020), including the deaths of 23 physicians, and the health-care system faced collapse due to the shortage of medical oxygen, health-care staff, and hospital beds. 15 Iquitos is a city of about 467 000 inhabitants, located in the region of Loreto in northeast Peru (appendix 2). The city has four districts, San Juan to the south, Belen to the east, Punchana to the north, and Iquitos in the centre. 16 As with most Peruvian Amazonian cities, Iquitos is accessible from the coast only, by air or by boat, and is situated 120 m above sea level at the confluence of the Amazon, Itaya, and Nanay rivers. The climate is tropical rainforest, with daily temperatures of 22\u00b70-32\u00b72\u00b0C; the coldest months are typically June and July (21\u00b70-31\u00b71\u00b0C), and the warmest months are October-December (mean 26\u00b72\u00b0C [range 22\u00b75-33\u00b71\u00b0C]). The mean annual precipitation is 3\u00b76 m; the rainiest months are typically December-May. According to the latest census, Iquitos is among Peru's poorest regions, with more than 60% of Iquitos's population classified either as poor or extremely poor. The region's principal industries are oil, tourism, agriculture, fishing, and lumber. Iquitos's health-care infrastructure includes one military clinic, one military hospital, three public hospitals, and nine public clinics located in Iquitos's urban areas. Most of Iquitos is urban, with several surrounding small communities considered rural if their total population is less than 2000 residents, by Peruvian Government census definition. The Peruvian Government is currently providing full coverage for COVID-19 health care, so these patients receive medical attention free of charge. The regions have had an autochthonous transmission of all four distinct dengue virus serotypes since 1990, with serotype 2 currently the most predominant. 16 Yellow fever is endemic in the region, 17 and Zika virus was introduced into Iquitos in late 2016. 18 This study was done by the Directorate of Epidemiology, Executive Directorate of Prevention and Control of Diseases, and Regional Directorate of Health of Loreto, following the public health emergency in April and May, 2020, when more than 1000 Iquitos residents, including more than 50 health workers, died during the first wave of the pandemic. We aimed to assess seroprevalence to help inform decision making and mitigate the further impact of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 54,
+                    "end": 55,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 209,
+                    "end": 210,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 481,
+                    "end": 482,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 554,
+                    "end": 555,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 656,
+                    "end": 657,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 816,
+                    "end": 817,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 879,
+                    "end": 880,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1168,
+                    "end": 1169,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1197,
+                    "end": 1198,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1220,
+                    "end": 1222,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1255,
+                    "end": 1257,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1337,
+                    "end": 1339,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1516,
+                    "end": 1518,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1665,
+                    "end": 1667,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2071,
+                    "end": 2073,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2307,
+                    "end": 2309,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3717,
+                    "end": 3719,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 3759,
+                    "end": 3761,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 3819,
+                    "end": 3821,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We did a population-based 3-month cohort study in July-September, 2020, of a geographically stratified population sample across Iquitos. We obtained a representative sample of the Iquitos population using the 2017 census data, which the Ministry of Health of Peru",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "Evidence before this study The COVID-19 pandemic represents a major health crisis worldwide, with each country facing limitations in implementing COVID-19 relief efforts. Most countries are progressing towards their second or third waves of COVID-19, and Peru has one of the highest numbers of excess deaths and mortality after facing one of the most lethal first waves in the world. Across the country, one of the most affected areas was Iquitos, which faced the collapse of its health system in the space of a few weeks. Official statistics suggest that a sizeable population of asymptomatic, non-care-seeking individuals with infection were not detected by the regional surveillance system. By not accounting for these infections, the official estimates of the COVID-19 burden are underestimated. In the absence of a vaccine, the probability of a second wave or third wave depends on the protective herd immunity conferred by how many of the population have already been infected and the duration of such immunity. Hence, it became crucial to assess the COVID-19 seroprevalence in Iquitos, which we aimed to do in this study. At the time of study conception in June, 2020, the highest seroprevalence was reported by New York City, NY, USA, which reported a seroprevalence of 19%. Since then, many studies in other countries have reported seroprevalence estimates ranging from 0\u00b73% to 61\u00b74%, but none have exceeded the presumed herd immunity threshold of about 70%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "We found that in Iquitos, the adjusted seroprevalence of anti-SARS-CoV-2 IgG and IgM antibodies was approximately 70% in July, 2020. Because the study was designed to obtain a representative sample from the inhabitants of Iquitos, we observed differences across age groups, which is consistent with the literature. Moreover, it is notable that we observed significantly higher seroprevalence among children aged younger than 12 years than among adults aged 30-59 years, despite school closures and strictly mandated restrictions on social gatherings during the study period. Furthermore, we observed that COVID-19 seroprevalence among children aged younger than 12 years in Iquitos was as high as that among adults aged older than 60 years.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Added value of this study"
+        },
+        {
+            "text": "To our knowledge, these findings from Iquitos show one of the highest seroprevalences of COVID-19 in the world. The evidence suggests that the vast majority of the inhabitants of Iquitos had been infected with COVID-19 by July, 2020. However, the transmission did appear to continue at a low level, as seen by a slight increase in seroprevalence in the test-retest findings, and such a high seroprevalence did not prevent a second wave driven by a more dangerous variant of the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "See Online for appendix 2 updated on Jan 20, 2020, for vaccination purposes. This information includes detailed maps with the limits of each of the four levels considered in our sampling procedure, including four districts, 40 sectors, 2500 blocks of households, and 90 354 house holds. We aimed to obtain a representative sample of the population of each of the four districts, five age groups, and two sexes of interest, so we weighted the sample by district, sex, and age group. In each district, we sampled each sector, and in each sector, we selected random households. In each household, we aimed to identify an individual of a specific age group and sex. If participants were not available, we moved to the next nearby household from right to left until we found an eligible individual. We invited eligible individuals to participate, and all those who gave their informed consent were surveyed. We attempted to screen each of the cohort participants during the first week of each month for 3 consecutive months, July, August, and September. Additionally, we reported the regional excess death counts reported by the Peru National Death Registry Information System (SINADEF) to contextualise the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "We included people who were inhabitants of Iquitos since COVID-19 was identified in Peru (March 6, 2020) or earlier. Exclusion criteria were: people who were living in institutions (eg, nursing homes, prisons, or boarding schools); people receiving any pharmacological treatment proposed for COVID-19 (eg, hydroxychloroquine, ivermectin, or azithromycin); people with any contraindication for phlebotomy (eg, cellulitis or abscess, venous fibrosis on palpation, presence of haematoma, vascular shunt or graft, or a vascular access device); and health workers or individuals living with an active health worker.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "The study was approved by the hospital health network institutional scientific committee and institutional review board of the Loreto Regional Hospital, Iquitos. Written informed consent was obtained from all adult participants and from the parents or a legal representative of all children aged younger than 18 years. Also, written assent was provided by children aged 13-17 years. Participants' data were coded to protect their identity. Study forms and codes were protected and handled only by the study researchers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications of all the available evidence"
+        },
+        {
+            "text": "Study personnel visited each household and invited eligible individuals to participate. After consent had been obtained, participants were interviewed by study personnel using the standardised Ministry of Health epidemiological investigation forms. To detect IgG and IgM anti-SARS-CoV-2 antibodies, we used the COVID-19 IgG/IgM Rapid Test Cassette (Zhejiang Orient Gene, Biotech, China) on capillary blood samples obtained by fingerprick. Test results were provided to each participant on site with instructions about how to proceed if the result was negative or positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "The COVID-19 IgG/IgM Rapid Test Cassette is an immunochromatographic assay that uses SARS-COV-2 antigen-coated particles to detect IgG and IgM antibodies in whole blood qualitatively, capillary blood, serum, and plasma. Following the manufacturer's instructions, we waited 10 min to read the test results and verified that the first band (control) was observed, indicating that the test was performed properly. This test has been independently evaluated by Delli\u00e8re and colleagues, 19 who reported a sensitivity of 95\u00b78% (95% CI 89\u00b76-98\u00b78) and a specificity of 100\u00b70% (93\u00b74-100\u00b70) for COVID-19 seroprevalence. The first read was done by the study personnel on site. The second and, if needed, third reads were done centrally using high-quality digital images of the test result taken on site immediately after the first read. We did a quality control double read and used a third independent interpretation to resolve any disagreement between the first two readers. Here we report results from baseline (July 13-18, 2020) and the 1-month followup (Aug 13-18, 2020). Data from September, 2020, will not be published due to difficulties in completing the second follow-up. The baseline assessment was done 2 months after the Iquitos epidemic curve peak (figure 1).",
+            "cite_spans": [
+                {
+                    "start": 482,
+                    "end": 484,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "The minimum sample size was determined for an underlying crude SARS-CoV-2 seroprevalence of 18% or higher during the study period. Sampling effects were calculated to weight for the district population and population distribution by sex and age groups (<12 years, 12-17 years, 18-29 years, 30-59 years, and \u226560 years). The sample size was approximately 400 participants to estimate a seroprevalence of 18% with a precision of plus or minus 2\u00b75% (50% relative error) at the 95% confidence level. In anticipation of a 20% response rate, 20% loss to follow-up, and 20% missing values, the minimum sample size increased to 692 participants. On the basis of this estimate, we decided to enrol 726 participants, to account for a 5% loss of information due to contingencies such as robberies, assaults, or similar. Blue shaded areas represent the periods during which we did the study baseline and 1-month follow-up assessments. Death counts only include those reported as non-violent death due to any cause, which during the pandemic was reported as the most robust and most reliable signal to track the COVID-19 epidemic in Peru. We did a descriptive analysis summarising each participant's demographics and clinical history with absolute and relative frequencies if categorical and with mean and SD if continuous. We used Student's t test for mean comparisons and Fisher's exact test for proportion comparisons between those who tested seropositive versus those who tested seronegative. Then, we estimated the seroprevalence using a two-step process. First, we estimated the seroprevalence by accounting for the survey sampling weights using STATA survey (svy) commands and, second, we adjusted these estimates to account for the reported sensitivity (95\u00b78%) and specificity (100\u00b70%) of the test using the diagnostic (diagti) command. Finally, we explored factors associated with three outcomes of interest: COVID-19 seropositivity (defined as positive test result at baseline), test-retest positivity (defined as positive at baseline and positive at the 1-month follow-up), and incidence of new COVID-19 exposure (defined as negative at baseline and positive at the 1-month follow-up). For all outcomes, we estimated the prevalence ratio as the magnitude of association of interest using log-binomial regression models with robust variance and 95% CI. We did all statistical analyses using STATA/MP version 14.0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The funder of the study had no role in study design, data collection, data analysis, data interpretation, or writing of the report.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the funding source"
+        },
+        {
+            "text": "We identified 726 eligible individuals and enrolled a total of 716 participants (99%), distributed across 40 strata (four districts, two sexes, and five age groups). We excluded ten individuals who: did not have consent from a parent or legal representative (n=3), had moved to Iquitos after March 6, 2020 (n=3), were in transit (n=2), or had respiratory symptoms (n=1; we referred this patient to the regional hospital where they were further evaluated and tested negative for COVID-19).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The mean age was 29\u00b72 years (range 0\u00b73-89\u00b70). Most participants were women (51%), from San Juan (42%) or Iquitos (37%) districts, and lived in urban areas (87%). Most patients did not report any history of previous medical conditions (86%), but the following were reported: cardiovascular diseases (6%), diabetes (3%), chronic respiratory diseases (2%), obesity (1%), and kidney disease (1%). The sample also included four pregnant women and one participant with Down syndrome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "At baseline, 528 (74%) of 716 participants were seropositive for either IgM (n=50 [7%]) or IgG (n=526 [74%]) anti-SARS-CoV-2 antibodies (table 1) . After adjusting for the study sampling effects and the independently reported sensitivity and specificity of the rapid test, we estimated a seroprevalence of 70% (95% CI 67-73) at baseline. At the 1-month follow-up, 422 (68%) of 621 participants were seropositive for either IgM (n=43 [7%]) or IgG (n=379 [61%]) anti-SARS-CoV-2 antibodies, and we estimated an adjusted seroprevalence of 66% (95% CI 62-70).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 145,
+                    "text": "(table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Overall, at baseline, we observed that the seroprevalence in Iquitos varied significantly across age groups. Specifically, the adjusted seroprevalence was highest among participants from the oldest and youngest age groups, meaning those aged 60 years or older (74% [95% CI 60-85]) and those younger than 12 years (70% [63-77]), and lowest among participants aged 18-29 years (54% [45-60]). We did not observe significant differences by district, sex, or urban versus rural areas (table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 479,
+                    "end": 488,
+                    "text": "(table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the test-retest analysis of the 621 participants (87%) who completed the 1-month follow-up, after adjusting for the study sampling effects and the sensitivity and specificity of the test, we estimated a COVID-19 testretest positivity of 65% (95% CI 61-68) and an incidence of new COVID-19 exposures of 2% (95% CI 1-3; figure 2 ). Note that although there was similar seropositivity at both baseline and the 1-month follow-up (74% vs 68%), a substantial proportion of the participants who tested positive for IgG at baseline tested negative at the 1-month follow-up (about 28% of the total cohort).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 321,
+                    "end": 329,
+                    "text": "figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the associated factors regression analysis, at baseline, we observed that COVID-19 seroprevalence was Data are n (%) or % (95% CI). Baseline assessments were done during July 13-18, 2020, and the 1-month follow-up assessments were done during Aug 13-18, 2020. *Adjusted seroprevalence estimated considering sample effects and the independent estimate of the sensitivity (95\u00b78%) and specificity (100\u00b70%) of the diagnostic test. ; table 2) . Similarly, we observed that among those who completed the 1-month follow-up, the test-retest positivity was associated with age, with participants aged 18-29 years having significantly lower test-retest positivity than those aged younger than 12 years (PR 0\u00b771, 95% CI 0\u00b758-0\u00b788; p=0\u00b7002). Additionally, we observed that among those who completed the 1-month follow-up, the incidence of new COVID-19 exposures was lower in participants living in urban areas than those living in rural areas (PR 0\u00b721, 0\u00b707-0\u00b768; p=0\u00b7009). We attempted to progress to multivariable regression analysis, but Akaike information criteria suggested that we keep the first-order models at each regression.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 430,
+                    "end": 440,
+                    "text": "; table 2)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Our findings from this population-based cohort study indicate that the seroprevalence of IgG or IgM anti-SARS-CoV-2 antibodies was approximately 70% in Iquitos in July, 2020. Because the study was designed to obtain a representative sample from Iquitos inhabitants, we observed differences across age groups consistent with the literature. Notably, we observed significantly higher seroprevalence among children aged younger than 12 years than among adults aged 18-29 years, despite school closures and strictly mandated restrictions on social gatherings during the study period. Furthermore, we found that seroprevalence for COVID-19 among children aged younger than 12 years was as high as that among adults aged 60 years or older. To our knowledge, our study describes one of the highest seroprevalences of COVID-19 in the world. Previously, high seroprevalence estimates were reported in Mumbai, India, and Manaus, Brazil. In Mumbai, between June 29 and July 19, 2020, local researchers reported a seroprevalence of between 55\u00b71% and 61\u00b74% using a population-based sample. 20 In Manaus, using blood donor samples, researchers reported a seroprevalence of between 44% and 66% in July, 2020. 12 In other areas, population-based studies have reported lower estimates, and a wide range of seroprevalence estimates across cities, including 0-25\u00b74% in Brazil, 21 and 1\u00b72-14\u00b74% in Spain. 22 With a population of around 426 000, Iquitos was one of Peru's cities that were hit hardest by the COVID-19 pandemic. At the peak of the COVID-19 epidemic in Iquitos, in the first week of May, 2020, the regional authorities declared a major health crisis with more than 100 deaths per day, which totalled around 2500 registered deaths either confirmed (about 1200) or suspected (about 1300) and many more deaths of indigenous people who had traditional unregistered burials. Despite government efforts, hospitals became overwhelmed, and medical oxygen shortages contributed largely to these deaths. The tragic news reports gave us a sense of the magnitude of the humanitarian crisis in Iquitos. Known as the world's largest city that cannot be reached by road, Iquitos suffered a COVID-19 epidemic of catastrophic proportions, but there was imprecision in exact case counts and incomplete death attribution. Our study estimates show that most Iquitos inhabitants were infected with COVID-19 before our baseline measure in July, 2020. However, transmission did appear to continue at a low level, as seen by a slight increase in seroprevalence in the test-retest findings. Despite such high seropreva lence, both Iquitos and Manaus have experienced second waves starting in January, 2021, probably due to the emergence of the SARS-CoV-2 P1 variant in Manaus, which has shown higher transmissibility and reinfection rates. 23 We found no differences in seroprevalence between women and men, between districts, or between those living in rural or urban areas of Iquitos. However, it is essential to note that many small rural communities surround Iquitos, and that we did not measure how high the sero prevalence is across the rural areas of Loreto. By contrast to seroprevalence estimates reported previously, we observed the highest SARS-CoV-2 seroprevalence among children, teenagers, and adults aged 60 years or older, and the lowest seroprevalence among adults aged 18-59 years. This observation seems counterintuitive given that children in most similar studies had lower prevalence presenting with lower nasal gene expression of angiotensin-converting enzyme 2. 24 A possible explanation for these findings is that, since Iquitos is one of the poorest cities in Peru, most citizens do not have potable water and sanitation, and only a tiny fraction have the means to preserve their food refrigerated. These scarce resources mean that most families need to trade or buy food daily, which exposes children to the community to a greater extent than in different social contexts. This point is particularly relevant because, in mid-May, 2020, the Peruvian Ministry of Health did a series of surveillance studies on the country's largest markets using the same test used in our study, and found a SARS-CoV-2 seroprevalence of 99\u00b79% among the sellers at the Belen market.",
+            "cite_spans": [
+                {
+                    "start": 1077,
+                    "end": 1079,
+                    "text": "20",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1194,
+                    "end": 1196,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1358,
+                    "end": 1360,
+                    "text": "21",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1385,
+                    "end": 1387,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 2808,
+                    "end": 2810,
+                    "text": "23",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Seroprevalence studies are essential to estimate the number of COVID-19 infections, mainly because of the high numbers of asymptomatic and presymptomatic individuals that often do not undergo testing. 25 For example, in the USA, it was reported that the estimated number of total COVID-19 infections ranged from six to 24 times the number of confirmed cases, after accounting for the asymptomatic and presymptomatic individuals that do not undergo testing. 26 Furthermore, seroprevalence studies are becoming essential to assess the risk of second and third waves of COVID-19 in all countries. For example, in mid-August, 2020, it was estimated that the pooled seroprevalence of SARS-CoV-2 antibodies at a global level was 3\u00b738% (95% CI 3\u00b705-3\u00b772), with Latin America having just 1\u00b745% (0\u00b795-1\u00b794). 27 These estimates meant that the risk of a second and third wave, in the absence of a vaccine, remained high, and given the marked variability of SARS-CoV-2 seroprevalence among and within geographical regions, such waves would be likely to vary substantially.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 203,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 457,
+                    "end": 459,
+                    "text": "26",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 799,
+                    "end": 801,
+                    "text": "27",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The key strength of our study is the random selection of households from the Iquitos census (updated on Jan 20, 2020), which allowed us to obtain a representative sample of Iquitos inhabitants and prevent selection bias. Furthermore, the study might be overpowered because the high seroprevalence was four times higher than expected and included several data quality control methods, including a test previously used 22 and properly validated for seroprevalence studies, 19 double test result reading, and double data entry to prevent information bias. Even though 13% of participants were lost to attrition at the 1-month follow-up, all four districts were adequately represented in our study. Regardless, we adjusted our estimates by the sampling effect and the imperfect diagnostic test results and did multivariable regression analysis to minimise confounding bias. Participation rates were slightly lower in rural areas, but this was compensated by the high seroprevalence observed across all Iquitos regions. Additionally, it is important to highlight that the diagnostic certainty of the test was assessed only among symptomatic patients, 19 so its sensitivity might be lower among asymptomatic patients. Our analysis only detected IgM and IgG antibodies, but the extent of the immunity these antibodies provide is uncertain, with cellular immunity also having a part in protecting against SARS-CoV-2 reinfection. 28 Furthermore, we observed a decrease, although small, in the proportion of people with antibodies after 1 month of follow-up. Similar findings have been reported previously as a problematic characteristic of the weak humoral protection conferred by previous SARS-CoV-2 exposure and a natural decline in the sensitivity of rapid tests for COVID-19 over time. 29 During the first wave of COVID-19, Latin America became the epicentre of the pandemic, with Brazil and Peru as the worst-case scenarios, despite their different control approaches. While Brazil mostly decided to pursue herd immunity, Peru implemented one of the longest and strictest lockdowns early in the pandemic. However, Iquitos was one of the last cities in Peru to enforce the lockdown policies and experienced one of the most tragic COVID-19 epidemics worldwide. In less than 4 weeks, in the Iquitos COVID-19 epidemic peak, cases increased by six to eight times and deaths increased by four to five times, reaching the highest mortality in Peru at the time.",
+            "cite_spans": [
+                {
+                    "start": 417,
+                    "end": 419,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 471,
+                    "end": 473,
+                    "text": "19",
+                    "ref_id": null
+                },
+                {
+                    "start": 1146,
+                    "end": 1148,
+                    "text": "19",
+                    "ref_id": null
+                },
+                {
+                    "start": 1421,
+                    "end": 1423,
+                    "text": "28",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1781,
+                    "end": 1783,
+                    "text": "29",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Iquitos appears to have been one of the first cities worldwide to surpass the herd immunity threshold, which was estimated for the original SARS-CoV-2 strain to be 60-70%. 30 However, Iquitos paid a considerable cost in terms of human suffering and deaths, and has not avoided a second wave of the infection driven by a more dangerous strain of the virus.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 174,
+                    "text": "30",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "C\u00c1-A, GM-S, WC, HR-F, CrC, and AMQ were responsible for the study conceptualisation and design. CaC and GM-S were the executive coordinators of the project and led the relationship with Direcci\u00f3n Regional de Salud (DIRESA), Loreto. C\u00c1-A, GM-S, CaC, CrC, and FA were responsible for obtaining the serological test funding, the field personnel, and producing the laboratory results. C\u00c1-A, GM-S, and FA were responsible for the study operation, including data acquisition and logistics coordination. FA and AMQ developed the operational protocols for fieldwork and were in charge of accessing and verifying the underlying data. FA was responsible for training the involved administrative and health personnel. AMQ was in charge of statistical analyses and table and figure design. C\u00c1-A and AMQ wrote the first draft of the manuscript. All authors contributed to data interpretation, critically reviewed the first draft and approved the final version of the manuscript, and agreed to be accountable for the work. All authors had full access to all the data in the study and had final responsibility for the decision to submit for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contributors"
+        },
+        {
+            "text": "We declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of interests"
+        },
+        {
+            "text": "The anonymised, aggregated data collected to support this pooled data analysis are available in appendix 3 for non-commercial use only.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Peru records first confirmed case of coronavirus, President Vizcarra says",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aquino",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Garrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Sala situacional COVID-19 Peru",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ministry",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Peru",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Population-based age-stratified seroepidemiological investigation protocol for COVID-19 virus infection. Geneva: World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Persistence and decay of human antibody responses to the receptor binding domain of SARS-CoV-2 spike protein in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Iyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nodoushani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Reinfection with SARS-CoV-2: implications for vaccines",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Burbelo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa1866"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Upper respiratory viral load in asymptomatic individuals and mildly symptomatic patients with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Thorax",
+            "volume": "76",
+            "issn": "",
+            "pages": "61--63",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The assessment of transmission efficiency and latent infection period in asymptomatic carriers of SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "99",
+            "issn": "",
+            "pages": "325--352",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "SARS-CoV-2 seroprevalence and neutralizing activity in donor and patient blood from the San Francisco Bay Area",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Goldgof",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Shy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "medRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.19.20107482"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Seroprevalence of immunoglobulin M and G antibodies against SARS-CoV-2 in China",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1193--95",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Seroprevalence of anti-SARS-CoV-2 IgG antibodies in Geneva, Switzerland (SEROCoV-POP): a population-based study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stringhini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wisniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piumatti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "313--332",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Amid ongoing COVID-19 pandemic Governor Cuomo announces results of completed antibody testing study of 15,000 people showing 12.3 percent of population has COVID-19 antibodies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cuomo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Three-quarters attack rate of SARS-CoV-2 in the Brazilian Amazon during a largely unmitigated epidemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Buss",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Prete",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cmm",
+                    "middle": [],
+                    "last": "Abrahim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Science",
+            "volume": "371",
+            "issn": "",
+            "pages": "288--92",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 seroprevalence study in",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "D\u00edaz-V\u00e9lez",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Failoc-Rojas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Valladares-Garrido",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PeerJ",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Prevalence study determines that 25.3% of the population of Lima and Callao would be infected with COVID-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ministry",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Peru",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Situation of the COVID-19 pandemic and actions implemented by the Loreto Region",
+            "authors": [
+                {
+                    "first": "Diresa",
+                    "middle": [],
+                    "last": "Ministry Of Health",
+                    "suffix": ""
+                },
+                {
+                    "first": "Loreto",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "interepidemic and epidemic patterns of transmission",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Minnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rocha",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "PLoS Negl Trop Dis",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Ensuring the safety of yellow fever vaccination in travelers-the experience at a large U.S. academic medical center in Colorado",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bandali",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schultz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Than",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trop Med Infect Dis",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The outbreak of Zika virus in the Americas: actions and challenges in Per\u00f9",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Aguilar-Le\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bazalar-Palacios",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rodriguez-Leyth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Infez Med",
+            "volume": "24",
+            "issn": "",
+            "pages": "172--73",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "IgG/IgM rapid test from Orient Gene Biotech",
+            "authors": [],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "58",
+            "issn": "",
+            "pages": "1233--1253",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Seroprevalence of SARS-CoV-2 in slums versus non-slums in Mumbai, India",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Malani",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet Glob Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "110--121",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SARS-CoV-2 antibody prevalence in Brazil: results from two successive nationwide serological household surveys",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hallal",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hartwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Horta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "issn": "",
+            "pages": "1390--98",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Prevalence of SARS-CoV-2 in Spain (ENE-COVID): a nationwide, populationbased seroepidemiological study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poll\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "P\u00e9rez-G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pastor-Barriuso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "535--579",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sabino",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Buss",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mps",
+                    "middle": [],
+                    "last": "Carvalho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet",
+            "volume": "397",
+            "issn": "",
+            "pages": "452--55",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Nasal gene expression of angiotensin-converting enzyme 2 in children and adults",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bunyavanich",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vicencio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "2427--2456",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Asymptomatic patients as a source of COVID-19 infections: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kronbichler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kresse",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Effenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "98",
+            "issn": "",
+            "pages": "180--86",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Seroprevalence of antibodies to SARS-CoV-2 in 10 sites in the United States",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Havers",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.4130"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "SARS-CoV-2 seroprevalence worldwide: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rostami",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sepidarkish",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mmg",
+                    "middle": [],
+                    "last": "Leeflang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin Microbiol Infect",
+            "volume": "27",
+            "issn": "",
+            "pages": "331--371",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Cellular immune responses to COVID-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Agius",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "370",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Rapid decline of neutralizing antibodies against SARS-CoV-2 among infected healthcare workers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Marot",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Malet",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Leducq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat Commun",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Individual variation in susceptibility or exposure to SARS-CoV-2 lowers the herd immunity threshold",
+            "authors": [
+                {
+                    "first": "Mgm",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "medRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.27.20081893"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Daily excess deaths in Iquitos as reported by the Peru National Death Registry Information System (SINADEF)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Distribution of adjusted seroprevalenceDistribution of the study participants based on adjusted seroprevalence of IgM and IgG anti-SARS-CoV-2 antibodies at baseline and the 1-month follow-up. 13% of the study population were lost to follow-up at 1 month, and are shown here as not registered. prevalence ratio (95% CI). *p<0\u00b705. \u2020p<0\u00b701.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Seroprevalence by participant characteristics",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Factors",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported by the Loreto Health Directorate (DIRESA) and the Peruvian Ministry of Health. DIRESA, Loreto also provided the census information necessary for the random selection of households. We thank all the health professionals, administrative personnel, and other health-care workers who collaborated in this study, and all study participants. Additionally, we would like to thank Enrique Mendoza (Futurum Research) for his support in elaborating the study's graphics and Valerie Paz Soldan (Universidad Peruana Cayetano Heredia), Amy Morrison (US Naval Medical Research Unit 6), and Margaret Kosek (University of Virginia) for their review and feedback on the writing of the manuscript. This study is the result of the efforts of researchers from Loreto, all of whom also suffered from COVID-19 during the Iquitos epidemic, and the trust and generosity of more than 700 participants who have understood the importance of providing time, information, and blood samples to learn about the COVID-19 epidemic in Iquitos. The findings and conclusions presented in this report are those of the authors and do not necessarily reflect the Peruvian Ministry of Health's official position.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

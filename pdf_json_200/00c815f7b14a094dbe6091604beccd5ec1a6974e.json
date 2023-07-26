@@ -1,0 +1,3597 @@
+{
+    "paper_id": "00c815f7b14a094dbe6091604beccd5ec1a6974e",
+    "metadata": {
+        "title": "Malnutrition: Percentage and Association with Prognosis in Patients Hospitalized for Coronavirus Disease 2019",
+        "authors": [
+            {
+                "first": "Lucie",
+                "middle": [],
+                "last": "Allard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AP-HP Avicenne Hospital",
+                    "location": {
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": "lucie.allard@aphp.frl.a."
+            },
+            {
+                "first": "Elise",
+                "middle": [],
+                "last": "Ouedraogo",
+                "suffix": "",
+                "affiliation": {},
+                "email": "elise.ouedraogo@aphp.fre.o."
+            },
+            {
+                "first": "Julie",
+                "middle": [],
+                "last": "Molleville",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AP-HP Avicenne Hospital",
+                    "location": {
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": "julie.molleville@aphp.frj.m."
+            },
+            {
+                "first": "Helene",
+                "middle": [],
+                "last": "Bihan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AP-HP Avicenne Hospital",
+                    "location": {
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": "helene.bihan@aphp.frh.b."
+            },
+            {
+                "first": "B\u00e9n\u00e9dicte",
+                "middle": [],
+                "last": "Giroux-Leprieur",
+                "suffix": "",
+                "affiliation": {},
+                "email": "benedicte.giroux-leprieur@aphp.fr"
+            },
+            {
+                "first": "Angela",
+                "middle": [],
+                "last": "Sutton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory for Vascular Translational Science (LVTS), Inserm U1148 Groupe Bioth\u00e9rapies et Glycoconjugu\u00e9s",
+                    "institution": "Universit\u00e9 Paris",
+                    "location": {
+                        "addrLine": "13-Sorbonne Paris Nord",
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": "angela.sutton@aphp.fr"
+            },
+            {
+                "first": "Camille",
+                "middle": [],
+                "last": "Baudry",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AP-HP Avicenne Hospital",
+                    "location": {
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": "cabaudry@ghpsj.frc.b."
+            },
+            {
+                "first": "Morgane",
+                "middle": [],
+                "last": "Didier",
+                "suffix": "",
+                "affiliation": {},
+                "email": "morgane.didier@aphp.fr"
+            },
+            {
+                "first": "David",
+                "middle": [],
+                "last": "Deutsch",
+                "suffix": "",
+                "affiliation": {},
+                "email": "david.deutsch@aphp.fr"
+            },
+            {
+                "first": "Olivier",
+                "middle": [],
+                "last": "Bouchaud",
+                "suffix": "",
+                "affiliation": {},
+                "email": "olivier.bouchaud@aphp.fro.b."
+            },
+            {
+                "first": "Emmanuel",
+                "middle": [],
+                "last": "Cosson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AP-HP Avicenne Hospital",
+                    "location": {
+                        "postCode": "93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Previous studies have found a correlation between malnutrition and prognosis in respiratory infections. Our objectives were to determine (i) the percentage of malnutrition, and (ii) its prognosis in patients admitted for coronavirus disease 2019 . In this monocentric retrospective study, we consecutively included all adult patients presenting with acute COVID-19 between 9 April and 29 May 2020. Malnutrition was diagnosed on low body mass index (BMI) and weight loss \u2265 5% in the previous month and/or \u2265 10% in the previous six months. The Nutritional Risk Index (NRI) defined nutritional risk. Severe COVID-19 was defined as a need for nasal oxygen \u2265 6 L/min. We enrolled 108 patients (64 men, 62 \u00b1 16 years, BMI 28.8 \u00b1 6.2 kg/m 2 ), including 34 (31.5%) with severe COVID-19. Malnutrition was found in 42 (38.9%) patients, and moderate or severe nutritional risk in 83 (84.7%) patients. Malnutrition was not associated with COVID-19 severity. Nutritional risk was associated with severe COVID-19 (p < 0.01; p < 0.01 after adjustment for C reactive protein), as were lower plasma proteins, albumin, prealbumin, and zinc levels (p < 0.01). The main cause of malnutrition was inflammation. The high percentage of malnutrition and the association between nutritional risk and COVID-19 prognosis supports international guidelines advising regular screening and nutritional support when necessary.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In clinical practice, coronavirus disease 2019 (COVID-19) could be associated with a high prevalence of malnutrition as a consequence of severe acute inflammatory status and decreased appetite, resulting in a negative nutritional balance [1] . Even though a high prevalence of malnutrition has been reported in elderly or critically ill patients [2] , we have not found any study evaluating malnutrition in every hospitalized patient out of the intensive care unit (ICU).",
+            "cite_spans": [
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several risk factors for severe COVID-19 pneumonia have been identified, including older age, male gender, and metabolic comorbidities [3] [4] [5] [6] [7] [8] . Malnutrition might also be a prognostic factor for COVID-19-related increased morbidity and mortality [9] , and guidelines have been issued about the need for nutritional support [1, [10] [11] [12] [13] [14] . For example, it was observed that low plasma prealbumin level predicts progression to acute respiratory distress syndrome [5] , but an association between malnutrition and the severity of COVID-19 has never been demonstrated.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 143,
+                    "end": 146,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 263,
+                    "end": 266,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 349,
+                    "end": 353,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 359,
+                    "end": 363,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 493,
+                    "end": 496,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our objectives were to establish (i) the percentage of malnutrition in patients admitted in COVID-19 units (excluding intensive care units (ICU)) and (ii) the prognostic value of malnutrition parameters. Our hypothesis was that malnutrition is associated with poor prognosis in patients hospitalized for acute COVID-19. Indeed, malnutrition has been associated with worse prognosis of respiratory bacterial infections [15, 16] , influenza [17] , or tuberculosis [18] by altering the immune system [19] and the muscular capacity through sarcopenia.",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 422,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 439,
+                    "end": 443,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We conducted a retrospective observational study in Avicenne Hospital, Bobigny, France. We included patients admitted between 9 April 2020 and 29 May 2020. This was just after the recommendations of the French-speaking Society for Clinical Nutrition and Metabolism (SFNCM) for the screening and treatment of malnutrition in patients hospitalized for COVID-19 [20] were implemented in our institution. In our university hospital and the Assistance Publique-H\u00f4pitaux de Paris hospitals in general, patients at admission are informed that their medical records could be used for research, unless they oppose. A local ethic committee gave an agreement for file analysis (CLEA-2020-121). We analyzed the data anonymously. No patient opposed.",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 363,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study Design and Setting"
+        },
+        {
+            "text": "All consecutive adult patients were included after being admitted for COVID-19 in one of the four dedicated departments, either directly or through the emergency department. Therefore, we included patients with infection requiring hospitalization but not in an ICU. COVID-19 was confirmed by nasal polymerase chain reaction (PCR) and/or COVID-19 pneumonia criteria on chest computed tomography (CT). Non-inclusion criteria were (i) enteral nutrition at baseline, (ii) major preexisting disease with hypoprotidemia (uncontrolled cirrhosis, nephrotic syndrome), (iii) pregnancy, and (iv) no expected benefit of a transfer into the ICU in case of disease worsening.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "As defined by the French Health Authority [21] , malnutrition was diagnosed if at least one of the three following criteria was present: body mass index (BMI) < 18.5 kg/m 2 (or < 21.0 kg/m 2 if age was \u2265 70 years), weight loss \u2265 5% in the previous month, and/or \u2265 10% in the previous six months. BMI was calculated using the formula weight (kg)/height 2 (m 2 ). Weight was measured within 24 h following admission. Patients were questioned about their current height and their weight one and six months before admission in order to calculate the weight variation. This information was checked in their medical chart when available. Malnutrition was considered as moderate or severe. Severe malnutrition was defined by BMI \u2264 17 kg/m 2 (or \u2264 18.5 kg/m 2 if age was \u2265 70 years) and/or weight loss > 10% in the previous month and/or > 15% in the previous six months. Moderate malnutrition was defined by BMI in the range 17.0-18.5 kg/m 2 (or 18.5-21.0 kg/m 2 in people \u2265 70 years) and/or weight loss 5 to 10% in the previous month and/or 10 to 15% in the previous six months. Nutritional risk was assessed by calculating the nutritional risk index (NRI): 1.519 x albumin (g/L) + 0.417 \u00d7 (measured weight/usual weight) \u00d7 100 [22] . Malnutrition risk was classified as either no nutritional risk (NRI \u2265 97.5%), moderate nutritional risk (NRI 83.5-97.4%), or severe nutritional risk (NRI < 83.5%). Plasma albumin level was routinely measured at admission according to SFNCM guidelines (see the biological paragraph Section 2.5).",
+            "cite_spans": [
+                {
+                    "start": 42,
+                    "end": 46,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1220,
+                    "end": 1224,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variables: Malnutrition"
+        },
+        {
+            "text": "As low albumin levels can result from both inflammation and malnutrition, albumin was adjusted for C reactive protein (CRP) using the following formula: adjusted albumin (g/L) = albumin (g/L) + (CRP (mg/L) \u2212 15)/25. This formula relies on the fact that when CRP is above 15 mg/L, each increase of CRP by 25 mg/L lowers albumin by 1 g/L [23, 24] . Accordingly, adjusted NRI was calculated using adjusted albumin instead of measured albumin level.",
+            "cite_spans": [
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 341,
+                    "end": 344,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variables: Malnutrition"
+        },
+        {
+            "text": "We explored the causes of malnutrition, including (i) reduced food intake over the last week compared with usual meals; this was evaluated by patient questioning (<50%, 50-75%, >75%), (ii) inflammatory disease burden through biomarkers (see below), and (iii) potential reduced food assimilation, such as malabsorption syndromes and diarrhea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variables: Malnutrition"
+        },
+        {
+            "text": "All four COVID-19 departments followed SFNCM therapeutic guidelines [20] . A diagnosis of moderate malnutrition or food intake in the 50-75% range of the usual level for at least one week was signaled to the dietary team, and two oral supplements between meals were added, whereas oral supplementation (polyvitamin, magnesium, phosphorus, vitamin B9, B1, and D) was given for preventing inappropriate refeeding syndrome. When the diagnosis was severe malnutrition or when the food intake was below 50% of the usual level for at least one week, enteral nutrition was started (or at least three oral supplements if respiratory status did not allow enteral nutrition) with intravenous supplementation (phosphorus adapted to its blood level, magnesium, vitamins B1, B9, oligo-elements such as Nutryelt \u00ae , and polyvitamin including vitamin D such as Cern\u00e9vit \u00ae ) for preventing inappropriate refeeding syndrome.",
+            "cite_spans": [
+                {
+                    "start": 68,
+                    "end": 72,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variables: Malnutrition"
+        },
+        {
+            "text": "Outcomes were considered during the total length of hospital stay within 28 days of admission. Severe infection was defined as a need for nasal oxygen flow at or above six liters per minute (\u22656 L/min) during hospitalization (primary outcome). Secondary outcomes included the maximum flow of nasal oxygen reached during hospital stay (with a maximum of 15 L/min), length of stay, need for non-invasive ventilation (if the patient needed more than 15 L/min), transfer to the ICU, and mortality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition of Outcomes"
+        },
+        {
+            "text": "We also studied the association between albumin levels (measured at admission) and clinical severity at admission, based on oxygen saturation, respiratory rate, and oxygen pressure on arterial blood gas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition of Outcomes"
+        },
+        {
+            "text": "The procedures of care for COVID-19 in our departments were updated as necessary on a daily basis. Basically, antibiotics were initiated when arterial oxygen pressure was below 70 mmHg on blood gas analysis, and larger spectrum antibiotics were used when clinical or biological evolution suggested resistant bacterial infection. Hydroxychloroquine was prescribed in severe respiratory cases at the beginning of the pandemic, when no contraindication was found, but its use was then progressively stopped according to international recommendations and practical observations. Corticosteroids were started with respiratory deterioration at least seven days after the first symptoms, and when inflammation seemed responsible for the critical evolution. Prescription was decided on a multidisciplinary basis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition of Outcomes"
+        },
+        {
+            "text": "Data were anonymously extracted from patients' charts and collected in a protected health database. We focused on:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "General data: patient's background, usual treatments, the presence or not of current health coverage, or specific social protection including national \"universal health coverage\" (total coverage of costs granted on a yearly basis to people with low income) and French governmental medical aid to undocumented migrants. We also considered smoking and alcohol habits.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "Medical personal history: diabetes, arterial hypertension, and dyslipidemia were self-reported or inferred from the use of, respectively, blood glucose, blood pressure, or lipid-lowering agents. Chronic kidney failure was defined by an estimated glomerular excretion rate below 30 mL/min; cancer and cirrhosis were self-reported or mentioned in the medical charts of the patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "Ethnicity was reported as Caucasian, Arabic (Middle East, Maghreb), Afro-Caribbean (African, African American, Caribbean), or Asian (Asian continent).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "The initial severity of COVID-19 pneumonia was assessed on clinical data (oxygen saturation rate, respiratory frequency), biological data (blood gas under oxygen or ambient air: pH, oxygen arterial pressure (mmHg), and CO2 arterial pressure (mmHg)), and the extent of typical COVID-19 lesions on chest CT scan: mild to moderate (5-25%) vs. critical (> 25%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "The treatments received during hospitalization, including nutritional care (enteral nutrition, oral protein supplements), were reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "The biomarkers of interest were: (i) nutritional biomarkers: blood proteins (colorimetric analysis), fasting plasma glucose (enzymatic assay with hexokinase/glucose 6 phosphate dehydrogenase, UV test), albumin (immunoturbidimetry), prealbumin (immunoturbidimetry), phosphate (photometric determination of ammonium phosphomolybdate complex), magnesium (colorimetric assay with Chlorophosphonazo III), calcium (colorimetric assay with O-Cresolphtalein), zinc (inductively Coupled Plasma-mass spectrometry), selenium (inductively Coupled Plasma-mass spectrometry), and 25-OH vitamin D (electrochimiluminescence); (ii) inflammation biomarkers: C reactive protein (CRP) (immunoturbidimetry with anti-CRP monoclonal antibodies on latex particles), procalcitonin (fluorometric sandwich immunoassay), ferritin (immunoturbidimetry on latex particles), orosomucoid (immunoturbidimetry, bichromatic assay with two end points at 340 nm and 660 nm), lactate deshydrogenase (kinetics of the conversion of pyruvate into L-lactate), and interleukine 6 (electrochemiluminescence immunoassay). All of these dosages were performed on plasma using a Cobas 6000 analyzer (Roche diagnostics). Finally, fibrinogen (chronometry-Thrombin Dade) was performed on a Siemens analyzer (Siemens).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Measurement"
+        },
+        {
+            "text": "We estimated for power calculation that 40% of inpatients would suffer from malnutrition [15, [25] [26] [27] . We presumed that the primary outcome (severe pneumonia) would occur in 30% of the malnutrition group of patients vs. 10% of the no malnutrition group. Considering this hypothesis, we needed to include 120 patients to show a significant difference (alpha risk of 5% and power of 80%).",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 99,
+                    "end": 103,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 104,
+                    "end": 108,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Baseline continuous variables are expressed as mean \u00b1 standard deviation. Categorical variables are expressed as frequencies (percentages). We used the Kruskal-Wallis test to compare continuous variables and the chi-squared (X 2 ) test or Fisher's exact test for categorical variables (in a function of the number of patients within each group). All tests were two-sided and used a significance level of p-value at 0.05. To assess correlations between two quantitative variables, the non-parametric Spearman coefficients were used. Linear regressions were performed as well, and slopes were tested using Fisher's test. Logistic regression with the chi-squared test was used for multivariable analyses, including the factors that were associated with COVID-19 severity, with a p-value \u2264 0.05 in univariate analyses (as continuous or non-continuous variables) and considering unrelated factors. Additionally, since age was associated with both malnutrition and severe COVID-19 as previously reported [3] [4] [5] [6] [7] [8] , we have adjusted our results for age (chi-squared test with logistic regression). Analyses were conducted with SAS 9.4 software.",
+            "cite_spans": [
+                {
+                    "start": 998,
+                    "end": 1001,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1002,
+                    "end": 1005,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1006,
+                    "end": 1009,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1010,
+                    "end": 1013,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1014,
+                    "end": 1017,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1018,
+                    "end": 1021,
+                    "text": "[8]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "InfuSol and LVL Medical partly funded this study, but they did not participate in any part of the study (collection, analyses, interpretation of data, writing of the report, or decision to submit the report for publication).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the Funding Source"
+        },
+        {
+            "text": "A total of 116 patients were admitted between 9 April 2020 and 29 May 2020 in the four dedicated COVID-19 units. Seven patients were excluded because they were not eligible for the ICU in case of aggravation; five had dementia and two had serious comorbidities. We lacked information about nutritional status for one patient. Therefore, 108 consecutive patients were included. Table 1 shows the general and medical characteristics of the total population according to the presence or not of severe COVID-19. The main clinical, biological, and radiological characteristics of patients with or without severe COVID-19 at admission and their treatments are summarized in Table 2 . The mean delay between admission and the onset of symptoms was 7.6 \u00b1 5.3 days. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 377,
+                    "end": 384,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 668,
+                    "end": 675,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Total Population"
+        },
+        {
+            "text": "A total of 34 patients (31.5%) had severe COVID-19. Fifteen patients (13.9%) needed non-invasive ventilation and fourteen patients (13.0%) were transferred to the ICU. The mean length of stay was 10.5 \u00b1 7.2 days. Five patients (4.6%) died. The maximum flow of nasal oxygen, the length of stay, the need for non-invasive ventilation, the transfer to the ICU, and the mortality rate were greater in the subgroup of patients with severe COVID-19 (Supplementary Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 443,
+                    "end": 466,
+                    "text": "(Supplementary Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Percentage of Severe COVID-19"
+        },
+        {
+            "text": "Malnutrition was observed in 42 patients (38.9%), with 30 (27.8%) and 12 (11.1%) patients having moderate and severe malnutrition, respectively. The change in food intake could be assessed in 103 patients: food intake was >75% of its usual level in 20 (19.4%) patients, 50-75% in 25 (24.3%) patients, and <50% in 58 (56.3%) patients. As shown in Table 3 , malnutrition was neither associated with food intake (p = 0.06; after adjustment for age, p = 0.14) nor with inflammatory biomarkers or digestive symptoms. However, it was associated with age (p = 0.04). Continuous variables are expressed as mean \u00b1 standard deviation and categorical variables as the number of patients (percentage). N: number of available data. * Malnutrition was defined as body mass index < 18.5 kg/m 2 (or < 21 kg/m 2 if age was \u2265 70 years), weight loss \u2265 5% in one month, and/or weight loss \u2265 10% in six months. ** Nutritional risk was defined as nutritional risk index (1.519 \u00d7 albumin (g/L) + 0.417 \u00d7 (measured weight/usual weight) \u00d7 100) < 97.5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 346,
+                    "end": 353,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Percentage and Causes of Malnutrition"
+        },
+        {
+            "text": "Nutritional risk could be assessed in 98 patients, and was observed in 83 patients (84.7%), with 48 (49.0%) and 35 (35.7%) patients having moderate and severe risk, respectively. Nutritional risk was associated neither with food intake nor with digestive symptoms, but was associated with age and with higher levels of several inflammatory biomarkers, including orosomucoid, fibrinogen, CRP, and procalcitonin (Table 3) , even after adjustment for age (procalcitonin, p = 0.01; orosomucoid, p = 0.02; fibrinogen and CRP, p < 0.01). Albumin level was associated with the same inflammatory biomarkers, even after adjustment for age (procalcitonin, p = 0.01; orosomucoid, fibrinogen, and CRP, p < 0.01).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 410,
+                    "end": 419,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Percentage and Causes of Malnutrition"
+        },
+        {
+            "text": "Metabolic biomarkers and nutritional care by nutritional status are presented in Supplementary  Table S2 . Malnutrition was associated with lower calcium and phosphate levels (p = 0.03 and 0.04, respectively). Metabolic parameters, such as plasma protein and albumin and prealbumin levels (p < 0.01), were associated with nutritional risk. Patients with nutritional risk received more frequent oral supplements than patients without.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 81,
+                    "end": 104,
+                    "text": "Supplementary  Table S2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Percentage and Causes of Malnutrition"
+        },
+        {
+            "text": "Malnutrition per se was not associated with severe COVID-19 (Table 4 ). However, patients with severe COVID-19 were more prone than those with non-severe COVID-19 to have low BMI (p = 0.03) and to have lost more weight during the previous month (p = 0.05 and 0.08 after adjustment for age) ( Table 4) . Malnutrition was not associated with maximum nasal oxygen flow (p = 0.30) (Supplementary Figure S2) , whereas weight loss in one month was associated (p < 0.05) (Supplementary Figure S3) . Nutritional risk was positively associated with severe COVID-19 (Table 4) . NRI was significantly lower in patients with severe COVID-19, even after adjustment for age (p = 0.03). The NRI adjusted for CRP was also associated with severe COVID-19 (p < 0.01) ( Table 4 ). Nutritional risk (Supplementary Figure S4 , p < 0.01), NRI level (Supplementary Figure S5, p < 0.01) , and NRI level after adjustment for CRP (p < 0.05) were associated with maximum nasal oxygen flow. Furthermore, low levels of albumin, prealbumin, protein, and zinc, and higher levels of magnesium, were also associated with the severity of COVID-19 (p < 0.01). Albumin adjusted for CRP level was still associated with severe COVID-19 (p = 0.03). After adjustment for age, only low levels of protids, zinc, and phosphorus, and high levels of magnesium, were associated with severe COVID-19 (p < 0.01) ( Table 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 60,
+                    "end": 68,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 292,
+                    "end": 300,
+                    "text": "Table 4)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 392,
+                    "end": 402,
+                    "text": "Figure S2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 479,
+                    "end": 489,
+                    "text": "Figure S3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 556,
+                    "end": 565,
+                    "text": "(Table 4)",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 751,
+                    "end": 758,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 794,
+                    "end": 803,
+                    "text": "Figure S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 842,
+                    "end": 862,
+                    "text": "Figure S5, p < 0.01)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1366,
+                    "end": 1374,
+                    "text": "Table 4)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Prognosis Associated with Malnutrition"
+        },
+        {
+            "text": "Albumin level was not associated with initial COVID-19 severity based on oxygen saturation at admission (p = 0.06), respiratory rate at admission (p = 0.96), and oxygen pressure on arterial blood gas at admission (p = 0.83).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prognosis Associated with Malnutrition"
+        },
+        {
+            "text": "The clinical and personal medical history parameters significantly associated with severe COVID-19 were older age (Table 1) , lower saturation in ambient air, and higher respiratory rate at admission ( Table 2 ). Patients who experienced severe COVID-19 were more prone to have a positive PCR for SARS-CoV-2. Additionally, ferritin and orosomucoid levels were higher in patients with severe COVID-19 (Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 123,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 202,
+                    "end": 209,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 400,
+                    "end": 408,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Other Parameters Associated With Severe COVID-19"
+        },
+        {
+            "text": "Logistic regression that integrated age, PCR result, ferritin, low BMI, and NRI showed that older age (odds ratio (OR) per 10 years = 1.69 (95% confidence interval, 1.08-2.65), p = 0.02), positive PCR (OR = 4.85 (1.08-21.74), p = 0.04), and higher ferritin level (OR per 1000 \u00b5g/L = 3.15 (1.52-6.50), p = 0.02) were independently associated with severe COVID-19 (Supplementary Table S3 ). The same logistic regression including BMI as a continuous variable instead of low BMI showed similar results (Supplementary Table S3 ). A third model integrating age, ferritin, and NRI by classes, as well as PCR result and low BMI, showed that positive PCR (OR = 7.77 (1.58-37.85), p = 0.01) and ferritin level > 600 \u00b5g/L (OR = 20 (3-131), p = 0.001) were independently associated with severe COVID-19 (Supplementary Table S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 362,
+                    "end": 385,
+                    "text": "(Supplementary Table S3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 499,
+                    "end": 522,
+                    "text": "(Supplementary Table S3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 792,
+                    "end": 815,
+                    "text": "(Supplementary Table S3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Other Parameters Associated With Severe COVID-19"
+        },
+        {
+            "text": "Supplementary Table S4 shows that secondary outcomes were not associated with malnutrition. Maximum nasal oxygen flow was associated with nutritional risk (p < 0.01).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 22,
+                    "text": "Table S4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Secondary Outcomes"
+        },
+        {
+            "text": "Our study has shown that malnutrition was highly prevalent in patients admitted in departments dedicated to COVID-19. Malnutrition, based on low BMI and/or weight loss, was present in 38.9% of patients, whereas nutritional risk, based on albumin level and weight loss, was moderate in 49.0% and severe in 35.7% of patients. Furthermore, we report that nutritional risk was associated with severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The French definition of malnutrition we used is similar to the one of the Global Leadership Initiative on Malnutrition (GLIM), and relies on the same phenotypic and etiologic criteria, except for the edges of BMI, which are higher in the GLIM definition, therefore underestimating malnutrition in our cohort [26] . The prevalence of malnutrition in hospitalized patients has been reported to be 27 to 55% regardless of the cause of hospitalization [25, 28, 29] . Specifically, Yeo et al. reported a prevalence of 39% in a cohort of 198 Korean patients admitted for community-acquired pneumonia [15] , as in our series. Recently, malnutrition was found in 52.7% of elderly COVID-19 inpatients using the Mini Nutritional Assessment (MNA) [2] . Moreover, based on the modified NUTRIC score at ICU admission, a high nutritional risk (\u2265 5 points) was observed in 61% of the critically ill COVID-19 patients [27] . In our study, nutritional risk might be overestimated by low albumin levels through inflammation, as discussed below.",
+            "cite_spans": [
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 449,
+                    "end": 453,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 454,
+                    "end": 457,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 458,
+                    "end": 461,
+                    "text": "29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 595,
+                    "end": 599,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 737,
+                    "end": 740,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 903,
+                    "end": 907,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We explored the causes of malnutrition. According to the GLIM conference [26] , disease-or injury-related malnutrition is due to a combination of reduced food intake or assimilation and varying degrees of acute or chronic inflammation. Indeed, food intake was largely reduced in our population with COVID-19: the reduction in food intake over the last week was more than 50% for 56.3% of the patients. Considering the mean delay between the first symptoms and admission of approximately a week, this observation may suggest that nutrition support should be provided before admission to every COVID-19 patient. Reduced food intake may partly rely on gustative dysfunction and digestive symptoms experienced in some patients with COVID-19, but there was no significant association of these symptoms with malnutrition. Inflammation contributes to malnutrition through anorexia and decreased food intake. It alters metabolism by elevating and increasing muscle catabolism [30] . Finally, only a few patients had severe underlying comorbidities exposing to chronic malnutrition, meaning that malnutrition in COVID-19 results from an acute event.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 77,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 968,
+                    "end": 972,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Even though we could not show a significant association between malnutrition and COVID-19 severity, low BMI and weight loss considered as a continuous variable were associated with severe infection. In the recent cohort of critically ill patients in Wuhan, the mortality of ICU within 28 days was significantly higher in the high nutritional risk group than in the low nutritional risk group (87 vs. 49%, p < 0.001). Patients in the high nutritional risk group exhibited significantly higher incidences of acute respiratory distress syndrome, acute myocardial injury, secondary infection, shock, and use of vasopressors. Additionally, use of a multivariate Cox analysis showed that patients with high nutritional risk had a higher probability of death at 28 days in the ICU than those with low nutritional risk (adjusted HR = 2.01, 95% CI: 1.22-3.32, p = 0.006) [27] . Furthermore, in a review of 25 death cases, malnutrition was common in severe patients [31] . In the Korean study by Yeo et al., malnutrition was associated with a two-fold increase in two-year mortality [15] . Nevertheless, the authors did not observe any significant difference in short-term outcomes according to the nutritional status. Looking at influenza infections, malnutrition was identified as a strong and independent predictor of mortality [32] .",
+            "cite_spans": [
+                {
+                    "start": 862,
+                    "end": 866,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 956,
+                    "end": 960,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1073,
+                    "end": 1077,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a recent study, the NRI was considered as a useful and practical tool for the screening of patients with COVID-19 needing additional nutritional intervention [22] . In addition, our results suggest that this simple tool could be used in any country as a predictor of severity, and could participate in guiding nutritional management. Indeed, the NRI was significantly and proportionally associated with severe COVID-19 in our series, even after adjustment for age.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 165,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Nutritional risk is a combination of hypoalbuminemia and weight loss, which are the results of the combined effects of inflammation and inadequate protein and caloric intake. Inflammation induces anorexia, reduces the effective use of dietary protein and energy intake, and augments catabolism of the key somatic protein, albumin [33] . In a large cohort of 2645 patients from the emergency room, elevated parameters of inflammation and high nutritional risk were independently associated with hypoalbuminemia, but all three parameters independently predicted mortality [34] . Therefore, inflammation could fully explain both an increased NRI and a poor prognosis. However, the NRI adjusted for CRP level remained associated with severe COVID-19, meaning that neither inflammation nor age entirely explained the association. In addition, albumin levels were not associated with severe COVID-19 at admission. This suggests that a low albumin level, and therefore low NRI, might not reflect current but future severity. On the contrary and in agreement with previous COVID-19 studies [3] [4] [5] [6] [7] [8] , we found an independent association between age, initial infection presentation, inflammatory biomarkers, and infection severity, suggesting that the poor prognosis associated with nutritional risk is partly driven by inflammation [30] . Therefore, we think that nutritional risk and malnutrition are partly a consequence of COVID-19, but might also expose to a higher risk of severe disease and help identify the patients who need particular attention.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1082,
+                    "end": 1085,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1086,
+                    "end": 1089,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1090,
+                    "end": 1093,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1094,
+                    "end": 1097,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1098,
+                    "end": 1101,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1102,
+                    "end": 1105,
+                    "text": "[8]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Several nutritional biomarkers were associated with pneumonia's prognosis. Albumin [5] and pre-albumin [7] levels have already been described as prognostic factors for COVID-19 severity. Very recently, albumin has been shown to be a predictor of mortality [35] . Zinc is known to modulate antiviral and antibacterial immunity and to regulate inflammatory response [36] . Furthermore, some studies suggest that zinc supplementation may be of benefit for the prophylaxis and treatment of COVID-19 [37] . Magnesium level was surprisingly higher in patients with severe COVID-19. This might reflect magnesium supplementation in the most severe patients, but this is unlikely, as biomarkers were measured at admission.",
+            "cite_spans": [
+                {
+                    "start": 83,
+                    "end": 86,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 256,
+                    "end": 260,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As we explored nutritional status right after admission, our results suggest that malnutrition is present in the early stage of COVID-19 and should be considered when symptoms begin. These results support the European Society for Clinical Nutrition and Metabolism (ESPEN) guidelines for appropriate nutritional assessment and treatment, as it is well-documented to effectively reduce complications and improve relevant clinical outcomes under various conditions, including ICU stays, hospitalization, and several chronic diseases [38] .",
+            "cite_spans": [
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Indeed, a recent review has shown the importance of maintaining a correct nutritional status of 10 nutrients analyzed for the health of the immune system, highlighting especially the importance of Vitamin D and iron in the context of COVID-19 [39] [40] [41] . A wealth of mechanistic and clinical data has shown that vitamins, including vitamins A, B 6 , B 12 , C, D, E, and folate; trace elements, including zinc, iron, selenium, magnesium, and copper; and the omega-3 fatty acids eicosapentaenoic acid and docosahexaenoic acid play important and complementary roles in supporting the immune system. Inadequate intake and status of these nutrients are widespread, leading to a decrease in resistance to infections and, as a consequence, an increase in disease burden [42] . Another recent review suggests a potential interventional role of nutrients to strengthen the immune system against the emerging infection caused by COVID-19 [43] .",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 248,
+                    "end": 252,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 768,
+                    "end": 772,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 933,
+                    "end": 937,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A limitation of our study is that we did not include 120 patients as recommended considering power calculation. Actually, the study started when our local nutrition committee gave written recommendations on nutritional care, giving the opportunity to routinely assess nutritional phenotype and biomarkers in all consecutive patients. At this time, the COVID-19 pandemic thankfully decreased in our region. Nevertheless, we could include 108 patients, and this number was sufficient to show an association between low BMI, weight loss, NRI, nutritional biomarkers, and COVID-19 severity. Our population was not representative of all COVID-19 patients, as we only investigated patients admitted for acute infection. Therefore, information only applies to critically ill patients, with symptoms too severe to stay at home because of either respiratory symptoms or severe comorbidities, but not severe enough to be transferred into the ICU or to directly require tracheal intubation. This population looked more prone to malnutrition than ambulatory patients who were less likely at risk for malnutrition and severe pneumonia. On the other hand, ICU patients usually have malnutrition independently of the disease [44] , and could not be questioned about their weight loss.",
+            "cite_spans": [
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The strengths of our study include a multiethnic cohort likely to be translatable for different populations and a pragmatic guidance-based approach. The main outcome (need for oxygen \u2265 6 L/min) was accurate for evaluating pneumonia's severity, as it was strongly correlated to length of stay, non-invasive ventilation, transfer into the ICU, and mortality. Finally, despite the rapid pace of emerging scientific information during this pandemic, the ASPEN scoping review has identified multiple critical areas for urgent nutrition research [45] , making this research topic interesting to us.",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To conclude, in our population, about 40% of patients admitted for COVID-19 pneumonia had malnutrition and about 35% of them had severe nutritional risk. Food intake was usually reduced in infected patients. Nutritional risk was associated with severe COVID-19, probably both as a cause and a consequence. Our results support guidelines for the screening of patients at risk of malnutrition and providing nutritional support for those patients [1, 38] . However, only randomized controlled studies could demonstrate that such guidance could improve COVID-19 prognosis in critically ill patients outside of the ICU, and such a study would appear unethical, as nutritional support is harmless and improving COVID-19 management is an emergency.",
+            "cite_spans": [
+                {
+                    "start": 444,
+                    "end": 447,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 448,
+                    "end": 451,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Supplementary Materials: The following are available online at http://www.mdpi.com/2072-6643/12/12/3679/s1, Figure S1 : Flow Chart, Figure S2 : maximal nasal oxygen flow according to clinical malnutrition, Figure S3 : maximal nasal oxygen flow according to weight loss in one month, Figure S4 : maximal nasal oxygen according to nutritional risk, Figure S5 : maximal nasal oxygen by nutritional risk index, Table S1 : Correlation between secondary outcomes and severe COVID-19; Table S2 : Nutritional biomarkers and care according to nutritional status, Table S3 : Multivariable analysis explaining COVID-19 severity, Table S4 : Secondary outcomes according to nutritional status.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 108,
+                    "end": 117,
+                    "text": "Figure S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 132,
+                    "end": 141,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 206,
+                    "end": 215,
+                    "text": "Figure S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 283,
+                    "end": 292,
+                    "text": "Figure S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 347,
+                    "end": 356,
+                    "text": "Figure S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 407,
+                    "end": 415,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 478,
+                    "end": 486,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 554,
+                    "end": 562,
+                    "text": "Table S3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 618,
+                    "end": 626,
+                    "text": "Table S4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Author Contributions: L.A., E.O., O.B., and E.C. had the idea for and designed the study, had full access to all of the data in the study, and take responsibility for the integrity of the data and the accuracy of the data analyses. J.M., C.B., and H.B. helped in designing the study and exploring the literature. L.A., E.O., and E.C. collected the data and drafted the paper. L.A., E.O., E.C., and C.J. did the analyses. A.S. helped with data extraction. B.G.-L., M.D., D.D. helped with data collection. All authors critically revised the manuscript for important intellectual content and gave final approval for the version to be published. All authors agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All authors have read and agreed to the published version of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Funding: InfuSol and LVL Medical partly funded this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 and endocrine diseases. A statement from the",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Puig-Domingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marazuela",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giustina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Endocrine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12020-020-02294-5"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prevalence of malnutrition and analysis of related factors in elderly patients with COVID-19 in Wuhan, China",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur. J. Clin. Nutr",
+            "volume": "74",
+            "issn": "",
+            "pages": "871--875",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41430-020-0642-3"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Phenotypic characteristics and prognosis of inpatients with COVID-19 and diabetes: The CORONADO study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cariou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hadjadj",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wargny",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pichelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Salameh",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Allix",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Amadou",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arnault",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Baudoux",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bauduceau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetologia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00125-020-05180-x"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Prevalence of obesity among adult inpatients with COVID-19 in France",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Caussy",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pattou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wallet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chalopin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Telliam",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mathieu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Subtil",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Frobert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alligier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Diabetes Endocrinol",
+            "volume": "8",
+            "issn": "",
+            "pages": "562--564",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-8587(20)30160-1"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients with Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Intern. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Does comorbidity increase the risk of patients with COVID-19: Evidence from meta-analysis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.18632/aging.103000"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: A retrospective cohort study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1054--1062",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30566-3"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Could nutritional and functional status serve as prognostic factors for COVID-19 in the elderly?",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lidoriki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frountzas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Schizas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med. Hypotheses",
+            "volume": "144",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mehy.2020.109946"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Early nutritional supplementation in non-critically ill patients hospitalized for the 2019 novel coronavirus disease (COVID-19): Rationale and feasibility of a shared pragmatic protocol",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Caccialanza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Laviano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lobascio",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Montagna",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bruno",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ludovisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Corsico",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Di Sabatino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Belliato",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Calvi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nutrition",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nut.2020.110835"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Nutrition support in the time of SARS-CoV-2 (COVID-19). Nutrition 2020, 110834",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Laviano",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Koverech",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zanetti",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nut.2020.110834"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Potential interventions for novel coronavirus in China: A systematic review",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Med. Virol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "479--490",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25707"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Coronavirus disease (COVID-19): The need to maintain regular physical activity while taking precautions",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Nassis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Harmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ainsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Sport Health Sci",
+            "volume": "2020",
+            "issn": "",
+            "pages": "103--104",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jshs.2020.02.001"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Evidence that Vitamin D Supplementation Could Reduce Risk of Influenza and COVID-19 Infections and Deaths",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lahore",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcdonnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Baggerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "French",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Aliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bhattoa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12040988"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Prognostic significance of malnutrition for long-term mortality in community-acquiredpneumonia: A propensity score matched analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yeo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Byun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Korean J. Intern. Med",
+            "volume": "34",
+            "issn": "",
+            "pages": "841--849",
+            "other_ids": {
+                "DOI": [
+                    "10.3904/kjim.2018.037"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Body mass index and risk of pneumonia: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Phung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rutherford",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Obes. Rev",
+            "volume": "14",
+            "issn": "",
+            "pages": "839--857",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/obr.12055"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Obesity and influenza associated mortality: Evidence from an elderly cohort in Hong Kong",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-Y",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Thach",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Prev. Med",
+            "volume": "56",
+            "issn": "",
+            "pages": "118--123",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ypmed.2012.11.017"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Undernutrition is associated with perturbations in T cell-, B cell-, monocyte-and dendritic cell-subsets in latent Mycobacterium tuberculosis infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rajamanickam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Munisankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dolla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Babu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS ONE",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0225611"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Nutrition and immunity: An overview",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chandra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumari",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J. Nutr",
+            "volume": "124",
+            "issn": "",
+            "pages": "1433--1435",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jn/124.suppl_8.1433S"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Strat\u00e9gie de prise en charge nutritionnelle \u00e0 l'h\u00f4pital au cours de l'\u00e9pid\u00e9mie virale Covid-19: Avis d'experts de la Soci\u00e9t\u00e9 Francophone de Nutrition Clinique et M\u00e9tabolisme (SFNCM)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Thibault",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Quilliot",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Seguin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tamion",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "D\u00e9chelotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutr. Clin. M\u00e9tabolisme",
+            "volume": "34",
+            "issn": "",
+            "pages": "97--104",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nupar.2020.03.001"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Diagnostic de la D\u00e9nutrition de L'enfant et de L'adulte",
+            "authors": [
+                {
+                    "first": "Haute",
+                    "middle": [],
+                    "last": "Autorit\u00e9 De Sant\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Clinical significance of nutritional risk screening for older adult patients with COVID-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur. J. Clin. Nutr",
+            "volume": "74",
+            "issn": "",
+            "pages": "876--883",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41430-020-0659-7"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Nutritional problems in the elderly",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lesourd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Rev. Prat",
+            "volume": "54",
+            "issn": "",
+            "pages": "2041--2045",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Nutrition in the elderly: Importance and traps of biological investigations",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lesourd",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ziegler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Aussel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Ann. Biol Clin",
+            "volume": "59",
+            "issn": "",
+            "pages": "445--452",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Prevalence of patients at nutritional risk in Danish hospitals",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kondrup",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Staun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ladefoged",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kristensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wengler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin. Nutr",
+            "volume": "23",
+            "issn": "",
+            "pages": "1009--1015",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2004.01.001"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "GLIM criteria for the diagnosis of malnutrition-A consensus report from the global clinical nutrition community",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cederholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I T D"
+                    ],
+                    "last": "Correia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fukushima",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Higashiguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Baptista",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barazzoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Blaauw",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coats",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin. Nutr",
+            "volume": "38",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2018.08.002"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The modified NUTRIC score can be used for nutritional risk assessment as well as prognosis prediction in critically ill COVID-19 patients",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Nutr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2020.05.051"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Nutritional status among adult patients admitted to an university-affiliated hospital in Spain at the time of genoma",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Planas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Clin. Nutr",
+            "volume": "23",
+            "issn": "",
+            "pages": "1016--1024",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2004.01.003"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Screening of nutritional status in The Netherlands",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kruizenga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Clin. Nutr",
+            "volume": "22",
+            "issn": "",
+            "pages": "147--152",
+            "other_ids": {
+                "DOI": [
+                    "10.1054/clnu.2002.0611"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "COVID-19: The Inflammation Link and the Role of Nutrition in Potential Mitigation",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zabetakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Norton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tsoupras",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12051466"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Clinical characteristics of 25 death cases with COVID-19: A retrospective review of medical records in a single medical center",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "128--132",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.053"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Population-based surveillance for 2009 pandemic influenza A (H1N1) virus in Guatemala",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Reyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Arvelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Estevez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Moir",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gordillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Frenkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ard\u00f3n",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Moscoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Olsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Influenza Other Respir. Viruses",
+            "volume": "4",
+            "issn": "",
+            "pages": "129--140",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1750-2659.2010.00138.x"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Poor nutritional status and inflammation: Serum Albumin: Relationship to Inflammation and Nutrition",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Don",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kaysen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Semin. Dial",
+            "volume": "17",
+            "issn": "",
+            "pages": "432--437",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.0894-0959.2004.17603.x"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Relationship of Nutritional Status, Inflammation, and Serum Albumin Levels During Acute Illness: A Prospective Study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eckart",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Struja",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kutz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baumgartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Baumgartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zurfluh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Neeser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Huber",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Stanga",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mueller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Med",
+            "volume": "133",
+            "issn": "",
+            "pages": "713--722",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.amjmed.2019.10.031"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Is Albumin Predictor of Mortality in COVID-19?",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Violi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cangemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Romiti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ceccarelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oliva",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alessandri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pirro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pignatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lichtner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carraro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Antioxid. Redox Signal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/ars.2020.8142"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Zinc and respiratory tract infections: Perspectives for COVID-19 (Review)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Skalny",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rink",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ajsuvakova",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aschner",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gritsenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Alekseenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Svistunov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Petrakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Spandidos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aaseth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Mol. Med",
+            "volume": "46",
+            "issn": "",
+            "pages": "17--26",
+            "other_ids": {
+                "DOI": [
+                    "10.3892/ijmm.2020.4575"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Potential role of zinc supplementation in prophylaxis and treatment of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kubota",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chernov",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kasuya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "144",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mehy.2020.109848"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "endorsed by the ESPEN Council. ESPEN expert statements and practical guidance for nutritional management of individuals with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barazzoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bischoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Breda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wickramasinghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Krznaric",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nitzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pirlich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Nutr",
+            "volume": "39",
+            "issn": "",
+            "pages": "1631--1638",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.clnu.2020.03.022"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "The effects of vitamin D on acute viral respiratory infections: A rapid review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bradley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schloss",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Celis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Finnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Honcharov",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pantuso",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pe\u00f1a",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lauche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Adv. Integr. Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "192--202",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.aimed.2020.07.011"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Role of Vitamin D Supplementation in Prevention and Treatment of COVID-19. Ind",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khemka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Suri",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bansal",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Clin. Biochem",
+            "volume": "2020",
+            "issn": "",
+            "pages": "502--503",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12291-020-00908-3"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Current State of Evidence: Influence of Nutritional and Nutrigenetic Factors on Immunity in the COVID-19 Pandemic Framework",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galm\u00e9s",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Serra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12092738"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Optimal Nutritional Status for a Well-Functioning Immune System Is an Important Factor to Protect against Viral Infections",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Calder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Carr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gombart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Eggersdorfer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12041181"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Effective Immune Functions of Micronutrients against SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Junaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ejaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Abdalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "O A"
+                    ],
+                    "last": "Abosalif",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Ullah",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yasmeen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Younas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S M"
+                    ],
+                    "last": "Hamam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rehman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/nu12102992"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Nutritional Status and Mortality in the Critically Ill*",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mogensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Casey",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gunasekera",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moromizato",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rawn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Christopher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Crit. Care Med",
+            "volume": "43",
+            "issn": "",
+            "pages": "2605--2615",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CCM.0000000000001306"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Clinical Nutrition Research and the COVID-19 Pandemic: A Scoping Review of the ASPEN COVID-19 Nutrition Taskforce",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Mechanick",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carbone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Dickerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J D"
+                    ],
+                    "last": "Hernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hurt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Irving",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mogensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B O"
+                    ],
+                    "last": "Gautier",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Parenter. Enter",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jpen.2036"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Population characteristics at admission.Continuous variables are expressed as mean \u00b1 standard deviation. Categorical variables are expressed as the number of patients (percentage). N: number of available data. A severe infection was defined as a need for nasal oxygen flow of at or above 6 L per minute. COVID-19: Sars-Cov-2 infectious disease.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical, biological, and radiological data at admission and COVID-19 treatments.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Causes of malnutrition and nutritional risk.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Prognosis of malnutrition and nutritional risk.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We acknowledge all healthcare workers involved in the diagnosis and treatment of patients in Avicenne Hospital. We thank Rachida Mazouzi, Flory Mfutila Kaykay, Phuc Thu Trang Nguyen, and Imen Rezgani for their help in collecting data. We thank SANO\u00cfA-Real World Digital CRO for digital data collection and data management services. We thank InfuSol and LVL Medical for supporting financially the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "We declare no competing interests. InfuSol and LVL Medical funded in part this study. Apart from funding, they did not participate in any part of this study (collection, analyses, and interpretation of data; writing of the report; the decision to submit the report for publication).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

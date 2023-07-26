@@ -1,0 +1,1528 @@
+{
+    "paper_id": "00afa80b5484e800e62583368490f63448165de4",
+    "metadata": {
+        "title": "Medizinische Klinik Originalien Einstellung zur Impfung gegen SARS-CoV-2",
+        "authors": [
+            {
+                "first": "Redaktion",
+                "middle": [
+                    "M"
+                ],
+                "last": "Buerke",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Siegen",
+                "middle": [
+                    "Uwe"
+                ],
+                "last": "Janssens",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St.-Antonius-Hospital",
+                    "location": {
+                        "settlement": "Eschweiler",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Stefan",
+                "middle": [],
+                "last": "Kluge",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e4tsklinikum Hamburg-Eppendorf",
+                    "location": {
+                        "settlement": "Hamburg",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "Gernot"
+                ],
+                "last": "Marx",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e4tsklinikum RWTH Aachen",
+                    "location": {
+                        "settlement": "Aachen",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carsten",
+                "middle": [],
+                "last": "Hermes",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bernd",
+                "middle": [],
+                "last": "Salzberger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e4tsklinikum Regensburg",
+                    "location": {
+                        "addrLine": "2020 N =",
+                        "postCode": "2305, 2021",
+                        "settlement": "Regensburg, Februar, N = 3501 p-Wert",
+                        "country": "Deutschland"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "Christian"
+                ],
+                "last": "Karagiannidis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Weltweit sind der Pandemie durch das \"severe acute respiratory syndrome coronavirus type 2\" (SARS-CoV-2) mittlerweile fast 2,5 Mio. Menschen zum Opfer gefallen, mehr als 111 Mio. Menschen wurden infiziert [14] . Im globalen Kampf gegen die Coronapandemie spielen die Impfungen gegen SARS-CoV-2 die entscheidende Rolle. Drei Impfstoffe gegen COVID-19 sind bisher in der Europ\u00e4ischen Union (EU) zugelassen worden. Der Impfstoff von BioNtech/Pfizer (Mainz, Deutschland) (BNT162b) am 21.12.2020, danach folgte am 06.01.2021 der Impfstoff von Moderna (Cambridge, MA, USA) (mRNA-1273) und am 29.01.2021 erteilte die EU-Kommission die bedingte Zulassung f\u00fcr den Impfstoff von AstraZeneca (Cambridge, Vereinigtes K\u00f6nigreich). Offizieller Impfstart eines gestuften Verfahrens in Deutschland war der 27. Dezember 2020 [33] .",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 808,
+                    "end": 812,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Mitarbeitende im Gesundheitswesen (\"health care workers\" HCWs) werden von der Bev\u00f6lkerung im Allgemeinen als die vertrauensvollste Quelle f\u00fcr Informationen zu Impfungen angesehen [6] . Unabh\u00e4ngig davon zeigen Studien, das HCWs ihr Vertrauen zu Impfungen bei ihren Kindern, bei sich selber, aber auch bei ihren Patienten verlieren k\u00f6nnen und von den g\u00fcltigen Impfempfehlungen dann abweichen [11, 22, 30, 34] . Gesundheitsexperten bezeichnen dies als Impfzur\u00fcckhaltung, Impfunschl\u00fcssigkeit oder Impfm\u00fcdigkeit (\"vaccine hesitancy\"). Die Strategic Advisory Group of Experts on Immunization (SAGE) der Weltgesundheitsorganisation (WHO) hat diese \"vaccine hesitancy\" als Verz\u00f6gerung oder Ablehnung von Impfungen trotz Verf\u00fcgbarkeit von Impfangeboten definiert; sie ist kontextspezifisch, das hei\u00dft, sie variiert in Abh\u00e4ngigkeit von Zeit, Region und dem jeweiligen Impfstoff [3, 21] . Im Jahr 2019 hat die WHO eine Liste der aus ihrer Sicht 10 gr\u00f6\u00dften Risiken f\u00fcr die globale Gesundheit vorgestellt [37] . Hierzu geh\u00f6ren auch ausdr\u00fccklich Impfvermeidungen und Impfverz\u00f6gerungen.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 182,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 390,
+                    "end": 394,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 395,
+                    "end": 398,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "30,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 868,
+                    "end": 871,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 872,
+                    "end": 875,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 992,
+                    "end": 996,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Seit Anfang Mai 2020 untersucht die Universit\u00e4t Erfurt u. a. die Impfbereitschaft gegen SARS-CoV-2 in der Bev\u00f6lkerung und in speziellen Personengruppen [32] . Dabei finden sich Hinweise darauf, dass die Impfbereitschaft im Gesundheitssektor niedriger als innerhalb der Gesamtbev\u00f6lkerung ist [24, 32] . Dies zeigt sich auch bei der Einstellung zur Influenzaimpfung beim Krankenhauspersonal. Die St\u00e4ndige Impfkommission (STIKO) empfiehlt medizinischem Personal aufgrund des erh\u00f6hten beruflichen Risikos die j\u00e4hrliche Impfung gegen Influenza. Die \u00c4rzteschaft in allen vergangenen Saisons wurde h\u00e4ufiger geimpft als die \u00fcbrigen untersuchten Berufsgruppen: Die Impfquote unter \u00c4rzt*Innen erh\u00f6hte sich in der Saison 2019/20 auf 79,3 %. Im Gegensatz dazu war nur ein Drittel des Pflegediensts jeweils in den Saisons 2016/17 und 2017/18 gegen Influenza geimpft. In der Saison 2018/19 stieg die Impfquote in dieser Gruppe um rund 15 Prozentpunkte und lag in der Saison 2019/20 bei einem mit der Vorsaison vergleichbaren Wert von 46,7 % [26] .",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 296,
+                    "end": 299,
+                    "text": "32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1027,
+                    "end": 1031,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Angesichts der Bedeutung der anstehenden Impfungen gegen SARS-CoV-2 und Unsicherheiten in Bezug auf die Akzeptanz dieses Impfangebots gerade in Bezug auf die v\u00f6llig neuartige Impftechnologie f\u00fchrten wir Anfang Dezember 2020 [16] Daher wurde der Fragebogen f\u00fcr die zweite Befragung modifiziert und zus\u00e4tzlich abgefragt, ob eine Impfung schon erfolgt war und mit welchem Impfstoff die Impfung durchgef\u00fchrt wurde. Weiter wurden die Befragten gebeten anzugeben, ob sie f\u00fcr sich eine freie Wahl des Impfstoffs w\u00fcnschen w\u00fcrden. Ebenfalls wurden sie gezielt danach befragt, f\u00fcr welchen Impfstoff sie sich bei einer freien Wahl entscheiden w\u00fcrden. Alle \u00fcbrigen Fragen waren mit der ersten Befragung identisch. Der Fragebogen wurde anonymisiert online mit dem EFS-Survey der Firma Unipark (Norwegen, Oslo) erstellt. Die statistische Auswertung erfolgte mit IBM\u00a9 SPSS\u00a9 Statistics Version 22.0 (New York, NY, USA).",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Die Auswertung der univariaten und bivariaten Messzahlen erfolgt mittels deskriptiver Statistik. Es werden das arithmetische Mittel (MW) und die Standardabweichung (SD) f\u00fcr normalverteilte Daten und der Median (MD) mit Interquartilsabstand (IQR) f\u00fcr nichtnormalverteilte Variablen angegeben:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Das mittlere Alter mit Standardabweichung, die H\u00e4ufigkeiten der Geschlechtsverteilung, Berufszugeh\u00f6rigkeit sowie Berufserfahrung wurden getrennt f\u00fcr beide Erhebungszeitr\u00e4ume berechnet und die nominal-sowie ordinalskalierten Daten in einer Kreuztabelle mittels \u03c7 2 -Test auf signifikante Unterschiede bez\u00fcglich der Erhebungszeitr\u00e4ume hin untersucht. Es wurden verschiedene multinominale logistische Regressionsanalysen durchgef\u00fchrt. Als abh\u00e4ngige Variablen wurden dabei ber\u00fccksichtigt: 1) \"Impfung wichtig zur Eind\u00e4mmung der SARS-CoV-2-Pandemie\" (dichotomisiert \"Ja\" oder \"Nein bzw. bin mir unsicher\"), 2) \"Impfbereitschaft\" (dichotomisiert \"Ja\" oder \"Nein bzw. bin mir Zusammenfassung. Vor und nach Einf\u00fchrung von Impfungen gegen SARS-CoV-2 kann eine Zunahme der Impfbereitschaft gegen SARS-CoV-2 bei deutschen HCWs gezeigt werden. Fachexpert*Innen m\u00fcssen Sachlichkeit in die aktuell kontrovers gef\u00fchrte Debatte durch pr\u00e4zise und transparente Information einbringen und damit einer Impfskepsis nicht nur bei HCWs entgegenwirken.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Vakzination \u00b7 COVID-19 \u00b7 Schweres akutes Atemwegssyndrom-Coronavirus-Typ 2 \u00b7 Impfzur\u00fcckhaltung \u00b7 Onlinebefragung",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Schl\u00fcsselw\u00f6rter"
+        },
+        {
+            "text": "Background. The vaccinations against the \"severe acute respiratory syndrome coronavirus type 2\" (SARS-CoV-2) play a decisive role in the global fight against the coronavirus pandemic. In the population, but also among health care workers (HCWs), there were concerns and skepticism about vaccinations even before the corona pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Attitude towards vaccination against SARS-CoV-2. Survey among employees in hospitals before and after the start of vaccinations in German hospitals Abstract"
+        },
+        {
+            "text": "Methods. An online survey on the attitude of HCWs to vaccination against SARS-CoV-2 was carried out in December (December 3rd-December 12th, 2020) before and in February (February 1st-February 10th, 2021) after the start of the vaccinations. Members of the German Society for Internal Intensive Care Medicine and Emergency Medicine (DGIIN) and the German Interdisciplinary Association for Intensive Care Medicine and Emergency Medicine (DIVI) were invited by email and on Facebook.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Attitude towards vaccination against SARS-CoV-2. Survey among employees in hospitals before and after the start of vaccinations in German hospitals Abstract"
+        },
+        {
+            "text": "Results. In December 2305 and in February 3501 people took part. The approval rate for vaccination increased from 85.2% to 92.1% (p < 0.001). There was also an increase in willingness to vaccinate (63.8% vs. 75.9%; p < 0.001). The female gender, membership of the professional group nursing staff and age < 45 years were significantly associated with a restricted willingness to vaccinate. There was also a decrease in concerns about efficacy, side effects and long-term damage. There was clear skepticism about the vaccine from AstraZeneca (Cambridge, United Kingdom). Summary. Before and after the introduction of vaccinations against SARS-CoV-2, an increase in the willingness to vaccinate against SARS-CoV-2 can be shown in German HCWs. Technical experts must bring objectivity into the currently controversial debate through precise and transparent information and thus counteract vaccination skepticism, not only among HCWs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Attitude towards vaccination against SARS-CoV-2. Survey among employees in hospitals before and after the start of vaccinations in German hospitals Abstract"
+        },
+        {
+            "text": "Immunization \u00b7 Severe acute respiratory syndrome coronavirus 2 \u00b7 COVID-19 \u00b7 Vaccine hesitancy \u00b7 Online survey unsicher\"), 3) \"Haben Sie Bedenken bez\u00fcglich der Wirksamkeit?\", 4) \"Haben Sie Bedenken bez\u00fcglich der Nebenwirkungen?\", 5) \"Haben Sie Bedenken bez\u00fcglich der Wirksamkeit?\", 6) Die Likert-Skala der Fragen 3-5 von 1 (\"keine Bedenken\") bis 6 (\"starke Bedenken\") wurde dichotomisiert (1-3 = \"keine oder wenige Bedenken\"; 4-6 = \"starke bis sehr starke Bedenken\"). Als unabh\u00e4ngige Variablen wurden das Geschlecht (Frauen, M\u00e4nner), Berufszugeh\u00f6rigkeit (\u00c4rzt*Innen, Pflegekr\u00e4fte, sonstige Berufsgruppen), Befragungszeitraum (Dezember 2020 vs. Februar 2021), Berufserfahrung (unter 3 Jahren, 3-10 Jahre, \u00fcber 10 Jahre) sowie die Altersgruppe (bis 24 Jahre, 25-44 Jahre, 45-54 Jahre, \u2265 55 Jahre) in die Regressionsanalyse eingeschlossen. Als Signifikanzniveau wurde ein p-Wert < 0,05 angenommen. beiter*Innen, Verwaltungsmitarbeitende) als im Dezember teil (. Tab. 1) . 67,2 % (n = 2,177) der Studienteilnehmer im Februar hatten bereits mindestens eine Impfdosis erhalten, davon hatten 26 % (n = 909) schon beide Impfungen erhalten; 73,8 % den Impfstoff der Firma BioNTech/Pfizer und 26,2 % den Impfstoff der Firma Moderna. Die Vertr\u00e4glichkeit der Impfung wurde in 80,7 % der F\u00e4lle als \"Gut\" oder \"Sehr gut\" angegeben. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 958,
+                    "end": 965,
+                    "text": "Tab. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Keywords"
+        },
+        {
+            "text": "Die Teilnehmer der Februarumfrage wurden gefragt, ob sie eine freie Wahl eines Impfstoffs bevorzugen w\u00fcrden. 66 % votierten daf\u00fcr, 11 % dagegen und 24 % war es egal. [27] . Studiendaten der mittlerweile zugelassenen Impfstoffe zeigen, dass die Wahrscheinlichkeit, an COVID-19 zu erkranken, bei den geimpften Teilnehmer-Innen um 95 % (BioNTech, Moderna) bzw. 70 % (AstraZeneca) geringer war als bei den mit Placebo/Kontrollimpfstoff geimpften TeilnehmerInnen [28] . Auch die Rate schwerer Verl\u00e4ufe wurde durch alle 3 Impfstoffe zuverl\u00e4ssig reduziert.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 170,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 458,
+                    "end": 462,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Freie Wahl des Impfstoffs"
+        },
+        {
+            "text": "Zum Zeitpunkt der Befragung Anfang Dezember lagen den Mitarbeitenden im Gesundheitswesen noch keine genauen Daten zu den bevorstehenden Impfterminen vor, ebenfalls waren zu diesem Zeitpunkt noch keiner der aktuell verf\u00fcgbaren Impfstoffe zugelassen. Die Bedeutung der Impfung gegen SARS-CoV-2 wurde schon Anfang Dezember von allen Befragten als sehr hoch eingesch\u00e4tzt Tab. 6 Multinominale logistische Regressionsanalyse. Abh\u00e4ngige Variable \"Haben Sie Bedenken bez\u00fcglich der Wirksamkeit?\". Die Likert-Skala von 1 (\"keine Bedenken\") bis 6 (\"starke Bedenken\") wurde dichotomisiert (1-3 = \"keine oder wenige Bedenken\"; 4-6 = \"starke bis sehr starke Bedenken\"). Unabh\u00e4ngige Variablen sind das Geschlecht (Frauen, M\u00e4nner), Berufszugeh\u00f6rigkeit (\u00c4rzt*Innen, Pflegekr\u00e4fte, sonstige Berufsgruppen), Befragungszeitraum (Dezember 2020 vs. Februar 2021). Berufserfahrung (unter 3 Jahren, 3-10 Jahre, \u00fcber 10 Jahre) sowie die Altersgruppe (bis 24 Jahre, 25-44 Jahre, 45-54 Jahre, \u2265 55 Jahre). Referenzkategorie ist \"keine bis wenige Bedenken\" (Likert-Skala 1-3 Auf den ersten Blick verwundert es, dass die Mitarbeitenden im Gesundheitswesen die Bedeutung der Impfung zwar als sehr hoch einsch\u00e4tzen und gleichzeitig sich deutlich weniger einer Impfung unterziehen w\u00fcrden. Dabei findet sich diese Impfzur\u00fcckhaltung auch in der Allgemeinbev\u00f6lkerung. Im August 2020 gaben nur 44 % der deutschen Bev\u00f6lkerung an, sich auf jeden Fall gegen SARS-CoV-2 impfen zu lassen, im November sank dieser Wert auf 37 %. Im Januar 2021 stieg dieser Wert auf 54 % und im Februar auf 59 % [13] .",
+            "cite_spans": [
+                {
+                    "start": 1552,
+                    "end": 1556,
+                    "text": "[13]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1028,
+                    "end": 1045,
+                    "text": "(Likert-Skala 1-3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Tats\u00e4chlich besteht nicht nur in der aktuellen Coronapandemie eine Impfzur\u00fcckhaltung sowohl bei HCWs als auch in der allgemeinen Bev\u00f6lkerung. Schon vor der Coronapandemie konnte weltweit eine Abnahme bei der Impfbereitschaft und dem Vertrauen in Impfungen aus kulturellen, politischen, aber auch pers\u00f6nlichen Gr\u00fcnden beobachtet werden [4] .",
+            "cite_spans": [
+                {
+                    "start": 335,
+                    "end": 338,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Eine Befragung von 1138 t\u00fcrkischen HCWs im September 2020 ergab eine Impfbereitschaft gegen SARS-CoV-2 von 69 % [17] . Zwischen M\u00e4rz und Juli 2020 wurden 1554 franz\u00f6sische HCWs befragt, dabei votierten 77 % f\u00fcr eine Impfung [10] . Kalifornische HCWs (n = 609) gaben in 67 % der F\u00e4lle an, aufgrund von Bedenken eine Impfung gegen SARS-CoV-2 bei Verf\u00fcgbarkeit nach hinten zu verschieben [9] . In 26 chinesischen Provinzen nahmen im M\u00e4rz 2020 352 HCWs an einer Befragung teil. 76 % der Befragten sprachen sich f\u00fcr eine Impfung gegen SARS-CoV-2 aus (Allgemeinbev\u00f6lkerung, n = 189 im Vergleich 73 %; [8] ). In Israel wurde im M\u00e4rz 2020 eine Onlineumfrage unter 1661 Personen (\u00c4rzt*Innen n = 338; Pflegekr\u00e4fte n = 211 und Allgemeinbev\u00f6lkerung n = 1,112) zur Akzeptanz zuk\u00fcnftiger Impfungen gegen SARS-CoV-2 durchgef\u00fchrt [5] . Dabei sprachen sich 78 % der \u00c4rzt*Innen, 61 % der Pflegekr\u00e4fte und 75 % der Allgemeinbev\u00f6lkerung f\u00fcr eine eigene Impfung gegen SARS-CoV-2 aus.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 385,
+                    "end": 388,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 595,
+                    "end": 598,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 814,
+                    "end": 817,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "In beiden Befragungen zeigte sich ein Unterschied im Antwortverhalten in Abh\u00e4ngigkeit vom Geschlecht, der Berufsgruppe und auch ein Zusammenhang mit Lebensalter. Befragte weiblichen Geschlechts, aus der Gruppe der Pflegekr\u00e4fte und j\u00fcngeren Alters zeigten allesamt eine h\u00f6here Impfskepsis und hatten auch mehr Bedenken in Bezug auf Wirksamkeit der Impfungen, Nebenwirkungen und Langzeitsch\u00e4den. Befragungen von HCWs in anderen L\u00e4ndern zeigen analoge Ergebnisse: bei israelischen HCWs waren Frauen und Pflegekr\u00e4fte assoziiert mit Skepsis gegen\u00fcber der Impfung, \u00e4hnlich fielen Befragungen franz\u00f6sischer und amerikanischer HCWs aus [5, 9, 10] .",
+            "cite_spans": [
+                {
+                    "start": 628,
+                    "end": 631,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 632,
+                    "end": 634,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 635,
+                    "end": 638,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Die aktuell sehr \u00f6ffentlich und polarisierend gef\u00fchrte Diskussion um die Wirksamkeit der in Deutschland zugelassenen Impfstoffe aber auch um die Nebenwirkungen schl\u00e4gt sich auch in den Ergebnissen der Februarumfrage nieder: Nur 27 % w\u00fcrden sich mit dem Pr\u00e4parat der Firma AstraZeneca imp-Tab. 8 Multinominale logistische Regressionsanalyse.Abh\u00e4ngigeVariable\"HabenSieBedenken bez\u00fcglich der Langzeitsch\u00e4den?\". Die Likert-Skala von 1 (\"keine Bedenken\") bis 6 (\"starke Bedenken\") wurde dichotomisiert (1-3 = \"keine oder wenige Bedenken\"; 4-6 = \"starke bis sehr starke Bedenken\"). Unabh\u00e4ngige Variablen sind das Geschlecht (Frauen, M\u00e4nner), Berufszugeh\u00f6rigkeit (\u00c4rzt*Innen, Pflegekr\u00e4fte, sonstige Berufsgruppen), Befragungszeitraum (Dezember 2020 vs. Februar 2021). Berufserfahrung (unter 3 Jahren, 3-10 Jahre, \u00fcber 10 Jahre) sowie die Altersgruppe (bis 24 Jahre, 25-44 Jahre, 45-54 Jahre, \u2265 55 Jahre). Referenzkategorie ist \"keine bis wenige Bedenken\" (Likert Skala 1-3)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Odds [5, 9, 15, 29, 35] . Angesichts der offensichtlichen Impfunschl\u00fcssigkeit m\u00fcssen die Gr\u00fcnde hierf\u00fcr besser verstanden werden, um die Impfbereitschaft nicht nur bei den HCWs zu verbessern. Die Modelle des Impfverhaltens sind mit psychologischen Profilen hinterlegt, um die Gr\u00fcnde des (Nicht-)Impfens messbar zu machen [1, 2] . Das \"5C-Modell\" beschreibt als wesentliche psychologische Begr\u00fcndungen einer Impfentscheidung die folgenden Aspekte [3, [19] [20] [21] : Confidence (Vertrauen) beschreibt das Ausma\u00df an Vertrauen in die Effektivit\u00e4t und Sicherheit von Impfungen, das Gesundheitssystem und die Motive der Entscheidungstr\u00e4ger. Complacency (Risikowahrnehmung) beschreibt die Wahrnehmung von Krankheitsrisiken und ob Impfungen als notwendig angesehen werden. Constraints (Barrieren in der Ausf\u00fchrung, auch: Convenience) beschreibt das Ausma\u00df wahrgenommener struktureller H\u00fcrden wie Stress, Zeitnot oder Aufwand. Calculation (Berechnung) erfasst das Ausma\u00df aktiver Informationssuche und bewusster Evaluation von Nutzen und Risiken von Impfungen. Die Collective Responsibility (Verantwortungsgef\u00fchl f\u00fcr die Gemeinschaft) beschreibt das Ausma\u00df prosozialer Motivation durch die eigene Impfung zur Reduzierung der Krankheits\u00fcbertragung [3] . Vor dem Hintergrund dieser relevanten Motive f\u00fcr oder v. a. gegen eine Impfentscheidung sollten alle Ma\u00dfnahmen ergriffen werden, um eine m\u00f6glichst hohe Impfbereitschaft zu erzielen. Impfbarrieren m\u00fcssen verringert werden. Nicht klar zu erkennen ist, welcher der 5 C-Punkte hier am kritischsten ist. Das Risikobewusstsein vor relevanten Folgeerkrankungen nach COVID-19 ist vermutlich bei HCWs am ehesten vorhanden, offensichtlich ist die Diskussion um die unterschiedlichen numerischen Werte der Wirksamkeit der verschiedenen Impfstoffe hier der kritischste Punkt.",
+            "cite_spans": [
+                {
+                    "start": 5,
+                    "end": 8,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 9,
+                    "end": 11,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 12,
+                    "end": 15,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 16,
+                    "end": 19,
+                    "text": "29,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 20,
+                    "end": 23,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 325,
+                    "end": 327,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 460,
+                    "end": 464,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1239,
+                    "end": 1242,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Im digitalen Zeitalter haben Patienten Zugang zu Gesundheitsinformationen aus verschiedenen Quellen, einschlie\u00dflich Internet und Social-Media-Plattformen. Da Social-Media-Plattformen weltweit immer beliebter werden, gibt es wachsende Bedenken hinsichtlich der Auswirkungen von Antiimpfinhalten und Kampagnen auf die Impfbereitschaft in der Bev\u00f6lkerung. Die zum Teil erheblich fehlerhaften Informationen und Fake News tragen zu einer erheblichen Verunsicherung bei und gef\u00e4hrden nachhaltig eine durchgreifende Impfung m\u00f6glichst vieler Menschen. Zuk\u00fcnftige Arbeiten in diesem Bereich sollten sich auf die Entwicklung und Analyse wirksamer Strategien zur F\u00f6rderung der Impfstoffakzeptanz und der evidenzbasierten Gesundheitskompetenz konzentrieren [25] . Dabei ist es elementar, auch innerhalb der Fachgesellschaften die Berufsgruppe der Pflegenden direkt in den Informationsfluss und in die Strategie sowohl in der Behandlung als auch in der Pr\u00e4vention des SARS-CoV-2-Virus einzubinden [12] . F\u00fcr die Informationssuche im Internet und insbesondere in den Social Media muss sichergestellt werden, dass Informationssuchende zu \"guten\" (richtigen und gut verst\u00e4ndlichen) Informationen geleitet werden, Mythen m\u00fcssen entkr\u00e4ftet werden.",
+            "cite_spans": [
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 984,
+                    "end": 988,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Beide anonymisierten Onlinebefragungen sind limitiert, da die demografischen Daten nicht validiert werden konnten. Es kann nicht ausgeschlossen werden, dass Personen aus fachfremden Bereichen an der Umfrage teilnahmen.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Durch die Bewerbung der Umfrage in den Facebook-Auftritten der Fachgesellschaften und angesichts des Aufwands der Frageb\u00f6gen ist allerdings davon auszugehen, dass die \u00fcberwiegende Mehrzahl der Befragten HCWs zuzuordnen sind. Auch dass einzelne Teilnehmer den Fragebogen mehrfach durchlaufen, kann nicht g\u00e4nzlich ausgeschlossen werden, beiv\u00f6lligerAnonymit\u00e4tist derMehrfachdurchlauf nicht vollst\u00e4ndig vermeidbar [36] . Allerdings wurden Internetprotokoll(IP)-Filter verwendet. Hierdurch war eine mehrfache Teilnahme unter gleicher IP-Adresse (am selben Endger\u00e4t) nicht m\u00f6glich. Es ist zu beachten, dass der Pflegeberuf weiblich gepr\u00e4gt ist, wodurch es zu Verzerrungen im Zusammenhang Alter und Beruf kommen kann. Ein weiteres methodisches Problem bei Internetbefragungen kann durch einen zu hohen Anteil von Interviewabbrechern entstehen. In der aktuellen Befragung lag die Beendigungsquote mit 95 % allerdings extrem hoch.",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 414,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        },
+        {
+            "text": "Durch das Design und den Zeitraum der Befragung sind alle Ergebnisse als Tendenz zu betrachten [31] . Die Grundgesamtheit \"Pflegende auf Intensivstationen und \u00dcberwachungsbereichen\" ist in Deutschland statistisch nicht belastbar erfasst. Bei dieser Befragung ist am ehesten von einer eingeschr\u00e4nkten Zufallsstichprobe auszugehen [23] . ",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 99,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 329,
+                    "end": 333,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Auswahl eines bestimmten Impfstoffs"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Using behavioral insights to increase vaccination policy effectiveness",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Betsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "B\u00f6hm",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chapman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Policy Insights Behav Brain Sci",
+            "volume": "2",
+            "issn": "",
+            "pages": "61--73",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Beyond confidence: development of a measure assessing the 5C psychological antecedents of vaccination",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Betsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schmid",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Heinemeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Impfverhalten psychologisch erkl\u00e4ren, messen und ver\u00e4ndern",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Betsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schmid",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Korn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz",
+            "volume": "62",
+            "issn": "",
+            "pages": "400--409",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Mapping global trends in vaccine confidence and investigating barriers to vaccine uptake: a largescale retrospective temporal modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "De Figueiredo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Simas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karafillakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "898--908",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Vaccine hesitancy: the next challenge in the fight against COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dror",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Eisenbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Taiber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Epidemiol",
+            "volume": "35",
+            "issn": "",
+            "pages": "775--779",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "European Centre for Disease Prevention and Control(ECDC)(2012)Communicationonimmunisation-building trust",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "SARS-CoV-2-Antik\u00f6rper bei Intensiv-und Klinikpersonal: Aus der am h\u00f6chsten durchseuchten Region Deutschlands",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Finkenzeller",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Faltlhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Dietl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med Klin Intensivmed Notfmed",
+            "volume": "115",
+            "issn": "",
+            "pages": "139--145",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Acceptance and preference for COVID-19 vaccination in healthcare workers (HCWs). medRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.09.20060103"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Assessment of COVID-19 vaccine acceptance among healthcare workers in Los Angeles",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gadoth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Halbrook",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Martin-Blais",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.11.18.20234468"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Intention to get vaccinations against COVID-19 in French healthcare workers during the first pandemic wave: a cross-sectional survey",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagneux-Brunon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Detoc",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bruel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Hosp Infect",
+            "volume": "108",
+            "issn": "",
+            "pages": "168--173",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Laboratory features of severe vs. nonsevere COVID-19 patients in Asian populations: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghahramani",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tabrizi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lankarani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Med Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Sektion Pflege zur aktuellen Situation der Intensivpflege in Deutschland: Arbeitsgruppe der Sektion Pflege der Deutschen Gesellschaft fur Internistische Intensivmedizin und Notfallmedizin (DGIIN)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hermes",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ochmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Med Klin Intensivmed Notfmed",
+            "volume": "115",
+            "issn": "",
+            "pages": "495--497",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": ") (2021) COVID-19 Dashboard by the Center for Systems Science and Engineering",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Vaccine hesitancy among healthcare workers in Europe: a qualitative study",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Karafillakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dinca",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Apfel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Vaccine",
+            "volume": "34",
+            "issn": "",
+            "pages": "5013--5020",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Impfbereitschaft unter intensivmedizinischem Personal: Angsten entgegenwirken",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Karagiannidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Spies",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kluge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Med Klin Intensivmed Notfmed",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00063-021-00797-1"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Vaccine hesitancy of the COVID-19 by health care personnel",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kose",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mandiracioglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sahin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Clin Pract",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ijcp.13917"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Editor's choice: influenza vaccine uptake, COVID-19 vaccination intention and vaccine hesitancy among nurses: a survey",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kwok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Int J Nurs Stud",
+            "volume": "114",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Understanding vaccine hesitancy around vaccines and vaccination from a global perspective: a systematic review of published literature",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jarrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eckersberger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Vaccine",
+            "volume": "32",
+            "issn": "",
+            "pages": "2150--2159",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Measuring vaccine hesitancy: the development of a survey tool",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jarrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schulz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Vaccine",
+            "volume": "33",
+            "issn": "",
+            "pages": "4165--4175",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Vaccine hesitancy: definition, scope and determinants",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Macdonald",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Sage Working",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Group on Vaccine Hesitancy",
+            "volume": "33",
+            "issn": "",
+            "pages": "4161--4164",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Immunising children in primary care in the UK-what are the concerns of principal Immunisers?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Maconachie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lewendon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Health Educ J",
+            "volume": "63",
+            "issn": "",
+            "pages": "40--49",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Statistik -Eine Einf\u00fchrung mit interaktiven Elementen",
+            "authors": [
+                {
+                    "first": "H-J",
+                    "middle": [],
+                    "last": "Mittag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Impfskepsis unter medizinischem Personal im Kontext mit der COVID-19 Impfung",
+            "authors": [
+                {
+                    "first": "/",
+                    "middle": [],
+                    "last": "Pidi Lab",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cosmo Team Uni",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Erfurt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Social media and vaccine hesitancy: new updates for the eraofCOVID-19andglobalizedinfectiousdiseases",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Puri",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Coomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Haghbayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Impfquoten bei Erwachsenen in Deutschland -Aktuelles aus der KV-Impf-surveillance und der Onlinebefragung von Krankenhauspersonal OKaPII",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rieck",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Steffen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Schmid-K\u00fcpke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiol Bull",
+            "volume": "47",
+            "issn": "",
+            "pages": "3--26",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Aktueller Lage-/ Situationsbericht des RKI zu COVID-19",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Koch Institut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Fragen zur COVID-19-Impfempfehlung",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Koch Institut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Health care workers' reluctance to take the Covid-19 vaccin a consumer-marketing approach to identifying and overcoming hesitancy. NEJM Catal Innov Care Deliv",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Venkatesh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/CAT.20.0676"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Likelyuptakeof swine and seasonal flu vaccines among healthcare workers. Across-sectionalanalysisofUKtelephone survey data",
+            "authors": [
+                {
+                    "first": "Pottshw",
+                    "middle": [],
+                    "last": "Rubingj",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michies",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Vaccine",
+            "volume": "29",
+            "issn": "",
+            "pages": "2421--2428",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Methoden der empirischen Sozialforschung",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Esser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "COVID-19 snapshot monitoring (COSMO)",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Impfstoffe zum Schutz vor der Coronavirus-Infektion Covid-19",
+            "authors": [
+                {
+                    "first": "Arzneimittelhersteller",
+                    "middle": [],
+                    "last": "Verband Forschender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Vaccine hesitancy among general practitioners and its determinants during controversies: a national cross-sectional survey in France",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Verger",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fressard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Collange",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "891--897",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Intention of nurses to accept coronavirus disease 2019 vaccination and change of intention to accept seasonal influenza vaccination during the coronavirus disease 2019 pandemic: a cross-sectional survey",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ely",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Vaccine",
+            "volume": "38",
+            "issn": "",
+            "pages": "7049--7056",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Online Umfrage",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wikipedia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "World Health Organization (WHO) (2019) Ten threatstoglobalhealthin2019",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "sowie Anfang Februar 2021 eine Onlineumfrage bei Mitarbeitenden im Gesundheitswesen durch, die sich vor allem an intensivmedizinisch t\u00e4tige Pfle-Auf der ersten Seite der Onlineumfrage wurde den Teilnehmern kommuniziert, welche Daten zu welchem Zweck erhoben werden, wo und wie lange die Daten gespeichert werden. IP-Adressen wurden zur Vermeidung von Mehrfachabgaben bis zum Ende des Befragungszeitraums ohne Zuordnung zu Frageb\u00f6gen gespeichert und dann gel\u00f6scht. Die Teilnahme der Befragung erfolgte nur nach aktiver Zustimmung und konnte jederzeit abgebrochen werden. Es wurden keinerlei pers\u00f6nlich identifizierbare Merkmale erhoben oder gespeichert. Im Fragebogen wurden als demografische Daten Berufszugeh\u00f6rigkeit, Alter, Geschlecht und Berufserfahrung erhoben. Zum Zeitpunkt der Befragung im Dezember war noch kein Impfstoff in Deutschland zugelassen. Diese Befragung erfasste nur die Einstellung zur Notwendigkeit einer Impfung gegen SARS-CoV-2, um die Coronapandemie einzud\u00e4mmen, die Bereitschaft, sich selber impfen zu lassen, und Bedenken zur Wirksamkeit, zu akuten Nebenwirkun-gen und Langzeitnebenwirkungen der angek\u00fcndigten Impfstoffe. Zum Zeitpunkt der Befragung im Februar waren sowohl der Impfstoff der Firma BioNTech/Pfizer als auch der Firma Moderna in Deutschland zugelassen und beide wurden seit Mitte Januar auch in deutschen Krankenh\u00e4usern den Mitarbeitenden dort einer Priorisierung folgend angeboten. Der Impfstoff der Firma AstraZeneca hatte am 29.01.2021 die europ\u00e4ische Zulassung erhalten.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Med Klin Intensivmed Notfmed https://doi.org/10.1007/s00063-021-00821-4 \u00a9 Springer Medizin Verlag GmbH, ein Teil von Springer Nature 2021 U. Janssens \u00b7 S. Kluge \u00b7 G. Marx \u00b7 C. Hermes \u00b7 B. Salzberger \u00b7 C. KaragiannidisEinstellung zur Impfung gegen SARS-CoV-2. Umfrage unter Mitarbeitenden in Krankenh\u00e4usern vor und nach Beginn der Impfungen in den deutschen Krankenh\u00e4usern",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "An der Dezemberbefragung nahmen 2305 Personen, an der Februarbefragung 3501 Personen teil. Die Teilnehmer der Befragung im Februar waren \u00e4lter (43,4 \u00b1 11,4 vs. 42,7 \u00b1 10,7; p = 0,034) und waren h\u00e4ufiger weiblich (63,9 % vs. 36,1 %; p < 0,0001). Dar\u00fcber hinaus nahmen im Februar mehr Teilnehmer aus anderen Berufsgruppen im Krankenhaus (z. B. Physiotherapeut*Innen, Sozialar-Tab. 2 Bedeutung der Impfung zur Eind\u00e4mmung der CoronapandemieTab. 3 Einflussfaktoren auf die Bedeutung der Impfung (multinominale logistische Regressionsanalyse). Abh\u00e4ngige Variable \"Halten Sie die anstehenden Impfungen gegen SARS-CoV-2 f\u00fcr wichtig zur Eind\u00e4mmung der SARS-CoV-2 Pandemie?\" (dichotomisiert \"Ja\" oder \"Nein bzw. bin mir unsicher\"). Unabh\u00e4ngige Variablen sind das Geschlecht (Frauen, M\u00e4nner), Berufszugeh\u00f6rigkeit (\u00c4rzt*Innen, Pflegekr\u00e4fte, sonstige Berufsgruppen), Befragungszeitraum (Dezember 2020 vs. Februar 2021), Berufserfahrung (unter 3 Jahren, 3-10 Jahre, \u00fcber 10 Jahre) sowie Altersgruppe (bis 24 Jahre, 25-44 Jahre, 45-54 Jahre, \u2265 55 Jahre). Referenzkategorie ist \"Ja, ich w\u00fcrde mich impfen",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Im Vergleich zur Befragung im Dezember sch\u00e4tzten die Studienteilnehmer im Februar die Impfung h\u00e4ufiger als wichtig zur Eind\u00e4mmung der Coronapandemie ein (. Tab. 2). Die Einsch\u00e4tzung zur Bedeutung der Impfung zeigte eine eindeutige Zunahme der Zustimmung zwischen Dezember und Februar von 85,2 auf 92,1 %. In der multinominalen Regressionsanalyse waren das Geschlecht, die Zugeh\u00f6rigkeit zur Berufsgruppe \"\u00c4rzt*Innen\" sowie ein j\u00fcngeres Lebensalter unabh\u00e4ngig mit dieser Einsch\u00e4tzung assoziiert. Frauen sowie Befragte mit einem Lebensalter unter 55 Jahre hielten die Impfung zur Eind\u00e4mmung der Pandemie f\u00fcr weniger relevant. Die Bedeutung des ersten Befragungspunkts im Dezember wurde in dieser Analyse ebenfalls nochmals sehr deutlich (. Tab. 3). Im Dezember vor Beginn der Impfkampagne wurden die Bedeutung der Impfungen noch weniger relevant eingesch\u00e4tzt. Auch im Februar wurde die Frage nach der Impfbereitschaft gestellt, 1324 Personen waren zu diesem Zeitpunkt noch nicht geimpft. Im Vergleich zum Dezember fand sich auch hier eine Zunahme der Impfbereitschaft (. Tab. 4). In allen Untergruppen kam es zwischen beiden Befragungszeitpunkten zu einer Zunahme der Impfbereitschaft. Die multinominale Regressionsanalyse zeigte, dass das weibliche Geschlecht, die Zugeh\u00f6rigkeit zur Berufsgruppe Pflegekr\u00e4fte und ein Lebensalter unter 45 Jahren unab-\"Bei Verf\u00fcgbarkeit eines Impfstoffs: W\u00fcrden Sie sich impfen lassen?\", %",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Die Impfbereitschaft unter HCWs ist insgesamt insbesondere im Vergleich zur Influenza als sehr hoch einzustufen. Der Beginn der Impfung hat dazu gef\u00fchrt, dass die Bereitschaft noch weiter gestiegen ist. Eine bedeutsame Schwachstelle zur nachhaltigen Umsetzung einer m\u00f6glichst umfassenden Durchimpfung der Bev\u00f6lkerung ist derzeit in der Skepsis gegen\u00fcber dem Impfstoff der Firma AstraZeneca zu sehen. Fachexpert*Innen m\u00fcssen mit aller Entschiedenheit und mit einer Stimme Fehlinformationen richtigstellen sowie Sachlichkeit in die aktuell kontrovers gef\u00fchrte Debatte durch pr\u00e4zise und transparente Information einbringen. Der offene interprofessionelle Austausch unter den Berufsgruppen ist dabei ebenso essenziell und erh\u00f6ht neben der Transparenz der Informationen auch den gemeinsamen Wissensstand. 4 Nur so kann das Vertrauen der Bev\u00f6lkerung aber auch der HCWs in die Wirksamkeit und Vertr\u00e4glichkeit aller Impfstoffe gest\u00e4rkt und die Impfbereitschaft maximiert werden. Prof. Dr. med. Uwe Janssens Klinik f\u00fcr Innere Medizin, St.-Antonius-Hospital Dechant-Deckers-Str. 8, 52249 Eschweiler, Deutschland uwe.janssens@sah-eschweiler.de Einhaltung ethischer Richtlinien Interessenkonflikt. U. Janssens ist der vorherige Pr\u00e4sident der Deutschen Interdisziplin\u00e4ren Vereinigung f\u00fcr Intensivmedizin und Notfallmedizin (DIVI) und Generalsekret\u00e4r der Deutschen Gesellschaft f\u00fcr Internistische Intensivmedizin und Notfallmedizin. S. Kluge erhielt Forschungsunterst\u00fctzung der Firmen Ambu, Daiichi Sankyo, ETView Ltd, Fisher & Paykel, Pfizer und Xenios. Er erhielt Vortragshonorare von den Firmen Astra, C. R. Bard, Baxter, Biotest, Cytosorbents, Daiichi Sankyo, Fresenius, Gilead, Mitsubishi Tanabe Pharma, MSD, Pfizer, Philips, ZOLL. Er erhielt Beraterhonorare von Bayer, Fresenius, Gilead, MSD und Pfizer. G. Marx ist der derzeitige Pr\u00e4sident der Deutschen Interdisziplin\u00e4ren Vereinigung f\u00fcr Intensiv-und Notfallmedizin (DIVI). Er erhielt F\u00f6rderungen durch das Bundesministerium f\u00fcr Bildung und Forschung, die Europ\u00e4ische Kommission, den Innovationsfonds und den Europ\u00e4ischen Fonds f\u00fcr regionale Entwicklung. Au\u00dferhalb dieser Arbeit erhielt er Zuwendungen von den Firmen B. Braun Melsungen AG, Adrenomed und InflaRx sowie Honorare f\u00fcr Beiratst\u00e4tigkeiten/Vortr\u00e4ge von den Firmen B. BraunMelsungen AG, Adrenomed, Biotest, Philips, Kairos und 4TEEN4. Er ist Mitbegr\u00fcnder der Clinomic GMBH. C. Hermes ist der Sprecher der Sektion Pflege der Deutschen Gesellschaft f\u00fcr Internistische Intensivmedizin und Notfallmedizin. Er erhielt Honorare f\u00fcr Vortr\u00e4ge von Dr\u00e4ger, TapMed, Getinge, Arjo, Orion Pharma, HillRom, ProLira BV, Stryker, Atmos, DG-Med und diversen gemeinn\u00fctzigen Tr\u00e4gern, Akademien und Kliniken im Gesundheitswesen. B. Salzberger ist der derzeitige Pr\u00e4sident der Deutschen Gesellschaft f\u00fcr Infektiologie. Er erhielt Honorare f\u00fcr Advisory Boards/Vortr\u00e4ge von Falk Foundation, GSK, Sanofi. C. Karagiannidis ist der derzeitige Pr\u00e4sident der Deutschen Gesellschaft f\u00fcr Internistische Intensivmedizin und Notfallmedizin. Er erhielt Zuwendungen von Xenios, Bayer und nichtfinanzielle Unterst\u00fctzung als Sprecher des DIVI-Intensivregisters sowie F\u00f6rderungen durch das Bundesministerium f\u00fcr Bildung und Forschung. Ein Ethikvotum war nicht notwendig. F\u00fcr die aufgef\u00fchrten Studien gelten die jeweils dort angegebenen ethischen Richtlinien.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

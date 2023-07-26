@@ -1,0 +1,1715 @@
+{
+    "paper_id": "00d2fff451ff3f9879e620081b0ccde0e31cc680",
+    "metadata": {
+        "title": "-NC-ND license Comparing denominator sources for real-time disease incidence modeling: American Community Survey and WorldPop",
+        "authors": [
+            {
+                "first": "Rachel",
+                "middle": [
+                    "C"
+                ],
+                "last": "Nethery",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tamara",
+                "middle": [],
+                "last": "Rushovich",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emily",
+                "middle": [],
+                "last": "Peterson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jarvis",
+                "middle": [
+                    "T"
+                ],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pamela",
+                "middle": [
+                    "D"
+                ],
+                "last": "Waterman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nancy",
+                "middle": [],
+                "last": "Krieger",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lance",
+                "middle": [],
+                "last": "Waller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Brent",
+                "middle": [
+                    "A"
+                ],
+                "last": "Coull",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Harvard TH Chan School of Public Health",
+                    "location": {
+                        "settlement": "Boston",
+                        "region": "MA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Across the United States public health community in 2020, in the midst of a pandemic and increased concern regarding racial/ethnic health disparities, there is widespread concern about our ability to accurately estimate small-area disease incidence rates due to the absence of a recent census to obtain reliable population denominators. 2010 decennial census data are likely outdated, and intercensal population estimates from the Census Bureau, which are less temporally misaligned with real-time disease incidence data, are not recommended for use with small areas. Machine learning-based population estimates are an attractive option but have not been validated for use in epidemiologic studies. Treating 2010 decennial census counts as a \"ground truth\", we conduct a case study to compare the performance of alternative small-area population denominator estimates from surrounding years for modeling real-time disease incidence rates. Our case study focuses on modeling health disparities in census tract incidence rates in Massachusetts, using population size estimates from the American Community Survey (ACS), the most commonly-used intercensal small-area population data in epidemiology, and WorldPop, a machine learning model for high-resolution population size estimation. Through simulation studies and an analysis of real premature mortality data, we evaluate whether WorldPop denominators can provide improved performance relative to ACS for quantifying disparities using both census tract-aggregate and race-stratified modeling approaches. We find that biases induced in parameter estimates due to temporally incompatible incidence and denominator data tend to be larger for race-stratified models than for area-aggregate models. In most scenarios considered here, WorldPop denominators lead to greater bias in estimates of health disparities than ACS denominators. These insights will assist researchers in intercensal years to select appropriate population size estimates for modeling disparities in real-time disease incidence. We highlight implications for health disparity studies in the coming decade, as 2020 census counts may introduce new sources of error.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Public health researchers regularly confront the need for near realtime, small-area population estimates to serve as population denominators in epidemiologic studies. These studies often utilize present day disease incidence information, and seek to create incidence rates over small areas to properly characterize spatial patterns and dynamics of disease incidence. The calculation of reliable small-area incidence rates requires accurate estimates of the at-risk population size for areas and time periods coinciding with the incidence data. To investigate disparities in disease incidence across groups, demographicallystratified population size data are also needed. Public health research during the COVID-19 crisis has exemplified these challenges. In the United States in 2020, COVID-19 incidence data are available in near real time, but this is not the case for the population data, particularly for small areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "US Census Bureau (USCB) products are the default for public health researchers seeking intercensal population estimates. Products from the USCB have the advantage of coming from a credentialed government agency, being aggregated by default to commonly-used geographies, and having detailed stratification (e.g., by age, racial/ethnic group, and sex). Systematic undercount of some racial and ethnic minority groups in USCB products is well-documented (Robinson, 2011; Robinson et al., 1993) and poses threats to the accuracy of disparity analyses employing population estimates stratified by racial/ethnic group. However, because more reliable data are rarely available for this purpose, USCB products remain the primary source of population denominator data for these analyses.",
+            "cite_spans": [
+                {
+                    "start": 451,
+                    "end": 467,
+                    "text": "(Robinson, 2011;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 468,
+                    "end": 490,
+                    "text": "Robinson et al., 1993)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Likely the most commonly-used source of intercensal small-area population estimates today is the USCB's American Community Survey (ACS) 5-year estimates, which are based on a rolling 5-year sample survey. ACS 5-year estimates are appealing due to their high spatial resolution-they are available for all census geographies larger than census blocks-and their rich demographic stratification. However, ACS data are released on a substantial delay, so that the most recent estimates available at any given time typically represent population sizes for the 5-year interval ending two years prior. The USCB also provides yearly population size estimates through its Population Estimates Program (PEP), which combines the decennial census with birth, death, and migration data (United States Census Bureau, 2020) . Annual PEP estimates are available by racial/ethnic group, sex, and age at the national, state, and county level. For minor civil divisions and incorporated places, PEP provides total population estimates only.",
+            "cite_spans": [
+                {
+                    "start": 772,
+                    "end": 807,
+                    "text": "(United States Census Bureau, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Formally, the USCB recommends the use of PEP or decennial census counts as population size estimates in intercensal years, while using ACS for information about changing socioeconomic and demographic features (United States Census Bureau, 2019). However, decennial census counts are often outdated, and PEP estimates are unavailable for commonly-used small census geographies such as census tracts and census block groups. In many epidemiologic contexts, such as studies of health disparities, a focus on these smaller geographies has been shown to be advantageous (Krieger et al., 2003) . This creates confusion about the appropriate source of population estimates to use, and in practice many studies rely on ACS small-area estimates Millett et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 565,
+                    "end": 587,
+                    "text": "(Krieger et al., 2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 736,
+                    "end": 757,
+                    "text": "Millett et al., 2020)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Private companies and academic groups have also begun to produce high-resolution gridded population estimates. These estimates are based on machine learning models that often combine census, remote sensing, land use, and other information to estimate population sizes at very small geographies in near real-time. One of the most popular products of this type is WorldPop, which utilizes an open-source algorithm and provides yearly global high-resolution population estimates (Stevens et al., 2015; Tatem, 2017) . Advantages of WorldPop include its contemporaneous nature (available for the current year) and high spatial resolution. However, their estimates have undergone little validation, have not received wide acceptance in epidemiology, and are only stratified by age and sex.",
+            "cite_spans": [
+                {
+                    "start": 476,
+                    "end": 498,
+                    "text": "(Stevens et al., 2015;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 499,
+                    "end": 511,
+                    "text": "Tatem, 2017)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Each source of population size data brings its own types of bias and uncertainty. To our knowledge, no studies have yet compared the performance of these data sources as denominators in the context of realtime statistical modeling of disease rates. In this paper, we describe the methods used to produce ACS and WorldPop population estimates relevant to disease mapping models. Then, we conduct a study in which 2010 small-area disease incidence rates are created using 2010 decennial census population counts, and we evaluate the bias induced when ACS and WorldPop data from 2010 and from one to two years prior are used instead as the denominator in classic health disparity models. These potential biases are illustrated using both a simulation study and a real case study of racial disparities in premature mortality in Massachusetts (MA). Throughout this paper, we aim to evaluate the performance of population denominator data sources when employed as we have observed them being used in epidemiologic practice (or as we anticipate they would be used in practice), and we do not intend to recommend that the data be used in each of the ways considered here.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our findings may assist epidemiologic researchers in assessing the biases that arise due to imperfectly measured population denominators and in determining whether novel high-resolution population estimate products like WorldPop can improve on default USCB products for modeling real-time small-area disease incidence rates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Since 2005 when ACS replaced the long-form decennial census, ACS continually collects US demographic data using a sophisticated sampling survey design. Briefly, within each county, ACS samples housing facilities from census blocks, the smallest unit of geography used by the USCB (600-3000 residents). Each block is assigned a sampling rate that is inversely related to its population size. Sampling is structured so that no address will be selected more than once in a 5-year period (United States Census Bureau, 2014) . For more detail, see Section S.1.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 519,
+                    "text": "(United States Census Bureau, 2014)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "ACS methodology"
+        },
+        {
+            "text": "ACS employs four modes of data collection: internet, mail, telephone, and in-person visit. A complex survey weighting scheme is applied to adjust for sampling rates, to make estimates representative of larger area demographic characteristics (i.e., to conform to PEP estimates), to account for differential non-response by demographic group, to adjust for differences by data collection mode and seasonal population shifts, and more (Spielman et al., 2014) . On the basis of these weighted data, ACS compiles 1-year, 3-year, and 5-year estimates. To achieve reliable estimates for small areas, ACS must pool multiple years of data (Spielman et al., 2014) . 1-year and 3-year population estimates are available only for geographies with populations of 65,000+ and 20,000+, respectively. The 3-year estimates were only produced from 2007 to 2013. The 5-year estimates are produced for all census geographies except census blocks, and they are available beginning with the 2005-2009 interval (United States Census Bureau, 2014). ACS 5-year population estimates are stratified by age, sex, and racial/ethnic group (see Section S.2 for more detail). ACS population estimates are also accompanied by margins of error. Following current practice in the disease mapping literature, we do not utilize these uncertainty measures in our analyses. We focus instead on the biases arising from the issue of temporal mismatch of incidence and denominator data in standard epidemiologic models.",
+            "cite_spans": [
+                {
+                    "start": 433,
+                    "end": 456,
+                    "text": "(Spielman et al., 2014)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 631,
+                    "end": 654,
+                    "text": "(Spielman et al., 2014)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ACS methodology"
+        },
+        {
+            "text": "The USCB references each ACS 5-year release by the final year covered by the interval, e.g., ACS 2008-2012 estimates are referred to as the ACS 2012 release. The USCB discourages the use of 5-year ACS estimates to represent the population size in the center year of the interval, yet in practice this is routinely done in the epidemiologic literature (Krieger, Wright, et al., 2020; Leas et al., 2019) . Although we recognize this disclaimer by the USCB, throughout this paper we refer to ACS 5-year releases by their center year, to correspond to how they are largely used in practice, e.g., ACS 2008-2012 will be referred to as ACS 2010. USCB also cautions against comparing ACS 5-year estimates that contain overlapping years (United States Census Bureau, 2019). In spite of this guidance, USCB does provide documentation explaining how to assess trends over time using overlapping ACS data (with caveats) (United States Census Bureau, 2009). Moreover, we have also noted in longitudinal studies that ACS population size estimates from overlapping years are used to track population changes over time (Hunt & Hurlbert, 2016; Krieger, Wright, et al., 2020; Mooney et al., 2018) . Thus we will investigate the utility of time trends in population size estimates captured by overlapping consecutive ACS releases.",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 382,
+                    "text": "(Krieger, Wright, et al., 2020;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 383,
+                    "end": 401,
+                    "text": "Leas et al., 2019)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1104,
+                    "end": 1127,
+                    "text": "(Hunt & Hurlbert, 2016;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1128,
+                    "end": 1158,
+                    "text": "Krieger, Wright, et al., 2020;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1159,
+                    "end": 1179,
+                    "text": "Mooney et al., 2018)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ACS methodology"
+        },
+        {
+            "text": "WorldPop was created to generate accurate population counts that could be used to track the 2015 United Nations Sustainable Development Goals, with a focus on countries without timely and comprehensive census counts. WorldPop population size estimates are created by combining census counts with geospatial covariates (e.g. land cover and night lights) for a given year to produce gridded population estimates that are at a finer scale than typical administrative units (Stevens et al., 2015; Tatem, 2017) . This process is often called \"downscaling\" of census counts (Mennis, 2009) . For years 2010, 2015 and 2020, WorldPop uses random forest algorithms to weight and disaggregate the census data onto a roughly 100 m grid (referred to as a \"top-down\" modeling approach). For other years, gridded population counts are interpolated from these three years by applying a linear growth rate (Stevens et al., 2015) . For countries without recent or reliable census data, they also conduct a second modeling step that incorporates reliable survey data (referred to as a \"bottom-up\" approach). For our analyses, we use US WorldPop estimates produced using a top-down, unconstrained estimation method (WorldPop, 2021) . More details and justification are provided in Section S.3.",
+            "cite_spans": [
+                {
+                    "start": 470,
+                    "end": 492,
+                    "text": "(Stevens et al., 2015;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 493,
+                    "end": 505,
+                    "text": "Tatem, 2017)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 568,
+                    "end": 582,
+                    "text": "(Mennis, 2009)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 889,
+                    "end": 911,
+                    "text": "(Stevens et al., 2015)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1195,
+                    "end": 1211,
+                    "text": "(WorldPop, 2021)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "WorldPop methodology"
+        },
+        {
+            "text": "More detail about the geospatial covariates used in the US WorldPop models is provided in Section S.3. WorldPop also releases age-and sexspecific population counts produced by applying census age and sex proportions from larger geographies to the population estimate in each nested grid (for the US, WorldPop utilizes county-level age and sex proportions). WorldPop population datasets are available annually beginning in 2000 through the current year (Tatem, 2017; Stevens et al., 2015; WorldPop, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 465,
+                    "text": "(Tatem, 2017;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 466,
+                    "end": 487,
+                    "text": "Stevens et al., 2015;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 488,
+                    "end": 503,
+                    "text": "WorldPop, 2020)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "WorldPop methodology"
+        },
+        {
+            "text": "Using the tidycensus R package (Walker, 2020) , we extract census tract (CT) population counts stratified by age, sex, and racial/ethnic group from the 2010 decennial census for the state of MA. Throughout our analyses, we consider these to be \"ground truth\" population counts, while acknowledging concerns about differential biases leading to both under-and over-counts (see Section 4). We collect ACS 5-year population size estimates stratified by age, sex and racial/ethnic group, for each CT for each year 2008-2010 (center years of ACS).",
+            "cite_spans": [
+                {
+                    "start": 31,
+                    "end": 45,
+                    "text": "(Walker, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection and alignment"
+        },
+        {
+            "text": "WorldPop population size estimates are available on a three arcsecond grid (corresponding to 100 m grids at the equator). We extract age-and sex-stratified gridded estimates for MA in each year 2008 -2010 (WorldPop, 2018 . We generate CT-aggregate population counts for each age and sex stratum by assigning each grid cell to a CT determined by the location of its centroid, and summing the stratum-specific population counts across grids within a CT. WorldPop does not produce population estimates stratified by racial/ethnic group, therefore we engineer them using ACS group proportions. For each age and sex stratum within each CT, we (1) compute the proportion of its population belonging to each racial/ethnic group based on the ACS and (2) multiply the racial/ethnic group proportions by the WorldPop stratum-specific estimates. This procedure yields CT-level WorldPop estimates stratified by racial/ethnic group, age, and sex. We use visualizations and summary statistics to compare decennial census, ACS, and WorldPop population size estimates cross-sectionally and with respect to temporal trends, with an eye towards understanding the effectiveness of using ACS and WorldPop estimates as a proxy for census counts.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "2008",
+                    "ref_id": null
+                },
+                {
+                    "start": 199,
+                    "end": 204,
+                    "text": "-2010",
+                    "ref_id": null
+                },
+                {
+                    "start": 205,
+                    "end": 220,
+                    "text": "(WorldPop, 2018",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection and alignment"
+        },
+        {
+            "text": "Our outcome of interest is premature mortality (death before age 65), a common choice for studying health disparities. We investigate disparities in premature mortality by socioeconomic status and racial/ ethnic group. We primarily focus on comparisons of risk in Black and non-Hispanic White populations, motivated by longstanding health inequities between these groups and sufficiently large population sizes in MA to support the analyses (Krieger et al., 2003 (Krieger et al., , 2020b . We obtain 2010 mortality data from the MA Department of Public Health. For each death certificate, the age, sex, racial/ethnic group, and location of residence for the deceased individual are recorded. We geocode the addresses and compute stratified premature mortality counts by CT (see Krieger et al. (2021) for more detail).",
+            "cite_spans": [
+                {
+                    "start": 441,
+                    "end": 462,
+                    "text": "(Krieger et al., 2003",
+                    "ref_id": null
+                },
+                {
+                    "start": 463,
+                    "end": 487,
+                    "text": "(Krieger et al., , 2020b",
+                    "ref_id": null
+                },
+                {
+                    "start": 778,
+                    "end": 799,
+                    "text": "Krieger et al. (2021)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case study of premature mortality rate modeling"
+        },
+        {
+            "text": "Using the 2010 decennial census counts and each set of ACS and WorldPop estimates (years 2008-2010) for ages 0-64, we compute ageand sex-standardized 2010 premature mortality ratios (SMR) for each MA CT using the indirect standardization method (Chen, 2013) . The SMRs are calculated using the CT observed count in the numerator and an expected count for the CT, based on its population size and age and sex distribution, in the denominator. This results in seven different sets of CT-level SMRs, each corresponding to a different set of denominator data. To study the impact of the different denominators in public health practice, we implement two modeling approaches that are commonly used to assess racial and socioeconomic disparities in premature mortality.",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 257,
+                    "text": "(Chen, 2013)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case study of premature mortality rate modeling"
+        },
+        {
+            "text": "First, we fit CT-aggregate models to examine the association of CT SMRs (outcome) with CT racial composition and socioeconomic status. The explanatory variables, proportion of CT residents identifying as Black (PropBlack) and proportion below the poverty line (PropPov), are both taken from ACS 2010 across all models. Using each of the seven sets of SMRs described above (separately), we fit a Poisson regression model with spatial and independent random effects, following Besag et al. (1991) .",
+            "cite_spans": [
+                {
+                    "start": 475,
+                    "end": 494,
+                    "text": "Besag et al. (1991)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case study of premature mortality rate modeling"
+        },
+        {
+            "text": "As a second modeling approach, we consider a commonly-used variant of this model that stratifies by racial/ethnic group (hereafter referred to as race-stratified models for simplicity). This approach allows us to directly examine how within-CT Black and non-Hispanic White premature mortality rates differ, on average, as opposed to simply how the racial/ethnic composition of a CT is associated with CT premature mortality. Prior to model fitting, we separately age-and sex-standardize premature mortality within the non-Hispanic White and Black population within each CT, doing so with each of the seven sets of population size data. We retain these race-stratified SMRs as the outcomes in the modeling, and we analyze how the SMRs differ by racial/ethnic group (by including an indicator of Black vs. non-Hispanic White, I(Black), in the model) and how the SMRs are associated with the CT-aggregate proportion in poverty (PropPov). Again, the seven sets of SMRs are modeled separately, using a multi-level variant of the spatial Poisson regression model, following Leroux et al. (2000) .",
+            "cite_spans": [
+                {
+                    "start": 1068,
+                    "end": 1088,
+                    "text": "Leroux et al. (2000)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case study of premature mortality rate modeling"
+        },
+        {
+            "text": "The mathematical formulation of each set of models is provided in Section S.4. All models are fit using a Bayesian approach implemented in the CARBayes package in R (Lee, 2013) . We report incidence rate ratio (IRR) estimates based on the relevant exponentiated coefficient parameter from each model.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 176,
+                    "text": "(Lee, 2013)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Case study of premature mortality rate modeling"
+        },
+        {
+            "text": "The aim of our simulation study is to assess the magnitude of biases induced in estimates of health disparities by using ACS/WorldPop denominators in standard models when the outcomes are generated using 2010 decennial census denominators. We conduct two sets of simulations, one using the age-and sex-standardized denominators described above and another using the crude population counts as denominators. Under each scenario, we simulate data from both a CT-aggregate model and a race-stratified model. The details of the data generation are provided in Section S.5. Briefly, we employ the same real MA CT-level covariates used in the real data analysis, and the 2010 decennial census CT denominators, to generate synthetic incidence data from a spatial Poisson model with known parameters. We randomly generate 100 such synthetic datasets for each of the CT-aggregate and racestratified variants. We then fit models to each synthetic dataset, which are correctly specified except that the ACS/WorldPop denominators from 2008, 2009, and 2010 are used in place of the \"true\" 2010 census denominator. Bias in the resulting disparity estimates is assessed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation study"
+        },
+        {
+            "text": "In Fig. 1 , we map the MA CT total population sizes from ACS and WorldPop for each year, alongside the 2010 decennial census counts (for Boston alone, see Figure S .1). Across both space and time, the distributions of the ACS and WorldPop total CT population size estimates appear highly similar to the decennial census. Using year 2010 data, there is a correlation of > 0.99 between ACS and census and between WorldPop and census (see Figures S.2 and S.3 for scatterplots) . Figure S .4 shows the distribution of the difference in CT WorldPop and ACS estimates separately by population density quantile (per the 2010 census), and finds that, as CT urbanicity increases, the mean difference in WorldPop and ACS estimates increases (indicating higher estimates from WorldPop), as does the standard deviation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 9,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 155,
+                    "end": 163,
+                    "text": "Figure S",
+                    "ref_id": null
+                },
+                {
+                    "start": 436,
+                    "end": 473,
+                    "text": "Figures S.2 and S.3 for scatterplots)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 476,
+                    "end": 484,
+                    "text": "Figure S",
+                    "ref_id": null
+                }
+            ],
+            "section": "Cross-sectional comparison of denominators"
+        },
+        {
+            "text": "Because accurate age distributions are critical in disease mapping, we also investigate how CT age-stratified ACS and WorldPop estimates compare to those from the decennial census. As shown in Figures S.5 and S.6, there is considerably more noise in the relationships between the age-stratified ACS/WorldPop estimates (year 2010) and the decennial census than was observed for the total population estimates. While the relationship between ACS and census is stable and linear for all age groups, the relationship between WorldPop and census estimates for certain age strata is erratic and possibly non-linear. This inconsistency likely occurs due to WorldPop's method of obtaining age-stratified estimates, whereby age distributions for larger areas are projected onto the nested gridded high-resolution total population estimates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cross-sectional comparison of denominators"
+        },
+        {
+            "text": "More problematic for disparity modeling, errors in WorldPop's agestratified estimates appear to be associated with key measures of disadvantage. To illustrate this phenomenon, in Fig. 2 we show the difference in decennial census and WorldPop 2010 age-stratified CT population estimates plotted against estimates of the percent of the CT in poverty (from the 2010 ACS). Roughly speaking, for a given age group, a positive relationship between these variables indicates that WorldPop tends to over-estimate population size (relative to census) for highincome CTs. Conversely, a negative relationship indicates that World-Pop tends to under-estimate population size for high-income CTs. From this Figure, it is clear that in high-income CTs, WorldPop tends to overestimate the number of young people and under-estimate the number of older people. To understand why this might happen, consider projecting the age distribution of a large and diverse county, e.g., a county containing a major city, onto each nested CT, which is WorldPop's approach. Because higher income neighborhoods tend to have fewer children and more older people (and vice-versa for low income neighborhoods), applying the age distributions of the whole city to a high income neighborhood would generally lead to over-estimation of the number of children in the CT and under-estimation of the number of older people. No such systematic biases (relative to the census) appear to exist in the ACS, as shown in Figure S .7. in ACS and 2010 census population sizes do not, on the whole, appear to diminish as the ACS year approaches 2010. Many of the largest relative changes over time are in CTs with small populations. This suggests that ACS changes over time in the total CT population size may be attributable largely to sampling variability. For CT-level Black population size estimates, we tend to see (a) much larger relative discrepancies in ACS and decennial counts and (b) much larger relative changes over time in ACS. Again, the largest relative changes tend to occur in CTs with small Black populations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 179,
+                    "end": 185,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 694,
+                    "end": 701,
+                    "text": "Figure,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1475,
+                    "end": 1483,
+                    "text": "Figure S",
+                    "ref_id": null
+                }
+            ],
+            "section": "Cross-sectional comparison of denominators"
+        },
+        {
+            "text": "Using the procedures recommended by USCB for investigating time trends using overlapping ACS estimates (United States Census Bureau, 2009), we compute the proportion of CTs with statistically significant changes in Black or non-Hispanic White population sizes for each combination of years. The results are shown in Table S .6. From 2008 to 2010, the ACS Black population size estimates changed significantly for 22% of CTs and the non-Hispanic White population size estimates changed significantly for 29% of CTs. Figure S .9 shows the time trends in WorldPop CT population sizes relative to the decennial census. Within each MA county, the CT population size estimates over time nearly all follow a common linear trend. This reflects WorldPop's use of linear interpolation of the 2010 estimates to produce population size estimates for prior years. Naturally, this procedure leads to estimates that are highly model-dependent at fine levels of spatial and temporal granularity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 316,
+                    "end": 323,
+                    "text": "Table S",
+                    "ref_id": null
+                },
+                {
+                    "start": 515,
+                    "end": 523,
+                    "text": "Figure S",
+                    "ref_id": null
+                }
+            ],
+            "section": "Temporal trends"
+        },
+        {
+            "text": "IRR estimates and 95% Bayesian credible intervals from the CTaggregate and race-stratified models are presented in Table 1 . Because our aim is to understand the impact of different population denominators in real applications, we focus on the discrepancies in IRR estimates across models. For convenience, we refer to the IRR for the racial/ethnic group covariate in the models as the \"race IRR\" and to the IRR for the percent poverty covariate as the \"poverty IRR\". For a discussion of the implications of our findings with regards to racial/ ethnic and socioeconomic disparities in premature mortality, see Section S.4.3.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 115,
+                    "end": 122,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Premature mortality modeling results"
+        },
+        {
+            "text": "In the CT-aggregate models, we observe minimal changes in the IRR estimates across years for a given denominator source. This suggests that temporal mismatch has little impact on the IRR estimates in this context. The use of ACS denominators induces little bias relative to the decennial census, with only a slight upward bias in the poverty IRR estimate. WorldPop denominators lead to a substantial downward bias in the poverty IRR estimate relative to the census, attributable to the differential error in WorldPop's age-stratified population size estimates for neighborhoods with different poverty levels. Underestimation of the number of older people and overestimation of the number of young people in high income CTs results in expected premature mortality counts (denominators) that are artificially low, and accordingly erroneously high SMRs in high income CTs. The opposite occurs for low income CTs, and this produces a downward bias in the poverty IRR estimate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Premature mortality modeling results"
+        },
+        {
+            "text": "In the race-stratified models, temporal mismatch of incidence data and ACS/WorldPop denominators may lead to greater bias in disparity estimates. Recall that WorldPop population sizes stratified by racial/ ethnic group are derived from the racial/ethnic distributions in ACS, so we would expect to see similar trends in the race IRR estimates across denominator sources. Indeed, for ACS and WorldPop, the race IRR estimates in a given year are highly similar. Relative to the 2010 census results, the 2008 ACS/WorldPop race IRR estimates are the most biased, with bias diminishing as the year of denominator data approaches 2010. As in the CT-aggregate models, the poverty IRR estimate is slightly upwardly biased when using ACS denominators and substantially downwardly biased when using WorldPop denominators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Premature mortality modeling results"
+        },
+        {
+            "text": "Results for the CT-aggregate and race-stratified simulations using standardized denominators are shown in panels A and B, respectively, of Fig. 4 . Figure S .10 shows analogous results from the simulations using crude denominators. The coefficient estimates from the 100 simulated datasets are summarized in boxplots, with the true parameter values indicated by a black horizontal line. All biases in the coefficient estimates are assumed to be solely due to misspecification of denominators (covariates are correctly specified).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 145,
+                    "text": "Fig. 4",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 148,
+                    "end": 156,
+                    "text": "Figure S",
+                    "ref_id": null
+                }
+            ],
+            "section": "Simulation results"
+        },
+        {
+            "text": "The simulation results are consistent with the findings of the real data analysis. In the CT-aggregate models, the use of ACS or WorldPop denominators induces little bias in coefficient estimates, with the exception of the poverty coefficient. Moreover, the bias does not consistently diminish as the year represented by the denominator data approaches 2010. This suggests that, over relatively short periods, the time trends in ACS denominators representing the total CT population may be attributable more to sampling variability than to real population changes. Moreover, the linear interpolation of WorldPop estimates over time appears to have little impact on health disparity estimates in this context.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation results"
+        },
+        {
+            "text": "In the race-stratified simulations, we generally observe more severe bias in all coefficient estimates. In addition to bias in the poverty coefficient (primarily for WorldPop), here we also observe substantial bias in the race coefficients in years prior to 2010, i.e., an upward bias of about 50% for ACS 2008 and even higher for WorldPop. This suggests that differential biases in ACS population size estimates by racial/ethnic group may be more problematic for modeling disparities than the bias in total CT population sizes. However, bias in the race coefficient estimates tends to decrease as the year of the data approaches 2010. This improved performance suggests that changes in the racial/ethnic composition of a CT in ACS, even over short periods, may represent meaningful changes rather than sampling variability. This agrees with our finding above that ACS racial/ethnic group-specific population size estimates changed significantly for roughly 25% of CTs between 2008 and 2010.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simulation results"
+        },
+        {
+            "text": "In simulations using the crude denominators ( Figure S.10) , ACS and WorldPop denominators generally perform comparably well and yield estimates with little bias. An exception is the race coefficient in the racestratified models, which is heavily biased for both ACS and WorldPop and across all years. This is likely a product of the small Black populations in many MA CTs, i.e., the very small crude denominators may cause instability in the race coefficient. In this simulation scenario, because we do not impose differing disease risks by age stratum and do not use standardized denominators, the issue of bias in the poverty ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 46,
+                    "end": 58,
+                    "text": "Figure S.10)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Simulation results"
+        },
+        {
+            "text": "Incidence rate ratio estimates (95% credible intervals) from premature mortality models. In the CT-aggregate models, the Race variable is an ecologic variable (CT proportion Black), while in the race-stratified models, the Race variable is a group-level binary indicator of Black (versus non-Hispanic White). In both models, the Poverty variable is CT-aggregate proportion in poverty. Continuous covariates are centered and scaled. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 1"
+        },
+        {
+            "text": "In this paper, we explore the impact of using imperfect and temporally mismatched population size estimates to model small-area, realtime disease incidence rates for epidemiologic studies. In a case study of MA CT-level data, we found no evident advantages of using WorldPop population size estimates, either alongside or in place of the default ACS estimates, to create small-area incidence rates for real-time epidemiologic modeling. This is in spite of the fact that, in practice, WorldPop estimates may be available contemporaneously while ACS estimates are from prior years. WorldPop's method of obtaining high-resolution agestratified population size estimates, i.e., by projecting county-level age distributions onto small area total population size estimates, proves particularly problematic for modeling health disparities. This approach induces error in WorldPop's age-stratified estimates that is associated with key measures of disadvantage, such as poverty, leading to bias in health disparity estimates when using age-standardized WorldPop denominators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "By comparing analyses using ACS denominators and \"ground truth\" 2010 decennial census denominators, we demonstrate that the impact of the inevitable temporal incompatibility of ACS denominators for quantifying real-time disparities in disease incidence depends on the modeling approach being used. Over short time periods (several years), changes in total CT population size as measured by ACS may be attributable primarily to sampling variability, and this variability may have little to no impact on health disparity estimates. On the other hand, changes over time in CT racial composition measured by ACS likely represent meaningful changes, and using outdated population estimates in race-stratified disparity models may induce substantial bias in disparity estimates that could lead to incorrect inference. These findings are consistent with ACS's documentation, which states that ACS should be used primarily for tracking changes in the characteristics of areas (racial composition, socioeconomic status) rather than tracking changes in population sizes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To our knowledge this is the first study that compares the impact of biases in commonly-used population size estimates for real-time, smallarea disease modeling. The primary limitation of our study is its narrow temporal and geographic scope. The quality of both ACS and WorldPop population estimates varies across space and time, limiting the generalizability of our work. WorldPop relies on remote sensing data, the quality of which differs by geographic region (Elvidge et al., 2017) . ACS data quality is known to be poorer for low-income and African American populations (Spielman et al., 2014) , leading to regional differences in data quality. Thus, our findings in a single Northeastern state may not be representative of other states and regions. We are also utilizing the decennial census population counts as the ground truth population sizes for 2010. Differential undercounts in the decennial census, primarily impacting low-income and minority communities, are well-documented (Robinson, 2011; Robinson et al., 1993) . In the 2010 census, the USCB found an overall 2.1% undercount of the Black population and a 0.8% overcount of the non-Hispanic White population (United States Census Bureau, 2012). These issues may be further exacerbated for small areas, which should be taken into consideration when interpreting our results. However, census counts serve as a standard referent population in the US.",
+            "cite_spans": [
+                {
+                    "start": 464,
+                    "end": 486,
+                    "text": "(Elvidge et al., 2017)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 576,
+                    "end": 599,
+                    "text": "(Spielman et al., 2014)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 991,
+                    "end": 1007,
+                    "text": "(Robinson, 2011;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1008,
+                    "end": 1030,
+                    "text": "Robinson et al., 1993)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In spite of numerous longstanding USCB programs and policies aimed at reducing undercounts, the USCB has struggled to overcome the many and complex challenges that lead to undercounting of certain disadvantaged groups and overcounting of certain privileged groups (O'Hare, 2019). These systematic errors could lead to either over-estimation or under-estimation of health disparities, depending on how the magnitude of error varies across age and sex groups. Initiatives like the Census Post-Enumeration Survey (also called the Accuracy and Coverage Evaluation or the Census Coverage Measurement Survey) and the Demographic Analysis program provide nation-level estimates of census under/overcount of various demographic groups. However, because the nature and magnitude of under/overcounting varies across space, simply scaling small-area counts to adjust for national-level under/overcount estimates is unlikely to correct the problem. Moreover, our analyses with WorldPop have revealed how attempts to produce ultra high-resolution population size estimates, by downscaling census counts and making strong assumptions about homogeneity of demographic features across space, can induce further errors that severely bias health disparity estimates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The collection of exceptional events affecting 2020 census data collection-including the COVID-19 pandemic, increasing concern about law enforcement practices, the consideration of the addition of a citizenship question on the census, and the move to more online census data collection-are likely to introduce new sources of counting error (Jarmin, 2021; The White House, 2021). Moreover, USCB will, for the first time, apply differential privacy procedures to public-release 2020 census data, the consequences of which are still not fully understood for small-area disease modeling applications (Krieger et al., 2021) . These challenges will complicate future epidemiologic studies using decennial census counts as a \"gold standard\" and will necessitate novel approaches for addressing differential under/overcounts to accurately estimate health disparities. For populations age 65+, Medicare enrollment data, which are made available to researchers by the US Centers for Medicare and Medicaid Services (CMS), may provide a more accurate and representative source of small-area intercensal denominator information than USCB products. Over 96% of Americans age 65+ are enrolled in Medicare (Di et al., 2017) , and the data provided by CMS contain individual-level age, sex, racial/ethnic group, and zipcode identifiers for enrollees. While Medicaid enrollment data are not similarly representative of a common population due to heterogeneity in state-level programs, these data could likely be used to create small-area-specific scaling factors to adjust for undercounts of low-income populations (including young people).",
+            "cite_spans": [
+                {
+                    "start": 596,
+                    "end": 618,
+                    "text": "(Krieger et al., 2021)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1190,
+                    "end": 1207,
+                    "text": "(Di et al., 2017)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Given the unprecedented quantity and richness of data available today, the future of high-resolution population size estimation may lie in combining information from USCB products and other data sources. It is essential that these efforts, in addition to improving accuracy in total population size estimates, consider how the integration of other data sources can address census under-representation of disadvantaged groups. Finally, the development and application of statistical methods that can better account for population size uncertainties/measurement error in disease mapping models are critical to address these issues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Hereby, I, Rachel Nethery, consciously assure that for the manuscript \"Comparing denominator sources for real-time disease incidence modeling: American Community Survey and WorldPop\" the following is fulfilled:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical statement"
+        },
+        {
+            "text": "1) This material is the authors' own original work, which has not been previously published elsewhere.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical statement"
+        },
+        {
+            "text": "2) The paper is not currently being considered for publication elsewhere.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical statement"
+        },
+        {
+            "text": "3) The paper reflects the authors' own research and analysis in a truthful and complete manner. 4) The paper properly credits the meaningful contributions of coauthors and co-researchers. 5) The results are appropriately placed in the context of prior and existing research. 6) All sources used are properly disclosed (correct citation). Literally copying of text must be indicated as such by using quotation marks and giving proper reference. 7) All authors have been personally and actively involved in substantial work leading to the paper, and will take public responsibility for its content. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical statement"
+        },
+        {
+            "text": "The authors have no conflicts of interest to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Bayesian image restoration, with two applications in spatial statistics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Besag",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "York",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Molli\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Annals of the Institute of Statistical Mathematics",
+            "volume": "43",
+            "issn": "1",
+            "pages": "1--20",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Multilevel and hierarchical models for disease mapping",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Geographic health data: Fundamental techniques for analysis",
+            "volume": "",
+            "issn": "",
+            "pages": "183--208",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Air pollution and mortality in the Medicare population",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Koutrakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Choirat",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dominici",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "New England Journal of Medicine",
+            "volume": "376",
+            "issn": "26",
+            "pages": "2513--2522",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Viirs night-time lights",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Elvidge",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Baugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhizhin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ghosh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International Journal of Remote Sensing",
+            "volume": "38",
+            "issn": "21",
+            "pages": "5860--5879",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Black:white disparities in breast cancer mortality in the 50 largest cities in the United States",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hurlbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "The International Journal of Cancer Epidemiology, Detection, and Prevention",
+            "volume": "45",
+            "issn": "",
+            "pages": "169--173",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "2020 census processing updates",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jarmin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Race/ethnicity, gender, and monitoring socioeconomic gradients in health: A comparison of area-based socioeconomic measures-the public health disparities geocoding Project",
+            "authors": [],
+            "year": null,
+            "venue": "American Journal of Public Health",
+            "volume": "93",
+            "issn": "10",
+            "pages": "1655--1671",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Impact of differential privacy and census tract data source (decennial census versus American Community Survey) for monitoring health inequities",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Nethery",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Waterman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rushovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Coull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "American Journal of Public Health",
+            "volume": "111",
+            "issn": "2",
+            "pages": "265--268",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "COVID-19 and overall mortality inequities in the surge in death rates by ZIP code characteristics: Massachusetts",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Waterman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "American Journal of Public Health",
+            "volume": "110",
+            "issn": "12",
+            "pages": "1850--1852",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Cancer stage at diagnosis, historical redlining, and current neighborhood characteristics: Breast, cervical, lung, and colorectal cancers",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Krieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Waterman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Huntley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arcaya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "American Journal of Epidemiology",
+            "volume": "189",
+            "issn": "10",
+            "pages": "1065--1075",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Place-based inequity in smoking prevalence in the largest cities in the United States",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Leas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schleicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Prochaska",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Henriksen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Internal Medicine",
+            "volume": "179",
+            "issn": "3",
+            "pages": "442--444",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "CARBayes: An R package for Bayesian spatial modeling with conditional autoregressive priors",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Statistical Software",
+            "volume": "55",
+            "issn": "13",
+            "pages": "1--24",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Estimation of disease rates in small areas: A new mixed model for spatial dependence",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Leroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Breslow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Statistical models in epidemiology, the environment, and clinical trials",
+            "volume": "",
+            "issn": "",
+            "pages": "179--191",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Dasymetric mapping for estimating population in small areas",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mennis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Geography Compass",
+            "volume": "3",
+            "issn": "2",
+            "pages": "727--745",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Assessing differential impacts of COVID-19 on Black communities",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Millett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benkeser",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bara",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mercer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Beyrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Honermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lankiewicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mena",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Crowley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sherwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sullivan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Epidemiology",
+            "volume": "47",
+            "issn": "",
+            "pages": "37--44",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Racial/ethnic disparities in arrests for drug possession after California proposition",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mooney",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Giannella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Glymour",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Neilands",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tulsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sudhinaraset",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "American Journal of Public Health",
+            "volume": "47",
+            "issn": "8",
+            "pages": "987--993",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Differential undercounts in the US census: Who is missed?",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "O&apos;hare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Coverage of population in Census 2000 based on demographic analysis: The history behind the numbers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Estimation of population coverage in the 1990 United States Census based on demographic analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Woodrow",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Journal of the American Statistical Association",
+            "volume": "88",
+            "issn": "423",
+            "pages": "1061--1071",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Patterns and causes of uncertainty in the American community survey",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Spielman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Folch",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nagle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Applied Geography",
+            "volume": "46",
+            "issn": "",
+            "pages": "147--157",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Disaggregating census data for population mapping using random forests with remotely-sensed and ancillary data",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gaughan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Linard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tatem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Article e0107042",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "WorldPop, open data for spatial demography",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tatem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Scientific Data",
+            "volume": "4",
+            "issn": "1",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Executive order on ensuring a lawful and accurate enumeration and apportionment pursuant to the decennial census",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "The White House",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A compass for understanding and using American community survey data: What researchers need to know",
+            "authors": [],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Census Bureau releases estimates of undercount and overcount in the 2010 census",
+            "authors": [],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "American community survey design and methodology",
+            "authors": [],
+            "year": 2014,
+            "venue": "United States Census Bureau",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Comparing ACS data",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Methodology for the United States population estimates: Vintage",
+            "authors": [],
+            "year": 2019,
+            "venue": "United States Census Bureau",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "tidycensus: Load US census boundary and attribute data as 'tidyverse' and 'sf'-ready data frames",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Global high resolution population denominators Project -funded by the bill and melinda gates foundation (OPP1134076)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldpop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "CIESIN) www.worldpop.org. WorldPop",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5258/SOTON/WP00670"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Top-down estimation modelling: Constrained vs",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Worldpop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "shows the temporal changes in ACS CT population sizes, for both the total population and the Black population, grouped by county over the years 2008-2010. Figure S.8 presents the same plot for non-Hispanic Whites. The population size estimates for each year are shown as a proportion of the 2010 decennial census population count. For the total CT population, most of the ACS changes over time are within 10% of the 2010 census population size. Moreover, discrepancies Fig. 1. Spatial distribution of census tract-level 2010 decennial census population counts compared to 5-year ACS and WorldPop population estimates for years 2008-2010, Massachusetts, USA.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Scatterplots of difference in WorldPop 2010 and decennial census age-stratified CT population estimates vs. percent of the CT in poverty.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "MA census tract ACS total population size estimates (A) and Black population size estimates (B) over time as a proportion of 2010 decennial census population size. Colors represent 2010 decennial census population size bins. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Simulation results using standardized denominators. Parameter estimates using ACS and WorldPop population size estimates in CT-aggregate (A) and racestratified (B) models. Data are generated using 2010 decennial census population sizes. True values of each parameter are denoted by the black horizontal lines.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Rachel C. Nethery: Conceptualization, Data curation, Formal analysis, Methodology, Visualization, Writingoriginal draft, Writingreview & editing. Tamara Rushovich: Conceptualization, Methodology, Visualization, Writingoriginal draft, Writingreview & editing. Emily Peterson: Conceptualization, Methodology, Resources, Writingreview & editing. Jarvis T. Chen: Conceptualization, Methodology, Resources, Writingreview & editing. Pamela D. Waterman: Data curation, Project administration, Writingreview & editing. Nancy Krieger: Conceptualization, Funding acquisition, Writingreview & editing. Lance Waller: Conceptualization, Funding acquisition, Methodology, Writingreview & editing. Brent A. Coull: Conceptualization, Funding acquisition, Methodology, Writingreview & editing.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors gratefully acknowledge funding from NIH grant R01HD092580.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Supplementary data to this article can be found online at https://doi. org/10.1016/j.ssmph.2021.100786.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix A. Supplementary data"
+        }
+    ]
+}

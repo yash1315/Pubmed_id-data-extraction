@@ -1,0 +1,1028 @@
+{
+    "paper_id": "00d08404aa9c9b6a2cd5334f18700e3cd1058f58",
+    "metadata": {
+        "title": "Comparative evaluation of Panbio and SD Biosensor antigen rapid diagnostic tests for COVID-19 diagnosis",
+        "authors": [
+            {
+                "first": "Felipe",
+                "middle": [],
+                "last": "P\u00e9rez-Garc\u00eda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": "felipe.perez.garcia.87@gmail.com"
+            },
+            {
+                "first": "|",
+                "middle": [
+                    "Juan"
+                ],
+                "last": "Romanyk",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Helena",
+                "middle": [],
+                "last": "Moya Guti\u00e9rrez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Labrador Ballestero",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "In\u00e9s P\u00e9rez Ranz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Javier",
+                "middle": [
+                    "Gonz\u00e1lez"
+                ],
+                "last": "Arroyo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Victoria",
+                "middle": [],
+                "last": "Gonz\u00e1lez Ventosa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Ram\u00f3n P\u00e9rez-Tanoira",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Concepci\u00f3n",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Domingo",
+                "middle": [],
+                "last": "Cruz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Cuadros-Gonz\u00e1lez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hospital Universitario Pr\u00edncipe de Asturias",
+                    "location": {
+                        "settlement": "Madrid",
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The aim of our study was to evaluate the diagnostic performance of two antigen rapid diagnostic tests (Ag-RDTs) to diagnose severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. We evaluated Panbio and SD-Biosensor Ag-RDTs. We employed 186 polymerase chain reaction (PCR) negative samples to evaluate the specificity and 170 PCR positive samples to assess the sensitivity. We evaluated their sensitivity according to Cycle threshold (C t ) values and days post onset of symptoms (d.p.o.). Tests were compared using the McNemar's test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Agreement was evaluated using the kappa score. Specificity was 100% for Panbio and 97.3% for SD-Biosensor. Sensitivity for samples with C t \u2264 20 was 100% for both assays and for samples with C t = 20-25 was 93.0% (Panbio) and 95.3% (SD-Biosensor) (p = 1.000). Sensitivity decreased for samples wit C t = 25-30 (Panbio: 41.3%, SD-Biosensor: 52.2%, p = 0.125) and samples with C t \u2265 30 (Panbio: 5.0%, SD-Biosensor: 17.5%, p = 0.063). Sensitivity within seven d.p.o. was 87.7% for Panbio and 90.4% for SD-Biosensor and notably decreased after seven d.p.o. Agreement with PCR was excellent for high viral load samples (C t \u2264 25): Panbio, 98.9%, kappa = 0.974; SD-Biosensor, 97.4%, kappa = 0.940. Agreement between Ag-RDTs was excellent (94.9%, kappa = 0.882). Panbio and SD-Biosensor Ag-RDTs showed excellent agreement and diagnostic performance results for samples with high viral loads (C t \u2264 25) or samples within seven d.p.o. Note: Statistics: sensitivity results are expressed as percentage with 95% CI. P-values were calculated by the McNemar's test. No p-value was statistically significant (p < 0.05). Abbreviations: Ag-RDT, antigen rapid diagnostic test; 95% CI, 95% confidence interval; p-value, level of significance. P\u00c9REZ-GARC\u00cdA ET AL.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "| 3 being even better when we focused in high viral load samples (97.8%, k = 0.948). 4 | DISCUSSION Ag-RDTs have demonstrated their reliability as diagnostic tools to aid in the control of SARS-CoV-2 pandemic. Although Panbio Ag-RDT has been the most frequently evaluated test, 7,9-12 the number of commercialized assays is growing exponentially. 10,13-17 Our results show that Panbio and SD-Biosensor Ag-RDTs are reliable to diagnose SARS-CoV-2 infection, as they fulfilled the general recommendations for the use of these tests that are recommended by the WHO \u2265 80% sensitivity and \u226597% specificity compared with PCR. 5,18 Moreover, they showed excellent performance within the first seven d.p.o. or when they are performed in samples with high viral load as well as excellent levels of agreement between them. Diagnostic performance of Ag-RDTs within the first 7 d.p.o. could be attributed to higher viral loads that are observed in these samples, as compared with samples obtained several days later, which is evidenced by observing the increasing trend of the median Cts values according to d.p.o. (see Figure S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1108,
+                    "end": 1117,
+                    "text": "Figure S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Ag-RDTs compared with PCR, they improve the turnaround time for results, which is key to interrupt transmission chains to control the spread of this pandemic. 3,4,18,19 As a consequence, several diagnostic algorithms already recommend the use of these tests as first step for symptomatic patients within the first 57 days after the onset of symptoms 18-20 and our results support the use of Panbio and SD-Biosensor tests for that purpose. Some authors have pointed out that Ag-RDTs could also be reliable for detecting asymptomatic patients with high infectious capacity. 9 These findings would support the use of Ag-RDTs as screening test for massive population testing. However, more studies are needed to ensure the effectiveness of these tools for that purpose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our study presents some limitations: it is a retrospective study that has been conducted in a single institution and we have analyzed the results of two among all commercialized Ag-RDTs. Consequently, our conclusions should not be extrapolated to other available Ag-RDTs and more prospective multicenter studies and meta-analysis are needed to establish the usefulness of other Ag-RDTs. However, to the best of our knowledge, our work constitutes the first comparative evaluation of Panbio and SD-Biosensor Ag-RDTs and our findings indicate that these assays could be reliable tools for the early diagnosis of symptomatic COVID-19 cases and the control of this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The authors thank Rebeca Baile\u0144 for her help with the preparation of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The pandemic due to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has become one of the main global economic and health priorities. Viral RNA detection in respiratory samples using polymerase chain reaction (PCR) is the current reference method for coronavirus disease 2019 (COVID- 19) diagnosis. However, they are not useful as point of care (POC) tests due to an excessive turnaround time for results. 1, 2 Antigen rapid diagnostic tests (Ag-RDTs) have been developed as alternative tests to PCR for COVID-19 symptomatic patients, as they could be employed as POC tests, presented a lower cost than PCR assays and could improve the turnaround time for results. Moreover, some authors have shown that these advantages could overcome the sensitivity limitation, especially where PCR is unavailable or where prolonged turnaround times preclude clinical utility. [3] [4] [5] Our objective was to evaluate the diagnostic performance of two of these commercialized Ag-RTDs.",
+            "cite_spans": [
+                {
+                    "start": 297,
+                    "end": 300,
+                    "text": "19)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 419,
+                    "end": 421,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 422,
+                    "end": 423,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 876,
+                    "end": 879,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 880,
+                    "end": 883,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 884,
+                    "end": 887,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "The study was performed between 1 and 30 December 2020. We included 356 nasopharyngeal samples, which were submitted in 3 ml of universal transport medium (UTM). Each sample corresponded to one single patient and we included 186 PCR negative samples and another 170 PCR positive samples. Table S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 288,
+                    "end": 296,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Population and study period"
+        },
+        {
+            "text": "Regarding Ag-RDTs, we evaluated two Ag-RDTs that detected SARS-CoV-2 nucleoprotein antigens: Panbio COVID-19 Ag Rapid Test Device (Abbot Rapid Diagnostics GmbH, Jena) and SD-Biosensor STANDARD F COVID-19 Ag FIA (SD Biosensor, Inc.). Lecture of the results was optical for Panbio and by immunofluorescence using a STANDARD F2400 analyzer (SD Biosensor, Inc.) for SD-Biosensor Ag-RDT.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Diagnostic techniques"
+        },
+        {
+            "text": "All equipments were used according to the manufacturer's instructions for both the handling and the interpretation of the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Diagnostic techniques"
+        },
+        {
+            "text": "Clinical variables of the study population (time from the onset of symptoms) were obtained from the medical records. We assessed SARS-CoV-2 viral load using the Cycle threshold (C t ) value corresponding to N gene for all PCR positive samples. 6 ",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 245,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Clinical data"
+        },
+        {
+            "text": "Categorical variables were expressed as proportions and continuous variables as median and interquartile range (IQR) and. Sensitivity and specificity with 95% confidence intervals (95% CI) were calculated using RT-PCR as gold standard. Sensitivity was evaluated globally and also according to the C t value for N gene 7 using different cutoffs ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Statistical analysis"
+        },
+        {
+            "text": "Diagnostic performance results according C t values are summarized in Table 1 and Figure S1 . Specificity was 100% for Panbio and 97.3%",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 70,
+                    "end": 77,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 82,
+                    "end": 91,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| RESULTS"
+        },
+        {
+            "text": "for SD-Biosensor, due to five PCR negative samples that were positive for this assay. Overall sensitivity was 60.0% for Panbio and 66.5%",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| RESULTS"
+        },
+        {
+            "text": "for SD-Biosensor and this difference was statistically significant (p = 0.003). Sensitivity was higher for samples with high viral loads, reaching 100.0% for samples with C t \u2264 20 for both tests. For samples with C t = 20-25, sensitivity was 93.0% for Panbio and 95.3% for SD-Biosensor (p = 1.000). Sensitivity significantly decreased for low viral load samples: for C t values between 25 and 30, sensitivity was 41.3%",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| RESULTS"
+        },
+        {
+            "text": "for Panbio and 52.2% for SD-Biosensor (p = 0.125), and for C t values over 30, sensitivity was 5.0% for Panbio and 17.5% for SD-Biosensor (p = 0.063). There were no significant differences on sensitivity results between Ag-RDTs according C t values (Table 1) Abbreviations: Ag-RDT, antigen rapid diagnostic test; C t , cycle threshold; N/A, not applicable; 95% CI, 95% confidence interval; p-value, level of significance.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 249,
+                    "end": 258,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| RESULTS"
+        },
+        {
+            "text": "T A B L E 2 Diagnostic performance of the evaluated Ag-RDTs according to time form the onset of symptoms ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| RESULTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "In vitro diagnostic assays for COVID-19: recent advances and emerging trends",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Vashist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diagnostics",
+            "volume": "10",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/diagnostics10040202"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Considerations for diagnostic COVID-19 tests",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Vandenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Martiny",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rochas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Belkum",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Kozlakidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Rev Microbiol",
+            "volume": "19",
+            "issn": "",
+            "pages": "171--183",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41579-020-00461-z"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Rethinking Covid-19 test sensitivity-a strategy for containment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mina",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Larremore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "120",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMp2025631"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Test sensitivity is secondary to frequency and turnaround time for COVID-19 surveillance. medRxiv. 2020",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Larremore",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wilder",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lester",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.22.20136309"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Antigen-detection in the diagnosis of SARS-CoV-2 infection using rapid immunoassays",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical course and molecular viral shedding among asymptomatic and symptomatic patients with SARS-CoV-2 infection in a community treatment center in the Republic of Korea",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "issn": "11",
+            "pages": "1447--1452",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.3862"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Panbio antigen rapid test is reliable to diagnose SARS-CoV-2 infection in the first 7 days after the onset of symptoms",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Linares",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "P\u00e9rez-Tanoira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carrero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "133",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2020.104659"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Interrater reliability: the kappa statistic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mchugh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Biochem Med (Zagreb)",
+            "volume": "22",
+            "issn": "3",
+            "pages": "276--282",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Analytical and clinical performance of the panbio COVID-19 antigen-detecting rapid diagnostic test",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alemany",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bar\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ouchi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Infect",
+            "volume": "2021",
+            "issn": "5",
+            "pages": "186--230",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinf.2020.12.033"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Rapid, point-of-care antigen and molecular-based tests for diagnosis of SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dinnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deeks",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Adriano",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Evaluation of the Panbio Covid-19 rapid antigen detection test device for the screening of patients with Covid-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fenollar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bouam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ballouche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "59",
+            "issn": "2",
+            "pages": "2589--2609",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.02589-20"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Diagnostic performance of CerTest and Panbio antigen rapid diagnostic tests to diagnose SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "P\u00e9rez-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Romanyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "G\u00f3mez-Herruz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Virol",
+            "volume": "137",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2021.104781"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Urgent need of rapid tests for SARS CoV-2 antigen detection: evaluation of the SD-Biosensor antigen test for SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cerutti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Burdino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Milia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "132",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2020.104654"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Evaluation of rapid antigen test for detection of SARS-CoV-2 virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "129",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2020.104500"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Evaluation of a rapid diagnostic assay for detection of SARS-CoV-2 antigen in nasopharyngeal swabs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lambert-Niclot",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cuffel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Pape",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "58",
+            "issn": "8",
+            "pages": "977--997",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JCM.00977-20"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical Evaluation of Roche SD Biosensor Rapid Antigen Test for SARS-CoV-2 in Municipal Health Service Testing Site, the Netherlands. Emerging Infectious Diseases",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Igl\u1f41i",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Velzing",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "1323--1329",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2705.204688"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Development and potential usefulness of the COVID-19 Ag Respi-Strip diagnostic assay in a pandemic context",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mertens",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Vos",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Martiny",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmed.2020.00225"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "COMMISSION RECOMMENDATION of 18.11.2020 on the use of rapid antigen tests for the diagnosis of SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "European Comission",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "European Centre for Disease Prevention and Control. Options for the use of rapid antigen tests for COVID-19 in the EU/EEA and the UK. TECHNICAL REPORT",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Recommendations for use of antigenic tests in the diagnosis of acute SARS-CoV-2 infection in the second pandemic wave: attitude in different clinical settings",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Candel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Barreiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "San Rom\u00e1n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Rev Esp Quimioter",
+            "volume": "33",
+            "issn": "",
+            "pages": "466--484",
+            "other_ids": {
+                "DOI": [
+                    "10.37201/req/120.2020"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "RNA amplification was performed using three Real-Time PCR platforms: Allplex SARS-CoV-2 assay (Seegene, which detected SARS-CoV-2 E, N and RdRP genes), Viasure SARS-CoV-2 Real Time PCR Detection Kit (Certest Biotech S.L.; detected genes: ORF1ab and N) and GeneFinder COVID-19 Plus RealAmp Kit (Osang Healthcare Co.; detected genes: E, N and RdRP). Nasopharyngeal samples were tested using one or another PCR platform indistinctly, according to the usual laboratory workflow. Samples were considered as positive when amplification was detected for all genes included inf each RT-PCR assay. Reliability of these three platforms had been previously evaluated in our laboratory, showing 100% agreement and quite similar C t values in the results for those samples that amplified all the targets covered by each technique (see",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "high viral load samples: C t \u2264 20 and C t = 20-25; low viral load samples: C t = 25-30 and C t >30) and the days post onset of sypmtoms (d.p.o.), using a cutoff of 7 days (\u2264 7 days, 7-14 days, >14 days). Agreement between techniques was evaluated using the Cohen's kappa score 8 and the McNemar's test. For these comparisons, a p value less than or equal to 0.05 was considered significant. Statistical analysis was performed using Stata/IC 13.1 (StataCorp).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ".Regarding symptoms of those 170 PCR positive patients, information regarding symptoms was unavailable for 10 patients. For the remaining 160 cases, 134 (83.7%) patients presented COVID-19 symptoms and 26 (16.3%) were asymptomatic. Information about time from the onset of symptoms to sample obtention was unavailable for another six symptomatic patients.Table 2andFigure S2",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "summarize the diagnostic performance results according to the time from the onset of symptoms. Both Ag-RDTs showed high values of sensitivity in samples taken within the first seven d.p.o. (87.7% for Panbio, and 90.4% for SD-Biosensor, p = 0.625). Sensitivity decreased significantly from the eighth d.p.o., reaching a sensitivity of 31.0% for Panbio and 38.1% for SD-Biosensor for day 8%-14% and 30.8% for Panbio and 38.5% for SD-Biosensor from 14 days. There were no significant differences on sensitivity results between Ag-RDTs according d.p.o. (Table 2). Finally, regarding agreement results, agreement of Ag-RDTs with PCR was moderate in overall samples (agreement = 80.9%, k = 0.596 for Panbio; 82.6%, k = 0.646 for SD-Biosensor) but it was excellent for high viral load samples (C t \u2264 25) for both Ag-RDTs (Panbio: 98.9%, k = 0.974, SD-Biosensor: 97.4%, k = 0.940). Moreover, agreement between Ag-RDTs was excellent for overall samples (94.9%,",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Note:Statistics: values are expressed as absolute count (percentage) and median (interquartile range). Sensitivity and specificity results are expressed as percentage with 95% CI. P-values were calculated by the McNemar's test. Significant differences are shown in bold.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Time from the onset of symptoms",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

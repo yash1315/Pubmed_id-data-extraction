@@ -1,0 +1,1717 @@
+{
+    "paper_id": "00b8446716d3959329dbe81227a4d7151ed43748",
+    "metadata": {
+        "title": "Using Spirituality to Cope with COVID-19: the Experiences of African American Breast Cancer Survivors",
+        "authors": [
+            {
+                "first": "Jill",
+                "middle": [
+                    "B"
+                ],
+                "last": "Hamilton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Emory University",
+                    "location": {
+                        "postCode": "30322",
+                        "settlement": "Atlanta",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nakia",
+                "middle": [
+                    "C"
+                ],
+                "last": "Best",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "postCode": "92697",
+                        "settlement": "Irvine",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tara",
+                "middle": [
+                    "A"
+                ],
+                "last": "Barney",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Emory University",
+                    "location": {
+                        "postCode": "30322",
+                        "settlement": "Atlanta",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Valarie",
+                "middle": [
+                    "C"
+                ],
+                "last": "Worthy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Triangle Chapter",
+                    "location": {
+                        "postCode": "27707",
+                        "settlement": "Durham",
+                        "region": "NC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nichole",
+                "middle": [
+                    "R"
+                ],
+                "last": "Phillips",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Emory University",
+                    "location": {
+                        "postCode": "30033",
+                        "settlement": "Atlanta",
+                        "region": "GA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "African American women with breast cancer generally rely on their spirituality to cope with psychosocial issues encountered during survivorship. However, in order to mitigate the risk of contracting COVID-19, a potentially deadly disease, it is imperative that community-dwelling older adults physically distance themselves from supportive family, friends, and even traditional faithbased activities. In this report, we explore the ways in which spirituality was used to manage stressors during this pandemic. This is a qualitative descriptive study with content analysis of data from the narratives from 18 African American breast cancer survivors. Participants were interviewed via phone and video conferencing platform and asked to respond to questions of strategies used to manage stressors encountered during this COVID-19 pandemic. Spirituality enabled African American breast cancer survivors to better manage their psychological distress through (1) increased engagement in religious activities; (2) reliance on God for protection when fearful, feeling isolated, and in need of assistance to pay household bills; (3) finding joy and courage from listening to gospel music and reading scripture; and (4) finding meaning through spirituality. These findings suggest that in spite of physical distancing requirements that impose limited access to faith-based institutions during this COVID-19 pandemic, spirituality continues to be a supportive resource to manage emotional stressors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Among women diagnosed with breast cancer, racial disparities persist and are especially evident among African American women [1] . African American women diagnosed with breast cancer continue to have the highest mortality rates as well as the second highest incidence rates [1] . In fact, the cancer death rate for non-Hispanic African American women is 41% higher than non-Hispanic white women. Although the mortality rates for breast cancer have been declining, a racial disparity persists for African American women [1] . Financial difficulties, lack of provider sensitivity, and an absence of family support are among those major patient concerns that contribute to this racial disparity in breast cancer. African American women with breast cancer are now faced with being in the category of individuals at a higher risk of contracting and dying from COVID-19 [2, 3] . In comparison to other racial/ethnic groups, African Americans are nearly four times as likely to die from COVID-19 [2] . In addition, comorbidities such as heart disease, asthma, obesity, and diabetes are prevalent among African American breast cancer patients so that if COVID-19 is contracted, the outcome is likely to result in death [4, 5] .",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 128,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 519,
+                    "end": 522,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 864,
+                    "end": 867,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 868,
+                    "end": 870,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 989,
+                    "end": 992,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1211,
+                    "end": 1214,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1215,
+                    "end": 1217,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "African American women generally rely on their spirituality to cope with psychosocial issues encountered during cancer survivorship [6, 7] . However in order to mitigate the risk of contracting this potentially deadly disease, it is imperative that community-dwelling older adults physically distance themselves from family, friends, and even traditional faithbased activities [8] . For many African Americans, access to social support and religious services at faith-based institutions is a challenge; therefore, this population is likely to experience higher levels of social isolation, loneliness, and psychological distress [9] [10] [11] [12] . This pandemic in particular is associated with higher levels of hopelessness, loneliness, and depression that is highest among women, individuals with the lowest household incomes, individuals with existing chronic conditions, [13] and older women who live alone [14] . Loneliness in particular is likely to result in higher levels of psychological distress [15] [16] [17] which is especially evident in research among older African American adults where loneliness was associated with high levels of perceived stress and poor mental health [12] .",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 135,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 136,
+                    "end": 138,
+                    "text": "7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 377,
+                    "end": 380,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 628,
+                    "end": 631,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 632,
+                    "end": 636,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 637,
+                    "end": 641,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 642,
+                    "end": 646,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 876,
+                    "end": 880,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1007,
+                    "end": 1011,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1012,
+                    "end": 1016,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1017,
+                    "end": 1021,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1190,
+                    "end": 1194,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "African Americans have a long cultural history of using their spirituality for purposes of keeping the memories of ancestors alive and for the intergenerational transmission of important survival strategies [18] [19] [20] . Older African Americans in particular were more likely to transmit stories of \"making it through\" times of oppression and serious illness that incorporate their strong religious culture [18] [19] [20] . Historically, the use of religious songs and Bible verses as expressions of spirituality were memorized and transmitted orally as a strategy that has given African Americans meaning to their human existence [21] . Biblical text and lyrics of religious songs, for example, were used frequently among African slaves to provide insight into their belief systems as well as their connectedness to God and to other individuals who were suffering and powerless [18] [19] [20] . Moreover, among African Americans, Biblical text was a source for stories that allowed transcendence from a current situation of suffering to some other place or time. A reliance on spirituality further helped African Americans to view the relief of pain and sorrow of other faithful servants as evidence of God's ability to protect, strengthen, and heal [18, 22] .",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 211,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 212,
+                    "end": 216,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 410,
+                    "end": 414,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 634,
+                    "end": 638,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 882,
+                    "end": 886,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 887,
+                    "end": 891,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 892,
+                    "end": 896,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1254,
+                    "end": 1258,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1259,
+                    "end": 1262,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Spirituality and Older African Americans"
+        },
+        {
+            "text": "In this report, we draw from the narratives of older African American breast cancer survivors for an exploration of the ways in which spirituality is used to cope during this COVID-19 pandemic. The findings from these interviews will permit a glimpse into the use of spirituality to cope, whether participants have adapted this strategy to be relevant during this time, and benefits of this coping strategy during this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spirituality and Older African Americans"
+        },
+        {
+            "text": "In this report, we used a qualitative descriptive design including purposive sampling, open-ended semi-structured interviews, qualitative content analysis, and quantitative descriptive analysis. Approval for this study was obtained from the Institutional Review Board of Emory University.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Design and Methods"
+        },
+        {
+            "text": "The interviews included in this report are from 18 African American women and breast cancer survivors residing in the Southeastern United States, African American ethnicity by self-report, at least 18 years old but less than 89 years, and survivors of cancer. Participants for these interviews were generally recruited through an African American breast cancer support group with whom the fourth author of this report is founding member.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "The first author conducted semi-structured interviews lasting 15-45 min. Participants were interviewed via phone and video conferencing platform and asked to respond to questions of strategies used to manage stressors encountered during this COVID-19 pandemic. Participants were given a $30 gift card for each interview. All interviews were conducted in April and May of 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "All interviews were conducted with only interviewee and first author present. Participants were encouraged to freely express issues and experiences related to spirituality. Interviews were audiotaped and later transcribed verbatim with a research assistant reviewing each transcript for accuracy. Member checking was conducted with members of the target population and clergy during the process of data collection and drafting of this report to validate the interpretation of findings, generation of themes, and accuracy of conclusions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strategies to Enhance Rigor"
+        },
+        {
+            "text": "In order to content analyze the data, a table was initially constructed to organize each participant's responses by category of text related to spirituality as expressed among these participants' narrative responses. These spiritually grounded responses included religious practices associated with faith-based institutions as well as meanings derived from beliefs associated with these practices.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Analysis"
+        },
+        {
+            "text": "The interviews included in this report are from 18 older African American cancer survivors residing in the Southeastern United States (see Table 1 ). The participants were on average 58 years old with stage 0-2 breast cancer (88.9%); married (38.9%); college educated (44.4%); employed full time (55.6%); and resided in rural areas (67%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 146,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Participant Characteristics"
+        },
+        {
+            "text": "In the paragraphs to follow, we describe with participant quotes, the perspectives of the ways in which spirituality is used to cope with the COVID-19 pandemic among African American women breast cancer survivors. Specifically, the ways in which spirituality enables African American breast cancer survivors to better manage their psychological distress were through (1) increased engagement in religious activities; (2) reliance on God for protection when fearful, feeling isolated, and in need of assistance to pay household bills; (3) finding joy and courage from listening to gospel music and reading scripture; and (4) finding meaning through spirituality. To date only a few scholars have examined the ways in which spirituality is a coping resource among African American breast cancer survivors during the COVID-19 pandemic. Participants have been provided fictitious names to protect their identity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participant Characteristics"
+        },
+        {
+            "text": "In this category, participants described ways in which they increased participation in religious activities to cope with the COVID-19 pandemic. Ms. Morrison is a 61-year-old, stage 2, four-year survivor of breast cancer. She described the changes made in her attendance at worship services during the COVID-19 pandemic:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "But we actually do a lot over the phone. But I've been watching other -I'm on Facebook so I have friends that are ministers so I've been watching their Facebook live. So like I told my friend yesterday I've been in church all day because everybody came on at different times. And even if they didn't come on at different times they're still on there so you can be able to go back and listen to them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "She also described the increased religious service participation she has observed in others:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "But I think you know, more people are going, you know, to Christ now because everything is unpredictable or they don't know what's really going on so they have to go to God to understand.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Another participant, Mrs. Sherill, a 59-year-old, stage 0 (DCIS), seven-year survivor of breast cancer had this to say about the change in the religious practice of prayer to cope during the COVID-19 pandemic:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Prayer is more prevalent in my life now because of COVID than it had been before. I think I just find myself just thanking the Lord throughout the day just for being able to have a job. Reliance on God for Protection When Fearful, Feeling Isolated, and in Need of Money to Pay Bills In this category, participants described a reliance on God to cope with fear, social isolation, and to provide for food and shelter during the COVID-19 pandemic. A 72-year-old, stage 3, 19-year survivor of breast cancer described her religious belief in God's ability to protect:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "He is going to protect us through this. And not only that, I said, \"Okay, it could be His doing that's not to harm us, but we have gotten so, busy, busy, busy in this life, in this world,\" it's like, \"Okay, rest for a minute; just take a breath; just rest; rest in my Word; rest in me. I just had a moment to where it's almost like fear tried to grip my heart. But I had to go inside and rely on what I knew to be true concerning the word of God. And for a moment there you know that's what I had to do. Well when you are a believer you're just that. You come to believe that even though you are here in this world you believe that God is greater than what you see around you. He's able Mrs. Dillingham is a 62-year-old, stage 2, two-year survivor of breast cancer. In her narrative, she describes feeling down as a result of not being able to socialize and embrace family and friends. However, talking to God and family by phone and social media has helped to alleviate those depressed moods:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "My communication is not as prevalent as it was and that kind of gets me down sometimes because of this. Not able to go out and socialize. They do call and check on me and see how I'm doing. But I'm a hugger. I like to hug and I like to socialize. That has been taken. It's one thing if you don't go out because it's your choice. It's another thing when you don't have a choice or say in the matter. It kind of gets me down sometimes. And I've had some little emotional bouts in my home being by myself. I talk to God a lot. I have to, you know? That keeps me going. I talk to my family every day. We're on the phone every day. We can even do video chats and it's so nice. On Saturday Sisters Network got together and we did a Zoom.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "A reliance on God for money to pay household bills was a coping strategy for Mrs. Smith, a 48-year-old, stage 2, eightyear survivor of breast cancer. Her experience, like many other African Americans, included the loss of income and ability to buy food and pay household bills including those for utilities and car note. Mrs. Smith recalled her experience and a reliance on her faith in God:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "My faith is keeping me grounded. Because I know all of us that believe in the power of God we're grounded so my faith has kept me grounded and kept me sane while going through this. I'm actually one whose job had to shut down due to the virus and I am not receiving unemployment. I had actually put in my unemployment back in February before everything started shutting down and my stuff is still pending. So through the grace of God my mortgage is current. My car note is not due until May. They went ahead and set up a few of my payments at the end of the loan. And I thank God that the utility company, you know, putting a freeze on the disconnections. But I know as time goes on, you know, the bills are going to add up. And I'm just thankful that I have people that are in my corner that I can go to anytime that I'm in need. So there's food and everything -I'm good. My faith is carrying me through.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Finding Joy and Courage from Listening to Gospel Music and Scripture In response to the stress of the COVID-19 pandemic, participants were able to find joy and peace in a favorite religious song or Biblical text. Mrs. Smith referred to Isaiah 4:10 as the scripture that gets her through stressful times:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "But I know that what I relied on as far as faith and prayer but I relied on Isaiah 4 verse 10 which was the one that got me through. And I was listening to this song that my sister sings. It's called Faith Is. Because the song says faith is my hope in you. Faith is my trust in you and it also says I'm an overcomer. And that's how I see myself. I'm more than a conqueror and I'm an overcomer. And so whenever I feel a little down I'll go to that song and then I'll go to that scripture.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Ms. West is a 59-year-old, stage 2, two-year survivor of breast cancer who finds joy in singing to relieve stress during the COVID-19 pandemic. She especially finds joy in singing songs that are reassuring and positive. Ms. West describes the joy from hearing religious songs from an Easter Service:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Like you said singing is a joy for me because I sing on the choir. Singing is a joy for me. That makes me feel good. When I sing positive songs and reassuring songs, that's a joy for me. Listening to gospel music. Like somebody sent a tape through an Email and they said we've been apart and we've had... because of this situation but they wanted to send a reminder of songs we sang last year. They sent a recording of the songs we sang last Easter and it was so uplifting just to hear it. You know what I'm saying? So things like that you know I have to focus on that.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Ms. Russell is a 50-year-old, stage 1, eight-year survivor of breast cancer who described a specific Biblical text used to overcome her fears of being in the COVID-19 pandemic. This breast cancer survivor recalled previous environmental threats such as the Spanish Flu and Smallpox and other plagues referenced in the Holy Bible. According to Ms. Russell:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "It's happened many years whether it's the Spanish flu, whether it's smallpox. There's different things that come throughout the world that happens and it's just our time to go through it. My main and probably only Bible verse that I read constantly and still to this day is 2Timothy 1:7. That God hasn't given you the spirit of fear that's how I got through those fearful, fearful, times where I just knew over and over again that, you know. . . .For God has not given us the spirit of fear but of power and of love and of sound mind. That was and still is my go-to verse. Of course I read other verses too but that's the main one I hold close to my heart. When I'm fearful. When I'm scared. When I'm worried. When I'm a little anxious about anything. When I'm doubting something.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "Finding Meaning Through Spirituality The ability to find purpose and meaning through one's spirituality was expressed among these African American breast cancer survivors. Mrs. Dillingham, a 62-year-old, stage 2, two-year survivor of breast cancer, shared her perceptions of finding purpose and meaning via her spirituality. For Mrs. Dillingham, the COVID-19 pandemic was a time to refocus: God gave us this time off to do self-reflection. Look inside ourselves and see if we know where we're at, you know? And coming out of this how we're going to be better. What are you going to do differently?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "For other survivors, comfort was found in Biblical text with references to God's ability to bring His children through pandemics. Mrs. Winston, a 49-year-old, stage 2 two-year survivor of breast cancer described the Biblical story of Noah and the Ark. Adhering to the mandates for sheltering in place was similar to the Biblical story Noah staying in the Ark until it was safe to come out after the flood: I think biblical you know you're bringing up the plagues. Thinking back in that time, thinking about Noah and the ark. How when the flood came he and his family they had to go in and stay until it was time to come out so relating it to that.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Increased Engagement in Religious Activities"
+        },
+        {
+            "text": "The goal of this report was to explore the ways in which African American cancer survivors use their spirituality to cope during the COVID-19 pandemic. We purposively used the narratives of African American women who are breast cancer survivors for this exploration as they are a high-risk group for poor outcomes should they contract this potentially deadly virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The analysis of the narratives of these African American survivors of breast cancer illustrates that there are at least four responses to the stress encountered during the COVID-19 pandemic. For example, one response was through an increased engagement in religious activities. Although these women were restricted from attending church activities in person, they found on-line services that permitted them to actually engage in more worship services than previously when there were no COVID-19 restrictions. This finding is consistent with other reports of African Americans adapting to their needs for spiritual support via churches through on-line and social media formats during this pandemic [23] . However, since not all churches have resources for an on-line format, benefits such as fellowship with congregants and support and encouragement from this interaction are missing [24] . Although the response of increased religious activities during stressful life events is not novel, the benefit from the availability of worship services from local churches through social media during extended periods isolation even after the pandemic ends should be further explored.",
+            "cite_spans": [
+                {
+                    "start": 697,
+                    "end": 701,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 883,
+                    "end": 887,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A second type of increased engagement in religious activities included prayer. A realization among these participants was that the threat and potential harm from this pandemic was larger and more powerful than any other and one only God could alleviate [25] . This response of relying on God to cope with fear, social isolation, and to provide for food and shelter during the COVID-19 pandemic brings to our attention to a function of spirituality not emphasized in literature during this pandemic. The closure of churches and requirements for physical distancing has led to feelings of social isolation and loneliness that has been stressful for many African Americans [23] . An increasing reliance on connectedness through phone and social media fills the void for social interactions for some but not all. The findings from previous research suggest that a lack of meaningful social interactions adversely affects one's mental and physical health; however, the short-and long-term effects from physical distancing imposed by the COVID-19 pandemic are unclear. Additionally, African Americans have been especially impacted by financial hardships such as the loss of income. This financial hardship is apparent in the long lines of cars showing up at food banks, the individuals in jeopardy of being evicted from their homes, and the increased loss of health insurance that accompanies unemployment.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 670,
+                    "end": 674,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A third response was related to listening to gospel music and reading Biblical text during stressful life events. These religious practices are consistent with and further extend what is known about the functioning of these practices to calm, strengthen, and encourage [26, 27] . Not surprisingly, these breast cancer survivors also relied on a religious song or Biblical text previously used to cope during their diagnosis and treatment for cancer. Although religious songs have previously been referred to as sources of comfort and strength [27] , these breast cancer survivors also referred to religious songs as a source of joy and reminder that they were conquerors and overcomers. Reading Biblical text provided an additional resource for the relief of fears and anxieties through the belief that an all-powerful Deity is an important source of protection [26] .",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 543,
+                    "end": 547,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 862,
+                    "end": 866,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The fourth and final category was the use of spirituality to find meaning and purpose during the COVID-19 pandemic. For these breast cancer survivors, the mandate for physical distancing has resulted in time alone to reflect and think. This time of reflection resulted in a refocus on individual life goals, reconnection with old friends by phone or social media, or even engagement in life-long learning opportunities through attendance in available online courses. These participants recalled previous plagues from the Bible, God's purpose for calamities, ways in which individuals survived those times through being obedient. Similarly, survivorship of the COVID-19 pandemic is possible through adhering to the mandates for physical distancing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "African American breast cancer survivors are a high-risk population during the COVID-19 pandemic and spirituality is an important coping mechanism for this population. Important questions for future inquiry would be whether the use of spiritualty as described in this report is sufficient to buffer the short-and long-term effects of social isolation, loneliness, and stress as a result of the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Future Directions"
+        },
+        {
+            "text": "The strengths of this study lie in the ability to capture the spiritually influenced strategies used to manage encounters with stressors among an at-risk population during the COVID-19 pandemic. The interviews were conducted fairly early in the pandemic and therefore capture early adaptations to disruptions in traditional spiritually influenced strategies during this pandemic amidst mandates for physical distancing and closures of faith-based institutions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "There are a few limitations. Due to physical distancing mandates, participants were interviewed via telephone or video conferencing and it is unclear whether this mode of collecting data provided the same level of ease as a personto-person format. Secondly, the small sample size and qualitative methodology format limits our ability to generalize to a larger population. However, the purpose is not to generalize to a larger population of breast cancer survivors but rather to generate knowledge that expands the current evidence related to the use of spirituality during this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and Limitations"
+        },
+        {
+            "text": "The COVID-19 pandemic has been particularly threatening among African American populations. African American women who are survivors of breast cancer are especially at high risk for not only contracting but also dying from this virus. African American women generally rely on their spirituality to cope with psychosocial issues encountered during cancer survivorship; however, the findings from this study suggest that spirituality continues to be an important strategy in spite of physical distancing and church closures. These breast cancer survivors were more engaged in religious practices, relying on God for protection, finding joy and courage through religious songs and reading Biblical text, and finding purpose in their lives during this pandemic. Educational efforts should target health care providers to assist their cancer patients to think of alternative ways to meet their needs for spiritual support during this pandemic. For example, cancer patients might be encouraged to locate on-line worship services or to reflect on other historical and Biblical plagues that required physical distancing. Secondly, health care practitioners might encourage cancer patients to sing, hum, or recite the lyrics of a favorite song or Biblical text when anxious or worried. Finally, cancer survivors find meaning and purpose in \"giving back\" through supporting other cancer patients. Health care practitioners might encourage the cancer survivor to redirect goals to those that can be accomplished during this time of physical distancing and limited access to traditional faith-based activities. These efforts are likely to enable the cancer survivor to overcome social isolation and loneliness that frequently leads to high levels of stress and poor mental health outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion and Educational Implications"
+        },
+        {
+            "text": "Code Availability Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of Data and Material Not applicable."
+        },
+        {
+            "text": "Conflict of Interest The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declarations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Cancer facts & figures for African Americans",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus (COVID-19) and racial disparities: a perspective analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Louis-Jean",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cenat",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Njoku",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Angelo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sanon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Racial Ethnic Health Disparities",
+            "volume": "7",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40615-020-00879-4"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The perfect storm: COVID-19 health disparities in US Blacks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Racial Ethnic Health Disparities",
+            "volume": "",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40615-020-00871-y"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Improving lifestyle behaviors after breast cancer treatment among African American women with and without diabetes: role of health care professionals",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jarvandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "P\u00e9rez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Margenthaler",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Colditz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kreuter",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jeffe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Behavioral Medicine",
+            "volume": "55",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/abm/kaaa020"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Disparities in SARS-CoV-2 positivity rates: associations with race and ethnicity",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kaufman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Niles",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Population Health Management",
+            "volume": "24",
+            "issn": "",
+            "pages": "20--26",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/pop.2020.0163"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Spirituality among African American cancer survivors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Powe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pollard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Felton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Cancer Nursing",
+            "volume": "30",
+            "issn": "3",
+            "pages": "309--316",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "African-American cancer survivors' use of religious beliefs to positively influence the utilization of cancer care",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Galbraith",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Best",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Worthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Journal of Religion and Health",
+            "volume": "54",
+            "issn": "",
+            "pages": "1856--1869",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10943-014-9948-6"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Social isolation and psychological distress among older adults related to COVID-19: a narrative review of remotelydelivered interventions and recommendations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gorenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Moran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Flynn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dobson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Konnert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Applied Gerontology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0733464820958550"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Emerging from COVID-19: prioritising the burden of loneliness in older people",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Armitage",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Nellums",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "British Journal of General Practice",
+            "volume": "70",
+            "issn": "697",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3399/bjgp20X711869"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Who is lonely in lockdown? Cross-cohort analyses of predictors of loneliness before and during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Steptoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fancourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Public Health",
+            "volume": "186",
+            "issn": "",
+            "pages": "31--34",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.puhe.2020.06.036"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Older adults' experience of the COVID-19 pandemic: a mixed-methods analysis of stresses and joys",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Whitehead",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Torossian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gerontologist",
+            "volume": "61",
+            "issn": "",
+            "pages": "36--47",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/geront/gnaa126"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Impact of stress and loneliness on health-related quality of life among low income senior African Americans",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wippold",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tucker",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roncoroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Racial and Ethnic Health Disparities",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40615-020-00865-w"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Perceived psychosocial health and its sociodemographic correlates in times of the COVID-19 pandemic: a community-based online study in China",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infectious Diseases of Poverty",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s40249-020-00770-8"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Living alone, loneliness, and depressive symptoms among Indonesian older women. Health Care Women International",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Widhowati",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fetzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/07399332.2020.1797039"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Impact of COVID-19 stay-athome orders on weight-related behaviours among patients with obesity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Almandoz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Schellinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mathew",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gazda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ofori",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kukreja",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Messiah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical Obesity",
+            "volume": "10",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/cob.12386"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Prevalence and predictors of general psychiatric disorders and loneliness during COVID-19 in the United Kingdom",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatry Research",
+            "volume": "291",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psychres.2020.113267"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Effects of transient and chronic loneliness on major depression in older adults: a longitudinal study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mart\u00edn-Mar\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Caballero",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lara",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dom\u00e8nech-Abella",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Haro",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Olaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ayuso-Mateos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Miret",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Geriatriatric Psychiatry",
+            "volume": "36",
+            "issn": "",
+            "pages": "76--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/gps.5397"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "God of the oppressed",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Orbits Books",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Why Lord? Suffering and evil in Black theology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pinn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Continuum",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Slave religion",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Raboteau",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "The \"Invisible Institution\" in the Antebellum South",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Black religion and black radicalism",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilmore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Orbis Books",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Coping with racism: a perspective of COVID-19 church closures on the mental health of African Americans",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Desouza",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Parker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Spearman-Mccarthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rmm",
+                    "middle": [],
+                    "last": "Black",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Racial and Ethnic Health Disparities",
+            "volume": "8",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40615-020-00887-4"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Social support from church and family members and depressive symptoms among older African Americans",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chatters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Woodward",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nicklett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "American Jounral of Geriatric Psychiatry",
+            "volume": "23",
+            "issn": "6",
+            "pages": "559--567",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jagp.2014.04.008"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "African Americans' and Black Caribbeans' religious coping for psychiatric disorders",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chatters",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Woodward",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boddie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Work in Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/19371918.2020.1856749"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Reading the bible for guidance, comfort, and strength during stressful life events",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Koenig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Nursing Research",
+            "volume": "62",
+            "issn": "3",
+            "pages": "178--184",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/NNR.0b013e31828fc816"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "You need a song to bring you through\": the use of religious songs to manage stressful life events",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sandelowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Agarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Koenig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Gerontologist",
+            "volume": "53",
+            "issn": "1",
+            "pages": "26--38",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/geront/gns064"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Even though I'm working remotely, downstairs I have, posted on my desk, I have a scripture here; I have a scripture\u2026 you know, I have all around me. I listen to gospel music most of the time during the day. I have my devotion every morning.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic characteristics of study participants",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

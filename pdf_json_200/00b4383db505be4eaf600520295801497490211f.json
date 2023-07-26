@@ -1,0 +1,1079 @@
+{
+    "paper_id": "00b4383db505be4eaf600520295801497490211f",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Akbar",
+                "middle": [],
+                "last": "Dastjerdi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nadia",
+                "middle": [],
+                "last": "Inglese",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tim",
+                "middle": [],
+                "last": "Partridge",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Siva",
+                "middle": [],
+                "last": "Karuna",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "David",
+                "middle": [
+                    "J"
+                ],
+                "last": "Everest",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jean-Pierre",
+                "middle": [],
+                "last": "Frossard",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "P"
+                ],
+                "last": "Dagleish",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "F"
+                ],
+                "last": "Stidworthy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "(",
+                "middle": [
+                    "A"
+                ],
+                "last": "Dastjerdi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "N",
+                "middle": [],
+                "last": "Inglese",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Karuna",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [
+                    "J"
+                ],
+                "last": "Everest",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "P"
+                ],
+                "last": "Frossard",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "A rteriviruses are enveloped, spherical viruses with a positive-sense, single-stranded, linear RNA genome (1) , and they are assigned to the order Nidovirales, family Arteriviridae. Arteriviruses infect equids, pigs, possums, nonhuman primates, and rodents. For example, equine arteritis virus causes mild-to-severe respiratory disease, typically in foals, or abortion in pregnant mares (2) . In pigs, porcine reproductive and respiratory syndrome virus types 1 and 2 cause a similar clinical syndrome of reproductive failure and respiratory disease (3, 4) . Wobbly possum disease virus causes an often fatal neurologic syndrome in possums (5) . Several other arteriviruses (Pebjah virus, simian hemorrhagic encephalitis virus, and simian hemorrhagic fever virus) cause highly lethal hemorrhagic fever in captive Asian macaques (6) . Lactate dehydrogenase-elevating virus was discovered by Riley et al. during their work on plasma enzyme levels in tumor-bearing mice (7) . Arteriviruses were detected in Chinese softshell turtles (Pelodiscus sinensis) that had hemorrhagic disease (8) and from healthy African giant shrews (Crocidura olivieri) by molecular assays (9) . Arteriviruses are documented to be transmitted through respiratory, venereal, and transplacental routes (10, 11) ; direct contact with infected possums has been the most efficient route of wobbly possum disease virus transmission.",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 387,
+                    "end": 390,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 550,
+                    "end": 553,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 554,
+                    "end": 556,
+                    "text": "4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 640,
+                    "end": 643,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 828,
+                    "end": 831,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 967,
+                    "end": 970,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1081,
+                    "end": 1084,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1164,
+                    "end": 1167,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1274,
+                    "end": 1278,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1279,
+                    "end": 1282,
+                    "text": "11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Arteriviruses were recently classified into 6 subfamilies (Crocarterivirinae, Equarterivirinae, Heroarterivirinae, Simarterivirinae, Variarterivirinae, and Zealarterivirinae) and 12 genera (12) . The arterivirus genome is composed of a single, 12-16 kb, polyadenylated, RNA strand that contains 2 major genomic regions. The 5\u2032 region contains open reading frames (ORFs) 1a and 1b coding for the viral polymerase and other nonstructural proteins (13) . The 3\u2032 region encodes the structural components of the virions and contains >7 ORFs. These ORFs code for the envelope protein, glycoproteins (2b-5), membrane, and nucleocapsid proteins. The 2 regions also differ in their protein expression mechanisms (1) .",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 703,
+                    "end": 706,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We describe the disease history, histopathology, and the near complete genome sequence of a novel arterivirus, hedgehog arterivirus 1 (HhAV-1). This virus was detected in association with fatal encephalitis in European hedgehogs (Erinaceus europaeus) from England.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "An outbreak of neurologic disease began in October 2019 in wild hedgehogs admitted to the Vale Wildlife Hospital and Rehabilitation Centre (Tewkesbury, England) and lasted for 4 months. These hedgehogs were from within a 50-km radius of the hospital. Those initially admitted were housed in a room dedicated to sick and young animals, sharing airspace with birds, rabbits, and occasionally rodents. Those admitted later were housed separately with other",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Study"
+        },
+        {
+            "text": "hedgehogs and occasionally with rabbits. Approximately 50% of hedgehogs admitted showed development of clinical signs, died, or were euthanized. Both juveniles and adults (\u224815% of hedgehog admissions) were affected by this neurologic disease. In many instances, the animals became inappetent a few days after admission, although others took up to 6 weeks to become symptomatic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "Neurologic signs developed within 3 days of the onset of inappetence and included tremors, twitching, hyperaesthesia, ataxia/paresis, falling to 1 side, and paddling legs when laterally recumbent. Later signs included seizures, but most animals were euthanized before this stage. All described clinical signs developed after admission to the hospital; thus, all cases were considered nosocomial. Strict hygiene, biosecurity, and reduced juvenile admissions eventually resulted in the cessation of contagion. The outbreak resulted in >200 deaths.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "The attending veterinarian at the wildlife hospital performed gross postmortem examinations of 3 newly dead hedgehogs. No major macroscopic lesions were identified. Histologic lesions in formalinfixed brain were similar for all 3 hedgehogs (identification nos. 19-2271-3) examined by a specialist veterinary pathologist and consistent with a common etiology. Multiple coronal and longitudinal brain sections showed moderate-to-severe multifocal gliosis of highest severity in forebrain and hindbrain. Small numbers of neutrophils intermingled with microglia in perivascular foci expanding into the surrounding parenchyma. Brainstem, cerebral cortex, hippocampus, and midbrain contained similar lesions. Minimal multifocal meningitis with mononuclear inflammatory cell cuffing (intermingled with small-to-moderate numbers of neutrophils) was also observed. Ventricles (particularly midbrain) had subependymal edema and were infiltrated by mixed mononuclear cells and fewer neutrophils. Reactive astrocytes with conspicuous nucleoli were present within areas of gliosis and inflammation. Neuronal necrosis was occasionally observed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "Epithelia in many proximal renal tubules had intracytoplasmic lipid vacuolation and occasional intracytoplasmic protein globules. Moderate numbers of glomerular capsules and distal tubules contained eosinophilic, proteinaceous fluid with infrequent interstitial and perivascular neutrophils. Splenic red pulp was packed with abundant extramedullary hematopoietic cells. Plentiful periarteriolar lymphoid populations frequently included central lymphocytes with pyknotic nuclei. Liver and heart were histologically unremarkable. No fungi, protozoa, or viral inclusion bodies were recognized. Clinical manifestations, histologic characteristics, and distribution of lesions were distinct from those of wobbly hedgehog syndrome (14) .",
+            "cite_spans": [
+                {
+                    "start": 725,
+                    "end": 729,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "We performed immunohistochemical analysis (15) of formalin-fixed brain tissue from the 3 hedgehogs for Listeria spp., louping-ill, and related flavivirus antigens. All results were negative.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "Virologic investigation was conducted at the Animal and Plant Health Agency-Weybridge (Addlestone, UK). Freshly frozen brain tissues from 3 additional hedgehogs (identification nos. 3375, 4896, and 3777) initially were tested for herpesviruses and showed negative results. The 3 samples were then subjected to next-generation sequencing (NGS) by using an Illumina MiSeq (https://www.illumina. com). The HhAV-1 sequence was obtained by de novo assembly using the SeqMan NGen (DNASTAR, Inc., https://www.dnastar.com). No other microbial pathogen was detected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "The 3 identical HhAV-1 (UK 2019 strain) sequences had a genome coding sequence of >13,873 nt (Gen-Bank accession no. MT415062). Genetic analysis of the sequence showed the highest similarity to arteriviruses detected in African giant-pouched rats (Cricetomys gambianus) (GenBank accession no. NC_026439) sampled in Guinea, but only 43% nt identity. Accordingly, the virus clustered phylogenetically with arterivirus in the African giant-pouched rat in the subfamily Heroarterivirinae ( Figure 1 ). The virus genomic organization was determined to be typical of arteriviruses, in particular murine arteriviruses, and included ORF1a and 1b encoding replicase precursor polyproteins pp1a/ pp1ab, followed by genes encoding envelope protein, the major structural glycoproteins (2b-5), matrix, and nucleocapsid proteins (Figure 2 ). At the amino acid level, the highest similarity was for the pp1b protein, where it showed a 50.6% similarity with the sequence from the African giant-pouched rat arterivirus.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 486,
+                    "end": 494,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 815,
+                    "end": 824,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "To detect and quantify HhAV-1 load in samples from animals, we used reverse transcription quantitative PCR, primers forward 5\u2032-CAG GAA CCC TCA CAG TAG-3\u2032 and reverse 5\u2032-TAA GAA GTT TGY GGC ATA G-3\u2032, and probe (fluorescein) 5\u2032-GGT TTC GTT CAA TGT TGA GGT-3\u2032 (MGBEQ), which amplified a 100-nt segment of the ORF7 gene. Blood, brain, liver, lung, and spleen from these 3 animals were also positive for HhAV-1 in this PCR. The tissues tested had relatively high viral loads, and blood and brain had the highest load (measured by using the cycle threshold:\u03b2-actin ratio) but not much higher than those for other tissues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Novel Arterivirus Associated with Outbreak of Fatal Encephalitis in European Hedgehogs, England, 2019"
+        },
+        {
+            "text": "We detected a novel pathogenic arterivirus in the ever-expanding family Arteriviridae. Because no wild animals were identified as having neurologic signs, we infer that all cases were probably hospital acquired. Whether the virus was introduced to the hospital through an asymptomatic carrier hedgehog or other wildlife (e.g., birds, rabbits or rodents) that shared the same airspace in the hospital remains unknown. However, arteriviruses are known to cause persistent/ /1b, 2a, 2b, 3, 4 , 5, 6, and 7 that encode the polyproteins 1a/1ab, envelope protein, glycoproteins 2b-5, and membrane and nucleocapsid proteins, respectively. ORF1a and ORF1b are joined through a \u22121 ribosomal frameshift, encoding replicase precursor polyproteins pp1a/pp1ab. UTR, untranslated region. asymptomatic infections (e.g., equine arteritis virus, simian hemorrhagic fever virus, lactate dehydrogenase-elevating virus) and to be highly species specific (10, 13) . Therefore, the virus was most likely introduced by 1 or several asymptomatic hedgehogs.",
+            "cite_spans": [
+                {
+                    "start": 934,
+                    "end": 938,
+                    "text": "(10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 939,
+                    "end": 942,
+                    "text": "13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 471,
+                    "end": 488,
+                    "text": "/1b, 2a, 2b, 3, 4",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "This disease outbreak with neurologic signs highlights the requirement for strict biosecurity measures during rehabilitation involving intensive hospitalization of animals of this species, which are a frequent wildlife casualty submission in the United Kingdom. Hedgehogs are protected by the Biodiversity Action Plan in the United Kingdom.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Reorganization and expansion of the nidoviral family Arteriviridae",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lauck",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shchetinin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Vishnevskaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "B\u00e0o",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Arch Virol",
+            "volume": "161",
+            "issn": "",
+            "pages": "755--68",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00705-015-2672-z"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Isolation of a filterable agent causing arteritis of horses and abortion by mares; its differentiation from the equine abortion (influenza) virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bryans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Crowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Doll",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mccollum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1957,
+            "venue": "Cornell Vet",
+            "volume": "47",
+            "issn": "",
+            "pages": "3--41",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Mystery swine disease in The Netherlands: the isolation of Lelystad virus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wensvoort",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Terpstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pol",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ter Laak",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bloemraad",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "De Kluyver",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Vet Q",
+            "volume": "13",
+            "issn": "",
+            "pages": "121--151",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/01652176.1991.9694296"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Isolation of swine infertility and respiratory syndrome virus (isolate ATCC VR-2332) in North America and experimental reproduction of the disease in gnotobiotic pigs",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Benfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Christianson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hennings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J Vet Diagn Invest",
+            "volume": "4",
+            "issn": "",
+            "pages": "117--143",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/104063879200400201"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A neurological syndrome in a free-living population of possums (Trichosurus vulpecula)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Perrott",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Meers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cooke",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wilks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "N Z Vet J",
+            "volume": "48",
+            "issn": "",
+            "pages": "9--15",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/00480169.2000.36150"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Simian hemorrhagic fever. 3. Isolation and characterization of a viral agent",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tauraso",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shelokov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Allen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1968,
+            "venue": "Am J Trop Med Hyg",
+            "volume": "17",
+            "issn": "",
+            "pages": "422--453",
+            "other_ids": {
+                "DOI": [
+                    "10.4269/ajtmh.1968.17.422"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The LDH virus: an interfering biological contaminant",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Riley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Spackman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Santisteban",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dalldorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hellstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hellstrom",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Science",
+            "volume": "200",
+            "issn": "",
+            "pages": "124--130",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.263259"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Partial sequence of a novel virus isolated from Pelodiscus sinensis hemorrhagic disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Intervirology",
+            "volume": "58",
+            "issn": "",
+            "pages": "197--204",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000437354"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Expanding the arterivirus host spectrum: Olivier's shrew virus 1, a novel arterivirus discovered in African giant shrews",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Vanmechelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Vergote",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Laenen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Koundouno",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci Rep",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-018-29560-x"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Arteriviruses (Arteriviridae)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brinton",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Encyclopedia of virology",
+            "volume": "",
+            "issn": "",
+            "pages": "89--97",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Epizootiology, transmission and approach to prevention of fatal simian haemorrhagic fever in rhesus monkeys",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "London",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Nature",
+            "volume": "268",
+            "issn": "",
+            "pages": "344--349",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/268344a0"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Additional changes to taxonomy ratified in a special vote by the International Committee on Taxonomy of Viruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Siddell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lefkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mushegian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dutilh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Arch Virol",
+            "volume": "164",
+            "issn": "",
+            "pages": "943--949",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00705-018-04136-2"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Arterivirus molecular biology and pathogenesis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kikkert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Gen Virol",
+            "volume": "94",
+            "issn": "",
+            "pages": "2141--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1099/vir.0.056341-0"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The pathology of wobbly hedgehog syndrome",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "D\u00edaz-Delgado",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Whitley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Storts",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Heatley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hoppes",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Porter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Vet Pathol",
+            "volume": "55",
+            "issn": "",
+            "pages": "711--719",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0300985818768033"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Immunohistochemical diagnosis of infectious diseases of sheep",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dagleish",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Benavides",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chianini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Small Ruminant Research",
+            "volume": "92",
+            "issn": "1-3",
+            "pages": "19--35",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Phylogenetic analysis of the coding sequence of hedgehog arterivirus 1. The virus genome was aligned by using the MegAlign software of the DNASTAR Lasergene Core Suite (DNASTAR, Inc., https://www.dnastar.com), and phylogenetic analysis was performed by using MEGA 5.2 software (https://www.megasoftware.net). The rooted tree was constructed by using the neighbor-joining method and 1,000 bootstrap replications. Each virus on the tree is represented by its GenBank accession number and name. Designation of subfamilies was conducted as outlined in the International Committee on Taxonomy of Viruses 2018 release (https://talk.ictvonline.org/ ictv-reports). Coronaviruses are included as an outgroup. Solid black circle and bold indicate strain detected in this study. Numbers along branches are bootstrap values. Scale bar indicates nucleotide substitutions per site.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Genomic organization of hedgehog arterivirus-1. The genome arrangement resembles those of classical arteriviruses with open reading frames (ORFs) 1a",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank the Mammalian Virus Investigation Unit team at Animal and Plant Health Agency-Weybridge for helping to prepare samples for NGS, Clare Underwood for assistance with immunohistochemical analysis, Falko Steinbach for commenting on the manuscript, and Hannah Davies for helping with NGS data analysis.This NGS portion of this study was supported by the British Hedgehog Preservation Society.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Dr. Dastjerdi is head of the Mammalian Virus Investigation Unit at the Animal and Plant Health Agency-Weybridge, Addlestone, UK. His primary research interests are detection and characterization of emerging viral pathogens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "About the Author"
+        }
+    ]
+}

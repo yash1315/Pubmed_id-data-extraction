@@ -1,0 +1,683 @@
+{
+    "paper_id": "00a2153c0c8c8b9f938e450440d71f0d62a10ff3",
+    "metadata": {
+        "title": "SARS-CoV-2 nucleocapsid protein phase- separates with RNA and with human hnRNPs Review Timeline",
+        "authors": [
+            {
+                "first": "Theodora",
+                "middle": [
+                    "Myrto"
+                ],
+                "last": "Perdikari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anastasia",
+                "middle": [
+                    "C"
+                ],
+                "last": "Murthy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Veronica",
+                "middle": [
+                    "H"
+                ],
+                "last": "Ryan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Scott",
+                "middle": [],
+                "last": "Watters",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mandar",
+                "middle": [
+                    "T"
+                ],
+                "last": "Naik",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nicolas",
+                "middle": [
+                    "` L"
+                ],
+                "last": "Fawzi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "made (as a word file).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-a word file of the manuscript text.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-individual production quality figure files (one file per figure) -a complete author checklist, which you can download from our author guidelines (https://www.embopress.org/page/journal/14602075/authorguide). -Expanded View files (replacing Supplementary Information) Please see out instructions to authors https://www.embopress.org/page/journal/14602075/authorguide#expandedview Please remember: Digital image enhancement is acceptable practice, as long as it accurately represents the original data and conforms to community standards. If a figure has been subjected to significant electronic manipulation, this must be noted in the figure legend or in the 'Materials and Methods' section. The editors reserve the right to request original versions of figures and the original images that were used to assemble the figure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Further information is available in our Guide For Authors: https://www.embopress.org/page/journal/14602075/authorguide",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The revision must be submitted online within 90 days; please click on the link below to submit the revision online before 15th Nov 2020. . The image quality of several microscopy images needs to be improved (magnification, DIC alignment; see below)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": ". Figure 3B : I appreciate the authors want to provide a large field of view to represent the effect of RNA on N-protein phase separation. However, as they draw conclusions regarding the material properties purely based on condensate morphology, this is nearly impossible to judge from the small magnification. The authors should either provide a high magnification image or an inset with higher zoom in existing images to support this conclusion. As the manuscript lacks any kind of detailed studies regarding material properties (droplet fusion events or lack of those, FRAP), the basis for those claims must be absolutely clear for the reader! . Figure 5B : Same criticism as for Figure 3B . The authors claim to have improved the data presentation, but this does not appear to be the case here. I wonder whether the DIC alignment was well performed, the images certainly drop in quality to previous DIC images of N-protein condensates in Figure 3 and 4! Also here, a higher magnification might also help to visualize more clearly whether N proteins forms liquid-like droplets or rather amorphous condensates. As the authors do not discuss the \"-Tev\" condition (e.g. as to why are only transient condensate formed in presence of polyG?), those panels can be removed to help to transmit the point the authors want to make.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 11,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 649,
+                    "end": 658,
+                    "text": "Figure 5B",
+                    "ref_id": null
+                },
+                {
+                    "start": 683,
+                    "end": 692,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 942,
+                    "end": 950,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". Figure 6 : I find the level of phase separation observed for the FL RBPs surprisingly low, in some panels, the authors merely show one or very few droplets to illustrate the partitioning phenomenon of the N-protein. Can the authors exclude the fluorophore label is interfering with RBP LLPS (even though only doped in)? Images displaying more condensates would be a more convincing. Have the authors found any protein condensates the N proteins DOES NOT partition into (suggesting some specificity)? I am not too convinced by the lack of partitioning of MBP-N into FUS LC droplets herethis might simply due to interference of the MBP tag. Is there any kind of promoting or concentration effect? Either the N protein promoting phase separation of RBPs (or their LCDs) or vice versa?",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 10,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". The authors interpret their findings that all kind of homopolymeric RNA promote N protein phase transition as lack of sequence specificity. They do however refer to other studies (preprint) demonstrating RNA specificity (using viral RNA). The observation that polyG causes amorphous protein aggregates, while for example polyU/N protein appears more liquid like, resembles observations by Boeynaems et al (2018; PNAS) and could be indicative of a role for RNA structure in this process. This could be addressed by for example performing those kind of experiments using RNA sequences forming strong secondary structures (hairpins, G-quadruplex) but at least should be appropriately discussed! In the end, RNA secondary structure could well be a packing signal of the viral RNA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Minor comments:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": ". Figure 1 is not particularly illustrative or meaningful for the reader. Instead of displaying the amino acid composition of the three IDRs, an order/disorder plot will be more informative. If the amino acid composition charts are to be included, a comparison to an ordered domain (NTD and/or CTD) would illustrate better if the amino acid composition is of rather low complexity or biased towards specific amino acids.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 10,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". Figure 3A : please indicate salt concentration used in the figure legend.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 11,
+                    "text": "Figure 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": ". Please provide reference for the statement that bivalent cations modulate RNP complex behaviour (p 8)-right now the impact of this statement for N phase transition is not clear.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": ". Please indicate concentration (as fold) for protease inhibitors in the protein purification method section, \"1 tablet\" is not meaningful without knowledge of the buffer volume If revision experiments are feasible:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-Can the author provide insight into which IDR of the N protein is involved in phase separation with either RNA or RBPs? Are all required or is one the main driver? Does their position or rather amino acid composition have the larger impact?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-Use of RNA with specific secondary structures in N protein condensation could provide insight into the packing mechanism of viral RNA (as it is rather unlikely any kind of RNA will be packed into virions).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-If possible, provide experiments directly addressing material properties of N protein condensates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Major comment on basis of the current manuscript:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Referee #1:"
+        },
+        {
+            "text": ". The image quality of several microscopy images needs to be improved (magnification, DIC alignment; see below)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Referee #1:"
+        },
+        {
+            "text": "We appreciate the reviewer's comments regarding quality of the images. We have addressed these comments below . Figure 3B : I appreciate the authors want to provide a large field of view to represent the effect of RNA on N-protein phase separation. However, as they draw conclusions regarding the material properties purely based on condensate morphology, this is nearly impossible to judge from the small magnification. The authors should either provide a high magnification image or an inset with higher zoom in existing images to support this conclusion. As the manuscript lacks any kind of detailed studies regarding material properties (droplet fusion events or lack of those, FRAP), the basis for those claims must be absolutely clear for the reader! We have now increased the size of these images to support the conclusions as the reviewer has suggested. We also agree with the reviewer that we have not thoroughly investigated the material states of these assemblies. We have reworked language throughout to avoid making claims about details of material states, which are not the point of this manuscript.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 112,
+                    "end": 121,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                }
+            ],
+            "section": "Referee #1:"
+        },
+        {
+            "text": ". Figure 5B : Same criticism as for Figure 3B . The authors claim to have improved the data presentation, but this does not appear to be the case here. I wonder whether the DIC alignment was well performed, the images certainly drop in quality to previous DIC images of N-protein condensates in Figure 3 and 4! Also here, a higher magnification might also help to visualize more clearly whether N proteins forms liquid-like droplets or rather amorphous condensates. As the authors do not discuss the \"-Tev\" condition (e.g. as to why are only transient condensate formed in presence of polyG?), those panels can be removed to help to transmit the point the authors want to make.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 11,
+                    "text": "Figure 5B",
+                    "ref_id": null
+                },
+                {
+                    "start": 36,
+                    "end": 45,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 295,
+                    "end": 303,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Referee #1:"
+        },
+        {
+            "text": "We agree that DIC alignment may be insufficient for optimal clarity in the original images, however, we believe that with droplets that are larger than these repeated artifacts, the scientific value of the original images are not in doubt. Nevertheless, we agree with the reviewer and for optimal clarity, we have repeated the experiment to correct the issues with the images (results are effectively the same) and have also removed the -TEV condition to focus on the main point as suggested by the reviewerthis also allows us to make the images bigger. Finally, we have removed analysis of the shape of the condensates as providing information on the material state, except for polyG, which has a distinctly different morphology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Referee #1:"
+        },
+        {
+            "text": ". Figure 6 : I find the level of phase separation observed for the FL RBPs surprisingly 14 th Nov 2020 1st Authors' Response to Reviewers low, in some panels, the authors merely show one or very few droplets to illustrate the partitioning phenomenon of the N-protein. Can the authors exclude the fluorophore label is interfering with RBP LLPS (even though only doped in)? Images displaying more condensates would be a more convincing. Have the authors found any protein condensates the N proteins DOES NOT partition into (suggesting some specificity)? I am not too convinced by the lack of partitioning of MBP-N into FUS LC droplets herethis might simply due to interference of the MBP tag. Is there any kind of promoting or concentration effect? Either the N protein promoting phase separation of RBPs ( We found that N partitions into hnRNPA2 LC and TDP-43 CTD droplets even when attached to the maltose binding protein (MBP) solubility tag (Figure 7A-B) , though it did not partition into FUS LC droplets ( Figure 7C) . We note that this difference may have to do with unfavorability of partitioning MBP into the unusually low charged residue sequence of FUS LC. Indeed, N did partition into hnRNPA2 LC, TDP-43 CTD, and FUS LC droplets when N was cleaved from MBP ( Figure 7C) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 10,
+                    "text": "Figure 6",
+                    "ref_id": null
+                },
+                {
+                    "start": 803,
+                    "end": 804,
+                    "text": "(",
+                    "ref_id": null
+                },
+                {
+                    "start": 943,
+                    "end": 956,
+                    "text": "(Figure 7A-B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1010,
+                    "end": 1020,
+                    "text": "Figure 7C)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1269,
+                    "end": 1279,
+                    "text": "Figure 7C)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Referee #1:"
+        },
+        {
+            "text": ". The authors interpret their findings that all kind of homopolymeric RNA promote N protein phase transition as lack of sequence specificity. They do however refer to other studies (preprint) demonstrating RNA specificity (using viral RNA). The observation that polyG causes amorphous protein aggregates, while for example polyU/N protein appears more liquid like, resembles observations by Boeynaems et al (2018; PNAS) and could be indicative of a role for RNA structure in this process. This could be addressed by for example performing those kind of experiments using RNA sequences forming strong secondary structures (hairpins, G-quadruplex) but at least should be appropriately discussed! In the end, RNA secondary structure could well be a packing signal of the viral RNA.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Referee #1:"
+        },
+        {
+            "text": "Minor comments:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": ". Figure 1 is not particularly illustrative or meaningful for the reader. Instead of displaying the amino acid composition of the three IDRs, an order/disorder plot will be more informative. If the amino acid composition charts are to be included, a comparison to an ordered domain (NTD and/or CTD) would illustrate better if the amino acid composition is of rather low complexity or biased towards specific amino acids.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 10,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "We have changed figure one to a domain diagram with disorder/order.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": ". Figure 3A : please indicate salt concentration used in the figure legend.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2,
+                    "end": 11,
+                    "text": "Figure 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "We have now added the salt concentration and clarified the legend.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": ". Please provide reference for the statement that bivalent cations modulate RNP complex behaviour (p 8)-right now the impact of this statement for N phase transition is not clear.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "We have added references and clarified this statement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": ". Please indicate concentration (as fold) for protease inhibitors in the protein purification method section, \"1 tablet\" is not meaningful without knowledge of the buffer volume We have added the buffer volume as well as the estimated cell pellet mass, both of which are important factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "If revision experiments are feasible:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "-Can the author provide insight into which IDR of the N protein is involved in phase separation with either RNA or RBPs? Are all required or is one the main driver? Does their position or rather amino acid composition have the larger impact?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "We have now added new experiments addressing some of this information in new Figure 5 . We find that indeed some IDRs and folded domains have a large impact on LLPS while others do not, providing insight into the relative role of the domains in multivalent interactions. We agree it would be interesting to observe if alter position also impacts their role, but we have not been able to address this yet as moving domains is significantly more challenging to construct and creates an explosion of possibilities to test.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 77,
+                    "end": 85,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "-Use of RNA with specific secondary structures in N protein condensation could provide insight into the packing mechanism of viral RNA (as it is rather unlikely any kind of RNA will be packed into virions).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "We agree with the reviewer that experiments with specific viral RNAs would be interesting. We feel it is beyond the scope of this manuscript and we refer here to the preprints covering this aspect. We have now expanded the text to appropriately discuss the work of Boeynaems et al 2018 and others both in results and discussion."
+        },
+        {
+            "text": "proteins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "As we mentioned above, we have not been able to add this data within this timeline and scope, though we agree that these are important experiments. Given that the ratio of N to viral RNA is very high, it is not likely to be a unique sequence of RNA that binds N and we believe sequence-independent interaction contribute to packing, as in histone"
+        },
+        {
+            "text": "-If possible, provide experiments directly addressing material properties of N protein condensates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "As we mentioned above, we have not been able to add this data within this timeline and scope, though we agree that these are important experiments. Given that the ratio of N to viral RNA is very high, it is not likely to be a unique sequence of RNA that binds N and we believe sequence-independent interaction contribute to packing, as in histone"
+        },
+        {
+            "text": "We appreciate the potential additional insight this would add but have elected not to address this directly. In our experience, interactions with the slide surface can limit the usefulness of performing FRAP experiments attempting to quantitively distinguish different phases and can change rapidly (faster than the experiment) yet the morphology provides an important indicator of the material state at the time the structure was formed (e.g. round due to liquid of \"low\" viscosity while irregular indicates incomplete liquidity or very high viscosity -truly distinguishing these two options for irregular structures is difficult by FRAP). As the topic of the manuscript is not on the material states, we have removed much of the conclusions highlighting change in morphology as a proxy for material state.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "As we mentioned above, we have not been able to add this data within this timeline and scope, though we agree that these are important experiments. Given that the ratio of N to viral RNA is very high, it is not likely to be a unique sequence of RNA that binds N and we believe sequence-independent interaction contribute to packing, as in histone"
+        },
+        {
+            "text": "16th Nov 2020 1st Revision -Editorial Decision Dear Nick, Thank you for submitting your revised manuscript to The EMBO Journal. I have now had a chance to take a careful look at everything and I appreciate the introduced changes. I am therefore very pleased to accept the manuscript for publication here. Please note that it is EMBO Journal policy for the transcript of the editorial process (containing referee reports and your response letter) to be published as an online supplement to each paper. If you do NOT want this, you will need to inform the Editorial Office via email immediately. More information is available here: https://emboj.embopress.org/about#Transparent_Process Your manuscript will be processed for publication in the journal by EMBO Press. Manuscripts in the PDF and electronic editions of The EMBO Journal will be copy edited, and you will be provided with page proofs prior to publication. Please note that supplementary information is not included in the proofs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "As we mentioned above, we have not been able to add this data within this timeline and scope, though we agree that these are important experiments. Given that the ratio of N to viral RNA is very high, it is not likely to be a unique sequence of RNA that binds N and we believe sequence-independent interaction contribute to packing, as in histone"
+        },
+        {
+            "text": "Should you be planning a Press Release on your article, please get in contact with embojournal@wiley.com as early as possible, in order to coordinate publication and release dates. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "As we mentioned above, we have not been able to add this data within this timeline and scope, though we agree that these are important experiments. Given that the ratio of N to viral RNA is very high, it is not likely to be a unique sequence of RNA that binds N and we believe sequence-independent interaction contribute to packing, as in histone"
+        },
+        {
+            "text": "the assay(s) and method(s) used to carry out the reported observations and measurements an explicit mention of the biological and chemical entity(ies) that are being measured. an explicit mention of the biological and chemical entity(ies) that are altered/varied/perturbed in a controlled manner.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "a statement of how many times the experiment shown was independently replicated in the laboratory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "Any descriptions too long for the figure legend should be included in the methods section and/or with the source data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "In the pink boxes below, please ensure that the answers to the following questions are reported in the manuscript itself. Every question should be answered. If the question is not relevant to your research, please write NA (non applicable). We encourage you to include a specific subsection in the methods section for statistics, reagents, animal models and human subjects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "definitions of statistical methods and measures:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "a description of the sample collection allowing the reader to understand whether the samples represent technical or biological replicates (including how many animals, litters, cultures, etc.).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "The data shown in figures should satisfy the following conditions:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "Source Data should be included to report the data underlying graphs. Please follow the guidelines set out in the author ship guidelines on Data Presentation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "Please fill out these boxes \u00ea (Do not worry if you cannot see all your text once you press return) a specification of the experimental system investigated (eg cell line, species name).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "Based on previous experience with the assay effect size. Yes. No evidence for non-normal (e.g. multimodal) distributions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "B-Statistics and general methods"
+        },
+        {
+            "text": "Experiments conducted by several experimenters NA 1. Data the data were obtained and processed according to the field's best practice and are presented to reflect the results of the experiments in an accurate and unbiased manner. figure panels include only data points, measurements or observations that can be compared to each other in a scientifically meaningful way.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "NA"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "To show that antibodies were profiled for use in the system under study (assay and species), provide a citation, catalog number and/or clone number, supplementary information or reference to an antibody validation profile. e.g., Antibodypedia (see link list at top right)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Identify the source of cell lines and report if they were recently authenticated (e.g., by STR profiling) and tested for mycoplasma contamination",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Report species, strain, gender, age of animals and genetic modification status where applicable. Please detail housing and husbandry conditions and the source of animals",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "For experiments involving live vertebrates, include a statement of compliance with ethical regulations and identify the committee(s) approving the experiments",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "), e1000412, 2010) to ensure that other relevant aspects of animal studies are adequately reported. See author guidelines, under 'Reporting Guidelines'. See also: NIH (see link list at top right) and MRC (see link list at top right) recommendations",
+            "authors": [],
+            "year": null,
+            "venue": "We recommend consulting the ARRIVE guidelines (see link list at top right)",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "For publication of patient photos, include a statement confirming that consent to publish was obtained. 14. Report any restrictions on the availability (and/or on the use) of human data or samples",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Report the clinical trial registration number (at ClinicalTrials.gov or equivalent)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "For phase II and III randomized controlled trials, please refer to the CONSORT flow diagram (see link list at top right) and submit the CONSORT checklist (see link list at top right) with your submission. See author guidelines, under 'Reporting Guidelines",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Provide a \"Data Availability\" section at the end of the Materials & Methods, listing the accession codes for data generated in this study and deposited in a public database (e.g. RNA-Seq data: Gene Expression Omnibus GSE39462, Proteomics data: PRIDE PXD000208 etc",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Data deposition in a public repository is mandatory for: a. Protein, DNA and RNA sequences",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Deposition is strongly recommended for any datasets that are central and integral to the study; please consider the journal's data policy. If no structured public repository exists for a given data type, we encourage the provision of datasets in the manuscript as a Supplementary Document (see author guidelines under 'Expanded View' or in unstructured repositories such as Dryad (see link list at top right) or Figshare",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Access to human clinical and genomic datasets should be provided with as few restrictions as possible while respecting ethical obligations to the patients and relevant medical and legal issues. If practically possible and compatible with the individual consent agreement used in the study, such data should be deposited in one of the major public accesscontrolled repositories such as dbGAP (see link list at top right) or EGA",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Computational models that are central and integral to a study should be shared without restrictions and provided in a machine-readable form. The relevant accession numbers or links should be provided. When possible, standardized format (SBML, CellML) should be used instead of scripts (e.g. MATLAB)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Could your study fall under dual use research restrictions? Please check biosecurity documents (see link list at top right) and list of select agents and toxins (APHIS/CDC) (see link list at top right). According to our biosecurity guidelines",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "https://emboj.msubmit.net/cgi-bin/main.plex------------------------------------------------Referee #1:Major comment on basis of the current manuscript:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "----------------------------------------------",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "graphs include clearly labeled error bars for independent experiments and sample sizes. Unless justified, error bars should not be shown for technical replicates. if n< 5, the individual data points from each experiment should be plotted and any statistical test employed should be justified the exact sample size (n) for each experimental group/condition, given as a number, not a range;Each figure caption should contain the following information, for each panel where they are relevant:",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "or their LCDs) or vice versa? We appreciate the reviewer's concerns. Our experiments do not use polymeric crowding agents to induce LLPS which we believe may have more impacts on droplets beyond simple shifting the phase diagram. Therefore, our dilute concentrations result in few droplets. Hence, we have no reason to be concerned that the small amount of fluorescent protein inhibits LLPS and we have performed these experiments in the past examining each RBP phase separation (Ryan et al Mol Cell 2018, Burke et al Mol Cell 2015, Conicella et al Structure 2016) and have also used this approach to evaluate partitioning (Ryan et al biorxiv 2020). We have added source data of these images with larger fields of view with multiple small droplets that interested readers can examine with high magnification. We appreciate the reviewer's insight and we do agree that the lack of partitioning of MBP-N into FUS LC droplets may have more to do with MBP interactions with (or difficultly partitioning into) FUS LC than with N interactions with FUS LC, so we have clarified comments suggesting a FUS LC / N difference to explicitly make this clear. It is possible that N can promote phase separation of RBPs but it is not trivial to perform these experiments (indeed we are still working on developing and optimizing a precise approach to do this) and so we have not attempted to ask this question here. The revised text is as follows:",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "If you have any questions, please do not hesitate to call or email the Editorial Office. Thank you for your contribution to The EMBO Journal. ** Click here to be directed to your login page: https://emboj.msubmit.net Were any steps taken to minimize the effects of subjective bias during group allocation or/and when assessing results (e.g. blinding of the investigator)? If yes please describe.4.b. For animal studies, include a statement about blinding even if no blinding was done 5. For every figure, are statistical tests justified as appropriate?Do the data meet the assumptions of the tests (e.g., normal distribution)? Describe any methods used to assess it.Is there an estimate of variation within each group of data?EMBO PRESSA-FiguresReporting Checklist For Life Sciences Articles (Rev. June 2017)This checklist is used to ensure good reporting standards and to improve the reproducibility of published results. These guidelines are consistent with the Principles and Guidelines for Reporting Preclinical Research issued by the NIH in 2014. Please follow the journal's authorship guidelines in preparing your manuscript.PLEASE NOTE THAT THIS CHECKLIST WILL BE PUBLISHED ALONGSIDE YOUR PAPERJournal Submitted to: EMBO Journal Corresponding Author Name: Nicolas L. Fawzi",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,537 @@
+{
+    "paper_id": "00a19e9d4b663021aa10f1265fe06b08256f74c5",
+    "metadata": {
+        "title": "Virological surveillance of SARS-CoV-2 in an Italian northern area: comparison of Real Time RT PCR cycle threshold (Ct) values in three epidemic periods",
+        "authors": [
+            {
+                "first": "Licia",
+                "middle": [],
+                "last": "Veronesi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [
+                    "Eugenia"
+                ],
+                "last": "Colucci",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cesira",
+                "middle": [],
+                "last": "Pasquarella",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Luca",
+                "middle": [],
+                "last": "Caruso",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mostafa",
+                "middle": [],
+                "last": "Mohieldin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mahgoub",
+                "middle": [],
+                "last": "Ibrahim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Roberta",
+                "middle": [],
+                "last": "Zoni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Massimiliano",
+                "middle": [],
+                "last": "Pergreffi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Carlo",
+                "middle": [],
+                "last": "Arcuri",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chiara",
+                "middle": [],
+                "last": "Seidenari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Isabella",
+                "middle": [],
+                "last": "Viani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emanuela",
+                "middle": [],
+                "last": "Capobianco",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sandra",
+                "middle": [],
+                "last": "Mezzetta",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Paola",
+                "middle": [],
+                "last": "Affanni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Parma",
+                    "location": {
+                        "settlement": "Parma"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Aim of the study was to investigate the differences in Ct values in nasopharingeal swabs collected in three SARS-CoV-2 epidemic periods: first one from February 23 to March 25 (14 days from lockdown started on March 11); the second one from March 26 to May 18 (14 days from the end of strict lockdown on May 4) and the third one from May 19 until June 15. Viral RNA was detected in nasopharyngeal swabs obtained both from inpatients and outpatients. COVID-19 infection was confirmed according to the Ct values for N1 and N2 genes ascertained by Real-Time RT-PCR assay as described by the CDC. We calculated the prevalence of nasopharyngeal swabs tested positive for SARS-CoV-2, the mean and median of the Cts and the percentage of samples equal or below the Ct value of 25 in the 3 periods considered. The average value of Ct increased, going from 24.80 in the first epidemic period to 26.64 in the second period to 28.50 in the third period (p <0.001). The percentage of samples with Ct lower than or equal to 25 also decreased sharply from 54.7% to 20.0%. These findings need to be integrated with epidemiological and clinical data. (www.actabiomedica.it) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The SARS-CoV-2 epidemic has affected the Italian territory since February 2020 with the first 2 cases notified on January 30 in two subjects coming from China and with the first autochthonous official case notified on February 18 in Lombardy region in the Northern of Italy. Since then, after peaking in the third week of March, it has resulted in a total of 239,709 infections and 33,542 deaths as of June 23, 2020 (1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Emilia-Romagna was one of the most affected regions with a cumulative incidence of 638.5 cases per 100,000 inhabitants and 4255 deaths; in particular, in the province of Parma, 3631 cases were notified from 23 February to 23 June 2020 (2).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "At the beginning of the epidemic, there were 2 laboratories accredited at the WHO national center of the Istituto Superiore di Sanit\u00e0 (ISS) for the surveillance of respiratory virosis in Emilia-Romagna, identified on the basis of the experience acquired in the field of epidemic and pandemic flu viruses (3, 4) . With the progress of the epidemic event, other laboratories were gradually authorized by regional Health Authority reaching the current number of 11 which serves a population of 3,500,000 inhabitants.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 307,
+                    "text": "(3,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 308,
+                    "end": 310,
+                    "text": "4)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The gold standard for laboratory diagnosis of COVID-19 infection is reverse transcription (RT) real-time PCR test: since the sequence of SARS-CoV-2 was shared, several molecular diagnostic tests through specific primers and probes were designed for the rapid detection by Real-time RT-PCR (6,7). In real time PCR the cycle threshold (Ct) values are inversely related to viral RNA copy numbers (8) . ECDC underlines that SARS-CoV-2 detection for diagnosis of patients with COVID-19-like symptoms is essential for patient care, triage and isolation in healthcare facilities. SARS-CoV-2 detection can also be used for screening close contacts for asymptomatic infection and disease as part of contact tracing or outbreak investigations. Testing is also used to screen for infection in crucial target groups like healthcare and social workers as part of local surveillance programmes (8) .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "(8)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 880,
+                    "end": 883,
+                    "text": "(8)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aim of the study was to investigate the differences in Ct values in nasopharingeal swabs (NS) collected in three SARS-CoV-2 epidemic periods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We retrospectively divided the surveillance's period into three phases: the first one from February 23 to March 25 (14 days from lockdown started on March 11); the second one from March 26 to May 18 (14 days from the end of strictly lockdown on May 4) and the third one from May 19 until June 15. Viral RNA was detected in NS obtained both from inpatients and outpatients. COVID-19 infection was confirmed according to the Ct values for N1 and N2 genes ascertained by RT-PCR assay as described by CDC (10) . We calculated the prevalence of NS test positive for SARS-CoV-2, the mean and median of the Cts and the percentage of samples equal or below the Ct value of 25 in the 3 periods considered. We applicated Chisquare test to assess any differences in distribution by period and the two side Analysis of Variance test to assess differences in mean Ct values. All test were considered statistically significant at p<0.05. Analysis were performed by SPSS 26.0 (IBM, Chicago, ILL).",
+            "cite_spans": [
+                {
+                    "start": 501,
+                    "end": 505,
+                    "text": "(10)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "From 23 February 2020 to 15 June 2020, 31,030 swabs were analysed, of which 3557 (11.5%) tested positive for SARS-CoV-2, with a different and statistically significant distribution in the three periods considered (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 213,
+                    "end": 222,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "During the phase characterized by the epidemic peak, 44.3% of the samples tested positive, this per- centage dropped to 9.2% in the second period considered and then decreased further in the third period coinciding with phase 2 of the epidemic event (3.2%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In the three identified periods, the average value of Ct increased, going from 24.80 in the first epidemic period to 26.64 in the second period to 28.50 in the third period (p <0.001). The percentage of samples with Ct lower than or equal to 25 also decreased sharply from 54.7% to 20.0%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Our study is a description of the Ct values trend in relation to different period of epidemic, showing a statistically significant increase in CTs, which indicates a reduction of RNA viral copies. However, in the first phase of the epidemic, the samples came largely from hospitalized patients with medium-severe clinical symptoms, while in the third part most of the samples came from non-hospitalized subjects involved in local screening activities. Many samples, especially in the second period under study, were so-called \"healing samples\", that is, performed in subjects declared clinically healed and then performed at least 14 days after the onset of symptoms. Beyond the clinical significance, it is difficult to establish the real epidemiological significance of such low viral loads, considering the different framework of population tested. These hypotheses need to be verified with specific studies aimed at integrating epidemiological and clinical date.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "On field vaccine effectiveness in three periods of 2018/2019 influenza season in Emilia-Romagna Region",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Colucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Veronesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bracchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Acta Biomed",
+            "volume": "90",
+            "issn": "9",
+            "pages": "21--27",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Virological surveillance of influenza in the eight epidemic seasons after the 2009 pandemic in Emilia-Romagna (Northern Italy)",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Affanni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Colucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bracchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Biomed",
+            "volume": "90",
+            "issn": "9",
+            "pages": "35--44",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Immunological insights on influenza infection and vaccination during immune checkpoint blockade in cancer patients. Immunotherapy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bersanelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scala",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Affanni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "105--110",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Molecular assays to diagnose COVID-19. Word Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Laboratory management for SARS-CoV-2 detection: a user-friendly combination of the heat treatment approach and rt-Real-time PCR testing",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mancini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Barbanti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scaturro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1393--1396",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SARS-CoV-2 viral load in upper respiratory specimens of infected patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2001737"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "ECDC. Diagnostic testing and screening for SARS",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Novel Coronavirus (2019-nCoV) Real-time rRT-PCR Panel Primers and Probes. Centers for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cdc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Negative and positive samples and Ct values in the three periods considered",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We sincerely thanks all Colleagues and Volunteers that supported our Laboratory during the epidemic period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgment"
+        },
+        {
+            "text": "Each author declares that he or she has no commercial associations (e.g. consultancies, stock ownership, equity interest, patent/licensing arrangement etc.) that might pose a conflict of interest in connection with the submitted article",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest:"
+        }
+    ]
+}

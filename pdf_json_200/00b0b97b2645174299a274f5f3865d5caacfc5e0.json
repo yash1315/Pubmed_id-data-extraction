@@ -1,0 +1,2280 @@
+{
+    "paper_id": "00b0b97b2645174299a274f5f3865d5caacfc5e0",
+    "metadata": {
+        "title": "Digital teaching as an instrument for cross-location teaching networks in medical informatics: opportunities and challenges courses must be developed at educational institutions. In view of the",
+        "authors": [
+            {
+                "first": "Nils-Hendrik",
+                "middle": [],
+                "last": "Benning",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Martin",
+                "middle": [],
+                "last": "Haag",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Petra",
+                "middle": [],
+                "last": "Knaup",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The increasingly digitized healthcare system requires new skills from all those involved. In order to impart these competencies, appropriate",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "For all subject areas, existing preliminary work was identified on the basis of working questions, and short-and long-term needs for action 5 Gesellschaft f\u00fcr Medizinische Ausbildung (Society for Medical were formulated. Finally, a need for the redesign of a technologically Education), Committee on supported syntactic and semantic interoperability of learning performance recording was identified.",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 141,
+                    "text": "5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Digitalization has a far-reaching impact on everyday life in almost all areas of society. The demands on students, teachers and university employees are subject to a fundamental change process [1] , [2] . According to the Hochschulforum Digitalisierung (the higher education forum for digitalization), the structural conditions at universities are favorable for innovation in digital teaching, since the high degree of autonomy provided by decentralized organization can promote innovation [2] . The establishment of cross-locational teaching networks promises to increase competence at distant institutions [3] . Both the students who are currently studying and professionals can benefit from these teaching networks.",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 490,
+                    "end": 493,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 608,
+                    "end": 611,
+                    "text": "[3]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Of particular added value, compared with conventional teaching, is the fact that the learners have access to a broader catalogue of educational content. This breadth is particularly important in the digitalization of the health care system [4] , [5] , since the necessary competencies and structures are only gradually being built up at the various institutions [2] and are usually not fully available [6] . Learning at multiple institutions can enable the most comprehensive acquisition of digital skills for health care professionals. While cross-location teaching has great potential, the actual implementation poses challenges for both students and teachers. The many technical, didactic, organizational and legal challenges mean that participation in courses across locations is still rare. Even the content and forms of teaching are subject to digital transformation. For example, the digital delivery of teaching materials via online learning platforms is being expanded into web-based selfstudy units and fully digitalized online courses [7] . The flexibility inherent in digital teaching promises to open up courses to learners in diverse locations [8] .",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 243,
+                    "text": "[4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 402,
+                    "end": 405,
+                    "text": "[6]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1046,
+                    "end": 1049,
+                    "text": "[7]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1158,
+                    "end": 1161,
+                    "text": "[8]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The German Medical Informatics Initiative (MII) is currently researching and developing methods to share medical data from multiple locations for translational health research [9] . As the acquisition of cross-location and multidisciplinary competencies is an important prerequisite for data sharing, HiGHmed, one of the MII members, is explicitly addressing this within a separate subproject, designed to foster the generation, evaluation and analysis of medical data. For this purpose, HiGHmed is developing the digital teaching organization entitled \"HiGHmeduca-tion\", which will facilitate the sustainable operation of a nationwide teaching network. Within HiGHmeducation, individual HiGHmed partners are offering digital teaching modules, which can be accessed by interested parties from any of the partner institutes. The teaching modules within HiGHmeducation have been designed both for those interested in studying and for those already in employment. The modules are also open to all disciplines of the health care system, such as medical informatics, medicine, nursing and administration, since the requirements for digital skills are increasing in all occupational groups of the health care system. This interdisciplinary structure should also strengthen interprofessional learning and working. Each module represents a thematically complete course with a defined workload and is based on the didactic framework developed for HiGHmeducation [10] . In order to assess whether the didactic methods successfully supported the teaching of each module's learning objectives, a standardized evaluation is conducted at the end of each module using a German version of the Community of Inquiry questionnaire [11] . The competencies taught in the modules address in particular the current need for increased digital literacy in the training of health care professionals. These competencies are also being addressed by a separate project, which is currently working on the revision of the National Catalogue of Learning Objectives in Medicine (NKLM). The work of HiGHmeducation, the teaching network, is hampered by various aspects, which are described below; possible solutions to these problems have been offered within other teaching networks; these include the Mediz-inDidaktikNetz (MDN) as a working group of the Medizinischen Fakult\u00e4tentag (MFT), the Digitalization Committee of the Gesellschaft f\u00fcr Medizinische Ausbildung (GMA) and the Hochschulforum Digitalisierung (HFD) are active in these areas. For this current paper, this preparatory work by these other organization was utilized as a baseline of knowledge in the planned workshop groups. In particular, the aspects of the German education system, which are hampering HiGHmeducation and were therefore the focus of the planned workshop groups are (in no particular order):",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "[9]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1453,
+                    "end": 1457,
+                    "text": "[10]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1712,
+                    "end": 1716,
+                    "text": "[11]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "1. Recognition of exam results from other institutions into the curriculum at the home institution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "2. High standards in teaching modules require a considerable investment of both time and effort on the part of the teacher in the development and implementation of the modules. In modern teaching it is important for teachers that this time spent be recognized so that it reflects in their teaching load. For this reason, it should be possible to credit digital teaching in the teaching load appropriately, such that it reflects in the compulsory teaching regulations of the German federal states. 3. The transition from the complementary use of digital technologies in conventional courses to fully digital courses requires new skills on the part of teachers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "There are numerous German-language materials for acquiring these skills, making it difficult to provide an overview. Teachers face a challenge in selecting relevant continuing education content. 4. When developing a teaching network and cross-locational modules, scalability for larger numbers of participants must be taken into account from the very beginning. This includes participant interaction and examination practices. For this purpose, technical infrastructure must be developed that effectively supports the process in the environment of German universities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "These aspects fall within three primary stakeholders \"learners\", \"teachers\" and \"educational institutions\". This is shown in figure 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Due to the overarching relevance of the four identified problem areas, a workshop was organized, comprised of experts from three organizations -firstly, the work group \"Technology-based Teaching and Learning in Medicine\" from the German Society for Medical Informatics, Biometry and Epidemiology (GMDS); secondly, the committee \"Digitalization\" from the Society for Medical Education (GMA) and thirdly from the HiGHmed consortium.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Prior to the beginning of the workshop, some representatives from the three organizations discussed their respective experiences with regard to cross-locational teaching. In the process, they identified key problem areas (as outlined above), specifically in the areas of teaching culture, strategic orientation, and organizational and legal structure. This list of problem areas was prioritized according to two factors: firstly, the urgency of the problems from the point of view of the HiGHmeducation consortium and secondly, according to the expertise provided by the aforementioned participating professional societies. The four most relevant topics were selected to be addressed in the workshop. The topics were then sent to the participants before the workshop, so that they could indicate their preferences, based on their experience and expertise. At the beginning of the workshop, the participants were divided into groups according to their preferences and the organizations involved. During the workshop, each group began by clarifying and elaborating upon the specifics of the defined problem area, as each area had only been briefly outlined in advance. Each member of these groups contributed their experiences of both the scope of the problem and potential solutions. The solutions from these discussions were then collected and amalgamated into the results; these are presented sequentially below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The teaching experience of the experts present at the workshop shows that the recognition of exam results from other universities is an important prerequisite for increasing participation in external modules. This is due both to the fact that the marks are presented with their certificates or diplomas and also the fact that there is less risk of delaying the completion of degrees. The difficulty lies in crossing the institutional boundary -students need to have their participation in external modules recognized at the institution in which they are enrolled.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recognition of exam results and integration into existing curricula Introduction"
+        },
+        {
+            "text": "1. What functioning mechanisms already exist for the recognition of exams taken at other universities? How can examination achievements be transferred? 2. Should there be restrictions on the proportion of digital forms of teaching?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Questions"
+        },
+        {
+            "text": "In principle, recognition can be granted by decisions on a case-by-case basis or by framework agreements. The former represents a precise, but also complex and timeconsuming procedure in which each student submits an individual application for recognition of an examination to the respective home institution. The European Credit Transfer System (ECTS) is a helpful instrument for this procedure: in the grading scale recommended since 2009, the distribution of the grades of other students in the same cohort is provided as additional information to the grade in the local grading system [12] . In order to avoid duplicating workload on case-by-case decision-making, inter-institutional framework agreements should be sought. One example of a framework agreement is the EU-funded Erasmus program. The basis for recognition between two universities here is named the Learning Agreement [13] . Another example, with regard to the transfer of grades, comes from the University of W\u00fcrzburg; there, they have developed a solution with concrete mechanisms for converting grades between different systems [14] . This solution is based on the Bavarian formula, which compares the best mark, the lowest pass mark and the mark achieved [15] . Another factor that can affect exam recognition is the coursework format -differences between the proportion of digital formats permitted at the home institution and at external module providers can prevent the recognition of exam results. Such restrictions on the proportion of permitted digital coursework are often stipulated in higher-level legal structures, such as examination regulations and state higher education laws. These restrictions unfortunately contradict the principle which is a key goal of teaching called Constructive Alignment; this principle encourages the orientation of the learning format towards learning goals. It is therefore recommended to adapt statutes in such a way that participation in digital teaching modules can be fully recognized.",
+            "cite_spans": [
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[12]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 886,
+                    "end": 890,
+                    "text": "[13]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1099,
+                    "end": 1103,
+                    "text": "[14]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1227,
+                    "end": 1231,
+                    "text": "[15]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The following steps should be taken for the recognition of teaching modules from consortium partners: In the short term: Develop a catalogue of the modules offered within the teaching network including which modules are recognized at which institutions. Collecting the grading systems used at all the sites in the network and their lower pass marks (as the other metrics of the Bavarian Formula are standard across Germany). In the long term: Create a framework agreement for the recognition of examinations for all institutions within the teaching network, taking into account heterogeneous grading systems where applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "Regarding the restrictions of the teaching forms: In the short term: Develop tools, including standardized text and standardized decision-making support, for the digital formats permitted in examination regulations depending on learning goals. Baumgartner has made concrete suggestions as to which teaching arrangements should be chosen for which types of learning objectives [16] . In the long term: Adaptation of local examination regulations in the teaching network to standardized examination formats.",
+            "cite_spans": [
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "Introduction Cross-location teaching raises recognition questions not only on the part of the students, but also on the part of the teachers. The compulsory teaching regulations (LV-VOs) of the federal states define the teaching load. The methods used to calculate the teaching load are usually based on conventional forms of teaching, so it is unclear how the time spent on digital teaching formats should be credited to the teaching load.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recognition of digital teaching in teaching load"
+        },
+        {
+            "text": "On which legal level have universities so far solved the problem of the recognition of cross-location teaching in the teaching budget? 2. How should the recognition of digital teaching be regulated in the LVVOs?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1."
+        },
+        {
+            "text": "There are already numerous teaching associations that offer country-specific or thematically concentrated teaching. What all of these associations have in common is that recognition in the teaching budget is regulated by the legal structures at the lecturer's university. This results in a multitude of isolated solutions that do not result in a uniform concept. In order to be able to make suggestions for the recognition of digital teaching that can be applied nationwide (question 2), the work group compiled an overview of the current regulations from the LVVOs of the federal states based on an overview conducted by the Bavarian medical faculties [17] . It was found that almost all of the examined LVVOs contained regulations for the recognition of digital teaching. Older LVVOs often mention relativizing calculation methods, for example by defining that only a certain proportion of the teaching budget may consist of digital teaching. Often this proportion was 25%. More recent LVVOs tended not to distinguish between digital and conventional teaching.",
+            "cite_spans": [
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[17]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In the short term: The current regulations hinder the further development of digital teaching because they place artificial limits on the crediting of digital teaching hours toward the teaching load. The recognition of digital teaching should not deviate in any way from face-to-face teaching and should be in relation to the workload involved for learners and their support. In the long term: A nationally harmonized categorization of teaching forms would significantly simplify the crediting of teaching output for conventional and digital teaching forms across state borders. In addition, the work group recommended explicitly promoting the creation of high-quality digital teaching formats by reducing the teaching load, as is already being done at some universities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "3. Which competencies are uniformly required for teachers in the field of e-learning nationwide?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "The acquisition of appropriate skills for an increasingly digitalized healthcare system makes problem-and taskbased learning with authentic digital data and systems essential. In addition, teaching across locations requires online collaborative learning both students and teachers. These evolving educational formats and their contents are constantly changing both the demanded profile of a teacher and the role of teachers in general. They need skills not only in organizing and implementing virtual forms of teaching, but also in designing learning processes and digital learning materials [18] .",
+            "cite_spans": [
+                {
+                    "start": 592,
+                    "end": 596,
+                    "text": "[18]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Which existing concepts define the necessary competencies for teachers in digital, cross-location teaching programs?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Question"
+        },
+        {
+            "text": "Instructional design models such as the sequential ADDIE model (named for its five steps: Analyze, Design, Development, Implement, and Evaluate) [19] or the agile SAM (Successive Approximation Model) [20] provide a framework for the planning, development and delivery of a course. Due to its greater popularity, the workshop focused on the ADDIE model. During the analysis step, teachers should ask themselves what kind of teaching and learning environment they are in. This includes aspects such as the technical infrastructure, financial and content support, the necessary competencies and the target group. The focus should also be on the organization of the curriculum and the possibilities for networking with other institutions. Knowledge of teaching-learning strategies and learning methods is important for the design step. Teachers should be able to weigh up strategies [21] , [22] of active learning that are suitable for the goals pursued. In addition, they should be able to consider certain cognitive-psychological prerequisites from multimedia or \"cognitive load\" theory [23] .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "[20]",
+                    "ref_id": null
+                },
+                {
+                    "start": 879,
+                    "end": 883,
+                    "text": "[21]",
+                    "ref_id": null
+                },
+                {
+                    "start": 886,
+                    "end": 890,
+                    "text": "[22]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1085,
+                    "end": 1089,
+                    "text": "[23]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In the development step, teachers should be able to use certain teaching-learning techniques such as social interaction, retrieval practice, distributed learning [24] or \"worked examples\". Knowledge of effective feedback is also essential in order to implement and support the new teaching units in a meaningful way. For implementation, teachers should know which participants they need to involve in order to create a successful teaching-learning organization. They should also be able to use computer-mediated communication and instruments for \"Classroom Orchestration\" effectively. Finally, teachers should be aware of the possibilities for support through evaluation. This way, feedback can initiate a dialogue between those involved, which will constantly improve and update teaching. However, they should also be aware of the control and legitimation function of evaluations in order to be able to check whether all participants have performed their services to achieve the desired teaching quality.",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[24]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In the short term: Further best practice examples of approaches to the use of digital media should be collected centrally in teaching networks. The common European framework of reference for languages, the \"DigCompEdu framework\" [18] , is an important addition. In the long term: Communities of Practice (CoP) should be established throughout the teaching associations in order to sustainably exchange knowledge and instruments for digital teaching. For selected issues, CoPs across teaching networks could also facilitate a meaningful exchange.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[18]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcomes"
+        },
+        {
+            "text": "The hitherto practiced recognition of examination achievements between universities is a cumbersome and non-scalable process, i.e. it cannot be carried out with reasonable resources for a large number of participants. The increase in digital teaching formats is expected to lead to a sharp rise in recognition cases. Technical infrastructure is necessary to automate the recognition process and thereby ensure the smooth operation of crosslocation teaching. Legal framework conditions such as the basic data protection ordinance must be taken into account.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Technical infrastructure for recognition management Introduction"
+        },
+        {
+            "text": "1. How are participants authenticated and authorized? 2. How is the proof of the achieved exam performance provided? 3. How are students' results transmitted and how can the recognition process be supported technically?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Questions"
+        },
+        {
+            "text": "For the authentication and authorization of learners, digital identities should be used if possible, which are usually already available at the home institutions. This way, both an uncomplicated access to the course is ensured and students can maintain a sense of belonging to their home institution. For the proof of examination performance, integrity must especially be ensured: the recognizing institution must be able to verify that an examination has been taken exactly as shown in the certificate. If there is a large number of participants, a high degree of automation is likely required. For the automated transfer and recognition of performance, standards should be used, which are proposed in the outcomes below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Since complete digitalization of the recognition process is not considered feasible in the short term, a step-bystep implementation of these standards should be sought.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In the short term: By using the national service DFN-AAI (Authentication and Authorization Infrastructure of the German Research Network) [25] users enrolled for external modules can authenticate themselves with the identity of their home organization. The home organization is clearly defined so that the services provided can be transferred later. Standards such as LTI (\"Learning Tools Interoperability\" for the exchange of teaching content at the level of individual lessons) of the IMS Global Learning Consortium [26] or xAPI (\"Experience API\" for the exchange of learning activities) of the Advanced Distributed Learning (ADL) [https://xapi.com] initiative can be used to digitalize and transmit the performance certificates. The support and use of digital certificates of achievement using existing standards such as OpenBadges is helpful to document exam performance [https://openbadges.org/ get-started/]. The digitalization of these conventional processes should be the goal for the near future.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 142,
+                    "text": "[25]",
+                    "ref_id": null
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[26]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "In the long-term: Digitalization of paper-based processes is a pragmatic but not sustainable solution. New processes should be defined and introduced that make the best possible use of the existing optimization potential through digitalization. At the MIT Media Lab, for example, so-called BlockCerts were designed on the basis of the Blockchain technology, which represent an open standard for creating, issuing, displaying and verifying certificates [27] . The Blockchain technology is a decentralized architecture for the forgery-resistant storage of information about values (e.g. exam results), which enables an easy exchange between organizations [28] . The implementation of such a modern recognition process is hardly feasible in the short term, as it requires restructuring the existing infrastructure. Nevertheless, the relevance of the process is demonstrated by its designation as a field of application in the German government's block chain strategy published in 2019 [29] .",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "[27]",
+                    "ref_id": null
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[28]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 982,
+                    "end": 986,
+                    "text": "[29]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome"
+        },
+        {
+            "text": "The cooperation of the experts from the professional societies and the consortium resulted in a collection of existing solutions, possibilities for action and open questions in the four problem areas. While the outcomes arising from the workshop were discussed in the context of a purely digital teaching format as utilized in HiGHmeducation, the results can also be applied in blended learning arrangements. As strengthen by our experiences with the COVID-19 pandemic, it has been shown that even in a predominantly digital teaching format, in-person classes are still helpful to ensure commitment, practical relevance and a personal learning atmosphere. It is noticeable that all four topics from the workshop presuppose that competence-oriented learning objectives have been defined, which are not only used to develop courses, but also to design legal frameworks and to train teachers. In addition to the short-and long-term recommendations for action, we see an urgent need for harmonization in the digital representation of exam results in medical informatics. This harmonization, supplemented by syntactic standardization, could offer the possibility to automate the processing of learning objectives received from other institutions. While semantic frameworks in the form of catalogues of learning objectives are developed for specific subjects [30] and are also regularly updated [31] , the technical implementation of harmonized specification and exchange formats is an unsolved problem. This makes complex mappings of learning objectives necessary [32] for which supporting tools have been developed [33] , but which still require manual work and interpretation. A semantically and syntactically standardized digital recording of learning objectives would not only support the work of curricular integration in teaching networks, but also facilitate the process of implementing subjectspecific learning objectives (here in medical informatics), as is already being done in some national catalogs of learning objectives such as the NKLM. Likewise, a newly designed digital recording of learning achievements would considerably simplify the transfer of certified learning achievements across locations. Based on the results of the workshop, we consider a national action plan and a superordinate institution on the topic of digitalization in university teaching of medical informatics to be a necessary and meaningful intervention to bundle different activities in this area [6] . This institution could be developed from the field of medical informatics following the example of the MFT working group MedizinDidaktikNetz [34] . Possible patrons of such a network could be the Society for Medical Informatics, Biometry and Epidemiology (GMDS) or an organization on the level of the Medical Informatics Initiative (MII). We consider the patronage of such a network to be an important strategic question and plan a further workshop for the next steps, the objective of which is to develop a more precise structure for a network for digital teaching in medical informatics. In this context, cooperation with working groups of the MFT, the GMA, and the HFD will be sought so that generic results can be shared and mutual needs and offers can be coordinated. This may include other thematically related working groups, such as the GMA's Human Resources and Organizational Development Committee on questions of the necessary competencies for teaching staff. The cooperation between the various participants that has begun here provides a basis for the further development of the German educational landscape in the area of cross-institutional cooperation in the field of digitalization in the health care professions. The continuation of the successful cooperation was supported by all participants. Further workshops and joint publications will be organized. The authors are looking forward to external impulses as well as further experts who are interested in active participation. ",
+            "cite_spans": [
+                {
+                    "start": 1353,
+                    "end": 1357,
+                    "text": "[30]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1389,
+                    "end": 1393,
+                    "text": "[31]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1559,
+                    "end": 1563,
+                    "text": "[32]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1611,
+                    "end": 1615,
+                    "text": "[33]",
+                    "ref_id": null
+                },
+                {
+                    "start": 2484,
+                    "end": 2487,
+                    "text": "[6]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2631,
+                    "end": 2635,
+                    "text": "[34]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Summary"
+        },
+        {
+            "text": "Die Autor*innen erkl\u00e4ren, dass sie keinen Interessenkonflikt im Zusammenhang mit diesem Artikel haben.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interessenkonflikt"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Die digitale (R)evolution? Chancen und Risiken der Digitalisierung akademischer Lehre. G\u00fctersloh: Centrum f\u00fcr Hochschulentwicklung gGmbH",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bischof",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Stuckrad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The Digital Turn -Hochschulbildung im Digitalen Zeitalter. Berlin: Hochschulforum Digitalisierung",
+            "authors": [
+                {
+                    "first": "Hochschulforum",
+                    "middle": [],
+                    "last": "Digitalisierung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "ATLANTIS: Ein nachhaltiger Lehrverbund der Wirtschaftsinformatik. Hannover: Technische Informationsbibliothek",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Breitner",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Guhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5546/37818"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Was die Digitalisierung im Gesundheitswesen erfordert",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Digitale Lehr-und Lernangebote in der medizinischen Ausbildung",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Frankenhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tolks",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "St\u00e4ndige Konferenz der Kultusminister der L\u00e4nder in der Bundesrepublik Deutschland. Vereinbarung \u00fcber die Festsetzung der Gesamtnote bei ausl\u00e4ndischen Hochschulzugangszeugnissen",
+            "authors": [],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Blended Learning Arrangement",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Baumgartner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "E-Learning & Wissensmanagement Jahrbuch",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Learning working group in the Competence Network Medical Education in Bavaria. Teaching load -A barrier to digitalisation in higher education? A position paper on the framework surrounding higher education medical teaching in the digital age using bavaria",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "F\u00fcngerlings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D; E-",
+                    "middle": [],
+                    "last": "Tolks",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "European Framework for the Digital Competence of Educators: DigCompEdu. Brussels: European Commision",
+            "authors": [],
+            "year": 2017,
+            "venue": "Zug\u00e4nglich unter",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Interservice Procedures for Instructional Systems Development. Executive Summary and Model",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Branson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rayner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Furman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hannum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "National Technical Information Service",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21236/ADA023892"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Advanced instructional design for successive E-learning: Based on the successive approximation model (SAM)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J E-Learning Corp Gov Heal High Educ",
+            "volume": "18",
+            "issn": "2",
+            "pages": "191--204",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dunlosky",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Willingham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Psychol Sci Public Interes",
+            "volume": "14",
+            "issn": "1",
+            "pages": "4--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1529100612453266"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Variables associated with achievement in higher education: A systematic review of meta-analyses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Preckel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Nine Ways to Reduce Cognitive Load in Multimedia Learning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Educ Psychol",
+            "volume": "38",
+            "issn": "1",
+            "pages": "43--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1207/S15326985EP3801_6"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Using Spacing to Enhance Diverse Forms of Learning: Review of Recent Research and Implications for Instruction",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cepeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rohrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shk",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pashler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Educ Psychol Rev",
+            "volume": "24",
+            "issn": "3",
+            "pages": "369--378",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10648-012-9205-z"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Verein zur F\u00f6rderung eines Deutschen Forschungsnetzes e. V. DFN-AAI -Authentifikations-und Autorisierungs-Infrastruktur. Berlin: Verein zur F\u00f6rderung eines Deutschen Forschungsnetzes e",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Massachusetts Institute of Technology. Blockcerts -The Open Standard for Blockchain Credentials",
+            "authors": [],
+            "year": 2019,
+            "venue": "IMS Global Learning Consortium Inc. IMS Interoperability Standards. Lake Mary",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Lernzielkatalog medizinische informatik: Wissen und verantwortung",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dugas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "R\u00f6hrig",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stausberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Dtsch Arztebl Intern",
+            "volume": "110",
+            "issn": "",
+            "pages": "243--244",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Welche Kompetenzen in Medizininformatik ben\u00f6tigen \u00c4rztinnen und \u00c4rzte? Update des Lernzielkatalogs f\u00fcr Studierende der Humanmedizin",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Varghese",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "R\u00f6hrig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dugas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gmds",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "GMS Med Inform Biom Epidemiol",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3205/mibe00020"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The implementation of medical informatics in the national competence based catalogue of learning objectives for undergraduate medical education (NKLM). Stud Health Technol Inform",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behrends",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Steffens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marschollek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "243",
+            "issn": "",
+            "pages": "18--22",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Boosting competence-orientation in undergraduate medical education-A web-based tool linking curricular mapping and visual analytics",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fritze",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lammerding-Koeppel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Narciss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wosnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zipfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Griewatz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Teach",
+            "volume": "41",
+            "issn": "4",
+            "pages": "422--432",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/0142159X.2018.1487047"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "MDN) implementing national standards for teacher training",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lammerding-Koeppel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goerlitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Karsten",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nounla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dieter",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "German Medicalteachingnetwork",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Med Teach",
+            "volume": "38",
+            "issn": "4",
+            "pages": "378--384",
+            "other_ids": {
+                "DOI": [
+                    "10.3109/0142159X.2015.1047752"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Die digitale (R)evolution? Chancen und Risiken der Digitalisierung akademischer Lehre. G\u00fctersloh: Centrum f\u00fcr Hochschulentwicklung gGmbH",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bischof",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Stuckrad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The Digital Turn -Hochschulbildung im Digitalen Zeitalter. Berlin: Hochschulforum Digitalisierung",
+            "authors": [
+                {
+                    "first": "Hochschulforum",
+                    "middle": [],
+                    "last": "Digitalisierung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "ATLANTIS: Ein nachhaltiger Lehrverbund der Wirtschaftsinformatik. Hannover: Technische Informationsbibliothek",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Breitner",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Guhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5546/37818"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Was die Digitalisierung im Gesundheitswesen erfordert",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Digitale Lehr-und Lernangebote in der medizinischen Ausbildung",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kuhn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Frankenhauser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tolks",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "of the German Association for Medical Informatics, Biometry and Epidemiology (gmds) and the German Informatics Society (GI). Digital teaching and digital medicine: A national initiative is needed",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haag",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Igel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mr;",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "German",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Medical Education Society (GMA), Committee \"Digitization -Technology-Assisted Learning and Teaching",
+            "volume": "35",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3205/zma001189"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Report on the CCC-CRA Workshop on Multidisciplinary Research For Online Education",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Academic Teaching and LeArning NeTwork in Information Systems",
+            "authors": [
+                {
+                    "first": ".",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Elan E",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Implementation of a National Framework to Promote Health Data Sharing",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Knaup",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Deserno",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Prokosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Sax",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Yearb Med Inform",
+            "volume": "27",
+            "issn": "01",
+            "pages": "302--304",
+            "other_ids": {
+                "DOI": [
+                    "10.1055/s-0038-1641210"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Didactical Framework for Cross-Location Online Learning Modules on Medical Informatics",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behrends",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Benning",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Witte",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Deutsche Gesellschaft f\u00fcr Medizinische Informatik, Biometrie und Epidemiologie. 64. Jahrestagung der Deutschen Gesellschaft f\u00fcr Medizinische Informatik",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "\u00dcbersetzung und Validierung des Community of Inquiry-Instruments zur Messung erfolgreicher Lernprozesse in online-gest\u00fctzten Lernsettings",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ammenwerth",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hackl",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Deutsche Gesellschaft f\u00fcr Medizinische Informatik, Biometrie und Epidemiologie. 62. Jahrestagung der Deutschen Gesellschaft f\u00fcr Medizinische Informatik",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Br\u00fcssel: Europ\u00e4ische Kommision, Generaldirektion Bildung Jugend Sport und Kultur",
+            "authors": [],
+            "year": 2015,
+            "venue": "ECTS Leitfaden",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Brussels: European Commision",
+            "authors": [],
+            "year": 2019,
+            "venue": "European Commission. Erasmus+ Learning Agreement",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "St\u00e4ndige Konferenz der Kultusminister der L\u00e4nder in der Bundesrepublik Deutschland. Vereinbarung \u00fcber die Festsetzung der Gesamtnote bei ausl\u00e4ndischen Hochschulzugangszeugnissen",
+            "authors": [],
+            "year": 2004,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Blended Learning Arrangement",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Baumgartner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "E-Learning & Wissensmanagement Jahrbuch",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Learning working group in the Competence Network Medical Education in Bavaria. Teaching load -A barrier to digitalisation in higher education? A position paper on the framework surrounding higher education medical teaching in the digital age using bavaria",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "F\u00fcngerlings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D; E-",
+                    "middle": [],
+                    "last": "Tolks",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "European Framework for the Digital Competence of Educators: DigCompEdu. Brussels: European Commision",
+            "authors": [],
+            "year": 2017,
+            "venue": "Zug\u00e4nglich unter",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Interservice Procedures for Instructional Systems Development. Executive Summary and Model",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Branson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rayner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Furman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hannum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "National Technical Information Service",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21236/ADA023892"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Advanced instructional design for successive E-learning: Based on the successive approximation model (SAM)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J E-Learning Corp Gov Heal High Educ",
+            "volume": "18",
+            "issn": "2",
+            "pages": "191--204",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dunlosky",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rawson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Marsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Willingham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Psychol Sci Public Interes",
+            "volume": "14",
+            "issn": "1",
+            "pages": "4--58",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1529100612453266"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Variables associated with achievement in higher education: A systematic review of meta-analyses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Preckel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Nine Ways to Reduce Cognitive Load in Multimedia Learning",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Educ Psychol",
+            "volume": "38",
+            "issn": "1",
+            "pages": "43--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1207/S15326985EP3801_6"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Using Spacing to Enhance Diverse Forms of Learning: Review of Recent Research and Implications for Instruction",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cepeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rohrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shk",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pashler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Educ Psychol Rev",
+            "volume": "24",
+            "issn": "3",
+            "pages": "369--378",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10648-012-9205-z"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Verein zur F\u00f6rderung eines Deutschen Forschungsnetzes e. V. DFN-AAI -Authentifikations-und Autorisierungs-Infrastruktur. Berlin: Verein zur F\u00f6rderung eines Deutschen Forschungsnetzes e",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Massachusetts Institute of Technology. Blockcerts -The Open Standard for Blockchain Credentials. Massachusett: Massachusetts Institute of Technology",
+            "authors": [],
+            "year": 2019,
+            "venue": "IMS Global Learning Consortium Inc. IMS Interoperability Standards. Lake Mary",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "SSRN Electronic Journal. Amsterdam",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Lernzielkatalog medizinische informatik: Wissen und verantwortung",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dugas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "R\u00f6hrig",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stausberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Dtsch Arztebl Intern",
+            "volume": "110",
+            "issn": "",
+            "pages": "243--244",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Welche Kompetenzen in Medizininformatik ben\u00f6tigen \u00c4rztinnen und \u00c4rzte? Update des Lernzielkatalogs f\u00fcr Studierende der Humanmedizin",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Varghese",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "R\u00f6hrig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dugas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gmds",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "GMS Med Inform Biom Epidemiol",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3205/mibe00020"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The implementation of medical informatics in the national competence based catalogue of learning objectives for undergraduate medical education (NKLM). Stud Health Technol Inform",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behrends",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Steffens",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marschollek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "243",
+            "issn": "",
+            "pages": "18--22",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Boosting competence-orientation in undergraduate medical education-A web-based tool linking curricular mapping and visual analytics",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Fritze",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lammerding-Koeppel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boeker",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Narciss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wosnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zipfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Griewatz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Med Teach",
+            "volume": "41",
+            "issn": "4",
+            "pages": "422--432",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/0142159X.2018.1487047"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "MDN) implementing national standards for teacher training",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lammerding-Koeppel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ebert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goerlitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Karsten",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nounla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dieter",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "German Medicalteachingnetwork",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Med Teach",
+            "volume": "38",
+            "issn": "4",
+            "pages": "378--384",
+            "other_ids": {
+                "DOI": [
+                    "10.3109/0142159X.2015.1047752"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Digital teaching as an instrument for cross-location teaching networks in medical informatics: opportunities and challenges",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Benning",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haag",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Knaup",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Krefting",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rienhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Suhr",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hege",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tolks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "GMS J Med Educ",
+            "volume": "37",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3205/zma001349"
+                ]
+            }
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Artikel und steht unter den Lizenzbedingungen der Creative Commons Attribution 4.0 License (Namensnennung). Lizenz-Angaben siehe",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Copyright",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Benning",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Identified topic groups sorted by primary stakeholders. Topic groups covered at the workshop are highlighted in white and numbered.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "from the point of view of the HiGHmed consortium and secondly accord-Informatics, Heidelberg, Germany ing to existing competencies in the participating societies. A workshop on the four most relevant topics was organized with experts from the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Lernorganisation zu erzeugen. Sie sollen au\u00dferdem die computervermittelte Kommunikation und Instrumente f\u00fcr \"Classroom Orchestration\" effektiv einsetzen k\u00f6nnen. Zuletzt sollten sich Lehrende \u00fcber die M\u00f6glichkeiten zur F\u00f6rderung durch Evaluationen bewusst sein. So k\u00f6nnen die R\u00fcckmeldungen einen Dialog zwischen den Beteiligten initiieren, welcher die Lehre st\u00e4ndig verbessert und aktualisiert. Sie sollten sich aber auch der Kontroll-und Legitimationsfunktion von Evaluationen bewusst sein, um pr\u00fcfen zu k\u00f6nnen, ob alle Beteiligten ihre Leistungen erbracht haben, um die gew\u00fcnschte Lehrqualit\u00e4t zu erreichen.Kurzfristig: In Lehrverb\u00fcnden sollten zentral weitere Best Practice Beispiele von Ans\u00e4tzen zur Verwendung digitaler Medien gesammelt werden. Hier stellt unter anderem der gemeinsame europ\u00e4ische Referenzrahmen f\u00fcr Sprachen \"DigCompEdu framework\"[18]  eine wichtige Erweiterung dar. Langfristig: Es sollten lehrverbundweite \"Communities of Practice\" (CoP) etabliert werden, um nachhaltig Kenntnisse und Instrumente f\u00fcr die digitale Lehre auszutauschen. F\u00fcr ausgew\u00e4hlte Fragestellungen k\u00f6nne auch lehrverbund\u00fcbergreifende CoP einen sinnvollen Austausch erm\u00f6glichen. Die bisher praktizierte Anerkennung von Pr\u00fcfungsleistungen zwischen Universit\u00e4ten ist ein umst\u00e4ndlich und nichtskalierbar, das hei\u00dft nicht mit vertretbaren Ressourcen f\u00fcr eine gro\u00dfe Zahl von Teilnehmenden durchf\u00fchrbar. Durch die Zunahme von digitalen Lehrformaten ist mit einer starken Zunahme von Anerkennungsf\u00e4llen zu rechnen. Eine technische Infrastruktur ist notwendig, um den reibungslosen Betrieb der standort\u00fcbergreifenden Lehre gew\u00e4hrleisten zu k\u00f6nnen. Dabei sind rechtliche Rahmenbedingungen wie beispielsweise die Datenschutzgrundverordnung zu ber\u00fccksichtigen. Fragestellung 1. Wie erfolgen die Authentifizierung und Autorisierung der Teilnehmenden? 2. Wie erfolgt der Nachweis der erbrachten Pr\u00fcfungsleistung? 3. Wie erfolgt die \u00dcbermittlung der erbrachten Leistungen und wie kann der Anerkennungsprozess technisch unterst\u00fctzt werden? F\u00fcr die Authentifizierung und Autorisierung der Lernenden sollten nach M\u00f6glichkeit digitale Identit\u00e4ten genutzt werden, welche in der Regel bereits an den Heimatinstitutionen vorhanden sind. So ist einerseits eine unkomplizierte Zugriffsm\u00f6glichkeit auf das Lehrangebot zu erwarten und andererseits bleibt das Zugeh\u00f6rigkeitsgef\u00fchl des Lernenden zur Heimatorganisation erhalten. F\u00fcr den Nachweis einer Pr\u00fcfungsleistung muss insbesondere die Integrit\u00e4t sichergestellt werden: Die anerkennende Institution muss pr\u00fcfen k\u00f6nnen, dass eine Pr\u00fcfungsleistung genauso wie im Nachweis dargestellt abgelegt wurde. Bei einer gro\u00dfen Zahl an Teilnehmenden ist ein hoher Grad an Automatisierung erforderlich. F\u00fcr die automatisierte \u00dcbermittlung und Anerkennung von Leistungen sollten Standards genutzt werden, welche in der Perspektive vorgeschlagen werden. Da eine vollst\u00e4ndige Digitalisierung des Anerkennungsprozesses kurzfristig als nicht machbar angesehen wird, sollte eine stufenweise Implementierung dieser Standards angestrebt werden. Kurzfristig: Durch die Nutzung des nationalen Dienstes DFN-AAI (Authentifizierungs-und Autorisierungsinfrastruktur des Deutschen Forschungsnetzes) [25] kann in Lehrverb\u00fcnden erreicht werden, dass Nutzende sich an verschiedenen Hochschulen mit der Identit\u00e4t ihrer Heimatorganisation authentifizieren k\u00f6nnen. Dabei ist die Heimatorganisation eindeutig definiert, sodass sp\u00e4ter die erbrachten Leistungen \u00fcbermittelt werden k\u00f6nnen. Zur Digitalisierung der Leistungsnachweise und deren \u00dcbermittlung k\u00f6nnen Standards wie LTI (\"Learning Tools Interoperability\" zum Austausch von Lehrinhalten auf Ebene einzelner Lektionen) des IMS Global Learning Consortiums [26] oder xAPI (\"Experience API\" zum Austausch von Lernaktivit\u00e4ten) der Advanced Distributed Learning (ADL) [https://xapi.com] Initiative eingesetzt werden. Eine Unterst\u00fctzung und Nutzung von digitalen Leistungsbescheinigungen unter Nutzung vorhandener Standards wie OpenBadges ist hilfreich, um Pr\u00fcfungsleistungen zu dokumentieren [https://openbadges.org/get-started/]. Die Digitalisierung dieser konventionellen Prozesse sollte zeitnah angestrebt werden. Langfristig: Die Digitalisierung der papierbasierten Prozesse ist zwar eine pragmatische aber keine nachhaltige L\u00f6sung. Es sollten neue Prozesse definiert und eingef\u00fchrt werden, welche das vorhandene Optimierungspotential durch Digitalisierung bestm\u00f6glich nutzen. So wurden beispielsweise am MIT Media Lab auf Basis der Blockchain-Technologie sogenannte BlockCerts entworfen, die einen offenen Standard zum Erstellen, Ausstellen, Anzeigen und Verifizieren von Zertifikaten darstellen [27]. Die Blockchain-Technologie ist eine dezentrale Architektur zur f\u00e4lschungssicheren Speicherung von Informationen \u00fcber Werte (z. B. Pr\u00fcfungsleistungen), welche einen einfachen Austausch zwischen Organisationen erm\u00f6glicht [28]. Die Umsetzung eines solchen modernen Anerkennungsprozesses ist kurzfristig kaum umsetzbar, da dies eine Restrukturierung der Infrastruktur erfordert. Dennoch zeigt sich die Relevanz unter anderem durch die Benennung als ein Anwendungsfeld in der 2019 ver\u00f6ffentlichten Blockchain-Strategie der Bundesregierung [29]. Die Zusammenarbeit der Fachleute aus den Fachgesellschaften und dem Konsortium resultierte in einer Sammlung von existierenden L\u00f6sungen, Handlungsm\u00f6glichkeiten und offenen Fragen in den vier Problemfeldern. W\u00e4hrend der Workshop f\u00fcr die rein digitale Lehre in HiGHmeducation geplant war, sind die Ergebnisse ebenso f\u00fcr Blended-Learning Arrangements nutzbar. Nicht zuletzt durch die COVID-19 Pandemie hat sich gezeigt, dass auch bei einer \u00fcberwiegend digitalen Lehre, Pr\u00e4senztermine weiterhin hilfreich sind, um Verbindlichkeit, Praxisbezug und eine pers\u00f6nliche Lernatmosph\u00e4re sicherzustellen. Es ist auff\u00e4llig, dass alle Themengebiete des Workshops voraussetzen, dass kompetenzbasierte Lernziele definiert werden, anhand derer nicht nur Lehrveranstaltungen entwickelt, sondern auch rechtliche Rahmenbedingungen gestaltet sowie Lehrende fortgebildet werden. Neben den kurz-und langfristigen Handlungsempfehlungen sehen wir dringenden Bedarf im Bereich der Harmonisierung einer digital erfassten Version von Lernleistungen der Medizinischen Informatik. Diese harmonisierte Version k\u00f6nnte erg\u00e4nzt mit einer syntaktischen Standardisierung die M\u00f6glichkeit zur automatisierten Verarbei-tung von Lernzielen bieten. W\u00e4hrend semantische Rahmenwerke in Form von Lernzielkatalogen fachspezifisch erarbeitet werden [30] und auch regelm\u00e4\u00dfig aktualisiert werden [31], stellt die technische Umsetzung von harmonisierten Spezifikations-und Austauschformaten ein bisher ungel\u00f6stes Problem dar. Dies macht aufwendige Mappings von Lernzielen n\u00f6tig [32] f\u00fcr welche zwar unterst\u00fctzende Werkzeuge entwickelt wurden [33], aber weiterhin manuelle Arbeit und Interpretation notwendig ist. Eine semantisch und syntaktisch standardisierte digitale Erfassung von Lernzielen w\u00fcrde nicht nur die Arbeit zur curricularen Integration in Lehrverb\u00fcnden wesentlich unterst\u00fctzen, sondern auch den Prozess der Umsetzung von fachspezifisch erarbeiteten Lernzielen (hier in Medizinischer Informatik) erleichtern, so wie dies teilweise bereits in nationalen Lernzielkatalogen wie dem NKLM erfolgt. Ebenso w\u00fcrde eine neu gestaltete digitale Erfassung von Lernleistungen die standort\u00fcbergreifende \u00dcbertragung von attestierten Lernleistungen erheblich vereinfachen. Auf Basis der Ergebnisse des Workshops erachten wir einen nationalen Aktionsplan sowie eine \u00fcbergeordnete Institution zum Thema Digitalisierung in der Hochschullehre zur Medizininformatik als eine notwendige und sinnvolle Intervention, um unterschiedliche Aktivit\u00e4ten in diesem Bereich zu b\u00fcndeln [6]. Diese Institution k\u00f6nnte aus der Fachrichtung der Medizinischen Informatik nach dem Vorbild der MFT-Arbeitsgruppe MedizinDidaktikNetz [34] entwickelt werden. M\u00f6gliche Tr\u00e4ger eines solchen Verbundes k\u00f6nnten die Gesellschaft f\u00fcr Medizinische Informatik, Biometrie und Epidemiologie (GMDS) oder auch eine Organisation auf Ebene der Medizininformatik-Initiative (MII) sein. Die Tr\u00e4gerschaft eines solchen Verbundes erachten wir als eine wichtige strategische Frage und sehen f\u00fcr n\u00e4chste Schritte einen weiteren Workshop vor, dessen Zielsetzung eine genauere Ausgestaltung eines Verbundes zur digitalen Lehre in der Medizininformatik sein soll. Dabei werden Kooperationen mit Arbeitsgruppen des MFT, der GMA sowie des HFD angestrebt, sodass generische Ergebnisse gemeinsam genutzt werden k\u00f6nnen und gegenseitige Bedarfe und Angebote koordiniert werden k\u00f6nnen. Dies kann weitere thematisch verwandte Arbeitsgruppen einschlie\u00dfen, wie beispielsweise den Ausschuss Personal-und Organisationsentwicklung der GMA zu Fragen der notwendigen Kompetenzen f\u00fcr Lehrende. Die hier begonnene Kooperation der verschiedenen Beteiligten bietet eine Grundlage zur Weiterentwicklung der deutschen Bildungslandschaft im Bereich der institutions\u00fcbergreifenden Zusammenarbeit auf dem Gebiet der Digitalisierung in den Gesundheitsberufen. Die Fortsetzung der erfolgreichen Kooperation wurde von allen Teilnehmenden bef\u00fcrwortet. Es werden weitere Workshops und gemeinsame Publikationen organisiert werden. Die Autoren freuen sich \u00fcber externe Impulse sowie weitere Fachkundige Wir danken allen Beteiligten des Workshops (Studiengruppe) f\u00fcr die aktive Mitwirkung: Marianne Behrends, Christoph Bohne, Barbara Braun, Bas de Leng, Jasmin Decker, Thomas Deserno, Cornelia Fiessler, Peter Heuschmann, Ina Hoffmann, Thomas Koehler, Martin Lemos, Christoph Rensing, Eugenia Rinaldi, Bernd Romeike, Julian Varghese, Joana Warnecke. Ein besonderer Dank gilt Alexander Whillier f\u00fcr das Lektorat der englischen Artikelversion. Diese Arbeit wurde durch das Bundesministerium f\u00fcr Bildung und Forschung unter dem F\u00f6rderkennzeichen (grant number) 01ZZ1802A unterst\u00fctzt.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank all participants of the workshop (study group) for their active participation: Marianne ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 88,
+                    "end": 96,
+                    "text": "Marianne",
+                    "ref_id": null
+                }
+            ],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors declare that they have no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        }
+    ]
+}

@@ -1,0 +1,699 @@
+{
+    "paper_id": "00af7defedf3ac7f7fd25e9e9778c8d0d94324f5",
+    "metadata": {
+        "title": "Impact of pain, psychological-distress, SARS-CoV2 fear on adults' OHRQOL during COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "S",
+                "middle": [
+                    "Rama"
+                ],
+                "last": "Varma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [],
+                "last": "Nadeem",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "I",
+                "middle": [],
+                "last": "Elkhader",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Ashekhi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Corona virus disease has crippled life, families and oral health care delivery. Hence, we assessed the impact of dental pain, fear of COVID-19 and psychological distress during lockdown on the oral health related quality of life of individuals visiting a tertiary dental care center during COVID-19 pandemic. Cross sectional study conducted among patients between 18-60 years. Demographics, access to pain killers, dental care (yes/no), duration (</> 15 days) and intensity of pain were self reported. Fear of COVID-19 was assessed using fear of corona virus scale (FCV-19S); psychological distress in the last 30 days and oral health related quality of life was evaluated. Oral examination was performed and dental caries status (DMFT) was assessed using the world health organization method. Univariate and multivariate regression analysis was conducted to evaluate significant predictors and 5% was set as level of significance. 2966 patients visited our dental emergency due to painful decayed tooth between March-June 2020. Mean age was 42.7 years, 53.97% were males and most common cause of painful teeth was upper right third molar (7.7%). 73.4% reported lack of pain medication; 95% reported closure of dental clinics close to home. Almost 79% suffered from dental pain for more than 15 days. Higher self reported pain (OR 2.1; 95% CI 1.36-14.71), >15 days of suffering from pain (OR 6.8; 95% CI 2.18-23.14), greater fear of COVID-19 (OR 4.14; 95% CI 1.98-16.07) and psychological distress (OR 4.41; 95% CI 1.09-16.76) were associated with poorer OHRQOL of adults during COVID-19 pandemic. Our findings strongly suggest that COVID-19 pandemic negatively impacts the mental and oral health of individuals affecting their overall health. oral health examination, collected questionnaire data during the COVID-19 pandemic. Lastly, all the patients who were willing to participate and provide valuable knowledge to the scientific community even during their distress.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Corona virus disease-19 caused by the SARS-CoV2 virus has infected 10.3 million people globally and has caused over 503000 deaths as of June 30, 2020. India, enforced complete lockdown from March 2020 to control the COVID-19 pandemic. Almost all dental clinics were closed in Chennai city to prevent transmission of SARS-CoV2 as aerosol generating procedures were strictly prohibited. COVID-19 has caused world wide panic and fear known as 'coronaphobia' due to unpredictable nature of the disease causing mental distress in common people (Asmundson and Taylor, 2020) . Further, stress of lockdown and isolation can lead to mental disorders such as anxiety and depression (Zhou et al., 2020) , and dental pain could have worsened the situation. All these circumstances can affect an individual's overall health, hence, we assessed the impact of dental pain, fear of COVID-19 and psychological distress during lockdown on the oral health related quality of life of individuals visiting a tertiary dental care center during COVID-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 539,
+                    "end": 567,
+                    "text": "(Asmundson and Taylor, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 672,
+                    "end": 691,
+                    "text": "(Zhou et al., 2020)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This cross-sectional study was conducted among patients (18-60 years) who visited our dental institute from March-June 2020 to treat oral pain as dental services were not available any where else in the city. Study protocol was approved by the institutional ethical committee (SDC/SIHEC/2020/0619) and individuals not willing to consent were excluded from study. Sample size was estimated with the power of the study at 80%, level of significance set at 5% and the prevalence ratio of 1.55 yielded a sample size of 2452. Every patient who visited our tertiary center for emergency was approached to participate in this study. Following consent, they were requested to self report their pain using the numeric rating scale on a score from 1-10 and dental caries status was assessed using the world health organization method. Access to pain killers in pharmacies (yes/no), access to dental care close to home (yes/no), duration of pain in days (</> 15 days), demographics (age, sex, annual family income) were also recorded. Fear of COVID-19 was assessed using fear of corona virus scale 3 (FCV-19S); its a seven-item questionnaire with response rated on a five-item likert scale ranging from strongly disagree to strongly agree and the score ranges from 7-35; higher scores indicating grater fear of COVID-19 (Ahorsu et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 1300,
+                    "end": 1330,
+                    "text": "COVID-19 (Ahorsu et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "Psychological distress in the last 30 days was assessed using distress questionnaire-5, its contains five-items with response ranging from Never (1), rarely (2), sometimes (3), often (4), always (5) and total score range between 5-25 and higher scores indicate greater distress (Batterham et al., 2020) . OHRQOL was evaluated using oral health impact profile scale (OHIP-14) (Slade, 1997) . The validity of questionnaires used were checked using back translation from Tamil to English and was found satisfactory. Reliability of the questionnaires was assessed among 40 individuals randomly using test-retest and intra-class correlation was found to be greater than 0.80 for all three scales. Fear of COVI19, psychological distress, DMFT scores and OHRQOL was dichotomized into high and low based on the median scores. Data was analyzed using IBM SPSS version 20.0 (IBM Corp., Armonk, USA). Crude associations of independent variables with OHRQOL were assessed using chi-square and independent T test.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 302,
+                    "text": "(Batterham et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 375,
+                    "end": 388,
+                    "text": "(Slade, 1997)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "Adjusted associations were estimated using multivariable logistic regression with OHRQOL as outcome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and methods"
+        },
+        {
+            "text": "Total of 2966 patients visited our dental emergency due to painful decayed tooth from March-June 2020 and 83% of patients provided consent to participate in the study. Mean age was 42.7 years, 53.97% were males and most common cause of painful teeth was upper right third molar (7.7%) and least common was lower right canine (0.9%). 73.4% reported lack of pain medication for immediate relief; nearly 95% reported closure of dental clinics close to home with the remaining complained of care denied. Almost 21% suffered from pain for <15 days and 79% suffered for more than 15 days. Mean age, self reported pain, DMFT score, FCV-19S and psychological distress was significantly higher among patients with poorer quality of life (Table 1 ; P<0.05). Annual family income and duration of pain was also significantly associated with OHRQOL in bivariate analysis (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 728,
+                    "end": 736,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 858,
+                    "end": 867,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Higher self reported pain (OR 2.1; 95% CI 1.36-14.71), >15 days of suffering from pain (OR 6.8; 95% CI 2.18-23.14), greater fear of COVID-19 (OR 4.14; 95% CI 1.98-16.07) and psychological distress (OR 4.41; 95% CI 1.09-16.76), and DMFT score greater than 4 (OR 3.26; 95% CI 0.93-11.09) negatively impacted the OHRQOL of adults during COVID-19 pandemic (Table 2) . However, DMFT variable includes the value 1 in the confidence interval thus nullifying the association found predicted by significant P value.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 352,
+                    "end": 361,
+                    "text": "(Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The covid-19 pandemic has created unprecedented challenges in dental health care delivery due to fear of SARS-CoV2. Primary route of transmission of SARS-CoV2 is through respiratory droplets and saliva (Han and Ivanovski, 2020). Dentists are among the most exposed to the COVID-19 infection as almost every procedure generates salivary bioaerosols at close proximity (Dave et al.,2020) and SARS-CoV2 can transmit through aerosols. SARS-CoV2 survival on surfaces like plastics, cupboards, stainless steel and masks can range from 8h to 7 days depending on environmental conditions risks the entire dental team (van Doremalen et al., 2020) . Routine Dentistry and oral surgery procedures generating aerosol have been suspended in several countries and Indian government posed restriction on all elective dental procedures during COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 609,
+                    "end": 637,
+                    "text": "(van Doremalen et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Fear of SARS-CoV2 infection could be the primary reason for closure of almost all the dental clinics in Chennai.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Further, 'coronaphobia' among patients would have significantly affected their care seeking behaviour causing a negative effect on their OHRQOL found in our study and lack of dental care close to home/personal dentist could have also played a role. Psychological distress during the COVID-19 was reported even among the general public in Guangdong province, China. Depression was prevalent in 34.7% and severe symptoms were found in 14.3%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Similarly, anxiety was prevalent in 19.6% with severe symptoms found in 14.3% (Zhang et al., 2020) . COVID-quality of life of individuals warrants to be studied (Qiu et al., 2020) Poor oral health and pain from odontogenic origin are established risk factors for poor OHRQOL in adults (Ort\u00edz et al., 2019; Rauch et al., 2019; Shueb et al., 2015) and the same was established in our sample. Greater self reported pain, longer duration of pain suffering and higher caries experience negatively impacted the OHRQOL in our study. Restriction on over the counter medication imposed due to COVID-19 could have exacerbated the pain and mental distress during the lockdown.",
+            "cite_spans": [
+                {
+                    "start": 78,
+                    "end": 98,
+                    "text": "(Zhang et al., 2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 161,
+                    "end": 179,
+                    "text": "(Qiu et al., 2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 285,
+                    "end": 305,
+                    "text": "(Ort\u00edz et al., 2019;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 306,
+                    "end": 325,
+                    "text": "Rauch et al., 2019;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 326,
+                    "end": 345,
+                    "text": "Shueb et al., 2015)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To the best of our knowledge, we are the first to report the influence of psychological distress caused due to lockdown during COVID-19 and lack of access to dental care on the OHRQOL of adults suffering from dental pain. Previously, the psychological distress during the East Japan earth quake and giant tsunami negatively impacted the OHRQOL; further, upper middle age adults and those with oral problems had poorer OHRQOL (Kishi et al., 2015) . COVID-19 has caused greater damage in terms of psychological distress as people are locked inside their homes for several days without access to care. Regression analysis showed that greater fear of COVID-19 and psychological distress were significantly related with poorer OHRQOL. However, it is surprising that psychological factors were significantly associated with OHRQOL but annual family income was not as lower socio-economic status is associated with poor OHRQOL. This finding is in contrary to previous reports reported during ordinary situations (Zaitsu et al., 2011) , but COVID-19 is unique. The relationship between oral health status and psychological problems has been ambiguous (Amarasena et al., 2015) , but our findings support this relationship.",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 445,
+                    "text": "(Kishi et al., 2015)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1005,
+                    "end": 1026,
+                    "text": "(Zaitsu et al., 2011)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1143,
+                    "end": 1167,
+                    "text": "(Amarasena et al., 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "COVID-19 pandemic can impact the mental and social health of individuals as public gatherings, social meetings in person have been restricted affecting the normal functioning of a human being. However, the impact of physical pain on overall quality of life remains to be explored. Pain caused by poor oral health in during COVID-19 in our sample could have aggravated the fragile mental health of individuals already affected by the pandemic leading to worsening of OHRQOL. Limitations of our study include convenience sample, multiple experts assessing oral health status during pandemic and cross-sectional design of the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, higher self-perceived dental pain and longer duration of suffering negatively impacted the OHRQOL of individuals during COVID-19. Furthermore, greater fear of SARS-CoV2 and psychological distress were associated with poorer OHRQOL. Our findings strongly suggest that COVID-19 pandemic negatively impacts the mental and oral health of individuals affecting their overall health. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The impact of poor oral health on the oral health-related quality of life (OHRQoL) in older adults: the oral health status through a latent class analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ort\u00edz-Barrios",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Granados-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cruz-Hervert",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Moreno-Tamayo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Heredia-Ponce",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "S\u00e1nchez-Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC. Oral. Health",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12903-019-0840-3"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A nationwide survey of psychological distress among Chinese people in the COVID-19 epidemic: implications and policy recommendations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch. Gen. Psychiatry",
+            "volume": "33",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/gpsych-2020-100213"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pain, Dental Fear, and Oral Health-related Quality of Life-Patients Seeking Care in an Emergency Dental Service in Germany",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hahnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Schierz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Contemp. Dent. Pract",
+            "volume": "20",
+            "issn": "",
+            "pages": "3--7",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "What is the impact of acute and chronic orofacial pain on quality of life",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shueb",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nixdorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Alonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Durham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Dent",
+            "volume": "43",
+            "issn": "",
+            "pages": "1203--1210",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Derivation and validation of a short-form oral health impact profile",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Slade",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Community",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Aerosol and Surface Stability of SARS-CoV-2 as Compared with SARS-CoV-1",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tamin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Harcourt",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thornburg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lloyd-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Wit",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Munster",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1564--1567",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMc2004973"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Association of clinical oral health status with self-rated oral health and GOHAI in Japanese adults",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zaitsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ueno",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shinada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ohara",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kawaguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Community. dent. Health",
+            "volume": "28",
+            "issn": "",
+            "pages": "297--300",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The differential psychological distress of populations affected by the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Brain. Behav. immun",
+            "volume": "87",
+            "issn": "",
+            "pages": "49--50",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The Role of Telehealth in Reducing the Mental Health Burden from COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Snoswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harding",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bambling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Edirippulige",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Telemed. J. E. Health",
+            "volume": "26",
+            "issn": "",
+            "pages": "377--379",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/tmj.2020.0068"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Crude association of risk factors with OHRQOL independent T test; b-chi square test;*P<0.05 is significantTable 2. Adjusted associations of potential risk factors for OHRQOL",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to express their deepest gratitude to all the dentists who performed",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements:"
+        }
+    ]
+}

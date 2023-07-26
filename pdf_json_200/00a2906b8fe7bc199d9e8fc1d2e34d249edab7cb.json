@@ -1,0 +1,215 @@
+{
+    "paper_id": "00a2906b8fe7bc199d9e8fc1d2e34d249edab7cb",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Alessandro",
+                "middle": [],
+                "last": "Marinaccio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Italian National Institute for Insurance against",
+                    "location": {}
+                },
+                "email": "a.marinaccio@inail.it"
+            },
+            {
+                "first": "Ranieri",
+                "middle": [],
+                "last": "Guerra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Italian National Institute for Insurance against",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Sergio",
+                "middle": [],
+                "last": "Iavicoli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Italian National Institute for Insurance against",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Despite the absence of systematic studies on work-related risk factors for COVID-19, the pandemic has been described as a substantial challenge for occupational health 2 and several types of working condition have been reported as putting workers at risk of infection worldwide. At highest occupational risk are healthcare workers, emergency response workers, and workers in social services and the care of older people. Clusters of other occupationally exposed groups have been reported. Outbreaks of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) have occurred in factories operated by the meat and poultry processing industry. In such an environment, crowded living and transport conditions, numerous high-touch areas, and difficulties with workplace physical distancing could result in high risk for SARS-CoV-2 transmission. 3 In Italy, according to compensation claims, SARS-CoV-2 infection occurred at the workplace in 19\u00b74% of all cases; 30% of people of working age (15-65 years) became infected in the workplace. 4 Health-care workers have been recognised as the most involved occupational category (29 548 affected individuals as of July 5, 2020, in Italy 5 ), and these individuals' dual role as victims and vectors must be highlighted. It will be important to implement policies that adequately factor in the occupational dimension of risk. Specific risk management at workplaces, protection of vulnerable workers, and the develop ment of an occupational epidemiological surveillance system has to be considered as a priority in anti-COVID-19 strategies and in the management of vaccination policies.",
+            "cite_spans": [
+                {
+                    "start": 843,
+                    "end": 844,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1036,
+                    "end": 1037,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Copyright \u00a9 2020 The Author(s). Published by Elsevier Ltd. This is an Open Access article under the CC BY-NC-ND 4.0 license.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Global, regional, and national estimates of the population at increased risk of severe COVID-19 due to underlying health conditions in 2020: a modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jit",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Warren-Gash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "issn": "",
+            "pages": "1003--1020",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The COVID-19 pandemic: major risks to healthcare and other workers on the front line",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Occup Environ Med",
+            "volume": "77",
+            "issn": "",
+            "pages": "281--82",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 among workers in meat and poultry processing facilities -19 States",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Dyal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Broadwater",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "557--61",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Occupational factors in the COVID-19 pandemic in Italy: compensation claims applications support establishing an occupational surveillance system",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marinaccio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Boccuni",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rondinone",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Occ Environ Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 epidemiological data section",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Correspondence www.thelancet.com/lancetgh Published online September 25, 2020 https://doi.org/10.1016/S2214-109X(20)30411-3 1",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

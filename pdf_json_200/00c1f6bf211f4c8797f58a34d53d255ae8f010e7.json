@@ -1,0 +1,381 @@
+{
+    "paper_id": "00c1f6bf211f4c8797f58a34d53d255ae8f010e7",
+    "metadata": {
+        "title": "Supplementary Information for: Human species D adenovirus hexon capsid protein mediates cell entry through a direct interaction with CD46",
+        "authors": [
+            {
+                "first": "B",
+                "middle": [
+                    "David"
+                ],
+                "last": "Persson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lijo",
+                "middle": [],
+                "last": "John",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Karim",
+                "middle": [],
+                "last": "Rafie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Strebl",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lars",
+                "middle": [],
+                "last": "Fr\u00e4ngsmyr",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Monika",
+                "middle": [
+                    "Z"
+                ],
+                "last": "Ballmann",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Katja",
+                "middle": [],
+                "last": "Mindler",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Menzo",
+                "middle": [],
+                "last": "Havenga",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Angelique",
+                "middle": [],
+                "last": "Lemckert",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Thilo",
+                "middle": [],
+                "last": "Stehle",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lars-Anders",
+                "middle": [],
+                "last": "Carlson",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Niklas",
+                "middle": [],
+                "last": "Arnberg",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "To determine whether HAdV-D56 uses a specific isoform of CD46, we compared the transduction efficiency by HAdV-D56 in CHO cells stably expressing all known human CD46 isoforms (BC1, BC2, C1, and C2) of CD46 (1). In order not to have our results influenced by differences in CD46 expression levels we first performed flow cytometry analysis to analyze the relative expression levels of the different CD46 isoforms. We observed a highly similar expression level of all isoforms except for the BC2 isoform that was expressed to a level ca 50% lower than the other isoforms ( Fig. S1 A) . HAdV-D56 transduced CHO cells expressing all isoforms better than the control cell line (Fig. S1 B) . After normalization of isoform expression levels to that of BC1, we observed that HAdV-D56 transduced C2-expressing cells most efficient and BC1-expressing cells least efficient ( Fig. S1 B) , a pattern that was different from that of the HAdV-C5/F35 vector, which transduced C1-expressing cells less efficient as compared to cells expressing the other isoforms. From these results we concluded that HAdV-D56 uses CD46 as a cellular receptor, and prefers the C2 isoform.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 572,
+                    "end": 582,
+                    "text": "Fig. S1 A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 673,
+                    "end": 684,
+                    "text": "(Fig. S1 B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 867,
+                    "end": 877,
+                    "text": "Fig. S1 B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Supporting results"
+        },
+        {
+            "text": "As HAdV-D56 apparently engages CD46 through a different mechanism as compared to HAdV-B types, we compared the amino acid sequence of the CD46-binding knobs of HAdV-B35, -B11, -B7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting results"
+        },
+        {
+            "text": "and -B21 to HAdV-D56 (Fig. S2 G) (2) (3) (4) . Interestingly, the main CD46-interacting regions are very different in HAdV-D56 with insertions in the DG loop and deletions in the GH, HI, and IJ loops.",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 36,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 37,
+                    "end": 40,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 41,
+                    "end": 44,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 21,
+                    "end": 32,
+                    "text": "(Fig. S2 G)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Supporting results"
+        },
+        {
+            "text": "HAdV-D56 also lacks the two arginine residues at positions 279-280, which are known to pivotal for high affinity CD46 interaction by HAdV-11 (3) . With this in mind, we crystallized the knob of HAdV-D56 and determined the structure to investigate what these changes means in relation to the orientation of exposed loops. Crystals of the HAdV-D56 fiber knob were obtained by sitting drop vapour diffusion and a structure was determined to a resolution of 1.38\u00c5 using molecular replacement (Table S1) . Interestingly, all loops involved in interactions with CD46 are severely distinct from HAdV-B11, and HAdV-B7, thus preventing or at least weakening the interaction with CD46 ( Fig. S2 H) . Together this support that the binding mechanism differs from known CD46binding HAdVs and likely explain why studies performed to date have failed to determine an interaction between HAdV-D fiber knobs and CD46 (5).",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 488,
+                    "end": 498,
+                    "text": "(Table S1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 677,
+                    "end": 687,
+                    "text": "Fig. S2 H)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Supporting results"
+        },
+        {
+            "text": "For materials and methods relating to the supporting information, we refer to the materials and methods section in the main text. . The superimposed complex between HAdV-B11 and CD46-D2 is shown in grey (HAdV-B11) and red (CD46-D2). The superimposition clearly shows that the HAdV-D56 knob has a drastically different surface loop structure compared to the CD46-binding HAdV-B7 and HAdV-B11 knobs, and is therefore not expected to bind CD46. Data is presented as mean +/-SEM from three independent experiments in duplicates, where *=< 0.05, **= < 0.01, ***=< 0.001. S4 . Phylogenetic tree of HAdV-D hexon proteins. Reference sequences from hexons of all known HAdV D types were aligned and a phylogenetic tree was generated using Clustal Omega (6) . HAdV D types used in Fig. 4 are marked in yellow. Prototype sequences used for construction of the phylogenetic tree are described in Table S2 . ",
+            "cite_spans": [
+                {
+                    "start": 744,
+                    "end": 747,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 566,
+                    "end": 568,
+                    "text": "S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 771,
+                    "end": 777,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 884,
+                    "end": 892,
+                    "text": "Table S2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Supporting results"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Membrane cofactor protein of the complement system: alternative splicing of serine/threonine/proline-rich exons and cytoplasmic tails produces multiple isoforms that correlate with protein phenotype",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Post",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "J Exp Med",
+            "volume": "174",
+            "issn": "",
+            "pages": "93--102",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Structure of adenovirus type 21 knob in complex with CD46 reveals key differences in receptor contacts among species B adenoviruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Cupelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Virol",
+            "volume": "84",
+            "issn": "",
+            "pages": "3189--3200",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "An arginine switch in the species B adenovirus knob determines high-affinity engagement of cellular receptor CD46",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Persson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Virol",
+            "volume": "83",
+            "issn": "2",
+            "pages": "673--686",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Identification of CD46 binding sites within the adenovirus serotype 35 fiber knob",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "",
+            "pages": "12785--12792",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Diversity within the adenovirus fiber knob hypervariable loops influences primary receptor interactions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Commun",
+            "volume": "10",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The EMBL-EBI search and sequence analysis tools APIs in 2019",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Madeira",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "W1",
+            "pages": "636--641",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "HAdV-D56 virion binding to CHO cells expressing CD46 isoforms. (A) Flow cytometry expression analysis of CD46 isoforms using a monoclonal CD46 antibody on CHO-K1, CHO-BC1, CHO-BC2, CHO-C1, CHO-C2, and A549 cells. (B) HAdV-D56, HAdV-C5, and HAdV-5/35 transduction of CD46 isoform-expressing CHO cells. Infection in (B) is normalized to the relative CD46 expression levels of the BC1 isoform in (A). Data is presented as mean +/-SEM from two independent experiments, where *=< 0.05, and ***=< 0.001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "HAdV-D56 fiber knob does not engage CD46. (A) Competition of HAdV-D56 and HAdV-5/35 transduction in CHO-CD46 cells after pre-incubation with 40 ug/mL of recombinant soluble fiber knobs of HAdV-C5, HAdV-B7, HAdV-D56, and HAdV-B35. (B) Flow cytometry analysis of HAdV-B7, HAdV-D56, and HAdV-B35 fiber knob binding to CD46 expressing CHO cells. (C) SPR analysis of HAdV-B7 fiber knob binding to immobilized CD46. (D) SPR analysis of HAdV-B7 virion binding to immobilized CD46. (E) SPR analysis of HAdV-C5 fiber knob binding to immobilized CD46. (F) SPR analysis of HAdV-C5 virion binding to immobilized CD46. (G) Homology alignment of HAdV-D56, HAdV-B35, HAdV-B11, HAdV-B7, and HAdV-B21 fiber knobs. Amino acids known to interact with CD46 indicated by orange arrows. (H) Structural superimposition of HI-, DG-, and GH-loops of HAdV-B11 (blue), HAdV-B7 (turquoise), and HAdV-D56 (orange)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Additional densities observed in HAdV-D56:CD46 complex but not in HAdV-D56 alone. (A) Surface representation of the reconstructed HAdV-D56 electron density (grey) overlaid with the difference map \u2206\u03c1 (HAdV-D56:CD46 -HAdV-D56) low-pass filtered to 10 \u00c5 showing density belonging to CD46 (red). (B) Zoom in on a HAdV-D56 pIX \u03b1-helical bundle. (C) Representative micrograph of HAdV-D56 in vitrified ice. (D) Representative micrograph of HAdV-D56:CD46 in vitrified ice. (E) Graph showing the Fourier-Shell-Correlation (FSC) vs. resolution [1/\u00c5] of the unmasked HAdV-D56 volume. FSC=0.143 is indicated as a black dashed line. (F) Graph showing the Fourier-Shell-Correlation (FSC) vs. resolution [1/\u00c5] of the unmasked HAdV-D56:CD46 volume. FSC=0.143 is indicated as a black dashed line.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Fig. S4. Phylogenetic tree of HAdV-D hexon proteins. Reference sequences from hexons of all known HAdV D types were aligned and a phylogenetic tree was generated using Clustal Omega(6). HAdV D types used in Fig. 4 are marked in yellow. Prototype sequences used for construction of the phylogenetic tree are described in Table S2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Affinity and kinetic of hexon:CD46 interactions determined by SPR.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Accession numbers of prototype HAdV-D hexon sequences in Fig S4.Table S4. Cryo-EM data collection and processing statistics.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

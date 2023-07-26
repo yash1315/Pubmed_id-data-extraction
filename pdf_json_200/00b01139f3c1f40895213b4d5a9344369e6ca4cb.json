@@ -1,0 +1,351 @@
+{
+    "paper_id": "00b01139f3c1f40895213b4d5a9344369e6ca4cb",
+    "metadata": {
+        "title": "COVID-19 and asplenia: a Janus-faced issue",
+        "authors": [
+            {
+                "first": "Marco",
+                "middle": [
+                    "Vincenzo"
+                ],
+                "last": "Lenti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Clinica Medica",
+                    "location": {
+                        "country": "Fondazione IRCCS"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [],
+                "last": "Gino",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Roberto",
+                "middle": [],
+                "last": "Corazza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Clinica Medica",
+                    "location": {
+                        "country": "Fondazione IRCCS"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Antonio",
+                "middle": [
+                    "Di"
+                ],
+                "last": "Sabatino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Clinica Medica",
+                    "location": {
+                        "country": "Fondazione IRCCS"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Over the last year, the whole scientific community has devoted most of its time to tackle the COVID-19 pandemic and the efforts put into this task have been unprecedented. Currently, one of the most pressing needs worldwide is to vaccinate against COVID-19 as many people as possible, within the shortest time lapse. This is certainly no easy matter, as important considerations and controversies are called into question. At present, vaccine prioritization is based on data regarding age-related COVID-19 mortality and privileges older people and healthcare workers who have faced the pandemic in frontline. However, while the selection of these categories may be obvious and supported by either solid scientific validity or political wisdom, the prioritization of individuals categorized as \"vulnerable\" constitutes a gray area of uncertainty. In this regard, prioritization of patients without a spleen, either surgical or functional, represents a thought-provoking example of a Janus-faced issue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Indeed, asplenic patients are notoriously more exposed to severe and systemic infections, mainly because of depletion of circulating IgM memory B cells, which are generated in the marginal zone of the spleen and play a major role in mounting the immune response against infections [1] . This should raise several concerns as to whether the lack-or the defective function-of the spleen could increase the risk of a more severe COVID-19 course and, possibly, could enhance the susceptibility to be infected by SARS-CoV-2.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In a large, registry-based, cohort study assessing mortality from COVID-19, asplenia was found to have an age-and sex-matched hazard ratio for mortality comparable to that of other recognized at-risk categories, such as hypertension, respiratory diseases, chronic heart disease, and reduced kidney function [2] . According to these data, splenectomised patients or patients with a defective spleen function (e.g., sickle cell disease, celiac disease) should be included in the COVID-19 vaccine prioritization programs.",
+            "cite_spans": [
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "On the other side of the matter, the tropism of coronaviruses for the spleen had already been demonstrated, and white pulp atrophy was observed in ten out of eleven postmortem COVID-19 cases [3] . A recent study of ours [4] , looking at both in vivo and autoptic signs of defective spleen function, showed that IgM memory B-cell depletion was very common in hospitalized COVID-19 patients (87.3%), and this was associated with a higher mortality rate (28.6%). Apart from three patients who had been previously splenectomized, all other patients did not have pre-existing diseases that could explain such spleen defect and, furthermore, IgM memory B-cell depletion occurred irrespective of older age, sex, and number of comorbidities. In the two autoptic cases, a selective SARS-CoV-2-induced damage of the B-cell compartment of the spleen was noticed, and this, along with the normal counts of circulating pitted red cells (i.e., erythrocytes with membrane abnormalities visible under phaseinterference microscopy and named pits, whose increase is a marker of spleen hypofunction), points to COVID-19 as a unique disease model of dissociation between the red pulp filtering function and the marginal zone immunological competence of the spleen [1] . Notably, as this immunological defect persists beyond the resolution of SARS-CoV-2 infection [4] , this could make ineffective the prophylaxis against encapsulated bacteria through traditional polysaccharide vaccines.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 194,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 220,
+                    "end": 223,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1244,
+                    "end": 1247,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1343,
+                    "end": 1346,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Of note, despite the evidence of increased mortality from COVID-19 in asplenic patients, this population is not being prioritized for vaccinations in most countries, with the exception of the UK (https:// www. gov. uk/ gover nment/ publi catio ns/ prior ity-groups-for-coron avirus-covid-19-vacci nation-advice-from-the-jcvi-30-decem ber-2020) and the British Columbia (Canada; http:// www. bccdc. ca/ Health-Info-Site/ Docum ents/ COVID-19_ vacci ne/ Splen ectomy_ Asple nia_ Clini cal_ Guida nce. pdf). Moreover, given the lack of evidence, it is still unknown which is the best vaccination (mRNA-based or viral vector-based) strategy for this patients' category. On the other hand, the durable persistence of a defective spleen function beyond COVID-19 convalescence in patients who were not originally asplenic, poses the problem to define the vaccination timing, given that memory B cells are essential for mounting a proper immune response after COVID-19 vaccination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, based on the abovementioned immunological and clinical evidence, we would recommend patients with asplenia to be prioritized for COVID-19 vaccinations, and patients made asplenic by COVID-19 to receive a prophylaxis against encapsulated bacteria with conjugate vaccines. Further studies are needed to solve the numerous clinical controversies arisen by this Janus-faced disease model, to clarify whether asplenic patients are more susceptible to SARS-CoV-2 infection, and to understand the molecular mechanisms underlying the increased morbidity of COVID-19 asplenic patients. In this regard, the lack of secretory IgA in the mucosal surfaces of splenectomized patients might provide a putative pathophysiological explanation [5] . Coordinated and harmonized vaccination strategies are needed to defeat the pandemic, and we urge COVID-19 vaccine prioritization be based on solid scientific evidence which must include special populations and minorities.",
+            "cite_spans": [
+                {
+                    "start": 741,
+                    "end": 744,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Post-splenectomy and hyposplenic states",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Sabatino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carsetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Corazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Lancet",
+            "volume": "378",
+            "issn": "",
+            "pages": "86--97",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Factors associated with COVID-19-related death using OpenSAFELY",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bhaskaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "584",
+            "issn": "",
+            "pages": "430--436",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pulmonary arterial thrombosis in COVID-19 with fatal outcome: results from a prospective, single-center, clinicopathologic case series",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lax",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Skok",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zechner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "350--361",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Depletion of circulating IgM memory B cells predicts unfavourable outcome in COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lenti",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Aronico",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Pellegrino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Lack of gut secretory immunoglobulin A in memory B-cell dysfunctionassociated disorders: a possible gut-spleen axis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carsetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Sabatino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rosado",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Acknowledgements Dr. Marco Vincenzo Lenti is grateful to the University of Pavia for supporting his research projects.Author contributions All authors participated in the drafting of the paper, made critical revision of the manuscript for important intellectual content, and provided approval of the final submitted version.Funding None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The author(s) declare that they have no conflict of interest.Ethics approval Not appilicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "Statement of human and animal rights Not appilicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent to participate Not appilicable."
+        }
+    ]
+}

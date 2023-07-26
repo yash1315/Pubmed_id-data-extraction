@@ -1,0 +1,2809 @@
+{
+    "paper_id": "00a46273b4ba1435d6bdae3e8a3bfb20011f1ef7",
+    "metadata": {
+        "title": "Thermodynamic evaluation of the impact of DNA mismatches in PCR-type SARS-CoV-2 primers and probes",
+        "authors": [
+            {
+                "first": "P\u00e2mella",
+                "middle": [],
+                "last": "Miranda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Belo Horizonte-MG",
+                    "location": {
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gerald",
+                "middle": [],
+                "last": "Weber",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Belo Horizonte-MG",
+                    "location": {
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: DNA mismatches can affect the efficiency of PCR techniques if the intended target has mismatches in primers or probes regions. The accepted rule is that mismatches are detrimental as they reduce the hybridization temperatures, yet a more quantitative assessment is rarely performed. Methods: We calculate the hybridization temperatures of primer/probe sets after aligning to SARS-COV-2, SARS-COV-1 and non-SARS genomes, considering all possible combinations of single, double and triple consecutive mismatches. We consider the mismatched hybridization temperature within a range of 5 \u2022 C to the fully matched reference temperature. Results: We obtained the alignments of 19 PCR primers sets that were recently reported for the detection of SARS-CoV-2 and to 21665 SARS-CoV-2 genomes as well as 323 genomes of other viruses of the coronavirus family of which 10 are SARS-CoV-1. We find that many incompletely aligned primers become fully aligned to most of the SARS-CoV-2 when mismatches are considered. However, we also found that many cross-align to SARS-CoV-1 and non-SARS genomes. Conclusions: Some primer/probe sets only align substantially to most SARS-CoV-2 genomes if mismatches are taken into account. Unfortunately, by the same mechanism, almost 75% of these sets also align to some SARS-CoV-1 and non-SARS viruses. It is therefore recommended to consider mismatch hybridization for the design of primers whenever possible, especially to avoid undesired cross-reactivity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The coronavirus disease 2019 (COVID-19) pandemic has caused a flurry of activity regarding the detection of SARS-CoV-2, in particular a substantial amount of new RT-PCR primers were developed for this specific purpose [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] . A number of factors can influence the reliability of the PCR detection, such as sample contamination [20] , cross-reactivity with other viruses [14] , contamination of reagents [21] , non-specific annealing [22] and poor amplification efficiency [23] . A crucial primer design factor is its hybridization melting temperature [24] that is related to the annealing of oligonucleotides. A set of primers with close melting temperatures and in the ideal range for primer extension usually ensures good PCR performance [25] .",
+            "cite_spans": [
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 222,
+                    "end": 225,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 226,
+                    "end": 229,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 230,
+                    "end": 233,
+                    "text": "[4]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 234,
+                    "end": 237,
+                    "text": "[5]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 242,
+                    "end": 245,
+                    "text": "[7]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 250,
+                    "end": 253,
+                    "text": "[9]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 254,
+                    "end": 258,
+                    "text": "[10]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 259,
+                    "end": 263,
+                    "text": "[11]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[12]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[13]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "[14]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 279,
+                    "end": 283,
+                    "text": "[15]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 284,
+                    "end": 288,
+                    "text": "[16]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "[17]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 294,
+                    "end": 298,
+                    "text": "[18]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[19]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "text": "[20]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[14]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 483,
+                    "end": 487,
+                    "text": "[21]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[22]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 552,
+                    "end": 556,
+                    "text": "[23]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "[24]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 820,
+                    "end": 824,
+                    "text": "[25]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A factor that may interfere with the hybridization temperatures are the presence of mismatches, that is non-Watson-Crick base pairs, between the primer and the DNA target. This affects the stability of the duplex, usually leading to a decrease in the hybridization temperature [26, 27] . As a result, the presence of mismatches may influence the performance of primers restraining the amplification of DNA target. New mismatches arise due to mutations in primer regions of the target DNA, and may lead to false-negative results [20, [28] [29] [30] . This is of special concern for the case of RNA viruses that have a high mutation rates [19, 30] . Mutations that occur in the SARS-CoV-2 genome [31, 32] imply that the presence of mismatches between primer/probe and the template eventually become inevitable. On the other hand, it is known that mismatch presence may affect only the first few cycles of PCR [33, 34] and with proper design may even be advantageous [35] . Therefore, as a rule of thumb, the occurrence of single mismatches are admitted in the hope that they may not affect the detection of the target and its amplification [36] . Unfortunately, the thermodynamic instability caused by the presence of mismatches is rarely quantified in primer design for a number of reasons. One of which is that the prediction of hybridization temperatures involving mismatches carries large uncertainties. Unlike Watson-Crick complementary base pairs, AT and CG, the hydrogen bonding and stacking interactions of mismatches are strongly dependent on the adjacent base pairs. Temperature predictions rely on experimental melting temperature data which typically do not cover the full combinatorial spectrum of mismatches and were carried out under high sodium buffer conditions [37, 38] . However, this has now changed. A recent development from our group has reworked the parametrization for a comprehensive set of 4032 sequences containing up to three consecutive mismatches [39] . This now enables the analysis in unprecedented detail of the effect of mismatches in primer/probe hybridization.",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[26,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 282,
+                    "end": 285,
+                    "text": "27]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 528,
+                    "end": 532,
+                    "text": "[20,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[28]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 538,
+                    "end": 542,
+                    "text": "[29]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 543,
+                    "end": 547,
+                    "text": "[30]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 637,
+                    "end": 641,
+                    "text": "[19,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 642,
+                    "end": 645,
+                    "text": "30]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 694,
+                    "end": 698,
+                    "text": "[31,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "32]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 907,
+                    "end": 911,
+                    "text": "[33,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 912,
+                    "end": 915,
+                    "text": "34]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 964,
+                    "end": 968,
+                    "text": "[35]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1138,
+                    "end": 1142,
+                    "text": "[36]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1777,
+                    "end": 1781,
+                    "text": "[37,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1782,
+                    "end": 1785,
+                    "text": "38]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1976,
+                    "end": 1980,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we analyse how and if mismatches do influence the melting temperatures of primer/probes hybridised to SARS-CoV-2 genomes. We collected 19 PCR primer/probe sets (297 primers and 43 probes) which cover seven different gene regions of SARS-CoV-2 genome (N, E, S, M, ORF1ab, RdRp and nsp2 genes) [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] . These primer/probes were aligned to 21665 genomes of SARS-CoV-2 and 323 genomes of other coronaviruses. Melting temperatures are calculated with a mesoscopic model using the newly developed parameters for up to three consecutive mismatches [39] . Using the mesoscopic model for the calculation of mismatches has an important advantage over nearest-neighbour models [37] as it naturally accounts for end effects, that is, mismatches located near the primer end may have different hybridization temperatures than those that are centred which reflects experimental observations on PCR efficiencies [34] .",
+            "cite_spans": [
+                {
+                    "start": 298,
+                    "end": 301,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 302,
+                    "end": 305,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 306,
+                    "end": 309,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 310,
+                    "end": 313,
+                    "text": "[4]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 314,
+                    "end": 317,
+                    "text": "[5]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "[6]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "[7]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 326,
+                    "end": 329,
+                    "text": "[8]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 330,
+                    "end": 333,
+                    "text": "[9]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[10]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[11]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[12]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 349,
+                    "end": 353,
+                    "text": "[13]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[14]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 359,
+                    "end": 363,
+                    "text": "[15]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[16]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 369,
+                    "end": 373,
+                    "text": "[17]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[18]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 379,
+                    "end": 383,
+                    "text": "[19]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 626,
+                    "end": 630,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[37]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 981,
+                    "end": 985,
+                    "text": "[34]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We collected N G = 21665 genomes of SARS-CoV-2 at NCBI [40], in 8 October 2020, and ensured that all were at least 25000 bp in size. The accession codes of these genomes are shown in supplementary table S1. To verify cross-reactivity we also performed the same analysis for N h.c. = 323 human coronaviruses (229E, NL63, OC43, HKU1, MERS), including SARS-CoV-1, and their accession codes are shown in supplementary table S2 and S3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Genomes and primer sets"
+        },
+        {
+            "text": "A total of 19 different primer/probe sets for RT-PCR were obtained from Refs. [1-19], their full details are shown in supplementary table S4. Note that several publications include primers from earlier reports. In particular, CDC primers [2] are included in several publications. Therefore, for each set we only considered those that were not repeated from other publications. Note that some primers and probes were designed for both SARS-CoV-1 and SARS-CoV-2 [4, 14] .",
+            "cite_spans": [
+                {
+                    "start": 460,
+                    "end": 463,
+                    "text": "[4,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 464,
+                    "end": 467,
+                    "text": "14]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Genomes and primer sets"
+        },
+        {
+            "text": "Each primer or probe sequence is aligned against a given genome using a Smith-Waterman algorithm [41] , where matching base pairs AT and CG where given score 2, mismatches score -1, and no gaps were considered. Alignments were carried out in two strand configurations, first for the genome sequences as obtained from the database and taking the primer/probe sequence as complementary strand These alignments are carried out regardless if the primer was identified as forward or reverse. In all cases the nominal directions of the primers were identified correctly.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[41]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Primer and genome alignment"
+        },
+        {
+            "text": "A primer/probe that was completely aligned to a target genome, without mismatches, was termed as strictly matched. If there were up to three contiguous mismatches in the alignment it was called as partially matched. The limit of three contiguous mismatches relates to the available melting temperature parameters. Alignments with four or more contiguous mismatches were considered as not aligned.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primer and genome alignment"
+        },
+        {
+            "text": "As an example of partial alignment, we show the RdRp SARSr-R1 primer (bottom strand) in the MT457390 genome",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primer and genome alignment"
+        },
+        {
+            "text": "where the mismatched site is underlined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Primer and genome alignment"
+        },
+        {
+            "text": "Hybridization temperatures T m are calculated from",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Calculation of melting temperatures"
+        },
+        {
+            "text": "where \u03c4 is a statistical index calculated from the classical partition function of a model Hamiltonian, and a 0 and a 1 are regression coefficients obtained from a set of 4096 experimental melting temperatures of which 4032 are from sequences containing up to three consecutive mismatched base pairs [39] . The buffer conditions for these parameters are 50 mM sodium chloride, 10 mM sodium phosphate pH 7.4, and total strand concentration 1.0 \u00b5M. For a complete description of the melting temperature calculation and experimental conditions see Ref. [39, 42] . The index \u03c4 was calculated for each primer/probe, using the parameters reported in Ref. [39] , after aligning against a reference genome. The calculation of \u03c4 also yields the average displacement profile which shows the expected base-pair opening along the oligonucletide duplex, for details see Eq.(5) from Ref. 39 .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "[39,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "42]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 649,
+                    "end": 653,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 874,
+                    "end": 876,
+                    "text": "39",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Calculation of melting temperatures"
+        },
+        {
+            "text": "We calculated the hybridization temperatures from Eq. (1) for each primer/probe assuming a complete Watson-Crick complementarity which we called the reference temperature T ref. , which are shown in supplementary table S5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "All 19 primers/probes were aligned against N G genomes and we kept only those alignments with up to three consecutive mismatches. The coverage for a strictly non-mismatched alignment C strict was calculated as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "where N G the total number of genomes which are at least 25000 bp in size, N n.a. number of genomes for which no alignment was found, and N MM the number of genomes for which a partial alignment with up to three consecutive mismatches was found.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "Next, for each of the N MM partial alignments we calculated the hybridization temperatures T MM from Eq. (1) taking into account the mismatches, and the difference to the reference tem-",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "T MM is usually, but not always, lower than T ref. [39] . We will consider the partially mismatched coverage C part. as",
+            "cite_spans": [
+                {
+                    "start": 51,
+                    "end": 55,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "where N low is the number of primers/probes satisfying",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "Here, we will use \u2206T lim. = 5 \u2022 C, that is we will consider that mismatched primers/probes with T MM no more than 5 \u2022 C below the reference temperature T ref. are still acceptable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Coverage evaluation"
+        },
+        {
+            "text": "After aligning all primer/probe sets to all genomes we calculated their hybridization temperatures taking into account up to three consecutive mismatches, as detailed in the methods section. Table 1 summarises all sets analysed, their range of reference hybridization temperatures, strict and partial coverage for SARS-CoV-2 and for non-SARS-CoV-2 viruses. The detailed results for each primer are shown in supplementary table S5 for SARS-CoV-2. If the PCR primers can in principle bind to non-SARS-CoV-2 targets then this set may not specific [22] . Considering this, we analysed the 19 primer/probe sets in relation to genomes of other coronaviruses (non-SARS) as well as SARS-CoV-1 to verify if there was some cross-reactivity. The detailed results are shown in supplementary tables S6 for SARS-COV-1, and S7 for non-SARS viruses.",
+            "cite_spans": [
+                {
+                    "start": 544,
+                    "end": 548,
+                    "text": "[22]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 198,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The typical design rules for PCR primers and probes recommend that the range of hybridization temperatures in a given set should be narrow, of the order of 10 \u2022 C [25, 43] . Several authors even suggest that the range for primer pair should be no more than 5 \u2022 C [22, 44] or even less than 1 \u2022 C [45] . However, it is evident, from table 1, that very few sets have temperature ranges below 10 \u2022 C, while some even exceed 20 \u2022 C. For example, the Luminex set, which includes the primer/probe set of China CDC, shows differences in the primer temperatures up to 21.6 \u2022 C. However, when mismatches are considered the hybridization temperatures may go far below the design range. In Fig. 1 we show an example of a displacement profile where a single AC mismatch completely disturbs the surrounding AT base pairs and the hybridization temperature drops to T MM = 48.5 \u2022 C, down from a reference temperature of T ref. = 61.1 \u2022 . However, a presence of one or more mismatches does not necessarily imply in a reduction of hybridization temperature. For example, the SARS-CoV-2 89 RIGHT primer when aligned to MT259228.1 has two consecutive mismatches towards the 5 end, see supplementary figure S1. Even though these mismatches induce a small end fraying, it has a calculated temperature of T MM = 68.7 \u2022 C which is even somewhat higher than its reference temperature T ref. = 68.3 \u2022 C. This stability is caused by an increased stacking interaction between the GA and AA mismatches [39] .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[25,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "43]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 263,
+                    "end": 267,
+                    "text": "[22,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 268,
+                    "end": 271,
+                    "text": "44]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[45]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1474,
+                    "end": 1478,
+                    "text": "[39]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 679,
+                    "end": 685,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "In terms of SARS-CoV-2 strict coverage, most sets have C strict typically beyond 90%, which is expected as the primer design is guided by existing genomes. However, a number of specific probes, such as RdRp SARSr-P1-1 from Corman et al. [4] go from 0 to 99.4% only if mismatches are taken into account. Indeed, as pointed out by Pillonel et al. [46] several of the probes from Corman et al. [4] do not fully match the available SARS-CoV-2 genomes (1623 at the time [46] ). However, it was also observed that the mismatches had little effect on their efficiencies [13, 28] which is consistent with our calculations. The reason for the presence of mismatches in this case, as explained in Corman and Drosten [28] , was the incomplete genomic information available at the time when this set was designed. It is worth noticing that while accounting for mismatches increases the coverage of this particular primer/probe set, it also increases the coverage for SARS-CoV-1 and even non-SARS as shown in Tab. 1.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 240,
+                    "text": "[4]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[46]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 391,
+                    "end": 394,
+                    "text": "[4]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[46]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 563,
+                    "end": 567,
+                    "text": "[13,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 568,
+                    "end": 571,
+                    "text": "28]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 706,
+                    "end": 710,
+                    "text": "[28]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "We observed that in some cases the presence of few mismatches substantially decrease the hybridization temperature, leading to a complete absence of coverage. For example, four primers from Vogels et al. [18] do not align with any genome at all, not even when considering the mismatches as their hybridization temperatures T MM are too low in comparison to reference temperature T ref. . In contrast, for several cases when mismatches are taken into account the coverage becomes almost complete. A special example is probe 2019-nCoV N1-P from CDC set that had 223 further mismatch alignments increasing the strict coverage of 98.4% to partial coverage of 99.4% . Similar findings were observed for SARS-CoV-2 6 LEFT [12] and NIID WH-1 F501 of WHO [1].",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[18]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 716,
+                    "end": 720,
+                    "text": "[12]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "The cross-reactivity, that is, the coverage of SARS-Cov-1 and non-SARS, appear in most primer/probe sets when mismatches are taken into account. Of the 19 primer/probe sets, we found only 5 sets that do not present cross-reactivity at all, see Tab. 1. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and Discussion"
+        },
+        {
+            "text": "We evaluated the impact of mismatches in the hybridization of primers and probes for the detection of SARS-CoV-2 and other genomes. We have shown that the effect of mismatches on the probe/primer hybridization is not straightforward and can only be fully evaluated with a detailed calculation with up-todate model parameters. In particular, our calculations showed that a substantial amount of the existing primers/probes may cross-react to SARS-CoV-1 and non-SARS genomes, which further highlights the need for taking mismatch hybridization into account.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "This work was supported by Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico (CNPq), Funda\u00e7\u00e3o de Amparo\u00e0 Pesquisa do Estado de Minas Gerais (Fapemig) and Coordena\u00e7\u00e3o de Aperfei\u00e7oamento de Pessoal de N\u00edvel Superior (Capes, Brazil, Finance Code 001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding statement"
+        },
+        {
+            "text": "None. Figure S1 , Tables S1-S7.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 6,
+                    "end": 15,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Landt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Molenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bleicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Br\u00fcnink",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "An Inexpensive RT-PCR Endpoint Diagnostic Assay for SARS-CoV-2 Using Nested PCR: Direct Assessment of Detection Efficiency of RT-qPCR Tests and Suitability for Surveillance",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Davda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prakash",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Purohit",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vijayashankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vedagiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tallapaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Harshan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Siva",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mishra",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Extractionfree COVID-19 (SARS-CoV-2) diagnosis by RT-PCR to increase capacity for national testing programmes during a pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nastouli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Levett",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Double-Quencher Probes Improved the Detection Sensitivity of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) by One-Step RT-PCR",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hirotsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mochizuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Omata",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Detection of SARS-CoV-2 using high-throughput PCR",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bhadra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jalali",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dasgupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sapre",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of Applied Biology & Biotechnology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Design and in silico validation of polymerase chain reaction primers to detect severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lanza",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jer\u00f4nimo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "High sensitivity detection of SARS-CoV-2 using multiplex PCR and a multiplex-PCR-based metagenomic method",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Debruyne",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kapoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Feigelman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Burdon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Rapid SARS-CoV-2 whole genome sequencing for informed public health decision making in the Netherlands",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "B O"
+                    ],
+                    "last": "Munnink",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Nieuwenhuijse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "O&apos;toole",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haverkarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mollers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kamga",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schapendonk",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lexmond",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pronk",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Comparative performance of SARS-CoV-2 detection assays using seven different primer-probe sets and one assay kit",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Nalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Casto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Perchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sampoleo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shrestha",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jerome",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Greninger",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Journal of clinical microbiology",
+            "volume": "58",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Three novel real-time RT-PCR assays for detection of COVID-19 virus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China CDC Weekly",
+            "volume": "",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Optimization of primer sets and detection protocols for SARS-CoV-2 of coronavirus disease 2019 (COVID-19) using PCR and real-time PCR",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Won",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Experimental & molecular medicine",
+            "volume": "52",
+            "issn": "6",
+            "pages": "963--977",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Interpret with caution: An evaluation of the commercial AusDiagnostics versus in-house developed assays for the detection of SARS-CoV-2 virus",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Basile",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Donovan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sivaruban",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-S",
+                    "middle": [],
+                    "last": "Eden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Virology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Optimized qRT-PCR approach for the detection of intra-and extra-cellular SARS-CoV-2 RNAs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Toptan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hoehl",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Westhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bojkova",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Berger",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hoffmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ciesek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Widera",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Analytical sensitivity and efficiency comparisons of SARS-CoV-2 RT-qPCR primer-probe sets",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Vogels",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Brito",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wyllie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fauver",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kalinich",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Petrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casanovas-Massana",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Muenker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature microbiology",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Development of a novel, genome subtraction-derived, SARS-CoV-2-specific COVID-19-nsp2 real-time RT-PCR assay and its evaluation using clinical specimens",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-C",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K W"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K.-H",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International journal of molecular sciences",
+            "volume": "21",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Potential preanalytical and analytical vulnerabilities in the laboratory diagnosis of coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-M",
+                    "middle": [],
+                    "last": "Simundic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Clinical Chemistry and Laboratory Medicine",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Pitfalls in SARS-CoV-2 PCR diagnostics, bioRxiv",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wernike",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Keller",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Conraths",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mettenleiter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Groschup",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Beer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Primer design for quantitative real-time PCR for the emerging Coronavirus SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Theranostics",
+            "volume": "10",
+            "issn": "16",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "ddPCR: a more accurate tool for SARS-CoV-2 detection in low viral load specimens",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Suo",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ullah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerging Microbes & Infections",
+            "volume": "",
+            "issn": "",
+            "pages": "1--30",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Basic requirements for designing optimal oligonucleotide probe sequences",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mitsuhashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Technical report: Part 1",
+            "volume": "10",
+            "issn": "",
+            "pages": "277--284",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Technical report: Part 2. Basic requirements for designing optimal PCR primers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mitsuhashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Journal of clinical laboratory analysis",
+            "volume": "10",
+            "issn": "5",
+            "pages": "285--293",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Monitoring hybridization during polymerase chain reaction",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wittwer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Chromatography B: Biomedical Sciences and Applications",
+            "volume": "741",
+            "issn": "1",
+            "pages": "3--13",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The effect of primer-template mismatches on the detection and quantification of nucleic acids using the 5 nuclease assay",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stadhouders",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pas",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Anber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Voermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schutten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Mol. Diagn",
+            "volume": "12",
+            "issn": "1",
+            "pages": "109--117",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Authors' response: SARS-CoV-2 detection by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Drosten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "21",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Diagnosing COVID-19 in the Emergency Department: A Scoping Review of Clinical Examinations, Laboratory Tests, Imaging Accuracy, and Biases",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Carpenter",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mudd",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "West",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wilber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wilber",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Genetic variability in probe binding regions explains false negative results of a molecular assay for the detection of dengue virus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Koo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-Y",
+                    "middle": [],
+                    "last": "Teh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nasir",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-L",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-C",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hapuarachchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Vector-Borne and Zoonotic Diseases",
+            "volume": "16",
+            "issn": "7",
+            "pages": "489--495",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Presence of mismatches between diagnostic PCR assays and coronavirus SARS-CoV-2 genome",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cheung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Royal Society Open Science",
+            "volume": "7",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "CoV2ID: Detection and Therapeutics Oligo Database for SARS-CoV-2, bioRxiv",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Carneiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Couto",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Single-nucleotide polymorphisms and other mismatches reduce performance of quantitative PCR assays",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lefever",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pattyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellemans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vandesompele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Clinical chemistry",
+            "volume": "59",
+            "issn": "10",
+            "pages": "1470--1480",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Quantitative effects of position and type of single mismatch on single base primer extension",
+            "authors": [
+                {
+                    "first": "J.-H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-Y",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of microbiological methods",
+            "volume": "77",
+            "issn": "3",
+            "pages": "267--275",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Rapid Identification of Candida Species in Candidemia Directly from Blood Samples Using Imperfect Match Probes",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Higashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Niimi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sakamaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kitajima",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. Rep",
+            "volume": "10",
+            "issn": "1",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Target sequence heterogeneity causes the 'hook effect'in fluorescent dye-based quantitative PCR",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Warton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ford",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BioTechniques",
+            "volume": "69",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Nearest-Neighbour thermodynamics and NMR of DNA sequences with internal A\u00b7A, C\u00b7C G\u00b7G and T\u00b7T mismatches",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peyret",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Seneviratne",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Allawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Santalucia",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Biochem",
+            "volume": "38",
+            "issn": "12",
+            "pages": "3468--3477",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Thermodynamics of internal C.T mismatches in DNA",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Allawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Santalucia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Nucleic Acids Res",
+            "volume": "26",
+            "issn": "11",
+            "pages": "2694--2701",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Melting temperature measurement and mesoscopic evaluation of single, double and triple DNA mismatches",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chem. Sci",
+            "volume": "11",
+            "issn": "",
+            "pages": "8273--8287",
+            "other_ids": {
+                "DOI": [
+                    "\\bibinfo{doi}{10.1039/d0sc01700k}"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Identification of common molecular subsequences",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Waterman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Mol. Biol",
+            "volume": "147",
+            "issn": "1",
+            "pages": "195--197",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Thermal Equivalence of DNA Duplexes for Probe Design",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Haslam",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Essex",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Neylon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Phys.: Condens. Matter",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "\\bibinfo{doi}{10.1088/0953-8984/21/3/034106}"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "General concepts for PCR primer design",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dieffenbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dveksler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "PCR methods appl",
+            "volume": "3",
+            "issn": "3",
+            "pages": "30--37",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Principles and technical aspects of PCR amplification",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Pelt-Verkuil",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Belkum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hays",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Real-time PCR (qPCR) primer design using free online software",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Thornton",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Biochemistry and Molecular Biology Education",
+            "volume": "39",
+            "issn": "2",
+            "pages": "145--154",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Letter to the editor: SARS-CoV-2 detection by real-time RT-PCR",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pillonel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Scherz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Greub",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bertelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "21",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "\u2212(unmodified target genome sequence)\u22123 3 \u2212(primer/probe)\u22125 and next by taking the complementary of the genome sequence 5 \u2212(complementary target genome sequence)\u22123 3 \u2212(primer/probe)\u22125",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Displacement profile for CDC 2019-nCoV N2-F when aligned to SARS-COV-2 MT576057.1 at position 659 has a mismatch AC (red symbols) instead of CG (blue symbols).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "N pp T ref. ( \u2022 C) C strict (%) C part. (%) C strict (%) C part. (%) C strict (%) C part.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Summary of the results for all primer/probe sets. Shown are the number of primers/probes N pp for each set, the range of reference temperatures T ref. , the range of strict and partially mismatched coverages, for SARS-CoV-2, SARS-CoV-1 and non-SARS genomes. Detailed results for each primer are shown in supplementary table S5, S6 and S7.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2074 @@
+{
+    "paper_id": "000cbf0fbcfe717425f3858cf01a6b98481590f3",
+    "metadata": {
+        "title": "Psychological interventions during COVID pandemic: Telehealth for individuals with cystic fibrosis and caregivers",
+        "authors": [
+            {
+                "first": "Sonia",
+                "middle": [],
+                "last": "Graziano Psyd",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unit of Clinical Psychology",
+                    "institution": "IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Francesca",
+                "middle": [
+                    "Boldrini"
+                ],
+                "last": "Psyd",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dario",
+                "middle": [],
+                "last": "Righelli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unit of Clinical Psychology",
+                    "institution": "IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Francesco",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Milo",
+                "middle": [],
+                "last": "Psyd",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unit of Clinical Psychology",
+                    "institution": "IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vincenzina",
+                "middle": [],
+                "last": "Lucidi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Cystic Fibrosis Unit",
+                    "institution": "Children's Hospital",
+                    "location": {
+                        "settlement": "Bambino Ges\u00f9"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexandra",
+                "middle": [],
+                "last": "Quittner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unit of Clinical Psychology",
+                    "institution": "Behavioral Health Systems Research",
+                    "location": {
+                        "addrLine": "Piazzale Sant'Onofrio 4",
+                        "postCode": "00165",
+                        "settlement": "Miami, Rome",
+                        "region": "Florida",
+                        "country": "USA, Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Paola",
+                "middle": [
+                    "Tabarini"
+                ],
+                "last": "Psyd",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Unit of Clinical Psychology",
+                    "institution": "IRCCS",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sonia",
+                "middle": [],
+                "last": "Graziano",
+                "suffix": "",
+                "affiliation": {},
+                "email": "graziano.sonia@gmail.com"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Introduction: Coronavirus disease 2019 (COVID-19) emerged in China, leading to worldwide morbidity and mortality, including depression and anxiety. As the pandemic spread throughout Italy, mental health concerns increased for people with cystic fibrosis (pwCF), who are at greater risk. The aim was to pilot a Telehealth Psychological Support Intervention for pwCF and caregivers to reduce stress, depression, and anxiety during the lockdown in Italy in March 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: This intervention utilized cognitive behavioral skills (e.g., cognitive reframing). Participants included 16 pwCF and 14 parents, who completed four individual telehealth sessions with a psychologist. Stress ratings, Patient Health Questionnaire and General Anxiety Disorder, PHQ-8 and GAD-7, were completed, in addition to Feasibility and Satisfaction ratings. Results: Ratings of stress significantly decreased from pre-to post-testing for pwCF (paired t(14) = \u22124.06, p < .01) and parents (paired t = \u22125.2, p < .001). A large percentage of both groups scored in the clinical range for depression and anxiety at baseline (pwCF: depression/anxiety = 71%; parents: depression = 57%; anxiety = 79%); a large proportion (20%-40%) reported moderate to severe symptomatology. Significant reductions in depression for pwCF were found (pre: M = 8.0 to post: M = 4.7; paired t(14) = 2.8, p < .05) but not anxiety (pre: M = 6.9 to post: M = 5.6, t(14) = 1.2, p = NS-non-significant). Parental depression decreased for parents (pre: M = 6.4 to post: M = 5.1, t(14) = \u22122.5, p < .05), but not anxiety (pre: M = 8.1 to post: M = 7.9, t(14) = \u22120.2, p = NS). Feasibility and Satisfaction were positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusion: This telehealth intervention yielded reductions in stress and depression for participants. Anxiety did not significantly decrease, possibly because COVID was ongoing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This feasible, satisfactory intervention was effective for improving mental health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "anxiety, cognitive behavioral therapy, COVID-19 lockdown, depression, telehealth intervention",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In December 2019, a novel coronavirus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) (i.e., coronavirus disease 2019 ), spread in Hubei, China. The virus caused a variety of symptoms, ranging from asymptomatic/mild symptoms to serious impairments and death. 1 The spread of COVID-19 has led to significant morbidity and mortality worldwide, 2 causing high levels of stress, fear, and anxiety about this extremely contagious, rapidly spreading virus. 3 Anxiety was related to fears of being infected, infecting others, and concerns about its associated comorbidities and high mortality rate. Loss of normal routines, reduction of activities, and a severe economic recession contributed to increasing stress and worsening mental health. A previous systematic review on large-scale disasters revealed increased depression, anxiety, posttraumatic stress disorder (PTSD), substance misuse, and domestic violence. 4 The severe acute respiratory syndrome (SARS) epidemic was also associated with increased psychological distress in patients and clinicians. 5 The first study in China on the impact of COVID-19 found elevated depression and anxiety in a sample of 1210 individuals: 17% reported moderate-severe depression and 29% moderate-severe anxiety. 6 A study in Hong Kong screened 500 adults using wellvalidated screening tools (i.e., Patient Health Questionnaire and General Anxiety Disorder-PHQ-9 and GAD-7), reporting high levels of depression (19%) and anxiety (14%). Further, 25% of the sample reported a worsening of mental health due to the pandemic. 7 Adolescents in China also reported high levels of depression (43.7%) and anxiety (37.4%) using PHQ-9 and GAD-7. 8 Similar elevations in psychological distress have been documented across the world. [9] [10] [11] As the pandemic spread throughout Italy and Europe, new mental health concerns were raised by people with cystic fibrosis (pwCF) and parent caregivers, who are already at increased risk for depression and anxiety. [12] [13] [14] Before the pandemic, numerous studies have indicated that psychological symptoms in pwCF are associated with worse adherence, more frequent hospitalizations, and earlier mortality. 15, 16 In response to this pandemic, several studies have been conducted to evaluate its impact on pwCF and caregivers. 14, 17, 18 Havermans et al. 17 reported on 80 adults with cystic fibrosis (CF), 66 adults who had received a lung transplant, and 73 parent caregivers.",
+            "cite_spans": [
+                {
+                    "start": 273,
+                    "end": 274,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 465,
+                    "end": 466,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 923,
+                    "end": 924,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1065,
+                    "end": 1066,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1262,
+                    "end": 1263,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1571,
+                    "end": 1572,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1685,
+                    "end": 1686,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1771,
+                    "end": 1774,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1775,
+                    "end": 1779,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1780,
+                    "end": 1784,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1999,
+                    "end": 2003,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 2004,
+                    "end": 2008,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 2009,
+                    "end": 2013,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2195,
+                    "end": 2198,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2199,
+                    "end": 2201,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2315,
+                    "end": 2318,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 2319,
+                    "end": 2322,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2323,
+                    "end": 2325,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 2343,
+                    "end": 2345,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "This was a survey study in which the authors asked these three groups to rank order their psychological concerns. The top-ranked concerns for adults with CF were \"afraid of being infected by the virus\" and \"extra alert for dangerous situations,\" and \"I cannot adhere to my usual routines.\" These same top three concerns were also endorsed by parents. Thus, anxiety and fear were the predominant psychological issues for both. Although both groups reported disruption in their daily routines, they also reported spending more time on nebulized treatments and airway clearance. Increased stress, negative thoughts, and trouble sleeping were also reported by both pwCF and parents. 17 In a study of adolescents with CF and their mothers, 18 anxiety was measured using the State-Trait Anxiety Inventory. Mothers of children with CF reported higher trait anxiety than age-matched controls. In contrast, healthy children and their parents reported higher state anxiety than the group with CF, unless the child was colonized with Pseudomonas infection. In that case, their state anxiety was also quite elevated.",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 681,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "As Italy became a COVID-19 \"hot spot,\" concerns about the psychological functioning of pwCF increased. In a large study in Italy, an online questionnaire, the COVID-19 Peritraumatic Distress Index, was completed in an adapted form by 712 pwCF and 3560 respondents from the general population. 19 Psychological distress in the mild to moderate range affected similar proportions of both samples; 40.2% of pwCF and 43.9% of the general population. Severe distress was endorsed by 5.3% of pwCF and 6.2% of the controls.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 295,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "Thus, although a majority of respondents were reporting substantial psychological distress, there were no differences by health status.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "To address these concerns, psychologists on the CF Team at Bambino Ges\u00f9 Children's Hospital developed and piloted a Telehealth Psychological Support Intervention. It targeted adolescents/young adults with CF and caregivers, providing them with cognitive-behavioral strategies to cope with the stress and emotional challenges of the lockdown in March. The lockdown was highly restrictive: schools and universities were closed, people were told to work from home, and individuals could go out only for essential tasks (e.g., supermarket, pharmacy). Access to routine healthcare also changed for pwCF and many were afraid of coming to the CF Center; in-person appointments were reserved for those with serious health problems. The purpose of this study was to evaluate the effectiveness of a cognitive-behavioral telehealth intervention to reduce symptoms of stress, depression, and anxiety in pwCF and parents during the lockdown. This 4-session telehealth intervention was delivered via the internet and was aimed at reducing psychological symptomatology. Feasibility and Satisfaction were assessed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| INTRODUCTION"
+        },
+        {
+            "text": "This study was a within-subject, pre-post design. Because we initiated the study during an emergency situation, 1 week after the complete lockdown in Italy, the Ethics Committee was not meeting frequently. A summary of the project and consent forms were sent to the Ethics Committee at Bambino Ges\u00f9 Children's Hospital, and they notified us of their approval. It involved pwCF, ages 12-36 years, and caregivers of pwCF younger than 18. Enrollment criteria included diagnosis of CF, ages 12 and older, and parents of children with CF. Exclusion criteria were mainly related to age, having a stable internet connection, and familiarity with using the internet. Participants completed measures electronically; medical data were extracted from charts. lockdown. Participation in the intervention was also shared through social media (e.g., Facebook, Instagram). A dedicated phone line accepted requests for participation. Participants completed four \"zoom\" sessions using online video platforms, 30-40 min each, conducted by a clinical psychologist on the CF Team. Participants were asked to find a quiet, private place using headphones and microphones.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Procedure"
+        },
+        {
+            "text": "Written, informed consent was obtained by sending the consent form via email or \"whatsapp\" and getting the signature. All individuals provided a stress rating (10-point Likert scale) at the beginning of each session and completed the PHQ-8 and GAD-7 measures at the preand post-assessment. For the stress ratings, the psychologist asked the participant for their rating and it was recorded in an excel file.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Procedure"
+        },
+        {
+            "text": "PHQ-8 and GAD-7 were completed online using a link that was emailed to them. Once they completed the questionnaires, they were automatically sent to the Principal Investigator. Feasibility and Satisfaction were rated 1 week after the last session using an email link.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Procedure"
+        },
+        {
+            "text": "This was a within-subject, cohort design, using each participant as his/her own control. Analyses of the major endpoints were conducted on each individual's score from pre to post on the measured variables (i.e., stress ratings, depression, anxiety).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Analytic plan"
+        },
+        {
+            "text": "Participants completed a demographic form (e.g., age, gender, education); measures of physical health status were collected via chart review: (a) FEV 1 % predicted, (b) body mass index (BMI), (c) pancreatic insufficiency, and (d) CF-related diabetes. Health outcome data that is collected at each clinic visit, such as FEV 1 and BMI were extracted from electronic medical records from the last clinic visit. Typically, before the pandemic, these visits occurred every 2-3 months.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Demographic and medical characteristics"
+        },
+        {
+            "text": "At the beginning of each session, a stress rating was elicited, asking participants to evaluate their perceived level of stress on an ad hoc, 10point Likert scale, ranging from 1 (not stressed at all) to 10 (extremely stressed).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Perceived stress ratings"
+        },
+        {
+            "text": "The PHQ-9 20 is a brief, self-administered measure of depressive symptoms, with nine items that fit the diagnostic criteria for Major Depressive Disorder. It is free, available in all major world languages and recommended by international guidelines. 15, 21 It has extensive reliability (Cronbach's \u03b1 = .86-.89) and validity. 22 The minimal important difference (MID) score of 5 points, in either direction, has been established as a clinically meaningful change. 23 This is a screening instrument and thus, does not represent a clinical diagnosis.",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 254,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 255,
+                    "end": 257,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 326,
+                    "end": 328,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 464,
+                    "end": 466,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| PHQ-8 (Patient Health Questionnaire-8 item)"
+        },
+        {
+            "text": "However, strong correlations have been found between scores on the PHQ-9/8 and diagnoses. PHQ-8 was used because sessions were remotely, the country was in a heightened state of alert, and asking about suicidal ideation (Item #9: thoughts that you would be better off dead, or of hurting yourself) was not clinically appropriate. This is recommended when you are not able to provide immediate assistance to someone who endorses this question. The recall period is 2 weeks, using a 4-point frequency scale. Severity of depressive symptoms was categorized as \"no symptoms\" (0-4), \"mild symptoms\" (5-9), \"moderate symptoms\" (10) (11) (12) (13) (14) and \"severe symptoms\" (\u226515) range. 24 The Italian version was used (http://www.phqscreeners.com/).",
+            "cite_spans": [
+                {
+                    "start": 621,
+                    "end": 625,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 626,
+                    "end": 630,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 636,
+                    "end": 640,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 641,
+                    "end": 645,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 681,
+                    "end": 683,
+                    "text": "24",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| PHQ-8 (Patient Health Questionnaire-8 item)"
+        },
+        {
+            "text": "The GAD-7 is a brief, 7-item self-report measure of anxiety, rated on a 4-point Likert scale. 25 This is a screening instrument and does not represent a clinical diagnosis. However, strong correlations have been found between scores on the GAD-7 and diagnosed anxiety. It has extensive reliability and validity (Cronbach's \u03b1 = .92). The total score was categorized into \"no symptoms\" (0-4), \"mild\" (5-9), \"moderate\" (10) (11) (12) (13) (14) , and \"severe\" (\u226515) range. The MID score of 4 points, in either direction, has been established as a clinically meaningful change. 26 The Italian version of this instrument was used.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 96,
+                    "text": "25",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 416,
+                    "end": 420,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 421,
+                    "end": 425,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 426,
+                    "end": 430,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 573,
+                    "end": 575,
+                    "text": "26",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| GAD-7 (Generalized Anxiety Disorder-7 item)"
+        },
+        {
+            "text": "Feasibility of participation (1 \"not at all practical\" to 4 \"very practical\") and Satisfaction with the intervention (1 to 4 from \"not at all\" to \"very satisfied\") were assessed using ad hoc scales, 1 week after the last session. Two feasibility questions were asked (How practical/easy was it to participate in the program? Do you think the program should continue?) and two items were rated for satisfaction (Did you find it helpful to participate in this program? How satisfied were you with this program?).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Feasibility and Satisfaction"
+        },
+        {
+            "text": "This intervention utilized evidence-based Cognitive Behavioral Therapy (CBT) skills for depression and anxiety ( Figure 1 ) which have been published in numerous references. [27] [28] [29] [30] [31] The 4-session intervention focused on self-care (e.g., relaxation training, daily CF treatments), coping skills (e.g., cognitive reframing), exercises to improve mood, and individual, emotional challenges (e.g., extreme fear of the virus). In Session 1, individuals were asked to describe their stressful experiences with the pandemic and consider coping strategies that had been useful, identify their own resilience skills (e.g., call a friend for support), and protective factors (e.g., family support, reducing time watching the news).",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 178,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 179,
+                    "end": 183,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 121,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "Initially, there was tremendous fear about the pandemic, and pwCF and caregivers were engaging in a lot of catastrophic thinking (e.g., this virus can kill me). In all sessions, therapists encouraged a focus on the present moment and emphasized how well-prepared they were to deal with COVID-19, given their CF experience with infection control. A toolkit of cognitive-behavioral skills was built and used flexibly in all sessions to promote psychological and physical health ( Figure 1 ). CBT skills included: cognitive reframing (facilitating positive thoughts), relaxation training, increasing positive emotions, and getting physical exercise. One exercise, \"catching joy,\" 32 asked them to identify three moments of joy each day and record them in WhatsApp; these joyful moments were discussed in the next session.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 478,
+                    "end": 486,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "The importance of maintaining normal routines was reinforced, which included getting up and dressed, performing CF treatments, getting good sleep, and identifying activities that increased positive mood (e.g., cooking a favorite dish, listening to music).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "During each session, individuals were asked to describe a recent stressful experience with COVID-19 and the effects of the lockdown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "Next, they were asked about coping with this stressor and discussed new strategies they could use. Time was also spent identifying the \"upsides\" of the lockdown (i.e., reframing), having more time for CF treatments, watching movies as a family, and for parents, spending more time with their children. In general, increasing positive emotions and adaptive thinking were fostered to counter negative thoughts, and self-efficacy and resilience were encouraged. (Table 1 ). All participants completed the measures (100%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 459,
+                    "end": 467,
+                    "text": "(Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "A majority of pwCF were in middle school. Most parents were unemployed (46%), some worked from home, and some were furloughed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Telehealth psychological support intervention"
+        },
+        {
+            "text": "Average lung function (FEV 1 %) was 67%, average BMI was 22, and 81% were pancreatic insufficient ( Table 2 ). At baseline, average stress ratings were fairly high: 7.1 for pwCF and 7.8 for parents out of 10 points (Table 3) . A large percentage of participants in both groups scored in the clinically elevated range on the screening measures (scores \u2265 of 5) prior to the intervention. The mean score on the PHQ-8 was 8.0 for pwCF and 6.4 for parents, respectively. The mean score on the GAD-7 was 6.9 for pwCF and 8.1 for parents, respectively. Among patients, 71% scored in the elevated range on both depression and anxiety, with most in the mild-moderate range. Among parents, 57% scored in the elevated range of depression, with most reporting mild-moderate severity, and 79% scored in the elevated range for anxiety, with 45% scoring in the moderate-severe range (Table 3) . indicating that it ranges from a medium to large effect. Symptoms of anxiety decreased, 6.9 at pretest to 5.6 at posttest, but were not statistically significant (paired t test, t(15) = 1.2, p = NS-non-significant; Figure 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 100,
+                    "end": 107,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 215,
+                    "end": 224,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 868,
+                    "end": 877,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1095,
+                    "end": 1103,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Clinical and psychological characteristics"
+        },
+        {
+            "text": "Next, categorical changes from pre-to post-testing were analyzed. At baseline, 25% (n = 4) of pwCF had no symptoms of depression, 31.2% (n = 5) were mild, 37.5% (n = 5) moderate, and 6.3% (n = 1) severe (Table 3) . Overall, most pwCF remained stable from pre-to post-testing (56.2%; n = 9), 37.5% (n = 6) of pwCF reported decreases in depression and 1 individual (6.3%; n = 1) reported worse symptoms. Specifically, six pwCF improved, one worsened, and nine remained stable. For those in the mild range (n = 5), all remained mild. The largest changes were observed in three pwCF who were moderate at pre and dropped into the no symptoms category, followed by two pwCF who were moderate but dropped into the mild category. The person who worsened reported no symptoms at pre-testing but had a 1-point increase at post-testing in that mild range.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 212,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Categorical changes in symptoms of depression"
+        },
+        {
+            "text": "Categorical changes were also analyzed for anxiety. At baseline, 25% of pwCF had no symptoms (n = 4), 56.2% were mild (n = 9), 12.5% moderate (n = 2), and 6.3% severe (n = 1) (Table 3) . Overall, most pwCF remained stable (n = 11; 68.7%), 25% (n = 4) reported decreases in anxiety and one person (6.3%) reported no symptoms at pre-testing, but reported mild symptoms at post-testing. For those who were mild at pretesting (n = 9), all remained mild. Although stability or improvements were observed in most pwCF, changes in anxiety were less substantial.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 175,
+                    "end": 184,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Categorical changes in symptoms of anxiety"
+        },
+        {
+            "text": "We utilized the MID (PHQ-9 = 5 points; GAD-7 = 4 points) in the next analysis to examine the percentage of pwCF who made clinically significant improvements. More than one-third of the sample (37%; n = 6) reported a clinically meaningful change in depression and 17% (n = 3) reported meaningful changes in anxiety.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Categorical changes in symptoms of anxiety"
+        },
+        {
+            "text": "Similar results emerged for parents. Statistically significant decreases were found in stress ratings, 7.8 at the pre-test to 5.7 at post-testing (paired t test, t(13) = 5.2, p < .001). The effect size, using F I G U R E 2 Pre-post Telehealth Psychological Support Intervention. Notes: Data are presented as paired t tests. *p < .05; **p < .01; ***p < .001. NS, non-significant; PwCF, people with cystic fibrosis (n = 5) reported mild symptoms, 28.6% (n = 4) were moderate, and 14.3% (n = 2) reported severe symptoms (Table 3) . Most parents remained stable (n = 7; 50%), however, 28.6% (n = 4) reported decreases in anxiety and three parents (21.4%) reported worsening of anxiety at the post-testing. Six (42.9%) parents were stable; three remained mild (21.4%) and three moderate (21.4%). Two parents made dramatic improvements, reporting severe symptoms at pre and mild symptoms at post-testing (14.3%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 517,
+                    "end": 526,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Intervention results: Parent caregivers"
+        },
+        {
+            "text": "The next analysis examined the percentage of parents who made a clinically significant improvement. One parent reported a clinically meaningful improvement in depressive symptoms and two parents reported clinically meaningful improvements in anxiety. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Intervention results: Parent caregivers"
+        },
+        {
+            "text": "At the beginning of the COVID-19 crisis in Italy, rates of depression and anxiety were highly elevated in pwCF (71%) and parents (57% depression, 79% anxiety), with a large proportion scoring in the moderate to severe range. Ratings of stress were also highly elevated during this crisis. Importantly, these rates of psychological symptomatology were much higher during the COVID-19 lockdown, than those obtained during routine CF care before COVID-19. 12 ",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 455,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| DISCUSSION"
+        },
+        {
+            "text": "This study had several limitations. First, there was no control group to compare to those in active treatment. Thus, we could not account for the effects of time and attention or possible regression to the mean. To attribute these positive results to the effect of this CBT intervention will require a randomized, controlled trial or a waitlist control group design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Limitations and conclusions"
+        },
+        {
+            "text": "A second limitation was a potential bias in the recruitment of participants. Although invitation letters were sent to all families at the CF Center, pwCF who enrolled in this study tended to have lower lung function than the CF Center generally, and two pwCF were being evaluated for the lung transplant list.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Limitations and conclusions"
+        },
+        {
+            "text": "Third, this intervention was not as comprehensive or structured as a traditional CBT treatment because it was shorter (four sessions; usually 8-10) and was not guided by a manual. Instead, it was individualized to the concerns participants' raised about their own needs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Limitations and conclusions"
+        },
+        {
+            "text": "Finally, this intervention was limited by a small sample size. Although we obtained statistically significant decreases in both stress and depression, with medium to large effect sizes, this study was underpowered. This might have accounted for the lack of statistical significance in anxiety scores, which decreased but did not meet standard, p < .05 criteria.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Limitations and conclusions"
+        },
+        {
+            "text": "Our study results indicated that this telehealth intervention was effective in reducing stress and symptoms of depression in both pwCF and caregivers, and was rated by participants as feasible and satisfactory. This intervention will require further evaluation with a larger sample to establish its efficacy. In addition, this brief intervention is not a substitute for a comprehensive CBT program or ongoing psychological support from a mental health expert on the CF Team. A future randomized, controlled trial of this intervention is being planned to test its efficacy. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Limitations and conclusions"
+        },
+        {
+            "text": "The data that support the findings of this study are available from the corresponding author upon reasonable request. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A comprehensive review of COVID-19 characteristics",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Esakandari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nabi-Afjadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fakkari-Afjadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Farahmandian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Miresmaeili",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bahreini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biol Proced Online",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12575-020-00128-2"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "An Epidemiological Study on COVID-19: a rapidly spreading disease",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Khachfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chahrour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sammouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Salhab",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Makki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fares",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cureus",
+            "volume": "12",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7759/cureus.7313"
+                ],
+                "PMID": [
+                    "32313754"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30460--30468",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30460-8"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Post-traumatic stress disorder following disasters: a systematic review",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Neria",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Galea",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Psychol Med",
+            "volume": "38",
+            "issn": "4",
+            "pages": "467--480",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0033291707001353"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Stress and psychological distress among SARS survivors 1 year after the outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcalonan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Can J Psychiatry",
+            "volume": "52",
+            "issn": "4",
+            "pages": "233--240",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/070674370705200405"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Immediate psychological responses and associated factors during the initial stage of the 2019 coronavirus disease (COVID-19) epidemic among the general population in China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17051729"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Depression and anxiety in Hong Kong during COVID-19",
+            "authors": [
+                {
+                    "first": "Eph",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bph",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eyf",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph17103740"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prevalence and socio-demographic correlates of psychological health problems in Chinese adolescents during the outbreak of COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Child Adolesc Psychiatry",
+            "volume": "29",
+            "issn": "6",
+            "pages": "749--758",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00787-020-01541-4"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Depression and psychological-behavioral responses among the general public in China during the early stages of the COVID-19 pandemic: survey study",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Internet Res",
+            "volume": "22",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/22227"
+                ],
+                "PMID": [
+                    "32886066"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Increased generalized anxiety, depression and distress during the COVID-19 pandemic: a crosssectional study in Germany",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00e4uerle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Teufel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Musche",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Public Health (Oxf)",
+            "volume": "42",
+            "issn": "4",
+            "pages": "672--678",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/pubmed/fdaa106"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Mental health burden of the COVID-19 outbreak in Germany: predictors of mental health impairment",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00e4uerle",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steinbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schweda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Prim Care Community Health",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2150132720953682"
+                ],
+                "PMID": [
+                    "32865107"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Rates of depression and anxiety in Italian patients with cystic fibrosis and parent caregivers: implementation of the mental health guidelines",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Graziano",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Span\u00f2",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Majo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Respir Med",
+            "volume": "172",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.rmed.2020.106147"
+                ],
+                "PMID": [
+                    "32961510"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Prevalence of depression and anxiety in patients with cystic fibrosis and parent caregivers: results of The International Depression Epidemiological Study across nine countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Quittner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Goldbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Thorax",
+            "volume": "69",
+            "issn": "12",
+            "pages": "1090--1097",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/thoraxjnl-2014-205983"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Recommended shielding against COVID-19 impacts physical activity levels in adults with cystic fibrosis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Radtke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Haile",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dressel",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Benden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Cyst Fibros",
+            "volume": "19",
+            "issn": "6",
+            "pages": "875--879",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2020.08.013"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "International Committee on Mental Health, et al. International Committee on Mental Health in Cystic Fibrosis: Cystic Fibrosis Foundation and European Cystic Fibrosis Society consensus statements for screening and treating depression and anxiety",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Quittner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Thorax",
+            "volume": "71",
+            "issn": "1",
+            "pages": "26--34",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/thoraxjnl-2015-207488"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Decreased survival in cystic fibrosis patients with a positive screen for depression",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schechter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ostrenga",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Barker",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sawicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Quittner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Cyst Fibros",
+            "volume": "20",
+            "issn": "1",
+            "pages": "120--126",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2020.07.020"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The impact of the COVID-19 pandemic on the emotional well-being and home treatment of Belgian patients with cystic fibrosis, including transplanted patients and paediatric patients",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Havermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Houben",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Vermeulen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Cyst Fibros",
+            "volume": "19",
+            "issn": "6",
+            "pages": "880--887",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2020.07.022"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effect of the COVID-19 pandemic on anxiety among children with cystic fibrosis and their mothers",
+            "authors": [
+                {
+                    "first": "P\u0131nar",
+                    "middle": [],
+                    "last": "Senkalfa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sismanlar",
+                    "middle": [],
+                    "last": "Eyuboglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aslan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatr Pulmonol",
+            "volume": "55",
+            "issn": "8",
+            "pages": "2128--2134",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ppul.24900"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Psychological distress in adults with and without cystic fibrosis during the COVID-19 lockdown",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ciprandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bonati",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Campi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pescini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Castellani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Cyst Fibros",
+            "volume": "20",
+            "issn": "2",
+            "pages": "198--204",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2020.12.016"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Validity and utility of the PRIME-MD patient health questionnaire in assessment of 3000 obstetric-gynecologic patients: the PRIME-MD Patient Health Questionnaire Obstetrics-Gynecology Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Spitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hornyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcmurray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Am J Obstet Gynecol",
+            "volume": "183",
+            "issn": "3",
+            "pages": "759--769",
+            "other_ids": {
+                "DOI": [
+                    "10.1067/mob.2000.106580"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Common Mental Health Disorders: The NICE Guideline on Identification and Pathways to Care",
+            "authors": [],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The PHQ-9: validity of a brief depression severity measure",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Spitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Gen Intern Med",
+            "volume": "16",
+            "issn": "9",
+            "pages": "606--613",
+            "other_ids": {
+                "DOI": [
+                    "10.1046/j.1525-1497.2001.016009606.x"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Monitoring depression treatment outcomes with the patient health questionnaire-9",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "L\u00f6we",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Un\u00fctzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Callahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Perkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Optimal cut-off score for diagnosing depression with the Patient Health Questionnaire (PHQ-9): a meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Manea",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gilbody",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mcmillan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "CMAJ",
+            "volume": "184",
+            "issn": "3",
+            "pages": "191--196",
+            "other_ids": {
+                "DOI": [
+                    "10.1503/cmaj.110829"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A brief measure for assessing generalized anxiety disorder: the GAD-7",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Spitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "L\u00f6we",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Arch Intern Med",
+            "volume": "166",
+            "issn": "10",
+            "pages": "1092--1097",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/archinte.166.10.1092"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Sensitivity to change and minimal clinically important difference of the 7-item Generalized Anxiety Disorder Questionnaire (GAD-7)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Toussaint",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "H\u00fcsing",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gumz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Affect Disord",
+            "volume": "265",
+            "issn": "",
+            "pages": "395--401",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jad.2020.01.032"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "The relationship between use of CBT skills and depression treatment outcome: a theoretical and methodological review of the literature",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hundt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mignogna",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Underhill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cully",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Behav Ther",
+            "volume": "44",
+            "issn": "1",
+            "pages": "12--26",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.beth.2012.10.001"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Is cognitive-behavioral therapy more effective than other therapies? A meta-analytic review",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tolin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Clin Psychol Rev",
+            "volume": "30",
+            "issn": "6",
+            "pages": "710--720",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cpr.2010.05.003"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Minding the Body: Facilitator Guide, and Client Workbook",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Satterfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "CBT for adolescents with anxiety: mature yet still developing",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peterman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Am J Psychiatry",
+            "volume": "172",
+            "issn": "6",
+            "pages": "519--530",
+            "other_ids": {
+                "DOI": [
+                    "10.1176/appi.ajp.2015.14081061"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Cognitive-Behavioral Interventions: Theory, Research, and Procedures",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hollon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A Cognitive-Behavioral Skills-Based Program to Promote Emotional Well-Being for Adults with CF. Participant workbook; Intervention manual for providers, unpublished, \u00a9 2019 The General Hospital Corporation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cf-Cbt",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Patient acceptance and outcome of mental health screening in Swedish adults with cystic fibrosis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "J\u00e4rvholm",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ericson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gilljam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Qual Life Res",
+            "volume": "29",
+            "issn": "6",
+            "pages": "1579--1585",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11136-020-02417-5"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Implementing the International Committee on Mental Health in Cystic Fibrosis (ICMH) guidelines: screening accuracy and referral-treatment pathways",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Verkleij",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hurley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Cyst Fibros",
+            "volume": "17",
+            "issn": "6",
+            "pages": "821--827",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcf.2018.02.005"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Psychological interventions during COVID pandemic: Telehealth for individuals with cystic fibrosis and caregivers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Graziano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Boldrini",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Righelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Pediatric Pulmonology",
+            "volume": "56",
+            "issn": "",
+            "pages": "1976--1984",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ppul.25413"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Telehealth Psychological Support Intervention was carried out during the COVID-19 lockdown from March through May 2020. A letter inviting participation was sent by the CF Patients/Parents Association 1 week after lockdown. The Parent Association has an office located in the hospital and has a page of its own on Facebook and Instagram, which provided immediate communication with pwCF and caregivers during this pandemic GRAZIANO ET AL.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "/young adults (9 female, 7 male), ages 12-36 years and 14 parents, ages 26-49 years (13 mothers, 1 father) agreed to participate",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Telehealth Psychological Support Intervention. CF, Cystic Fiibrosis; COVID-19, coronavirus disease 2019; GAD-7, General Anxiety Disorder-7 item; PHQ-8, Patient Health Questionnaire-8 item GRAZIANO ET AL.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Intervention results: People with CF Analyses of these within-subject changes demonstrated statistically significant reductions in stress for pwCF: 7.1 at the pretest to 4.9 at the posttest (paired t test, t(15) = 4.1, p < .01). The effect size, using Cohen's d, was 1.02, which indicated a large effect. Significant reductions in depression were also found; from 8.0 at the pretest to 4.7 at the posttest (paired t test, t(15) = 2.8, p < .05); Cohen's d effect size was 0.69",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Cohen's d was 1.34, indicating a large effect. Significant reductions were also found for depression, 6.4 at pretest to 5.1 at posttest (paired t test, t(13) = \u22122.5, p < .05); Cohen's d effect size was 0.65, indicating an effect size between medium and large. In contrast, symptoms of anxiety decreased from 8.1 to 7.9 but were not statistically significant (paired t test, t(13) = \u22120.2, p = NS;Figure 2).3.3.1 | Categorical changes in symptoms of depressionNext, categorical changes in scores from pre-to post-testing were analyzed. At baseline, 42.8% of caregivers (n, number; PwCF, people with cystic fibrosis; SD, standard deviation. kg/m 2 ) (SD) 22(3.2)    Pancreatic insufficiency, n (%) 13(81)Diabetes, n (%) 1(6)Abbreviations: BMI, body mass index; FEV 1 % predicted, percentage of forced expiratory volume in 1 sec; n, number; PwCF, people with cystic fibrosis; SD, standard deviation. depression, 28.6% (n = 4) were mild, 28.6% (n = 4) moderate, and no parents reported severe symptoms(Table 3). Overall, most caregivers remained stable from pre to post (64.3%; n = 9), however, 21.4% (n = 3) of parents reported decreases in depression and 2 reported worse symptoms (14.3%). The largest changes were observed in three caregivers who reported moderate symptoms at pre and dropped into the mild category at post. In addition, three parents (21.4%) who were mild remained mild. For the two parents who worsened, one moved from mild to moderate and one reported no symptoms at pre and mild symptoms at the post-testing.3.3.2 | Categorical changes in symptoms of anxietyCategorical changes were also analyzed for anxiety. At baseline,21.4% (n = 3) of caregivers reported no symptoms of anxiety, Anxiety Disorder 7-item; n, number; PHQ-8, Patient Health Questionnaire-8 item; PwCF, people with cystic fibrosis; SD, standard deviation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "of feasibility and satisfaction were rated on a 4-point scale by both pwCF and parents, reporting generally high ratings. Average feasibility across patients and parents was 3.3 for the question: \"How practical/easy was it to participate in the program?\" and 3.2 for the question: \"Do you think the program should continue?\" Satisfaction was 2.9 for the question: \"Did you find it helpful for you to participate in this program?\" and 2.8 for the question: \"How satisfied were you with this program?\" Overall, these results suggested that the intervention was both feasible and helpful.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "We would like to acknowledge the CF Patients/Parents Association OFFICIUM-Lega Italiana Fibrosi Cistica, Lazio (https://www. officiumroma.it/) for their efforts and support. AUTHOR CONTRIBUTIONS Sonia Graziano: Conceptualization (lead); data curation (lead); methodology (lead); project administration (lead); resources (lead); validation (lead); visualization (lead); writing-original draft (lead); writing -review and editing (lead). Francesca Boldrini: Conceptualization (supporting); methodology (supporting); writing-original draft (supporting). Dario Righelli: Formal analysis (lead); software (lead); writingoriginal draft (supporting). Francesco Milo: Conceptualization (supporting); methodology (supporting); writing-original draft (supporting). Vincenzina Lucidi: Project administration (supporting); resources (supporting); supervision (supporting); writing-original draft (supporting). Alexandra Quittner: Conceptualization (supporting); methodology (supporting); writing-original draft (lead); writing-review and editing (lead). Paola Tabarini: Conceptualization (supporting); methodology (supporting); writing-review and editing (lead).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "http://orcid.org/0000-0002-4139-6983",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "tervention were positive, decreases in anxiety did not meet the statistical threshold for significance for either pwCF or parents. Several possible reasons may account for this. First, COVID-19 is a novel coronavirus and there was no information about how this new virus might affect pwCF.Given that CF is a very serious, underlying pulmonary condition, there was considerable fear that pwCF would be more negatively affected than others, and the CF healthcare community did not know if pwCF were uniquely vulnerable. Second, during and after the intervention, people were still living with this crisis every day. Triggers for anxiety were ubiquitous (e.g., news, mortality rates) and the extreme social isolation in Italy may have also raised levels of anxiety. Finally, many people lost their jobs because all services and businesses were closed, and children and adolescents were not able to go to school. The pandemic caused a major economic recession in Italy, as in other parts of the world, and this might have limited reductions in anxiety.The psychological support intervention was very brief, only four sessions, but was effective. It utilized basic skills derived from CBT, including relaxation training, cognitive reframing, exercises to increase positive emotions (e.g., music), good sleep hygiene, and physical exercises for home. It was delivered via telehealth with a clinical psychologist, which enabled pwCF and parents to access the intervention easily and efficiently. There were no technical difficulties because it utilized simple technology (video call) and if necessary, could be conducted by phone.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

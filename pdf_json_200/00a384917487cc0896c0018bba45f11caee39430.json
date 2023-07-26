@@ -1,0 +1,3874 @@
+{
+    "paper_id": "00a384917487cc0896c0018bba45f11caee39430",
+    "metadata": {
+        "title": "The impact of financial development and geopolitical risk on renewable energy consumption: evidence from emerging markets",
+        "authors": [
+            {
+                "first": "Naif",
+                "middle": [],
+                "last": "Alsagr",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stefan",
+                "middle": [],
+                "last": "Van Hemmen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In the past three decades, the significance of large industrialized emerging economies has been highlighted. In terms of economic productivity and CO2 emissions, these markets play an important role in the global environment. Hence, to achieve global environmental needs, transition to renewable energy sources is essential. However, financial constraints along with geopolitical risks could act as possible barriers to the required transition. Thereby, in this paper, we aim to assess the impact of financial development and geopolitical risk on renewable energy consumption in emerging markets from 1996 to 2015. A two-step system GMM is tested, revealing a positive significant effect of financial development on transition to renewable energy. Moreover, contrary to the expected negative effect of geopolitical risk, our results reveal significant positive effect of geopolitical risk on renewable energy consumption. We highlight that the effects of both financial development and geopolitical risk are more pronounced in the long run. Finally, imperative policy implications are highlighted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Energy consumption is the root of development for any country (Belke, Dobnik, & Dreger, 2011; Zhang et al. 2017 ). However, it also accounts for a significant amount of greenhouse gas emissions (GHG). Carbon dioxide discharge has increased globally in few years Seetanah et al. 2019) . Emerging markets' fossil fuel combustion obtrusively contribute to these emissions. For instance, according to Climate Watch Data (Historical GHG Emission 2016) statistics, China ranks first in the list of the top 10 emitters from 2006 to 2016 with more that 24% of worldwide greenhouse gas emissions alone in 2016. Taking into account other emerging markets, such as Brazil, India, Indonesia, Iran, and Russia, which are also included in the list of top 10 emitters for a decade, they collectively emitted more than 45% of the GHG in 2016. This has serious implications for human beings and the economy (Acheampong 2019; Alshehry and Belloumi 2017; Mezghani and Haddad 2017) . According to Apergis and Garz\u00f3n (2020) , policymakers are committed to design policies and take national initiatives which help in reducing the adverse impacts of GHG emissions on global environment.",
+            "cite_spans": [
+                {
+                    "start": 62,
+                    "end": 93,
+                    "text": "(Belke, Dobnik, & Dreger, 2011;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 94,
+                    "end": 111,
+                    "text": "Zhang et al. 2017",
+                    "ref_id": "BIBREF90"
+                },
+                {
+                    "start": 262,
+                    "end": 283,
+                    "text": "Seetanah et al. 2019)",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 416,
+                    "end": 446,
+                    "text": "(Historical GHG Emission 2016)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 908,
+                    "end": 935,
+                    "text": "Alshehry and Belloumi 2017;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 936,
+                    "end": 961,
+                    "text": "Mezghani and Haddad 2017)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 977,
+                    "end": 1002,
+                    "text": "Apergis and Garz\u00f3n (2020)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Although historical and ongoing pollution is a significant health hazard in developed countries, the encumbrance of this issue is greater in emerging nations. In these nations, rapidly growing population and industrialization in conjunction with urbanization has led to industrialized mega cities with poor environmental quality (Bertazzi 2013; Mannucci and Franchini 2017) . Additionally, in rural areas of such countries, people are unprotected from dense indoor pollution because they use coal, wood, and other cheaper agricultural energy resources due to poor financial situations (Smith et al. 2014; Smith and Mehta 2003) . This has left emerging markets in a quest for cleaner and more secure energy resources (Lidula et al. 2007; Tol\u00f3n-Becerra et al. 2011 ).",
+            "cite_spans": [
+                {
+                    "start": 329,
+                    "end": 344,
+                    "text": "(Bertazzi 2013;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 345,
+                    "end": 373,
+                    "text": "Mannucci and Franchini 2017)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 585,
+                    "end": 604,
+                    "text": "(Smith et al. 2014;",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 605,
+                    "end": 626,
+                    "text": "Smith and Mehta 2003)",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 716,
+                    "end": 736,
+                    "text": "(Lidula et al. 2007;",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 737,
+                    "end": 762,
+                    "text": "Tol\u00f3n-Becerra et al. 2011",
+                    "ref_id": "BIBREF79"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Developing renewable energy and modernizing older energy infrastructures significantly back accomplishment of developing world's climate change commitments. This makes the growth of renewable and cleaner energy sources increasingly relevant for these economies. Indeed, political leadership of emerging markets made considerable strides to accomplish renewable energy development targets.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "Transitioning to renewable sources of energy involves significant financial investments in new energy infrastructures. However, the relationship between financial development (FD) and renewable energy consumption (REC) is complex and remains unclear. Some studies argue that renewable energy consumption enhances financial and economic development (Kemmler and Spreng 2007; Vasylieva et al. 2019) , whereas other extant literature found that FD spurs REC Ji and Zhang 2019; Qamruzzaman and Jianguo 2020) . Since developed countries work on zerocarbon emission plan (for example see Shahbaz et al. 2020) , emerging economies still account for a significant portion of GHG emissions worldwide (Apergis and Garz\u00f3n 2020; Chen et al. 2020) . Therefore, we intend to highlight the relationship between FD and REC in emerging countries.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 373,
+                    "text": "(Kemmler and Spreng 2007;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 374,
+                    "end": 396,
+                    "text": "Vasylieva et al. 2019)",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 455,
+                    "end": 473,
+                    "text": "Ji and Zhang 2019;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 474,
+                    "end": 503,
+                    "text": "Qamruzzaman and Jianguo 2020)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 582,
+                    "end": 602,
+                    "text": "Shahbaz et al. 2020)",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 691,
+                    "end": 716,
+                    "text": "(Apergis and Garz\u00f3n 2020;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 717,
+                    "end": 734,
+                    "text": "Chen et al. 2020)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "Considering financial constraints as prevalent challenge of renewable energy industry of emerging markets (see Ji and Zhang 2019) , researchers have accentuated the significance of financial support for the success of clean energy ventures in China (Zhang et al. 2013) . Indeed, the renewable energy sector demands diverse funding sources; for example, Zhang et al. (2016) argue that equity financing is appropriate for technology related small projects, whereas nuclear energyrelated mega ventures need debt financing from banks. Hence, transitioning to renewable energy sources cannot be accomplished without a well-developed financial system. Previous studies saw the renewable energy consumption through a glass of economic development while discussing the bidirectional causal relationship of economic and FD with the REC (e.g., Ohler and Fetters 2014; Salim and Rafiq 2012) .",
+            "cite_spans": [
+                {
+                    "start": 111,
+                    "end": 129,
+                    "text": "Ji and Zhang 2019)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 249,
+                    "end": 268,
+                    "text": "(Zhang et al. 2013)",
+                    "ref_id": "BIBREF93"
+                },
+                {
+                    "start": 353,
+                    "end": 372,
+                    "text": "Zhang et al. (2016)",
+                    "ref_id": "BIBREF91"
+                },
+                {
+                    "start": 834,
+                    "end": 857,
+                    "text": "Ohler and Fetters 2014;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 858,
+                    "end": 879,
+                    "text": "Salim and Rafiq 2012)",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "Although the idea of FD and REC has attracted scholarly attention, the contextual scope of the literature remains obscured by the countries analyzed (for example, Burakov and Freidin 2017; Ji and Zhang 2019; and Khoshnevis Yazdi and Shakouri 2017 studied single country context for Russia, China, and Iran, respectively); multi-country studies focus mainly on developed economies (Topcu and Tugcu 2020; Tugcu et al. 2012) whereas the focus on emerging market is still limited. Hence, we still lack a clear understanding of the dynamics of this relationship for emerging markets that disproportionately contribute to GHG emissions worldwide. According to United Nations report, the lack of international support has made less developed economies at risk to the Covid-19 pandemic (UN 2020). Additionally, with the ongoing health crisis, it would be even harder to mobilize external funding or technical transformation to support cleaner energy plans in those countries (Barbier and Burgess 2020) . In absence of foreign external financial support, emerging and developing economies are in ever higher need of finding domestic innovative financing solutions. Thus, this situation enhances the importance of clear understanding of FD-REC nexus.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 188,
+                    "text": "Burakov and Freidin 2017;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 189,
+                    "end": 207,
+                    "text": "Ji and Zhang 2019;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 208,
+                    "end": 232,
+                    "text": "and Khoshnevis Yazdi and",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 380,
+                    "end": 402,
+                    "text": "(Topcu and Tugcu 2020;",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 403,
+                    "end": 421,
+                    "text": "Tugcu et al. 2012)",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 967,
+                    "end": 993,
+                    "text": "(Barbier and Burgess 2020)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "Beside financial development, geopolitical risk is significant in the process of energy transition for emerging markets. Caldara and Iacoviello (2018) define geopolitical risks as the risks associated with armed fights, terrorism, and state-to-state conflicts which impact regular and diplomatic level international affairs. Geopolitical risks create an atmosphere of uncertainty and unrest. This uncertainty drives firms to put their future plans on hold which reduce current production to their minimum capacity in anticipation of lower consumption. This dimension has been used by Carney (2016) along with economic and policy instability proxies to discuss the adverse economic consequences of this triad of instability. Major players of economic activities (bankers, equity market traders, and industrialists) believe that geopolitical risks change the dynamics of capital markets and slow the decision-making speed of investors (Caldara and Iacoviello 2018) . Furthermore, geopolitical risk is a two-sided sword for economy, on one side it may adjourn consumers' usage, and on the other side it stops companies from making investments in an attempt to maintain a minimum level of protective savings (Bloom 2009 ). Hence, it is argued that geopolitical risks are lead indicators to economic and business swings.",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 150,
+                    "text": "Caldara and Iacoviello (2018)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 584,
+                    "end": 597,
+                    "text": "Carney (2016)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 933,
+                    "end": 962,
+                    "text": "(Caldara and Iacoviello 2018)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1204,
+                    "end": 1215,
+                    "text": "(Bloom 2009",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "It goes without saying that emerging economies are most prone to abrupt shifts in trade and capital flows (Cheng and Chiu 2018) . Considering the significance of GPR and its impact on investment plans, production rate, and overall economy, we aim to extend the literature by investigating the impact of FD and geopolitical risk on the REC in a sample of 19 emerging markets for a time period of 20 years from 1996. In our analysis, we consider several proxies of FD (from banking sector and capital markets) and the novel GPR index of Caldara and Iacoviello (2018) alongside macroeconomic controls. Our empirical strategy involves adopting the two-step system GMM to control for endogeneity problems, which are a common phenomenon in such studies. Furthermore, we complement our analyses by computing the long run elasticities for the main variables of interest (financial development, geopolitical risks).",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 127,
+                    "text": "(Cheng and Chiu 2018)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "The contribution of this paper is multifold. Firstly, the current study addresses the importance of renewable energy consumption in the context of emerging economies and emphasizes how enhancements in renewable energy consumption helps emerging economies fulfill their responsibilities in combating climate challenges. Secondly, we discuss the role of financial development on renewable energy consumption which not only enhances the FD-REC literature but helps policymakers of emerging countries in designing realistic energy transition plans without affecting their production targets. Thirdly, considering the uncertain political situation of most of emerging markets, the present study reveals how geopolitical risks, as proxied for by the novel GPR index, also impact the consumption of renewable energy in these countries. Our last contribution resides in the study sample and methodology, namely, a comprehensive inclusion of 19 emerging economies for a period spanning 20 years (1996) (1997) (1998) (1999) (2000) (2001) (2002) (2003) (2004) (2005) (2006) (2007) (2008) (2009) (2010) (2011) (2012) (2013) (2014) (2015) using a two-step system GMM model.",
+            "cite_spans": [
+                {
+                    "start": 986,
+                    "end": 992,
+                    "text": "(1996)",
+                    "ref_id": null
+                },
+                {
+                    "start": 993,
+                    "end": 999,
+                    "text": "(1997)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1000,
+                    "end": 1006,
+                    "text": "(1998)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1007,
+                    "end": 1013,
+                    "text": "(1999)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1014,
+                    "end": 1020,
+                    "text": "(2000)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1021,
+                    "end": 1027,
+                    "text": "(2001)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1028,
+                    "end": 1034,
+                    "text": "(2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1035,
+                    "end": 1041,
+                    "text": "(2003)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1042,
+                    "end": 1048,
+                    "text": "(2004)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1049,
+                    "end": 1055,
+                    "text": "(2005)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1056,
+                    "end": 1062,
+                    "text": "(2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1063,
+                    "end": 1069,
+                    "text": "(2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1070,
+                    "end": 1076,
+                    "text": "(2008)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1077,
+                    "end": 1083,
+                    "text": "(2009)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1084,
+                    "end": 1090,
+                    "text": "(2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1091,
+                    "end": 1097,
+                    "text": "(2011)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1098,
+                    "end": 1104,
+                    "text": "(2012)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1105,
+                    "end": 1111,
+                    "text": "(2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1112,
+                    "end": 1118,
+                    "text": "(2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1119,
+                    "end": 1125,
+                    "text": "(2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "The rest of the manuscript is arranged accordingly. In the next section, we review the relevant literature. We then introduce data, model, and methodology in the \"Data, model, and methodology\" section. The \"Estimation framework\" section is devoted to the estimation framework used. Finally, in the \"Results and discussion\" section, we present the policy implications of our study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Responsible Editor: Nicholas Apergis"
+        },
+        {
+            "text": "Changing climate as a result of nonrenewable energy consumption brings a harmony in the emerging world to increase renewable energy consumption and decrease fossil fuels usage . Rafindadi and Ozturk (2017) argued that clean energy make substantial contribution to overall environment friendly accomplishments because consumption of renewable energy delivers secure human and environment growth as a sustainable source. Despite an upward trend of global consumption (International Energy Outlook 2013), the proportion of renewable energy usage in developing countries is still low. A significant volume of recent literature highlighted the importance of renewable energy consumption (Ali et al. 2018; Omri and Nguyen 2014; Zhao and Luo 2017) . New clean energy projects witness substantial investments (Bloomberg New Energy Finance 2014) but FD continues to be a big concern in REC (Ji and Zhang 2019).",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 205,
+                    "text": "Rafindadi and Ozturk (2017)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 682,
+                    "end": 699,
+                    "text": "(Ali et al. 2018;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 700,
+                    "end": 721,
+                    "text": "Omri and Nguyen 2014;",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 722,
+                    "end": 740,
+                    "text": "Zhao and Luo 2017)",
+                    "ref_id": "BIBREF94"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "According to Sadorsky (2010) , FD removes the financial risks, minimizes the cost of credits, and facilitates transparent accountability. These outcomes of FD have good effects on cost of clean energy and respectably highlights the importance of FD in consumption of renewable energy (Anton and Nucu 2020) . Financial sector developments enhance usage of renewable energy (Khan et al. 2020; Mukhtarov et al. 2020; Qamruzzaman and Jianguo 2020) . According to Pata (2018) , FD positively affects economic and economic growth may increase environmental pollution. However, by supporting the usage of new technologies and enforcing the climate control regulations, FD mitigates its negative impacts on environment (Pata 2018) . Moreover, REC also reduces CO2 emission (Liu et al. 2020 ) and improves economic growth (Khoshnevis Yazdi and Shakouri 2017). Likewise, Apergis (2019) argued that that renewable is the cornerstone for combating environment change caused by massive energy usage.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 28,
+                    "text": "Sadorsky (2010)",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 284,
+                    "end": 305,
+                    "text": "(Anton and Nucu 2020)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 372,
+                    "end": 390,
+                    "text": "(Khan et al. 2020;",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 391,
+                    "end": 413,
+                    "text": "Mukhtarov et al. 2020;",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 414,
+                    "end": 443,
+                    "text": "Qamruzzaman and Jianguo 2020)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 459,
+                    "end": 470,
+                    "text": "Pata (2018)",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 711,
+                    "end": 722,
+                    "text": "(Pata 2018)",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 765,
+                    "end": 781,
+                    "text": "(Liu et al. 2020",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 861,
+                    "end": 875,
+                    "text": "Apergis (2019)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "Both banking and stock market developments are important for enhancement of renewable energy consumption. On the one hand, the banking sector derives funds for production of green energy. On the other hand, a sound stock market attracts new investors, which can mobilize extra resources to support energy investments and build reliance in the financial system that in turn increases energy requirement (Sadorsky 2010) . For instance, Alsaleh and Abdul-Rahim (2019) found a positive nexus between financial markets and bio-energy consumption in developing countries whereas in developed countries, this relationship is positive for both financial markets and financial institutions.",
+            "cite_spans": [
+                {
+                    "start": 402,
+                    "end": 417,
+                    "text": "(Sadorsky 2010)",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "Therefore, some researchers discuss the causal relationship between FD and renewable energy consumption (e.g., Ari and Cergibozan 2017) but most of them included FD in the list of factors which may influence energy consumption transition. For instance, Lin et al. (2016) have reported a positive correlation of FD with REC in the Chinese context. Paramati et al. (2016) took sample of 20 countries between 1993 and 2012 and analyzed the influence of both FD (i.e., stock market) and FDI respectively on clean energy consumption and demonstrated that development in each stock market and FDI has a significant role to play in rising the use of renewable energy. Similarly, the development in financial structure offers less costly funds to businesses and government for green climate ventures through renewable energy consumption (Zagorchev et al. 2011) .",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 270,
+                    "text": "Lin et al. (2016)",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 347,
+                    "end": 369,
+                    "text": "Paramati et al. (2016)",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 829,
+                    "end": 852,
+                    "text": "(Zagorchev et al. 2011)",
+                    "ref_id": "BIBREF87"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "Following the same line, Wu and Broadstock (2015) have demonstrated that renewable energy positively affected by both, FD and institutional quality, based on data from 22 countries between 1990 and 2010. Likewise, Best (2017) used data from as many as 137 countries to investigate the impact of FD on overall energy consumption and found that highincome economies shifting from non-renewable to renewable energy consumption because of their financial development. Kutan et al. (2018) covered Brazil, China, India, and South Africa, for the time span of 1990 to 2013 to examine the effect of FDI inflows and development of stock markets on the usage of renewable energy and findings of their different panel data analyses methods, such as Fisher-Johansen panel cointegration, fully modified ordinary least squares (OLS), and panel non-causality test, demonstrated that FDI inflows and stock market growth play vital role in enhancing the usage of renewable energy. Considering the importance of Gulf Cooperation Council (GCC) countries, Hassine and Harrathi (2017) have analyzed the FD-REC nexus in this region and found a significantly positive correlation between financial development and renewable energy consumption.",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 49,
+                    "text": "Wu and Broadstock (2015)",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 214,
+                    "end": 225,
+                    "text": "Best (2017)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 464,
+                    "end": 483,
+                    "text": "Kutan et al. (2018)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "More recently, Razmi, Bajgiran, Behname, Salari, and Razmi et al. (2020) have used ARDL model on a 25-year-long data from 1990 to 2014 to investigate and affirm positive relationship of stock market development and economic growth with REC in Iranian context. Raza et al. (2020) used panel smooth transition regression method on yearly panel data ranging from 1997 to 2017, and affirmed that an increase in every indicator of FD results an increase in consumption of renewable energy, in the top 15 renewable energy consumer countries context. Anton and Nucu (2020) , in a panel data of twenty-eight European Union countries, analyzed the effect financial growth on consumption level of renewable energy from year 1990 to year 2015. Panel data-fixed effect model of their study provides results which confirm that usage of renewable energy depends upon income level, energy rates, financial development, and FDI. Empirical findings indicate that all the studied proxies of financial development, namely, bank, bond market, and capital market, positively affect consumption level of renewable energy.",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 72,
+                    "text": "Razmi et al. (2020)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 260,
+                    "end": 278,
+                    "text": "Raza et al. (2020)",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 544,
+                    "end": 565,
+                    "text": "Anton and Nucu (2020)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "Thus, extant REC literature mainly focuses on single country studies (for example, see Burakov and Freidin 2017; Eren et al. 2019; Ji and Zhang 2019; Razmi et al. 2020) , and/or developed economies (for example, see Topcu and Tugcu 2020; Tugcu et al. 2012; Yildirim et al. 2012) , whereas the focus on emerging markets is limited. Therefore, in this paper, we aim to extend the literature by looking at the impact of FD on REC in emerging markets. Furthermore, we provide the insight understanding of how do different FD indicators (Banking sector, stock market) contribute to REC in emerging markets.",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 112,
+                    "text": "Burakov and Freidin 2017;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 113,
+                    "end": 130,
+                    "text": "Eren et al. 2019;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 131,
+                    "end": 149,
+                    "text": "Ji and Zhang 2019;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 150,
+                    "end": 168,
+                    "text": "Razmi et al. 2020)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 216,
+                    "end": 237,
+                    "text": "Topcu and Tugcu 2020;",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 238,
+                    "end": 256,
+                    "text": "Tugcu et al. 2012;",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 257,
+                    "end": 278,
+                    "text": "Yildirim et al. 2012)",
+                    "ref_id": "BIBREF86"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Financial development and renewable energy consumption"
+        },
+        {
+            "text": "The significance of geopolitical risk and its unexplored impact on renewable energy consumption derived us to explore that how geopolitical risks (wars, terrorism, and state level conflicts which increase level of uncertainty in all aspects of business and routine life) impact consumption of renewable energy (e.g., solar, wind, hydropower).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Geopolitical risks and renewable energy consumption"
+        },
+        {
+            "text": "Regions with certain and secure political and social conditions witness more consumption and new investments. On the other hand, detrimental impacts of uncertainty on new investment have been discussed since many decades. Therefore, Leahy and Whited (1995) confirmed the relationship between uncertainty and investment dip from theoretical and empirical perspective. Blomberg and Mody (2005) verified that in developing countries, the effects of violence are more harmful and that investors stop trading in periods of increased violence. Moreover, such circumstances result in capital outflows because when violence prevails in emerging economy, then investors shift their capital to other developed and politically stable countries which offer secure return on investments. In the same manner, recent literature also confirmed that uncertain circumstances and appalling peace situation drop overall consumption and investment infrastructure in developing countries (Cheng and Chiu 2018) .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 256,
+                    "text": "Leahy and Whited (1995)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 367,
+                    "end": 391,
+                    "text": "Blomberg and Mody (2005)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 966,
+                    "end": 987,
+                    "text": "(Cheng and Chiu 2018)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Geopolitical risks and renewable energy consumption"
+        },
+        {
+            "text": "Consequently, consumption of renewable energy, which needs uninterrupted investment plans and financial development, falls due to such tensions and uncertain economic forecasts. For example, an important study of Bloom (2009) empirically demonstrates that surprises of uncertainty influence overall demand across real life because of the \"wait and see\" strategy of both producers and consumers. Likewise, Gilchrist et al. (2014) , who analyzed data of uncertainty-facing mixed companies with a quantitative general equilibrium model, reported that due to the irrevocable nature of investments, companies adopt \"wait and see\" strategy in response of upward uncertainty trend. This happens because firms want to hold liquid assets to prevent future insolvency in case of unproductive investments. Literature affirms that uncertainty, irrespective of its nature, generate negative impacts on overall economic and business activities. For example, economic policy uncertainty adversely impacts general business cycle and reduces new investments, employment opportunities, and production level (e.g., see Baker et al. 2016 ). In the same way, Azzimonti (2018) used chronological stats from 1929 to 2013 for the USA and affirmed that in the presence of political uncertainty, private businesses reduce their investments.",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 225,
+                    "text": "Bloom (2009)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 405,
+                    "end": 428,
+                    "text": "Gilchrist et al. (2014)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1100,
+                    "end": 1117,
+                    "text": "Baker et al. 2016",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Geopolitical risks and renewable energy consumption"
+        },
+        {
+            "text": "In a recent study, Al Mamun et al. (2020) used GPR as proxy of uncertainty and argued that GPR break investors' confidence on continuity of state's economic policies. According to them (Al Mamun et al. 2020) , ongoing clashes between the USA and China about a disputed region in Southern Chinese sea not only halted business and investment plans of many big companies in these two countries but also impacted plans of international investment groups. GPR has a negative impact not only on investment; however, economic theory suggests that overall consumption of a country also decreases in prevalence of uncertainty. For instance, Balta et al. (2013) used the European Commission Business and Consumer Survey for all European countries and found that uncertainty significantly reduces both investments and consumption. Additionally, delays or likely decline in new investment plans further reduces overall consumption in a country, including energy consumption (for example, see He et al. 2012; Zhanfeng and Zhiying 2009) .",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 41,
+                    "text": "Mamun et al. (2020)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 189,
+                    "end": 207,
+                    "text": "Mamun et al. 2020)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 632,
+                    "end": 651,
+                    "text": "Balta et al. (2013)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 980,
+                    "end": 995,
+                    "text": "He et al. 2012;",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 996,
+                    "end": 1022,
+                    "text": "Zhanfeng and Zhiying 2009)",
+                    "ref_id": "BIBREF88"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Geopolitical risks and renewable energy consumption"
+        },
+        {
+            "text": "Hence, along with earlier findings, and theoretical argument, we suggest that renewable energy consumption significantly decreases in a time of higher political and social tensions (i.e., geopolitical risks) which adversely affect overall business activities. Renewable energy consumption (REC) is the dependent variable of our study. As proposed by preceding literature (e.g., Anton and Nucu 2020; Charfeddine and Kahia 2019), we use the share of renewable energy in the total energy consumption as a proxy of our dependent variable, renewable energy consumption. Similarly, relying on existing studies (e.g., Gaies et al. 2019a; King and Levine 1993; Levine and Zervos 1998) , we used four proxies, precisely, private credit by deposit money banks to GDP, bank credit to bank deposits, domestic credit to private sector by banks, and stock market turnover ratio for the measurement of our first key ind e p e n d e n t v a r i a b l e , f i n a n c i a l d e v e l o p m e n t . Subsequently, we measure our second main independent variable geopolitical risks, by using GPR index of Caldara and Iacoviello (2018) , who developed it by using an algorithm that counted the publishing frequency of words denoting geopolitical risks in globally renowned international daily newspapers. GPR comprise of wars, terror attacks, and political conflicts that constrain both internal and foreign ties (Caldara and Iacoviello 2018) .",
+            "cite_spans": [
+                {
+                    "start": 611,
+                    "end": 630,
+                    "text": "Gaies et al. 2019a;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 631,
+                    "end": 652,
+                    "text": "King and Levine 1993;",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 653,
+                    "end": 676,
+                    "text": "Levine and Zervos 1998)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1085,
+                    "end": 1114,
+                    "text": "Caldara and Iacoviello (2018)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1392,
+                    "end": 1421,
+                    "text": "(Caldara and Iacoviello 2018)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Geopolitical risks and renewable energy consumption"
+        },
+        {
+            "text": "Extant literature has indicated the impact of GDP per capita, consumer price index (CPI), and foreign direct investment (FDI) on renewable energy consumption (for example, see Anton and Nucu 2020; Best 2017; \u00c7oban and Topcu 2013; Sadorsky 2010) . Hence, we control these variables in the current study. Moreover, we use reliable data sources such as the World Bank database (for consumption share of renewable energy from the total energy consumption, GDP per capita, and FDI as a percentage of GDP), and the FRED database (for CPI) to measure all the country-level variables of interest. A summary of the study variables measurement, abbreviation, and sources is displayed in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 196,
+                    "text": "Anton and Nucu 2020;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 197,
+                    "end": 207,
+                    "text": "Best 2017;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 208,
+                    "end": 229,
+                    "text": "\u00c7oban and Topcu 2013;",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 230,
+                    "end": 244,
+                    "text": "Sadorsky 2010)",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 677,
+                    "end": 684,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Data, model, and methodology"
+        },
+        {
+            "text": "The current study aims to examine the impact of financial development and geopolitical risk on renewable energy consumption by testing the dynamic linear effects in a sample of 19 emerging economies. To further enhance the interpretation of our research, we compute the long-run elasticities resulting from the linear modeling.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "Based on microeconomic theory and relevant literature (e.g., Anton and Nucu 2020; Chang 2015; \u00c7oban and Topcu 2013; Sadorsky 2010; Topcu and Payne 2017), the function of \"renewable energy consumption\" (REC) is given as \"foreign direct investments\" (FDI), \"consumer price index\" (CPI) as a proxy of \"renewable energy prices,\" and \"income\" measured by \"GDP per capita\" (GDPPC).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "Consequently, the addition of \"financial developm e n t \" ( F D ) and \" g e o p o l i t i c a l r i s k \" ( G P R ) are anticipated to serve as important factors for renewable energy consumption in emerging markets. The following is the research's linear model:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "Since prior literature affirmed that the level of energy consumption in the current year is strongly affected by the level of energy consumed in last year, the model is adjusted to the following: ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "In order to estimate Eq. (2), three problems could be encountered since our study is based on panel data. Firstly, the unforeseen heterogeneity problem at the country level that occurs when compared with the CPI, per capita GDP, and/or FDI. Secondly, causality biases amongst consumer price index, GDP per capita, and/or foreign direct investments (explanatory variables). Thirdly, the problem of endogeneity biases may occur because of error term correlation with the lagged dependent variable (REC).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "To control for the above three problems, we adopt the twostep system GMM which is first proposed by Arellano and Bond (1991) and further developed by Arellano and Bover (1995) , and Blundell and Bond (1998) . Combining both variables in levels and in first difference, it can be expressed in the following two equations:",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 124,
+                    "text": "Arellano and Bond (1991)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 150,
+                    "end": 175,
+                    "text": "Arellano and Bover (1995)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 182,
+                    "end": 206,
+                    "text": "Blundell and Bond (1998)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "where Eq.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "(3) involves variables in levels, while variables in first difference are conveyed in Eq. (4).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "Furthermore, the \"Hansen test\" is used for overidentification of restrictions for which the null hypothesis states that the research instruments are not correlated with residuals. Nonetheless, we performed the Arellano-Bond test for the second-order correlation in the first-differenced residual. One of the problems associated with the GMM estimator system is the presence of several instruments which may result in a finite sample bias. By reducing the Hansen test's power and over-fitting the endogenous variable of the study help to identify this issue (for example, Roodman 2009).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and methodology"
+        },
+        {
+            "text": "Descriptive statistics of data variables Table 2 exhibits the mean, standard deviation, maximum, and minimum values of all study variables.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 41,
+                    "end": 48,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Estimation framework"
+        },
+        {
+            "text": "As for the variable of interest is concerned, the mean value and standard deviation of the REC are found as 16.858% and 15.055%, respectively, with the highest value of 53.767% and (1) Model (2) Model (3) Model (4) Model (5) Model (6) Renewable The second explanatory variable is measured by four different proxies, with the mean and standard deviation values of 56.116% and 43.688% for PCDMB, 106.905%, and 53.71% for BCBD, 64.871% and 49.546% for DCPS, and 65.214 and 68.666% for TOR. Furthermore, Fig. 1 and 2 of the appendix graphically display the geopolitical risk and renewable energy consumption respectively amongst the 19 countries from 1996 to 2015.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 500,
+                    "end": 506,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Estimation framework"
+        },
+        {
+            "text": "We first assess the existence of multicollinearity problem before performing the estimation of current study model. Multicollinearity problem can only be declared when the value of Pearson correlation coefficients amongst explanatory variables surpasses the upper limit of 0.80 (Belkhaoui et al. 2020; Gujarati and Porter 2003) . Table 3 displays values of Pearson's correlation coefficients for all independent variables which show that correlation amongst explanatory variables is substantially below the cut-off value of 0.8, except between PCDMB and DCPS. 1 Table 4 illustrates the dynamic linear impacts of FD and geopolitical risk on consumption of renewable energy in sample of 19 developing countries using the two-step system GMM estimates.",
+            "cite_spans": [
+                {
+                    "start": 278,
+                    "end": 301,
+                    "text": "(Belkhaoui et al. 2020;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 302,
+                    "end": 327,
+                    "text": "Gujarati and Porter 2003)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 330,
+                    "end": 337,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 562,
+                    "end": 569,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Multicollinearity test"
+        },
+        {
+            "text": "Model (1) reports the liner impact of the lagged renewable energy consumption, CPI, GDP per capita, FDI, without including any component of FD, or the GPR. The lagged renewable energy consumption remains significantly positive at 1% level. Earlier researchers has shown that energy consumption in current year is highly influenced by the level of energy consumed in the previous year (for instance, see Gaies et al. 2019b; Sadorsky 2011) .",
+            "cite_spans": [
+                {
+                    "start": 403,
+                    "end": 422,
+                    "text": "Gaies et al. 2019b;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 423,
+                    "end": 437,
+                    "text": "Sadorsky 2011)",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "In line with prior literature (for example, Anton and Nucu 2020; Doytch and Narayan 2016) , the coefficient of FDI shows a significant and negative impact on renewable energy consumption at 5% significant level. Similarly, the coefficient of CPI positively and significantly affects the renewable energy consumption. This finding is in-line with the extant literature, for instance, Moreno et al. (2012) as well as Wu and Broadstock (2015) . Moreover, the coefficient of economic development (GDP per capita) shows a negative and statically significant impact on renewable energy consumption at 1% confidence, which is consistent with the findings by Anton and Nucu (2020) in the European context.",
+            "cite_spans": [
+                {
+                    "start": 44,
+                    "end": 64,
+                    "text": "Anton and Nucu 2020;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 65,
+                    "end": 89,
+                    "text": "Doytch and Narayan 2016)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 383,
+                    "end": 403,
+                    "text": "Moreno et al. (2012)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 415,
+                    "end": 439,
+                    "text": "Wu and Broadstock (2015)",
+                    "ref_id": "BIBREF85"
+                },
+                {
+                    "start": 651,
+                    "end": 672,
+                    "text": "Anton and Nucu (2020)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "In model 2 to 5, we added the four FD indictors along with the control variables. All four financial development proxies positively impact renewable energy consumption and statically significant at a 1% level. Our findings affirm results of The long-run elasticities are computed based on the short-run elasticities obtained from Table 4 previous FD-REC study in 15 top renewable energy consumption countries (Raza et al. 2020) . We may therefore conclude that both banking sector development and capital market growth have substantially positive effects on renewable energy consumption.",
+            "cite_spans": [
+                {
+                    "start": 409,
+                    "end": 427,
+                    "text": "(Raza et al. 2020)",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 330,
+                    "end": 337,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "In model 6, we added the geopolitical risk to our baseline model. As expected, all the control variables remain significant with similar sign to model 1; the geopolitical risk significantly impacts the consumption of renewable energy at 5% acceptance level but the directions of this impact is positive, which contradicts the expected negative impact of GPR on REC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Two possible explanations exist for the ratification of positive impact of GPR on REC. First, a rising body of literature established the positive relationship of geopolitical risk with oil prices Zhang et al. 2019) . Oil price is an indicator of conventional energy price (see Gaies et al. 2019aamongst others ) . By linking the GPR and oil price nexus with economics' law of demand. As economist, Marshall (1892) presented the economic law of demand that posits, by controlling other conditions, when the price of a commodity increases the demand of that commodity decreases which eventually yields reduction in its consumption. Therefore, based on law of demand and its substitution effect, the positive association of GPR and oil prices reduces the consumption of non-renewable energy, and elevates the consumption of renewable energy.",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 215,
+                    "text": "Zhang et al. 2019)",
+                    "ref_id": "BIBREF92"
+                },
+                {
+                    "start": 278,
+                    "end": 312,
+                    "text": "Gaies et al. 2019aamongst others )",
+                    "ref_id": null
+                },
+                {
+                    "start": 399,
+                    "end": 414,
+                    "text": "Marshall (1892)",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Second explanation relies on energy security. For instance, Bompard et al. (2017) argued that a country's ability to secure the availability of required energy is an important prerequisite for that country's economic development and for the prosperity of people. Hence the positive correlation of geopolitical risks with renewable energy consumption on the bases of energy security is justified on two reasons. On the one hand, existence of higher geopolitical risk in major oil producing countries such as Middle East OPEC members which represent 81% of OPEC production (Petersson and T\u00f6rnquist-Plewa 2008) make them unreliable and uncertain because of political instability. This scenario forces major developing energy consumers such as Brazil, India, and China to reduce their dependence on oil imports and invest in development of renewable energy in order to achieve their energy requirements. On the other hand, major petro-states need to make regular investments to prevent their fossil fuel resources (e.g., pipelines and oil wells) which might be soft target of terrorist attacks. Therefore, instead of bearing higher investments of their non-renewable energy resources, developing oil producers also make investments on development of renewable energy resources. Thus, under pressure of the increasing oil prices and energy insecurity, these developing countries are shifting towards increased generation and consumption of renewable energy to ensure their energy security and development.",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 81,
+                    "text": "Bompard et al. (2017)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "To further provide insight knowledge, we computed the long-run elasticities of our main independent variables. Table 5 reports both short-and long-run elasticity of our main variables of interest, namely, FD and geopolitical risks. Shortrun elasticity values are derived from the linear modeling from model (2) to model (6) of Table 4 . Then, in order to calculate the value of long-run elasticity, we divide the short-run elasticity value with a value obtained by subtracting value of lagged renewable energy consumption coefficient from 1. Model 2 indicates positive elasticity of PCDMB rises from its short run value of (0.186) to its long run value of (1.039). Also, positive short-run and long-run elasticity values of BCBD significantly increase from (0.453) to (2.448). Likewise, positive short-run elasticity value of DCPS (0.436) reaches to (2.435) for the long run. The value of TOR also remains positive and evidences a rise from it short run value of (0.197) to the long-run value of (1.186). Hence, the effect of FD on REC, in our sample of emerging economies, is superior in the long run in comparison to the short run.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 111,
+                    "end": 118,
+                    "text": "Table 5",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 327,
+                    "end": 334,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Like proxies of first independent variable FD, elasticity values of second main independent variable GPR, also, remain positive and demonstrate a substantial rise from (0.119) to (0.672), which implies that for a pool of 19 emerging economies, the long run effect of geopolitical risks on renewable energy consumption is greater than the short run.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "Our results are robust and consistent across the four proxies of financial development. For additional robustness checks and to further validate our empirical results, we re-estimated our models by controlling for financial crisis. Table 6 states our liner models result which we controlled for the crisis period. These results do not indicate any qualitatively different findings from our previous results, listed in Table 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 232,
+                    "end": 239,
+                    "text": "Table 6",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 418,
+                    "end": 425,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and discussion"
+        },
+        {
+            "text": "The aim of this study was to investigate the impact of FD and geopolitical risk on REC using a panel data of 19 emerging markets over the period 1996 to 2015. Four proxies of FD of both the banking sector and capital market were considered. The results of the liner two-step system GMM models highlighted a significant positive impact of FD and GPR on REC. Furthermore, the computed long-run elasticities reported a stronger and more dominant effect than its short run. The robustness of the findings was tested by controlling for the financial crises period and the fact of using four proxies of financial development.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and policy implications"
+        },
+        {
+            "text": "This study provides important policy implications for the policymakers of emerging economies whether they are known as energy producer or energy consumer. Primarily, policymakers of emerging countries should execute their renewable energy consumption strategies and also FD plans considering the importance of the later for the former, as advantages of renewable energy consumption are multifold. First of all, renewable energy consumption improves the atmosphere. Therefore, emerging markets, which lack separate environment budgets, may decrease air pollution by increasing renewable energy consumption in the country. Discouraging the business level usage of non-renewable may also increase renewable energy consumption. For instance, imposing an air pollution tax on production plants may shift them towards renewable energy consumption. Secondly, the transfer of renewable energy is much easier as compared to non-renewable energy which reduces the energy transfer cost and also security expenses of non-renewable energy reservoirs. Thirdly, renewable energy consumption ensures the continuous availability of required amount of energy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and policy implications"
+        },
+        {
+            "text": "Political leaders in emerging countries should be very vigilant while introducing energy transition dogmas. They should realize the importance of FD in the energy transition process. A shortsighted and imperative energy transition plan, without availability of required financial resources, may disrupt the production capacity of firms. Thus, governments should progressively enforce renewable energy consumption policies while offering appropriate financial via their financial institutions and/or capital markets. Focusing on the importance of financial development, legislator of emerging economies may introduce some incentive plans, such as easy loans, and tax rebates for businesses which want to enhance the consumption of renewable energy in their production plants. This may encourage businesses not only to enhance renewable energy consumption but also to invest in small projects of renewable energy production to fulfill their own energy demands. Similarly, dedicated incentive schemes should be introduced for investors who wants to invest in mega renewable energy projects. Intricate and lengthy bank credit procedures may daunt renewable energy projects; on the other hand, swift loans, with lower or zero interest rates, may fulfill the financial demands of renewable energy investments. Therefore, for successful execution of energy transition from non-renewable to renewable, governments in developing countries should imply policies that enhance the financial capacity of businesses to invest in renewable energy plants instead of forcing hasty and unrealistic targets of minimizing fossil fuel consumption.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and policy implications"
+        },
+        {
+            "text": "As far as study limitations and future research lines, we considered three of the most used control variable; researchers could include some more controls to further validate our results. We based our research on all the 19 emerging markets that are listed in the geopolitical risk index, expanding the scope, and introducing a sample of developing, and developed economies could be another avenue for future work. Furthermore, due to data availability of our study sample, we considered 20-year period spanning from 1996 to 2015. Another potential extension of the current study is to incorporate more recent data once available, and including the direct and indirect impact of Covid-19, through technology transformation, R&D, investments, etc. Additionally, we provided two possible explanations of the positive impact of geopolitical risk; scholars could extend the current paper by qualitatively addressing the issue.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions and policy implications"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Corresponding author, would like to acknowledge the Ph.D. scholarship from Shaqra University and the Kingdom of Saudi Arabia government",
+            "authors": [
+                {
+                    "first": "Naif",
+                    "middle": [],
+                    "last": "Alsagr",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Stefan Van Hemmen acknowledges the financial support from the Spanish Ministerio de Econom\u00eda, Industria y Competitividad [ECO2017-86305-C4-2-R] and also from AGAUR (Generalitat de Catalunya)",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Modelling for insight: does financial development improve environmental quality?",
+            "authors": [],
+            "year": 2019,
+            "venue": "References Acheampong AO",
+            "volume": "83",
+            "issn": "",
+            "pages": "156--179",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Geopolitical risk, uncertainty and Bitcoin investment",
+            "authors": [
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Mamun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Uddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Suleman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Physica A: Statist Mech Its Appl",
+            "volume": "540",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Dynamics between financial development, tourism, sanitation, renewable energy, trade and total reserves in 19 Asia cooperation dialogue members",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mti",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mni",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Clean Prod",
+            "volume": "179",
+            "issn": "",
+            "pages": "114--131",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Financial development and bioenergy consumption in the EU28 region: evidence from panel autoregressive distributed lag bound approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alsaleh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Abdul-Rahim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Resources",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Study of the environmental Kuznets curve for transport carbon dioxide emissions in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alshehry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Belloumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "75",
+            "issn": "",
+            "pages": "1339--1347",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The effect of financial development on renewable energy consumption. A panel data approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Anton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aea",
+                    "middle": [],
+                    "last": "Nucu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Renew Energy",
+            "volume": "147",
+            "issn": "",
+            "pages": "330--338",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Renewable Energy and its Finance as a Solution to the Environmental Degradation",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Apergis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Environmental Kuznets Curve (EKC)",
+            "volume": "",
+            "issn": "",
+            "pages": "55--63",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The impacts of R&D investment and stock markets on clean energy uses and CO2 emissions in a panel of OECD economies",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Apergis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Paramati",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Greenhouse gas emissions convergence in Spain: evidence from the club clustering approach",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Apergis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Garz\u00f3n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Sci Pollut Res",
+            "volume": "27",
+            "issn": "31",
+            "pages": "38602--38606",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Some tests of specification for panel data: Monte Carlo evidence and an application to employment equations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Rev Econ Stud",
+            "volume": "58",
+            "issn": "2",
+            "pages": "277--297",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Another look at the instrumental variable estimation of error-components models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arellano",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bover",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "J Econ",
+            "volume": "68",
+            "issn": "1",
+            "pages": "29--51",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Sustainable growth in Turkey: the role of trade openness, financial development, and renewable energy use",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ari",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Cergibozan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ind Policy Sustain Growth",
+            "volume": "",
+            "issn": "",
+            "pages": "1--21",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Partisan conflict and private investment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Azzimonti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Monet Econ",
+            "volume": "93",
+            "issn": "",
+            "pages": "114--131",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Measuring economic policy uncertainty",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Davis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Q J Econ",
+            "volume": "131",
+            "issn": "4",
+            "pages": "1593--1636",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Assessing the impact of uncertainty on consumption and investment. Q Rep Euro Area",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Balta",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Fernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ruscher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "QREA)",
+            "volume": "12",
+            "issn": "2",
+            "pages": "7--16",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Sustainability and development after COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Barbier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Burgess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World Dev",
+            "volume": "135",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Energy consumption and economic growth: new insights into the cointegration relationship",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Belke",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dobnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dreger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Energy Econ",
+            "volume": "33",
+            "issn": "5",
+            "pages": "782--789",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Financing modes, risk, efficiency and profitability in Islamic banks: modeling for the GCC countries",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Belkhaoui",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Alsagr",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Van Hemmen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cogent Econ Finance",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Air pollution risks to human health",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bertazzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Intern Emerg Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "31--38",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Switching towards coal or renewable energy? The effects of financial capital on energy transitions",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Best",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Energy Econ",
+            "volume": "63",
+            "issn": "",
+            "pages": "75--83",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Global trends in renewable energy investment",
+            "authors": [],
+            "year": 2014,
+            "venue": "report. Frankfurt School-UNEP Centre",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "How severely does violence deter international investment? Claremont Colleges Economics Departments Working Paper",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Blomberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mody",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "2005--2006",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The impact of uncertainty shocks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Econometrica",
+            "volume": "77",
+            "issn": "3",
+            "pages": "623--685",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Renewable energy consumption amongst the sample countries",
+            "authors": [],
+            "year": null,
+            "venue": "Environ Sci Pollut Res",
+            "volume": "",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Initial conditions and moment restrictions in dynamic panel data models",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Blundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "J Econ",
+            "volume": "87",
+            "issn": "1",
+            "pages": "115--143",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "National energy security assessment in a geopolitical perspective",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bompard",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carpignano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Erriquez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Grosso",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pession",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Profumo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Energy",
+            "volume": "130",
+            "issn": "",
+            "pages": "144--154",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Financial development, economic growth and renewable energy consumption in Russia: a vector error correction approach",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Burakov",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Freidin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Energy Econ Policy",
+            "volume": "7",
+            "issn": "6",
+            "pages": "39--47",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Measuring geopolitical risk. FRB Int Finance Discuss Paper (1222)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Caldara",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iacoviello",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Uncertainty, the economy and policy",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Carney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Effects of financial developments and income on energy consumption",
+            "authors": [
+                {
+                    "first": "S-C",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int Rev Econ Financ",
+            "volume": "35",
+            "issn": "",
+            "pages": "28--44",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Impact of renewable energy consumption and financial development on CO2 emissions and economic growth in the MENA region: a panel vector autoregressive (PVAR) analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Charfeddine",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kahia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Renew Energy",
+            "volume": "139",
+            "issn": "",
+            "pages": "198--213",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Coupling coordination between carbon emissions and the eco-environment in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shahbaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clean Prod",
+            "volume": "276",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "How important are global geopolitical risks to emerging countries?",
+            "authors": [
+                {
+                    "first": "Chj",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-Wj",
+                    "middle": [],
+                    "last": "Chiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int Econ",
+            "volume": "156",
+            "issn": "",
+            "pages": "305--325",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The nexus between financial development and energy consumption in the EU: a dynamic panel data analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "\u00c7oban",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Topcu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Energy Econ",
+            "volume": "39",
+            "issn": "",
+            "pages": "81--88",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Does FDI influence renewable energy consumption? An analysis of sectoral FDI impact on renewable and non-renewable industrial energy consumption",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Doytch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Narayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Energy Econ",
+            "volume": "54",
+            "issn": "",
+            "pages": "291--301",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "The impact of financial development and economic growth on renewable energy consumption: empirical analysis of India",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Eren",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Taspinar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gokmenoglu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci Total Environ",
+            "volume": "663",
+            "issn": "",
+            "pages": "189--197",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Banking crises in developing countries-what crucial role of exchange rate stability and external liabilities?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gaies",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Goutte",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Guesmi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Financ Res Lett",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Financial development and energy consumption: is the MENA region different?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gaies",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kaabia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ayadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Guesmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Abid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Energy Policy",
+            "volume": "135",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Uncertainty, financial frictions, and investment dynamics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gilchrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zakraj\u0161ek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The causal links between economic growth, renewable energy, financial development and foreign trade in gulf cooperation council countries",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Gujarati",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Porter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Int J Energy Econ Policy",
+            "volume": "7",
+            "issn": "2",
+            "pages": "76--85",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The relationship of energy consumption, economic growth and foreign direct investment in Shanghai",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Adv Appl Econ Finance",
+            "volume": "3",
+            "issn": "1",
+            "pages": "507--512",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "ghgemissions?chartType=percentage&end_year=2016&start_ year=1990 International Energy Outlook",
+            "authors": [
+                {
+                    "first": "Ghg",
+                    "middle": [],
+                    "last": "Historical",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Emission",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Measuring the interdependence between investor sentiment and crude oil returns: new evidence from the CFTC's disaggregated reports",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Financ Res Lett",
+            "volume": "30",
+            "issn": "",
+            "pages": "420--425",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "How much does financial development contribute to renewable energy growth and upgrading of energy structure in China",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Energy Policy",
+            "volume": "128",
+            "issn": "",
+            "pages": "114--124",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Analysis of the impact of renewable energy consumption and economic growth on carbon dioxide emissions in 12 MENA countries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kahia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Jebli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Belloumi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clean Techn Environ Policy",
+            "volume": "21",
+            "issn": "4",
+            "pages": "871--885",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Energy indicators for tracking sustainability in developing countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kemmler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Spreng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Energy Policy",
+            "volume": "35",
+            "issn": "4",
+            "pages": "2466--2480",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The heterogeneity of renewable energy consumption, carbon emission and financial development in the globe: a panel quantile regression approach",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Binh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Energy Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "859--867",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Renewable energy, nonrenewable energy consumption, and economic growth",
+            "authors": [
+                {
+                    "first": "Khoshnevis",
+                    "middle": [],
+                    "last": "Yazdi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shakouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Energy Sources Part B: Econ Plan Policy",
+            "volume": "12",
+            "issn": "12",
+            "pages": "1038--1045",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Finance and growth: Schumpeter might be right",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Q J Econ",
+            "volume": "108",
+            "issn": "3",
+            "pages": "717--737",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Financing renewable energy projects in major emerging market economies: evidence in the perspective of sustainable economic development",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kutan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Paramati",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ummalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zakari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Emerg Mark Financ Trade",
+            "volume": "54",
+            "issn": "8",
+            "pages": "1761--1777",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The effect of uncertainty on investment: some stylized facts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Leahy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Whited",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Stock markets, banks, and economic growth",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zervos",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Am Econ Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "537--558",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "ASEAN towards clean and sustainable energy: potentials, utilization and barriers",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lidula",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mithulananthan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ongsakul",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Widjaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Henson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Renew Energy",
+            "volume": "32",
+            "issn": "9",
+            "pages": "1441--1452",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Factors influencing renewable electricity consumption in China",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Omoju",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Okonkwo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "55",
+            "issn": "",
+            "pages": "687--696",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Do real output and renewable energy consumption affect CO2 emissions? Evidence for selected BRICS countries",
+            "authors": [
+                {
+                    "first": "J-L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-Q",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-S",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "X-W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Energies",
+            "volume": "13",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Health effects of ambient air pollution in developing countries",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mannucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Franchini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "14",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Elements of economics of industry, the first vol. of Elements of economics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marshall",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Energy consumption and economic growth: An empirical study of the electricity consumption in Saudi Arabia",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mezghani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Haddad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "75",
+            "issn": "",
+            "pages": "145--156",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "The electricity prices in the European Union. The role of renewable energies and regulatory electric market reforms",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Garc\u00eda-\u00c1lvarez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Energy",
+            "volume": "48",
+            "issn": "1",
+            "pages": "307--313",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "The financial development-renewable energy consumption nexus in the case of Azerbaijan",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mukhtarov",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Humbatova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ng-O",
+                    "middle": [],
+                    "last": "Hajiyev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aliyev",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Energies",
+            "volume": "13",
+            "issn": "23",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "The causal relationship between renewable electricity generation and GDP growth: A study of energy sources",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ohler",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Fetters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Energy Econ",
+            "volume": "43",
+            "issn": "",
+            "pages": "125--139",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "On the determinants of renewable energy consumption: international evidence",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Omri",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Energy",
+            "volume": "72",
+            "issn": "",
+            "pages": "554--560",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "The effect of foreign direct investment and stock market growth on clean energy use across a panel of emerging market economies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Paramati",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ummalla",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Apergis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Energy Econ",
+            "volume": "56",
+            "issn": "",
+            "pages": "29--41",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Renewable energy consumption, urbanization, financial development, income and CO2 emissions in Turkey: testing EKC hypothesis with structural breaks",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Clean Prod",
+            "volume": "187",
+            "issn": "",
+            "pages": "770--779",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Energy Security in Europe",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Petersson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "T\u00f6rnquist-Plewa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "The asymmetric relationship between financial development, trade openness, foreign capital flows, and renewable energy consumption: fresh evidence from panel NARDL investigation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qamruzzaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Jianguo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Renew Energy",
+            "volume": "159",
+            "issn": "",
+            "pages": "827--842",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Impacts of renewable energy consumption on the German economic growth: evidence from combined cointegration test",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rafindadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ozturk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "75",
+            "issn": "",
+            "pages": "1130--1141",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Nonlinear threshold effect of financial development on renewable energy consumption: evidence from panel smooth transition regression approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Qureshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qaiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Sci Pollut Res Int",
+            "volume": "27",
+            "issn": "",
+            "pages": "32034--32047",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "The relationship of renewable energy consumption to stock market development and economic growth in Iran",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Razmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bajgiran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Behname",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Salari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Smj",
+                    "middle": [],
+                    "last": "Razmi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Renew Energy",
+            "volume": "145",
+            "issn": "",
+            "pages": "2019--2024",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "A note on the theme of too many instruments",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Roodman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Oxf Bull Econ Stat",
+            "volume": "71",
+            "issn": "1",
+            "pages": "135--158",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "The impact of financial development on energy consumption in emerging economies",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sadorsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Energy Policy",
+            "volume": "38",
+            "issn": "5",
+            "pages": "2528--2535",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Financial development and energy consumption in Central and Eastern European frontier economies",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sadorsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Energy Policy",
+            "volume": "39",
+            "issn": "2",
+            "pages": "999--1006",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Why do some emerging economies proactively accelerate the adoption of renewable energy?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Salim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rafiq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Energy Econ",
+            "volume": "34",
+            "issn": "4",
+            "pages": "1051--1057",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Impact of economic and financial development on environmental degradation: evidence from small island developing states (SIDS)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Seetanah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Sannassee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fauzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Soobaruth",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Giudici",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aph",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "55",
+            "issn": "",
+            "pages": "308--322",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "UK's net-zero carbon emissions target: investigating the potential role of economic growth, financial development, and R&D expenditures based on historical data",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shahbaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Nasir",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hille",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mahalik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Technol Forecast Soc Chang",
+            "volume": "161",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Millions dead: how do we know and what does it mean? Methods used in the comparative risk assessment of household air pollution",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bruce",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Balakrishnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Adair-Rohani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Balmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chafe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Annu Rev Public Health",
+            "volume": "35",
+            "issn": "",
+            "pages": "185--206",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "The burden of disease from indoor air pollution in developing countries: comparison of estimates",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Int J Hyg Environ Health",
+            "volume": "206",
+            "issn": "4-5",
+            "pages": "279--289",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Proposal for territorial distribution of the EU 2020 political renewable energy goal",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tol\u00f3n-Becerra",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lastra-Bravo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bienvenido-B\u00e1rcena",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Renew Energy",
+            "volume": "36",
+            "issn": "8",
+            "pages": "2067--2077",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "The financial development-energy consumption nexus revisited",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Topcu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Payne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Energy Sources Part B: Econ Plan Policy",
+            "volume": "12",
+            "issn": "9",
+            "pages": "822--830",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "The impact of renewable energy consumption on income inequality: evidence from developed countries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Topcu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tugcu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Renew Energy",
+            "volume": "151",
+            "issn": "",
+            "pages": "1134--1140",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Renewable and non-renewable energy consumption and economic growth relationship revisited: evidence from G7 countries",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tugcu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ozturk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aslan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Energy Econ",
+            "volume": "34",
+            "issn": "6",
+            "pages": "1942--1950",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "United Nations (UN) (2020) Shared responsibility, global solidarity: responding to the socio-economic impacts of COVID-19. UN Secretary General",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Sustainable economic development and greenhouse gas emissions: the dynamic impact of renewable energy consumption",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vasylieva",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Lyulyov",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bilan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Streimikiene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "GDP, and corruption. Energies",
+            "volume": "12",
+            "issn": "17",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Does economic, financial and institutional development matter for renewable energy consumption? Evidence from emerging economies",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Broadstock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int J Econ Policy Emerg Econ",
+            "volume": "8",
+            "issn": "1",
+            "pages": "20--39",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Energy consumption and economic growth in the USA: evidence from renewable energy",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Yildirim",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u015e",
+                    "middle": [],
+                    "last": "Sara\u00e7",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aslan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "16",
+            "issn": "9",
+            "pages": "6770--6774",
+            "other_ids": {}
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Financial development, technology, growth and performance: evidence from the accession to the EU",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zagorchev",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vasconcellos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bae",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Int Financ Mark Inst Money",
+            "volume": "21",
+            "issn": "5",
+            "pages": "743--759",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "The relationship between consumption, investment, export and economic growth in China",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhanfeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhiying",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Role of renewable energy and nonrenewable energy consumption on EKC: evidence from Pakistan",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Clean Prod",
+            "volume": "156",
+            "issn": "",
+            "pages": "855--864",
+            "other_ids": {}
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Exuberance in China's renewable energy investment: rationality, capital structure and implications with firm level evidence",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Energy Policy",
+            "volume": "95",
+            "issn": "",
+            "pages": "468--478",
+            "other_ids": {}
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "Dynamic transmission mechanisms in global crude oil prices: estimation and implications",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kutan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Energy",
+            "volume": "175",
+            "issn": "",
+            "pages": "1181--1193",
+            "other_ids": {}
+        },
+        "BIBREF93": {
+            "ref_id": "b93",
+            "title": "Interactions between renewable energy policy and renewable energy industrial policy: a critical analysis of China's policy approach to renewable energies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Andrews-Speed",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Energy Policy",
+            "volume": "62",
+            "issn": "",
+            "pages": "342--353",
+            "other_ids": {}
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "Driving force of rising renewable energy in China: environment, regulation and employment",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Renew Sust Energ Rev",
+            "volume": "68",
+            "issn": "",
+            "pages": "48--56",
+            "other_ids": {}
+        },
+        "BIBREF95": {
+            "ref_id": "b95",
+            "title": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "This study is based on a panel annual dataset that covers a period of 20 years starting from 1996 to 2015 for all 19 emerging countries listed in the geopolitical risk index including Argentina, Brazil, China, Columbia, Hong Kong, India, Indonesia, Israel, Korea, Malaysia, Mexico, Philippines, Russia, Saudi Arabia, South Africa, Thailand, Turkey, Ukraine, and Venezuela.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "0.006%. In case of explanatory variables, GPR has a mean value of 97.288 with 22.443 variations in GPR.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Abbreviation, measurement, and sources of data",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Correlation matrix",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Renewable energy consumption short-and long-run elasticities",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Two-step system GMM (controlling for financial crises)The dynamic linear modeling (dependent variable: renewable energy consumption)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "p value < 0.01",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Acknowledgments Foremost, the authors would like to express deep and sincere gratitude to Professor Nicholas Apergis and anonymous reviewers for their reviews and insightful comments on the current manuscript. Further, we are extremely grateful to their IDEM program committee for all of thier helpful comments and suggestions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Environ Sci Pollut Res"
+        },
+        {
+            "text": "Availability of data and materials The datasets used in the current study are available from the corresponding author on reasonable request.Authors' contributions VS helped with the write-up and supervised this research work.NA completed the write-up and performed the analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Competing interests The authors declare that they have no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Consent for publication Not applicable Appendix Fig. 1 Geopolitical risk amongst the sample countries Environ Sci Pollut Res",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 48,
+                    "end": 54,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Ethics approval and consent to participate Not applicable"
+        }
+    ]
+}

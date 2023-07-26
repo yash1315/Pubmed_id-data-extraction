@@ -1,0 +1,1886 @@
+{
+    "paper_id": "00a661071f93413e5d86f9c082c2c677fed84a27",
+    "metadata": {
+        "title": "Inaccurate Value at Risk Estimations: Bad Modeling or Inappropriate Data?",
+        "authors": [
+            {
+                "first": "Vasileiou",
+                "middle": [],
+                "last": "Evangelos",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Forecasting accurate Value-at-Risk (VaR) estimations is a crucial task in applied financial risk management. Even though there have been significant advances in the field of financial econometrics, many crises have been documented throughout the world in the last decades. An explanation for this discrepancy is that many contemporary models are too complex and cannot be easily understood and implemented in the financial industry (Fama in to bridge this theory-practice gap, we present a computational method based on the leverage effect. This method allows us to focus on financial theory and remove complexity. Examining the US stock market (2000-2020), we provide empirical evidence that our newly suggested approach, which uses only the most appropriate observation period, significantly increases the accuracy of the Conventional Delta Normal VaR model and generates VaR estimations which are as accurate as those of advanced econometric models, such as GARCH(1,1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The role of the financial system is to allocate resources from lenders/investors to borrowers/enterprises in an efficient way in order to maximize welfare for all (lenders/investors, borrowers/enterprises, and society). A significant aspect of this flow of funds is how the financial system allows risk to be shared and who bears it (Allen et al. 2004) . Therefore, the protection of lenders/investors is vital to the stability of the financial system and largely relies on the ability of lenders/investors to accurately assess the financial risk in their transactions/decisions. For these reasons, the Committee of European Securities Regulators (CESR) introduced a set of regulations (CESR 2010) which focus on financial markets, and the Basel Committee on Banking Supervision (BCBS) issued recommendations (Basel Accords I, II, and III) which focus on the banking industry.",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 352,
+                    "text": "(Allen et al. 2004)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 686,
+                    "end": 697,
+                    "text": "(CESR 2010)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The dominant statistical measure for estimating financial risk is the Value at Risk (VaR). The VaR of an investment is an estimation of the loss that will not be exceeded, with a given significance level, at a specific timeframe. It is a percentile, usually 1% or 5%, 1 of a profit/loss distribution which presents some differences/variances depending on the model the researcher/risk analyst uses, e.g. when the Historical VaR model is applied, VaR is the percentile of the actual x-day past returns; under the Delta Normal VaR model, it is the percentile of the normalized distribution of the last x-day returns (Jorion, 2007) .",
+            "cite_spans": [
+                {
+                    "start": 614,
+                    "end": 628,
+                    "text": "(Jorion, 2007)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The first widely known and complete VaR system was Risk Metrics (Longerstaey & Spencer, 1996) . The need for financial risk information and an increased interest by policy makers on financial risk issues and VaR, in combination with advances in financial econometrics and computer science over the last decades, have led to significant advances in VaR modeling: Monte Carlo (Berkowitz et al. 2011) , the popular GARCH family models (Angelidis et al. 2004; Degiannakis et al. 2012; Engle, 2004) , and the Markov Switching Regime models (Billio & Pelizzon, 2000) . However, some contemporary suggestions, such as Fuzzy VaR, Expected Shortfall models with elliptical distributions (Moussa et al. 2014 , and Extreme Learning Machine (Zhang et al. 2017) , are too complex to be implemented (explained) in the financial industry by (to) non-mathematicians and computer scientists.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 93,
+                    "text": "(Longerstaey & Spencer, 1996)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 374,
+                    "end": 397,
+                    "text": "(Berkowitz et al. 2011)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 432,
+                    "end": 455,
+                    "text": "(Angelidis et al. 2004;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 456,
+                    "end": 480,
+                    "text": "Degiannakis et al. 2012;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 481,
+                    "end": 493,
+                    "text": "Engle, 2004)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 535,
+                    "end": 560,
+                    "text": "(Billio & Pelizzon, 2000)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 678,
+                    "end": 697,
+                    "text": "(Moussa et al. 2014",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 729,
+                    "end": 748,
+                    "text": "(Zhang et al. 2017)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The oxymoron is that despite strict legislation and significant advances in financial econometrics, several crises have emerged throughout the world in the last decades: USA savings and loan crisis (1989) (1990) (1991) , Asian financial crisis (1997) (1998) , Russian financial crisis (1998), Argentine crisis (1999) (2000) (2001) (2002) , Global financial crisis (2007) (2008) , European Sovereign Debt Crisis (2010-today) etc. Advanced VaR models show increased accuracy in forecasting risk. So, why are there so many crises?",
+            "cite_spans": [
+                {
+                    "start": 198,
+                    "end": 204,
+                    "text": "(1989)",
+                    "ref_id": null
+                },
+                {
+                    "start": 205,
+                    "end": 211,
+                    "text": "(1990)",
+                    "ref_id": null
+                },
+                {
+                    "start": 212,
+                    "end": 218,
+                    "text": "(1991)",
+                    "ref_id": null
+                },
+                {
+                    "start": 244,
+                    "end": 250,
+                    "text": "(1997)",
+                    "ref_id": null
+                },
+                {
+                    "start": 251,
+                    "end": 257,
+                    "text": "(1998)",
+                    "ref_id": null
+                },
+                {
+                    "start": 310,
+                    "end": 316,
+                    "text": "(1999)",
+                    "ref_id": null
+                },
+                {
+                    "start": 317,
+                    "end": 323,
+                    "text": "(2000)",
+                    "ref_id": null
+                },
+                {
+                    "start": 324,
+                    "end": 330,
+                    "text": "(2001)",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 337,
+                    "text": "(2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 364,
+                    "end": 370,
+                    "text": "(2007)",
+                    "ref_id": null
+                },
+                {
+                    "start": 371,
+                    "end": 377,
+                    "text": "(2008)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A reason could be that, in practice, the most popular models applied in the financial industry are the conventional and simplest VaR models: the Historical, the Variance-covariance (or Delta Normal), and the Monte Carlo Simulation. 2 Conventional models generate low VaR estimations during the days before a crisis and high VaR estimations when a crisis has already emerged (Vasileiou & Pantos, 2020; Vasileiou & Samitas, 2020) . 3 However, the purpose of VaR should be to timely and accurately inform market participants that a stress period is approaching.",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 400,
+                    "text": "(Vasileiou & Pantos, 2020;",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 401,
+                    "end": 427,
+                    "text": "Vasileiou & Samitas, 2020)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To offer an explanation as to why the advantages of financial econometrics have not been adequately utilized in the industry, some scholars suggest that wider use of advanced models in the financial industry is hindered by the complexity and the increased cost that such advanced systems involve (Vasileiou, 2016) . Eminent scholars highlight the mathematical complexity issue in their work: Fama (1995) notes that in some cases contemporary models are extremely complex for non-mathematicians, and Ross (1993, p. 11 ) characteristically describes such a case using the phrase: \"If you torture the data long enough, it will confess to any crime\".",
+            "cite_spans": [
+                {
+                    "start": 296,
+                    "end": 313,
+                    "text": "(Vasileiou, 2016)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 392,
+                    "end": 403,
+                    "text": "Fama (1995)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 499,
+                    "end": 516,
+                    "text": "Ross (1993, p. 11",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Therefore, this study's main objective is to suggest a methodology that could bridge this theory-practice gap and improve the accuracy of VaR estimations without the need for mathematical complexity. Our goal is to provide investors with accurate, representative, and easy to understand and analyze VaR estimations. This way, investors will be adequately informed of the risk they bear when they invest in a financial asset. This will help address a long-standing problem in financial markets and promote financial stability. In order to achieve our goal, we do not use complex mathematics in the output stage, but we filter the data in the input stage and select the most appropriate data set. In some way, we try to listen to what the data want to say to us, as opposed to torturing the data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We tested our assumptions using the easiest to apply and communicate VaR model, the Delta Normal (or Variance-Covariance) model (Jorion, 2007) . We examined the world's most significant stock market, the US stock market and particularly the S&P500 Index, for the period 2000-2020. During this period, several crises emerged: (a) the dot.com crisis in early 2000, (b) the crisis of 2007-2008, and (c) the crisis of the COVID-19 pandemic in 2020. The empirical results confirm our assumptions: the data filtering procedure significantly improves the accuracy of Conventional Delta Normal VaR (CDNVaR) estimations without the use of complex mathematics.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 142,
+                    "text": "(Jorion, 2007)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 381,
+                    "end": 399,
+                    "text": "2007-2008, and (c)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rest of the paper goes as follows: Sect. 2 analyses the motivation for this study, Sect. 3 presents the theoretical framework of the newly suggested estimation procedure, and Sect. 4 provides empirical evidence of the accuracy of the CDNVaR model and the backtesting results under the current legislation. Section 5 presents the theoretical framework of the new approach/model and empirically shows that the new model is not only significantly more accurate than the CDNVaR models, but also that its estimations are comparable to advanced models such as the widely applied GARCH(1,1) model. Section 6 concludes the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Computer science and advanced estimation techniques enable us to predict and optimize several of our procedures (Aggarwal et al. 2020; Bhardwaj et al. 2020; Sagar et al. 2020) . However, such advances in modeling procedures may sometimes have the opposite than the desired outcome in the social sciences. Computer science enables scholars and financial engineers to use mathematical fitting procedures and allows us to design a complex model which is capable of describing a dataset, but which lacks the appropriate theoretical background. This approach may be accurate when a specific sample is tested, but a model that lacks solid theory will prove inaccurate in the long run.",
+            "cite_spans": [
+                {
+                    "start": 112,
+                    "end": 134,
+                    "text": "(Aggarwal et al. 2020;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 135,
+                    "end": 156,
+                    "text": "Bhardwaj et al. 2020;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 157,
+                    "end": 175,
+                    "text": "Sagar et al. 2020)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Motivation for this Study"
+        },
+        {
+            "text": "Moreover, the complex models: (1) are expensive to implement in the industry, (2) need expertise to take advantage of all of their capabilities, which means highly paid risk analysts, and (3) often require a large number of costly data. These costs could be (and usually are) limited or avoided, especially in medium or small-sized financial institutions. 4 Taking into consideration all the above mentioned, we understand that in order to narrow the theory-practice gap we should present an easy to apply and communicate method which succeeds in producing more accurate VaR estimations. The reason is simple: no matter how accurate and representative the academic models are, only when these models can be easily applied in the financial industry, will they contribute to financial stability.",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 357,
+                    "text": "4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Motivation for this Study"
+        },
+        {
+            "text": "There are studies in the financial literature that either filter the models (Sarma et al. 2003) or the data (Vasileiou, 2017 (Vasileiou, , 2019 . This paper follows the data filtering approach: it assumes that even the simplest and conventional models, such as the CDNVaR model, could be accurate when the appropriate data inputs are chosen. Computer scientists usually describe this issue using the phrase \"Garbage in, Garbage out\". When we use the CDNVaR model, we assume that the upcoming performance is similar to the last x days (data inputs). The x-day observation period is usually subject to some limitations because: (a) legislation suggests that at least a 250day observation period should be used in order to estimate VaR (BCBS, 1995, p. 11; CESR, 2010, p. 26) , 5 and (b) for consistency issues, scholars and practitioners usually use a standard x-observation data inputs period. 6 In our perspective at least two counterarguments emerge:",
+            "cite_spans": [
+                {
+                    "start": 76,
+                    "end": 95,
+                    "text": "(Sarma et al. 2003)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 108,
+                    "end": 124,
+                    "text": "(Vasileiou, 2017",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 125,
+                    "end": 143,
+                    "text": "(Vasileiou, , 2019",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 733,
+                    "end": 752,
+                    "text": "(BCBS, 1995, p. 11;",
+                    "ref_id": null
+                },
+                {
+                    "start": 753,
+                    "end": 771,
+                    "text": "CESR, 2010, p. 26)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Filtering Approach Based on Financial Theory for More Accurate VaR Models"
+        },
+        {
+            "text": "\u2022 why is an observation period equal to or longer than 250 days considered more appropriate than a shorter one?, and \u2022 why should a x-day period be presumed t\u03bf generate the most accurate VaR estimations? In one sub-period, longer (or smaller) data inputs may generate more accurate VaR estimations than the VaR that is estimated by the last x days. Hendricks (1996) provides empirical evidence that simple and conventional VaR models capture market trend changes faster when they are based on the most recent observations than the respective models that are based on longer-term historical data. However, as he shows, the conventional VaR models that are based on short observation periods present an increased number of low deviated violations/overshootings due to measurement error. Therefore, according to his findings, there is a trade-off between representativeness and accuracy. This trade-off is significantly influenced by the length of the observation period which is used in the estimation process. Vasileiou and Samitas (2020) apply the legal requirements and confirm the findings by Hendricks (1996) on short vs. long observation periods. 7 Our goal is to examine whether a model, the CDNVaR model in our study, could become more representative (by capturing market trend changes) and more accurate (by presenting fewer overshootings) when the appropriate data length is used as inputs in the estimation process.",
+            "cite_spans": [
+                {
+                    "start": 349,
+                    "end": 365,
+                    "text": "Hendricks (1996)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1009,
+                    "end": 1037,
+                    "text": "Vasileiou and Samitas (2020)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1151,
+                    "end": 1152,
+                    "text": "7",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data Filtering Approach Based on Financial Theory for More Accurate VaR Models"
+        },
+        {
+            "text": "The CDNVaR method assumes that all asset returns are normally distributed, and the VaR is estimated as below where E(r) is the Expected Change in Index Value which is usually measured by the average daily returns of the last x days, 2.326 is the coefficient at the 99% confidence level (c.l.), 8 and s.d. is the standard deviation of the daily returns of the Index on day t, when x number of lags are used in the estimation process.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theoretical Background, Statistics, and Empirical Evidence of How the Conventional Delta Normal Model works in the Legislative Framework"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theoretical Background, Statistics, and Empirical Evidence of How the Conventional Delta Normal Model works in the Legislative Framework"
+        },
+        {
+            "text": "According to the CDNVaR model, it is assumed that the previous x-day volatility 9 is representative of the future financial risk. Under the Efficient Market Hypothesis (Fama, 1970) , stock prices incorporate all the available information, and the best prediction for the next day's price is the current price. Therefore, the Expected change in portfolio/asset value is usually considered to be zero, which is a reasonable assumption for a short holding period (Linsmeier & Pearson, 2000, p. 53 ). Thus, the following equation is usually applied in the financial industry:",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 180,
+                    "text": "(Fama, 1970)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 460,
+                    "end": 493,
+                    "text": "(Linsmeier & Pearson, 2000, p. 53",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "of the daily returns of the Index t,t\u2212x ,"
+        },
+        {
+            "text": "As Eq. 2 shows, the VaR estimation is exclusively depended on the sd value, which in turn depends on the observation period from which the sd is calculated. The legal framework requires that the history of risk factors should be at least 1 Year (BCBS, 1995, p. 9; CESR, 2010, p. 26) , 10 hence there are regulatory limitations on the only parameter that can significantly influence the estimations of the VaR model. Could the CDNVaR model become more accurate and representative if we remove these limitations? Vasileiou and Pantos (2020) and Vasileiou (2019) show that the mandatory minimum of 250 data inputs may lead to inaccurate VaR estimations, 11 and following their suggestions we remove the 250-observation threshold from our estimation process. Table 1 presents the descriptive statistics of the S&P500 returns during the examined period, 2000-2020, and shows that the returns are not normally distributed: skewness lower than zero, Kurtosis higher than 3, and the Jarque-Bera test quantitatively confirms that the times series does not follow the normal distribution. Figure 1 shows the performance and the daily returns of the S&P500 index during the examined period . We can observe some features that are common in financial time series: (1) the leverage effect because when the prices of the index fall, volatility increases (spikes of the daily returns are bigger), and (2) volatility clustering because volatility appears in bunches (Brooks, 2019) . These findings raise concerns about the accuracy of the CDNVaR model because it generates linear VaR estimations (Eq. 2). The backtesting procedure could confirm (or not) our concerns that the CDNVaR model may not fit our data sample. According to the legal framework, a VaR model is considered accurate when up to four overshootings per 250 VaR estimations (approximately a year) are documented (BCBS, 1996; CESR, 2010) . More than 4 overshootings per year (\"4 overshootings rule\") mean that the model is not accurate at the 99% c.l. and a revision is required, and/or penalties should be imposed. 12 Table 2 shows several versions of the CDNVaR model, when 20-, 125-, 250-, and 500-day observation periods are used. Part (a) of Table 2 presents some descriptive statistics on the VaR backtesting procedure that are not examined by the legislation, but are useful to our analysis. The results indicate: Fig. 1 The performance and the daily returns of the S&P500 Index during the 2000-2020 period 12 The four overshootings rule per year (250 observations) backtesting procedure that the legal framework suggests is similar to the Kupiec test (1995) which is based on the binary distribution and examines only the number of oveshootings during an examined period. Some scholars suggest that if the \"accuracy issue\" is limited only to the \"less than four violations rule\", several moral issues emerge. Popularizing some more advanced backtesting suggestions (Mc Neil and Frey 2000; Mc Neil et al. 2005) , in this study we examine not only the overshooting number but also the difference/deviation between (a) the real losses and the estimated VaR, and (b) the real returns and the estimated VaR. The smaller these deviations are, the more representative of the examined financial conditions the VaR estimations are.",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 263,
+                    "text": "(BCBS, 1995, p. 9;",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 282,
+                    "text": "CESR, 2010, p. 26)",
+                    "ref_id": null
+                },
+                {
+                    "start": 511,
+                    "end": 538,
+                    "text": "Vasileiou and Pantos (2020)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 543,
+                    "end": 559,
+                    "text": "Vasileiou (2019)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1450,
+                    "end": 1464,
+                    "text": "(Brooks, 2019)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1863,
+                    "end": 1875,
+                    "text": "(BCBS, 1996;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1876,
+                    "end": 1887,
+                    "text": "CESR, 2010)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2464,
+                    "end": 2466,
+                    "text": "12",
+                    "ref_id": null
+                },
+                {
+                    "start": 2593,
+                    "end": 2615,
+                    "text": "the Kupiec test (1995)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2923,
+                    "end": 2946,
+                    "text": "(Mc Neil and Frey 2000;",
+                    "ref_id": null
+                },
+                {
+                    "start": 2947,
+                    "end": 2967,
+                    "text": "Mc Neil et al. 2005)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 755,
+                    "end": 762,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1079,
+                    "end": 1087,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2069,
+                    "end": 2076,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2197,
+                    "end": 2204,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 2371,
+                    "end": 2377,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "of the daily returns of the Index t,t\u2212x ,"
+        },
+        {
+            "text": "\u2022 there is an increased number of violations especially after the 2007 crisis, which means that stock markets have presented more non-linearities and fat tails since then, \u2022 the shorter versions of the CDNVaR models (20-and 125-day CDNVaR) present increased adjustment to the financial environment (the highest standard deviations of the VaR estimations), and the lowest average value of deviations 13 when an overshooting is reported (hereafter \"average deviation\"). However, due to the measurement error violate the \"4 overshootings rule\" more times than the other CDNVaR models, \u2022 the longer versions (250-and 500-day CDNVaR) seem to be the most accurate versions amongst the examined, but when overshootings are observed the models present the highest average deviation, and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "of the daily returns of the Index t,t\u2212x ,"
+        },
+        {
+            "text": "According to the legislation, the 250-day and the 500-day CDNVaR models are considered the most accurate amongst the examined models. Both of them fail to meet the 4 overshootings rule in 10 out of the 21 years examined, 14 but they still outperform the 20-and the 125-day CDNVaR which fail to meet the 4 overshootings rule 14 and 11 times, respectively. However, in our opinion, the 250-day CDNVaR model is better than the 500-day CDNVaR model for at least two reasons. Firstly, the average deviation in the 250-day CDNVaR is narrower than the respective measure in the 500-day CDNVaR (on average 0.99% vs 1.16%). 15 Secondly, the narrower and average deviations cannot be attributed to more conservative estimations (the average value of the VaR estimations, hereafter \"average VaR\", are 2.62% and 2.65%, for the 250-day and 500-day CDNVaR, respectively). 16 We consider the 250-day CDNVaR the best amongst the examined models when the total period is examined. However, it is not always the most accurate amongst the examined versions in some sub-periods, e.g. in 2010 and 2016 the 500-day version does not violate the 4 overshootings threshold. Therefore, taking into consideration all the above mentioned findings and comments, the basic hypothesis of our study emerged: could adjustments to the number of observations lead to more accurate VaR estimations?",
+            "cite_spans": [
+                {
+                    "start": 858,
+                    "end": 860,
+                    "text": "16",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "of the daily returns of the Index t,t\u2212x ,"
+        },
+        {
+            "text": "(a) Could the newly suggested approach improve the accuracy of the CDNVaR model? 13 A deviation is equal to next day's real loss minus VaR estimation. 14 The high number of violations is an indication that the linear CDNVaR model is not appropriate for our dataset. 15 When overshootings are documented, Vasileiou (2019) argues that a model should not present increased deviations, provided that the model is not too conservative relative to other examined models. 16 If a model is much more conservative than the CDNVaR models we present in Table 2 (a), e.g. a model with an average VaR value 4%, it will possibly present fewer overshootings than the examined model. It will be more accurate according to the law, but in practice it is just more conservative.",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 268,
+                    "text": "15",
+                    "ref_id": null
+                },
+                {
+                    "start": 304,
+                    "end": 320,
+                    "text": "Vasileiou (2019)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 542,
+                    "end": 549,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "The previous results point to certain drawbacks in the CDNVaR model and underline the need to revise current legal guidelines. Regarding the model, it is known that the CDNVaR may be accurate in normal periods, but fails when fat tails and non-linearities are observed (Jorion, 2007) . The empirical evidence confirmed our assumptions that a linear model, such as the CDNVaR, is not appropriate for our data sample (the best versions of the model fail to meet the 4 overshootings rule in 10 out of the 21 years). How can we make the CDNVaR model non-linear and more accurate?",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 283,
+                    "text": "(Jorion, 2007)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "One avenue to explore is to waive the legal requirement that requires at least 250 observations for estimating VaR and examine whether this can potentially generate more accurate VaR estimations. The findings of Table 2 show that shorter observation periods may produce to more accurate VaR estimations when a financial trend changes because fewer observations lead to significant changes in the s.d. and VaR estimations from day to day (Eq. 2). This allows the model to capture market changes faster than the models that use longer observation periods (Vasileiou & Samitas, 2020) . However, the CDNVaR models that are heavily based on recent observations fail when normal growth periods are examined due to the measurement error (Hendricks, 1996) . Can we reduce the measurement error and improve the CDNVaR estimations? A data filtering approach could be the solution. When the financial conditions are normal the model should adjust data length in order to avoid the measurement error issue. Similarly, when the financial trend changes the model should use a short observation period in order to accurately capture these changes in the financial conditions. So, we should not use a constant data length in order to estimate VaR. Therefore, our goal is to find a procedure/algorithm which selects the most appropriate dataset, so we need to examine in detail how the CDNVaR model works. According to Eq. 2, s.d. is crucial for accurate VaR estimations, thus data length is a significant parameter for accurate VaR estimations. For this reason, we calculate the standard deviations using 20-, 125-, 250-, and 500-day observations, and we empirically test their correlations to the next day's returns. (Following Hull and White's (1998) suggestion, we first present the specific relationship for the previous 21-year period , and then for the 21-year period (2000-2020) under Table 3 (a) and they show that the correlation between volatility and next day returns does not provide any significant information for the upcoming performance of the stock market, even though Fig. 1 shows the existence of the leverage effect. This means that we should make some adjustments in order to appoint the leverage effect. The CDNVaR model relies on past volatility in order to estimate a future worstcase scenario. The specific relationship should be negative because according to the leverage effect standard deviations should increase when crises are coming, and vice versa. VaR tries to capture the worst-case scenario, so perhaps the negative relationship between next day returns and the volatility of the current day can become clearer when we only include negative return days in the correlation estimations.",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 580,
+                    "text": "(Vasileiou & Samitas, 2020)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 730,
+                    "end": 747,
+                    "text": "(Hendricks, 1996)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1702,
+                    "end": 1736,
+                    "text": "(Following Hull and White's (1998)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1843,
+                    "end": 1869,
+                    "text": "21-year period (2000-2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 219,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1876,
+                    "end": 1883,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 2070,
+                    "end": 2076,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "Applying this adjustment to the examined dataset, the leverage effect is revealed in Table 3 (b) where the correlation between next day losses and volatility is negative. Moreover, the results show that the standard deviations of the shorter-term periods (20-day and 125-day) are more representative of the real financial risk than the volatility that is estimated using longer-term observation periods (250-day and 500-day).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 92,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "As far as the optimal data length period is concerned, we can observe that a constant period of data length is not always appropriate. We assume that we are examining the VaR in a period during which the market trend changes, such as the one noted by point A in Fig. 1 , and we apply the 250-day version of the CDNVaR model. The 250-day CDNVaR model in this case uses the last 250 observations of a growth period with low standard deviation in order to estimate the VaR of an upcoming crisis period. In this case, the longer the observation period is, the more inaccurate the VaR estimations (Garbage In, Garbage Out). As the results of Table 2 show, during the year 2007-2008 (to which point A belongs) the longer the observation periods are, the higher the number of overshootings. The model is the same; the data observation period makes the different versions either more accurate or less accurate. Thus, we should not always use a minimum of 250 observations and we should not always use the same number of observations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 268,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 637,
+                    "end": 644,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "The idea of the non-standard number of data observations has been documented in previous studies. Hull and White (1998) suggest that volatility should not only be incorporated in the VaR estimation procedure, but it should also be adjusted in order to reflect the changes in volatility over the historical time period. Duffie and Pan (1997) suggest that when the financial trend changes, each day in the data series should not carry the same weight. Vasileiou (2017) shows that the more representative the data inputs, the better (more accurate and representative) the VaR estimations of the Historical VaR model. Bekiros et al. (2019) show that parametric models are more appropriate for long-term investment horizons, but are not accurate as non-parametric methods for short term investment strategies.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 119,
+                    "text": "Hull and White (1998)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 319,
+                    "end": 340,
+                    "text": "Duffie and Pan (1997)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 450,
+                    "end": 466,
+                    "text": "Vasileiou (2017)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 614,
+                    "end": 635,
+                    "text": "Bekiros et al. (2019)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "Therefore, in the case of the CDNVaR model, a longer period may be appropriate when there is a long-term trend because it reduces the measurement error. However, when the trend changes, from growth to recession (and vice versa), a version that is based on fewer observations may be more appropriate/representative of the current financial conditions because it can capture changes in financial trends faster than a version which is based on longer observation periods.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "The aforementioned studies suggest that there should be a differentiation in the observation weightings and/or the number of observations. Which criterion and which model is the most appropriate? Halbleib and Pohlmeier (2012) provide empirical evidence that data driven combination weights deliver accurate VaR forecasts and Ziggel et al. (2014) show that structural breaks instantly capture market trend changes and improve the accuracy of VaR estimations. However, the latter are not applied in the financial industry due to mathematical complexity.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 225,
+                    "text": "Halbleib and Pohlmeier (2012)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 325,
+                    "end": 345,
+                    "text": "Ziggel et al. (2014)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "In order to estimate the optimal and the most representative observation period, but at the same avoid using complex mathematical equations, we have created an optimization algorithm based on financial theory, which works as follows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "i. it calculates the s.d. using i-lag-periods, where i is more than 20 days, and up to 1,000-day observations, ii. it calculates the correlations of the last 20 and up to 250 pairs of negative returns 17 and their respective standard deviations of the previous day, iii. from the abovementioned correlations, the algorithm selects the optimal i*period which corresponds to the correlation with the minimum value in order to capture the negative fat tails and the leverage effect where n = 20, 21,\u2026,250 last pairs of negative returns and standard deviations values, and iv. the optimal VaR following Eq. (2) is estimated by the optimal lag where t = the VaR estimation for the day t, and i* = the optimal sd period of each day.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "The algorithm examines the data and suggests an optimal data length observations period; this leads to an optimal sd for more accurate VaR estimations. That is why we use the name Optimal Standard Deviation Delta Normal VaR (OSDDN-VaR) to refer to this new version of the Delta Normal model. This way depending on the financial trend, the data input period varies, and the CDNVaR model turns from parametric to non-parametric. The newly suggested model is not mathematically complex. It just employs an additional data filtering method which is based on the leverage effect and slightly modifies the CDNVaR model and turns it into the OSDDNVaR. With this filtering procedure we do not torture the data, but we listen to\u2026what they want to tell us. Figure 2 graphically presents the steps of the estimation procedure of the OSDDN-VaR model, and Table 3 shows the results of the OSDDNVaR model.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 747,
+                    "end": 755,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 843,
+                    "end": 850,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "If we compare the results of the CDNVaR models in Table 2 and the results of the OSDDNVaR model in Table 4 , we observe that the newly suggested approach (3) min(correlation n (negative return days; i\u2212day standard deviation),",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 50,
+                    "end": 57,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 99,
+                    "end": 106,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "significantly improves the accuracy of CDNVaR models. Particularly, the OSDDN-VaR model presents the lowest number of overshootings during the examined period and violates the \"4 overshootings per year\" threshold in 6 years out of the 21 years examined, while the best CDNVaR model, the 250-day CDNVaR model, violates the respective rule in 10 years in the same examined period. Moreover, it presents on average lower deviations when an overshooting is recorded (the average value the OSDNVaR Violations Differences is \u2212 0.79%, and the respective value of the 250-observation CDNVaR model is \u2212 0.99%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "(b) Could the estimations of the OSDDNVaR model be comparable to the estimations of advanced models?",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "The main goal of our study has been accomplished: the filtering procedure significantly improved the accuracy of the CDNVaR model. The next step in our study is to examine whether the accuracy of OSDDNVaR model could be compared to advanced VaR model such as the GARCH (1,1). We use the following set of equations where \u03b5 t is the error term, z t is an i.i.d. random variable with zero mean and variance one. 2 t is the conditional variance. The results of the GARCH (1,1) model which uses 500 observations are presented in Table 3 . In contrast to Table 2 , we do not (Angelidis et al. 2004; Lundbergh & Ter\u00e4svirta, 2002) . 18 The results show that the GARCH(1,1) model is more conservative than the OSDDNVaR model (average value of VaR estimations with GARCH (1,1) model is \u2212 2.72% and \u2212 2.67% with the OSDDNVaR model). This could be an explanation for the lower number of violations that the GARCH (1,1) model presents during the examined period relative to the OSDDNVaR model (number of total overshootings GARCH(1,1) 75 vs OSDDNVaR 85), as well as an explanation for the lower deviations when violations are observed (GARCH average deviation 0.79% vs 0.65%).",
+            "cite_spans": [
+                {
+                    "start": 569,
+                    "end": 592,
+                    "text": "(Angelidis et al. 2004;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 593,
+                    "end": 622,
+                    "text": "Lundbergh & Ter\u00e4svirta, 2002)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 625,
+                    "end": 627,
+                    "text": "18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 524,
+                    "end": 531,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 549,
+                    "end": 556,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "On the one hand, the OSDDNVaR outperforms the GARCH(1,1) according to the legislation because the former model fails to meet the 4 overshootings threshold per year in 6 out of the 21 examined years, while the latter fails in 7 out of the 21 years. On the other hand, we should mention that when the OSDDNVaR model fails to meet the \"4 overshootings\" rule, it presents in most of the cases a higher number of overshootings per year than the GARCH(1,1). 19 Therefore, the newly suggested approach which is based on financial theory and does not use complex mathematics, not only significantly improves the VaR estimation of a conventional model, but also appears to be as accurate as the advanced and widely accepted GARCH(1,1) VaR model. The non-constant observation period offers flexibility to the model and allows it to use the most appropriate data length period in order to provide the best possible VaR estimations. This approach could be applied in advanced models, such as the GARCH family models. The filtering method will again suggest the optimal data observation period and the accuracy of the estimations will further improve.",
+            "cite_spans": [
+                {
+                    "start": 452,
+                    "end": 454,
+                    "text": "19",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Newly Suggested Data Filtering Approach: Theory, Practice, and Improved Accuracy"
+        },
+        {
+            "text": "This study shows that a model may be more accurate when the appropriate data are used in the estimation process. When the CDNVaR model is applied, the accuracy of the model's estimation depends on the appropriate data length. On the one hand, a short observation period may be more appropriate for accurate VaR estimations during periods of changes in the financial trend, but during normal periods the short observation data inputs may lead to measurement errors. On the other hand, longer observation periods may be a solution for the measurement error, but when the financial trend changes, there are a lot of inappropriate data included in the estimation process, which leads to inaccurate VaR estimations for the upcoming period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Thus, why should we always use the same data length? We employ a new algorithm which is based on the \"leverage effect\" and which enables us to use the most appropriate data length depending on the financial conditions. The results show that this procedure significantly improves the accuracy of the CDNVaR model and the new OSDDNVaR version is as accurate as a GARCH (1,1) model. This procedure, with the appropriate adjustments, could also be used with other advanced models, such as a GARCH family model, in order to improve their accuracy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Our conclusion is that in many cases the models are not inaccurate; the data inputs make them inaccurate (Garbage In, Garbage Out). Complex mathematical models may generate to more accurate VaR estimations, but they have many drawbacks in their implementation. These drawbacks lead to theory-practice gaps. A data filtering approach could provide a computational solution based on financial theory and produce more accurate VaR estimations without resorting to complex mathematical models. This way we present an approach that significantly improves the accuracy of the existing VaR models, can be easily applied and understood, and can contribute to financial stability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Landslide data analysis using various time-series forecasting models",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aggarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alshehri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Alfarraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pardasani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computers & Electrical Engineering",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Financial systems in Europe, the USA, and ASIA",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chui",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Maddaloni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Oxford Review of Economic Policy",
+            "volume": "20",
+            "issn": "4",
+            "pages": "490--508",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The use of GARCH models in VaR estimation",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Angelidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Benos",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Degiannakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Statistical methodology",
+            "volume": "1",
+            "issn": "",
+            "pages": "105--128",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "An internal model-based approach to market risk capital requirements",
+            "authors": [],
+            "year": 1995,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Supervisory framework for the use of backtesting in conjunction with the internal models approach to market risk capital requirements",
+            "authors": [],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "International convergence of capital measurement and capital standards. A revised framework. Comprehensive version. Bank for International Settlements",
+            "authors": [],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Tail-related risk measurement and forecasting in equity markets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bekiros",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Loukeris",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Eleftheriadis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Avdoulas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Computational Economics",
+            "volume": "53",
+            "issn": "2",
+            "pages": "783--816",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Evaluating value-at-risk models with desk-level data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Berkowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Christoffersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pelletier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Management Science",
+            "volume": "57",
+            "issn": "12",
+            "pages": "2213--2227",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Penetration testing framework for smart contract Blockchain. Peer-to-Peer Networking and Applications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bhardwaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B H"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shankar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alazab",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gadekallu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Value-at-risk: a multivariate switching regime approach",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Billio",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pelizzon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Empirical Finance",
+            "volume": "7",
+            "issn": "5",
+            "pages": "531--554",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Transparency in the financial system: Rollover risk and crises",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouvard",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chaigneau",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Motta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "The Journal of Finance",
+            "volume": "70",
+            "issn": "4",
+            "pages": "1805--1837",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Introductory econometrics for finance",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Brooks",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "CESR's guidelines on risk measurement and the calculation of global exposure and counterparty risk for UCITS",
+            "authors": [],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "10--788",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Evaluating value-at-risk models before and after the financial crisis of 2008: International evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Degiannakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Floros",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Livada",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Managerial Finance",
+            "volume": "38",
+            "issn": "4",
+            "pages": "436--452",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "An overview of value at risk",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Duffie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Journal of derivatives",
+            "volume": "4",
+            "issn": "3",
+            "pages": "7--49",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Risk and volatility: Econometric models and financial practice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Engle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "The American Economic Review",
+            "volume": "94",
+            "issn": "3",
+            "pages": "405--420",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Efficient capital markets: A review of theory and empirical work",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fama",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "The Journal of Finance",
+            "volume": "25",
+            "issn": "2",
+            "pages": "383--417",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Random walks in stock market prices",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fama",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Financial Analysts Journal",
+            "volume": "51",
+            "issn": "1",
+            "pages": "75--80",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Improving the value at risk forecasts: Theory and evidence from the financial crisis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Halbleib",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pohlmeier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Journal of Economic Dynamics and Control",
+            "volume": "36",
+            "issn": "8",
+            "pages": "1212--1228",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Evaluation of value-at-risk models using historical data (digest summary). Economic Policy Review Federal Reserve Bank",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hendricks",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "39--67",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Incorporating volatility updating into the historical simulation method for value-at-risk",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hull",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Journal of Risk",
+            "volume": "1",
+            "issn": "1",
+            "pages": "5--19",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Financial risk manager handbook",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jorion",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "406",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Techniques for verifying the accuracy of risk measurement models",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kupiec",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "The Journal of Derivatives",
+            "volume": "3",
+            "issn": "2",
+            "pages": "73--84",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Value at risk",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Linsmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pearson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Financial Analysts Journal",
+            "volume": "56",
+            "issn": "",
+            "pages": "47--67",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Riskmetricstm-technical document",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Longerstaey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Spencer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Evaluating GARCH models",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lundbergh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ter\u00e4svirta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of Econometrics",
+            "volume": "110",
+            "issn": "2",
+            "pages": "417--435",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Estimation of tail-related risk measures for heteroscedastic financial time series: An extreme value approach",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcneil",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Frey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Journal of Empirical Finance",
+            "volume": "7",
+            "issn": "3-4",
+            "pages": "271--300",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Quantitative risk management: Concepts, techniques and tools",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcneil",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Frey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Embrechts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Fuzzy value-at-risk and expected shortfall for portfolios with heavy-tailed returns",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Moussa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kamdem",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Terraza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Economic Modelling",
+            "volume": "39",
+            "issn": "",
+            "pages": "247--256",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Is beta useful?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Association for Investment Management and Research",
+            "volume": "1993",
+            "issn": "",
+            "pages": "11--15",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Use of codes data to improve estimates of atfault risk for elderly drivers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stamatiadis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Accident Analysis & Prevention",
+            "volume": "144",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Selection of Value-at-Risk models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sarma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Journal of Forecasting",
+            "volume": "22",
+            "issn": "4",
+            "pages": "337--358",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Overview of the Greek value at risk (VaR) legislation framework",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasileiou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Financial Regulation and Compliance",
+            "volume": "24",
+            "issn": "2",
+            "pages": "213--226",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Value at Risk (VaR) historical approach: Could it be more historical and representative of the real financial risk environment?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasileiou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Theoretical Economics Letters",
+            "volume": "7",
+            "issn": "",
+            "pages": "951--974",
+            "other_ids": {
+                "DOI": [
+                    "10.4236/tel.2017.74065"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Accuracy versus complexity trade-off in VaR modeling: Could technical analysis be a solution",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasileiou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Journal of Financial Management, Markets and Institutions",
+            "volume": "7",
+            "issn": "02",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "What do the value-at-risk measure and the respective legislative framework really offer to financial stability? Critical views and pro-cyclicality",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasileiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pantos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "European Journal of Economics and Economic Policies: Intervention",
+            "volume": "17",
+            "issn": "1",
+            "pages": "39--60",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Value at risk, legislative framework, crises, and procyclicality: What goes wrong?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vasileiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Samitas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Review of Economic Analysis",
+            "volume": "12",
+            "issn": "3",
+            "pages": "345--369",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Calculating Value-at-Risk for highdimensional time series using a nonlinear random mapping model",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Economic Modelling",
+            "volume": "67",
+            "issn": "",
+            "pages": "355--367",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A new set of improved Value-at-Risk backtests",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ziggel",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Berens",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Wei\u00df",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wied",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Journal of Banking & Finance",
+            "volume": "48",
+            "issn": "",
+            "pages": "29--41",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Graphical presentation of the estimation procedure of the OSDDN VaR model include 20-day, 125-day, and 250-day observation versions for the GARCH (1,1) model due to issues with the Hessian matrix. Most studies that examine the issue of the appropriate length of inputs in GARCH models use more than 250 observations",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Descriptive statistics of the S&P500 daily returns during 2000-2020 *Statistical significance at 1% significance level",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Back-testing results (99% c.l.) of the conventional delta-normal models",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Correlations between next day returns and the standard deviations",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Back-testing results (99% c.l.) of the OSDDNVaR and GARCH(1,1) models Part (b) reports the backtesting results. Italics indicate the years in which the \"4 overshootings rule\" is violated because shorter observation periods lead to problems of convergence of Maximum Likelihood Estimator (MLE) for obtaining GARCH parameters",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "The research is based only on data, no human/animal participation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Informed consent"
+        },
+        {
+            "text": "Sum of overshootings 85 75More than 4 overshootings per year 6 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

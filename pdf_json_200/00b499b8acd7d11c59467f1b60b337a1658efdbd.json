@@ -1,0 +1,644 @@
+{
+    "paper_id": "00b499b8acd7d11c59467f1b60b337a1658efdbd",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "S evere acute respiratory syndrome coronavirus-2 (SARS-CoV-2) is a novel coronavirus, first identified in Wuhan, China, in late 2019 (1) , that has rapidly expanded to become a worldwide pandemic. The spectrum of symptomatic coronavirus disease 2019 (COVID-19) disease ranges from mild, nonspecific influenza-like symptoms, to a second stage characterized by progressive hypoxia and pulmonary infiltrates. The most severe stage of the illness, characterized by the production of multiple cytokines, results in endorgan dysfunction, hypercoagulability, and increased mortality. Although no specific therapy has been identified and validated in clinical trials, tocilizumab has been suggested as a possible immunomodulatory agent to offset what has been referred to as the cytokine storm (2) . Numerous studies have reviewed the utility of tocilizumab with varying results (2) (3) (4) (5) (6) (7) .",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 136,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 786,
+                    "end": 789,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 871,
+                    "end": 874,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 875,
+                    "end": 878,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 879,
+                    "end": 882,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 883,
+                    "end": 886,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 887,
+                    "end": 890,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 891,
+                    "end": 894,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This study was designed to identify the utility and timing of tocilizumab dosing for critically ill patients infected with SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This study was conducted by Metro Infectious Disease Consultants (MIDC), a fully integrated infectious disease (ID) private practice composed of 108 ID physicians. This was a multicenter study evaluating patients requiring mechanical ventilation (MV) for a SARS-CoV-2 infection who were admitted between March 13, 2020, and April 16, 2020. Patients were evaluated retrospectively and concurrently through chart review and direct interactions with the prescribing MIDC physician. This study was independently approved by Western Institutional Review Board (2660026-44769273). Tocilizumab was prescribed at the discretion of the ID physician with consideration of local hospital treatment protocols. Variables for evaluation included the patient's age, sex, race, date of admission, time from admission to MV, usage of steroids, hydroxychloroquine and azithromycin in combination, and remdesivir therapy. Comorbidities evaluated included age greater than 60 years old, diabetes, chronic obstructive pulmonary disease, bronchospastic illness, chronic cardiac or renal disease, immunodeficiency, or neoplastic disease. The tocilizumab dose was recorded by the timing of administration in relation to the date of hospital admission and MV. Early dosing was defined as a tocilizumab dose administered prior to or within 1 day of intubation. Late dosing was defined as a dose administered greater than 1 day after intubation. Markers of inflammation including ferritin, d-dimer, lactate dehydrogenase, and C-reactive protein were recorded at the time of dosing for the treatment group and time of intubation for the control group. Patient dispositions were recorded as discharged from the hospital or expired.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "Descriptive statistics for baseline patient characteristics, clinical variables, and outcomes were summarized using means and sds for continuous variables and counts and percentages for categorical variables. Continuous outcomes were evaluated using t tests. chi-square tests or Fisher exact tests were used to evaluate categorical outcomes. Potential confounding variables including age, gender, race, and comorbidities were adjusted for using propensity score methods. Propensity scores, defined as the probability of being in either intervention group, were calculated from a regression model with the dose timing (early vs late) as the outcome and baseline demographic and clinical variables of each participant as predictor variables. To adjust the sample for these baseline confounding variables, the propensity scores were converted to weights (inverse probability of treatment weights), and the outcomes were then compared using weighted versions of the chi-square test or Fisher exact test for categorical outcomes or a weighted version of the t test for continuous outcomes. p values for both the unadjusted and weighted versions of the tests are reported.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "To confirm robustness of the propensity score weighted test results, multivariable regression models were also fit for each outcome, adjusting for baseline patient demographic variables. Statistical significance for all methods was defined as a p value of less than or equal to 0.05.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "One-hundred eighteen hospitalized patients who required MV were evaluated from 23 hospitals in four states and were treated by 25 individual MIDC physicians ( Table 1) . Of these, 81 patients received tocilizumab with 37 treated early and 44 late. An additional 37 control patients were treated with standard of care only, excluding tocilizumab therapy (untreated).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 167,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The average age for all patients was 58.2 years, 62.3 for untreated patients, and 56.3 for those treated with tocilizumab. Seventy-five of the patients (63.6%) were male. Forty-five patients (38%) were White, and 73 patients (62%) were non-White. Comorbidities were present in 82 patients (69.5%). Seventy-six patients (64.4%) received steroid therapy, and 116 (98.3%) received hydroxychloroquine and azithromycin in combination at standard doses. Inflammatory markers were elevated in all patients. Table 1 shows the baseline demographics and clinical characteristics of all the patients who were included in the study, as well as the comparisons of those who received tocilizumab and those who were untreated. Both the unadjusted and propensity score weighted results show no significant differences in any baseline demographic or clinical characteristics between patients who received tocilizumab and patients who did not.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 500,
+                    "end": 507,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Overall, 61 patients (51.7%) expired, 40 of which received tocilizumab and 21 were untreated (p = 0.285). Control group patients were placed on MV an average of 4.29 days from hospital admission compared with patients who received tocilizumab early, 2.84 days, and late, 2.5 days. Table 2 shows the logistic regression model with mortality as the outcome, and tocilizumab therapy, steroid use, and demographics as predictor variables. These results confirm the propensity score weighted results, showing no significant difference in the odds of mortality for all patients receiving tocilizumab regardless of timing compared with patients who were untreated, holding all other covariates constant (odds ratio [ Of the 37 patients who received tocilizumab early, six (16.2%) expired, compared with 21 of the 37 untreated patients (56.8%) (p = 0.002). Table 3 shows the results of a logistic regression model with mortality as the outcome, and early tocilizumab therapy, steroid use, and demographics as predictor variables. These results confirm the propensity score weighted results, as early tocilizumab therapy was associated with a statistically significant decrease in mortality as compared to patients who were untreated, holding all other covariates constant (OR [95% CI] = 0.15 [0.04-0.50]; p = 0.003).",
+            "cite_spans": [
+                {
+                    "start": 708,
+                    "end": 709,
+                    "text": "[",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 281,
+                    "end": 288,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 849,
+                    "end": 856,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Thirty-four of 44 patients (77.3%) who received tocilizumab late expired compared with 21 of 37 patients (56.8%) who were untreated (p = 0.006). Table 4 shows the results of a logistic regression model with mortality as the outcome, and late tocilizumab therapy, steroid use, and demographics as predictor variables. These results show the odds of mortality are ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 152,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "We present a multicenter, multistate, observational study that displays a real-time evaluation of tocilizumab usage in community hospitals for critically ill SARS-CoV-2 infected patients. Most therapeutic agents presently used for SARS-CoV-2 have recommended guidelines suggesting the most efficacious timing for administration (8, 9) .This timing has not been defined for tocilizumab secondary to conflicting data on mortality benefits. With a paucity of clinically effective SARS-CoV-2 therapies available, the timing of a therapeutic dosing window for tocilizumab is essential. This study suggests that early tocilizumab administration is associated with a mortality benefit in a critically ill SARS-CoV-2 infected patient population.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 331,
+                    "text": "(8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 332,
+                    "end": 334,
+                    "text": "9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Multiple reports have previously reviewed the impact of tocilizumab therapy on mortality. Results have varied significantly with several publications failing to show a mortality benefit. These studies suffer from a retrospective design, a potential type 2 error, and/ or lack of a control group. Minimal data comparing the timing of tocilizumab dosing to MV are available. A randomized, placebo-controlled trial not yet published showed no statistically significant mortality benefit (5) . The timing of tocilizumab was not reported but addressed in their discussion. Fewer treatment failures (progression to MV, ICU admission, or death) occurred in the tocilizumab treated group than patients who received placebo. This suggests ",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 487,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Critical Care Explorations www.ccejournal.org that the timing of tocilizumab administration is critical to a patient's outcome. In contrast, several trials have shown a positive clinical impact when tocilizumab is given prior to intubation or when oxygenation requirements markedly increase. A randomized, placebo-controlled trial, yet to be released, claims that tocilizumab reduces the need for MV in SARS-CoV-2 infected patients (10). Mortality rates for patients requiring MV are significant and have varied from 24.5% to 79% (11, 12) . Overall, 51.7% of the patients in our study expired. A statistically significant mortality differential was characterized by the timing of the tocilizumab administration. Patients who received an early tocilizumab dose showed a statistically significant decrease in mortality as compared to patients who were untreated (16.22% vs 56.76%; p < 0.001), after adjusting for demographic characteristics and steroid use. In addition, patients in the control group were placed on MV later than patients in the early and late treatment groups, suggesting a slower or less fulminant disease. As has been delineated in other studies, non-White and elderly patients were more likely to succumb to their illness. Although we did not identify any secondary infections in our patient population, several authors have reported an increase with tocilizumab therapy (13) .",
+            "cite_spans": [
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "(11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1390,
+                    "end": 1394,
+                    "text": "(13)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Original Clinical Report"
+        },
+        {
+            "text": "A statistically significant increase in mortality was associated with tocilizumab administration later than 1 day after intubation (p = 0.006). This suggests that the administration of tocilizumab is not only ineffective, but potentially deleterious, if given later in a critically ill patient's course. The etiology of this potentially enhanced decompensation is unclear. Explanations for this outcome include selection bias of a more critically ill population, higher levels of interleukin-6 (14), or an inability to diminish the cytokine storm due to a delay in treatment. The results of this relatively small series should be interpreted cautiously, as further randomized studies will be needed to define this predisposition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Original Clinical Report"
+        },
+        {
+            "text": "With a disease process that is difficult to control and predict, timing of effective therapies is essential. A delay in tocilizumab therapy is associated with a statistically significant increase in mortality regardless of sex, age, race, steroid therapy, or the presence of comorbidities. Accordingly, in an effort to optimize favorable outcomes, hospitals will need to identify barriers to early dosing. Although the etiology of delay for individual patients is difficult to define, several have been identified. These include lack of drug availability, restrictive protocol requirements, or lack of consensus between consulting physicians. These data should hopefully stimulate our clinical and administrative colleagues to work collaboratively to reduce these obstructions to care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Original Clinical Report"
+        },
+        {
+            "text": "Our study has certain limitations. This study was observational, and we did not formally evaluate patients for hepatitis B or latent tuberculosis. Although no baseline characteristics were statistically significant between our groups, patients who received tocilizumab were also treated with antibiotics, anticoagulants, and steroid therapy in varying combinations. Accordingly, it is difficult to identify the most clinically influential modality or optimal therapeutic combination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Original Clinical Report"
+        },
+        {
+            "text": "To date, no prospective randomized studies analyzing the combination of all potential COVID treatment modalities within a specific therapeutic window have been published. Pending the availability of these data, our study provides guidance to clinicians striving to identify the most efficacious timing for tocilizumab therapy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Original Clinical Report"
+        },
+        {
+            "text": "The presented data support a mortality benefit of early tocilizumab therapy, within 1 day of intubation, and a possible detriment to later dosing. We strongly encourage the use of tocilizumab earlier in the COVID-19 treatment spectrum. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization: Novel Coronavirus-China",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Tocilizumab treatment for cytokine release syndrome in hospitalized COVID-19 patients: Survival and clinical outcomes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Altice",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shyr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chest",
+            "volume": "158",
+            "issn": "",
+            "pages": "1397--1408",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Tocilizumab for treatment of patients with severe COVID-19: A retrospective cohort study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kewan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Covut",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al-Jaghbeer",
+                    "middle": [],
+                    "last": "Mj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EClinicalMedicine",
+            "volume": "24",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Tocilizumab for treatment of mechanically ventilated patients with COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Somers",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Eschenauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Troost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Tocilizumab in hospitalized patients with COVID-19 pneumonia. medRxiv. Preprint posted online",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rosas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Br\u00e4u",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Waters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVIDOSE: Low-dose tocilizumab in the treatment of COVID-19. medRxiv. Preprint posted online",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Strohbehn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Heiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rouhani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "HNF Hospital Tocilizumab multidisciplinary team: Impact of tocilizumab on mortality and/or invasive mechanical ventilation requirement in a cohort of 206 COVID-19 patients",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Klopfenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zayet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lohse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "99",
+            "issn": "",
+            "pages": "491--495",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "RECOVERY Collaborative Group: Dexamethasone in hospitalized patients with COVID-19 -Preliminary report",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Horby",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Emberson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "384",
+            "issn": "",
+            "pages": "693--704",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "National Institutes of Health: COVID-19 Treatment Guidelines",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Genentech's Phase III EMPACTA Study Showed Actemra Reduced the Likelihood of Needing Mechanical Ventilation in Hospitalized Patients With COVID-19 Associated Pneumonia",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Genentech A Member Of The Roche Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Mortality rates of patients with COVID-19 in the intensive care unit: A systematic review of the emerging literature",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Quah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Phua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "19 Quality and Clinical Research Collaborative: ICU and ventilator mortality among critically ill adults with coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "Covid-",
+                    "middle": [],
+                    "last": "Emory",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care Med",
+            "volume": "48",
+            "issn": "",
+            "pages": "799--804",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "IL-6 inhibition in critically ill COVID-19 patients is associated with increased secondary infections",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kimmig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "19 Working Group: Safety and efficacy of anti-il6-receptor tocilizumab use in severe and critical patients affected by coronavirus disease 2019: A comparative analysis",
+            "authors": [
+                {
+                    "first": "Covid",
+                    "middle": [],
+                    "last": "Niguarda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "",
+            "pages": "11--17",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "OR] [95% CI] = 0.828 [0.34-1.98]; p = 0.670).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Baseline Demographics and Clinical Characteristics-Tocilizumab Versus No Tocilizumab",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Logistic Regression With Mortality as the Outcome-Tocilizumab Versus No Tocilizumab",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Logistic Regression With Mortality as the Outcome-Early Tocilizumab Versus No Tocilizumab",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Logistic Regression With Mortality as the Outcome-Late Tocilizumab Versus No TocilizumabOR = odds ratio.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "All authors: Metro Infectious Disease Consultants, Burr Ridge, IL.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

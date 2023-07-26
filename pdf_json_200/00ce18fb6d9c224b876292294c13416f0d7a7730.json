@@ -1,0 +1,2288 @@
+{
+    "paper_id": "00ce18fb6d9c224b876292294c13416f0d7a7730",
+    "metadata": {
+        "title": "Deressa and Duressa Advances in Difference Equations Analysis of Atangana-Baleanu fractional-order SEAIR epidemic model with optimal control",
+        "authors": [
+            {
+                "first": "Chernet",
+                "middle": [
+                    "Tuge"
+                ],
+                "last": "Deressa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Jimma University",
+                    "location": {
+                        "settlement": "Jimma",
+                        "country": "Ethiopia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gemechis",
+                "middle": [
+                    "File"
+                ],
+                "last": "Duressa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We consider a SEAIR epidemic model with Atangana-Baleanu fractional-order derivative. We approximate the solution of the model using the numerical scheme developed by Toufic and Atangana. The numerical simulation corresponding to several fractional orders shows that, as the fractional order reduces from 1, the spread of the endemic grows slower. Optimal control analysis and simulation show that the control strategy designed is operative in reducing the number of cases in different compartments. Moreover, simulating the optimal profile revealed that reducing the fractional-order from 1 leads to the need for quick starting of the application of the designed control strategy at the maximum possible level and maintaining it for the majority of the period of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Epidemiological mathematical models provide several aspects for understanding the dynamics of the spread of an epidemic and suggestions of effective control strategies. The insight that the transmission dynamics of endemic diseases can be formulated using mathematical language dates back to 1766 when Daniel Bernoulli published a paper where he described the effects of smallpox variolation on life expectancy [1] . Other early mathematical models in epidemiology were introduced in 1927 when Kermack and McKendrick published a series of papers that described the dynamics of disease transmission in terms of a system of differential equations [2] .",
+            "cite_spans": [
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 494,
+                    "end": 505,
+                    "text": "Kermack and",
+                    "ref_id": null
+                },
+                {
+                    "start": 645,
+                    "end": 648,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Since the beginning of the widespread use of mathematical models for public health making, a large number of studies and publications have been made on modeling and analysis of epidemiological diseases. However, the majority of the studies were restricted to integer-order differential equations. For instance, the global stability of the SEIR and SEIAHR epidemic models with integer derivatives and different saturating contact rates were investigated in [3] [4] [5] [6] . A delayed SIRS epidemic model with integer-order derivative involving saturation incidence and temporary immunity is studied in [7] . An epidemic stochastic mathematical model with integer order is used to predict the spread of coronavirus in [8] . A mathematical model is used to study correlation between the weather conditions and the COVID-19 pandemic in India by Borah et al. [9] .",
+            "cite_spans": [
+                {
+                    "start": 456,
+                    "end": 459,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 460,
+                    "end": 463,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 464,
+                    "end": 467,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 468,
+                    "end": 471,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 602,
+                    "end": 605,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 717,
+                    "end": 720,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 855,
+                    "end": 858,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It has recently been turned out that fractional differential equations can successfully be used to model several phenomena in different fields including epidemiology [1] . Fractional calculus is a branch of mathematical analysis that studies calculus of derivatives and integrals of arbitrary orders.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 169,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The advantage of describing mathematical models using fractional derivatives is their nonlocal property in the sense that the nth derivative of a function g(x) at x is a local property only when n is an integer, whereas a noninteger fractional derivative of g(x) at x = b depends on all values of g(x) including those far away from b. In other words, in the case of fractional-order derivative, since it involves derivatives and integrals of arbitrary real or complex orders, the future state depends on the present and previous states. Using fractional-order derivatives in modeling, a dynamic system helps to describe the hereditary properties and efficacy (effectiveness, usefulness) of the memory as essential features in many biological mechanisms [10] .",
+            "cite_spans": [
+                {
+                    "start": 753,
+                    "end": 757,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Many authors contributed to the development of fractional calculus starting from 1695 when L'Hospital asked Leibniz, what if the order of a derivative is n = 1/2? Some of the other contributors include Euler in 1730 and Lagrange in 1849. In 1812, Laplace defined a fractional derivative using an integral, and in 1819 the derivative of arbitrary order appears in a text by Lacroix. Other prominent names in fractional derivatives and integrals include Reimann-Liouville, Hadamard, Caputo, Caputo-Fabrizio, and more recently Atangana-Baleanu. More historical notes and the nature of fractional calculus can be obtained in [11, 12] and the references therein.",
+            "cite_spans": [
+                {
+                    "start": 621,
+                    "end": 625,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 626,
+                    "end": 629,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In his recent publication, Atangana [13] exposed several previous mistakes and made corrections to the use of fractional calculus related to the fundamental theorem of calculus. Baleanu et al. [14] developed a fractional model for a tumor-immune surveillance mechanism and investigated the effect of chemotherapy treatment on the model. The result showed that the optimal control strategy was efficient. Sene [15] considered a fractional diffusion equation in the context of the fractional operator with Rabotnov fractional exponential kernel and determined the form of the analytical solution of the equation.",
+            "cite_spans": [
+                {
+                    "start": 36,
+                    "end": 40,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 193,
+                    "end": 197,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 409,
+                    "end": 413,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In [16] the Black-Scholes equation with Caputo-Fabrizio fractional derivative and a Mittag-Leffler fractional derivative is used to determine the value of an option, which plays an important role in finance. Analysis of a four-dimensional hyperchaotic system with Caputo-Liouville fractional derivative addressing the chaotic, hyperchaotic, and periodic behaviors of the system is considered in [17] . Kahan et al. [18] investigated a COVID-19 mathematical model with a fractal-fractional model in the sense of Atangana-Baleanu fractional operator. The issue of image processing with an Atangana-Baleanu fractional derivative in the sense of Caputo is pondered in [19] . New understandings in the existence of solution for Atangana-Baleanu Willis Aneurysm system and singular perturbation of boundary value problems for the nonlinear fuzzy differential equation are discussed by Panda et al. [20] . An insight on the existence and uniqueness of the solution to a COVID-19 mathematical model using fractional and fractional-fractal operators and fixed point theorem is performed in [21] . In [22, 23] a fractional-order mathematical model for COVID-19 is developed, and an investigation of the dynamics of the pandemic is performed. In [24] a fractal-fractional differentiation mathematical model is used for the analysis of diarrhea that occurred in Ghana during 2008-2018. Kahan et al. [10] analyzed HIV-TB coinfected mathematical model in the sense of Atangana-Baleanu fractional derivative.",
+            "cite_spans": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 664,
+                    "end": 668,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 892,
+                    "end": 896,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1081,
+                    "end": 1085,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1091,
+                    "end": 1095,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1096,
+                    "end": 1099,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1235,
+                    "end": 1239,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1387,
+                    "end": 1391,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Numerical computations of different ordinary and fractional derivatives were considered in [25] [26] [27] [28] [29] . Kolade and Owolabi [30] performed analysis and numerical simulation of a system using a two-step family of Adams-Bashforth method to approximate the Atangana-Baleanu fractional derivative. A SEIR fractional model with its stability analysis is considered in [31] . The Atangana-Baleanu fractional derivative operator involving the Mittag-Leffler kernel is used to analyze SEIRA mathematical model in [32] .",
+            "cite_spans": [
+                {
+                    "start": 91,
+                    "end": 95,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 106,
+                    "end": 110,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 111,
+                    "end": 115,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 376,
+                    "end": 380,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "From the above-surveyed works of the literature we can say that fractional derivatives have many applications in mathematical modeling and analysis of real phenomena. In particular, the recently developed Atangana-Baleanu fraction operator has earned popularity and respect due to its immense applications in biological, physical, medical engineering, and several other nonlinear analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Motivated by the aforementioned arguments, in this paper, we study a SEAIR (Susceptible-Exposed-Asymptomatic-Symptomatic-Recovered cases) mathematical model involving a saturating contact rate. The recently developed Atangan-Baleanu fractional derivative and Toufic-Atangana numerical scheme [27] are used to develop the fractional derivative version of the model and estimate its numerical solution. To the best of the authors' knowledge, the SEAIR endemic model applying the Atangana-Baleanu fractional derivative is not yet investigated. The authors also argue that optimal control analysis of mathematical models in the sense of Atangana-Baleanu fractional operators is uncommon in the existing literature. As a result, in this study, we consider an optimal control analysis of the SEAIR model. The rest of this paper is organized as follows. In Sect. 2, we accomplish the description and formulation of the model. In Sect. 3, we establish the existence and uniqueness of the solution of the model including the positivity and boundedness in the sense of the Atangana-Baleanu fractional operator. Section 4 deals with the diseases-free and endemic equilibrium points and the corresponding global stability analysis. The numerical solution of the SEAIR model via Atangana-Baleanu numerical scheme and simulation is detailed Sect. 5. In the last section, we consider an optimal control analysis of the fractional model by incorporating a control parameter in the model. Moreover, in this section, we perform a numerical simulation verifying the effect of the designed control strategy for different values of fractional order and different compartments of the model.",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this section, we develop the Atangana-Baleanu fractional derivative representation of the SEAIR endemic mathematical model. Let us first recall the basic definitions of Atangana-Baleanu fractional operators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model description and formulation"
+        },
+        {
+            "text": "Let g \u2208 C 1 (a, b), a < b, be a function, and let \u03b7 \u2208 [0, 1]. The Atangana-Baleanu (AB) fractional derivative in Caputo type of order \u03b7 is given by [25, 26, 33] ABC a D \u03b7 t g(t) =",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 152,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition 1"
+        },
+        {
+            "text": "where F(\u03b7) is the normalization function given by F(\u03b7) = 1\u03b7 + \u03b7/ (\u03b7), characterized by F(0) = F(1) = 1, and the Mittag-Leffler function E \u03b7 (z) with C the set of the complex number is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 1"
+        },
+        {
+            "text": ", \u03b7, z \u2208 C, (\u03b7) > 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 1"
+        },
+        {
+            "text": "The AB fractional integral of the function g \u2208 C 1 (a, b) is given by [25, 26, 33] AB",
+            "cite_spans": [
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 75,
+                    "end": 78,
+                    "text": "26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 79,
+                    "end": 82,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition 2"
+        },
+        {
+            "text": "( 2 )",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 2"
+        },
+        {
+            "text": "The AB fractional derivative and AB fractional integral of the function g \u2208 C 1 (a, b) satisfies the Newton-Leibniz equality",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": ". 33, 35] ) For two functions f , g \u2208 1 (a, b), b > a, the AB fractional derivative satisfies the following inequality:",
+            "cite_spans": [
+                {
+                    "start": 2,
+                    "end": 5,
+                    "text": "33,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 6,
+                    "end": 9,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "Now we proceed with the formulation of the model. The following flow-diagram ( Fig. 1 ) is used in constructing the mathematical model of this study.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 85,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "Based on the flow diagram, the mathematical model with integer order used in this study is expressed by the equation system [36] is the saturating contact rate, \u03b1 and b are positive constants, and the total population is given by Disease induces death rate \u03b1 5",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 128,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "The recovery rate of asymptomatic cases",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "The recovery rate of symptomatic cases \u03b1 7",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "The natural death rate is proportional to the population size N ; the death rate term is \u03b1 3 N . Thus in the absence of disease the differential equation of the total population size N is dN/dt =\u03b1 3 N , and thus lim x\u2192\u221e N(t) = /\u03b1 3 , which implies that the carrying capacity of the demographic structure under consideration in this study is /\u03b1 3 . Moreover, we can see that C(N) \u2248 \u03b1N for small N and C(N) \u2248 \u03b1/b for large N ; C(N) is nondecreasing, and C(N)/N is nonincreasing. We also consider the disease-induced death rate. We assume that once a patient is recovered, he/she develops a permanent immune, and there is no chance of returning to the susceptible group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "Thus the mathematical model taking into account the assumptions, the saturating contact rate, the flow diagram ( Fig. 1) , and the AB derivative is described by the system of differential equations",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 120,
+                    "text": "Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "where the kernels are given by 1+bN , and \u03b1 1 is the probability per unit time of transmitting the infection between two individuals taking part in contact.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 31,
+                    "end": 35,
+                    "text": "1+bN",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "In the presence of endemic, we have dN/dt =\u03b1 3 N\u03b1 5 (A + I), which indicates that the population size is not constant. The parameters used in the model are indicated in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 169,
+                    "end": 176,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Lemma 1 ([34])"
+        },
+        {
+            "text": "In this section, existence and uniqueness, nonnegativity, and boundedness of the solutions of the fractional-order model (3b) is deliberated. To show the existence of the solution to model (3b), we use the famous theorem referred to as the Banach fixed point theorem. For an extensive study on fixed points and contractions, we refer the reader to [21] and the references therein.",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Existence and uniqueness of solutions"
+        },
+        {
+            "text": "To show the existence and uniqueness of the solution, we proceed as follows. Applying the AB fractional integral to model (3b), we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Existence and uniqueness of solutions"
+        },
+        {
+            "text": "and are contractions for 0 \u2264 L i < 1, i = 1, 2, 3, 4, 5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Proof",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "It then follows that G 1 (t, S) satisfies the Lipschitz condition with Lipschitz constant",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "In the same manner, we can show the existence of L i , i = 2, 3, 4, 5, and a contraction",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Now for t = t n , n = 1, 2, . . . , define the following recursive form of (4):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "with initial conditions S 0 (t) = S(0), E 0 (t) = E(0), A 0 (t) = A(0), I 0 (t) = I(0), R 0 (t) = R(0).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "The differences between successive terms in (5) are expressed as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "A 1n (t) = S n (t) -S n-1 (t)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "t 0 (G 1 (t, I n-1 ) -G 1 (t, I n-2 ))(tk) \u03b7-1 dk, A 5n (t) = R n (t) -R n-1 (t)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Taking the norm on both sides of each equation in (6), we have A 1n (t) = S n (t) -S n-1 (t)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Furthermore, the first equality in (7) can be reduced to the following expressions:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": ".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "As a result, we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Analogously, the remaining expressions of (7) can be reduced to the following expressions:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Theorem 2 The AB fractional model given in (3b) has a solution if we can find M 0 satisfying the inequality",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Proof From (8) and (9) we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 1 (Lipschitz condition and contraction) For each of the kernels G"
+        },
+        {
+            "text": "Let us assume that the following are satisfied:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "From (12) we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "Repeating the process recursively leads to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "Applying the limit to both sides of (13) as n \u2192 \u221e, we see that a 1n (t) \u2192 0 for",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "Similarly, we can show that a 2n (t) \u2192 0, a 3n (t) \u2192 0, a 4n (t) \u2192 0, a 5n (t) \u2192 0,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "Theorems 1 and 2 guarantee the existence of the solution of model (3b) by the Banach fixed point theorem. The uniqueness of the solution is proved in Theorem 3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The existence of the solution (the existence of a fixed point) is confirmed by Theorem 1, and we have to show that the functions S(t), E(t), A(t), I(t), R(t) are solutions of model (3b)."
+        },
+        {
+            "text": "The AB fractional model (3b) has a unique solution, provided that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 3 (Uniqueness of solution)"
+        },
+        {
+            "text": "Proof Let us assume that S 1 (t), E 1 (t), A 1 (t), I 1 (t), R 1 (t) are also solutions to (3b). Then",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 3 (Uniqueness of solution)"
+        },
+        {
+            "text": "Taking the norm of both sides, we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 3 (Uniqueness of solution)"
+        },
+        {
+            "text": "Since (1 -L 1 ( 1-\u03b7 F(\u03b7) + t \u03b7 F(\u03b7) (\u03b7) )) > 0, we obtain S(t) -S 1 (t) = 0. Thus we have S(t) = S 1 (t). Similarly, we can show that E(t) = E 1 (t), A(t) = A 1 (t), I(t) = I 1 (t), R(t) = R 1 (t), which completes the proof of Theorem 3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 3 (Uniqueness of solution)"
+        },
+        {
+            "text": "The existence and uniqueness of the solution of model (3b) are now proved, and it remains to show that the set defined in (15) is positively invariant. The following lemma will be used for the proof of Theorem 4. To show that the set is positively invariant, using Lemma 3, we have ABC 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "It follows from (16) that each of the solutions of (3b) is nonnegative and remains in R 5 + , and hence the set defined in (15) is positively invariant for model (3b).",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "Finally, to establish the boundedness of the solutions of the fractional model (3b), taking into account that all the parameters are positive, we continue by summing all the equations of the model, which gives ABC 0",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "Applying the Laplace transform leads to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "Following the work [38] and applying the inverse Laplace transform, the solution is given by",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 23,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "where E \u03b1,\u03b2 refers to the Mittag-Leffler function. Taking into account the fact that the Mittag-Leffler function has the asymptotic behavior",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "it is not difficult to observe that N(t) \u2192 /\u03b1 3 as t \u2192 \u221e. Hence (15) is the biologically feasible region of model (3b).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 4 The epidemiologically feasible region of AB model (3b) is given by"
+        },
+        {
+            "text": "The disease-free equilibrium of (3b) is given by N 0 = ( /\u03b1 3 , 0, 0, 0, 0) \u2208 \u2202 . The global stability of the disease-free equilibrium point is proved in Theorem 5 after defining the basic reproductive number.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "I. The disease-free equilibrium point (DFE)"
+        },
+        {
+            "text": "The basic reproductive number is obtained using the next-generation matrix [39] and is the spectral radius (-TV -1 ), where",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 79,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "II. The basic reproductive number R 0"
+        },
+        {
+            "text": ",",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "II. The basic reproductive number R 0"
+        },
+        {
+            "text": "The DFE; N 0 = ( /\u03b1 3 , 0, 0, 0, 0) is globally asymptotically stable when R 0 \u2264 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 5"
+        },
+        {
+            "text": "Proof Consider a Lyapunov function candidate",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 5"
+        },
+        {
+            "text": "The derivative of V in the direction of the solution of (3b) is given as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 5"
+        },
+        {
+            "text": "Since in the set we have N = /\u03b1 3 at the DFE and C (N) = \u03b1N/(1 + bN) is nondecreasing, dV dt \u2264 0 for R 0A \u2264 1, R 0I \u2264 1 and R 0 = R 0A + R 0I \u2264 1. Moreover, the Lyapunov-Lasalle theorem [40] implies that all trajectories in approach the largest positively invariant subset of the set M where dV /dt = 0. In this work, M is the set where I = A = 0. On the boundary of , where I = A = 0, we have E = 0, R(t) = c 0 e -t \u2192 0 as t \u2192 +\u221e, and",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 190,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 51,
+                    "end": 68,
+                    "text": "(N) = \u03b1N/(1 + bN)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Theorem 5"
+        },
+        {
+            "text": "Hence all the trajectories in the domain approach the disease-free equilibrium point N 0 = ( /\u03b1 3 , 0, 0, 0, 0), for R 0 \u2264 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 5"
+        },
+        {
+            "text": "The proof of the global stability of the DFE ensures that when R 0 \u2264 1, there is no other equilibrium point other than N 0 = ( /\u03b1 3 , 0, 0, 0, 0). As a result, the study of the endemic equilibrium point N * = (S * , E * , A * , I * , R * ) is restricted to R 0 > 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Existence and uniqueness of endemic equilibrium point (EEP)"
+        },
+        {
+            "text": "The endemic equilibrium point is given by N * = (S * , E * , A * , I * , R * ), where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Existence and uniqueness of endemic equilibrium point (EEP)"
+        },
+        {
+            "text": "and E * satisfies the quadratic equation ( R 0 (\u03b1 3 +\u03b1 4 ) \u03b1 3 -(\u03b1 3 + \u03b1 4 ))E * -R 0 (\u03b1 3 +\u03b1 4 ) 2 \u03b1 3 E * 2 = 0, from which we have that E * is positive only for R 0 > max{1, \u03b1 3 }. It is logical to assume that the natural death rate \u03b1 3 \u2264 1. Hence we conclude that the EEP is globally asymptotically stable for R 0 > 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Existence and uniqueness of endemic equilibrium point (EEP)"
+        },
+        {
+            "text": "To show the uniqueness of EEP, with the assumption of E * > 0, define",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Existence and uniqueness of endemic equilibrium point (EEP)"
+        },
+        {
+            "text": "and then we have dG/dE * = -R 0 (\u03b1 3 + \u03b1 4 )/\u03b1 3 < 0, that is, G(E * ) is a decreasing function in (0, /\u03b1 3 ) \u2208 , ensuring that E * \u2208 (0, /\u03b1 3 ) is unique, which leads to Theorem 6.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "III. Existence and uniqueness of endemic equilibrium point (EEP)"
+        },
+        {
+            "text": "For R 0 > 1, model (3b) has a unique equilibrium point N * = (E * , A * , I * , R * , S * ) given by (17) . The global stability of the EEP is proved in Theorem 7 using the Lyapunov function method.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Theorem 6"
+        },
+        {
+            "text": "If R 0 > 1, then the endemic equilibrium point N * of model (3b) is globally asymptotically stable in the region .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 7"
+        },
+        {
+            "text": "Proof Define a Lyapunov function candidate by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 7"
+        },
+        {
+            "text": "Then F(S, E, I, A, R) \u2265 0 and F(S * , E * ,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 7"
+        },
+        {
+            "text": "we have",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 7"
+        },
+        {
+            "text": "Note that at the EEP we have N \u2264 \u03b1 3 . Hence, it follows that dF dt \u2264 0 and dF dt = 0 if and only if S = S * , E = E * , I = I * , A = A * , R = R * . Therefore the largest closed and bounded invariant set in {S, E, I, A, R \u2208 :\u1e1e = 0} is the set {N * : N * = (S * , E * , I * , A * , R * )}. By LaSalle's invariance principle the unique equilibrium point N * is globally asymptotically stable when R 0 > 1 in the region .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 7"
+        },
+        {
+            "text": "In this section, we develop a numerical scheme for model (3b) using the Toufik-Atangana rule detailed in [27] . Now from the first equation of (3b) we have ABC 0",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "Based on (4), we obtain the solution for (18) given in (19) :",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 45,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 55,
+                    "end": 59,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "Applying Lagrange's interpolation polynomial on the interval [t k , t k+1 ] to the equality G 1 (y, S(y)) = \u03b1 3b 0 (I(y)+A(y))S(y) k(N) -S(y) leads to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "where h = t kt k-1 . Now substituting (20) into (19) , we have",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 48,
+                    "end": 52,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "Furthermore, substituting t j = jh into (22) and (23) leads to",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "Finally, we can express (21) in terms of (24) and (25) as follows:",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 28,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": ") \u00d7 h \u03b7 [(n + 1j) \u03b7 (nj + 2 + \u03b7) -(nj) \u03b7 (nj + 2 + 2\u03b7)] -(",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "In the same way, we have the following equations for the remaining state variables:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical solution of the model"
+        },
+        {
+            "text": "The purpose of this section is to investigate the impact of different values of fractional order \u03b7 in model (3b). To this end, we give several numerical simulations of the model using a numerical technique developed by Toufic and Atangana as shown in equations (26)- (30) . We took some approximations to the real values of the parameters given as Figure 2 shows that decreasing the fractional order of derivative \u03b7 from 1 leads to flattening the curves of the suspected cases (S) with a few decreases in the number of cases in the compartment. As the value \u03b7 gets smaller and smaller, the number of cases approaches the constant value S 0 .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 348,
+                    "end": 356,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Numerical simulation I"
+        },
+        {
+            "text": "Moreover, from Figs. 3-6 we can say that decreasing the fractional order of derivative \u03b7 leads to a decrease in the number of exposed, asymptotically infected, symptomatically infected, and recovered cases significantly. In other words, the curves for each of the compartments E, A, I, and R get flattened as \u03b7 reduces from 1 to 0.6 as shown in the figures. We can conclude that as \u03b7 gets close to zero from the right, the number of cases in E, A, I, and R gets close to zero. It must also be noted that the EEP for fractional order and the integer order are the same and the solution of the fractional order tends to the EEP over a longer time. From Figs. 2-6 it seems that as the fractional derivative gets smaller and smaller, the time it requires to approach to the EEP gets longer and longer. That is, when the derivative order is reduced from 1, the memory effect of the dynamic system increases, and, consequently, the infection in each of the compartments increases slowly for a long time. Hence the fractional derivative order \u03b7 affects the dynamics of infection of model (3b) at least in this work. The peak period of the compartments E, A, R, and I is prolonged, and the number of cases at the peak is reduced as \u03b7 reduces from 1 to zero (see Figs. 3-6). the result obtained in this study for the SEAIR model by using the Atangana-Baleanu fractional operator with results that could be obtained by applying the other fractional operators for the same model can be a gap for future work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Numerical simulation I"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Bernoulli was ahead of modern epidemiology",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Nature",
+            "volume": "408",
+            "issn": "6812",
+            "pages": "513--514",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/35046270"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Contributions to the mathematical theory of epidemics-I",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Bull. Math. Biol",
+            "volume": "53",
+            "issn": "1-2",
+            "pages": "33--55",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Global dynamics of an SEIR epidemic model with saturating contact rate",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Math. Biosci",
+            "volume": "185",
+            "issn": "1",
+            "pages": "15--32",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Global stability of an SEIR epidemic model with vertical transmission and saturating contact rate",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "40",
+            "issn": "2",
+            "pages": "874--884",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Modeling and optimal control analysis of transmission dynamics of COVID-19: the case of Ethiopia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Deressa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Duressa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Alex. Eng. J",
+            "volume": "60",
+            "issn": "1",
+            "pages": "719--732",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Optimal control and sensitivity analysis for transmission dynamics of coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Deressa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Mussa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Duressa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Results Phys",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.rinp.2020.103642"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Global stability of a delayed SIRS epidemic model with saturation incidence and temporary immunity",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Comput. Math. Appl",
+            "volume": "59",
+            "issn": "9",
+            "pages": "3211--3221",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Analysis of the stochastic model for predicting the novel coronavirus disease",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Adv. Differ. Equ",
+            "volume": "2020",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Examining the correlation between the weather conditions and COVID-19 pandemic in India: a mathematical evidence",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Borah",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hazarika",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nieto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Results Phys",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A fractional order HIV-TB coinfection model with nonsingular Mittag-Leffler law",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "G\u00f3mez-Aguilar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alkhazzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Math. Methods Appl. Sci",
+            "volume": "43",
+            "issn": "6",
+            "pages": "3786--3806",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Functional Fractional Calculus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The development of fractional calculus 1695-1900",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Hist. Math",
+            "volume": "4",
+            "issn": "1",
+            "pages": "75--89",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Extension of rate of change concept: from local to nonlocal operators with applications",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Results Phys",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A new fractional model and optimal control of a tumor-immune surveillance with non-singular derivative operator",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jajarmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sajjadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mozyrska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chaos, Interdiscip. J. Nonlinear Sci",
+            "volume": "29",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Fractional diffusion equation with new fractional operator",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Alex. Eng. J",
+            "volume": "59",
+            "issn": "5",
+            "pages": "2921--2926",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Novel approaches for getting the solution of the fractional Black-Scholes equation described by Mittag-Leffler fractional derivative",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sene",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "S\u00e8ne",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ndiaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Traor\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Article ID",
+            "volume": "8047347",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Analysis of a four-dimensional hyperchaotic system described by the Caputo-Liouville fractional derivative",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sene",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Complexity",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The dynamics of COVID-19 with quarantined and isolation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alzahrani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Adv. Differ. Equ",
+            "volume": "2020",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Some new edge detecting techniques based on fractional derivatives with non-local and non-singular kernels",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ghanbari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Adv. Differ. Equ",
+            "volume": "2020",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Results on system of Atangana-Baleanu fractional order Willis aneurysm and nonlinear singularly perturbed boundary value problems",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panda",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ravichandran",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hazarika",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "142",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Applying fixed point methods and fractional operators in the modelling of novel coronavirus 2019-nCoV/SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Panda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Results Phys",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A novel COVID-19 mathematical model with fractional derivatives: singular and nonsingular kernels",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "139",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "On a new conceptual mathematical model dealing the current novel coronavirus-19 infectious disease",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Din",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Seadawy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alrabaiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Results Phys",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Fractal-fractional differentiation for the modeling and mathematical analysis of nonlinear diarrhea transmission dynamics under the use of real data",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Qureshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "136",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "New numerical method for ordinary differential equations: Newton polynomial",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "\u0130"
+                    ],
+                    "last": "Araz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Comput. Appl. Math",
+            "volume": "372",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Modeling the dynamics of novel coronavirus (2019-nCov) with fractional derivative",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Alex. Eng. J",
+            "volume": "59",
+            "issn": "4",
+            "pages": "2379--2389",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "New numerical approximation of fractional derivative with non-local and non-singular kernel: application to chaotic models",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Toufik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur. Phys. J. Plus",
+            "volume": "132",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A numerical method for solving a fractional partial differential equation through converting it into an NLP problem",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ghandehari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ranjbar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Comput. Math. Appl",
+            "volume": "65",
+            "issn": "7",
+            "pages": "975--982",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Numerical computation of a fractional derivative with non-local and non-singular kernel",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Djida",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Area",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Math. Model. Nat. Phenom",
+            "volume": "12",
+            "issn": "3",
+            "pages": "4--13",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Analysis and numerical simulation of multicomponent system with Atangana-Baleanu fractional derivative",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Owolabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Chaos Solitons Fractals",
+            "volume": "115",
+            "issn": "",
+            "pages": "127--134",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "A fractional order SEIR model with density dependent death rate",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Demirci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Unal",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ozalp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Hacet. J. Math. Stat",
+            "volume": "40",
+            "issn": "2",
+            "pages": "287--295",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Analysis of a basic SEIRA model with Atangana-Baleanu derivative",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "U\u00e7ar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "AIMS Math",
+            "volume": "5",
+            "issn": "2",
+            "pages": "1411--1424",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "New fractional derivatives with nonlocal and non-singular kernel: theory and application to heat transfer model",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atangana",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1602.03408"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Integration by parts and its applications of a new nonlocal fractional derivative with Mittag-Leffler nonsingular kernel",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Abdeljawad",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Nonlinear Sci. Appl",
+            "volume": "10",
+            "issn": "3",
+            "pages": "1098--1107",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "On the analysis of fractional diabetes model with exponential law",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Adv. Differ. Equ",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13662-018-1680-1"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Overall population patterns in the transmission cycle of infectious disease agents",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Population Biology of Infectious Disease",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Generalized Taylor's formula",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Odibat",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Shawagfeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Appl. Math. Comput",
+            "volume": "186",
+            "issn": "1",
+            "pages": "286--293",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "On some new properties of fractional derivatives with Mittag-Leffler kernel",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baleanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Commun. Nonlinear Sci. Numer. Simul",
+            "volume": "59",
+            "issn": "",
+            "pages": "444--462",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "On the definition and the computation of the basic reproduction ratio R 0 in models for infectious diseases in heterogeneous populations",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Diekmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Metz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Math. Biol",
+            "volume": "28",
+            "issn": "4",
+            "pages": "365--382",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Ordinary Differential Equations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hale",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Flow diagram of SEAIR endemic model",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Generalized mean value theorem,[37]) Let g(x) \u2208 C[a, b], and let ABC 0D \u03b7 t g(x) \u2208 C[a, b] when 0 < \u03b7 \u2264 1. Then we have g(x) = g(a) g(\u03be )(xa) \u03b7 ,when 0 \u2264 \u03be \u2264 x, \u2200x \u2208 (a, b]. Note that by Lemma 3, if g(x) \u2208 [0, b], x) \u2264 0, \u2200x \u2208 (0, b], then the function g(x) is nonincreasing \u2200x \u2208 [0, b].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "initial population used for the numerical simulation is (S 0 , E 0 , A 0 , I 0 , R 0 ) = (2,999,979, 20, 1, 0, 0). The numerical simulations and corresponding descriptions are given below.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Total number of suspected cases (S) for different values of \u03b7 Total number of exposed (E) cases for different values of \u03b7",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Total number of asymptomatic cases (A) for different values of \u03b7 Total number of symptomatic cases (I) for different values of \u03b7",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Number of exposed cases (E) with control for different values of the fractional derivative order \u03b7 Number of asymptomatic cases (A) with control for different values of the fractional derivative order \u03b7 number of cases happens as the fractional order decreases. This important result is attributed to the Atangana-Baleanu fractional operator with the hereditary property. We, the authors of this paper, claim that the hidden or actual properties of real-world phenomena can be revealed better by mathematical models involving the Atangana-Baleanu fractional operator. This argument can be substantiated by conducting further studies on the effect of other fractional operators such as Caputo-Fabrizio fractional derivatives and comparing the results with the Atangana-Baleanu fractional operator result on the same model used or other pertinent epidemic models. In this study the absence of comparing",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Number of symptomatic cases (I) with the control for different values of the fractional derivative order \u03b7 The control profile u(t) for different values of the fractional derivative order \u03b7",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The parameters and their descriptions",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank Jimma University, College of Natural Sciences, for all the supports made.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "(2021) 2021:174",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Deressa and Duressa Advances in Difference Equations"
+        },
+        {
+            "text": " Figure 6 Total number of recovered cases (R) for different values of \u03b7",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1,
+                    "end": 9,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        },
+        {
+            "text": "We consider a generalized form of (3b) by including the control variable u(t), which ranges from 0 to 1, where zero corresponds to the absence of application of any control mechanism, and one refers to the case where there is a fully controlled scenario, which is nearly impossible to attain in many endemic disease cases such as COVID-19. The intermediate values u(t) \u2208 (0, 1) quantify the effect of applying the intervention mechanisms. In this model, the purpose of incorporating the control variable is reducing the number of exposed, asymptomatic, and symptomatic individuals by a factor of (1u). Model (3b) is modified to (31) after incorporating the control variable:and the main objective is to find the control optimal unit u(t) such that the following control objective function is minimized:where a is a nonnegative weight for the endemic diseases, and b measures the relative cost of interventions over the range of [0, T].The objective is minimizing the number of exposed, symptomatically, or asymptomatically infected cases while minimizing the cost of control uTo solve (31) and (32) , we derive the necessary optimality conditions for the problem.To do this, we define the scaler Hamiltonian functionwhereFollowing [14] , in equations (34)-(37), we obtain the necessary optimality conditions for the system of equations (31) and (32):with transversality conditionsSolving the system of equations (34) is the same as solving (31) , and solving the system of equations (35) is the same as solving the system of adjoint equations given byAccordingly, the optimal control u * (t) of a dynamic system (31) , which minimizes the objective functional (32) , is characterized byMoreover, the fractional derivative state equation (31), the fractional derivative adjoint equation (38) , together with the characterization of the optimal control (39) and the boundary conditions (37) , are the optimality systems. The aforementioned equations of the optimality system represent the analytic solution of the optimal control system under discussion. In the next sub-section, we consider the numerical solutions and simulations.",
+            "cite_spans": [
+                {
+                    "start": 628,
+                    "end": 632,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1085,
+                    "end": 1089,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1094,
+                    "end": 1098,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1231,
+                    "end": 1235,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1440,
+                    "end": 1444,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1483,
+                    "end": 1487,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1612,
+                    "end": 1616,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1660,
+                    "end": 1664,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1786,
+                    "end": 1790,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1884,
+                    "end": 1888,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Optimal control analysis"
+        },
+        {
+            "text": "In this section, we simulate the optimality system given by (31) , (38) , (37) , and (39) using the Toufik-Atangana numerical scheme and a computational software Matlab2018a. We apply the numerical scheme to these equations in a similar way we applied the method to (3b) in Sect. 5.1. The initial conditions and the parameter values used are the same as those in Sect. 5.1. As can be seen from Figs. 7, 8, and 9, the number of cases in the compartments of E, A, and I, declined significantly as compared to Figs. 3-5, which are simulated without application of the control strategy. However, the curves exhibit different asymptotic behaviors for different values of the fractional derivative \u03b7. The difference in the asymptotic behavior of the curves for different fractional orders is also observed in the optimal profile of the control function depicted in Fig. 10 for different values of \u03b7. The decrease in the number of cases in E, A, and I after applying the control strategy verifies the efficiency of the proposed optimal control strategy.",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 64,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 67,
+                    "end": 71,
+                    "text": "(38)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 74,
+                    "end": 78,
+                    "text": "(37)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 859,
+                    "end": 866,
+                    "text": "Fig. 10",
+                    "ref_id": null
+                }
+            ],
+            "section": "Numerical simulation II"
+        },
+        {
+            "text": "In this work, we studied a SEAIR epidemic mathematical model involving the Atangana-Baleanu fractional derivative. The result of the simulation shows that the reduction of the order of the fractional derivative from 1 resulted in flattening of the curves, and the endemic decreases slowly for the suspected (S) cases (Fig. 2) . The curves for the compartments E, A, I, and R show that in each of them, as the fractional order decreases from 1, the spread of the endemic grows slowly, and the number of cases at peak gets relatively smaller and smaller (Figs. 3-6) .It is of utmost importance to decrease the number of cases in the different compartments of an endemic model, and the result of this study showed that the decrease in the Availability of data and materials Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 317,
+                    "end": 325,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 552,
+                    "end": 563,
+                    "text": "(Figs. 3-6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The authors declare that they have no competing interests.Authors' contributions CTD made the main contribution to this manuscript. GFD supplied several suggestions in theoretical part, editing and proofreading the manuscript. All authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Publisher's Note"
+        }
+    ]
+}

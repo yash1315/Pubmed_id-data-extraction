@@ -1,0 +1,2916 @@
+{
+    "paper_id": "00b63f9816d1c109d6720888f24740e57d0f925b",
+    "metadata": {
+        "title": "Evaluating the potential of respiratory-sinus-arrhythmia biofeedback for reducing physiological stress in adolescents with autism: a protocol for a randomized controlled study Acknowledgements",
+        "authors": [
+            {
+                "first": "Anoushka",
+                "middle": [],
+                "last": "Thoen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Group for Adapted Physical Activity and Psychomotor Rehabilitation",
+                    "institution": "KU Leuven",
+                    "location": {
+                        "settlement": "Leuven",
+                        "country": "Belgium"
+                    }
+                },
+                "email": "anoushka.thoen@kuleuven.be"
+            },
+            {
+                "first": "Jean",
+                "middle": [],
+                "last": "Steyaert",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KU Leuven",
+                    "location": {
+                        "settlement": "Leuven",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kaat",
+                "middle": [],
+                "last": "Alaerts",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "KU Leuven",
+                    "location": {
+                        "settlement": "Leuven",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tine",
+                "middle": [],
+                "last": "Van Damme",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Group for Adapted Physical Activity and Psychomotor Rehabilitation",
+                    "institution": "KU Leuven",
+                    "location": {
+                        "settlement": "Leuven",
+                        "country": "Belgium"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Orcid",
+                "middle": [],
+                "last": "Id",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Spectrum Disorder (ASD) as compared to control groups. A cross-sectional phase in this study will gather more evidence concerning this topic. A longitudinal phase will explore the efficacy of a biofeedback intervention based on Respiratory Sinus Arrhythmia (RSA) in adolescents with ASD. Finally, a feasibility study will focus on a non-supervised RSA biofeedback intervention in this population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The cross-sectional phase includes the comparison of adolescents with ASD (n=38) and age and gender matched typically developing peers. A standardized assessment will be used which contains physiological, cortisol and behavioral measurements. The longitudinal phase contains a randomized, singleblinded and sham-controlled design to determine the efficacy of supervised RSA biofeedback in adolescents with ASD (n=128). A follow-up phase of 5 weeks is included to evaluate the presence of retention effects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "During the latter, a feasibility study will focus on a non-supervised intervention (n=62). Assessments as described previously are scheduled after the intervention and the follow-up phase.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Discussion: First, more conclusive evidence will be provided for the presence of lower cardiac vagal modulation in adolescents with ASD as well as the association between these lower values and physiological and behavioral indices. Second, the supervised intervention in adolescents with ASD is hypothesized to upregulate this cardiac vagal modulation and positively change behavioral and physiological parameters. Third, evidence regarding the feasibility and acceptability of a non-supervised intervention may open novel avenues for home-based interventions in this population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In the last decade, research concerning stress-mechanisms in individuals with autism spectrum disorder (ASD) has increased exponentially. This neurodevelopmental disorder is characterized by problems in social interaction and communication and the presence of repetitive, stereotyped behaviors, activities and interests (American Psychiatric Association, 2013) . In addition, children and adolescents with ASD report higher rates of stress as compared to typically developing (TD) peers (Bishop-Fitzpatrick et al., 2017; Groden, 2006) .",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 360,
+                    "text": "(American Psychiatric Association, 2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 487,
+                    "end": 520,
+                    "text": "(Bishop-Fitzpatrick et al., 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 521,
+                    "end": 534,
+                    "text": "Groden, 2006)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "Especially in the adolescent period, which is characterized by rapid changes across several developmental domains (e.g. social context, affect regulation and behavior), individuals with ASD are hypothesized to be more vulnerable for stress-related difficulties (Corbett & Simon, 2014) .",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 284,
+                    "text": "(Corbett & Simon, 2014)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "Researchers recently explored the contributing role of the autonomic nervous system in psychiatric disorders, including ASD (Benevides & Lane, 2015; Condy et al., 2019; Ellenbroek & Sengul, 2017; Lydon et al., 2016; Patriquin et al., 2019) . One of the most commonly adopted physiological parameters for assessing autonomic nervous system functioning in psycho-physiological research is based on the assessment of heart rate variability (HRV). The heart's pacemaker is controlled by both the sympathetic and the parasympathetic nervous system, which results in the natural variation of the interval between heartbeats. One important component of HRV is respiratory sinus arrhythmia (RSA). This component is solely mediated by the parasympathetic subsystem through direct projections of the vagus nerve from the brain stem to the heart and is therefore also known as an index of cardiac vagal modulation. The term RSA is adopted since it defines the phenomenon of the relation between heart rate variability and the respiratory cycle (Shaffer et al., 2014) . This parameter is typically identified in the high-frequency component of HRV (HF-HRV), which ranges between 0.15 and 0.4 Hz, and by the root mean square of successive differences (RMSSD) of the interbeat intervals (Shaffer & Ginsberg, 2017) .",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 148,
+                    "text": "(Benevides & Lane, 2015;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 149,
+                    "end": 168,
+                    "text": "Condy et al., 2019;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 169,
+                    "end": 195,
+                    "text": "Ellenbroek & Sengul, 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 196,
+                    "end": 215,
+                    "text": "Lydon et al., 2016;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 216,
+                    "end": 239,
+                    "text": "Patriquin et al., 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1033,
+                    "end": 1055,
+                    "text": "(Shaffer et al., 2014)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1273,
+                    "end": 1299,
+                    "text": "(Shaffer & Ginsberg, 2017)",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "The clinical importance of RSA has been reported in a variety of studies demonstrating higher RSA to be associated with higher cognitive abilities, effective social behavior, fewer internalizing symptoms (e.g. anxiety and depression) and appropriate emotion regulation (Beauchaine, 2015; Beauchaine et al., 2019; Fiskum, 2019) . Moreover, lower RSA has been linked to conduct problems, trait hostility, anxiety disorders and depression (Beauchaine et al., 2019; Graziano & Derefinko, 2013; Patriquin et al., 2015) . Another important aspect of RSA is its positive association with appropriate social behavior as described by Porges' polyvagal theory (Porges, 2011) . The latter theory describes a parasympathetically driven social engagement system, which promotes the activation of interconnected craniofacial nerves and their associated motor behaviors. This way, a calm state -as induced by a heightened parasympathetic drive -is associated with prosocial behaviors including All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 287,
+                    "text": "(Beauchaine, 2015;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 288,
+                    "end": 312,
+                    "text": "Beauchaine et al., 2019;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 313,
+                    "end": 326,
+                    "text": "Fiskum, 2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 436,
+                    "end": 461,
+                    "text": "(Beauchaine et al., 2019;",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 462,
+                    "end": 489,
+                    "text": "Graziano & Derefinko, 2013;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 490,
+                    "end": 513,
+                    "text": "Patriquin et al., 2015)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 625,
+                    "end": 642,
+                    "text": "Porges' polyvagal",
+                    "ref_id": null
+                },
+                {
+                    "start": 650,
+                    "end": 664,
+                    "text": "(Porges, 2011)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101 https://doi.org/10. /2021 the making of eye contact, appropriate vocalizations and socially oriented head turning (Muscatello et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 75,
+                    "text": "March 1, 2021. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 76,
+                    "end": 99,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 125,
+                    "text": "https://doi.org/10. /2021",
+                    "ref_id": null
+                },
+                {
+                    "start": 214,
+                    "end": 239,
+                    "text": "(Muscatello et al., 2021)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "Recent research indicated that TD children and adolescents demonstrated more prosocial behavior when higher RSA values were present (Corbett et al., 2019; Muscatello et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 154,
+                    "text": "(Corbett et al., 2019;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 155,
+                    "end": 179,
+                    "text": "Muscatello et al., 2021)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "With respect to children and adolescents with ASD, the majority of studies have demonstrated lower levels of RSA in individuals with ASD during various activities (Benevides & Lane, 2015; Condy et al., 2019; Ellenbroek & Sengul, 2017; Patriquin et al., 2019) . This was confirmed in a recent meta-analysis, where statistically significant lower RSA-values were found in individuals with ASD during baseline measurements, social stress tasks, social debriefing tasks and cognitive tasks (Cheng et al., 2020) . Lower RSA levels in children and adolescents with ASD have been associated with higher levels of autism-specific symptoms such as social problems, internalizing problems, anxiety, emotional control issues, more severe visual and/or auditory sensory problems and repetitive and restrictive behaviors (Benevides & Lane, 2015; Condy et al., 2019; Ellenbroek & Sengul, 2017; Patriquin et al., 2019) . However, given methodological differences, multiple researchers have recommended further research on ANS functioning in individuals with ASD and how it deviates from TD peers (Cheng et al., 2020; Corbett et al., 2019; Lory et al., 2020; Lydon et al., 2016; Muscatello et al., 2021) . Therefore, a cross-sectional phase is included in this study in which a standardized stress-provoking assessment will be used in adolescents with and without ASD.",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 187,
+                    "text": "(Benevides & Lane, 2015;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 188,
+                    "end": 207,
+                    "text": "Condy et al., 2019;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 208,
+                    "end": 234,
+                    "text": "Ellenbroek & Sengul, 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 235,
+                    "end": 258,
+                    "text": "Patriquin et al., 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 486,
+                    "end": 506,
+                    "text": "(Cheng et al., 2020)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 808,
+                    "end": 832,
+                    "text": "(Benevides & Lane, 2015;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 833,
+                    "end": 852,
+                    "text": "Condy et al., 2019;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 853,
+                    "end": 879,
+                    "text": "Ellenbroek & Sengul, 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 880,
+                    "end": 903,
+                    "text": "Patriquin et al., 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1081,
+                    "end": 1101,
+                    "text": "(Cheng et al., 2020;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1102,
+                    "end": 1123,
+                    "text": "Corbett et al., 2019;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1124,
+                    "end": 1142,
+                    "text": "Lory et al., 2020;",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1143,
+                    "end": 1162,
+                    "text": "Lydon et al., 2016;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1163,
+                    "end": 1187,
+                    "text": "Muscatello et al., 2021)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "Considering the prior observations of lower RSA levels in individuals with ASD, it would be of high clinical relevance to develop and validate an intervention that specifically targets the upregulation of RSA-values -a measure of cardiac vagal modulation -in individuals with ASD (Patriquin et al., 2019) . Prior HRV-RSA biofeedback studies have shown that an increase of HRV was causally related to several positive effects on psychological parameters. These studies were performed in distinct clinical populations of all ages and variable medical and psychological conditions (Chudleigh et al., 2019; Darling et al., 2019; Gevirtz, 2013; Kennedy & Parker, 2019; Knox et al., 2011; Lehrer et al., 2020; Lehrer & Gevirtz, 2014; Thabrew et al., 2018) . In this protocol, individuals practice to breath at their resonant frequency, which can be found between 4.5 and 7 breaths per minute. Breathing at this frequency will maximize HRV oscillations due to the entrainment of two physiological mechanisms affecting HRV, namely the influence of the baroreflex and of the breathing pattern (Fiskum, 2019) . For more information concerning the hypothesized working mechanisms, see Lehrer and Gevirtz (2014) . Only one recent study provided evidence of feasibility of a similar intervention in a small sample (n = 7) of children and adolescents (10-15 years) with ASD (Goodman et al., 2018) . The current study will encompass a large-scale randomized-controlled trial, in which a representative sample of adolescents with ASD All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 304,
+                    "text": "(Patriquin et al., 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 578,
+                    "end": 602,
+                    "text": "(Chudleigh et al., 2019;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 603,
+                    "end": 624,
+                    "text": "Darling et al., 2019;",
+                    "ref_id": null
+                },
+                {
+                    "start": 625,
+                    "end": 639,
+                    "text": "Gevirtz, 2013;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 640,
+                    "end": 663,
+                    "text": "Kennedy & Parker, 2019;",
+                    "ref_id": null
+                },
+                {
+                    "start": 664,
+                    "end": 682,
+                    "text": "Knox et al., 2011;",
+                    "ref_id": null
+                },
+                {
+                    "start": 683,
+                    "end": 703,
+                    "text": "Lehrer et al., 2020;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 704,
+                    "end": 727,
+                    "text": "Lehrer & Gevirtz, 2014;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 728,
+                    "end": 749,
+                    "text": "Thabrew et al., 2018)",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1084,
+                    "end": 1098,
+                    "text": "(Fiskum, 2019)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1174,
+                    "end": 1199,
+                    "text": "Lehrer and Gevirtz (2014)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1360,
+                    "end": 1382,
+                    "text": "(Goodman et al., 2018)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint will undergo a supervised RSA based biofeedback training to test its efficacy for enhancing RSA-levels and positively changing associated behavioral symptoms and physiological parameters as determined at the crosssectional phase. Finally, a feasibility study regarding a non-supervised RSA based biofeedback intervention will be implemented for half of the adolescents with ASD after the supervised intervention part (see Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 564,
+                    "end": 572,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Background and rationale"
+        },
+        {
+            "text": "This study consists of a cross-sectional and a longitudinal phase, each containing one research",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specific aims and hypotheses"
+        },
+        {
+            "text": "objective. An overview of the complete study design is presented in Figure 1 and Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 76,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 81,
+                    "end": 88,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Specific aims and hypotheses"
+        },
+        {
+            "text": "The first objective relates to the cross-sectional phase in which adolescents with ASD (n = 38; 19 boys, 13-18 years) and typically developing (TD) peers will be recruited. A standardized stress-provoking assessment will be used to provide insight into differences in autonomic functioning between adolescents with ASD and their TD peers. The primary outcome measure is cardiac vagal modulation, which is hypothesized to be lower in adolescents with ASD. In addition, other physiological and behavioral parameters as well as cortisol measurements will be included as secondary outcome measures. These group comparisons will be highly informative to delineate indices of ANS functioning that are specifically implicated in ASD, and to evaluate whether aberrant physiology in ASD is associated with clinical and behavioral indices (e.g. predictive of increased social difficulties, repetitive behaviors, anxiety...) as reported previously.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specific aims and hypotheses"
+        },
+        {
+            "text": "The second objective relates to the longitudinal phase in which only adolescents with ASD (n=128) will be included. In this phase, the efficacy of a 5-week supervised RSA biofeedback intervention will be assessed by means of a randomized, single-blinded and sham-controlled design. The intervention is hypothesized to lead to increments of cardiac vagal modulation as opposed to the control intervention. To determine whether the latter hypothesized increment can be maintained, a 5-week follow-up phase will be included. Further, it is hypothesized that an increase in cardiac vagal modulation relates to changes in behavior (e.g. improvement in social behavior) and/or physiological changes but that these might occur at a later stage, thus after the follow-up phase. Therefore, other physiological and behavioral parameters as well as cortisol measurements will be assessed as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specific aims and hypotheses"
+        },
+        {
+            "text": "The study is reported conform the SPIRIT (Standard Protocol Items: Recommendations for Interventional Trails) statement (Chan et al., 2013) (see Supplementary Information 1). All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The study design is visualized in Table 1 and Figure 1. During the cross-sectional phase, physiological, cortisol and behavioral data will be gathered in adolescents with and without ASD. This phase will also be used as a baseline measurement (T0) for the adolescents with ASD (n = 38) who will subsequently be included in the longitudinal phase. Ninety additional adolescents with ASD will execute the same baseline measurement but their data will only be used for the longitudinal phase. After 5 weeks supervised RSA based biofeedback intervention (or sham-control), all adolescents with ASD (n = 128) will be re-assessed (T1). A follow-up session of 5 weeks will be included (T2) to assess the possibility of retention effects and to determine the presence of behavioral changes. During this follow-up phase, a feasibility study regarding a non-supervised RSA based biofeedback intervention will be conducted by half of the adolescents with ASD (n = 64). All assessments and supervised sessions will be performed at a site from the KU Leuven. In addition, the specific government regulations with regard to COVID-19 will be followed rigorously.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 41,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "General procedure"
+        },
+        {
+            "text": "Ethical approval for this study was granted by both the Ethics Committee UPC KU Leuven on July 2,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics approval and informed consent"
+        },
+        {
+            "text": "Parents of the participants should provide informed consent in addition to the informed assent provided by the participants themselves. Participants may withdraw consent and participation at any time. The participant's request to withdraw from the study will always be respected and reasons to withdraw are not obliged to be mentioned. The sponsor of this study is KU Leuven.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(ref. EC2020-541) and the Ethics Committee Research UZ/KU Leuven on October 20, (ref: S64219)."
+        },
+        {
+            "text": "An independent researcher, who is not involved in data analysis or data collection, will review potential reports of side effects for all participants during and after completion of the study and will be available to discuss side effects with the participants if needed. Standard operating procedures will be followed for reporting serious adverse events to researcher(s), the Ethical Committee and applicable Competent Authorities (CA's) based on applicable legislation. All participants will be ensured through the no-fault policy of the KU Leuven.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Monitoring of side-effects"
+        },
+        {
+            "text": "A subgroup of adolescents with a formal diagnosis of ASD (n = 38, 19 boys, 13-18 years) based on DSM-IV/5 criteria (American Psychiatric Association, 2000 will participate in the cross-sectional phase while the total sample (n = 128; 64 boys, 13-18 years) will be included in the longitudinal phase of this study. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 154,
+                    "text": "(American Psychiatric Association, 2000",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint An age and gender matched group of TD adolescents (n = 38) will be included in the cross-sectional phase only.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Exclusion criteria are the presence of an intellectual disability as described in the DSM-IV/DSM-5; the presence of an uncorrected hearing-or vision impairment; the presence of congenital heart diseases, diagnosed cardiovascular abnormalities or somatic diseases with a known impact on heart function; pregnancy; insufficient knowledge of Dutch language and participation in other clinical trials. Use of medication and the presence of comorbid or co-occurring disorders will not lead to exclusion of the study but will be registered elaborately. For TD adolescents specifically, a score equal to or more than 32 on the Autism Quotient -Adolescent Version (Baron-Cohen et al., 2006) and the presence of a neurodevelopmental disorder or psychiatric disorder as described in the DSM-IV/DSM-5 will lead to exclusion from the study. In addition, TD adolescents with a sibling diagnosed with a neurodevelopmental disorder as described in the DSM-IV/DSM-5 will be excluded.",
+            "cite_spans": [
+                {
+                    "start": 656,
+                    "end": 682,
+                    "text": "(Baron-Cohen et al., 2006)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "These criteria are described in detail in the informed consent and assent forms. If TD adolescents are excluded from the study due to any of the previously described exclusion criteria, they and their parents are encouraged to contact the clinicians associated with this study to discuss their concerns, if any.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Recruitment of adolescents with ASD will take place in the region of Leuven (Belgium) through the Leuven Autism Expertise Centre (a supraregional outpatient clinic supervised by Prof. Steyaert, supporting PI of this study) and the Leuven Autism Research Group (LAuRes, all authors are members). In addition, several contacts have been established with special education schools, autism advocacy organizations and support groups (f.i. VVA, Participate, 'Autisme Centraal') as well as with Dr. Klockaerts from the ZNA University Child and Youth Psychiatry in Antwerp and independent clinical practices in and around the region of Leuven. TD adolescents will be recruited in the same region by contacting schools.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants"
+        },
+        {
+            "text": "Sample size was calculated for the cross-sectional phase using the G*Power tool (Faul F, 2009) with a medium effect size (g = 0.59) as reported in the meta-analysis of Cheng et al. (2020) , where baseline RSA values were compared between individuals with and without ASD. An a priori power analysis (\u03b1=0.05; 1-\u03b2=0.80) in a two-independent means design resulted in a total sample size of 74 adolescents, including 37 adolescents with ASD and 37 TD adolescents. In order to achieve an equal gender distribution, the sample size is further increased to 38 adolescents with ASD and 38 TD adolescents.",
+            "cite_spans": [
+                {
+                    "start": 168,
+                    "end": 187,
+                    "text": "Cheng et al. (2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "For the longitudinal phase, there was no evidence for an effect size from a representative study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "Therefore, we consider a medium effect size (d=0.50) to be representative of a clinical meaningful change.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10. 1101 /2021 Comparison for the intervention phase was based on the supervised intervention group versus the sham-control group, resulting in an a priori power analysis (\u03b1=0.05; 1-\u03b2=0.80) for a two-independent means design. The total sample size resulted in a total of 128 adolescents with ASD, considering an hypothetical 20% drop-out rate (Furlan et al., 2009 ) and an equal gender distribution across both groups (n = 64/group). Since the intervention during the follow-up phase (T1-T2) is a feasibility study, a sample containing 50% of the total sample was deemed to be sufficient in order to obtain reliable information regarding feasibility and acceptability concerning the non-supervised intervention.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 106,
+                    "text": "/2021",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 435,
+                    "end": 455,
+                    "text": "(Furlan et al., 2009",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "As presented in Table 1 , informed consent/assent and screening for eligibility will be performed first. In addition, participating adolescents and their parents will be asked to complete the questionnaires prior to scheduling the first study visit.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 16,
+                    "end": 23,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Assessment"
+        },
+        {
+            "text": "At each assessment session (T0, T1, T2), a standardized stress-provoking protocol will be executed in which physiological, cortisol and behavioral data will be gathered (see section 'Outcome Measures'). The collection of behavioral data will differ for the three assessment points as visualized in Figure 1 . During the stress-provoking assessment, the participants will be asked to sit with their knees in a 90\u00b0 angle, with their hands on their thighs, palms facing upwards and eyes closed (during baseline measurement only). To prevent temperature transference of the thighs towards the temperature sensor of the hands, a towel will be placed on the thighs (Laborde et al., 2017) . Each of the assessments will be executed in the afternoon, as recommended by Hollocks et al. (2014) , to rule out influence of the cortisol awakening response as this can cause misleading results. In addition, participants will be asked to refrain from eating, intense physical activity, smoking and drinking caffeine or alcoholic substances for at least one hour before testing (Smeekens et al., 2015) . Following the recommendations of Schmalenberger et al. (2019) , female participants will be asked whether they use contraceptives and when their last menstrual period was as these factors influence cardiac vagal activity.",
+            "cite_spans": [
+                {
+                    "start": 659,
+                    "end": 681,
+                    "text": "(Laborde et al., 2017)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 761,
+                    "end": 783,
+                    "text": "Hollocks et al. (2014)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1063,
+                    "end": 1086,
+                    "text": "(Smeekens et al., 2015)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1122,
+                    "end": 1150,
+                    "text": "Schmalenberger et al. (2019)",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 298,
+                    "end": 306,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Assessment"
+        },
+        {
+            "text": "The 'Social Stress Recall Task' (SSRT; (Bishop-Fitzpatrick et al., 2017; Richman et al., 2007) ) and the 'Stroop Word-Color Interference task' (Stroop, 1935) will be used as stress-provoking tasks during the assessments. Both of these measures are validated to provoke stress reactivity as assessed in individuals with ASD (Bishop-Fitzpatrick et al., 2017; Kushki et al., 2013; Richman et al., 2007) .",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 72,
+                    "text": "(Bishop-Fitzpatrick et al., 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 73,
+                    "end": 94,
+                    "text": "Richman et al., 2007)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 143,
+                    "end": 157,
+                    "text": "(Stroop, 1935)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 323,
+                    "end": 356,
+                    "text": "(Bishop-Fitzpatrick et al., 2017;",
+                    "ref_id": null
+                },
+                {
+                    "start": 357,
+                    "end": 377,
+                    "text": "Kushki et al., 2013;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 378,
+                    "end": 399,
+                    "text": "Richman et al., 2007)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Assessment"
+        },
+        {
+            "text": "The 'Stroop Word-Color Interference task' . A protocol previously used in children with ASD will be used as a guidance (Kushki et al., 2013) . Participants will perform a computerized version with five one-minute All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 4,
+                    "end": 41,
+                    "text": "'Stroop Word-Color Interference task'",
+                    "ref_id": null
+                },
+                {
+                    "start": 119,
+                    "end": 140,
+                    "text": "(Kushki et al., 2013)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Assessment"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Assessment"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint trials. During the first and the fifth trial, the presentation of words corresponding to color names are printed in the same color as the word itself. The remaining trials consist of incongruent stimuli, meaning that the color name is printed in another color than the word itself. The participants only need to name the color of the print. In addition, the time of the word presentation varies per trial between 1 and 2 seconds. Prior to starting the task, participants are provided with ten practice stimuli to ensure understanding of the task.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Assessment"
+        },
+        {
+            "text": "The 'Social Stress Recall Task'. This task contains a 5-minute stressor phase during which the participant is asked to describe the three most challenging aspects of his/her life on a day-to-day basis. The researcher can use prompts in order to guide the participant such as: \"Can you tell me more about how that experience made you feel?\" or \"Can you remember what you did during that situation?\" The timing of prompts will be recorded (Bishop-Fitzpatrick et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 437,
+                    "end": 470,
+                    "text": "(Bishop-Fitzpatrick et al., 2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Assessment"
+        },
+        {
+            "text": "The intervention is based on the biofeedback protocol provided by Lehrer (2013) and aims at increasing cardiac vagal modulation in adolescents with ASD as has been demonstrated in previous research (Lehrer et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 66,
+                    "end": 79,
+                    "text": "Lehrer (2013)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 198,
+                    "end": 219,
+                    "text": "(Lehrer et al., 2020)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Intervention"
+        },
+        {
+            "text": "In order to follow autism-specific treatment guidelines, all training sessions will be summarized and depicted in schedules (Fuentes et al., 2020) . This way, the different phases are predictable, and the participants are able to follow each step by themselves. Participants will be asked to provide weekly updates on medication status by visit (during the supervised sessions) or by a reminder mail send by the researcher (during the followup phase).",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 146,
+                    "text": "(Fuentes et al., 2020)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Intervention"
+        },
+        {
+            "text": "To enhance treatment compliance and gain insight into the feasibility, the participants will be askedvia a secure web-based application (m-Path, KU Leuven) -to rate their level of comfort during the training on a scale using five smiley faces ranging between frustrated and satisfied after each training-session at home.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Intervention"
+        },
+        {
+            "text": "This intervention part lasts for 5 weeks and contains the fixed scheme of one guided session per week with an experienced researcher (AT) and home-practice on days without a guided session. Participants will be asked to breath at their resonance frequency, which refers to the breathing frequency at which heart rate and the breathing pattern are in phase, thus maximizing RSA (Lehrer et al., 2020) . During the first session of this intervention, the resonance frequency of the participants will be determined using Biotrace+ Software (Mind Media B.V., www.mindmedia.com), based on the recommendations of Shaffer and Meehan (2020). All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 377,
+                    "end": 398,
+                    "text": "(Lehrer et al., 2020)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Supervised RSA biofeedback"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supervised RSA biofeedback"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint Subsequently, the participants will be instructed to breath at this frequency through stepwise guidance from the researcher using appropriate breathing techniques (with pursed lips and abdominal breathing) and the provision of a breathing pacer. During home practice, the participants will be provided with a breathing pacer application, individually set to practice at the specified resonance breathing frequency (Awesome Labs LLC, 2020; Trex, 2015) . From the third supervised session onwards, participants will be instructed to breath in phase with their heart rate. The latter will be visualized on a computer screen and will replace the breathing pacer installed at their resonance frequency as described for the previous sessions. However, they will continue breathing at resonance frequency during home-practice. The sham-control group will follow the same steps as outlined above but they will practice at a normal breathing pace as determined during the baseline measurement at T0, thus faster than their resonance frequency. In addition, they will not receive any information regarding their own heart rate, as a default mode will be shown during the guided sessions. Each guided session will last approximately 30 minutes with several breaks in between whereas home practice sessions will last 20 minutes, which will be divided into four blocks of five minutes. The participants will be asked -via a secure web-based application (m-Path, KU Leuven) -to rate the level of comfort during home-practice on a scale using five smiley faces ranging between frustrated and satisfied after each session at home.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 580,
+                    "text": "(Awesome Labs LLC, 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 581,
+                    "end": 592,
+                    "text": "Trex, 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Supervised RSA biofeedback"
+        },
+        {
+            "text": "The non-supervised intervention will be home-based with one guided session at the start during which the individual resonance frequency of the participants will be determined and the procedure will be explained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Non-supervised RSA biofeedback: feasibility"
+        },
+        {
+            "text": "Next, participants will breath at this resonance frequency on a daily basis in four blocks of five minutes using a biofeedback smartphone application (Elite HRV, Asheville, North Carolina, USA). In addition, a compatible heart rate sensor (Polar \u00ae H10, Polar, Finland) will monitor the participant's heart rate. Information regarding this monitoring will be send to the researcher (AT). A secure web-based application will ask the participants to rate their level of comfort at a daily basis, as described previously in the supervised intervention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Non-supervised RSA biofeedback: feasibility"
+        },
+        {
+            "text": "A computer-generated list will be used including block randomization procedures with an allocation ratio of 1:1 for the supervised intervention group versus the sham-control intervention (T0-T1). In addition, a stratification procedure based on gender and severity of ASD (using RBS-R and SRS-2) will be applied in order to obtain an equal division of these characteristics across the intervention groups. Randomization procedures will be performed by AT. Blinding of participants concerning group allocation is only feasible during the supervised intervention, not during the feasibility study with regard to the non-supervised intervention (T1-T2). After All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Randomization"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Randomization"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101 https://doi.org/10. /2021 completion of the study, participants will be unblinded for group allocation upon request as described in the informed consent/assent.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 75,
+                    "text": "March 1, 2021. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 76,
+                    "end": 99,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 125,
+                    "text": "https://doi.org/10. /2021",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Randomization"
+        },
+        {
+            "text": "Primary outcome measure Cardiac vagal modulation will be based on RSA, which can be calculated using a time domain measure (Root Mean Square of Successive Differences between normal heartbeats, RMSSD) and a frequency domain measure (Logarithm of High-Frequency Heart Rate Variability, LnHF-HRV) (Laborde et al., 2017) . For these parameters, 3-lead electrocardiographic recordings of heart rate (chest placement) will be performed using a NeXus-10 MKII biofeedback device and Biotrace+ Software (Mind Media B.V., www.mindmedia.com) (see subsequent section 'Physiological parameters'). The recommendations of the Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology (Malik, 1996) and Laborde et al. (2017) regarding the calculation of this outcome measure will be followed.",
+            "cite_spans": [
+                {
+                    "start": 295,
+                    "end": 317,
+                    "text": "(Laborde et al., 2017)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 724,
+                    "end": 737,
+                    "text": "(Malik, 1996)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 742,
+                    "end": 763,
+                    "text": "Laborde et al. (2017)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcome measures"
+        },
+        {
+            "text": "Heart rate, breathing frequency, skin conductance and fingertip temperature. The NeXus-10 MKII biofeedback device and Biotrace+ Software (Mind Media B.V., www.mindmedia.com) will be used to register the physiological parameters. Continuous measurement during the stress-provoking assessment will be performed with multiple electrodes placed on the body including: -A 3-lead ECG on the chest with disposable pre-gelled electrodes (Kendall\u2122 ECG Electrodes Arbo\u2122 H124SG, Covidien, Ireland) without specific skin preparations for the recording of heart rate at a sampling rate of 256 SPS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary outcome measures Physiological parameters"
+        },
+        {
+            "text": "-An elastic band with stretch-sensitive sensors around the waist for the recording of the breathing frequency at a sampling rate of 32 SPS.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary outcome measures Physiological parameters"
+        },
+        {
+            "text": "-Two electrodes for the measurement of skin conductance with a sampling rate of 32 SPS strapped around the palmar side of the distal phalanx of the index and ring finger on the non-dominant hand.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary outcome measures Physiological parameters"
+        },
+        {
+            "text": "-One temperature sensor with a sampling rate of 32 SPS placed around the palmar side of distal phalanx of the middle finger on the non-dominant hand for the recording of fingertip temperature.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Secondary outcome measures Physiological parameters"
+        },
+        {
+            "text": "Placement of the electrodes is visualized in Figure 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 53,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Secondary outcome measures Physiological parameters"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cortisol measurement"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cortisol measurement"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10. 1101 /2021 in which items are adapted according to the specific problems that adolescents can encounter in their lives, such as school-related stress. A higher total score is related to higher perceived stress levels. Scale -21-item version. The DASS-21 (Beurs, 2001) measures the presence of negative emotions based on adolescent self-report. Separate scale scores are calculated for symptoms related to depression, anxiety and stress with higher scores reflecting a higher prevalence of the related symptoms.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 106,
+                    "text": "/2021",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 314,
+                    "end": 363,
+                    "text": "Scale -21-item version. The DASS-21 (Beurs, 2001)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cortisol measurement"
+        },
+        {
+            "text": "Physical Activity Vital Sign. The PAVS (Greenwood et al., 2010) determines the level of physical activity during the last week based on adolescent self-report. This measure consists of two short questions related to (1) the number of days the adolescent was physically active and (2) the number of minutes (on average) this physical activity was endured.",
+            "cite_spans": [
+                {
+                    "start": 39,
+                    "end": 63,
+                    "text": "(Greenwood et al., 2010)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Depression Anxiety and Stress"
+        },
+        {
+            "text": "Sensory hypersensitivity based on a Visual Analogue Scale. Measures the self-reported influence of sensory hyper-responsivity on a Visual Analogue Scale going from 0 (meaning no perceived sensory hyperresponsivity) to 100 (meaning presence of severe sensory hyper-responsivity and negative impact on functioning).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Depression Anxiety and Stress"
+        },
+        {
+            "text": "Perceived stress based on a Visual Analogue Scale. To rate the self-reported perceived stress level on a Visual Analogue Scale per stressor during the stress inducing test. The scale score can vary between 0 (meaning no stress) and 100 (meaning highest level of perceived stress possible).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Depression Anxiety and Stress"
+        },
+        {
+            "text": "Behavioral data will be gathered via a Qualtrix and m-Path account protected by the KU Leuven.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "Physiological data regarding heart rate will be exported from BioTrace+ as raw data of all sessions into IBI text files for each participant. These will be exported to Kubios HRV Premium (version 3.4.3, University of Eastern Finland, Kuopio, Finland), which will be used to clean the data using the automatic artefact correction algorithm included in the software. Subsequently, analysis of the data regarding heart rate variability will be performed to determine cardiac vagal modulation expressed as RMSSD and LnHF-HRV, as described in the 'Primary outcome measure' section. Researcher-developed scripts in MATLAB R2020b (MathWorks, Natick, Massachusetts, USA) will perform preprocessing and analysis of skin conductance, fingertip temperature and respiration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101 https://doi.org/10. /2021 One member of the research team (AT) will gather all data to conduct statistical analyses using MATLAB R2020b statistical packages to test the main hypotheses. For all analyses, level of significance is set at 0.05 with appropriate corrections for related post-hoc analysis. In addition, the strategy of intention-to-treat will be applied. If normal distribution of physiological data is not present, log-transformation will be conducted as recommended by Laborde et al. (2017) . For participants with missing data on any measure, multiple imputation or an ignorability analysis based on the likelihood will be used. If available, reasons for dropout will be listed in order to gain more insight into the feasibility of both interventions.",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 75,
+                    "text": "March 1, 2021. ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 76,
+                    "end": 99,
+                    "text": "https://doi.org/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 100,
+                    "end": 125,
+                    "text": "https://doi.org/10. /2021",
+                    "ref_id": null
+                },
+                {
+                    "start": 582,
+                    "end": 603,
+                    "text": "Laborde et al. (2017)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "Cross-sectional data comparison. Data from the stress-provoking assessment at T0 will be used to compare the adolescents with ASD (n = 38) with their TD peers (n = 38) in a repeated measures ANOVA with group (ASD vs TD) as between-subject factor. Pearson correlation analysis will be performed to determine correlations between the primary outcome measure and secondary outcome measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "Efficacy of the supervised RSA biofeedback intervention. The efficacy of the supervised intervention will be determined by intention-to-treat analysis using physiological and cortisol data in a mixed model analysis with 'group' (intervention vs sham) as a between-group factor and 'time' (T0, T1 and T2) as a within-group factor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "Change in behavioral outcome measures after supervised RSA biofeedback. In order to determine the influence of the intervention on the behavioral outcome measures, pre-to-post difference scores (T0-T2) will be calculated for the primary outcome measure and the behavioral outcome measures. These differences will be used in a correlation analysis to determine whether positive effects on the primary outcome measure correlate with similar effects on the behavioral parameters.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "Impact of behavioral outcome measures on treatment efficacy. Mediation analysis will be performed to determine the influence of baseline behavioral characteristics of the participants on the efficacy of the biofeedback interventions. Behavioral parameters from T0 will be split into categories (such as low perceived stress versus high perceived stress) and will be used in split-group-analysis to evaluate pre-to-post differences in the primary outcome measure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data handling and statistical analysis"
+        },
+        {
+            "text": "The results of the cross-sectional phase will provide more insight into the differences of autonomic functioning between adolescents with ASD and their TD peers. In addition, the association between autonomic functioning All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10. 1101 /2021 and behavioral measures will be clarified. The longitudinal phase will determine the efficacy of a supervised RSA biofeedback intervention in adolescents with ASD. This intervention may provide multiple benefits for this population specifically due to its possibility to be practiced at home, as will be examined during the feasibility study of the non-supervised RSA based biofeedback intervention in this study. The latter can facilitate the integration and transfer into their daily routine. Given the high rate of co-occuring psychological symptoms and a hypothesized association between lower cardiac vagal modulation and these symptoms in individuals with ASD, an upregulation of cardiac vagal modulation may be valuable for this particular population. This can be accomplished by RSA based biofeedback intervention, as has been previously demonstrated in other populations including physical, behavioral, and cognitive conditions (Chudleigh et al., 2019; Darling et al., 2019; Gevirtz, 2013; Goodman et al., 2018; Kennedy & Parker, 2019; Knox et al., 2011; Lehrer et al., 2020; Lehrer & Gevirtz, 2014; Thabrew et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 106,
+                    "text": "/2021",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1044,
+                    "end": 1068,
+                    "text": "(Chudleigh et al., 2019;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1069,
+                    "end": 1090,
+                    "text": "Darling et al., 2019;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1091,
+                    "end": 1105,
+                    "text": "Gevirtz, 2013;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1106,
+                    "end": 1127,
+                    "text": "Goodman et al., 2018;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1128,
+                    "end": 1151,
+                    "text": "Kennedy & Parker, 2019;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1152,
+                    "end": 1170,
+                    "text": "Knox et al., 2011;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1171,
+                    "end": 1191,
+                    "text": "Lehrer et al., 2020;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1192,
+                    "end": 1215,
+                    "text": "Lehrer & Gevirtz, 2014;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1216,
+                    "end": 1237,
+                    "text": "Thabrew et al., 2018)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study was registered at ClinicalTrials.gov on November 13 th , 2020 (NCT04628715). At the time of initial manuscript submission, recruitment had started (December 2020) but not yet completed. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study status"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study status"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study status"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10.1101/2021.02.27.21252570 doi: medRxiv preprint Table 1 Procedure of enrolment, interventions and assessment following SPIRIT guidelines (Chan et al., 2013) . T0 baseline assessment, T1 assessment after five weeks of supervised intervention, T2 after five weeks of follow-up. x (n=128) Supervised RSA biofeedback intervention Feasibility study Non-supervised RSA biofeedback intervention a Acquisition of these data is a prerequisite for the eligibility screen (Autism Quotient data from parents of TD adolescents) and before physiological data collection can take place (all behavioral data) Abbreviations: ASD=Autism Spectrum Disorder; TD=Typically Developing; RSA=Respiratory Sinus Arrhythmia All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 231,
+                    "end": 250,
+                    "text": "(Chan et al., 2013)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 149,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Study status"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study status"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted March 1, 2021. ; https://doi.org/10. 1101 /2021 ",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 101,
+                    "end": 106,
+                    "text": "/2021",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study status"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Diagnostic and statistical manual of mental disorders",
+            "authors": [],
+            "year": 2000,
+            "venue": "American Psychiatric Association",
+            "volume": "",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Diagnostic and statistical manual of mental disorders",
+            "authors": [],
+            "year": 2013,
+            "venue": "American Psychiatric Association",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Awesome Breathing: Pacer Timer [Mobile App",
+            "authors": [],
+            "year": 2020,
+            "venue": "App Store",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The autism-spectrum quotient (AQ)-adolescent version",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baron-Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hoekstra",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Knickmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wheelwright",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of autism and developmental disorders",
+            "volume": "36",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10803-006-0073-6"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Respiratory Sinus Arrhythmia: A Transdiagnostic Biomarker of Emotion Dysregulation and Psychopathology",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Beauchaine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Curr Opin Psychol",
+            "volume": "3",
+            "issn": "",
+            "pages": "43--47",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Respiratory sinus arrhythmia reactivity across empirically based structural dimensions of psychopathology: A meta analysis",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Beauchaine",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Knapton",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mcdonough Caplan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Shader",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zisner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Psychophysiology",
+            "volume": "56",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/psyp.13329"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A review of cardiac autonomic measures: considerations for examination of physiological response in children with autism spectrum disorder",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Benevides",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMJ : British Medical Journal",
+            "volume": "346",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.e7586"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Heart rate variability in individuals with autism spectrum disorders: A meta-analysis",
+            "authors": [
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neuroscience & Biobehavioral Reviews",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Use of respiratory rates and heart rate variability in the assessment and treatment of children and adolescents with functional somatic symptoms",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chudleigh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Savage",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mcclure",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Spooner",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kozlowska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Child Psychol Psychiatry",
+            "volume": "24",
+            "issn": "1",
+            "pages": "29--39",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Restricted repetitive behaviors in autism spectrum disorder: A systematic review from the neurovisceral integration perspective",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Condy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scarpa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biol Psychol",
+            "volume": "148",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.biopsycho.2019.107739"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Social Responsiveness Scale-Second Edition (SRS-2)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Constantino",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gruber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "CA: Western Psychological Services",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Comparing stress and arousal systems in response to",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muscatello",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Baldinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "ESCAP practice guidance for autism: a summary of evidencebased recommendations for diagnosis and treatment",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fuentes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Herv\u00e1s",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Howlin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00787-020-01587-4"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "2009 updated method guidelines for systematic reviews in the Cochrane Back Review Group",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Furlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Pennick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bombardier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Tulder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "Spine",
+            "volume": "34",
+            "issn": "18",
+            "pages": "1929--1941",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The promise of heart rate variability biofeedback: Evidence-based applications",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gevirtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Biofeedback",
+            "volume": "41",
+            "issn": "3",
+            "pages": "110--120",
+            "other_ids": {
+                "DOI": [
+                    "10.5298/1081-5937-41.3.01"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A neurovisceral approach to autism: Targeting self-regulation and core symptoms using neurofeedback and biofeedback",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sloan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Widdowson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Herrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pineda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "9--9",
+            "other_ids": {
+                "DOI": [
+                    "10.15540/nr.5.1.9"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The Strengths and Difficulties Questionnaire: a research note",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goodman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Journal of child psychology and psychiatry",
+            "volume": "38",
+            "issn": "5",
+            "pages": "581--586",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1469-7610.1997.tb01545.x"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Strengths and Difficulties Questionnaire: A pilot study on the validity of the self-report version",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goodman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meltzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "European child & adolescent psychiatry",
+            "volume": "7",
+            "issn": "3",
+            "pages": "125--130",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Cardiac vagal control and children's adaptive functioning: A metaanalysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Graziano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Derefinko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Biological psychology",
+            "volume": "94",
+            "issn": "1",
+            "pages": "22--37",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.biopsycho.2013.04.011"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The Physical Activity Vital Sign: a primary care tool to guide counseling for obesity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Greenwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Joy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stanford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Phys Act Health",
+            "volume": "7",
+            "issn": "",
+            "pages": "571--576",
+            "other_ids": {
+                "DOI": [
+                    "10.1123/jpah.7.5.571"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Assessment and coping strategies",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Groden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Baron",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Groden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Stress and coping in autism",
+            "volume": "",
+            "issn": "",
+            "pages": "15--41",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Investigating the autonomic nervous system response to anxiety in children with autism spectrum disorders",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kushki",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Drumm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pla Mobarak",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Tanel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dupuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chau",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Anagnostou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0059730"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Heart Rate Variability and Cardiac Vagal Tone in Psychophysiological Research -Recommendations for Experiment Planning, Data Analysis, and Data Reporting",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Laborde",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mosley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Thayer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Front Psychol",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpsyg.2017.00213"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Heart Rate Variability Biofeedback Improves Emotional and Physical Health and Performance: A Systematic Review and Meta Analysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lehrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Huseby",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bhavsar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appl Psychophysiol Biofeedback",
+            "volume": "45",
+            "issn": "3",
+            "pages": "109--129",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10484-020-09466-z"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Protocol for heart rate variability biofeedback training",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lehrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vaschillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bronya",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Zucker",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Terri",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Graves",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jessica",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Katsamanis",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Maria",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Aviles",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Milisyaris",
+                    "suffix": ""
+                },
+                {
+                    "first": "Frederick",
+                    "middle": [],
+                    "last": "Wamboldt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Biofeedback",
+            "volume": "41",
+            "issn": "3",
+            "pages": "98--109",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Heart rate variability biofeedback: how and why does it work?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lehrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gevirtz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Frontiers in Psychology",
+            "volume": "5",
+            "issn": "756",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpsyg.2014.00756"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Brief Report: Reduced Heart Rate Variability in Children with Autism Spectrum Disorder",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lory",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kadlaskar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mcnally Keehn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Francis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Keehn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autism Dev Disord",
+            "volume": "50",
+            "issn": "11",
+            "pages": "4183--4190",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "A systematic review of physiological reactivity to stimuli in autism",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lydon",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Healy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mulhern",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Goodwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Developmental neurorehabilitation",
+            "volume": "19",
+            "issn": "6",
+            "pages": "335--355",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use: Task force of the European Society of Cardiology and the North American Society for Pacing and Electrophysiology",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Malik",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Annals of Noninvasive Electrocardiology",
+            "volume": "1",
+            "issn": "2",
+            "pages": "151--181",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Evidence for decreased parasympathetic response to a novel peer interaction in older children with autism spectrum disorder: a case-control study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muscatello",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Vandekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Neurodev Disord",
+            "volume": "13",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s11689-020-09354-xAllrightsreserved"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Autonomic response in autism spectrum disorder: Relationship to social and cognitive functioning",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patriquin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hartwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Porges",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scarpa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biol Psychol",
+            "volume": "145",
+            "issn": "",
+            "pages": "185--197",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Broad implications for respiratory sinus arrhythmia development: associations with childhood symptoms of psychopathology in a community sample",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patriquin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lorenzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scarpa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Calkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Dev Psychobiol",
+            "volume": "57",
+            "issn": "1",
+            "pages": "120--130",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/dev.21269"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Porges",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Self-Regulation",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Discrimination, dispositions, and cardiovascular responses to stress",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Richman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pek",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Siegler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Health Psychol",
+            "volume": "26",
+            "issn": "",
+            "pages": "675--683",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/0278-6133.26.6.675"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A Systematic Review and Meta-Analysis of Within-Person Changes in Cardiac Vagal Activity across the Menstrual Cycle: Implications for Female Health and Future Studies",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schmalenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Eisenlohr-Moul",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wurth",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Thayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ditzen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Jarczok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Clin Med",
+            "volume": "8",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm8111946"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "An Overview of Heart Rate Variability Metrics and Norms. Front Public Health, 5, 258",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ginsberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpubh.2017.00258"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "A healthy heart is not a metronome: an integrative review of the heart's anatomy and heart rate variability",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mccraty",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zerr",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Frontiers in Psychology",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "A Practical Guide to Resonance Frequency Assessment for Heart Rate Variability Biofeedback",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meehan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Exploring the relationship of autonomic and endocrine activity with social functioning in adults with autism spectrum disorders",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Smeekens",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Didden",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Verhoeven",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Autism Dev Disord",
+            "volume": "45",
+            "issn": "2",
+            "pages": "495--505",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10803-013-1947-z"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Studies of interference in serial verbal reactions",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Stroop",
+                    "suffix": ""
+                }
+            ],
+            "year": 1935,
+            "venue": "Journal of experimental psychology",
+            "volume": "18",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/h0054651"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Systematic Review of Biofeedback Interventions for Addressing Anxiety and Depression in Children and Adolescents with Long-Term Physical Conditions",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Thabrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ruppeldt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sollers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Stress bij kinderen. Bohn Stafleu van Loghum",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Der Ploeg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Dutch version of the Strengths and Difficulties Questionnaire (SDQ)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Widenfelt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Goedhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Treffers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goodman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Eur Child Adolesc Psychiatry",
+            "volume": "12",
+            "issn": "6",
+            "pages": "281--289",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "No reuse allowed without permission. (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Abbreviations ASD: Autism Spectrum Disorder; AQ: Autism Quotient; DASS: Depression Anxiety and Stress Scales; DSM-IV/V: Diagnostics and Statistical Manual of mental disorders; ECG: Electrocardiogram; FU: Follow-up; HF-HRV: High Frequency Heart Rate Variability; HRV: Heart Rate Variability; PAVS: Physical Activity Vital Sign; PSS: Perceived Stress Scale; RBS-R: Repetitive Behavior Scale -Revised; RMSSD: Root Mean Square of Successive Differences; RSA: Respiratory Sinus Arrhythmia; SDQ: Strengths and Difficulties Questionnaire; SRS: Social Responsiveness Scale; SSRT: Social Stress Recall Task; TD: Typically Developing; VAS: Visual Analogue Scale.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Placement of Physiological Sensors Figures are submitted as separate PNG-files and were created with Microsoft PowerPoint 2016.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The copyright holder for this preprint this version postedMarch 1, 2021.  ;  https://doi.org/10.1101  https://doi.org/10. /2021 axis and heart rate responsiveness to psychosocial stress in children with autism spectrum disordershttps://doi.org/10.1016/j.psyneuen.2014.04.004 Kennedy, L., & Parker, S. H. (2019). Biofeedback as a stress management tool: a systematic review. Cognition, Technology & Work, 21(2), 161-190. https://doi.org/10.1007/s10111-018-0487-x Knox, M., Lentini, J., Cummings, T., McGrady, A., Whearty, K., & Sancrant, L. (2011). Game-based biofeedback for paediatric anxiety and depression. Ment Health Fam Med, 8(3), 195-203.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

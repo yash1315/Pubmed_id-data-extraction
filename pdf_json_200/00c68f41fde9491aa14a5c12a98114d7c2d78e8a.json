@@ -1,0 +1,1076 @@
+{
+    "paper_id": "00c68f41fde9491aa14a5c12a98114d7c2d78e8a",
+    "metadata": {
+        "title": "Journal Pre-proof Stability of MERS-CoV RNA on spin columns of RNA extraction kit at room temperature Stability of MERS-CoV RNA on spin columns of RNA extraction kit at room temperature",
+        "authors": [
+            {
+                "first": "Nermeen",
+                "middle": [
+                    "M A"
+                ],
+                "last": "Abdallah",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ain Shams University",
+                    "location": {
+                        "settlement": "Cairo",
+                        "country": "Egypt"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [
+                    "M"
+                ],
+                "last": "Zaki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ain Shams University",
+                    "location": {
+                        "settlement": "Cairo",
+                        "country": "Egypt"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shimaa",
+                "middle": [
+                    "A"
+                ],
+                "last": "Abdel-Salam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ain Shams University",
+                    "location": {
+                        "settlement": "Cairo",
+                        "country": "Egypt"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Middle East Respiratory Syndrome Coronavirus (MERS-CoV), is an emerging virus causing a highly fatal respiratory disease in humans. Confirmation of MERS-CoV infection and molecular study on the virus may require transportation of samples to specialized laboratories. While freezing at -80\u00b0C is the gold standard method for RNA preservation, maintaining the integrity of viral RNA during transport will require additional precautions and, as a result, increase transport costs. We aimed at testing the stability of MERS-CoV RNA on spin columns of RNA extraction kit at room temperature for 16 weeks. Respiratory samples spiked with stock culture of MERS-CoV were extracted and loaded on QIAamp Viral RNA Mini Kit spin columns and preserved at room temperature. Amount of Viral RNA was evaluated periodically by realtime quantitative RT-PCR. Minimal changes in cycle threshold values over the study period was noted, suggesting stability of viral RNA by this preservation method. key words: MERS-CoV, coronavirus, RNA preservation, spin columns. Running title: MERS-CoV RNA stability at room temperature. Abstract word count:147 Text body word count:2001 J o u r n a l P r e -p r o o f Journal Pre-proof Author contributions A.Z supervised and carried out experimental work. N.A analyzed the data and wrote the first draft of the manuscript. All authors were involved in conception, design of the study, resources, manuscript revision, and approval of the final version of the manuscript. J o u r n a l P r e -p r o o f Journal Pre-proof J o u r n a l P r e -p r o o f Journal Pre-proof 9 \uf0b7 Zaki AM, Van Boheemen S, Bestebroer TM, Osterhaus AD, Fouchier RA. Isolation of a novel coronavirus from a man with pneumonia in Saudi Arabia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Coronaviruses are a large group of enveloped single-stranded, positive sense RNA viruses. Five of the seven human coronaviruses belong to the genera Betacoronavirus, with SARS-CoV, MERS-CoV and SARS-CoV2 significant human pathogens (Sahin et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 252,
+                    "text": "(Sahin et al., 2020)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Middle East Respiratory Syndrome Coronavirus (MERS-CoV) is the causative virus of a highly lethal respiratory disease in humans, Middle East Respiratory Syndrome (MERS). It was identified for the first time in the Kingdom of Saudi Arabia in 2012 with a documented fatality rate of 37% (Zaki et al., 2012; WHO, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 285,
+                    "end": 304,
+                    "text": "(Zaki et al., 2012;",
+                    "ref_id": null
+                },
+                {
+                    "start": 305,
+                    "end": 315,
+                    "text": "WHO, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Confirmation of suspected cases of MERS-CoV infection necessitates detection of unique sequences of virus RNA including real-time reverse-transcription polymerase chain reaction (rRT-PCR), with confirmation by nucleic acid sequencing when necessary according to the WHO Algorithm for testing patients under investigation for MERS-CoV (WHO, 2018) . For this reason, the transport of samples across experienced or more equipped laboratories, especially in developing and low-resource countries, may be essential for complete diagnosis and further study (WHO, 2018) .",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 345,
+                    "text": "MERS-CoV (WHO, 2018)",
+                    "ref_id": null
+                },
+                {
+                    "start": 551,
+                    "end": 562,
+                    "text": "(WHO, 2018)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Infectious materials transported across countries or within the same country can present risks to both people and the environment. In order to minimize those risks, the transport and shipment of specimens should be subjected to certain regulations. These regulations are defined by the United Nations Committee of Experts on the Transport of Dangerous Goods (UNCETDG) and WHO Guidelines concerning Infectious Substances Transport, which aim to provide minimum requirements for the safe handling, packaging and transport of infectious material (WHO, 2019).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Specimens should be stored at -80\u00b0C and shipped on dry ice to preserve the virus for further testing. For long distance transportation, the combined use of dry ice and frozen gel icepacks may be required. Meeting such conditions would surely increase the cost of shipping samples (CDC, 2015) .",
+            "cite_spans": [
+                {
+                    "start": 280,
+                    "end": 291,
+                    "text": "(CDC, 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Numerous studies have investigated the preservation of clinical samples for extended periods of time, but the quality of RNA is influenced by temperature changes, tissue processing protocols, and storage conditions. Physical or chemical methods are used for the preservation of RNA, and the selection of the appropriate method is mainly based on availability and cost (Mathay et al., 2012; Salehi and Najafi, 2014; Stevenson et al., 2015) .",
+            "cite_spans": [
+                {
+                    "start": 368,
+                    "end": 389,
+                    "text": "(Mathay et al., 2012;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 390,
+                    "end": 414,
+                    "text": "Salehi and Najafi, 2014;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 415,
+                    "end": 438,
+                    "text": "Stevenson et al., 2015)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "MERS-CoV (isolate HCoV-EMC/2012) showed environmental stability at relatively low temperature and humidity conditions (20\u00b0C and 40 percent relative humidity) and a marked decline in viability is noticed at higher temperatures and humidity (Van Doremalen et al., 2013) .",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 267,
+                    "text": "(Van Doremalen et al., 2013)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "While RNA quality is influenced by storage conditions, we adapted the spin column technique used to extract and purify MERS-CoV RNA to preserve the nucleic acid in situ at ambient temperature, which will allow the storage or transport of extracted viral RNA for longer periods of time, up to several weeks if cold storage cannot be guaranteed, or will add too much to the cost, which is important, especially in low resource countries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Sputum and nasopharyngeal aspirate mix were spiked with stock culture of inactivated MERS-CoV of a known titer of 1\u00d710 8 copies/ml that was kept in -80\u00b0C and supplied by Professor Ali Zaki (Ain Shams University, Cairo, Egypt). It was added step-wise and real-time PCR was performed until obtaining Ct (Cycle threshold) value of 20-25. This concentration is based on an average expected for clinical samples (Min et al., 2016) .",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 425,
+                    "text": "(Min et al., 2016)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Preparation of samples"
+        },
+        {
+            "text": "Samples were extracted using QIAamp Viral RNA Mini Kit (52904: Qiagen, Hilden, Germany) following manufacturer's guidelines (spin protocol) in which the samples were lysed and then loaded onto the QIAamp Mini spin columns. Total volume of the sample (stock virus spiked sample) used in extraction was 140 \u00b5l per column according to the kit instructions and the same for all spin columns used in the study. The RNA binds to the membrane, and contaminants washed away efficiently in two steps using wash buffer AW1 followed by wash buffer AW2. The last elution step was postponed, and spin columns were stored in closed containers at room temperature (22-25\u00b0C).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Viral RNA extraction"
+        },
+        {
+            "text": "Baseline testing of 5 spin columns was performed and viral RNA stability was evaluated periodically for 16 weeks. Every week, 5 spin columns that were preserved at room temperature were eluted with RNase-free buffer according to manufacturer's guidelines and analyzed by real-time quantitative RT-PCR (rRT-qPCR) to determine the Cycle Threshold (Ct) value of preserved RNA. Real-time RT-PCR was performed in Real-Time PCR machine StepOne (Applied Biosystems, Foster City, California, USA) using Verso 1-Step qRT-PCR Kit Plus ROX Vial (AB4100A: Thermo Fisher Scientific, South San Francisco, California, USA) according to the manufacturer's guidelines with 5\u00b5g of RNA input per reaction. Primers and probe sets (Table 1) were designed to target the RNA-dependent RNA polymerase gene region using Applied Biosystems\u00ae Primer Express Software. The following cycling parameters were used: at 50\u00b0C for 30 min, then 95\u00b0C for 15 min, followed by 40 cycles of 95\u00b0C for 30 s and 60\u00b0C for one minute. Each run included a negative and positive control. Each sample was run in triplicate and mean Ct value for each sample was recorded. Standard curve was constructed by plotting Ct values versus the logarithm of the MERS-CoV RNA amount, which showed a linear relationship with a R 2 of 0.995 and an efficiency of 91%.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 710,
+                    "end": 719,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RNA elution and quantification:"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Journal Pre-proof",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RNA elution and quantification:"
+        },
+        {
+            "text": "Real-time PCR results as a Ct value could be considered as a semi-quantitative viral load estimator in clinical samples. Figure 1 shows the average Ct values recorded during the study period. Extracted MERS-CoV RNA on silica membrane of spin columns remained stable for 16 weeks, when stored at room temperature. The average starting Ct value at week 0 was 18.524\u00b10.84 reaching 20.25\u00b11.82 at week 16 (Fig. 2) , with a difference of approximately 1.73 between baseline Ct record and 16 weeks later at the end of the experiment. These emerging viruses are the focus of much research, and it is critical that transporting these potentially hazardous agents between reference laboratories for research purposes should be a careful balance between biosafety precautions and maintaining the quality of transported materials. This will add more to the effort and cost of ensuring safe delivery to the processing area.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 121,
+                    "end": 129,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 400,
+                    "end": 408,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Preservation of RNA has been widely reviewed; many methods are available, ranging from the preservation of the clinical specimen itself or pure extracted RNA, the gold standard method for preservation of RNA is freezing at -80\u00b0C (Daum et al., 2011; Mathay et al., 2012; Liu et al., 2015; Foss et al., 2016) . Both FTA cards and RNASound cards carry the advantage of preserving clinical samples immediately, hence their appeal in field studies, but RNASound cards are sometimes preferred over FTA cards because viral RNA is easily eluted (Lau and Hurt, 2016) .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 248,
+                    "text": "(Daum et al., 2011;",
+                    "ref_id": null
+                },
+                {
+                    "start": 249,
+                    "end": 269,
+                    "text": "Mathay et al., 2012;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 270,
+                    "end": 287,
+                    "text": "Liu et al., 2015;",
+                    "ref_id": null
+                },
+                {
+                    "start": 288,
+                    "end": 306,
+                    "text": "Foss et al., 2016)",
+                    "ref_id": null
+                },
+                {
+                    "start": 537,
+                    "end": 557,
+                    "text": "(Lau and Hurt, 2016)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Recently developed cellulose disks (UNEXP) saturated with a nucleic acid extraction buffer (UNEX) have successfully maintained norovirus at room temperature for up to 2 weeks (Cromeans et al., 2019) .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 198,
+                    "text": "(Cromeans et al., 2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "In this study, silica membrane (of spin column extraction kit) was used to preserve MERS-CoV extracted RNA for up to 16 weeks at room temperature. The level of viral RNA remained stable during the preservation period, denoted by the almost stable Ct value recorded during Real-time PCR (1.73 difference in mean Ct value over study period).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "We used Ct value as an indicator of viral stability. Ct value was used to represent viral load of some respiratory viruses including MERS-CoV (Fuller et al., 2013; Memish et al., 2014; Feikin et al., 2015) . The reaction conditions were fixed to minimize errors in Ct values not related to the template. It is estimated that a 1-unit difference in Ct value would be equivalent to J o u r n a l P r e -p r o o f Journal Pre-proof approximately 2-fold change of concentration of virus copies. This is provided that RT-PCR is 100% efficient (Fuller et al., 2013) .",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 163,
+                    "text": "MERS-CoV (Fuller et al., 2013;",
+                    "ref_id": null
+                },
+                {
+                    "start": 164,
+                    "end": 184,
+                    "text": "Memish et al., 2014;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 185,
+                    "end": 205,
+                    "text": "Feikin et al., 2015)",
+                    "ref_id": null
+                },
+                {
+                    "start": 538,
+                    "end": 559,
+                    "text": "(Fuller et al., 2013)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "For this study experiment clinical samples were not available, however spiked sputum and nasopharyngeal aspirate mixture were used to mimic the natural conditions from which the virus is extracted. We tested the stability of one concentration of RNA on silica membrane. Although stability of various RNA loads on different matrices is not related to concentration tested (Relova et al., 2018) , we recommend future testing of stability of various viral RNA concentrations on spin columns. Carrier RNA added during the RNA extraction protocol improves binding of viral nucleic acids to the silica membrane, even with few target molecules in the sample (Shaw et al., 2009) .",
+            "cite_spans": [
+                {
+                    "start": 371,
+                    "end": 392,
+                    "text": "(Relova et al., 2018)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 651,
+                    "end": 670,
+                    "text": "(Shaw et al., 2009)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Accumulated data in our lab indicate that viral RNA is stable in the silica membrane of Qiagen RNA extraction kit for variable lengths of time. We shipped Norovirus RNA extracted from stool to the United States and subsequent amplification and phylogenic analysis was successful. We also shipped RNA extracted from the sputum for the Metapneumovirus diagnosis and successfully tested it in the Netherlands. Lastly, RNA of 2012 MERS-CoV from a patient's sputum was shipped to the Erasmus University Medical Center in the Netherlands. It was tested by RT-PCR and successfully sequenced for phylogenetic analysis (Zaki, 2012). The average time from extraction to final processing was approximately three weeks and was shipped at ambient temperature.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "There are no documented reports on preservation of MERS-CoV RNA for extended periods of time, however Moscoso, et al. and Manswr et al. preserved Infectious bronchitis virus which is a member of the Gammacoronavirus genus for 36 days and 21 days, respectively at room temperature using FTA cards (Moscoso et al., 2005; Manswr et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 145,
+                    "text": "Moscoso, et al. and Manswr et al. preserved",
+                    "ref_id": null
+                },
+                {
+                    "start": 296,
+                    "end": 318,
+                    "text": "(Moscoso et al., 2005;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 319,
+                    "end": 339,
+                    "text": "Manswr et al., 2018)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "We are the first group to demonstrate the use of spin columns to preserve MERS-CoV RNA and show stability of the preserved RNA for up to 4 months. The spin column method for viral RNA preservation has many advantages over other methods; there is no need for special equipment other than that used to extract RNA, and no need for special chemicals or storage conditions. It could be considered cost effective as some of the other methods of preserving viral RNA are usually followed by the use of an RNA extraction kit to ensure RNA purification (Lau and Hurt, 2016) .",
+            "cite_spans": [
+                {
+                    "start": 545,
+                    "end": 565,
+                    "text": "(Lau and Hurt, 2016)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "5.Conclusion"
+        },
+        {
+            "text": "Further research is needed to investigate the use of this method for longer durations and applications on different types of viruses, and even for higher temperature storage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "5.Conclusion"
+        },
+        {
+            "text": "This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. \uf0b7 CDC, 2015 ",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "2015",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Funding"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A systematic review of FTA cards\u00ae as a tool for viral RNA preservation in fieldwork: Are they safe and effective?",
+            "authors": [
+                {
+                    "first": "\uf0b7",
+                    "middle": [],
+                    "last": "Cardona-Ospina",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Villalba-Miranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Palechor-Ocampo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mancilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Sep\u00falveda-Arias",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "104772.DOI.org/10.1016/j.prevetmed.2019.104772"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Short-term stability study of RNA at room temperature. Biopreservation and biobanking",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mathay",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chuaqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Skubitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jeon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fall",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "532--574",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/bio.2012.0030"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Respiratory tract samples, viral load, and genome fraction yield in patients with Middle East respiratory syndrome",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al-Tawfq",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Makhdoom",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Assiri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alhakeem",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Albarrak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Infect Dis",
+            "volume": "210",
+            "issn": "10",
+            "pages": "1590--1594",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/infdis/jiu292"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Comparative and kinetic analysis of viral shedding and immunological responses in MERS patients representing a broad spectrum of disease severity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "\uf0b7 Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cheon",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aigerim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep25359"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Molecular detection and serotyping of infectious bronchitis virus from FTA\u00ae filter paper. Avian diseases",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Moscoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Raybon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hofacre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "49",
+            "issn": "",
+            "pages": "24--33",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of RNA Degradation on Viral Diagnosis: An Understated but Essential Step for the Successful Establishment of a Diagnosis Network",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Relova",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rios",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Acevedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Coronado",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Perera",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "P\u00e9rez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Vet Sci",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/vetsci5010019"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "novel coronavirus (COVID-19) outbreak: a review of the current literature",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sahin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Erdogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Agaoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dineri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cakirci",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Senel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "EJMO",
+            "volume": "4",
+            "issn": "1",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.14744/ejmo.2020.12220"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Coronaviruses: a paradigm of new emerging zoonotic diseases. Pathogens and disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Salata",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Calistri",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Parolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Palu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "77",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/femspd/ftaa006"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "RNA preservation and stabilization",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Salehi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Najafi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Biochem Physiol",
+            "volume": "3",
+            "issn": "126",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4172/2168-9652.1000126"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The use of carrier RNA to enhance DNA extraction from microfluidic-based silica monoliths",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thain",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Docker",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Greenman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Greenway",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Anal Chim Acta",
+            "volume": "652",
+            "issn": "1-2",
+            "pages": "231--234",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.aca.2009.03.038"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Long-term stability of total RNA in RNAstable\u00ae as evaluated by expression microarray. Biopreservation and biobanking",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Stevenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Edelman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Stability of Middle East respiratory syndrome coronavirus (MERS-CoV) under different environmental conditions",
+            "authors": [
+                {
+                    "first": "\uf0b7",
+                    "middle": [],
+                    "last": "Van Doremalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bushmaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Munster",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Eurosurveillance",
+            "volume": "18",
+            "issn": "38",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "DOI.org/10.2807/1560-7917.ES2013.18.38.20590"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "\uf0b7 World Health Organization (WHO)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "\uf0b7 World Health Organization. Laboratory testing for middle East respiratory syndrome coronavirus: interim guidance ( revised)",
+            "authors": [],
+            "year": 2018,
+            "venue": "Guidance on regulations for the transport of infectious substances 2019-2020",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "): Average Ct values recorded along study period (single column fitting) Figure (2): Amplification plot of preserved MERS-CoV RNA (1.5 column fitting) including coronaviruses exhibit higher mutation rates noted recently by the emergence of new viruses, including MERS-CoV in the Kingdom of Saudi Arabia and currently SARS-CoV-2 that was first detected in China and evolved into a global pandemic(Salata et al., 2019).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Other methods for preserving RNA at room temperature are investigated: The Flinders Technology Associates (FTA) card and the RNASound card. Both are filter papers containing chemicals designed to preserve nucleic acids in clinical samples(Cardona-Ospina et al., 2019).FTA cards have been used mainly for the preservation of DNA, however their use has been extended for the preservation of RNA, but according to the manufacturer's recommendations they should be used immediately or kept frozen. Cardona-Ospina et al. reviewed the use of FTA cards for the preservation of viral RNA at different temperatures and different processing methods for a variety of RNA viruses (although not including MERS-CoV) and showed a wide variation in the length of time the viral RNA could be maintained (Cardona-Ospina et al., 2019).Avian influenza virus RNA may be stored for up to 5 months at room temperature using FTA cards, while some arboviruses' (Zika virus, Chikungunya virus, Dengue virus) RNA may be successfully recovered from FTA cards after 28 days. Similarly, the RNASound card effectively maintained influenza virus RNA for about 28 days at room temperature(Lau and Hurt, 2016;  Hall-Mendelin et al., 2017).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "sequence of primers and probe used in rRT-qPCR Sequence Primer_1_F 5' AAT TTg ggg TCT ggg CTA gT 3' Primer_1_R 5' TAT ggg TgC TAA Tgg CAA CA 3' Probe FAM 5' TTg ACA TAC AAA TCA AAC TgC ATg 3' BBQ F=forward; R= reverse; FAM= 6-carboxyfluorescein; BBQ= blackberry quencher",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ":Interim Guidelines for Collecting, Handling, and Testing Clinical Specimens from Patients Under Investigation (PUIs) for Middle East Respiratory Syndrome //www.cdc.gov/coronavirus/mers/guidelines-clinical-specimens.html \uf0b7 Cromeans T, Jothikumar N, Lee J, Collins N, Burns CC, Hill VR, et al. A new solid matrix for preservation of viral nucleic acid from clinical specimens at ambient temperature. DOI.org/10.1016/j.jviromet.2019.113732 \uf0b7 Daum LT, Worthy SA, Yim KC, Nogueras M, Schuman RF, Choi YW, et al. A clinical specimen collection and transport medium for molecular diagnostic and genomic applications. Epidemiology & Infection. 2011 Nov;139(11):1764-73. DOI: 10.1017/S0950268810002384 \uf0b7 Feikin DR, Alraddadi B, Qutub M, Shabouni O, Curns A, Oboho IK, et al. Association of higher MERS-CoV virus load with severe disease and death, Saudi Arabia, 2014. DOI.org/10.3201/eid2111.150764 , \uf0b7 Foss L, Reisen WK, Fang Y, Kramer V, Padgett K. Evaluation of nucleic acid preservation cards for West Nile virus testing in dead birds. PloS one. 2016;11(6). DOI:10.1371/journal.pone.0157555, \uf0b7 Fuller JA, Njenga MK, Bigogo G, Aura B, Ope MO, Nderitu L, et al. Association of the Ct values of real-time PCR of viral upper respiratory tract infection with clinical severity, DOI.org/10.1002/jmv.23455 \uf0b7 Hall-Mendelin S, Hewitson GR, Genge D, Burtonclay PJ, De Jong AJ, Pyke AT ,et al. FTA cards facilitate storage, shipment, and detection of arboviruses in infected Aedes aegypti collected in adult mosquito traps. The American journal of tropical medicine and hygiene. 2017 May 3;96(5):1241-3..DOI.org/10.4269/ajtmh.16-0981 \uf0b7 Lau H, Hurt AC. Assessment of the RNASound RNA Sampling Card for the Preservation of Influenza Virus RNA. Frontiers in microbiology. 2016 Nov 2;7:1736. DOI: 10.3389/fmicb.2016.01736 \uf0b7 Liu X, Li Q, Wang X, Zhou X, He X, Liao Q, et al. Evaluation of DNA/RNAshells for room temperature nucleic acids storage. Bio preservation and biobanking. 2015 Feb 1;13(1):49-55. DOI: 10.1089/bio.2014.0060 \uf0b7 Manswr B, Ball C, Forrester A, Chantrey J, Ganapathy K. Evaluation of full S1 gene sequencing of classical and variant infectious bronchitis viruses extracted from allantoic DOI:10.1080/03079457.2018.1471196",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

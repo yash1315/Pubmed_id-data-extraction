@@ -1,0 +1,344 @@
+{
+    "paper_id": "00c91a18df17ebc1de7feb183e554a2b7c0051b8",
+    "metadata": {
+        "title": "Anti-tumor necrosis factor treatment in ankylosing spondylitis may not relate to poor prognosis in COVID-19",
+        "authors": [
+            {
+                "first": "Nesrin",
+                "middle": [],
+                "last": "\u015een\ue840",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kartal Dr. L\u00fctfi K\u0131rdar Training and Research Hospital",
+                    "location": {
+                        "settlement": "Istanbul",
+                        "country": "Turkey"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Engin",
+                "middle": [],
+                "last": "Tezcan\ue840",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kartal Dr. L\u00fctfi K\u0131rdar Training and Research Hospital",
+                    "location": {
+                        "settlement": "Istanbul",
+                        "country": "Turkey"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the novel coronovirus form, has emerged as a health problem since it was first identified in December 2019. The virus is responsible for coronavirus disease 2019 . COVID-19 is a multisystemic disease that mainly leads to viral pneumonia and acute respiratory distress syndrome. 1 Older adults, people who have severe underlying medical conditions and patients on immunosuppressive drugs for rheumatologic diseases seem to be at higher risk for developing more severe complications from COVID-19. 1,2 Therefore, it would be speculated that anti-tumor necrosis factor (anti-TNF) drugs may exert a negative influence on COVID-19. However, some promising data showed that anti-TNF drugs may be a treatment option during the severe forms of the disease such as macrophage activation syndrome (MAS). 3 In this article, we presented two ankylosing spondylitis patients who contracted COVID-19 disease while on anti-TNF therapy.",
+            "cite_spans": [
+                {
+                    "start": 340,
+                    "end": 341,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 856,
+                    "end": 857,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Case 1-A 47-year-old male patient with AS applied to the emergency service with the symptoms of fever, shortness of breath and non-productive cough. He had been on etanercept treatment for three years. He had no other known comorbidities. Even though the polymerase chain reaction (PCR) test for SARS-CoV-2 was found negative, he was diagnosed as COVID-19 due to thorax computed tomography (CT) signs relevant to viral pneumonia (Figure 1a ). Hydroxychloroquine and azithromycin were started. Patient's baseline high C-reactive protein (65.5 mg/L) was the only laboratory test related with poor prognosis. Thereafter, he was discharged with full recovery at the fifth day of hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 429,
+                    "end": 439,
+                    "text": "(Figure 1a",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Case 2-A 44-year-old male patient with AS applied to emergency service with symptoms of fever and shortness of breath while on adalimumab treatment. Furthermore, he also suffered from bronchial asthma. His PCR test for SARS-CoV-2 was found positive and thorax CT was relevant to viral pneumonia ( Figure 1b ). Moreover, low lymphocyte level (500 \u00b5/L) was the main laboratory value associated with worse outcome. Afterwards, he received hydroxychloroquine and azithromycin concomitant with oxygen support through nasal cannula. On the third day of treatment, he was discharged without need for oxygen support. COVID-19 in ankylosing spondylitis under anti-TNF Immunosuppressive drugs including anti-TNFs enhanced the infection risk. Herein, respiratory tract infections are the oftenest. However, anti-TNFs may have anti-viral activity for serious respiratory syncytial virus and influenza infections. Here, anti-TNFs may lower the risk of lower lung injury. Also, increased levels of TNF-alpha were reported along with several inflammatory cytokines in COVID-19. 3 Furthermore, viral entry of the SARS-Cov-2 via angiotensin converting enzyme-2 receptor was coupled with TNF-alpha production. Therefore, anti-TNFs may block the viral entry. 4 Although both patients with AS were on anti-TNFs while contracting the disease, they were discharged after treatment without need for further support. Herein, although, the upper-mentioned recent findings and hypothesis about TNF-alpha's role in the pathogenesis of COVID-19 and our patient's favorable outcome for COVID-19, it would not be possible to accept anti-TNF drugs as a treatment choice for COVID-19. However, we thought that anti-TNFs may not pose a risk for serious COVID-19 as predicted before. Also, clinical trials should be conducted for evaluating the anti-TNFs' effect on COVID-19 even during the viral spreading phase and before/during the disease coupled with MAS. 5 Declaration of conflicting interests ",
+            "cite_spans": [
+                {
+                    "start": 1063,
+                    "end": 1064,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1240,
+                    "end": 1241,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1927,
+                    "end": 1928,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 297,
+                    "end": 306,
+                    "text": "Figure 1b",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Byrareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autoimmun",
+            "volume": "109",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Case-Fatality Rate and Characteristics of Patients Dying in Relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "COVID-19 infection and rheumatoid arthritis: Faraway, so close!",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Favalli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ingegnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Lucia",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Cincinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cimaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Caporali",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Autoimmun Rev",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Modulation of TNFalpha-converting enzyme by the spike protein of SARS-CoV and ACE2 induces TNF-alpha production and facilitates viral entry",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haga",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Nakai-Murakami",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Osawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tokunaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "105",
+            "issn": "",
+            "pages": "7809--7823",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Trials of anti-tumour necrosis factor therapy for COVID-19 are urgently needed",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feldmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Maini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Woody",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Holgate",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Winter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rowland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1407--1416",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(a) Thorax computed tomography of Case 1, white arrow indicating ground glass opacity relevant to viral pneumonia. (b) Thorax computed tomography of Case 2, white arrows indicating bilateral and multiple ground glass opacities relevant to viral pneumonia.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declared no conflicts of interest with respect to the authorship and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The authors received no financial support for the research and/or authorship of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        }
+    ]
+}

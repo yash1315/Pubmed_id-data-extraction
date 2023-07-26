@@ -1,0 +1,3011 @@
+{
+    "paper_id": "00d2c9b9dc0818a044232ac277f6c439c42b809b",
+    "metadata": {
+        "title": "Mobile Health Apps That Help With COVID-19 Management: Scoping Review",
+        "authors": [
+            {
+                "first": "Hanson",
+                "middle": [],
+                "last": "John",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Leon",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "La Trobe University",
+                    "location": {
+                        "settlement": "Melbourne",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Danielle",
+                "middle": [],
+                "last": "Couch",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Bendigo",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kevin",
+                "middle": [],
+                "last": "Yap",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "La Trobe University",
+                    "location": {
+                        "settlement": "Melbourne",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Mobile health (mHealth) apps have played an important role in mitigating the coronavirus disease response. However, there is no resource that provides a holistic picture of the available mHealth apps that have been developed to combat this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Objective: Our aim is to scope the evidence base on apps that were developed in response to COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: A total of 46 articles were reviewed from 19 countries, resulting in a total of 29 apps. Among them, 15 (52%) apps were on contact tracing, 7 (24%) apps on quarantine, 7 (24%) on symptom monitoring, and 1 (3%) on information provision. More than half (n=20, 69%) were from governmental sources, only 3 (10%) were from private organizations, and 3 (10%) from universities. There were 6 (21%) apps available on either Android or iOS, and 10 (34%) were available on both platforms. Bluetooth was used in 10 (34%) apps for collecting data, 12 (41%) apps used GPS, and 12 (41%) used other forms of data collection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This review identifies that the majority of COVID-19 apps were for contact tracing and symptom monitoring. However, these apps are effective only if taken up by the community. The sharing of good practices across different countries can enable governments to learn from each other and develop effective strategies to combat and manage this pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel coronavirus, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [1] , manifests the coronavirus disease (COVID- 19) and was first identified in Wuhan, China in December 2019 [2] . It first presented as severe cases of pneumonia of unknown origin and was identified as a coronavirus in January 2020 [3] . SARS-CoV-2 affects individuals of all ages and spreads through droplets when the infected individuals cough or sneeze [3] . The droplets can still be infectious even after deposition onto surfaces. Infection occurs when these droplets are inhaled or when the contaminated surfaces are touched followed by the touching of one's eyes, nose, or mouth. Transmission of infection is possible during its Since the public announcement of the first few cases, SARS-CoV-2 has spread worldwide and was declared as a pandemic on March 11, 2020 , by the World Health Organization (WHO) [5] . As of August 1, 2020, there were over 17.9 million cases recorded and over 680,000 deaths due to COVID-19 [6] . As COVID-19 spread worldwide into countries with different health systems and responses, the number of infected cases constantly changed. To control its spread, several prevention strategies were adopted by various countries. These strategies included self-isolation and quarantine for individuals who were suspected cases of infection or showed mild symptoms [3] , wearing of face masks, and adherence to hygienic practices [3] . Public gatherings were also avoided to limit the number of close contacts among individuals [3] . During the first wave of COVID-19, various mobile health (mHealth) apps were rapidly developed in response to tackle the virus.",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 87,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 132,
+                    "end": 135,
+                    "text": "19)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 442,
+                    "end": 445,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 842,
+                    "end": 856,
+                    "text": "March 11, 2020",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 898,
+                    "end": 901,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1010,
+                    "end": 1013,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1376,
+                    "end": 1379,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1441,
+                    "end": 1444,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1539,
+                    "end": 1542,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The first COVID-19 apps that were developed and widely publicized were contact tracing apps, which were created to notify its users if they had crossed paths with another person infected with the coronavirus [7] . The first national app was developed in Singapore, which used Bluetooth technology for contact tracing [8] . If someone was in close proximity with an infected individual, the app would send a push notification to alert them of possible COVID-19 infection and further suggest that they undergo testing [9] . The technology was made open source and shared internationally for other countries to build similar apps for their own populations [10] [11] [12] . Since then, there have been various other types of contact tracing apps available, each using different methods of data collection to track the movements of its users.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 211,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 317,
+                    "end": 320,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 516,
+                    "end": 519,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 658,
+                    "end": 662,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Symptom monitoring apps have also emerged in response to . These apps commonly collect information about the user's health by posing a list of questions related to symptom identification, from which a differential diagnosis is made [13] . However, other innovative methods have also been used, such as automatic collection and recording of the user's health-related data (eg, temperature and pulse rates) from wearables like wristbands [14, 15] . In the case of a suspected COVID-19 infection, the user is alerted and advised to go for a checkup at a nearby clinic.",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 236,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 441,
+                    "end": 444,
+                    "text": "15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The importance of credible information that can be provided in a timely manner to the public has in part been addressed by some of the information providing apps developed for COVID-19. Information providing apps give details about the coronavirus, disease, good hygiene practices, and guidelines to follow, like social distancing and the importance of wearing face masks [16] [17] [18] [19] . However, during the initial stages of the pandemic, the mHealth markets saw the emergence of developers who were trying to take advantage of the situation by creating fake apps [20] , as well as ransomware apps that mandated users to transfer money and threatened deletion of the phone's storage if money was not transferred [21] . There were also large amounts of misinformation on the internet [22] . In response, the WHO worked with Google as well as popular social media sites like Facebook, Twitter, Tencent, and TikTok to combat this misinformation [23] . Furthermore, steps were taken by social media apps like Facebook, YouTube, Twitter, Instagram, and Snapchat to limit the rapid spread of misinformation to their massive audience reach [24] . In addition, Apple and Google made efforts to regulate COVID-19-related apps released in their app stores, only allowing apps developed by credible organizations [25] . WhatsApp, a popular communication app, also limited the number of times users could forward messages related to COVID-19 to reduce the spread of misinformation about the coronavirus [26] .",
+            "cite_spans": [
+                {
+                    "start": 372,
+                    "end": 376,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 377,
+                    "end": 381,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 382,
+                    "end": 386,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 387,
+                    "end": 391,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 719,
+                    "end": 723,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 790,
+                    "end": 794,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 949,
+                    "end": 953,
+                    "text": "[23]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1140,
+                    "end": 1144,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1309,
+                    "end": 1313,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1498,
+                    "end": 1502,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Amid the rapidly evolving COVID-19 environment, mHealth apps have been playing an important role in mitigating the COVID-19 response, but to date, there has not been any overview and comparisons of the mHealth apps that have been developed to combat this pandemic. The aim of this review is to scope the evidence base for articles that described apps that were developed in response to the COVID-19 pandemic. This paper categorizes and compares the available apps by providing a description of these apps, their purposes, and the features employed. A recommendation of useful features is also provided for developers and interested stakeholders.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This review was conducted following the guidelines of the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) extension for scoping reviews [27] . The search period for information was from March 25, 2020, to May 5, 2020, when the outbreak rapidly spread to all parts of the world, including the United States [28] . Google search, Google Scholar, Scopus, and PubMed were used to find apps specific for each country. Considering the rapid pace of articles being published on COVID-19, Google Scholar, Scopus, and PubMed were selected, as these were common databases used by clinicians and would encompass a broad scope of journal articles that would be relevant to clinical and public health practices. The keywords used were: \"coronavirus,\" \"COVID-19,\" \"nCOV19,\" \"contact tracing,\" \"information providing apps,\" \"symptom tracking,\" \"mobile apps,\" \"mobile applications,\" \"smartphone,\" \"mobile phone,\" and \"mHealth,\" and the country names from the top 10 countries that had the greatest number of COVID-19 cases as of April 27, 2020. These countries were China, France, Germany, Iran, Italy, Russia, Spain, Turkey, the United Kingdom, and the United States [6] . Another 9 countries were added to the list, as they were among the first in releasing apps specific for COVID-19 based on articles found during the initial stages of the research from the period of March 25, 2020, to April 1, 2020. These countries included Hong Kong, Iceland, India, Indonesia, Malaysia, Poland, Singapore, South Korea, and Taiwan.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1180,
+                    "end": 1183,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Due to the rapidly changing nature of the COVID-19 pandemic, the main sources of evidence were mainly from online news articles. Information from government websites and health departments of different countries were also reviewed as they were considered to be credible sources and would have the most up-to-date information available for the country [1, 5, 13, 29, 30] . Selected articles were limited to the first 10 pages of the Google search results, after which the articles were found to be irrelevant to COVID-19. All articles included in our review were after December 9, 2019, which was the day when the first infection was reported in China [2] .",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 354,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 355,
+                    "end": 357,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 366,
+                    "end": 369,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 651,
+                    "end": 654,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "The inclusion criteria were articles that had a clear description about the features used in the apps. Articles from December 9, 2019, to May 5, 2020, were included. Apps that were not relevant to the disease and those that were in a language other than English were excluded. If the articles had limited information about the app, such as type of feature used, a second Google search was conducted with the specific app-related parameters to source for further information. This ensured that a complete profile of each app was obtained.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "A total of 46 articles that described apps from 19 different countries were reviewed ( Figure 1 ). Most of the articles were from news sites, health care organizations, and government sites. The majority (13/19, 68 .4%) of the countries studied either already had contact tracing apps or the apps were under development, followed by symptom monitoring apps (6/19, 31.6%). There was 1 app from Malaysia that had both symptom monitoring and information providing abilities (MySejahtera) [31] . Some countries like Italy, France, Germany, and 1 app from Malaysia were in the process of developing apps for contact tracing [31] [32] [33] [34] . There was 1 global app found in the review [35] .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 214,
+                    "text": "(13/19, 68",
+                    "ref_id": null
+                },
+                {
+                    "start": 485,
+                    "end": 489,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 619,
+                    "end": 623,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 624,
+                    "end": 628,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 629,
+                    "end": 633,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 634,
+                    "end": 638,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 684,
+                    "end": 688,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 95,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Overview"
+        },
+        {
+            "text": "Of all the apps evaluated (N=29), there were 14 (48%) apps on contact tracing alone, 1 (3%) app with both contact tracing and quarantine features, and 6 (21%) apps purely for enforcing quarantine (n=15 for contact tracing, n=7 for quarantine). Similarly, there were 5 (17%) apps on symptom monitoring alone, 1 (3%) app having both symptom monitoring and information provision features, 1 (3%) app with symptom monitoring feature and for research purposes, and 1 (3%) app was solely for research purposes (Table 1 ). There were 20 (69%) apps released from governments, 3 (10%) from private organizations, and 3 (10%) from universities. There were 3 (10%) apps that did not provide information about their source; 4 (14%) were web-based, 6 (21%) were available on only Android or iOS, and 10 (34%) were available on both platforms. There were 12 apps (41%) that did not provide information on their platform availability. In terms of the technology used, 10 (34%) apps used Bluetooth for collecting data, 12 (41%) apps used GPS, and 12 (41%) used other forms of data collection such as manual input of details and questionnaires. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 504,
+                    "end": 512,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Overview"
+        },
+        {
+            "text": "Beijing Cares [36, 37] France",
+            "cite_spans": [
+                {
+                    "start": 14,
+                    "end": 18,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 19,
+                    "end": 22,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Overview"
+        },
+        {
+            "text": "Corona-Datenspende [14, 15] monitoring",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 23,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 24,
+                    "end": 27,
+                    "text": "15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Overview"
+        },
+        {
+            "text": "Includes a wear- 38] able device and uses Wi-Fi and geospatial signals [41, 42] tute of Technology) [43] tute of Science) ",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 20,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 71,
+                    "end": 75,
+                    "text": "[41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 76,
+                    "end": 79,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hong Kong"
+        },
+        {
+            "text": "There were many varieties of contact tracing apps. China was the first country to develop an app specific for contact tracing by using sophisticated tracking and surveillance methods [36, 37] . They involved tracking of infected individuals and their contacts, while others were allowed to carry on with their normal lives [38] . Other countries followed suit after a study conducted by the University of Oxford suggested that the release of contact tracing apps played a major role in decreasing the spread within the community [70] . Malaysia, Singapore, India, Indonesia, and Iceland were fast at developing individual apps for contact tracing [7, [39] [40] [41] [43] [44] [45] [46] 48] . On the other hand, Italy, Germany, France, and the United Kingdom had apps in the development stage during the period of this review [32] [33] [34] 65] .",
+            "cite_spans": [
+                {
+                    "start": 183,
+                    "end": 187,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 188,
+                    "end": 191,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 529,
+                    "end": 533,
+                    "text": "[70]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 651,
+                    "end": 655,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 656,
+                    "end": 660,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 661,
+                    "end": 665,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 671,
+                    "end": 675,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 676,
+                    "end": 680,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 681,
+                    "end": 685,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 686,
+                    "end": 689,
+                    "text": "48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 825,
+                    "end": 829,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 830,
+                    "end": 834,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 835,
+                    "end": 839,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 840,
+                    "end": 843,
+                    "text": "65]",
+                    "ref_id": "BIBREF64"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Contact Tracing Apps"
+        },
+        {
+            "text": "Of the 15 contact tracing apps analyzed, 6 (40%) apps had used GPS technology. South Korea's Corona 100m app used data such as the user's last GPS history and a range of information from government information systems, surveillance footage, and credit card transactions [30, [52] [53] [54] . The most common method for contact tracing apps was Bluetooth (n=9, 60%). These apps anonymously notified healthy individuals if they had been in close contact with an infected individual. This was in contrast to other techniques, such as the one used by China, using strict surveillance methods that raised privacy concerns since the technologies could track the person's location and obtain personal data as well [36, 37] . GPS and Bluetooth were used in combination by three contact tracing apps released by the United States, India, and Turkey [43, 61, 68, 69] . All these apps were either supported by the government or from recognized health organizations after restrictions were imposed by the Apple and Google Play Stores.",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 274,
+                    "text": "[30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 275,
+                    "end": 279,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 280,
+                    "end": 284,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 285,
+                    "end": 289,
+                    "text": "[54]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 707,
+                    "end": 711,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 712,
+                    "end": 715,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 840,
+                    "end": 844,
+                    "text": "[43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 845,
+                    "end": 848,
+                    "text": "61,",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 849,
+                    "end": 852,
+                    "text": "68,",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 853,
+                    "end": 856,
+                    "text": "69]",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Contact Tracing Apps"
+        },
+        {
+            "text": "In addition to contact tracing apps, various countries have also come up with quarantine apps to ensure that quarantine measures are being followed. For example, geofencing apps enforce the quarantine by using mobile phone signals and GPS to track the movements of users. The concept is to create a virtual fence around people's houses so that when they disobey the regulations and go outside their houses, the authorities will be notified [43, 71] . One of the countries that has adopted this technique is India [41, 42, 71] . Taiwan also uses the same technology to geofence affected individuals who are required to self-isolate or quarantine at home [59] . The geofencing app works by using base station triangulation, which is not as precise as GPS, but it provides the location with an accuracy of 300 meters. Quarantined individuals are assigned a social worker who calls and checks on them twice a day. If unresponsive, the police are notified and will then visit their house [60] . In addition, Taiwan has also accepted the help of its citizens to develop tools to solve issues like sourcing and distributing face masks to avoid shortage in the affected areas [62] .",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 445,
+                    "end": 448,
+                    "text": "71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 518,
+                    "end": 521,
+                    "text": "42,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 522,
+                    "end": 525,
+                    "text": "71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 653,
+                    "end": 657,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 983,
+                    "end": 987,
+                    "text": "[60]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1168,
+                    "end": 1172,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quarantine Apps"
+        },
+        {
+            "text": "In Hong Kong, quarantine is enforced by providing a wearable device (wristband) and a mobile app to people who arrive from other countries. The wristband is scanned and integrated to the app upon installation, and it works by using GPS, Bluetooth, Wi-Fi, and geospatial signals in the neighborhood to determine position. If there is a difference in these signals, the app notifies its user and a quarantine officer [29, 38] . When it was released, the public had doubts as to whether the wristband technology could work effectively, since it was paper-like and did not look robust. However, the majority adhered to wearing the wristbands because they believed that it would help them prevent the spread of the virus [72] .",
+            "cite_spans": [
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 420,
+                    "end": 423,
+                    "text": "38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 716,
+                    "end": 720,
+                    "text": "[72]",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quarantine Apps"
+        },
+        {
+            "text": "Other countries that have enforced quarantine apps include South Korea, Russia, and Poland. For example, the Self-Quarantine Safety Protection app by South Korea uses GPS to track quarantined individuals. Individuals who opt out of using the app are monitored by calls twice a day from an assigned quarantine officer [55, 56] . On the other hand, Moscow has also made it mandatory for individuals who tested positive for the coronavirus to download and install the Social Monitoring quarantine app, which uses GPS to monitor movement [51] . Individuals who do not own smartphones will be provided with one that already has the app downloaded so that they can be tracked. In contrast, in addition to GPS tracking, Poland's Home Quarantine app also requires the quarantined individual to take a selfie when randomly prompted to ensure that the individual is at their residence. Upon release of the app in Poland, people had the option to either use this app or agree to be visited by a police officer every day, but it was later made mandatory for everyone under quarantine [49, 50] . According to a user of the app, she felt angry and stressed because she missed the alerts several times early in the morning and the police checked up on her at her home. In the second week, the number of alerts \"doubled\" and drained her phone battery. Furthermore, she became more stressed as she felt that she had to be on standby, even during a shower [73] .",
+            "cite_spans": [
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[55,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "56]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 534,
+                    "end": 538,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1072,
+                    "end": 1076,
+                    "text": "[49,",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1077,
+                    "end": 1080,
+                    "text": "50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1438,
+                    "end": 1442,
+                    "text": "[73]",
+                    "ref_id": "BIBREF72"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Quarantine Apps"
+        },
+        {
+            "text": "One of the global apps for symptom monitoring is the iPhone and web-based COVID-19 Screening Tool app developed by Apple [35] . This is available for all iPhone users, irrespective of their location. Furthermore, countries such as Spain, the United Kingdom, Germany, Singapore, and Malaysia have also developed symptom monitoring apps [13] [14] [15] 31, 57, 66, 67] . These apps identify if the user is experiencing symptoms related to COVID-19. If the user's responses indicate that the user may have COVID-19, they are provided with simple management advice to follow. Generally, these apps pose a series of diagnostic questions that include symptoms like fever, type of cough, body aches, contact with any infected individual, and recent travel, among others, which help identify via a back end algorithm whether the user is suspected to have COVID-19. If the user is suspected to be infected, these apps will generally provide information on what to do in that scenario (eg, wearing a face mask to reduce the spread and providing information about nearby hospitals). For example, the United Kingdom's symptom monitoring app, called C-19 COVID Symptom Tracker was made by a private developer [62] [63] [64] . It was highly welcomed by the public with 2,979,018 contributors as of May 6, 2020 [62] . The app was also helpful in identifying that 1 in 10 people in the United Kingdom had coronavirus symptoms [74] . In addition, Spain's app could also alert officials on whether quarantine measures were being followed by the public in an area [58] .",
+            "cite_spans": [
+                {
+                    "start": 121,
+                    "end": 125,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 340,
+                    "end": 344,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 354,
+                    "end": 357,
+                    "text": "57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "66,",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "67]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1195,
+                    "end": 1199,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1200,
+                    "end": 1204,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1205,
+                    "end": 1209,
+                    "text": "[64]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1295,
+                    "end": 1299,
+                    "text": "[62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 1409,
+                    "end": 1413,
+                    "text": "[74]",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 1544,
+                    "end": 1548,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Symptom Monitoring Apps"
+        },
+        {
+            "text": "An advanced variation of symptom monitoring apps is Germany's Corona-Datenspende app, which uses smartwatches or smart bands to collect data on the user's biometrics such as temperature and pulse that are then assessed for possible COVID-19 infections [14] . Similarly, the COVID-19 Sounds App is a web-based app developed in the United Kingdom that is able to record a user's cough sounds and detect whether the user is infected with the coronavirus based on machine learning of their cough sounds [66] .",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 499,
+                    "end": 503,
+                    "text": "[66]",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Symptom Monitoring Apps"
+        },
+        {
+            "text": "Among all the symptom monitoring apps reviewed in this study, besides the apps from Germany and the United Kingdom that were able to automatically monitor and record the patient's health parameters, all of the other apps involved manual recording of symptoms or answering questionnaires provided by the app. Another app, called AC19, was released by the Iranian government in the Android app store for symptom monitoring but was later found to be using GPS technology to track suspected infected individuals. This app was found to be linked to a suspicious app developer company that had a history of developing other apps that collected and provided data to Iranian intelligence agencies. The app was later banned from the Google Play store but is still available through the developer's website and other third-party app stores [47] .",
+            "cite_spans": [
+                {
+                    "start": 830,
+                    "end": 834,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Symptom Monitoring Apps"
+        },
+        {
+            "text": "Various governmental organizations and health agencies have used social media platforms like Facebook, WhatsApp, Instagram, and Twitter to provide specific information about COVID-19 to the public. Although these platforms have app functionalities, Facebook, Instagram, and Twitter can also be used on a browser, and thus, information provision is not just limited to mobile app users. WhatsApp has been widely popular and is one of the main methods of providing information on COVID-19 in many countries. For example, government agencies from Australia, India, Singapore, and the United Kingdom harnessed the WhatsApp platform by developing their own chatbots to disseminate information to their citizens on the country's COVID-19 situation and local measures taken during this pandemic [17] [18] [19] 75, 76] . However, in response to the infodemic that has surrounded COVID-19, it was necessary to regulate the information that was spread by users through WhatsApp [75] . WhatsApp also collaborated with the WHO and developed an information providing tool, which works by users messaging a designated number to request for information about COVID-19, such as infection numbers, hygiene practices, and locations of medical centers, among others [16, 77] . The GovTech Agency in Singapore also developed its own artificial intelligence (AI) tool on WhatsApp to translate official news from English to other languages such as Chinese, Malay and Tamil to disseminate relevant information to its citizens [76] . It works similar to the WHO bot that provides a set of programmed responses that are updated with the information that has been requested by users. Malaysia has also proposed its own MySejahtera app, which is still under development and will include information provision features such as a hotline number and a Virtual Health Advisory along with symptom monitoring features [31] .",
+            "cite_spans": [
+                {
+                    "start": 788,
+                    "end": 792,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 793,
+                    "end": 797,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 798,
+                    "end": 802,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 803,
+                    "end": 806,
+                    "text": "75,",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 807,
+                    "end": 810,
+                    "text": "76]",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 968,
+                    "end": 972,
+                    "text": "[75]",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 1247,
+                    "end": 1251,
+                    "text": "[16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1252,
+                    "end": 1255,
+                    "text": "77]",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1503,
+                    "end": 1507,
+                    "text": "[76]",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 1885,
+                    "end": 1889,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Information Providing Apps"
+        },
+        {
+            "text": "From our review, contact tracing, symptom monitoring, and information providing apps were the key types of apps that had been developed for the management of COVID-19, with the majority being developed by health organizations and governments. To combat misinformation surrounding COVID-19, many organizations, including the two major mobile app players in the market-Apple and Google-made efforts to curate the COVID-19-related apps available in the app stores. Apps that provided misleading information were banned from their respective app stores, resulting in apps that were more credible and developed by established health care organizations and governments [25] .",
+            "cite_spans": [
+                {
+                    "start": 663,
+                    "end": 667,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "Not surprisingly, most of the apps identified from our review were for contact tracing. These apps were developed to alleviate the time and resources required for the manual contact tracing process, which could be channeled to other resources instead. However, a key issue for developers was to support information collection without compromising user privacy. The advantage of using GPS surveillance methods was the accuracy of the user's identification. China's method of data collection was deemed to be intrusive, as it invaded the privacy of individuals. However, this method was effective in identifying individuals who had breached the quarantine laws. Hence, it was welcomed by the general public in China, and they supported the government on its efforts to reduce the transmission of infection. Although this method could work in China, it could not be replicated in other countries due to the differences in their political and cultural stances on privacy [78] . Therefore, other countries explored and employed other data collection methods that were more mindful of privacy issues. Bluetooth-enabled contact tracing was the most popular method, since only when users had crossed paths would they have been detected, and data was not transferred and stored to any online server. A well-designed Bluetooth-enabled contact tracing app was first developed by Singapore, which was later shared to the rest of the world by making its development code open source [10] . This helped other countries roll out similar apps at a faster rate. Germany used an interesting and different approach of wearable devices for the automatic monitoring of vitals. The public acceptance of this technology is yet to be studied.",
+            "cite_spans": [
+                {
+                    "start": 967,
+                    "end": 971,
+                    "text": "[78]",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 1470,
+                    "end": 1474,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "Although the responses to contact tracing apps were welcomed by most countries, it is still early to determine whether they are really effective in limiting the spread of the coronavirus [79] . It has been suggested that ~80% of the population needs to install such apps for it to be effective [80] . This is a concern because highly susceptible populations for COVID-19, such as older adults, are not adept with technology [81] . Furthermore, the majority of the contact tracing apps only register nearby users every 5 minutes and, hence, may have the possibility of missing out individuals. The range of Bluetooth is also farther than the recommended 1.5 meters advised by the WHO, thus giving rise to the possibility of over reporting the number of cases, especially in multistory buildings where the Bluetooth signal can pass through the walls [81] . Lastly, a Bluetooth-based contact tracing app will stop working altogether when the user opens a game app such as \"Candy Crush.\" Despite these problems, authorities are still advocating these apps even though the uptake of such apps are low, as it can play a role in benefiting the population to some extent [79, 82] .",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "[79]",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 294,
+                    "end": 298,
+                    "text": "[80]",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[81]",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 848,
+                    "end": 852,
+                    "text": "[81]",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 1163,
+                    "end": 1167,
+                    "text": "[79,",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 1168,
+                    "end": 1171,
+                    "text": "82]",
+                    "ref_id": "BIBREF81"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "Instead of having contact tracing apps specific to each country, a joint effort to develop a universal app for contact tracing may be more beneficial, since useful trends on the COVID-19 spread among the different countries can be identified and compared by international organizations such as the WHO. Hypothetically, the codes for developing such a universal app can be made open sourced and modified to suit each individual country's needs and privacy laws. In fact, Apple and Google are collaborating to develop a universal app in the near future for contact tracing [83] . Their proposed method is to use Bluetooth to develop the app, similar to the way that Singapore had created their contact tracing app. However, the intended app will not use GPS data and will not store information online so that it can address the privacy concerns of many individuals. The Bluetooth app uses the \"decentralized\" approach since there is no recording of information into a back end database; thus, it is safer in terms of privacy because there is less risk of hackers accessing sensitive information. However, the disadvantage is that it may be difficult to enforce downloads and use of such apps [84] . On the other hand, the United Kingdom had opted for a \"centralized\" approach, where information would be stored and analyzed online, and notifications sent out based on interactions [84] . Although the centralized approach would pose a privacy risk, officials justified that this data would be helpful to identify trends of the disease spread [84] . However, there was concern regarding privacy by the general public, and the app did not function properly on iPhone devices during testing. Therefore, the United Kingdom government has subsequently decided to use the Apple and Google Bluetooth app to aid in its development, resulting in the app being decentralized as well [85] .",
+            "cite_spans": [
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[83]",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 1190,
+                    "end": 1194,
+                    "text": "[84]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1379,
+                    "end": 1383,
+                    "text": "[84]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1540,
+                    "end": 1544,
+                    "text": "[84]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1871,
+                    "end": 1875,
+                    "text": "[85]",
+                    "ref_id": "BIBREF84"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "Symptom monitoring apps were also useful in identifying disease trends and possible infection zones. Although most countries developed symptom monitoring apps based on manual input of symptoms and questionnaires, the symptom monitoring app developed in Germany could automatically collect the user's vitals such as temperature and pulse, thus identifying patients who are symptomatic and possible infection zones through an interactive map [15] . This pandemic has also rapidly enhanced the uptake of telehealth systems in many countries. When combined with the use of wearable devices, it may be possible to conduct home screening and remote monitoring of COVID-19 symptoms through other integrated features such as mobile doctors or telehealth systems.",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "Our review managed to identify certain apps that had integrated information providing features with the other contact tracing and symptom monitoring features. Another popular method to disseminate COVID-19-related information was through social media platforms such as WhatsApp. Given the high rates of social media use, using social media channels to provide factual COVID-19 information would likely ensure the rapid and widespread access to relevant health information [86] . Combined with the fact that these apps are harnessed by various governments to provide reliable information about COVID-19, information such as advice to follow and precautions to take to prevent or avoid the spread of COVID-19 can be disseminated to the public in \"chunks\" as an educational resource, as well as to clarify their doubts. By combining with other features, a multipurpose app that provides all information and services about COVID-19 will potentially be attractive to users and the public.",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[86]",
+                    "ref_id": "BIBREF85"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principal Findings"
+        },
+        {
+            "text": "To effectively tackle a pandemic such as COVID-19, a multipronged approach should be used. A proper contact tracing app that is implemented at the starting stages of the outbreak is important. Furthermore, authorities should make it a priority to advocate the uptake of contact tracing apps by the public by educating about the benefits of using such apps, perhaps through social media and public health campaigns. The Bluetooth-enabled contact tracing method is by far the most popular in terms of effectiveness and maintenance of privacy. The universal app that is currently being developed by Apple and Google can help limit the spread on a larger scale, as the reach of such an app will be greater and can provide an opportunity to prepare for similar future outbreaks internationally. Figure 2 suggests some features that should be available in mobile apps for COVID-19. Other important functionalities that can be integrated into these contact tracing apps include features for automatic symptom monitoring and information provision. The addition of these features will provide a more holistic public health approach in response to the situation. As technology advances, the symptom monitoring algorithm can be enhanced and tailored to the pandemic to improve its accuracy in diagnosis. Wearable devices such as smartwatches and smart bands will become more common and integrated with daily lives; thus, these can potentially aid in the vital monitoring of health statuses of vulnerable populations. Through machine learning and AI methods, automatic and rapid identification of suspected infections will become more accurate in the future. Lastly, consolidated information that is provided by credible organizations such as the WHO can avoid any unnecessary confusion as to which advice to follow in a pandemic situation. Governments can then adapt and tailor the information to suit their populations. With advancement in telehealth and mHealth systems, mobile doctors will be the way to go in situations like this where self-isolation is needed. However, with the advancements in technology, \"digital humans\" may potentially be the solution to reduce the burden of health care professionals in future pandemics [87] . ",
+            "cite_spans": [
+                {
+                    "start": 2220,
+                    "end": 2224,
+                    "text": "[87]",
+                    "ref_id": "BIBREF86"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 790,
+                    "end": 798,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Future of Pandemic Management"
+        },
+        {
+            "text": "Since COVID-19 is a new outbreak and the situation is rapidly evolving, the articles in this review were mainly from news articles and online webpages. There were few peer-reviewed journal articles about mobile apps related to COVID-19. Furthermore, we could not conduct a thorough search of the Google and Apple apps stores as most of the apps were country-specific; thus, they could not be downloaded and evaluated. Hence, we could only obtain information from the news articles and webpages that were found, but the details on the various apps were also not comprehensive in these articles. In addition, the databases searched (Google Search Engine, Google Scholar, Scopus, and PubMed) might not have been able to provide information on certain apps due to country restrictions, for example, apps from China. Another limitation was that sources in languages other than English were also not included in this review. From these sources, we could only collate apps that were either already available to the general public or still under development during the period of review. We advocate that a more comprehensive review should be done in the near future when the situation is stabilized, possibly post-COVID-19. Future work on how effective these apps were in decreasing the coronavirus spread should also be undertaken. This will help identify apps and features that are beneficial in future pandemics.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and Future Work"
+        },
+        {
+            "text": "This review has identified a variety of apps that may be potentially useful to curb the spread of COVID-19. The majority of the apps were for the purposes of contact tracing and symptom monitoring. However, these apps, especially those for contact tracing, can only be effective if they are advocated by the government and taken up by the community. Contact tracing at an early stage, along with proper hygiene and social distancing practices, remain the ideal way to deal with COVID-19. Governments can also benefit by encouraging their citizens to participate in their efforts to combat the pandemic, as in the case of Taiwan. In addition, the sharing of good practices across different countries, such as the case of Singapore, can enable governments to learn from each other so that effective strategies to combat and manage this pandemic can be developed to control the spread of the coronavirus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Naming the coronavirus disease (COVID-19) and the virus that causes it. World Health Organization",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health -The latest 2019 novel coronavirus outbreak in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Azhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Madani",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ntoumi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kock",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Dar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "91",
+            "issn": "",
+            "pages": "264--266",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.01.009"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A review of coronavirus disease-2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Singhal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Pediatr",
+            "volume": "87",
+            "issn": "4",
+            "pages": "281--286",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12098-020-03263-6"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Covid-19: risk factors for severe disease and death",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Adab",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMJ",
+            "volume": "368",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m1198"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 coronavirus pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Coronavirus: S'pore Government to make its contact-tracing app freely available to developers worldwide. The Straits Times",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Baharudin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Singapore wants all its citizens to download contact tracing apps to fight the coronavirus. Quartz",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Singapore government launches new app for contact tracing to combat spread of COVID-19. MobiHealthNews",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Singapore says it will make its contact tracing tech freely available to developers. CNBC",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Choudhury",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Covid-19: Singapore launches contact tracing mobile app to track coronavirus infections. The Star",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ungku",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Singapore launches TraceTogether mobile app to boost COVID-19 contact tracing efforts. CNA",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kit",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Mahmud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Singapore COVID-19 Symptom Checker",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Covid-19: Germany launches smartwatch app to monitor coronavirus spread. The Star",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Busvine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "| iss. 1 | e20596 | p",
+            "authors": [],
+            "year": null,
+            "venue": "JMIR Nursing 2020 |",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Germany's public health authority launches smartwatch app to monitor Covid-19 spread. Wearable Technologies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Draper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "WhatsApp launches World Health Organization chatbot to answer COVID-19 queries. Social Media Today",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hutchinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Here's how to access the government's coronavirus WhatsApp (and how to use it)",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Basford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "India launches WhatsApp chatbot to create awareness about coronavirus, asks social media services to curb spread of misinformation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "UK government launches WhatsApp coronavirus information service. Android Central",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Warwick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Google has banned the Infowars Android app over false coronavirus claims. The Verge",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A fake coronavirus tracking app is actually ransomware that threatens to leak social media accounts and delete a phone's storage unless a victim pays $100 in bitcoin. Business Insider Australia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Villas-Boas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "WHO launches campaign against misinformation on coronavirus. The Straits Times",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Child",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Fighting fake news: the new front in the coronavirus battle. Al Jazeera",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "How are digital platforms stopping misinformation on COVID-19 -public knowledge. Public Knowledge",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Apple is rejecting coronavirus apps that aren't from health organizations, app makers say. CNBC",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leswing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "WhatsApp to further limit forwarding of messages to one chat at a time to combat misinformation during COVID-19 outbreak. The Online Citizen",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tricco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lillie",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "O&apos;brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Colquhoun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Levac",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ann Intern Med",
+            "volume": "169",
+            "issn": "7",
+            "pages": "467--473",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M18-0850"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "How the coronavirus pandemic unfolded: a timeline. The New York Times",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Taylor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Mobile App User Guide. COVID-19 Thematic Website -Together, We Fight the Virus",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Stayhomesafe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Review of mobile application technology to enhance contact tracing capacity for COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Malaysia Government next to launch app to monitor COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sagar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "OpenGov Asia",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Covid-19: Italy tests contact-tracing app to speed lockdown exit. The Star",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pollina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Covid-19 tracing app won't be ready for parliamentary debate. France 24",
+            "authors": [
+                {
+                    "first": "&apos;",
+                    "middle": [],
+                    "last": "France",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Germany gradually warming up to COVID-19 tracking app",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "COVID-19 Screening Tool. Apple",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "How China, South Korea and Taiwan are using tech to curb coronavirus outbreak. The Straits Times",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Choon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "In coronavirus fight, China gives citizens a color code, with red flags. The New York Times",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mozur",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krolik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "How digital contact tracing slowed Covid-19 in East Asia",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Harvard Business Review",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Icelanders can download app to help with coronavirus contact tracing. Iceland Review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "\u0106iri\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "COVID-19 tracking app launches today. The Reykjav\u00edk Grapevine",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Askham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Corontine platform by IIT profs to help govt, private firms build COVID-19 trackers. News 18",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Coronavirus: IIT Bombay's 'Corontine' app to track the quarantined",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sukumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Coronavirus tracking apps: from 'GoCoronaGo' to 'Sampark-o-Meter",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dalal",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "India to trace covid-19 patients through app-based Bluetooth handshake. India Today",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "COVID-Locator' app to track quarantined suspects. Indo-Asian News Service",
+            "authors": [
+                {
+                    "first": "Coronavirus",
+                    "middle": [],
+                    "last": "India",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Goa Govt launches",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "COVID-19: Indonesia develops surveillance app to bolster contact tracing, tracking. The Jakarta Post",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fachriansyah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Syakriah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Spying concerns raised over Iran's official COVID-19 detection app. ZDNet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cimpanu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "MyTrace' app to help in contact tracing, says senior minister. Malay Mail",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Covid-19",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Poland's coronavirus app offers playbook for other governments",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wanat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Politico",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Poland is making quarantined citizens use a selfie app to prove they're staying inside. CBS News",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "O&apos;kane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Moscow to enforce virus quarantine with QR codes, smartphone app. The Moscow Times",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Flegontova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Wildly popular coronavirus-tracker app helps South Koreans steer clear of outbreak areas. MarketWatch",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dujmovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "South Korea to step-up online coronavirus tracking",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Smart Cities World",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Coronavirus mobile apps are surging in popularity in South Korea. CNN Business",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jeong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "New coronavirus app developed to assist South Korean government with self-quarantine. 680 News",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bodenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "South Korea is watching quarantined citizens with a smartphone app. MIT Technology Review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "AsistenciaCOVID-19 available in five new regions of Spain. CARTO",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rushton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "ForceManager participates in the creation of 'Asistencia COVID-19' App",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Forcemanager",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "What the US can learn from other countries using phones to track Covid-19. Vox",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghaffary",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Taiwan offers its contact tracing apps to UK. The Telegraph",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Turkey to use contact-tracing app to detect coronavirus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bayar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "If we must build a surveillance state, let's do it properly",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kluth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Self-reporting app tracking COVID-19 symptoms in UK sees 750K downloads in 24 hours",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lunden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Our free coronavirus symptom-tracking app has been used by two million people -here's what we're learning. The Conversation",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Spector",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Government unveils NHS contact-tracing phone app as next step in fighting disease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Phelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Covid-19: U",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Forbes",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "New app collects the sounds of COVID-19. University of Cambridge",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "COVID-19 Sounds App",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Halting COVID-19: the benefits and risks of digital contact tracing",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Waltz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Spectrum",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Apps gone rogue: maintaining personal privacy in an epidemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Raskar",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Schunemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Barbar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Vilcans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vepakomma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferretti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wymant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nurtay",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Abeler-D\u00f6rner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "6491",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb6936"
+                ]
+            }
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Geo-fencing app will be used to locate quarantine violators. The Hindu",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Quarantine in Hong Kong: do wristbands and phone tracking work? The Irish Times",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Poland is making its citizens use a 'selfie' app during the coronavirus crisis. ABC News",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Uibu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Covid-19 tracker app shows one in 10 users has coronavirus symptoms. The Telegraph",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Knapton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "WhatsApp launches new COVID-19 info hub amid concerns around misinformation being shared in-app. Social Media Today",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hutchinson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "How Singapore sends daily Whatsapp updates on coronavirus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Basu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "WhatsApp is at the center of coronavirus response. WIRED",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Newman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "China's approach to containing coronavirus cannot be replicated. Al Jazeera",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "There are many reasons why Covid-19 contact-tracing apps may not work",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vaughan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Scientist",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Effective configurations of a digital contact tracing app: a report to NHSX",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hinch",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Probert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nurtay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kendall",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wymant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Can mobile contact-tracing apps help lift lockdown? BBC",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stokel-Walker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Why Bluetooth apps are bad at discovering new cases of COVID-19. The Verge",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Newton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Apple and Google team up to contact trace Covid-19. BBC",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kelion",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Coronavirus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "NHS rejects Apple-Google coronavirus app plan. BBC",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kelion",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "UK to replace contact-tracing app with Apple and Google model. Financial Times",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Warrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neville",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bradshaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Social media and health care professionals: benefits, risks, and best practices",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ventola",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "P T",
+            "volume": "39",
+            "issn": "7",
+            "pages": "491--520",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "COVID-19 health advisor: here to help and learn",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Uneeq",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Ideal features of mobile apps for COVID-19. COVID-19: coronavirus disease.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Mobile health apps related to COVID-19 a (N=29).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Spain (Community of Madrid)Technology/method used to collect data COVID-19: coronavirus disease. b n=20. c N/A: not applicable. ATM: automated teller machine.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": " Figure 1 . Flowchart of methodology. COVID-19: coronavirus disease; mHealth: mobile health.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1,
+                    "end": 9,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        },
+        {
+            "text": "KY and DC conceived and designed the study. HS conducted and analyzed the results. HS, KY, and DC wrote and revised the manuscript. All authors agreed to the publication of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' Contributions"
+        },
+        {
+            "text": "None declared. \u00a9Hanson John Leon Singh, Danielle Couch, Kevin Yap. Originally published in JMIR Nursing Informatics (https://nursing.jmir.org), 06.08.2020. This is an open-access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Journal of Medical Internet Research, is properly cited. The complete bibliographic information, a link to the original publication on http://www.jmir.org/, as well as this copyright and license information must be included.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest"
+        }
+    ]
+}

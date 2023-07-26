@@ -1,0 +1,1049 @@
+{
+    "paper_id": "00b6267387fc6e751183794b78ddac3a169c0604",
+    "metadata": {
+        "title": "4[P31] Was Predominant Norovirus Circulating in Beijing Area",
+        "authors": [
+            {
+                "first": "Junhong",
+                "middle": [],
+                "last": "Ai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Infection and Virology",
+                    "institution": "Capital Medical University",
+                    "location": {
+                        "postCode": "2019RU016, 100045",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [
+                    "Meng"
+                ],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Infection and Virology",
+                    "institution": "Capital Medical University",
+                    "location": {
+                        "postCode": "2019RU016, 100045",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Fang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Capital Medical University",
+                    "location": {
+                        "postCode": "100045",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhengde",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratory of Infection and Virology",
+                    "institution": "Capital Medical University",
+                    "location": {
+                        "postCode": "2019RU016, 100045",
+                        "settlement": "Beijing",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Dear Editor, Acute gastroenteritis (AGE) is a leading infectious cause of morbidity worldwide, particularly among children in developing countries (Mortality and Causes of Death 2016). With the introduction of rotavirus vaccines, noroviruses have been identified as a leading cause of AGE outbreaks and sporadic disease worldwide (Hall et al. 2013) . The norovirus genome contains three open reading frames (ORFs). ORF1 encodes the nonstructural viral proteins including the RNA-dependent RNA polymerase. ORF2 and ORF3 encode the respective major (VP1) and minor (VP2) structural proteins. Based on phylogenetic clustering of the complete VP1 amino acid sequence, norovirus can be divided into 10 genogroups (G) ) of which GI, GII, and GIV have been found among human beings. Genogroups can be subdivided into 9 GI, 27 GII, and 2 GIV genotypes . A dual-nomenclature system has been proposed for GI and GII noroviruses using partial regions of the ORF1 RNA polymerase (P)-encoding region and partial region of ORF2.",
+            "cite_spans": [
+                {
+                    "start": 330,
+                    "end": 348,
+                    "text": "(Hall et al. 2013)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since the mid-1990s, genogroup II genotype 4 (GII.4) noroviruses have caused the majority of outbreaks and sporadic cases worldwide. Recombination which often occurs at the ORF1/ORF2 junction and antigenic drift are the mechanism of evolution for norovirus. New GII.4 variants emerged with 2-3-year periodicity up to 2012. Afterwards, the GII.4 Sydney capsid seems to persist through recombination, with a novel recombinant of GII. From November 2018 to September 2020, a prospective study about viral etiology of AGE in pediatric outpatients was conducted in Beijing Children's Hospital. AGE was defined as [ 3 events involving loose feces, vomiting, or both within a 24-h period. A total of 605 patients each one with a fecal sample were enrolled into this study. Among them, 64% were male, 36% were female. The sex ratio (male/female) was 1.78:1. The age of patients ranged from one month to 16.0 years (median, 1.0 year). About 64.1% (388/605) cases were infants less than 1 year old. Viral RNA was extracted from 10% fecal suspension (mixing 0.1 g feces with 1.0 mL phosphate-buffered saline (pH 7.2)). Then a commercial kit of multiplex real-time PCR for norovirus (GI and GII) and rotavirus (group A) (Shuoshi, Jiangsu, China) was used in this study. The positive samples of norovirus were amplified by conventional RT-PCR with SuperScript TM III One-Step RT-PCR System with Platinum TM Taq DNA Polymerase kit (Invitrogen). Dual-typing system of norovirus was used in this study, which amplifies a partial region of ORF1 and a partial region of ORF2 (van Beek et al. 2018) . The previously published oligonucleotide primers for GII viruses were MON431 (TGGACIAGRGGICCYAAYCA) and G2SKR (CCRCCNGCATRHCCRTTRTACAT). The expected PCR product size is 570 bp (Cannon et al. 2017 (Cannon et al. , 2019 . All PCR products were subjected to Sanger sequencing and genotypes were assigned using the Norovirus Genotyping tool (http:// www.rivm.nl/mpf/norovirus/typingtool). A phylogenetic tree was constructed using the maximum likelihood method implemented in MEGA software (version 5.01) with 1000 bootstrap replicates. The sequences of the noroviruses identified in this study were deposited in GenBank (GenBank accession numbers: MW205541-MW205668).",
+            "cite_spans": [
+                {
+                    "start": 1557,
+                    "end": 1579,
+                    "text": "(van Beek et al. 2018)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1759,
+                    "end": 1778,
+                    "text": "(Cannon et al. 2017",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1779,
+                    "end": 1800,
+                    "text": "(Cannon et al. , 2019",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Overall, norovirus was identified in 30.7% (186/605) of all tested samples. The AGE patients were divided into three age groups: 0-1 year (n = 388), 2-5 years (n = 126) and 6-18 years (n = 91). The positive rate of norovirus was 34.3% in 0-1 year age group, followed by 27.0% and 20.9% in 2-5 years age group and 6-18 years age group, respectively. There were significant differences in the positive rate of norovirus between different age groups (P = 0.026). Young children are the risk groups of norovirus infection. As in this study, the detection rate of norovirus in young children is relatively high, especially in children under 1 year old.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The epidemic of norovirus is seasonal. Most outbreaks occurred during the winter season (November-March) (Jin et al. 2020) . In this study, norovirus positive cases were also mainly in winter, accounted for 76.34% (142/186) of all positive cases, which is consistent with the seasonal distribution of norovirus.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 122,
+                    "text": "(Jin et al. 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "For norovirus positive cases, most of them were GII strain with a positive rate of 95.7% (178/186). GI strain was only detected in 9.1% (17/186) cases. There were also 4.8% (9/186) cases with a co-infection of GI and GII strains.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Among the GII positive cases, 128 were further genotyped. GII.P31 (52.3%, 67/128) was the most common RdRp genotype, followed by GII.P16 (28.1%, 36/128) and GII.P12 (14.8%, 19/128) (Fig. 1A) . For VP1 genotype, the three most common were GII.4 (68.8%, 88/128), GII.3 (14.8%, 19/128) and GII.2 (11.7%, 15/128) (Fig. 1B) . The most prevalent strain was recombinant GII.4[P31] (52.3%, Fig. 1 Phylogenetic trees of the norovirus GII partial-nucleotide sequences. A Analysis of the RNA-dependent RNA polymerase (RdRp) region (251 bp). B Analysis of the major capsid protein VP1 region (302 bp). Trees were generated by using the Neighbor-Joining method with 1,000 bootstrap replicates implemented in MEGA5 (https://www.megasoftware.net). Bootstrap values [ 80 are indicated at the nodes. Strains of sufficient nucleotide sequence length were included in the trees (denoted individually with black triangles and in groups with large triangles). Reference strains are shown with accession numbers (in parentheses). Scale bars indicate nucleotide substitutions per site 67/128), followed by GII. Norovirus continues to evolve through genetic mutation and recombination. It is reported that, the prevalent genotype of norovirus circulating in the same region will change every several years (Hasing et al. 2019 (Cannon et al. 2017; van Beek et al. 2018; Hasing et al. 2019) .",
+            "cite_spans": [
+                {
+                    "start": 1282,
+                    "end": 1301,
+                    "text": "(Hasing et al. 2019",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1302,
+                    "end": 1322,
+                    "text": "(Cannon et al. 2017;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1323,
+                    "end": 1344,
+                    "text": "van Beek et al. 2018;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1345,
+                    "end": 1364,
+                    "text": "Hasing et al. 2019)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 181,
+                    "end": 190,
+                    "text": "(Fig. 1A)",
+                    "ref_id": null
+                },
+                {
+                    "start": 309,
+                    "end": 318,
+                    "text": "(Fig. 1B)",
+                    "ref_id": null
+                },
+                {
+                    "start": 382,
+                    "end": 388,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, norovirus was identified in 30.7% of sporadic AGE children. And the most prevalent genotype was recombinant GII.4[P31] in Beijing area in 2018-2020. Norovirus is evolving by recombination and antigenic drift. Thus, continuous monitoring of the circulating genotypes in pediatric population is needed for current norovirus vaccine development.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 133,
+                    "text": "GII.4[P31]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Norovirus GII.P16/GII.2-associated gastroenteritis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "23",
+            "issn": "",
+            "pages": "1172--1175",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Genetic and Epidemiologic Trends of norovirus outbreaks in the United States from 2013 to 2016 demonstrated emergence of Novel GII.4 recombinant viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cannon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barclay",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wikswo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Magana",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gregoricus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Marine",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chhabra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vinje",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Clin Microbiol",
+            "volume": "55",
+            "issn": "",
+            "pages": "2208--2221",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Correction for Cannon et al., genetic and epidemiologic trends of norovirus outbreaks in the United States from 2013 to 2016 demonstrated emergence of novel GII.4 recombinant viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cannon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barclay",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wikswo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Magana",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gregoricus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Marine",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chhabra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vinje",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Clin Microbiol",
+            "volume": "57",
+            "issn": "",
+            "pages": "695--714",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Updated classification of norovirus genogroups and genotypes",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chhabra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De Graaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Parra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Martella",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Vennema",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mpg",
+                    "middle": [],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vinje",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Gen Virol",
+            "volume": "100",
+            "issn": "",
+            "pages": "1393--1406",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Recombinant GII.Pe-GII.4 Norovirus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chuchaona",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chansaenroj",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wanlapakorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vongpunsawad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Poovorawan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "1612--1614",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Norovirus disease in the United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lopman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Payne",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gastanaduy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vinje",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Parashar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Emerg Infect Dis",
+            "volume": "19",
+            "issn": "",
+            "pages": "1198--1205",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Changes in norovirus genotype diversity in gastroenteritis outbreaks in",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hasing",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pabbaraju",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tipples",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "GBD Mortality Causes of Death C (2016) Global, regional, and national life expectancy, all-cause mortality, and cause-specific mortality for 249 causes of death, 1980-2015: a systematic analysis for the Global Burden of Disease Study",
+            "authors": [],
+            "year": 2015,
+            "venue": "Lancet",
+            "volume": "388",
+            "issn": "",
+            "pages": "1459--1544",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Molecular surveillance of norovirus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Beek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De Graaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al-Hello",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ambert-Balay",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Botteldoorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Brytting",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Buesa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cabrerizo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cloak",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Bartolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Guix",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hewitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Iritani",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Johne",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lederer",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martella",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Maunula",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Niendorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Niesters",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Podkolzin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Poljsak-Prijatelj",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Reuter",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Tuite",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kroneman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vennema",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Koopmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mpg",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet Infect Dis",
+            "volume": "18",
+            "issn": "",
+            "pages": "545--553",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Norovirus activity and genotypes in sporadic acute diarrhea in Children in Shanghai during",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Pediatr Infect Dis J",
+            "volume": "38",
+            "issn": "",
+            "pages": "1085--1089",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "4 Sydney[P16] detected in 2014 in Germany and the Netherlands, and again in 2016 in Japan, China, and the Netherlands (van Beek et al. 2018). However, there were few studies about the genotype of norovirus in sporadic gastroenteritis cases in China, recently. Here, we describe the identified genotype of norovirus in sporadic AGE cases in Beijing area, China.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "). Even in the same period, the genotypes of norovirus circulating in different regions may be different. In this study, the most prevalent norovirus was recombinant GII.4[P31] genotype in sporadic AGE children. It is similar to the study of sporadic cases in Shanghai from 2014 to 2018, in which the predominant genotype was GII.4 Sydney[P31] (Wang et al. 2019). However, it is different with norovirus outbreaks studies in the past 5 years. In China, the predominant genotype of norovirus outbreaks were GII.17[P17] and GII.2[P16] in 2014-2015 and 2016-2018, respectively (Ao et al. 2017; Gao et al. 2019; Jin et al. 2020). In this study, the most prevalent genotype was recombinant GII.4[P31]. It is reported that over the past 10 years, GII.4 Sydney[P31] and GII.4 Sydney[P16] were the predominant strain epidemic globally (van Beek et al. 2018). GII.4 Sydney[P31] has been the predominant strain in Canada (Hasing et al. 2019) and Thailand (Chuchaona et al. 2019) since 2012. And GII.4 Sydney[P16] has been popular in Germany, Netherlands, America, Japan and Canada since 2014",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements This study was approved by the Medical Ethics Committee of the Beijing Children's Hospital, Capital Medical University, and informed consent was obtained. We would like to acknowledge all the physicians and participants for collecting clinical specimens from the patients used in this study. We thank all the reviewers for comments that improved this manuscript. This work was supported by grants from National Major Science & Technology Project for Control and Prevention of Major Infectious Diseases in China (2018ZX10201002-009-005).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Conflict of interest The authors declare that they have no conflict of interests.Human and Animal Rights Statement This study conformed to the 1975 Declaration of Helsinki guidelines and was approved by Medical Ethics Committee of Beijing Children's Hospital, Capital Medical University (2018-k-147) .",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 299,
+                    "text": "(2018-k-147)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ]
+}

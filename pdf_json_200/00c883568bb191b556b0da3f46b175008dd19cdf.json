@@ -1,0 +1,810 @@
+{
+    "paper_id": "00c883568bb191b556b0da3f46b175008dd19cdf",
+    "metadata": {
+        "title": "COVID-19-associated coagulopathy -Hypothesis: Are Children protected due to enhanced thrombin inhibition by higher \u03b1 2 -Macroglobulin (\u03b12-M)?",
+        "authors": [
+            {
+                "first": "Wolfgang",
+                "middle": [],
+                "last": "Schramm",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Ludwig-Maximilians Universiy (LMU) Max von Pettenkofer Institut Munich",
+                    "institution": "Ludwig-Maximilians University (LMU)",
+                    "location": {
+                        "settlement": "Munich",
+                        "country": "Germany., Germany., Germany"
+                    }
+                },
+                "email": "wolfgang.schramm@med.uni-muenchen.de"
+            },
+            {
+                "first": "Rudolf",
+                "middle": [
+                    "Marx"
+                ],
+                "last": "Stiftung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Ludwig-Maximilians Universiy (LMU) Max von Pettenkofer Institut Munich",
+                    "institution": "Ludwig-Maximilians University (LMU)",
+                    "location": {
+                        "settlement": "Munich",
+                        "country": "Germany., Germany., Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rainer",
+                "middle": [],
+                "last": "Seitz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Ludwig-Maximilians Universiy (LMU) Max von Pettenkofer Institut Munich",
+                    "institution": "Ludwig-Maximilians University (LMU)",
+                    "location": {
+                        "settlement": "Munich",
+                        "country": "Germany., Germany., Germany"
+                    }
+                },
+                "email": "rainer-seitz@t-online.de"
+            },
+            {
+                "first": "Lutz",
+                "middle": [],
+                "last": "G\u00fcrtler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Ludwig-Maximilians Universiy (LMU) Max von Pettenkofer Institut Munich",
+                    "institution": "Ludwig-Maximilians University (LMU)",
+                    "location": {
+                        "settlement": "Munich",
+                        "country": "Germany., Germany., Germany"
+                    }
+                },
+                "email": "lutz.guertler@gmx.de"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We are overwhelmed by scientific publications on clinical observations, virology and epidemiology of SARS-CoV-2 infections. There is a growing body of evidence that hypercoagulability complicates COVID-19, probably contributing to poor prognosis. This should stimulate further research into the pathogenesis of this procoagulant type of DIC, and therapeutic options [1]. Viral infections may have different effects on the coagulation system. While e.g. Marburg Virus causes a severe bleeding phenotype, in COVID-19 particularly hypercoagulability with elevated D-dimer concentration and strong involvement of endothelium, vessels and solid organs are evident. A higher risk for acquiring COVID-19 is associated with Blood group A, which is connected with increased von Willebrand factor [2], possibly enhancing hypercoagulability. This kind of disorder has been denoted as thromboinflammation [3] , with thrombin as a central pathophysiological player. In this scenario, the complex pathophysiology with interactions of body\u00b4s innate immune response with different connected systems such as coagulation, fibrinolysis, Kallikrein-Kinin system, Complement, and other mediators of immunity (particularly cytokine storm) are not fully understood. It is important to consider that a critical balance between (proteolytic) activation and natural inhibitor mechanisms normally regulates these systems and their interactions. For instance, in the coagulation system, natural inhibitors like Antithrombin III (AT III), Tissue Factor Pathway Inhibitor (TFPI) and the Thrombomodulin/Protein C (PC) system should control activators like tissue factor and thrombin [1].",
+            "cite_spans": [
+                {
+                    "start": 893,
+                    "end": 896,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "wall suggests that this protease inhibitor may protect the vascular endothelium, which may be of particular importance in the \"endothelitis\" COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This would lead us back to the question how we could control the hyper-procoagulant process in COVID-19. We feel that heparin is not enough to stop this process [3] . We would like to propose that we should take advantage of the fact that inhibitors can act in a cooperative way in order to counteract an overshooting activation of defence systems. If this is true, the patients would not need further activators e.g. fibrinolytics, rather native proteins and inhibitors, such as AT III, PC, and may be even \u03b12-M. There is an important difference to inherited coagulation defects like haemophilia, where very low levels FVIII are sufficient to prevent spontaneous bleeding. Covid-19 like ARDS is a dynamic process with high turnover and critical importance of the above mentioned native proteins, where lower normal levels might be not sufficient. Having in mind the significance of any progress in treating COVID-19, but also the old, huge and still unresolved problem of treating inflammatory DIC e.g. in sepsis and ARDS, killing much more people than COVID-19 so far did, further research is urgently warranted.",
+            "cite_spans": [
+                {
+                    "start": 161,
+                    "end": 164,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "This article is protected by copyright. All rights reserved",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The COVID-19 pandemic raises burning questions. For instance, children's role in pandemic is still a puzzle.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Several important observations in COVID-19 [4, 5] show age-dependent differences in the clinical course; children often have milder disease than adults do and deaths have been extremely rare. Whereas the attack rate in children appears to correspond to that in adults, it is obvious that children are less frequently diagnosed having lower susceptibility to infection, lower propensity to show clinical symptoms, or both [6] . The reasons for the relative resistance of children remain obscure. It was suggested that maturational changes, more active innate immune response, or differences in the distribution, maturation, and functioning of viral receptors may play a role [6] . Immune responses in adults are generally slower, less coordinated, and less efficient, making adults and particularly the elderly more susceptible to all infectious agents, due to a process denoted as immunosenescence.",
+            "cite_spans": [
+                {
+                    "start": 43,
+                    "end": 46,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 47,
+                    "end": 49,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 421,
+                    "end": 424,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 674,
+                    "end": 677,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Endothelial cells play a central role in inflammation and their alteration may trigger many involved mediator systems. The endothelial lesion in COVID-19 may thus culminate in a final, destructive phase of inflammation, sending a divers army of cells and cytokines to fight invaders and mop up the debris of battle [2] . It might be reasonable to assume that children are more likely to possess \"healthier\" immune response and endothelial cells than adults, particularly than elderly with hypertension, diabetes or vascular diseases. However, is this already the whole story about children's' obviously more favourable course of COVID-19? We think, in order to understand this advantage, we have to explore more closely the complex interactions of the general host defence systems, particularly those against bleeding or thrombosis and pathogen invasion, since thrombin as key activator of blood coagulation, platelets and endothelial cells may have profound impact on innate immunity].",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 318,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "What is different in children compared to adults and older people? There are age-related fluctuations in the physiological control circuits such as coagulation, fibrinolysis, and complement system. The plasma level of the \"versatile\" and unique inhibitor \u03b12-Macroglobulin (\u03b12-M) is particularly very high in childhood, more than 200% compared to adults [7] [8] [9] . The coagulation system in children is quantitatively different from adults. Many questions remain about the true nature of the age-related differences in the proteins themselves, and how these differences are regulated has remained a total mystery.",
+            "cite_spans": [
+                {
+                    "start": 353,
+                    "end": 356,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 357,
+                    "end": 360,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 361,
+                    "end": 364,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Interestingly, \u03b12-M is a phylogenetically very old inhibitor. All animals and plants have immune systems that protect them from diversity of pathogens. In the plasma of vertebrates and members of several invertebrates, \u03b12-M is an abundant protein [10]. It catches with its cage-like structure a great variety of activated proteins such as thrombin and immune mediators by \"Venus flytrap\" and \"snap-trap\" mechanisms [11] , thus keeping them away from their targets. Trapped peptidases are still active, but have restricted access to their substrates such as fibrinogen due to steric hindrance. While ATIII is the",
+            "cite_spans": [
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This article is protected by copyright. All rights reserved predominant antithrombin, \u03b12-M accounts for about 25 % of the antithrombin activity of plasma, abolishing clotting activities of thrombin in the fibrinogen test, but not impairing its esterase activity with synthetic substrates [12] . \u03b12-M regulates proteolysis in complex biological processes, such as nutrition, signalling, transport of hormones and tissue remodelling, but also defends the host organism against external attacks. One might assume that an over five hundred million years preserved protein should have a major function, and indeed, \u03b12-M appears to be particularly important in contributing as well to thrombin inhibition and attenuation of immune reactions.",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Background and trigger to our hypothesis is an old case report from 1973 of a family with hereditary AT III deficiency [13] . The 34-year-old father suffered from recurrent DVT and pulmonary embolism. Examining immunological ATIII in eight family members, we found a reduction to 45% in the father and to 50% in his 12-year-old son. The activity determined with the 1973 available two-step clotting-test \"progressive antithrombin\" was 50 % in the father and in contrast 75%, i.e. in the normal range, in the 12-year-old son.",
+            "cite_spans": [
+                {
+                    "start": 119,
+                    "end": 123,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "For \u03b12-M, which is an additional antithrombin as mentioned above, an age-appropriate normal low value (301 mg/dL) was found in the father and an almost twice as high value of 541 mg/dL in the son. Two other young siblings had also high \u03b12-M values of 723 and 540 mg/dL, and normal ATIII values by both methods and we assumed a kind of \"compensation mechanism\". About 10 years later, the son experienced a DVT in his mid-20s. We made a similar observation of this \"mechanism of compensation\" in another family with hereditary AT III deficiency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Comparing progressive antithrombin activity and plasma concentrations of three thrombin inhibitors (AT III, \u03b12-M, Heparin Cofactor II), a strong positive correlation was found [14] in unselected adult patients and a selected low AT III activity patient group. The included three hereditary At III deficient patients had a mean age of 41 years. The authors suggested that AT III is the main inhibitor in normal plasma and more effective than \u03b12-M in inhibiting fibrin formation, but confirmed that \u03b12-M or possibly other inhibitors might contribute to the total progressive antithrombin activity in human plasma. It is well known that the first thrombotic manifestation in hereditary AT III deficiency occur usually not before the third decade of life, suggesting that there are protective mechanism in place for the young. In adult patients with ATIII deficiency, \u03b12-M levels are high [30], however, the evaluation of families did not include enough younger patients for evaluation. Nevertheless, There is good reason to assume that the lower risk of thromboembolic complications in AT III-deficient children may be in part due to the protective effect of elevated \u03b12-M levels during childhood. [15] [16] .",
+            "cite_spans": [
+                {
+                    "start": 176,
+                    "end": 180,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1195,
+                    "end": 1199,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1200,
+                    "end": 1204,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        },
+        {
+            "text": "Our hypothesis is that similarly during SARS-CoV-2 infection the higher \u03b12-M level in childhood may contribute to the more favourable course of COVID-19 in children. Interestingly, \u03b12-M has been identified Accepted Article",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Accepted Article"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "DIC in COVID-19: Implications for Prognosis and Treatment? JTH",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Seitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Schramm",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Letter",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/JTH.14878"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Relationship between ABO and Secretor genotype with plasma levels of factor VIII and von Willebrand factor in thrombosis patients and control individuals",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schleef",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Strobel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Brit J Haematol",
+            "volume": "128",
+            "issn": "",
+            "pages": "100--107",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Thromboinflammation: challenges of therapeutically targeting coagulation and other host defense mechanisms",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Darbousset",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schoenwaelder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Blood",
+            "volume": "133",
+            "issn": "",
+            "pages": "906--918",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Systematic review of covid-19 in children shows milder cases and a better prognosis than adults",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ludvigson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Paediatrica",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/apa.15270"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-Cov-2 Infection in children",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Age-dependent effects in the transmission and control of COVID-19 epidemics",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klepac",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nature",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0962-9"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Serum Alpha 2 Makroglobulin concentration and its variation with age and sex",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Ganrot",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schersten",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Clin. Chim. Acta",
+            "volume": "15",
+            "issn": "",
+            "pages": "113--120",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Reference Distributions for a2-Macroglobulin: A Comparison of a Large Cohort to the World's Literature",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ritchie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Palomaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Neveux",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Navolotskaia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Lab Analysis",
+            "volume": "18",
+            "issn": "",
+            "pages": "148--152",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Maturation of the hemostatic system during childhood, Blood",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vegh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Johnston",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bowker",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ofosu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "80",
+            "issn": "",
+            "pages": "1998--2005",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Accepted Article Immune System",
+            "authors": [],
+            "year": 1999,
+            "venue": "Dev Comp Immunol",
+            "volume": "23",
+            "issn": "4-5",
+            "pages": "275--90",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Macromolecular Protein Complexes. Subcellular Biochemistry",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Garcia-Ferrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marrero",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Gomis-R\u00fcth",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Goulas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "83",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Role for alpha 2 Makroglobulin in haemostatic balance",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rinderknecht",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Geokas",
+                    "suffix": ""
+                }
+            ],
+            "year": 1972,
+            "venue": "Nature New Biology",
+            "volume": "239",
+            "issn": "",
+            "pages": "116--117",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Thrombophilie: XVIII. Hamburger Symposium \u00fcber Blutgerinnung",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Schramm",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fateh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Marx",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Heredit\u00e4rer Antithrombin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Iii",
+                    "middle": [],
+                    "last": "Mangel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1975,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Comparison of Progressive Antithrombin Activity and the Concentrations of three Thrombin Inhibitors in Human plasma",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Abildgaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fagerhol",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Egeberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1970,
+            "venue": "Journal of clinical and laboratory Investigation",
+            "volume": "26",
+            "issn": "",
+            "pages": "349--354",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Alpha-2-Macroglobulin Is a Major Determinant Of a Lower Thrombin Generation In Infants and Children Compared To Adults Blood",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kremers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bloemen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Dieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "122",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Alpha 2 Makroglobulin may provide protection from thromboembolic events in Antithrombin III deficient children Blood",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Piiovella",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrew",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ofosu F",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "",
+            "volume": "78",
+            "issn": "",
+            "pages": "2299--304",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "\u03b12-Makroglobulin on human vascular endothelium",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Becker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harpel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J of experimental Medicine",
+            "volume": "144",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

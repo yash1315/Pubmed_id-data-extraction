@@ -1,0 +1,2139 @@
+{
+    "paper_id": "00ae9261125eb11f3a0b1789da23b5faf33c8f8f",
+    "metadata": {
+        "title": "Actualizando la pr\u00e1ctica asistencial Seguimiento de los pacientes con secuelas no respiratorias de la COVID-19",
+        "authors": [
+            {
+                "first": "Juan",
+                "middle": [
+                    "Enrique"
+                ],
+                "last": "Cimas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "M\u00e9dico especialista en Medicina Familiar y Comunitaria. Centro de Salud de Contrueces. Gij\u00f3n. Asturias",
+                    "location": {
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hernando",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "M\u00e9dico especialista en Medicina Familiar y Comunitaria. Centro de Salud de Contrueces. Gij\u00f3n. Asturias",
+                    "location": {
+                        "country": "Espa\u00f1a"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "A penas han pasado 11 meses desde que la enfermedad por coronavirus de 2019 (COVID-19) irrumpiese en el mundo 1 , y a pesar del gran esfuerzo internacional para estudiar todos los aspectos relacionados con la enfermedad, y muy especialmente todo lo relacionado con el virus SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2), es todav\u00eda mucho m\u00e1s lo que se ignora que lo que se conoce 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Se sabe que el SARS-CoV-2 provoca inicialmente una enfermedad pulmonar aguda, que puede manifestarse con neumon\u00eda y con s\u00edndrome de distr\u00e9s respiratorio agudo (SDRA) 3 . Se han observado igualmente muchas manifestaciones extrapulmonares de la enfermedad 4 , que afectan a los sistemas hematol\u00f3gico, cardiovascular, renal, digestivo, endocrinol\u00f3gico, neurol\u00f3gico, oftalmol\u00f3gico y dermatol\u00f3gico ( fig. 1 ). Sin embargo, se desconoce la historia natural de la enfermedad, la duraci\u00f3n de los s\u00edntomas y la posible persistencia de secuelas en todos los sistemas rese\u00f1ados.",
+            "cite_spans": [
+                {
+                    "start": 166,
+                    "end": 167,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 254,
+                    "end": 255,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 401,
+                    "text": "fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "El virus SARS-CoV-2 es un virus de ARN que infecta inicialmente las v\u00edas respiratorias altas, bien a trav\u00e9s de f\u00f3mites, bien vehiculizado por got\u00edculas de saliva o en aerosoles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fisiopatolog\u00eda del SARS-CoV-2"
+        },
+        {
+            "text": "Una vez entra en el organismo, infecta las c\u00e9lulas mediante la uni\u00f3n de su prote\u00edna de las esp\u00edculas (prote\u00edna S) a los receptores de la enzima convertidora de la angiotensina 2 (ACE2), aunque requiere la presencia de una proteasa de membrana, la proteasa transmembrana de serina de tipo II (TMPRSS2) para que el ARN viral penetre en la c\u00e9lula infectada 5 (fig. 2 ). La eficiencia con la que el virus se une a los receptores ACE2 es determinante para la transmisibilidad. Se ha demostrado una mayor afinidad por los receptores ACE2 del SARS-CoV-2 respecto al SARS-CoV (causante de la epidemia de SARS de 2003), lo que explica la mayor transmisibilidad de aquel 6 .",
+            "cite_spans": [
+                {
+                    "start": 354,
+                    "end": 355,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 661,
+                    "end": 662,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 356,
+                    "end": 363,
+                    "text": "(fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fisiopatolog\u00eda del SARS-CoV-2"
+        },
+        {
+            "text": "Esta alta afinidad por los receptores ACE2 justifica adem\u00e1s la ubicuidad de los da\u00f1os provocados por el SARS-CoV-2 en todo el organismo, ya que la expresi\u00f3n de los receptores ACE2 es pr\u00e1cticamente universal en las c\u00e9lulas de todos los \u00f3rganos del cuerpo humano. Sin embargo, sigue siendo desconocido el mecanismo de extensi\u00f3n del virus en el organismo (hemat\u00f3geno u otros).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fisiopatolog\u00eda del SARS-CoV-2"
+        },
+        {
+            "text": "El da\u00f1o provocado por la infecci\u00f3n del SARS-CoV-2 se debe a cuatro mecanismos principales 4 : efecto citot\u00f3xico directo, desregulaci\u00f3n del sistema renina-angiotensina-aldosterona (SRAA), da\u00f1o endotelial y trombosis, y desregulaci\u00f3n",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fisiopatolog\u00eda del SARS-CoV-2"
+        },
+        {
+            "text": "El ACE2 es un potente modulador del SRAA. Transforma la angiotensina I en su forma inactiva, y la angiotensina II en angiotensina 1-7, que es vasodilatadora y tiene propiedades antiproliferativas y antifibr\u00f3ticas. La infecci\u00f3n por el SARS-CoV-2 altera todo este sistema y pro-de la respuesta inmunitaria ( fig. 3 ). Veamos brevemente cada uno de estos mecanismos.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 306,
+                    "end": 312,
+                    "text": "fig. 3",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Desregulaci\u00f3n del SRAA"
+        },
+        {
+            "text": "La citotoxicidad directa provoca el da\u00f1o en los diferentes \u00f3rganos afectados, alterando su normal funcionamiento. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Citotoxicidad viral directa"
+        },
+        {
+            "text": "Se ha demostrado la expresi\u00f3n de receptores ACE2 en el endotelio vascular de diferentes \u00f3rganos 4, 8 . El SARS-CoV-2 da\u00f1a por citotoxicidad directa el endotelio, provocando igualmente una endotelitis 9 . Estos fen\u00f3menos llevan a un aumento de la producci\u00f3n de fibrina, inhibici\u00f3n de la fibrin\u00f3li-sis y activaci\u00f3n del complemento, lo que induce la formaci\u00f3n de microtrombos y una disfunci\u00f3n microvascular.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 98,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 99,
+                    "end": 100,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 200,
+                    "end": 201,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Da\u00f1o endotelial y trombosis"
+        },
+        {
+            "text": "El SARS-CoV-2 provoca una activaci\u00f3n de los neutr\u00f3filos y de los macr\u00f3fagos que act\u00faan como mediadores de la hiperinflamaci\u00f3n, con liberaci\u00f3n anormal de citocinas, principalmente interleucina 6 (IL-6), cuya presencia en el suero del paciente se ha relacionado con un peor pron\u00f3s-Figura 2. A) La prote\u00edna S de la esp\u00edcula del coronavirus se une a los receptores de la enzima convertidora de la angiotensina 2 (ACE2), en la superficie de la c\u00e9lula diana. B) La proteasa transmembrana de serina de tipo II (TMPRSS2) se une al receptor ACE2 y lo escinde. En el proceso, se activa la prote\u00edna S de la esp\u00edcula. C) La parte de la ACE2 escindida y no unida a la prote\u00edna S y la prote\u00edna S activada facilitan la entrada viral. 10 . Otros marcadores de hiperinflamaci\u00f3n detectados en suero son linfopenia, prote\u00edna C reactiva, ferritina, d\u00edmero D, fibrin\u00f3geno y lactato deshidrogenasa (LDH). Niveles anormales de estos par\u00e1metros conllevan un peor pron\u00f3stico.",
+            "cite_spans": [
+                {
+                    "start": 719,
+                    "end": 721,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Desregulaci\u00f3n de la respuesta inmunitaria"
+        },
+        {
+            "text": "Todos estos mecanismos provocan, en mayor o menor grado, la afectaci\u00f3n de los diferentes sistemas de nuestro organismo.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Desregulaci\u00f3n de la respuesta inmunitaria"
+        },
+        {
+            "text": "En un novedoso estudio 11 , realizado mediante b\u00fasqueda en redes sociales de los s\u00edntomas persistentes que con m\u00e1s frecuencia aparecen en pacientes recuperados de COVID-19, los s\u00edntomas m\u00e1s prevalentes eran malestar y fatiga, disnea, dolor tor\u00e1cico inespec\u00edfico, taquicardia, insomnio y tos. Como puede apreciarse, varios de ellos son manifestaciones extrapulmonares de la enfermedad. La persistencia prolongada de s\u00edntomas, tanto respiratorios como no respiratorios, en pacientes que han superado la fase aguda de la enfermedad se ha denominado COVID prolongada (\"Long COVID\") 12 . Otros autores han se\u00f1alado la afectaci\u00f3n prolongada multiorg\u00e1nica en pacientes j\u00f3venes de bajo riesgo (66% de afectaci\u00f3n en un \u00f3rgano, 25% en varios) 13 .",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 25,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 578,
+                    "end": 580,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 733,
+                    "end": 735,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Desregulaci\u00f3n de la respuesta inmunitaria"
+        },
+        {
+            "text": "A continuaci\u00f3n, describiremos las alteraciones no pulmonares de la COVID-19 m\u00e1s importantes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Desregulaci\u00f3n de la respuesta inmunitaria"
+        },
+        {
+            "text": "Entre los hallazgos de laboratorio que podemos encontrar en pacientes de COVID-19 se encuentra principalmente una marcada linfopenia, presente entre el 67% y el 90% de los pacientes ingresados 4 . Dicha linfopenia afecta tanto a los linfocitos T CD4+ como a los CD8+, y su presencia se ha asociado a mayor gravedad de la enfermedad. Tambi\u00e9n se ha asociado a peor pron\u00f3stico la leucocitosis, en especial la neutrofilia, aunque esta alteraci\u00f3n se observa m\u00e1s raramente.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "Puede existir trombocitopenia, lo que podr\u00eda indicar una alteraci\u00f3n por consumo, pero en ocasiones se detecta un aumento del recuento plaquetario, especul\u00e1ndose que podr\u00eda deberse al aumento reactivo de la trombopoyetina tras la inflamaci\u00f3n pulmonar.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "Tanto la presencia de niveles elevados de d\u00edmero D en el momento del ingreso (que aparece en un 46% de los pacientes) como su incremento a lo largo de la estancia hospitalaria se han asociado a un aumento de la mortalidad 14 .",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 224,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "En cuanto a las manifestaciones cl\u00ednicas, la m\u00e1s importante, y en ocasiones dram\u00e1tica, es la enfermedad tromboemb\u00f3lica. Adem\u00e1s de por la ya comentada disfunci\u00f3n endotelial y la respuesta inflamatoria, el tromboembolismo venoso (TEV) se ve favorecido por factores como la inmovilidad en cama, en pacientes ingresados, o condiciones previas del paciente (hipertensi\u00f3n arterial, diabetes, enfermedad renal, factores gen\u00e9ticos, etc.). Por otra parte, no solo se da TEV, sino que pueden aparecer fen\u00f3menos tromb\u00f3ticos arteriales, principalmente por trombosis microvascular, y que se dan con frecuencia en el territorio pulmonar 15 .",
+            "cite_spans": [
+                {
+                    "start": 623,
+                    "end": 625,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "La enfermedad tromboemb\u00f3lica y la trombosis microvascular en la COVID-19 condicionan la aparici\u00f3n de accidentes cerebrovasculares (ACV), tromboembolismo pulmonar agudo (TEPA), infarto de miocardio y otros eventos graves que pueden conducir a un empeoramiento importante e incluso a la muerte 16 .",
+            "cite_spans": [
+                {
+                    "start": 292,
+                    "end": 294,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "Es necesario, pues, vigilar la posible aparici\u00f3n de fen\u00f3menos tromb\u00f3ticos, incluso semanas despu\u00e9s del alta hospitalaria (se desconoce el tiempo durante el cual el paciente puede tener fen\u00f3menos tromboemb\u00f3licos tras el alta). Ante la sospecha cl\u00ednica de evento tromb\u00f3tico, debe remitirse al paciente a urgencias hospitalarias para determinaci\u00f3n de d\u00edmero D y otras pruebas complementarias.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "En el paciente dado de alta tras ingreso, F\u00e9rnandez de Sanmamed et al. 17 proponen diferenciar cuatro escenarios:",
+            "cite_spans": [
+                {
+                    "start": 71,
+                    "end": 73,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "1. Paciente sin anticoagulaci\u00f3n previa a la infecci\u00f3n y que durante la infecci\u00f3n por la COVID-19 no presenta alteraci\u00f3n de coagulaci\u00f3n ni riesgo tromb\u00f3tico asociado: en este caso no se requiere tratamiento.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "2. Paciente que no recibe tratamiento anticoagulante previamente a la infecci\u00f3n y que se considera paciente de riesgo tromb\u00f3tico por la infecci\u00f3n de la COVID-19: en este caso se pauta heparina de bajo peso molecular (HBPM) durante el ingreso y se continua al alta por un tiempo que oscila entre 7-15 d\u00edas y un mes (a tener en cuenta la situaci\u00f3n individual de cada paciente con respecto a la inmovilizaci\u00f3n).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones hematol\u00f3gicas"
+        },
+        {
+            "text": "Se ha informado de diversas manifestaciones cardiacas de la COVID-19, que pueden ser secuelas directas del virus, o indirectas, por las alteraciones inflamatorias y por los fen\u00f3menos tromboemb\u00f3licos 4 .",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 200,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "El da\u00f1o mioc\u00e1rdico con elevaci\u00f3n de biomarcadores cardiacos se da hasta en el 30% de los pacientes hospitalizados (50% entre los que presentaban enfermedad cardiovascular previa). Se ha constatado que a mayor elevaci\u00f3n de la troponina hay un peor pron\u00f3stico. Se desconoce hasta qu\u00e9 punto el da\u00f1o mioc\u00e1rdico se debe a infarto de miocardio, a miocarditis o a la combinaci\u00f3n de hipoxia, trombosis microvascular e inflamaci\u00f3n sist\u00e9mica que se da en los pacientes de COVID-19 grave.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "La cardiomiopat\u00eda biventricular puede presentarse hasta en un tercio de los pacientes cr\u00edticos. El fallo ventricular derecho aislado es m\u00e1s raro 4 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "Un 17% de los pacientes hospitalizados puede presentar diversas arritmias: fibrilaci\u00f3n auricular de nueva aparici\u00f3n, bloqueos cardiacos y arritmias ventriculares. Tambi\u00e9n puede apreciarse prolongaci\u00f3n del intervalo QT corregido (QTc) en algunos pacientes en el momento del ingreso 4 .",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 282,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "En un peque\u00f1o estudio con 100 pacientes recuperados tras pasar la COVID-19 18 , de los cuales 67 no requirieron ingreso durante su enfermedad, y con prueba de reacci\u00f3n en cadena de la polimerasa (PCR) negativa en el momento del estudio, a los que se realiz\u00f3 una resonancia magn\u00e9tica cardiaca (RMC), mostraron crecimiento ventricular izquierdo y una menor fracci\u00f3n de eyecci\u00f3n que los sujetos control. En 78 de los sujetos se apreciaba edema mioc\u00e1rdico e inflamaci\u00f3n, y en 71 se encontraron niveles elevados de troponina T de alta sensibilidad. Estos hallazgos, de confirmarse en estudios m\u00e1s amplios, indicar\u00edan que a\u00fan en pacientes con enfermedad leve o moderada, aparentemente recuperados, se produce lesi\u00f3n mioc\u00e1rdica.",
+            "cite_spans": [
+                {
+                    "start": 75,
+                    "end": 77,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "Una circunstancia alarmante que ha sido tambi\u00e9n se\u00f1alada es la disminuci\u00f3n, en todo el mundo, de los ingresos hospitalarios por infarto de miocardio con elevaci\u00f3n del segmento ST y otros s\u00edndromes coronarios agudos, desde marzo de 2020 19 . En paralelo a este hecho se ha descrito un aumento del n\u00famero de paradas cardiacas fuera del hospital, en las mismas fechas. Esto significa que, bien por el temor del paciente a contagiarse del SARS-CoV-2, que le lleva a evitar acudir a centros sanitarios, o bien por la distorsi\u00f3n de la atenci\u00f3n sanitaria producto de la focalizaci\u00f3n en la COVID-19, se est\u00e1n dejando de diagnosticar y de atender eventos cardiacos graves.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 238,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "En el seguimiento de los pacientes dados de alta tras padecer COVID-19 es fundamental prevenir la aparici\u00f3n o persistencia de lesiones cardiacas. Ha de vigilarse la aparici\u00f3n de s\u00edntomas de dolor coronario, de fallo cardiaco o de alteraciones del ritmo cardiaco, haciendo una buena anamnesis y, al menos, un electrocardiograma (ECG) urgente en caso de sospecha de alguna de estas circunstancias. Debe mantenerse la atenci\u00f3n ante cualquier cuadro sospechoso de infarto o s\u00edndrome coronario agudo, para prestar atenci\u00f3n inmediata y activar, si es necesario, el \"C\u00f3digo Coraz\u00f3n\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "Aunque no se ha establecido la periodicidad, deber\u00eda realizarse un ECG de control tras el alta, y posiblemente otro al mes o a los 2 meses. En caso de que se requiera administrar cualquier medicaci\u00f3n que pueda prolongar el QTc, debe realizarse tambi\u00e9n previamente un ECG 4 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "En pacientes que ya estuvieran tomando, previamente a la COVID-19, inhibidores de la enzima convertidora de la angiotensina (IECA), estos no deben ser retirados, ya que no se ha demostrado relaci\u00f3n entre los IECA y la gravedad de la infecci\u00f3n, e incluso algunos trabajos se\u00f1alan que podr\u00edan disminuirla 20 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones cardiacas"
+        },
+        {
+            "text": "Se han descrito m\u00faltiples manifestaciones neurol\u00f3gicas relacionadas con la COVID-19 21 , desde problemas leves (mareos, mialgias, anosmia y ageusia, cefalea) a problemas de gravedad (alteraci\u00f3n de la conciencia, ictus, convulsiones, meningoencefalitis, s\u00edndrome de Guillain-Barr\u00e9, etc.). Sin embargo, la fisiopatolog\u00eda de estas manifestaciones no est\u00e1 bien establecida. Se cree que el SARS-CoV-2 puede actuar sobre el sistema nervioso central (SNC) y perif\u00e9rico (SNP) por tres mecanismos diferentes:",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 86,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "1. Paso directo del virus desde el epitelio nasal al nervio olfatorio a trav\u00e9s de la l\u00e1mina cribosa del etmoides.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "2. Transporte axonal y transferencia transin\u00e1ptica del virus desde nervios perif\u00e9ricos hasta el SNC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "3. Diseminaci\u00f3n hemat\u00f3gena o linf\u00e1tica.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "No obstante, se ha postulado que la principal causa de las alteraciones neurol\u00f3gicas en la COVID-19 no es la acci\u00f3n directa del virus, sino las alteraciones sist\u00e9micas producidas por el estado inflamatorio y la hipercoagulabilidad, afectando a la vasculatura cerebral y a la barrera hematoencef\u00e1lica 4, 22 .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 302,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 303,
+                    "end": 305,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "Uno de los cuadros m\u00e1s frecuentes y persistentes en pacientes que han pasado la COVID-19 es la denominada \"niebla mental\" o \"niebla cerebral\" (Brain Fog) 12 , m\u00e1s frecuente en personas que han superado un cuadro grave, y especialmente en aquellas de mayor edad; no obstante, puede aparecer tambi\u00e9n en pacientes que hayan sufrido una COVID-19 levemoderada. Estos pacientes relatan fatiga, inatenci\u00f3n, dificultad para concentrarse y problemas para poder trabajar durante muchas horas, les resulta dif\u00edcil planificar acciones, etc. 23 .",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 156,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 529,
+                    "end": 531,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "El seguimiento de estos pacientes en atenci\u00f3n primaria ha de hacerse controlando la posible aparici\u00f3n de s\u00edntomas neu-rol\u00f3gicos o la persistencia de estos, y dando tratamiento de soporte a las alteraciones que presenten. Ha de prestarse especial atenci\u00f3n a la posible aparici\u00f3n de secuelas tempranas graves tras el alta (s\u00edndrome de Guillain-Barr\u00e9, mielitis transversa, ictus) y a la persistencia de alteraciones m\u00e1s leves, pero que afectan a la calidad de vida, como la \"niebla mental\".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones neurol\u00f3gicas"
+        },
+        {
+            "text": "La COVID-19 puede determinar alteraciones psicol\u00f3gicas y psiqui\u00e1tricas por diversos motivos 24 , desde afectaci\u00f3n del SNC hasta repercusiones de la situaci\u00f3n de temor y confinamiento padecidas. En la fase aguda, el cuadro psiqui\u00e1trico m\u00e1s com\u00fan es el delirio, m\u00e1s frecuente en pacientes graves que requieren ingreso en la Unidad de Cuidados Intensivos (UCI), aunque tambi\u00e9n se han descrito en algunas personas cuadros de psicosis. A medio y largo plazo, se ha asociado la COVID-19 con bajo estado de \u00e1nimo, desesperanza, ansiedad, depresi\u00f3n y cuadros de estr\u00e9s postraum\u00e1tico (especialmente en trabajadores sanitarios y otras profesiones esenciales) 25 .",
+            "cite_spans": [
+                {
+                    "start": 649,
+                    "end": 651,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones psicoemocionales"
+        },
+        {
+            "text": "Es importante, en el seguimiento de estos pacientes, no se\u00f1alar como patol\u00f3gico lo que les sucede. Aunque algunas personas podr\u00edan beneficiarse de una interconsulta a salud mental, se debe hacer hincapi\u00e9 en el apoyo emocional, ense\u00f1anza de autocuidados (dieta, hidrataci\u00f3n, actividad) y ocasionalmente, en el control de los s\u00edntomas. Ser\u00eda ideal un abordaje multidisciplinar por parte de psic\u00f3logos, m\u00e9dicos de familia, enfermeras y trabajadores sociales 12 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones psicoemocionales"
+        },
+        {
+            "text": "Los pacientes COVID-19 pueden presentar en fase aguda alteraciones del metabolismo de la glucosa, con hiperglucemia Instrucciones de uso: 1) para evaluar la recuperaci\u00f3n despu\u00e9s de la infecci\u00f3n por SARS-CoV-2, esta escala PCFS cubre toda la gama de limitaciones funcionales, incluidos los cambios en el estilo de vida, el ejercicio f\u00edsico y deportivo, y las actividades sociales; 2) la asignaci\u00f3n de un grado de la escala PCFS se refiere a la situaci\u00f3n promedio de la semana anterior (excepci\u00f3n: cuando se eval\u00faa al alta, se refiere a la situaci\u00f3n que exist\u00eda el d\u00eda del alta); 3) los s\u00edntomas incluyen (pero no se limitan a) disnea, dolor, fatiga, debilidad muscular, p\u00e9rdida de memoria, depresi\u00f3n y ansiedad; 4) en caso de que dos grados parezcan ser apropiados para el paciente, elija siempre el grado m\u00e1s alto, con m\u00e1s limitaciones; 5) medir el estado funcional antes de la infecci\u00f3n por SARS-CoV-2 es opcional; 6) como alternativa a este diagrama de flujo y cuestionario para pacientes, se encuentra disponible una entrevista estructurada extensa.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones endocrinol\u00f3gicas"
+        },
+        {
+            "text": "El manual completo para pacientes y m\u00e9dicos est\u00e1 disponible en https://osf.io/qgpdv/ [consultado el 9 de noviembre de 2020]. Traducido y modificado de Klok et al. 30 . [Licencia de atribuci\u00f3n Creative Commons]. y cetoacidosis de inicio, incluso en pacientes que previamente no ten\u00edan diagn\u00f3stico de diabetes 26 .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 165,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 308,
+                    "end": 310,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones endocrinol\u00f3gicas"
+        },
+        {
+            "text": "Est\u00e1 en discusi\u00f3n que la infecci\u00f3n por SARS-CoV-2 desencadene un cuadro de diabetes a largo plazo. No obstante, en pacientes que hayan presentado hiperglucemia durante su enfermedad, ser\u00eda conveniente la determinaci\u00f3n peri\u00f3dica de la hemoglobina glicosilada para el seguimiento 4 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones endocrinol\u00f3gicas"
+        },
+        {
+            "text": "En la fase aguda de la enfermedad se produce, en un n\u00famero importante de pacientes graves, un da\u00f1o renal agudo, con alteraciones electrol\u00edticas, proteinuria, hematuria y acidosis metab\u00f3lica, todo lo cual conlleva una alta mortalidad 4 .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 234,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones renales"
+        },
+        {
+            "text": "A largo plazo, puede provocarse da\u00f1o glomerular permanente, bien por acci\u00f3n directa del virus, bien por inmu-Figura 5. Esquema de actuaci\u00f3n y seguimiento en atenci\u00f3n primaria de pacientes con COVID prolongada. ECG: electrocardiograma; Rx t\u00f3rax: radiograf\u00eda de t\u00f3rax; TCAR: tomograf\u00eda computarizada de alta resoluci\u00f3n. Modificado y adaptado de Greenhalgh et al. 12 .",
+            "cite_spans": [
+                {
+                    "start": 361,
+                    "end": 363,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones renales"
+        },
+        {
+            "text": "nocomplejos. Tambi\u00e9n puede presentarse una intensa albuminuria, secundaria a la disfunci\u00f3n endotelial. Estos acontecimientos pueden llevar a una insuficiencia renal cr\u00f3nica 27 .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 175,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones renales"
+        },
+        {
+            "text": "Tras el alta, es conveniente controlar durante los primeros meses la funci\u00f3n renal, incluyendo la posible presencia de albuminuria.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Manifestaciones renales"
+        },
+        {
+            "text": "Diversos factores conducen a que los pacientes con COVID-19, especialmente los que han sido ingresados de forma prolongada, presenten alteraciones en el sistema musculoesquel\u00e9tico 28 . En primer lugar, la propia acci\u00f3n del SARS-CoV-2, bien por su efecto directo sobre las c\u00e9lulas musculares y nerviosas, bien por las consecuencias de las alteraciones sist\u00e9micas desencadenadas (alteraciones inmunitarias, hipercoagulabilidad, da\u00f1o mediado por citocinas). En segundo lugar, el ingreso prolongado provoca un importante desacondicionamiento muscular con atrofia (en algunos pacientes puede manifestarse una sarcopenia, con una afectaci\u00f3n mucho m\u00e1s intensa de la esperable por la inmovilizaci\u00f3n prolongada). Y, por \u00faltimo, el uso de corticoides como tratamiento puede condicionar la aparici\u00f3n de una miopat\u00eda corticoidea. Tambi\u00e9n las articulaciones se ven afectadas, ya sea por da\u00f1o directo o indirecto por el virus, o por la inmovilidad prolongada.",
+            "cite_spans": [
+                {
+                    "start": 180,
+                    "end": 182,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones musculoesquel\u00e9ticas"
+        },
+        {
+            "text": "La concurrencia de alteraciones musculares, articulares y de neuropat\u00eda perif\u00e9rica puede llegar a condicionar en estos pacientes la aparici\u00f3n de dolor cr\u00f3nico 29 .",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 161,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Manifestaciones musculoesquel\u00e9ticas"
+        },
+        {
+            "text": "El seguimiento de estos pacientes debe incluir el apoyo emocional, la ense\u00f1anza de normas de higiene y autocuidados, y la remisi\u00f3n a rehabilitaci\u00f3n lo m\u00e1s precozmente posible. Se han propuesto algunos m\u00e9todos sencillos para la clasificaci\u00f3n funcional de estos pacientes, como la escala para medir el estado funcional tras sufrir COVID-19 (PCFS: \"Post-COVID-19 Functional Status\") ( fig. 4) 30 .",
+            "cite_spans": [
+                {
+                    "start": 390,
+                    "end": 392,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 389,
+                    "text": "fig. 4)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Manifestaciones musculoesquel\u00e9ticas"
+        },
+        {
+            "text": "La COVID-19 tiene m\u00faltiples manifestaciones, no solo respiratorias, sino en todos los sistemas del cuerpo humano. Algunas de ellas van a persistir tras la superaci\u00f3n de la fase aguda de la enfermedad, dando lugar a la denominada COVID prolongada. La figura 5 propone la actuaci\u00f3n de atenci\u00f3n primaria en estos pacientes 12 . Para los profesionales de atenci\u00f3n primaria supone un reto el identificar estas manifestaciones y manejarlas adecuadamente, tal como se resume en la tabla 1. Para ello es necesario una buena coordinaci\u00f3n con los servicios hospitalarios, pero sobre todo es un desaf\u00edo para desarrollar de forma eficiente un trabajo en equipo que implique no solo a los profesionales sanitarios, sino tambi\u00e9n al propio paciente, a su familia y a su entorno social.",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 322,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusiones"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Covid-19's known unknowns",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Blastland",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Munaf\u00f2",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMJ",
+            "volume": "371",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Byrareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autoimmun",
+            "volume": "109",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaut.2020.102433"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Extrapulmonary manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Madhavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sehgal",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nair",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sehrawat",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "1017--1049",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0968-3"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "SARS-CoV-2 and Coronavirus Disease 2019: What We Know So Far",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Zoubi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kasasbeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Salameh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al-Nasser",
+                    "middle": [],
+                    "last": "Ad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathogens",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/pathogens9030231"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Structural and functional basis of SARS-CoV-2 entry by using human ACE2",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "894--904",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.03.045"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Renin-angiotensin-aldosterone system inhibitors in patients with Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vaduganathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Vardeny",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Michel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jjv",
+                    "middle": [],
+                    "last": "Mcmurray",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pfeffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Solomon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1653--1662",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMsr2005760"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pulmonary vascular endothelialitis, thrombosis, and angiogenesis in Covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ackermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Verleden",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kuehnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Haverich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Welte",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Laenger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "120--128",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2015432"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Endothelial cell infection and endothelilitis in CO-VID-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Varga",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Flammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Steiger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haberecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Andermatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zinkernagel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30937--30942",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30628--30628",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Long-term patientreported symptoms of COVID-19: an analysis of social media data",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Banda",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Alser",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Prieto-Alhambra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.07.29"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Management of post-acute covid-19 in primary care",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Greenhalgh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knight",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "&apos;court",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Buxton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Husain",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "370",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m3026"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Multi-organ impairment in low-risk individuals with long COVID",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dennis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wamil",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kapur",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Alberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Badley",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Decker",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.10.14.20212555"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "COVID-19 and its implications for thrombosis and anticoagulation",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Connors",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Blood",
+            "volume": "135",
+            "issn": "",
+            "pages": "2033--2073",
+            "other_ids": {
+                "DOI": [
+                    "10.1182/blood.2020006000"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Scientific and standardization committee communication: clinical guidance on the diagnosis, prevention and treatment of venous thromboembolism in hospitalized patients with COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Spyropoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ageno",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Connors",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Thromb Haemostasis",
+            "volume": "18",
+            "issn": "",
+            "pages": "1859--65",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jth.14929"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Coagulopathy in COVID-19: Focus on vascular thrombotic events",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Mol Cell Cardiol",
+            "volume": "146",
+            "issn": "",
+            "pages": "32--40",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.yjmcc.2020.07.003"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "\u00bfY despu\u00e9s de la fase aguda de la COVID-19 qu\u00e9",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Fern\u00e1ndez De Sanmamed",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Riera",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Serrano",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Outcomes of Cardiovascular Magnetic Resonance Imaging in Patients Recently Recovered From Coronavirus Disease 2019 (CO-VID-19)",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Puntmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Carerj",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Wieters",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fahim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Arendt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacar-dio.2020.3557"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Out-of-Hospital Cardiac Arrest during the Covid-19 Outbreak in Italy",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Baldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sechi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mare",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Canevari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brancaglione",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Primi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "496--504",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NE-JMc2010418"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Association of inpatient use of angiotensin converting enzyme inhibitors and angiotensin II receptor blockers with mortality among patients with hypertension hospitalized with COVID-19",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circ Res",
+            "volume": "126",
+            "issn": "",
+            "pages": "1671--81",
+            "other_ids": {
+                "DOI": [
+                    "10.1161/CIRCRESAHA.120.317134"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Neurologic Manifestations of Hospitalized Patients With Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "JAMA Neurol",
+            "volume": "77",
+            "issn": "",
+            "pages": "683--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamaneurol.2020.1127"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A systematic review of neurological symptoms and complications of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Laurent",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Onur",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kleineberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Fink",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schweitzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Neurol",
+            "volume": "20",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00415-020-10067-3"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Potential neurological manifestations of COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nordvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rimmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Willey",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Thakur",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Boehme",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vargas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Neurol Clin Pract",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1212/CPJ.0000000000000897"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Are we facing a crashing wave of neuropsychiatric sequelae of COVID-19? Neuropsychiatric symptoms and potential inmunologic mechanisms",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Troyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav Immun",
+            "volume": "88",
+            "issn": "",
+            "pages": "957--965",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2020.04.027"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Neuropsychiatric complications of covid-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pollak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rooney",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Michael",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nicholson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "371",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m3871"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19 infection may cause ketosis and ketoacidosis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Obes Metab",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dom.14057"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "COVAN is the new HIVAN: the reemergence of collapsing glomerulopathy with COVID-19. Nat Rev Nephrol",
+            "authors": [
+                {
+                    "first": "Jcq",
+                    "middle": [],
+                    "last": "Velez",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Caza",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Larsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "16",
+            "issn": "",
+            "pages": "565--572",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41581-020-0332-3"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Musculoskeletal Consequences of COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Disser",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Micheli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schonk",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Konnaris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Piacentini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Edon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Bone Joint Surg Am",
+            "volume": "102",
+            "issn": "",
+            "pages": "1197--204",
+            "other_ids": {
+                "DOI": [
+                    "10.2106/JBJS.20.00847"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Chronic pain after COVID-19: implications for rehabilitation",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kemp",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Corner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Colvin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br J Anaesth",
+            "volume": "125",
+            "issn": "",
+            "pages": "436--476",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bja.2020.05.021"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The Post-COVID-19 Functional Status scale: a tool to measure functional status over time after COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Klok",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gjam",
+                    "middle": [],
+                    "last": "Boon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Endres",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jjm",
+                    "middle": [],
+                    "last": "Geelhoed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Knauss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Respir J",
+            "volume": "56",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/13993003.01494-2020"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Figura 1. Afectaci\u00f3n del SARS-CoV-2 sobre diferentes \u00f3rganos y sistemas del cuerpo humano.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Modificado y adaptado de Rabi et al.8 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "ACE2: receptor de la enzima convertidora de la angiotensina 2. IL-6: interleucina-6; SRAA: sistema renina-angiotensina-aldosterona; TNF : factor de necrosis tumoral alfa. Esquema traducido y modificado de Gupta et al.4 . Explicaci\u00f3n en el texto.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Escala para medir el estado funcional tras sufrir COVID-19 (PCFS: \"Post-COVID-19 Functional Status\"): a) diagrama de flujo. b) Cuestionario para pacientes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "1. Afectaci\u00f3n del SARS-CoV-2 sobre diferentes \u00f3rganos y sistemas del cuerpo humano.QTc: intervalo QT corregido; SNC: sistema nervioso central; SNP: sistema nervioso perif\u00e9rico. Elaboraci\u00f3n propia, basado en Gupta A et al.4 . Dibujos realizados para el Noun Project, con licencia Creative Commons.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "TABLA 1. S\u00edntomas persistentes m\u00e1s frecuentes tras sufrir COVID-19Vigilancia estrecha sobre la posible aparici\u00f3n de fen\u00f3menos tromboemb\u00f3licos Mantenimiento de profilaxis con HBPM durante \u00bfsemanas?Atenci\u00f3n a posibles signos de cardiopat\u00eda Realizar ECG tras el alta, al mes y a los 2 meses Realizar ECG si se va a pautar un medicamento que pueda alterar el intervalo QT No suspender IECA si ya lo tomaba Valorar la aparici\u00f3n o persistencia de s\u00edntomas neurol\u00f3gicos Vigilar la aparici\u00f3n de complicaciones graves (ictus, Guillain-Barr\u00e9) incluso semanas despu\u00e9s del alta Vigilar la persistencia de la \"niebla mental\" Determinaci\u00f3n peri\u00f3dica de la hemoglobina glicosilada (podr\u00eda ser al alta y a los 3 meses) AP: atenci\u00f3n primaria; ECG: electrocardiograma; HBPM: heparinas de bajo peso molecular; IECA: inhibidor de la enzima convertidora de la angiotensina; QTc: intervalo QT corregido.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

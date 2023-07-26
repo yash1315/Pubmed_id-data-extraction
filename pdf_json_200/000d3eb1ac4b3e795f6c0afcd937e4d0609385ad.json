@@ -1,0 +1,4077 @@
+{
+    "paper_id": "000d3eb1ac4b3e795f6c0afcd937e4d0609385ad",
+    "metadata": {
+        "title": "Article 645359 1 Swevers L and Sun J (2021) Identification of Silkworm Hemocyte Subsets and Analysis of Their Response to",
+        "authors": [
+            {
+                "first": "Min",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Junming",
+                "middle": [],
+                "last": "Xia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shigang",
+                "middle": [],
+                "last": "Fei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ruoxuan",
+                "middle": [],
+                "last": "Peng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xiong",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yaohong",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pengwei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Luc",
+                "middle": [],
+                "last": "Swevers",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": "swevers@bio.demokritos.gr"
+            },
+            {
+                "first": "Jingchen",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Guangdong Provincial Key Laboratory of Agro-Animal Genomics and Molecular Breeding",
+                    "institution": "South China Agricultural University",
+                    "location": {
+                        "settlement": "Guangzhou",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Patrick",
+                "middle": [
+                    "C"
+                ],
+                "last": "Hanington",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Minhui",
+                "middle": [],
+                "last": "Pan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jin-Wu",
+                "middle": [],
+                "last": "Nam",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Feng",
+                "middle": [
+                    "M"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xia",
+                "middle": [
+                    "J"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fei",
+                "middle": [
+                    "S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [
+                    "R"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wang",
+                "middle": [
+                    "X"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhou",
+                "middle": [
+                    "Y"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wang",
+                "middle": [
+                    "P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "A wide range of hemocyte types exist in insects but a full definition of the different subclasses is not yet established. The current knowledge of the classification of silkworm hemocytes mainly comes from morphology rather than specific markers, so our understanding of the detailed classification, hemocyte lineage and functions of silkworm hemocytes is very incomplete. Bombyx mori nucleopolyhedrovirus (BmNPV) is a representative member of the baculoviruses and a major pathogen that specifically infects silkworms (Bombyx mori) and causes serious losses in sericulture industry. Here, we performed single-cell RNA sequencing (scRNA-seq) of hemocytes in BmNPV and mock-infected larvae to comprehensively identify silkworm hemocyte subsets and determined specific molecular and cellular characteristics in each hemocyte subset before and after viral infectmadion. A total of 20 cell clusters and their potential marker genes were identified in silkworm hemocytes. All of the hemocyte clusters were infected by BmNPV at 3 days after inoculation. Interestingly, BmNPV infection can cause great changes in the distribution of hemocyte types. The cells appearing in the infection group mainly belong to prohemocytes (PR), while plasmatocytes (PL) and granulocytes (GR) are very much reduced. Furthermore, we found that BmNPV infection suppresses the RNA interference (RNAi) and immune response in the major hemocyte types. In summary, our results revealed the diversity of silkworm hemocytes and provided a rich resource of gene expression profiles for a systems-level understanding of their functions in the uninfected condition and as a response to BmNPV.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Insects have an efficient and potent innate immune system to discriminate and respond to invading pathogenic microorganism (1) . The innate immune system of insects is divided into humoral defenses that include the production of soluble effector molecules (like antimicrobial peptides) and cellular defenses like phagocytosis and encapsulation that are mediated by hemocytes (2) . A wide range of hemocytes exists in insects but a full definition of the different subclasses is not yet established (1) . In Lepidopteran insects such as the silkworm, hemocytes are generally classified into five major subsets including prohemocytes (PR), plasmatocytes (PL), granulocytes (GR), spherulocytes (SP), and oenocytoids (OE) based on morphology and function (2) (3) (4) . Generally, prohemocytes are considered as multipotent progenitor cells or stem cells giving rise to the other subsets (5) . Plasmatocytes and granulocytes are the only hemocyte subsets capable of adhering to foreign surfaces, and together usually comprise more than 50% of the hemocytes in circulation in the larval stages (3) . Furthermore, plasmatocytes and granulocytes are involved in most cellular defense responses (2, 3) . Oenocytoids are in rich in prophenoloxidase and mainly participate in melanization, whereas the functions of spherulocytes are unknown (6, 7) .",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 126,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 375,
+                    "end": 378,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 751,
+                    "end": 754,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 755,
+                    "end": 758,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 759,
+                    "end": 762,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 883,
+                    "end": 886,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1088,
+                    "end": 1091,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1186,
+                    "end": 1189,
+                    "text": "(2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1190,
+                    "end": 1192,
+                    "text": "3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1330,
+                    "end": 1333,
+                    "text": "(6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1334,
+                    "end": 1336,
+                    "text": "7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Because our current knowledge of the classification of silkworm hemocytes mainly comes from morphology and cytochemistry rather than from specific genetic markers, our detailed understanding of hemocyte lineages and functions is very limited. Importantly, if hemocyte subsets cannot be distinguished well, the molecular responses of each hemocyte subset during the invasion of exogenous pathogenic microorganisms remain inaccessible. In addition, although some research teams have studied the hematopoietic lineage of the silkworm (5, 6) , still little is known about silkworm hemocyte lineage trajectories starting from precursor cells or the existence of putative intermediate states during the differentiation process towards mature cell types. Hence, it is important and interesting to thoroughly characterize the molecular signatures and responses of all the precursor and mature hemocyte subtypes during homeostasis and after exposure to pathogenic microorganisms.",
+            "cite_spans": [
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 535,
+                    "end": 537,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Baculoviruses are a very diverse group of invertebrate-specific DNA viruses with genome sizes varying from about 80 to over 180 kbp, that encode between 90 and 180 genes, which bring harm to economically important insects, but also have been harnessed for biotechnological applications such as insect pest control and the expression of heterologous proteins (8) . Bombyx mori nucleopolyhedrovirus (BmNPV), a representative member of baculoviruses, is a major pathogen that specifically infects silkworms (B. mori) and causes serious losses in the sericulture industry (9) . However, no effective measures are currently available to prevent BmNPV infection. With respect to sericulture, many silkworm strains have very little resistance to BmNPV infection which can lead to widespread mortality and population collapse. The general high virulence of baculovirus infections has also been exploited for their successful application as biocontrol agents to kill pests. However, although methods such as bulk RNA-seq and proteomics have been used in recent years to try to clarify the interaction between baculovirus and the host (9) (10) (11) (12) (13) (14) , major gaps remain regarding the host response to the virus, especially at the level of cellular immunity. Hence, the elucidation of the response of different hemocyte subsets to BmNPV infection is a powerful approach to explore the insect cellular immune response to baculovirus infection.",
+            "cite_spans": [
+                {
+                    "start": 358,
+                    "end": 361,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 568,
+                    "end": 571,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1125,
+                    "end": 1128,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1129,
+                    "end": 1133,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1134,
+                    "end": 1138,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1139,
+                    "end": 1143,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1144,
+                    "end": 1148,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1149,
+                    "end": 1153,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Single-cell RNA sequencing (scRNA-seq) has already been applied to investigate the immune response under conditions of virus infection (15, 16) . In particular, scRNA-seq technology is widely used to characterize the response of various cell types to severe acute respiratory syndrome corona virus 2 (SARS-CoV-2) infection (17) (18) (19) . In Drosophila, one of the major model organisms, the cell lineage characteristics in many tissues have been identified using scRNA-seq, such as the midgut (20) , blood cells or hemocytes (21) (22) (23) , ovary (24, 25) , and brain (26) . However, the application of scRNA-seq technology to determine cell subsets and cell lineages is rare in other insects. Moreover, to our knowledge, scRNA-seq technology has not been applied yet to study the responses of specific insect cell (sub)types to viral infections.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "(15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 328,
+                    "end": 332,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 333,
+                    "end": 337,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 527,
+                    "end": 531,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 532,
+                    "end": 536,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 537,
+                    "end": 541,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 550,
+                    "end": 554,
+                    "text": "(24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 555,
+                    "end": 558,
+                    "text": "25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Here, we have performed scRNA-seq on silkworm hemocytes in BmNPV-infected larvae and uninfected larvae to comprehensively identify hemocyte subsets and characterize their specific molecular and cellular responses after viral infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Larvae of silkworm (B. mori, Dazao strain) were reared with fresh mulberry (Morus sp.) leaves and reared under constant environmental conditions of 28\u00b0C and 60-70% humidity. Recombinant BmNPV-EGFP (Enhanced Green Fluorescent Protein), as a reporter virus, was constructed by the Bac-to-Bac Baculovirus Expression System and kept in Guangdong Provincial Key Laboratory of Agro-animal Genomics and Molecular Breeding. Newly molted fifth-instar silkworm larvae were injected with either 10 mL of BmNPV-EGFP (10 5.8 TCID 50 / 0.1 mL) or phosphate-buffered saline (PBS) (injection control). Blue Light Gel Imager (Sangon Biotech, China) was used to monitor the spread of green fluorescence in infected larvae on a daily basis until whole body expression was achieved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Silkworm and BmNPV Infection"
+        },
+        {
+            "text": "At three days after BmNPV infection, 3 mL of hemolymph was collected from pools of twenty BmNPV-infected animals or twenty controls on ice and centrifuged at 500 g for 2 min at 4\u00b0C. The hemocyte pellet was washed twice using 1 mL of cold Grace's insect medium (Gibco, USA) supplemented with 10% FBS (Gibco, USA), which was followed by filtering through a 40 \u00b5m cell strainer (Biosharp, China) and centrifugation at 500 g for 2 min at 4\u00b0C. The hemocyte pellet was resuspended using 200 \u00b5L PBS (calcium and magnesium-free, Gibco, USA) supplemented with 0.04% bovine serum albumin (BSA) (Solarbio, China).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Preparation of Single Hemocytes in Suspension"
+        },
+        {
+            "text": "Cell viability and number were assessed by 0.4% trypan blue staining and cell counting using a hemocytometer. High quality hemocyte preparations were subjected to single cell encapsulation by 10X Genomics v3 kit (10x Genomics, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Preparation of Single Hemocytes in Suspension"
+        },
+        {
+            "text": "Single cell encapsulation, complementary DNA (cDNA) library synthesis, RNA-sequencing and data analysis were completed by Gene Denovo (Guangzhou, China). The single-cell suspensions were bar-coded and reverse-transcribed into scRNA-seq libraries using the Chromium Single Cell 3' Gel Bead-in Emulsion (GEM), Library and Gel Bead Kit (10x Genomics, USA) according to the manufacturer's protocol. Briefly, single silkworm hemocytes were barcode-labeled and mixed with reverse transcriptase into GEMs, then the cDNA library was amplified using PCR with the sequencing primers R1 and R2, and subsequently ligated to Illumina sequencing adapters with P5 and P7 flow cell binding sites. Finally, the cDNA libraries were sequenced on the Illumina 10x Genomics Chromium platform (Illumina Novaseq 6000).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Single Hemocyte Encapsulation and Sequencing"
+        },
+        {
+            "text": "The latest published version of the silkworm genome (SilkDB3.0) was used in the present study (27) . Since SilkDB3.0 does not contain the mitochondrial genome, we have added silkworm mitochondrial genome data (NCBI Reference Sequence: NC_002355.1) in the subsequent analysis. The raw scRNA-seq data were aligned, filtered, and normalized using Cell Ranger (10x Genomics) software (Cell Ranger 3.1.0). A read is considered as exonic if at least 50% of it intersects an exon, intronic if it is non-exonic and intersects an intron, and intergenic otherwise. A read that is compatible with the exons of an annotated transcript, and aligned to the same strand, is considered mapped to the transcriptome. If the read is compatible with a single gene annotation, it is considered uniquely (confidently) mapped to the transcriptome. Only reads that are confidently mapped to the transcriptome are used for Unique Molecular Identifier (UMI) counting.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ScRNA-Seq Data Processing and Analysis"
+        },
+        {
+            "text": "Seurat is a popular R package that can perform quality control (QC), analysis, and exploration of scRNA-seq data, which was originally developed as a clustering tool for scRNA-seq data (28) . In this study, the cell subset was grouped by graph-based clustering based on the gene expression profile of each cell in Seurat. After removing of low-quality cells, data were normalized. Normalized expression levels were used to perform canonical correspondence analysis (CCA) to correct for the batch effect which was followed by data integration to carry out Z-score normalization. The normalized data were clustered using principal component analysis (PCA) and visualized with t-distributed Stochastic Neighbor Embedding (t-SNE) (29) or Uniform Manifold Approximation and Projection (UMAP) (30) . Other data analyses including standardization, difference of gene expression, and marker gene screening were also achieved by Seurat.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "(28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 726,
+                    "end": 730,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 787,
+                    "end": 791,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "ScRNA-Seq Data Processing and Analysis"
+        },
+        {
+            "text": "Notably, scRNAseq data were validated for analysis according to the following QC criteria: 1) 200 < gene counts < 4000 per cell; 2) UMI counts < 30, 000 per cell; 3) percentage of mitochondrial genes < 25%. After normalizing the data using Seurat, gene expression level in scRNA-seq was calculated as log [1 + (UMI A \u00f7 UMI Total) \u00d7 10000]. It should be noted that when performing gene quantification, 'UMI Total' does not include 'UMI BmNPV'.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ScRNA-Seq Data Processing and Analysis"
+        },
+        {
+            "text": "Likelihood-ratio test (31) , performed on single cluster cells against all other cells, was used to identify differentially expressed genes (DEGs) in single clusters based on differential expression. Up-regulated DEGs in each cluster were identified by the following criteria: 1) p value \u2264 0.01; 2) log2FC \u2265 0.360674 (log2FC means log fold change of the average expression between the two groups); and 3) percentage of cells in a specific cluster where the gene is detected > 25%. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis were further carried out based on gene expression levels to identify the main features of each cluster. The top 5 genes in each cluster were selected as the potential marker genes according to the result of DEGs analysis. Then the expression distribution of each marker gene among clusters was visualized by bubble diagrams.",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 26,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Differentially Expressed Genes (DEGs) Analysis Per Cluster"
+        },
+        {
+            "text": "To determine the state of BmNPV infection in each hemocyte cluster, the expression of viral genes and viral load were analyzed in the different cell clusters in the BmNPV-infected group. Viral gene expression was analyzed using Cell Ranger, based on the BmNPV genome (GenBank: JQ991008.1). The 'viral load' of a cell in scRNA-seq analysis was based on the number of UMIs that map to the BmNPV genome and expressed as a percentage of total UMI content of a given cell (16) . In the present study, infected hemocytes were divided into three categories of viral-load states: low (< 5%), medium (between 5% and 20%), and high (> 20%).",
+            "cite_spans": [
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Viral Genes Analysis in Cell Clusters of the BmNPV-Infected Group"
+        },
+        {
+            "text": "To explore the response of each hemocyte cluster to BmNPV, we further analyzed the DEGs between the BmNPV-infected group and the control group using Seurat software under the condition of a minimum of 3 cells per cluster. New identities were set up as \"group_cluster\" or \"group_cell type\" for analysis (32) . A hurdle model in MAST (Model-based Analysis of Single-cell Transcriptomics) (33) was used to find DEGs for a group in one cluster. DEGs between the BmNPV-infected and control groups were identified by the following criteria: 1) |log2FC| \u22650.25; 2) p value_adj \u2264 0.05; and 3) percentage of cells where the gene is detected in a specific cluster > 25%. Identified DEGs were subsequently subjected to GO and KEGG pathway enrichment analysis.",
+            "cite_spans": [
+                {
+                    "start": 302,
+                    "end": 306,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DEGs Analysis in Cell Clusters Between BmNPV-Infected and Uninfected Groups"
+        },
+        {
+            "text": "Bulk RNA-seq raw data of silkworm plasmatocytes (PL) and granulocytes (GR) were kindly provided by Dr Kui Zhang and Prof Hongjuan Cui (unpublished data, Southwest University, China). Plasmatocytes used in their study were obtained by culturing hematopoietic organs (from B. mori, Dazao strain) in vitro and granulocytes were obtained by culturing the adherent cells collected from the Dazao silkworm from which the hematopoietic organs were removed (Kui Zhang's doctoral thesis, in Chinese, 2017). Since the flow cytometry sorting method cannot be used to separate silkworm hemocytes due to the lack of known marker genes and corresponding interacting specific antibodies, the PL and GR isolates described above are therefore considered to be impure preparations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of Bulk RNA-Seq Data"
+        },
+        {
+            "text": "After removing low-quality reads and ribosomal RNA, high quality clean reads were mapped to the latest version of the silkworm genome (SilkDB 3.0) using HISAT2. 2.4 (34) . The mapped reads were assembled using StringTie v1.3.1 (35) . FPKM (fragment per kilobase of transcript per million mapped reads) values were calculated to quantify genes' expression abundance and variations, using StringTie software (35) . Pearson's correlation analysis was used to investigate the relationships between bulk RNA-seq data of PL, GR and hemocyte clusters in scRNA-seq based on levels of gene expression.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 406,
+                    "end": 410,
+                    "text": "(35)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis of Bulk RNA-Seq Data"
+        },
+        {
+            "text": "Hemocytes were prepared from BmNPV-infected (wild-type BmNPV BV) and uninfected silkworms as described above and stained with the acridine orange/propidium iodide double staining kit (BioRab, China) before evaluation. After classification according to cell morphology by fluorescence and light microscopy (4, 36) , the proportion of the different hemocyte cell types (PR, GR, PL, OE, SP) was determined (3 independent samples).",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 308,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 309,
+                    "end": 312,
+                    "text": "36)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hemocytes Classification and Count"
+        },
+        {
+            "text": "Single cell trajectory was analyzed using a matrix of cells and gene expression levels by Monocle 2 (Version2.6.4) (37). Monocle reduces the space in which the cells were embedded to two dimensions and orders the cells (parameters used: sigma= 0.001, lambda = NULL, param.gamma = 10, tol= 0.001). The cells in the BmNPV-infected group were defined as the starting point of the pseudotime analysis. Once the cells were ordered, the trajectory (with tree-like structure, including tips and branches) could be visualized in the reduced dimensional space.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pseudo Temporal Ordering of Cells"
+        },
+        {
+            "text": "We used the 10x Genomics platforms to perform 3\u2032 scRNA-seq on pooled hemocytes collected from BmNPV-infected silkworm and PBS-treated controls ( Figure 1A) . Details on the statistics of scRNA-seq are summarized in File S1. A total of 22,286 cells (BmNPV-infected: 9,114; Control: 13,172) were profiled and 20 distinct clusters were obtained that can be visualized using t-SNE ( Figures 1B, C) . From cluster 0 (3145 cells, 14.11%) to cluster 19 (50 cells, 0.22%), the number of cells gradually decreases ( Figure  1C ). However, no known marker genes exist that can be used to specify different types of silkworm hemocytes, in contrast to the robust classification of hemocyte subgroups in Drosophila (21, 22) . Next, we identified the up-regulated DEGs of each cluster and analyzed the enrichment of specific groups of genes involved in distinct cellular processes. Silkworm hemocyte clusters were detected with a large number of up-regulated DEGs, especially cluster 14 (1734 DEGs), 6 (1602), 10 (1571), 4 (1310), 19 (871), 15 (835), 0 (814) and 5 (613) ( Figure 1D and File S2). The expression levels and the percentage of cells expressing the top five genes in each cluster are shown in a dot plot ( Figure 1E and File S3). These genes need to be confirmed in future research and are proposed to be used as marker genes for each cluster of silkworm hemocytes ( Figure 1E ). Through GO and KEGG analysis on all up-regulated DEGs in each cluster, we found that genes involved in immune-related host response processes are mainly enriched in cluster 0, 4, 6, 10, 14, 15 and 19 ( Figures  1F, G) . We speculate that these hemocyte clusters are the main effectors in the silkworm hemolymph that respond to external stimuli. However, the clusters with the highest numbers of DEGs and enrichment in immune-related host response processes correspond to the clusters that are predominant in control hemocytes (clusters 0, 4, 6, 10, 14, 15 and 19) (see further below).",
+            "cite_spans": [
+                {
+                    "start": 702,
+                    "end": 706,
+                    "text": "(21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 707,
+                    "end": 710,
+                    "text": "22)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 155,
+                    "text": "Figure 1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 379,
+                    "end": 393,
+                    "text": "Figures 1B, C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 507,
+                    "end": 517,
+                    "text": "Figure  1C",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1059,
+                    "end": 1068,
+                    "text": "Figure 1D",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1205,
+                    "end": 1214,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1366,
+                    "end": 1375,
+                    "text": "Figure 1E",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1581,
+                    "end": 1596,
+                    "text": "Figures  1F, G)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Single-Cell Transcriptomics Identifies 20 Distinct Cell Clusters in the Hemolymph Collected From BmNPV-Infected and Control Silkworms"
+        },
+        {
+            "text": "To check that the strategy of combining the hemocytes of the control and BmNPV groups into one set has no effect on the result outcome, the hemocytes of the separate groups of control and BmNPV infection were mapped to the unified set (BmNPV+CK) using cell-specific barcodes. In addition, the hypervariable genes that were identified for cell cluster classification in scRNA-seq were compared between individually a nalyzed groups and the unifi ed set (BmNPV+CK). Figure S1 shows that the agreement between the two clustering approaches is relatively high (Figures S1A, S1B), especially for the cells in the control group ( Figure S1B) . Furthermore, irrespective of whether control and BmNPV infection groups were analyzed separately or as a unified set, most of the hypervariable genes to cluster the hemocytes were the same ( Figure S1C ). These results confirm that the analysis of the unified set of cells from both experimental groups (as used in the remainder of this study) represents a valid approach.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 464,
+                    "end": 473,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 624,
+                    "end": 635,
+                    "text": "Figure S1B)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 829,
+                    "end": 839,
+                    "text": "Figure S1C",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Single-Cell Transcriptomics Identifies 20 Distinct Cell Clusters in the Hemolymph Collected From BmNPV-Infected and Control Silkworms"
+        },
+        {
+            "text": "According to the previously reported silkworm immune-related gene data (including RNAi-related genes) (38, 39), a total of 93 immune-related genes were screened from cluster 0 to 19 and their expression level was presented as a heat map (Figure 2A and File S4). We can observe that most of these immune-related genes were highly expressed in clusters 0, 4, 6, 7, 10, 14 and 15 ( Figure 2A) . It is well established that RNAi is a major antiviral defense mechanism in insects (40) . Besides RNAi, many other innate immune pathways have been proposed to be involved in antiviral defense such as the Imd and Toll pathways, the JAK/ The statistics of genes involved in \"immune system process\" and \"response to stimulus\" GO terms as analyzed in each cluster. (G) The statistics of genes involved in \"Immune system\", \"Infectious diseases\" and \"Signal transduction\" KEGG pathways as analyzed in each cluster. (E) Top 5 DEGs (x axis) identified in each cluster (y axis). Dot size represents the fraction of cells in the cluster that express the gene; intensity indicates the mean expression (Z-score) in expressing cells, relative to other clusters. STAT pathway, autophagy and apoptosis (40) (41) (42) . The dot plot showed that most of the RNAi-related genes were highly expressed in clusters 0, 4, 5, 6, 10, 14, 15, 16 and 19 ( Figure 2B ). However, a relatively low number of innate immune pathway-related genes are differentially expressed in each subgroup ( Figure 2C) . Notably, the antimicrobial peptide (AMP) gene Cecropin A was only detected in cluster 15 and gloverin 2 was highly expressed in several clusters such as cluster 6, 10 and 14 ( Figure 2D ). AMP genes of the Cecropin B family are highly expressed in hemocyte cluster 4 and especially cluster 10 ( Figure 2D ). Caspase-8 (Dredd), a molecular switch for apoptosis, necroptosis and pyroptosis (43) , was found to be highly expressed in most of the cells of several clusters such as clusters 0, 4, 6 and 10 ( Figure 2E ). Caspase-3 encodes a key enzyme playing an essential role in both exogenous and endogenous apoptotic pathways (44) . We found that the silkworm Caspase-3 is only highly expressed in cluster 5 and 16, while expression was restricted to a small number of cells in cluster 12 ( Figure 2E ). Death pathways are major defense mechanisms against baculovirus infection (45) and these data therefore indicate that hemocyte clusters 0, 4, 5, 10, 12, 16 and 17 could use this strategy, although different death pathways may be engaged in different clusters.",
+            "cite_spans": [
+                {
+                    "start": 475,
+                    "end": 479,
+                    "text": "(40)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1180,
+                    "end": 1184,
+                    "text": "(40)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1185,
+                    "end": 1189,
+                    "text": "(41)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1190,
+                    "end": 1194,
+                    "text": "(42)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1857,
+                    "end": 1861,
+                    "text": "(43)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 2094,
+                    "end": 2098,
+                    "text": "(44)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 2346,
+                    "end": 2350,
+                    "text": "(45)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 237,
+                    "end": 247,
+                    "text": "(Figure 2A",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 379,
+                    "end": 389,
+                    "text": "Figure 2A)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1323,
+                    "end": 1332,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1456,
+                    "end": 1466,
+                    "text": "Figure 2C)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1645,
+                    "end": 1654,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1764,
+                    "end": 1773,
+                    "text": "Figure 2D",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1972,
+                    "end": 1981,
+                    "text": "Figure 2E",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 2259,
+                    "end": 2268,
+                    "text": "Figure 2E",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Immune-Related Gene Expression Signatures of Each Cluster"
+        },
+        {
+            "text": "In conclusion, hemocyte clusters 0, 4, 5, 6, 7, 10, 14, 15, 16 and 19 may be involved in the antiviral responses after BmNPV infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Immune-Related Gene Expression Signatures of Each Cluster"
+        },
+        {
+            "text": "We further compared the distribution of each silkworm hemocyte cluster in the BmNPV-infected and the control groups. In the uninfected sample, we detected all previously described cell types from cluster 0 to cluster 19, except cluster 18 ( Figure 3A) , although cell numbers in clusters 1, 2, 3, 9, 11 and 13 were much reduced. Interestingly, hemocyte clusters which may be involved in the antiviral response such as clusters 0, 4, 5, Figure 3B) . Correspondingly, few cells of hemocyte clusters 1, 3, 9, 11, and 13 were detected in the control, while a large number of cells were detected in these clusters in the infection group ( Figures  3A, B) . Comparing the cellular landscapes, we therefore observe that the cells in the BmNPV-infected group and the control group were for a large part distributed in different clusters ( Figure 3C) . After analyzing the proportion of control and infected cells in each cluster, it was found that hemocyte clusters which may be involved in the antiviral response (0, 4, 5, 6, 7, 10, 14, 15, 16 and 19) showed a striking depletion in the BmNPV-infected sample ( Figure 3D ). On the other hand, clusters 1, 2, 3, 9, 11, 13, and 18 are the main components of the silkworm hemocytes in the BmNPV-infected group ( Figure 3D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 241,
+                    "end": 251,
+                    "text": "Figure 3A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 436,
+                    "end": 446,
+                    "text": "Figure 3B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 634,
+                    "end": 649,
+                    "text": "Figures  3A, B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 831,
+                    "end": 841,
+                    "text": "Figure 3C)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1104,
+                    "end": 1113,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1252,
+                    "end": 1261,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Major Impact of BmNPV Infection on Hemocyte Identities and Physiologies"
+        },
+        {
+            "text": "Since the viral mRNA is poly-adenylated, scRNA-seq can capture both viral and host mRNAs within each individual cell ( Figure  1A) . Individual BmNPV-infected cells could therefore be identified following alignment of viral genes with the BmNPV genome. Unexpectedly, viral genes can be detected in every cell of the BmNPV-infected sample (File S5), illustrating widespread and efficient infection of hemocytes by baculovirus in the silkworm. In Figure 4A , the abundance of viral gene expression in individual cells is illustrated (values of the expression abundance of each viral gene are presented in File S5). In most infected cells, high expression of viral genes is observed ( Figure 5A) . The top 20 of highly expressed BmNPV genes in each cell cluster are illustrated in Figure 4B and presented in detail in File S5. The violin plots show that viral early genes (ie-1 and pe38) as well as late genes (vlf-1 and lef-2) and more specifically vp39 (encoding the major capsid protein), gp64/67 (envelope gene) and gp41(an essential gene required for the egress of nucleocapsids from the nucleus) (8) are all highly expressed in most cells of each hemocyte cluster in the BmNPV-infected sample at 3 dpi ( Figure 4C ). When focusing on the distribution of the viral loads (defined as the proportion of viral UMIs in the total UMI content of a given cell) within infected cells of different hemocyte clusters, it was observed that infected cells in most of the clusters (1, 2, 3, 4, 8, 9, 11, 12, 13 and 18) carried a high viral load of at least 20% ( Figure 4D) . Additionally, infected cells within cluster 0, 5, 6, 7, 10, 15 and 19 displayed variability of viral-load, although the vast majority still maintained high viral-load states, except for those in cluster 14 ( Figure 4D ). Together, these data suggested that all hemocytes could be infected by BmNPV and that the majority of infected cells carried a high viral-load at 3 dpi.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 119,
+                    "end": 130,
+                    "text": "Figure  1A)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 445,
+                    "end": 454,
+                    "text": "Figure 4A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 682,
+                    "end": 692,
+                    "text": "Figure 5A)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 778,
+                    "end": 787,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1207,
+                    "end": 1216,
+                    "text": "Figure 4C",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1552,
+                    "end": 1562,
+                    "text": "Figure 4D)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1773,
+                    "end": 1782,
+                    "text": "Figure 4D",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "High Viral Load Is a Characteristic of Major Infected Cell Types"
+        },
+        {
+            "text": "To characterize the host responses against to BmNPV infection, we calculated the differential expression of genes between cell populations of the BmNPV-treated and control samples using Seurat (applied on clusters with more than 3 cells). Compared to the control sample, it was found that most of the host genes were up-regulated after BmNPV infection in hemocyte clusters 0, 5, 6, 7, and 10 ( Figure 5A and File S6 and Figure S2 ). In fact, many up-regulated genes belong to the ribosomal pathway (File S6).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 394,
+                    "end": 403,
+                    "text": "Figure 5A",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 420,
+                    "end": 429,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "DEGs Analysis Between BmNPV-Infected and Control Cells Within Cell Clusters"
+        },
+        {
+            "text": "Evaluation of the landscape of immune/RNAi-related DEGs shows that their expression was mainly inhibited in hemocyte clusters during BmNPV infection ( Figure 5B) . Specifically, DE RNAi-related genes, including the genes encoding Dicer-2 and Argonaute-2, the core factors of the siRNA pathway, are mainly down-regulated in the BmNPV-infected sample ( Figure 5C ). It is worth noting that several DE RNAi-related genes are highly expressed in clusters 14 and 15 after BmNPV infection ( Figure  5C ). Additionally, the DEGs involved in pathogen pattern recognition and innate immune pathways are also inhibited in the BmNPV-infected sample ( Figure 5D ). Thus, we speculate that on the third day after infection with BmNPV, the host's antiviral system in hemocytes is in a suppressed state.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 151,
+                    "end": 161,
+                    "text": "Figure 5B)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 351,
+                    "end": 360,
+                    "text": "Figure 5C",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 485,
+                    "end": 495,
+                    "text": "Figure  5C",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 640,
+                    "end": 649,
+                    "text": "Figure 5D",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "DEGs Analysis Between BmNPV-Infected and Control Cells Within Cell Clusters"
+        },
+        {
+            "text": "Since there are no recognized marker genes for various types of silkworm hemocytes, it was not obvious to classify the identified clusters 0-19 into the specific subgroups described in the literature such as plasmatocytes, granulocytes, spherulocytes and oenocytoids (3). However, we tried to distinguish clusters 0-19 based on the genes that are highly expressed in each subgroup of silkworm hemocytes determined by morphology in the literature. These potential marker genes found in the literature (7, 46, 47) were subjected to the BLAST function of SilkDB 3.0 (27) to obtain the new gene IDs of the database. Specifically, Nakahara et al. (7) determined that serine protease homolog 1(BMSK0013968), bGRP3 (BMSK0006299) and paralytic peptide (BMSK0007609) were expressed only in plasmatocytes and no other hemocyte subset; that tSCR-C (BMSK0015652), CatB (BMSK0010120), HP1 (BMSK0003908) and PGRP (BMSK0004739) were detected in granulocytes; that PPBP1 (BMSK0014159) and PPBP2 (BMSK0013765) were strongly expressed in oenocytoids; and that cathepsin L-like protein (BMSK0005696) can be used as a spherulocyte-specific molecular marker in the silkworm. Moreover, it was reported that integrinaPS3 (BMSK0006871) could be used as a specific marker for silkworm granulocytes (46) . Additionally, in Kui Zhang's doctoral thesis (In Chinese, 2017), it was found that Integrin b3 (BMSK0001792) and BmSCRB8 (BMSK0013677) were strongly expressed in plasmatocytes and granulocytes, respectively. Moreover, the promoter of Integrin b3 can drive EGFP specifically in plasmatocytes but not in other hemocyte types (47) . We explored the expression of the genes mentioned in literature in clusters 0-19 and displayed them in bubble plot ( Figure 6A ). Based on these potential marker genes, we first identified cluster 19 as spherulocytes based on cathepsin L-like protein (BMSK0005696) expression ( Figures 6A, B) . Next, we assigned clusters 14 and 15 as plasmatocytes because of the presence of DEGs serine protease homolog 1(BMSK0013968), paralytic peptide (BMSK0007609), bGRP3 (BMSK0006299) and Integrin b3 (BMSK0001792) (Figures 6A, B) . We further assigned cluster 0, 4, 6, 7, 10 and 17 as granulocytes because the presence of markers such as SCR-C (BMSK0015652), CatB (BMSK0010120), HP1(BMSK0003908), PGRP (BMSK0004739), BmSCRB8 (BMSK0013677) and integrinaPS3 (BMSK0006871) (Figures 6A, B) . Finally, clusters 5, 8, 12 and 16 were identified as oenocytoids because of high expression of PPBP1 (BMSK0014159) and PPBP2 (BMSK0013765) (Figures 6A, B) . Moreover, the Pearson's Correlation analysis between bulk RNA-seq of partially purified granulocytes and plasmatocytes and scRNA-seq showed that clusters 0, 4, 6, 7, 10 and 17 have high correlation with granulocytes and that clusters 14 and 15 likely correspond with plasmatocytes ( Figure 6C ). This result increases the reliability of the assignment of scRNAseq clusters as plasmatocytes and granulocytes in this study.",
+            "cite_spans": [
+                {
+                    "start": 500,
+                    "end": 503,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 504,
+                    "end": 507,
+                    "text": "46,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 508,
+                    "end": 511,
+                    "text": "47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 563,
+                    "end": 567,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 642,
+                    "end": 645,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1273,
+                    "end": 1277,
+                    "text": "(46)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1603,
+                    "end": 1607,
+                    "text": "(47)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1727,
+                    "end": 1736,
+                    "text": "Figure 6A",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1888,
+                    "end": 1902,
+                    "text": "Figures 6A, B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2114,
+                    "end": 2129,
+                    "text": "(Figures 6A, B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2370,
+                    "end": 2385,
+                    "text": "(Figures 6A, B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2527,
+                    "end": 2542,
+                    "text": "(Figures 6A, B)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2828,
+                    "end": 2837,
+                    "text": "Figure 6C",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Identification of Specific Cell Types in the Hemolymph of Silkworm"
+        },
+        {
+            "text": "Granulocytes, plasmatocytes, spherulocytes, and oenocytoids are considered as the four main circulating haemocyte types in Lepidopteran species (4) . In particular, granulocytes and plasmatocytes together usually comprise more than 50% of the hemocytes in circulation at the larval stage (3). In our analysis, an effort was made to assign the different hemocyte clusters in scRNAseq to the four major cell types ( Figure 6 ). However, these four main hemocyte types become strikingly depleted in the hemolymph of BmNPV-infected silkworms ( Figures 3B, D) . Subsequent verification experiments also confirmed that the prohemocytes accounted for the largest proportion of BmNPV-infected silkworms, and hemocytes in control silkworms corresponded for the largest proportion to granulocytes (Figure 7) . It can therefore be speculated that the hemocytes of clusters 1, 2, 3, 9, 11, 13, and 18, that appear mainly in the BmNPV-infected silkworm, could correspond to progenitor cells (prohemocytes) that are released from the hematopoietic organs (48) as a response to hemocyte depletion during BmNPV infection.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 147,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 414,
+                    "end": 422,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 540,
+                    "end": 554,
+                    "text": "Figures 3B, D)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 787,
+                    "end": 797,
+                    "text": "(Figure 7)",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Identification of Specific Cell Types in the Hemolymph of Silkworm"
+        },
+        {
+            "text": "We next sought to investigate the developmental trajectories of different hemocyte clusters in both BmNPV-infected and control samples and for that purpose the pseudo-times were constructed from all single-cell transcriptomics data using Monocle 2 (37). We found that the hemocytes of BmNPV-infected silkworms (the main component is PR) and the hemocytes of normal silkworms (the main components are GR, OE, PL) are obviously in different branches of the pseudo-time differentiation trajectory and present three states of differentiation ( Figures 8A-C) . Prohemocytes are hypothesized to be progenitors that differentiate into one or more of the other hemocyte types (5, 6) . Therefore, prohemocytes are defined as the starting point of the differentiation trajectory, and located in state 1 (Cluster 1, 2, 3, 9, 11, 13, 18) ( Figures 8A, C and Figure S3 ). GR (Cluster 0, 4, 7, 10, 17) and SP (Cluster 19) are mainly located in state 2, and OE (Cluster 5, 12, 16) are predominantly detected in state 3 ( Figure 8C , Figure S3 ). PL (Cluster 14, 15) is principally found at the intersection of the three differentiation trajectories ( Figure 8C , Figure S3 ). Accordingly, we speculate that PR (state 1) can first differentiate into PL after which two diverging paths of differentiation will yield GR and SP (state 2) or OE (state 3). While we present here a model for the differentiation pathway of silkworm hemocytes, it should be considered an open issue that needs further experimental verification. Figure 8D showed the top 10 genes involved in the differentiation trajectory of silkworm hemocytes. These genes might play important role in the differentiation of silkworm hemocytes.",
+            "cite_spans": [
+                {
+                    "start": 668,
+                    "end": 671,
+                    "text": "(5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 672,
+                    "end": 674,
+                    "text": "6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 540,
+                    "end": 553,
+                    "text": "Figures 8A-C)",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 828,
+                    "end": 841,
+                    "text": "Figures 8A, C",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 846,
+                    "end": 855,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1006,
+                    "end": 1015,
+                    "text": "Figure 8C",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1018,
+                    "end": 1027,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1136,
+                    "end": 1145,
+                    "text": "Figure 8C",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1148,
+                    "end": 1157,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1505,
+                    "end": 1514,
+                    "text": "Figure 8D",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Pseudo-Time Trajectories of Silkworm Hemocyte Clusters"
+        },
+        {
+            "text": "Hemocytes, the motile cells that populate the hemolymph in insects, can carry out multiple and diverse functions. Similar to macrophages in vertebrates, differentiated hemocytes play an important role in body homeostasis through tissue repair (e.g. production of extracellular matrix around differentiating tissues) and disposal of cellular waste (e.g. phagocytosis of debris from apoptotic cells) (49) . In addition, hemocytes play a crucial role in both cellular (e.g. phagocytosis of microbial pathogens, encapsulation of large structures such as eggs from parasitoid eggs) and humoral immunity (e.g. production of AMPs in response to activation of immune signaling pathways) (50) .",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 402,
+                    "text": "(49)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 679,
+                    "end": 683,
+                    "text": "(50)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Hemocytes are also involved in the uptake and storage of lipids and nutrients (22) . To understand their diverse functions, a detailed classification of the different types of hemocytes is necessary. With respect to Lepidoptera, morphological and biochemical properties have led to the designation of five major hemocyte cell types (mentioned above) (3, 48) which should be considered only as a very rough approximation for the expected much higher diversity at the molecular level. In Drosophila, only three major hemocyte types are distinguished (plasmatocytes, crystal cells, lamellocytes) that were correlated to the five types in Lepidoptera (3, 48) . However, compared to Lepidoptera, genetic characterization of hemocyte lineages in Drosophila is much more advanced and clear molecular markers for the three different lineages were identified (51, 52) . ScRNA-seq analysis of hemocytes confirmed the three lineages in Drosophila, although a much higher complexity was revealed at the molecular level. More specifically, the broad categories of plasmatocytes, crystal cells and lamellocytes were found to be distributed into 12, 2 and 2 cell clusters, respectively, that are thought to reflect functional diversification within a broad cell type or represent different stages of maturation (21) (22) (23) . Attempts were made to classify hemocytes in Lepidoptera at the molecular level, e.g. through the use of specific antibodies, but their molecular targets were never elucidated (53) . In this work, the technique of scRNA-seq was applied to categorize different hemocyte populations in 5 th instar larvae of the silkworm that were either mock-infected (injection with PBS) or infected with a high dose of BmNPV for a period of three days. Twenty different hemocyte clusters were identified during joint analysis of the scRNA-seq data from both treatments revealing high heterogeneity among the hemocytes that populate the hemolymph in larvae (of note, when scRNA-seq of the two samples were analyzed separately, highly similar results were obtained, reflecting the robustness of the approach that was used -see Supplementary Information) . Strikingly, cell clusters that are prevalent in the BmNPV-infected group (1, 2, 3, 9, 11, 13, and 18) were clearly separated from clusters that were specific for the control group (0, 4, 5, 7, 8, 10, 12, 16, 17 and 19) . Thus, baculovirus infection clearly has a major impact on the hemocyte population after three days of infection. This may be related to the collection of samples from the late stage of infection. To obtain a more complete picture, samples could be taken from the early stage of infection and subjected to the same type of analysis in the future. Because analysis was carried out at the late stage of infection, it can be speculated that hemocytes of clusters 1, 2, 3, 9, 11, 13, and 18 , that appear mainly in the BmNPVinfected silkworms, could correspond to progenitor cells (prohemocytes) that are released from the hematopoietic organs (48) as a response to hemocyte depletion during BmNPV infection.",
+            "cite_spans": [
+                {
+                    "start": 78,
+                    "end": 82,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 350,
+                    "end": 353,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 354,
+                    "end": 357,
+                    "text": "48)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "(3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 651,
+                    "end": 654,
+                    "text": "48)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 850,
+                    "end": 854,
+                    "text": "(51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 855,
+                    "end": 858,
+                    "text": "52)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1296,
+                    "end": 1300,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1301,
+                    "end": 1305,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1306,
+                    "end": 1310,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1488,
+                    "end": 1492,
+                    "text": "(53)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 2223,
+                    "end": 2251,
+                    "text": "(1, 2, 3, 9, 11, 13, and 18)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2334,
+                    "end": 2368,
+                    "text": "4, 5, 7, 8, 10, 12, 16, 17 and 19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 2830,
+                    "end": 2856,
+                    "text": "1, 2, 3, 9, 11, 13, and 18",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2121,
+                    "end": 2147,
+                    "text": "Supplementary Information)",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our analysis and division of hemocytes in different clusters allowed to assign particular \"marker genes\" (top 5 of differentially expressed genes) to each cluster ( Figure 1) . However, the number of differentially expressed genes was much higher in uninfected cells than in infected cells, revealing the impact of baculovirus infection. For the uninfected condition, the \"marker genes\" in the different clusters could give important clues about the functional specialization of the cells that belong to the cluster. However, since there are no recognized marker genes for various types of silkworm hemocytes, we cannot use known marker genes to classify silkworm hemocyte with confidence. Fortunately, some researchers have studied the genes expression in different silkworm hemocytes. Based on the analysis of data in the literature (7, 46, 47) , we have tentatively assigned the different clusters to the particular cell types that were described previously during morphological and cytochemical observations (i.e. prohemocytes, plasmatocytes, granulocytes, oenocytoids, spherulocytes) (Figures 6 and 7) . Additionally, we also verified our classification of BmNPV-infected and control silkworm hemocytes by acridine orange/propidium iodide doublestaining, and found it largely consistent with the classification results of scRNA-seq. However, the results of our study cannot yet be regarded as a conclusive classification of silkworm hemocytes. A major contribution of our study may be the identification of potential sets of marker genes that are enriched in hemocyte clusters but require further validation in functional experiments. In future research, the combination of multiple monoclonal antibodies and morphological features could be used to isolate more defined hemocyte populations by flow sorting and achieve a more accurate and comprehensive classification of silkworm hemocyte types. Baculovirus infections are well known for their virulent character and their large impact on host cellular physiology (54) . During baculovirus infection of tissue culture cells, host mRNAs decrease to less than 10% after 48 hr while total (mainly viral) mRNAs increase by 70% (55) . In the baculovirus expression vector system, host genes that show an increase in expression relate to the stress response to unfolded proteins indicating that the cellular expression capacity is at its limit (56) . However, most studies that monitor the transcriptional response of the host cells to baculovirus infection investigate mainly early responses and are limited to 48 hr post-infection (54) , while in this study, scRNA-seq was applied on hemocyte samples after 3 days of infection. Compared to the control sample, a large number of genes are upregulated after BmNPV infection at 3 days in GR (Cluster 0, 6, 10) and OE (Cluster 5) ( Figure 5A ). Among these upregulated genes, 20, 6, and 24 are known silkworm immunerelated genes that were significantly induced by BmNPV in clusters 5, 6, and 10, respectively (File S6). At the same time, most immune-related genes are inhibited by BmNPV infection, especially in cluster 6 and 10 (File S6). However, it should be noted that the number of cells in these clusters of BmNPVinfected silkworms is very small, which greatly limits the interpretation about the possible function of up-regulated immune-related genes. In addition, we noticed that a certain number of genes in PR cell clusters 1 and 2 were also significantly induced by BmNPV, which mainly encode ribosomal proteins ( Figure 5A, File S6 ). This may be related to the fact that the hypothetical PR cells that are released from the hematopoietic organs have become infected with BmNPV and become reprogrammed to accommodate the synthesis of a large amount of viral protein for virus replication. It is well established that PL and GR are involved in most cellular defense responses (2, 3). These two cell types (PL and GR) were largely decreased after 3 days of BmNPV infection, which will inevitably incapacitate the silkworm's immune system against BmNPV infection.",
+            "cite_spans": [
+                {
+                    "start": 835,
+                    "end": 838,
+                    "text": "(7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 839,
+                    "end": 842,
+                    "text": "46,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 843,
+                    "end": 846,
+                    "text": "47)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2019,
+                    "end": 2023,
+                    "text": "(54)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 2178,
+                    "end": 2182,
+                    "text": "(55)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 2393,
+                    "end": 2397,
+                    "text": "(56)",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 2582,
+                    "end": 2586,
+                    "text": "(54)",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 165,
+                    "end": 174,
+                    "text": "Figure 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1089,
+                    "end": 1106,
+                    "text": "(Figures 6 and 7)",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2829,
+                    "end": 2838,
+                    "text": "Figure 5A",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 3522,
+                    "end": 3540,
+                    "text": "Figure 5A, File S6",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Prohemocytes comprise a multipotent precursor cell population that gives rise to other hemocyte subsets (5) . Previous research has reported that silkworm larval hemocytes consist of two lineages with the capability of differentiating toward either GR or OE (6) . In the present study, pseudo-time trajectories of silkworm hemocyte clusters showed that progression from PR as starting points results in the bifurcation into two branches where OE and GR are located, thus confirming Nakahara et al.'s views on the two lineages of silkworm blood cells (6) . The specific differentiation path of each hemocyte type and the function of differentiation-related genes need to be further studied.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 550,
+                    "end": 553,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Based on the results of this research, we present the following hypothetical timeline of the natural infection process of silkworms by BmNPV: first, BmNPV occlusion bodies are ingested by the silkworm and become dissolved in the midgut, and occlusion derived virions (ODV) are released which then infect midgut epithelial cells ( Figure 9A ). Subsequently, budded viruses (BV) are produced which spread the infection to the entire silkworm including all hemocytes ( Figure 9B ). Viral infection causes severe depletion of the main silkworm hemocyte subgroups including GR, PL, OE and SP ( Figure 9C) . Furthermore, the host RNAi and immune responses in silkworm hemocytes were inhibited by BmNPV infection at the late stage ( Figure 9D) . In order to replenish the lost hemocytes including GR, PL, OE and SP, the host mobilizes a large number of progenitor cells such as prohemocytes into the circulating hemolymph. However, after the virus infects these progenitor cells, it may prevent them from continuing to differentiate into other types of hemocytes. Therefore, the exhaustion of all blood cells is inevitable ( Figure 9E ). Due to the exhaustion of the main hemocyte subsets and the severe suppression of the immune response, the silkworm's antiviral system collapses causing death ( Figure 9F ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 330,
+                    "end": 339,
+                    "text": "Figure 9A",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 466,
+                    "end": 475,
+                    "text": "Figure 9B",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 589,
+                    "end": 599,
+                    "text": "Figure 9C)",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 726,
+                    "end": 736,
+                    "text": "Figure 9D)",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 1118,
+                    "end": 1127,
+                    "text": "Figure 9E",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 1291,
+                    "end": 1300,
+                    "text": "Figure 9F",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, our scRNA-seq study on hemocytes in the silkworm represents a rich resource of data that can be mined for future experiments to address the function of these cells during development and in response to pathogenic infection in Lepidoptera. The \"marker genes\" that were assigned to different clusters need to be confirmed by independent methods such as in situ hybridization and immunocytochemistry with specific antibodies. With respect to the control group, experimental manipulation (injection and wounding) and developmental stage (following the molt) could have made an impact on the composition of hemocytes in the analysis of the scRNAseq data (i.e. biased towards tissue remodeling). Checking hemocyte populations at different developmental stages or after particular experimental interventions (e.g. RNAi, hormones, cytokines) will lead to additional insights. Regarding BmNPV infection, earlier time points or lower doses of virus may provide new insights into the vulnerability of particular hemocyte types and the mounting of an immune response. Our study confirms that the technique of scRNA-seq provides a great advancement for the study of hemocytes as well as other tissue types and will lead to a more complete understanding of biological processes and organ function.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: https://www.ncbi. nlm.nih.gov/, PRJNA658439.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        },
+        {
+            "text": "MF and LS participated in the design of the study, collected and analyzed data and drafted the manuscript. JX, SF, RP, XW, YZ, and PW helped with sample preparation and data analysis. JS participated in the design and coordination of the study, and revised the manuscript. All authors contributed to the article and approved the submitted version.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Immune Priming: The Secret Weapon of the Insect World",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sheehan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Farrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kavanagh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Virulence",
+            "volume": "11",
+            "issn": "1",
+            "pages": "238--284",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/21505594.2020.1731137"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The Insect Cellular Immune Response",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Strand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Insect Sci",
+            "volume": "15",
+            "issn": "1",
+            "pages": "1--14",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1744-7917.2008.00183.x"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Insect Hemocytes and Their Role in Immunity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Lavine",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Strand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Insect Biochem Mol Biol",
+            "volume": "32",
+            "issn": "10",
+            "pages": "1295--309",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0965-1748(02)00092-9"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Insect Haemocytes: What Type of Cell is That?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brehelin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Insect Physiol",
+            "volume": "52",
+            "issn": "5",
+            "pages": "417--446",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinsphys.2006.01.005"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Bombyx Mori Prohemocyte Division and Differentiation in Individual Microcultures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamashita",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Iwabuchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "J Insect Physiol",
+            "volume": "47",
+            "issn": "4-5",
+            "pages": "325--356",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0022-1910(00)00144-x"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Two Hemocyte Lineages Exist in Silkworm Larval Hematopoietic Organ",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nakahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kanamori",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kamimura",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PloS One",
+            "volume": "5",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0011816"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Purification and Characterization of Silkworm Hemocytes by Flow Cytometry",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nakahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ueno",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kanamori",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mita",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kiuchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Dev Comp Immunol",
+            "volume": "33",
+            "issn": "4",
+            "pages": "439--487",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.dci.2008.09.005"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Baculovirus Molecular Biology",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rohrmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "iTRAQ-based Quantitative Proteomics Analysis of Molecular Mechanisms Associated With Bombyx Mori (Lepidoptera) Larval Midgut Response to BmNPV in Susceptible and Near-Isogenic Strains",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Proteomics",
+            "volume": "165",
+            "issn": "",
+            "pages": "35--50",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jprot.2017.06.007"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Quantitative Label-Free Proteomic Analysis Reveals Differentially Expressed Proteins in the Digestive Juice of Resistant Versus Susceptible Silkworm Strains and Their Predicted Impacts on BmNPV Infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Toufeeq",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "You",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Proteomics",
+            "volume": "210",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jprot.2019.103527"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Analysis of lncRNA-mediated Gene Regulatory Network of Bombyx Mori in Response to BmNPV Infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Invert Pathol",
+            "volume": "170",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jip.2020.107323"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Transcriptomic Analysis of Resistant and Susceptible Bombyx Mori Strains Following BmNPV Infection Provides Insights Into the Antiviral Mechanisms",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int J Genomics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2016/2086346"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "The piRNA Response to BmNPV Infection in the Silkworm Fat Body and Midgut",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kolliopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Swevers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Insect Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1744-7917.12796"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Circular RNA Alterations in the Bombyx Mori Midgut Following B. Mori Nucleopolyhedrovirus Infection",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mol Immunol",
+            "volume": "101",
+            "issn": "",
+            "pages": "461--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.molimm.2018.08.008"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Two Waves of Pro-Inflammatory Factors are Released During the Influenza A Virus (IAV)-Driven Pulmonary Immunopathogenesis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PloS Pathog",
+            "volume": "16",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1008334"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Dissection of Influenza Infection In Vivo by Single-Cell Rna Sequencing",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Steuerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peshes-Yaloz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Valadarsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Cohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell Syst",
+            "volume": "6",
+            "issn": "6",
+            "pages": "679--91",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cels.2018.05.008"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Covid-19 Severity Correlates With Airway Epithelium-Immune Cell Interactions Identified by Single-Cell Analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lukassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trump",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hennig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wendisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Biotechnol",
+            "volume": "38",
+            "issn": "8",
+            "pages": "970--979",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41587-020-0602-4"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Single-Cell Sequencing of Peripheral Mononuclear Cells Reveals Distinct Immune Response Landscapes of COVID-19 and Influenza Patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Immunity",
+            "volume": "53",
+            "issn": "3",
+            "pages": "685--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.immuni.2020.07.009"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A Single-Cell Atlas of the Peripheral Immune Response in Patients With Severe COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wilk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rustagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roque",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Martinez-Colon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mckechnie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "7",
+            "pages": "1070--1076",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0944-y"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A Cell Atlas of the Adult Drosophila Midgut",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kirchner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Comjean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "117",
+            "issn": "3",
+            "pages": "1514--1537",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1916820117"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A Single-Cell Survey of Drosophila Blood. eLife",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tattikota",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Barrera",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steinbaugh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7554/eLife.54818"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Temporal Specificity and Heterogeneity of Drosophilaimmune Cells",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cattenoz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sakr",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pavlidaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Delaporte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riba",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Molina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EMBO J",
+            "volume": "39",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/embj.2020104486"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Single-Cell Transcriptome Maps of Myeloid Blood Cell Lineages in Drosophila",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Koranteng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Tattikota",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-020-18135-y"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A Single-Cell Atlas of Adult Drosophila Ovary Identifies Transcriptional Programs and Somatic Cell Lineage Regulating Oogenesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jevitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Otwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PloS Biol",
+            "volume": "18",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pbio.3000538"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "A Single-Cell Atlas of the Developing Drosophila Ovary Identifies Follicle Stem Cell Progenitors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Slaidina",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Banisch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lehmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Genes Dev",
+            "volume": "34",
+            "issn": "3-4",
+            "pages": "239--288",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/gad.330464.119"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A Single-Cell Transcriptome Atlas of the Aging Drosophila Brain",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Davie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Janssens",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koldere",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Waegeneer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pech",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Kreft",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell",
+            "volume": "174",
+            "issn": "4",
+            "pages": "982--98",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2018.05.057"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "SilkDB 3.0: Visualizing and Exploring Multiple Levels of Data for Silkworm",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nucleic Acids Res",
+            "volume": "48",
+            "issn": "D1",
+            "pages": "749--55",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkz919"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Spatial Reconstruction of Single-Cell Gene Expression Data",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Satija",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Farrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gennert",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Regev",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat Biotechnol",
+            "volume": "33",
+            "issn": "5",
+            "pages": "495--502",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nbt.3192"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Fast Interpolation-Based t-SNE for Improved Visualization of Single-Cell RNAseq Data",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Linderman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rachh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hoskins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Steinerberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kluger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat Methods",
+            "volume": "16",
+            "issn": "3",
+            "pages": "243--248",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41592-018-0308-4"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Dimensionality Reduction for Visualizing Single-Cell Data Using UMAP",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Becht",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mcinnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Healy",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dutertre",
+                    "suffix": ""
+                },
+                {
+                    "first": "Iwh",
+                    "middle": [],
+                    "last": "Kwok",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat Biotechnol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nbt.4314"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Data Exploration, Quality Control and Testing in Single-Cell qPCRbased Gene Expression Experiments",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcdavid",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Finak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chattopadyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dominguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lamoreaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioinformatics",
+            "volume": "29",
+            "issn": "4",
+            "pages": "461--468",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/bts714"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Comprehensive Integration of Single-Cell Data",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stuart",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hafemeister",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Papalexi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mauck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell",
+            "volume": "177",
+            "issn": "7",
+            "pages": "1888--902",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2019.05.031"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "MAST: A Flexible Statistical Framework for Assessing Transcriptional Changes and Characterizing Heterogeneity in Single-Cell RNA Sequencing Data",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Finak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcdavid",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Gersuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shalek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Genome Biol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13059-015-0844-5"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "HISAT: A Fast Spliced Aligner With Low Memory Requirements",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Landmead",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat Methods",
+            "volume": "12",
+            "issn": "4",
+            "pages": "357--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nmeth.3317"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Transcript-Level Expression Analysis of RNA-seq Experiments With HISAT, StringTie and Ballgown",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pertea",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pertea",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Leek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat Protoc",
+            "volume": "11",
+            "issn": "9",
+            "pages": "1650--67",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nprot.2016.095"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Classification of Larval Circulating Hemocytes of the Silkworm, Bombyx Mori, by Acridine Orange and Propidium Iodide Staining",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shirai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kanekatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kiguchi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Histochem Cell Biol",
+            "volume": "120",
+            "issn": "6",
+            "pages": "505--516",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00418-003-0592-6"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The Dynamics and Regulators of Cell Fate Decisions are Revealed by Pseudotemporal Ordering of Single Cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Trapnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cacchiarelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grimsby",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pokharel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Morse",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat Biotechnol",
+            "volume": "32",
+            "issn": "4",
+            "pages": "381--387",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nbt.2859"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "A Genome-Wide Analysis of Genes and Gene Families Involved in Innate Immunity of Bombyx Mori",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ishibashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fujita",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nakajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sagisaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tomimoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Insect Biochem Mol Biol",
+            "volume": "38",
+            "issn": "12",
+            "pages": "1087--110",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ibmb"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Transcriptome Analysis of Bombyx Mori Larval Midgut During Persistent and Pathogenic Cytoplasmic Polyhedrosis Virus Infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kolliopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Van Nieuwerburgh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stravopodis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Deforce",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Swevers",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Smagghe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PloS One",
+            "volume": "10",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0121447"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Defense Mechanisms Against Viral Infection in Drosophila: Rnai and non-Rnai",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Swevers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Smagghe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Viruses-Basel",
+            "volume": "10",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v10050230"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Insect Antiviral Innate Immunity: Pathways, Effectors, and Connections",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kingsolver",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hardy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Mol Biol",
+            "volume": "425",
+            "issn": "24",
+            "pages": "4921--4957",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmb.2013.10.006"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The Diversity of Insect Antiviral Immunity: Insights From Viruses",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Marques",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Imler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Curr Opin Microbiol",
+            "volume": "32",
+            "issn": "",
+            "pages": "71--77",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.mib.2016.05.002"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Caspase-8 is the Molecular Switch for Apoptosis, Necroptosis and Pyroptosis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fritsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gunther",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schwarzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Albert",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Schorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Werthenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature",
+            "volume": "575",
+            "issn": "7784",
+            "pages": "683--690",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-019-1770-6"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Cell Death: A Review of the Major Forms of Apoptosis, Necrosis and Autophagy",
+            "authors": [
+                {
+                    "first": "D&apos;arcy",
+                    "middle": [],
+                    "last": "Ms",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cell Biol Int",
+            "volume": "43",
+            "issn": "6",
+            "pages": "582--92",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/cbin.11137"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "The Role of Apoptosis in Defense Against Baculovirus Infection in Insects",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Clem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Curr Top Microbiol",
+            "volume": "289",
+            "issn": "",
+            "pages": "113--142",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/3-540-27320-4_5"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A Novel Granulocyte-Specific Alpha Integrin is Essential for Cellular Immunity in the Silkworm Bombyx Mori",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Insect Physiol",
+            "volume": "71",
+            "issn": "",
+            "pages": "61--68",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinsphys.2014.10.007"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Transgenic Characterization of Two Silkworm Tissue-Specific Promoters in the Haemocyte Plasmatocyte Cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Weng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Insect Mol Biol",
+            "volume": "27",
+            "issn": "2",
+            "pages": "133--175",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/imb.12360"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Hemocytes and Hematopoiesis in the Silkworm",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Beerntsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bombyx Mori. Isj-Invert Surviv J",
+            "volume": "10",
+            "issn": "1",
+            "pages": "102--111",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "One Too Many: The Surprising Heterogeneity of Drosophila Macrophages",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hartenstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EMBO J",
+            "volume": "39",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15252/embj.2020105199"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "An Analysis of the Structural and Functional Similarities of Insect Hemocytes and Mammalian Phagocytes",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Browne",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Heelan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kavanagh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virulence",
+            "volume": "4",
+            "issn": "7",
+            "pages": "597--603",
+            "other_ids": {
+                "DOI": [
+                    "10.4161/viru.25906"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Immunity in Drosophila Melanogaster -From Microbial Recognition to Whole-Organism Physiology",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Buchon",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Silverman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cherry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nat Rev Immunol",
+            "volume": "14",
+            "issn": "12",
+            "pages": "796--810",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri3763"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The Cell-Mediated Immunity of Drosophila Melanogaster: Hemocyte Lineages, Immune Compartments, Microanatomy and Regulation",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Honti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Csordas",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kurucz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Markus",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ando",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Dev Comp Immunol",
+            "volume": "42",
+            "issn": "1",
+            "pages": "47--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.dci.2013.06.005"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Differences Between Larval and Pupal Hemocytes of the Tobacco Hornworm, Manduea Sexta, Determined by Monoclonal Antibodies and Density Centrifugation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Beetz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brinkmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Trenczek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Insect Physiol",
+            "volume": "50",
+            "issn": "9",
+            "pages": "805--824",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jinsphys.2004.06.003"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Genome Scale Transcriptomics of Baculovirus-Insect Interactions",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Viruses-Basel",
+            "volume": "5",
+            "issn": "11",
+            "pages": "2721--2768",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v5112721"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Genome Scale Analysis of Differential mRNA Expression of Helicoverpa Zea Insect Cells Infected With a H. Armigera Baculovirus",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lcl",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Reid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virology",
+            "volume": "444",
+            "issn": "1-2",
+            "pages": "158--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virol.2013.06.004"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Comparative Transcriptome Analysis of a Trichoplusia Ni Cell Line Reveals Distinct Host Responses to Intracellular and Secreted Protein Products Expressed by Recombinant Baculoviruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Koczka",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ernst",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Himmelbauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Nika",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Grabherr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Biotechnol",
+            "volume": "270",
+            "issn": "",
+            "pages": "61--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jbiotec.2018.02.001"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Single-cell profiling of cell populations in silkworm hemolymph. (A) Schematic illustration of the experimental workflow. Twenty larvae for each group were treated with BmNPV or PBS and sacrificed at 72 hours post treatment. Hemolymph of the twenty larvae in each group were pooled as one sample for singlecell sequencing (scRNA-seq) analysis. In each single cell, mRNAs of host and virus were simultaneously measured, allowing comparison of the transcriptome profile in each cell cluster under the infection or control condition. (B) t-Distributed Stochastic Neighbor Embedding (t-SNE) projection representing the 20 clusters of cells identified in the silkworm hemocyte pools (unified set of control and BmNPV infection samples). (C) Number of cells in each cluster and their proportional distribution in the total hemocyte dataset. (D) Number of up-regulated differentially expressed genes(DEGs)in each cluster. (F)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Landscape of expression of RNAi and immune-related genes in silkworm hemocyte clusters. (A) Heatmap showing the normalized expression (Z-score) of all immune-related DEGs in various cells of hemocyte clusters. (B-E) Dot plot representing DEGs belong to \"RNAi\" (B), \"innate immune pathway\" (C), \"antimicrobial peptide genes\" (D) and \"cell death\" (E) categories in hemocyte clusters based on average expression. Color gradient of the dot represents the expression level, while the size represents the percentage of cells expressing any gene per cluster. 6, 7, 10, 14, 15, 16 and 19 are the main components of uninfected silkworm hemocytes (Figure 3A). On the other hand, only a few cells were detected in these hemocyte clusters (0,4, 5, 7, 8,  10, 12, and 19)  in the BmNPV-infected sample (Figure 3B). Clusters 16 and 17 were absent in the BmNPV-infected sample, while only two cells were detected in cluster 12 (",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Hemocyte heterogeneity between BmNPV-infected and mock-infected larvae. (A, B) t-SNE displaying all identified cell types and their cell number in PBS-treated (CK) (A) and BmNPV-infected larvae (B). (C) t-SNE displaying the high heterogeneity in hemocyte clusters between the BmNPV-infected and control groups. (D) The distribution of cells in each cluster between the BmNPV-infected and control groups.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Analysis of viral gene expression and viral load in BmNPV-infected hemocytes. (A) t-SNE displaying the normalized expression (Z-score) of all viral genes in each BmNPV-infected cell. (B) Heatmaps showing the normalized expression (Z-score) of the top 20 of highly expressed BmNPV genes in each cell cluster of the BmNPV-infected group. (C) Expression levels of viral early genes (ie-1 and pe38), late genes (vlf-1 and lef-2) and characteristic viral genes (vp39, gp64 and gp41) in hemocyte clusters. (D) The proportion of cells with different viral load in each cluster. Shown are the percentages of low (light yellow), medium (yellow), and high (brown) viral-load states (y axis) within the population of infected cells in each cluster (x axis).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "DEGs analysis between BmNPV-infected and control cells within cell clusters. Seurat was used for DEGs analysis for clusters with more than 3 cells.(A) Histogram showing all of up-regulated (red) and down-regulated DEGs (green) in BmNPV-infected cells compared to control cells within selected clusters. (B) Heatmap showing the normalized expression (Z-score) of the RNAi and immune-related DEGs in various cells of hemocyte clusters: cells from the BmNPVinfected sample are compared with the control sample. (C, D) Dot plot representing DEGs belonging to \"RNAi\" (C) and \"innate immune pathway\" (D) categories in hemocyte clusters: cells from the BmNPV-infected sample are compared with the control sample. The black gradient represents the expression level, while the size of the dots represents the percentage of cells expressing any gene per cluster. Red dots represent the BmNPV-infected group and green dots represent controls.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Specific cell types in the hemolymph of silkworm larvae. (A) Potential marker genes collected from published literature and their expression in hemocyte clusters 0 to 19. Gene identities of SilkDB3.0 correspond to the following genes in literature: BMSK0013677 (BmSCRB8), BMSK0001792 (Integrin b3), BMSK0006871 (integrinaPS3), BMSK0005696 (cathepsin L-like protein), BMSK0013765 (PPBP2), BMSK0014159 (PPBP1), BMSK0004739 (PGRP), BMSK0003908 (HP1), BMSK0010120 (CatB), BMSK0015652 (SCR-C), BMSK0007609 (paralytic peptide), BMSK0006299 (bGRP3), BMSK0013968 (serine protease homolog 1). The color gradient of the dot represents the expression level and the size reflects the percentage of cells expressing these genes per cluster. (B) UMAP displaying the plasmatocytes (PL), granulocytes (GR), spherulocytes (SP), oenocytoids (OE) and unclassified cells (Other-mainly in BmNPV-infected group).(C) Pearson's Correlation analysis between bulk-RNAseq data from partially purified GR and PL and scRNA-seq data of different cell clusters based on gene expression levels.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Hemocytes classification and quantification. Newly molted fifth-instar silkworm larvae (Dazao strain) were injected with either 10 mL of wild BmNPV BV (10 5.8 TCID 50 /0.1 mL) or phosphate-buffered saline (PBS) (injection control). Three days later, hemocytes were collected and stained with acridine orange and propidium iodide. (A, B) Morphology of normal silkworm hemocytes under bright field (A) and green fluorescence (488nm) (B). (C) Statistics of the proportion of hemocyte subgroups in normal silkworms. (D, E) Morphology of hemocytes of BmNPV BV-infected silkworm under bright field (D) and green fluorescence (488nm) (E). (F) Statistics of the proportion of hemocyte subgroups in BmNPV-infected silkworms. The red arrow, yellow arrow, blue arrow, brown arrow and purple arrow point to prohemocytes (PR), granulocytes (GR), plasmatocytes (PL), oenocytoids (OE) and spherulocytes (SP), respectively. Assays were performed three times. In particular, in the infection group, the BmNPV polyhedron pointed by the green arrow in the bright field (D) is not visible by green fluorescence (E).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Pseudo-time trajectories of silkworm hemocyte clusters. (A) Pseudotime trajectory calculated from all cells in control and BmNPV-infected groups. Prohemocytes are defined as the starting point of the differentiation trajectory. Darker dot colors represent shorter pseudotime and earlier differentiation period. (B) Distribution of cells in different samples in cell trajectories. (C) Distribution of cells in different states of differentiation in cell trajectories. (D) Pseudo-time expression trajectories of branch-dependent top 10 DGEs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Hypothetical timeline of the natural infection process of silkworms by BmNPV. (A) BmNPV occlusion bodies are ingested by the silkworm and become dissolved in the midgut, and occlusion derived virions (ODV) are released which then infect midgut epithelial cells. (B) Budded viruses (BV) are produced which spread the infection to the entire silkworm including all hemocytes. (C) Viral infection causes severe depletion of the main silkworm hemocyte subgroups including Granulocytes (GR), Plasmatocytes (PL), Oenocytoids (OE) and Spherulocytes (SP). (D) The host RNAi and immune responses in silkworm hemocytes were inhibited by BmNPV infection at the late stage. (E)In order to replenish the lost hemocytes including GR, PL, OE and SP, the host mobilizes a large number of progenitor cells such as prohemocytes into the circulating hemolymph. However, after the virus infects these progenitor cells, it may prevent them from continuing to differentiate into other types of hemocytes. Therefore, the exhaustion of all blood cells is inevitable. (F) Due to the exhaustion of the main hemocyte subsets and the severe suppression of the immune response, the silkworm's antiviral system collapses causing death.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Feng et al. Silkworm Hemocyte Subsets Response to BmNPV Frontiers in Immunology | www.frontiersin.org April 2021 | Volume 12 | Article 645359",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Thanks to Prof Hongjuan Cui and Dr. Kui Zhang (Southwest University) for kindly providing the raw data of the bulk RNAseq. Thanks are due to Gene Denovo Corp. for its help in bioinformatics analysis. We also thank Jingjing Ning for her help in project coordination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fimmu.2021. 645359/full#supplementary-material ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPLEMENTARY MATERIAL"
+        }
+    ]
+}

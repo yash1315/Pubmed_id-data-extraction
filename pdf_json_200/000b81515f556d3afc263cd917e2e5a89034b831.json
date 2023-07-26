@@ -1,0 +1,1454 @@
+{
+    "paper_id": "000b81515f556d3afc263cd917e2e5a89034b831",
+    "metadata": {
+        "title": "Risk factors for severity on admission and the disease progression during hospitalization in a large cohort of COVID-19 patients in Japan",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Objectives: To investigate the risk factors contributing to severity on admission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Additionally, risk factors on worst severity and fatality were studied. Moreover, factors were compared based on three points: early severity, worst severity, and fatality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Design: A observational cohort study utilizing data entered in a Japan nationwide COVID-19 inpatient registry, COVIREGI-JP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Setting: As of August 31, 2020, 7,546 cases from 780 facilities have been registered.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Participating facilities cover a wide range of hospitals where COVID-19 patients are admitted in Japan.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Participants who had a positive test result on any applicable SARS-CoV-2 diagnostic tests, and were admitted to participating healthcare facilities. A total of 3,829 cases were identified from January 16 to May 31, 2020, of which 3,376 cases were included in this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Primary and secondary outcoe measures: Primary outcome was severe or non-severe on admission, determined by the requirement of mechanical ventilation or oxygen therapy, SpO2, or respiratory rate. Secondary outcome was the worst severity during hospitalization, judged by the requirement of oxygen and/or IMV/ECMO.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Risk factors for severity on admission were older age, male, cardiovascular disease,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "I, the Submitting Author has the right to grant and does grant on behalf of all authors of the Work (as defined in the below author licence), an exclusive licence and/or a non-exclusive licence for contributions from authors who are: i) UK Crown employees; ii) where BMJ has agreed a CC-BY licence shall apply, and/or iii) in accordance with the terms applicable for US Federal Government officers or employees acting as part of their official duties; on a worldwide, perpetual, irrevocable, royalty-free basis to BMJ Publishing Group Ltd (\"BMJ\") its licensees and where the relevant Journal is co-owned by BMJ to the co-owners of the Journal, to publish the Work in this journal and any other BMJ products and to exploit all rights, as set out in our licence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The Submitting Author accepts and understands that any supply made under these terms is made by BMJ to the Submitting Author unless you are acting as an employee on behalf of your employer or a postgraduate student of an affiliated institution which is paying any applicable article publishing charge (\"APC\") for Open Access articles. Where the Submitting Author wishes to make the Work available on an Open Access basis (and intends to pay the relevant APC), the terms of reuse of such Open Access shall be governed by a Creative Commons licence -details of these licences and which Creative Commons licence will apply to this Work are set out in our licence referred to above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Other than as permitted in any relevant BMJ Author's Self Archiving Policies, I confirm this Work has not been accepted for publication elsewhere, is not being considered for publication elsewhere and does not duplicate material already published. I confirm all authors consent to publication of this Work and authorise the granting of this licence. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y chronic respiratory disease, diabetes, obesity, and hypertension. Cerebrovascular disease, liver disease, renal disease or dialysis, solid tumor, and hyperlipidemia did not influence severity on admission ; however it influenced worst severity. Fatality rates for obesity, hypertension, and hyperlipidemia were relatively lower.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 350,
+                    "end": 575,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 576,
+                    "end": 1084,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1085,
+                    "end": 1649,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Conclusions: This study segregated the comorbidities driving severity and death. It is possible that risk factors for severity on admission, worst severity, and fatality are not consistent and may be propelled by different factors. Specifically, while hypertension, hyperlipidemia, and obesity had major effect on worst severity, their impact was mild on fatality in the Japanese population. Some studies contradict our results; therefore, detailed analyses, considering inhospital treatments, are needed for validation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Trial registration: UMIN000039873. https://upload.umin.ac.jp/cgi-openbin/ctr_e/ctr_view.cgi?recptno=R000045453",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "\uf09f In this article, we studied the disease progression of COVID-19, by comparing the risk factors on three points: early severity, worst severity, and fatality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "\uf09f Our results are useful from a public health perspective, as we provide risk factors for predicting the severity on admission and disease progression from patients' background 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 \uf09f This study pointed out the possibility that risk factors of the severity on admission, worst severity, and fatality are not consistent and may be propelled by different factors.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 177,
+                    "end": 402,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "\uf09f Our data were collected from hundreds of healthcare facilities; thus data accuracy may be questionable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "\uf09f Also, treatment type, dosage, duration, and combination varied immensely across the facilities and we did not consider treatments prior to and during hospitalization in the analysis. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 , caused by severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2), has caused a major global public health crisis. As of October 3, 2020, >34 million people had been infected in over 230 countries 1, 2 . Japan experienced two pandemic waves after the first case reported on January 16, 2020. During the first wave, a state of emergency was declared on April 7, which ended on May 25, settling the first wave. Nearly thrice as many SARS-CoV-2 positive cases were detected in the second wave, which emerged from the end of June 3 . The fatality rate in the second wave has generally been lower in many countries, including Japan 4 .",
+            "cite_spans": [
+                {
+                    "start": 615,
+                    "end": 617,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 618,
+                    "end": 619,
+                    "text": "2",
+                    "ref_id": null
+                },
+                {
+                    "start": 944,
+                    "end": 945,
+                    "text": "3",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 410,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "When the number of patients explodes, hospital beds were in great shortage; hotels were utilized as isolation facilities in many countries [5] [6] [7] . Likewise, in Japan, mild patients were transferred to hotels from April 2020 8 . About two-thirds of cases did not require oxygen support throughout thier illness 9 . However, some cases initiated non-severe may instantly plunge into a serious state and require aggressive care 10 . Therefore, public health centers are in demand for indicators to identify those at a higher risk of aggravation in the early phase and determine the destination-hospital, hotel, or home. Depicting the clinical course-from onset to worst severity and the outcome-is imperative to appropriately allocate patients to healthcare resources. Analyses considering the severity on admission and the disease progression thereafter 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y has not been conducted are of interest to physicians globally.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 142,
+                    "text": "[5]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 143,
+                    "end": 146,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[7]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 858,
+                    "end": 1139,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "We obtained nationwide data from a COVID-19 inpatient registry, \"COVID-19 REGISTRY JAPAN (COVIREGI-JP)\" 11 , and conducted a study to identify the independent risk factors contributing towards severity on admission. We aimed to determine the risk factors on admission, namely demographics and comorbidities. Progression of severity was inspected in detail on different time points. Cases identified within the period of the first pandemic wave were studied.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study"
+        },
+        {
+            "text": "This is an observational cohort study that utilizes the data accumulated in the nationwide \"COVID-19 REGISTRY JAPAN (COVIREGI-JP)\" 11 . As of September 28, 2020, 10,048 cases from 802 facilities have been registered. Participating facitilies covers a wide range of hospitals where COVID-19 patients are admitted in Japan. Enrolled cases satisfied two eligibility criteria: a positive test result for COVID-19 and being admitted to a healthcare facility. Registration started on March 2, 2020, and is ongoing, at present. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 Infection Consortium CRF on COVID-19 12 . Upon modification, we elaborated on data collection, especially on treatments, comorbidities, and symptoms. In addition, as of October 26, 2020, this CRF underwent revisions twice to update therapeutic options or definitions, as new evidence emerges. Study data were collected and managed using Research Electronic Data Capture (REDCap) electronic data capture tools 13, 14 , hosted at the datacenter in National Center for Global Health and Medicine. Data were either recorded on a CRF hard-copy or were entered directly into REDCap at each facility.",
+            "cite_spans": [
+                {
+                    "start": 1156,
+                    "end": 1159,
+                    "text": "13,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1160,
+                    "end": 1162,
+                    "text": "14",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 521,
+                    "end": 746,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Study design and patients"
+        },
+        {
+            "text": "Comorbidities were collected based on Charlson comorbidity index 15,16 with modifications. Some comorbidities were combined as follows: Cardiovascular disease (CVD)-myocardial infarction, congestive heart failure, and peripheral vascular disease; Chronic respiratory disease (CRD)-chronic obstructive pulmonary disease (COPD) and other chronic lung diseases; Renal disease or dialysis-moderate to severe renal disorder (creatinine \u2265 3mg/dL, nephropathy, postrenal transplantation, or on dialysis), and maintenance hemodialysis or peritoneal dialysis before hospitalization; and Solid tumor-solid tumor with or without metastasis. Obesity was 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 642,
+                    "end": 867,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Comorbidities"
+        },
+        {
+            "text": "Steroids, chemotherapy, and immunosuppressants administered prior to hospitalization were collected as pre-hospitalization treatments. Steroids included those equivalent to 20 mg/day prednisolone for \u22651 month and are not considered as immunosuppressants. Chemotherapy and immunosuppressants was applicable if administered 3 months prior to hospitalization. Treatment during hospitalization was studied on systemic steroids, favipiravir, ciclesonide, heparin, and tocilizumab, due to the frequent use in Japan. Heparin use included those given for both prophylactic and treatment purposes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug administration prior to and during hospitalization"
+        },
+        {
+            "text": "We defined the first wave period as January 16 to May 31, 2020 17 , and cases from the first wave was included in this analysis. Therefore, data extraction conditions were: (1) cases admitted to healthcare facilities between January 16 and May 31, 2020, and (2) all CRF items completed on dataset generation. The dataset was generated and fixed on September 2, 2020. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y Definitions of severity",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 648,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Dataset"
+        },
+        {
+            "text": "Severity on admission was converted into bivariate variables: severe and non-severe. Cases met at least one of the following criteria were categorized as severe: (1) requiring invasive or non-invasive mechanical ventilation, (2) requiring supplemental oxygen, (3) SpO 2 \u226494% in room air, or (4) tachypnea with respiratory rate (RR) \u226424 breaths per minute 18 . Those who did not meet the aforementioned were classified as non-severe.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "1) Severity on admission"
+        },
+        {
+            "text": "The worst severity was grouped into three categories: no-oxygen, oxygen, and IMV/ECMO. The worst state during hospitalization was adopted on categorization, and each was defined as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2) Worst severity"
+        },
+        {
+            "text": "No-oxygen-No requirement of supplemental oxygen throughout hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2) Worst severity"
+        },
+        {
+            "text": "Oxygen-Required supplemental oxygen (including high-flow oxygen devices) or non-invasive mechanical ventilation during hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2) Worst severity"
+        },
+        {
+            "text": "IMV/ECMO-Required invasive mechanical ventilation or extracorporeal membrane oxygenation during hospitalization. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   Continuous variables are presented in median and interquartile range (IQR) and categorical variables in number of cases and percentages. We classified the disease progression into three stages: severity on admission, worst severity, and clinical outcomes. We used Mann-Whitney U tests (for two groups) or Kruskal-Wallis tests (for three groups) for continuous variables and chi-squared tests for categorical variables.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 475,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   Continuous variables are presented in median and interquartile range (IQR) and",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "2) Worst severity"
+        },
+        {
+            "text": "We conducted a multivariable logistic regression analysis to identify the factors associated with the patients' severity on admission. We included age, sex, comorbidities (CVD, cerebrovascular disease, CRD, asthma, liver disease, diabetes, obesity diagnosed by physicians, renal disease or dialysis, solid tumors, leukemia, lymphoma, hypertension, and hyperlipidemia), use of systemic steroids in the past month, chemotherapy in the past three months, and use of immunosuppressants other than steroids as independent variables. Multicollinearity was evaluated using the variance inflation factor (VIF). Variables of VIF > 3 were excluded from the model; however, no variables demonstrated obvious multicollinearity. R version3.6.3 (R core team, 2020) 19 was used for all the analyses performed in this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The National Center for Global Health and Medicine ethics board approved this study (referral 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y number NCGM-G-003494-08), and waived the need for informed consent from individual patients owing to the non-invasive, non-interventional nature of this observational study according to the local Ethical Guidelines 20 . Information regarding opting out of our study is available on the website 11 . Although it is not mandatory, the study is also being registered on trial registration website (Unique ID: UMIN000039873, https://upload.umin.ac.jp/cgi-openbin/ctr_e/ctr_view.cgi?recptno=R000045453).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 94,
+                    "end": 375,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Ethics"
+        },
+        {
+            "text": "Within the study period, 3,829 cases were identified and 3,376 cases from 299 facilities were included in this study. Of them, 2,199 cases (65.1%) were non-severe, and 1,181 cases (34.9%) were severe at the time of admission. After categorizing the two groups further into no-oxygen, oxygen, and IMV/ECMO by worst severity, compositions were 1,758 (81.5 %), 357 (16.5%), and 43 (2.0%) for the non-severe group and 190 (16.1%), 677 (57.5%), and 311 (26.4%) for the severe group, respectively. While categorizing the cases, 44 (1.3%) were unavailable due to missing values.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Demographics and clinical characteristics of the study population are shown in Table   1 . Days between onset and admission were similar in both groups (non-severe 6.0 vs severe 7.0 days). Over ten times as many severe cases on admission underwent IMV/ECMO than non- 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   oxygen cases; however, prominent difference was not observed for asthma. Similarly, fatal cases were more severe at admission (84.0% vs 31.1%) and had higher prevalence of oxygen and IMV/ECMO cases (oxygen: 56.4% vs 29.0%, IMV/ECMO: 41.9% vs 8.2%, respectively).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 88,
+                    "text": "Table   1",
+                    "ref_id": null
+                },
+                {
+                    "start": 267,
+                    "end": 492,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 493,
+                    "end": 866,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   oxygen cases; however, prominent difference was not observed for asthma. Similarly, fatal",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Days between onset and admission was longer in non-fatal cases (5-days vs 7-days).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "More non-severe cases with any comorbidity underwent treatment with oxygen or IMV/ECMO compared to non-severe cases with no comorbidities. In figure 1 , only 11.9% underwent oxygen therapy or IMV/ECMO in non-severe cases without any comorbidities.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 150,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF11"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "However, among the non-severe cases with comorbidity, the rates of oxygen or IMV/ECMO were higher in most comorbidities, including CVD (34.7%), CRD (38.9%), liver disease (36.7%), diabetes (35.1%), obesity (35.8%), cerebrovascular disease (34.7%), renal disease (40.9%), solid tumor (27.3%), hypertension (31.2%), and hyperlipidemia (25.0%). Asthma alone followed a different trend; the chances of oxygen and IMV/ECMO requirement was lower.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Among the cases without comorbidity, 75.2% of cases that were severe on admission required oxygen or IMV/ECMO; however, the fatality rate was low, and only 8.0% resulted in death ( Figure 2 ). Fatality rates were approximately 3-5 times higher when the following comorbidities were present: renal disease or dialysis (44%), CVD (40.5%), cerebrovascular disease (39.5%), CRD (30.4%), solid tumor (30.4%), diabetes (25.8%), and liver disease 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n l y (25.6%). Even among non-severe cases, relatively high fatality rate was observed in cases with solid tumor, CRD, cerebrovascular disease, CVD, and renal disease or dialysis, with fatality rates ranging from 8.1% to 11.1%. Collectively, obesity, hypertension, and hyperlipidemia influenced the worst severity; however, their influence on fatality was relatively lower than that mentioned earlier.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 181,
+                    "end": 189,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF12"
+                },
+                {
+                    "start": 440,
+                    "end": 715,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Older age was relevant to both worst severity and fatality, as shown in supplemental figures 1 and 2. The combined proportion of oxygen and IMV/ECMO increased gradually by age from 5.3% in 20s to 69.3% in \u226580s. Conversely, the fatality rate leaped between 60s (2.2%) and 70s (8.6%). Likewise, supplemental figure 3 shows the combined proportion of oxygen and IMV/ECMO and fatality rates as higher in older individuals, irrespective of underlying comorbidities.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 306,
+                    "end": 314,
+                    "text": "figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Predominant comorbid cases required more drug administration than those without comorbidities (Supplementary Table 1 ). Systemic steroids were most frequently used in cases with CRD (27.9%). Heparin was used most often in renal disease (12.8%), hypertension (11.2%), diabetes (10.9%), and CVD (10.4%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 109,
+                    "end": 116,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "We took disease progression into consideration and evaluated the study population 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   based on severity on admission, worst severity, and the outcome. To our knowledge, studies have predominantly reported worst severity, whereas disease progression has not been considered. Our findings, therefore, are novel, augmenting the evidence needed to depict the clinical course and trajectory from onset to worsening condition. Specifically, this study segregated the comorbidities influencing severity and death. Based on our findings, it may be possible that the early severity, worst severity, and death are propelled by different factors, whilst confirmation is necessary by multivariate analysis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 82,
+                    "end": 456,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   based on severity on admission, worst severity, and the outcome. To our knowledge, studies",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The majority of comorbidities we studied did not influence severity on admission. On admission, severity was driven by age, sex, CVD, CRD, diabetes, obesity, and hypertension.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The trend was similar for the worst severity, as cases with these factors had higher rate of oxygen or IMV/ECMO. However, all comorbidities appeared to influence the worst severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Within the comorbidities, the prognosis of cases with obesity, hypertension, or hyperlipidemia was relatively favorable. In contrast to our results, hypertension and obesity are reportedly related to an increased risk of severity and mortality 21-24 . However, a large cohort reported a trend similar to our results 25 . Another study reported that obesity is be confounded by age and sex 26,27 . Obesity was judged by a physician in our study, and the results may change after incorporating BMI. Several other evidences suggest that the association of these comorbidities with poorer outcome of COVID-19 needs further investigation. BMI, on average, 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y is lower in the Asia-Pacific region than in other global regions 28 ; therefore, the degree of obesity may have been milder in our study population. Extreme obesity may worsen the prognosis, and confounders should be addressed in consecutive analyses. On the other hand, the presence of hypertension and the use of angiotensin-converting enzyme (ACE) inhibitors and angiotensin II receptor blockers act contrarily 29-31 , while ACE2 mediates the entry of SARS-CoV-2 into host cells 32,33 , making the COVID-19 pathophysiology in hypertensive patients intricate. Our study suggested that hypertension, hyperlipidemia, and obesity could be less detrimental on fatality.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 651,
+                    "end": 932,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In accordance with previous studies, CVD, CRD, liver disease, diabetes, cerebrovascular disease, renal disease or dialysis, and solid tumor were associated with to fatality and worst severity. Two meta-analyses have reported common risk factors for worst severity during hospitalization, which include, diabetes, COPD, malignancy, CVD, and cerebrovascular disease 34, 35 . Other studies have also reported chronic liver disease and renal disease as risk factors [36] [37] [38] . Studies have elucidated that acute respiratory distress syndrome and coagulation dysfunction are related to the renin-angiotensin-aldosterone system and blood coagulation pathways, which are altered by SARS-CoV-2 host cell invasion via ACE2 39-41 .",
+            "cite_spans": [
+                {
+                    "start": 364,
+                    "end": 367,
+                    "text": "34,",
+                    "ref_id": null
+                },
+                {
+                    "start": 368,
+                    "end": 370,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[36]",
+                    "ref_id": null
+                },
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[37]",
+                    "ref_id": null
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[38]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Clinical and non-clinical studies revealed an association between these comorbidities; while SARS-CoV-2 infection decreases ACE2 expression, ACE2 deficiency is reported to cause cardiac overload and kidney inflammation [41] [42] [43] [44] . Elevated blood glucose is also associated with Different trends were seen in the rates of IMV/ECMO and death for each comorbidity.",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 223,
+                    "text": "[41]",
+                    "ref_id": null
+                },
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[42]",
+                    "ref_id": null
+                },
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[43]",
+                    "ref_id": null
+                },
+                {
+                    "start": 234,
+                    "end": 238,
+                    "text": "[44]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although rates of IMV/ECMO were comparable in all comorbid cases, those with obesity, asthma, hyperlipidemia, and hypertension showed a lower fatality rate, suggesting that the fatality rates within the IMV/ECMO cases with these comorbidities were lower than expected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Contrarily, fatality rates in cases with CVD, cerebrovascular disease, renal dysfunction, tumor, and CRD were comparable or higher than IMV/ECMO rates. The number of death actually exceeded the number of IMV/ECMO cases in patients with tumor, cerebrovascular disease, or CVD. These comorbidities likely have caused a higher risk of death and some even died without intubation. Healthcare nearly overwhelmed in the first wave in Japan but ICU capacity was maintained 46 , and thus intubation may have been unperformed due to a medical judgment. A detailed examination of these issues is necessary in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results did not show prominent difference in fatality between males and females.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Oftentimes, males are considered to develop severe conditions and increased fatality 37,38,47-49 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, according to Global Health 5050, sexual disparity in incidence of COVID-19 is low 50 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Additionally, ACE2 expression is affected by sexual hormones, whereby higher expression is observed in men, possibly explaining the sexual disparity 51-53 . Moreover, the immunological 54 . These studies support the rationale that males are more susceptible to severe COVID-19, which contravene our results.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 187,
+                    "text": "54",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The lower-than-expected fatality rate in our male population may be attributed to comorbidity prevalence, treatments, age, and/or degree of obesity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Fatality rates were comparable between asthmatic and cases without comorbidities in our results. Theoretically, COVID-19 can be a risk for asthmatic patients. A viral respiratory infection is presented as relatively worse and causes asthma exacerbation 55,56 . Asthmatic patients reportedly require a longer duration of mechanical ventilation when intubated 57 ; however, no study, including ours, has found strong evidence on severity or mortality 58-61 . Our results could be useful to roughly identify those at a risk of aggravation or death.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Days from onset to admission was not a risk factor; early hospitalization will not influence the disease progression or outcome, and severity on admission was mostly driven by age and the presence of a few comorbidities. Several studies have created a scoring system to predict the risk of severity or mortality 66-68 . However, these utilize laboratory data collected on admission and are seldom practical for estimating the severity of illness prior to medical visits or when test results are not promptly available. While these are useful to predict prognosis more precisely, our results are useful from a public health perspective, as they provide risk factors for predicting the severity on admission and disease progression from patients' background factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study has several limitations. In some of our analyses, confounders were not eliminated. We did not consider treatments prior to and during hospitalization. As our data were collected from hundreds of healthcare facilities, treatment type, dosage, duration, and combination varied immensely. We plan to deliberate the analytical methodology further to evaluate the outcomes which are prone to be affected by in-hospital treatments. Data were collected from numerous facilities; therefore, accuracy may be questionable. Additionally, hotels were utilized as isolation facilities from April 2020, and participant selection might have altered thereafter. COVIREGI-JP is continuously open for new entry; the number of registrations is increasing, and subsequent results may vary from ours.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "On admission, factors that influence severity were age, sex, and comorbidities, including CVD, CRD, diabetes, obesity, and hypertension. Risk factors for severity on admission, worst severity, and fatality were not consistent, and it is likely that they are each ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "We thank all the participating facilities for their care towards COVID-19 patients and cooperation during data entry. We are especially grateful for the 299 facilities that contributed to the dataset used in this study. All the authors contributed to, read, and approved the final manuscript. The corresponding author attests that all listed authors meet authorship criteria and that no others meeting the criteria have been omitted. SS is the guarantor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "This study was funded by Health and Labor Sciences Research Grant, \"Research for Welfare. The funding agency did not assume any role in this study or COVIREGI-JP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "All authors have completed the ICMJE uniform disclosure form at www.icmje.org/coi_disclosure.pdf and declare: no support from any organisation for the submitted work; H.O. reports personal fees as a statistician and as an external consultant for clinical trials from EPS International, outside the submitted work; no other relationships or activities that could appear to have influenced the submitted work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing Interests"
+        },
+        {
+            "text": "The corresponding author affirms that this manuscript is an honest, accurate, and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transparency Statement"
+        },
+        {
+            "text": "No patient was involved in the setting of research question, outcome measures, or study design, nor were they involved in the recruitment to and conduct of the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and Public Involvement"
+        },
+        {
+            "text": "The study results will be shared with all the healthcare facilities which participated and registered data in COVIREGI-JP. It will also be shared with the public on the website 11 . Present key elements of study design early in the paper 8 thrice as many SARS-CoV-2 positive cases were detected in the second wave, which emerged 106 from the end of June 3 . The fatality rate in the second wave has generally been lower in many 107 countries, including Japan 4 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dissemination to participants and related patients and public communities"
+        },
+        {
+            "text": "When the number of patients explodes, hospital beds were in great shortage; hotels were 109 utilized as isolation facilities in many countries [5] [6] [7] . Likewise, in Japan, mild patients were 110 transferred to hotels from April 2020 8 . About two-thirds of cases did not require oxygen support 111 throughout thier illness 9 . However, some cases initiated non-severe may instantly plunge into a 112 serious state and require aggressive care 10 . Therefore, public health centers are in demand for 113 indicators to identify those at a higher risk of aggravation in the early phase and determine the 114 destination-hospital, hotel, or home. Depicting the clinical course-from onset to worst 115 severity and the outcome-is imperative to appropriately allocate patients to healthcare 116 resources. Analyses considering the severity on admission and the disease progression thereafter We defined the first wave period as January 16 to May 31, 2020 16 , and cases from the first 170 wave was included in this analysis. Therefore, data extraction conditions were: (1) cases 2) Worst severity 182 The worst severity was grouped into three categories: no-oxygen, oxygen, and IMV/ECMO.",
+            "cite_spans": [
+                {
+                    "start": 143,
+                    "end": 146,
+                    "text": "[5]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1095,
+                    "end": 1098,
+                    "text": "182",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "108"
+        },
+        {
+            "text": "The worst state during hospitalization was adopted on categorization, and each was defined as 184 follows: The majority of comorbidities we studied did not influence severity on admission. On 298 admission, severity was driven by age, sex, CVD, CRD, diabetes, obesity, and hypertension.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "183"
+        },
+        {
+            "text": "The trend was similar for the worst severity, as cases with these factors had higher rate of 300 oxygen or IMV/ECMO. However, all comorbidities appeared to influence the worst severity. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 East Asians, respectively. Additionally, ethnic differences other than genetic traits are also 363 anticipated. Vitamin D deficiency is postulated to increase COVID-19 severity, whereas vitamin 364 D deficiency is correlated to Northern latitude 75 . Within the elderly population, higher rates of 365 deficiencies were observed in North America and Europe compared to Japan 76 . Although our 366 study did not examine vitamin D, these facts also allow us to expect lower severity and fatality 367 in Japan.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 186,
+                    "end": 411,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "299"
+        },
+        {
+            "text": "The period of when the COVID-19 occurred, and the situation of pandemic and 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   369 healthcare provision should also be noted when discussing severity and fatality. The longer our 370 struggle against COVID-19 pandemic becomes, the more complicated interpretation be required 371 due to chronological, regional, and viral transition. In the two pandemic waves of COVID-19 in 372 Japan, the patient population altered; median age, rates of comorbidities, and fatality rate had 373 become smaller in the second than the first 77 . Similar trend was observed in other countries 78,79 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 363,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   369",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "368"
+        },
+        {
+            "text": "These differences might be explained, at least partially, by the timing of drug approval for 375 remdesivir (approved in May, 2020) and newly revealed efficacy of dexamethasone against 376 COVID-19 in June. Our dataset includes nationwide data during the first wave, and articles 377 referred elsewhere for comparison included data from a period close to ours.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "374"
+        },
+        {
+            "text": "Our results could be useful to roughly identify those at a risk of aggravation or death.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "378"
+        },
+        {
+            "text": "Days from onset to admission was not a risk factor; early hospitalization will not influence the 380 disease progression or outcome, and severity on admission was mostly driven by age and the 381 presence of a few comorbidities. Several studies have created a scoring system to predict the 382 risk of severity or mortality 80-82 . However, these utilize laboratory data collected on admission 383 and are seldom practical for estimating the severity of illness prior to medical visits or when test 384 results are not promptly available. While these are useful to predict prognosis more precisely, 385 our results are useful from a public health perspective, as they provide risk factors for predicting 386 the severity on admission and disease progression from patients' background factors. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   387 Our study has several limitations. Although the definition of severe and non-severe 388 was adopted from a previous study 17 , such definition is not common as worst severity is used 389 frequently or otherwise point of evaluation is unspecified. Our categorization of worst severity 390 also differs from other definitions 83,84 . We did not adopt radiological criteria as lung infiltration 391 rate was not collected in the registry where our dataset was extracted. Ratio of arterial oxygen 392 saturation (SaO2) or arterial partial oxygen pressure (PaO2) to the fraction of inspired oxygen 393 (FiO2) was not utilized as data was available for limited number of cases. This fact may have 394 caused differences in risk factors. We did not consider treatments prior to and during 395 hospitalization nor did we incorporate laboratory test results in the analysis which may be 396 persisting as confounders. As our data were collected from hundreds of healthcare facilities, 397 treatment type, dosage, duration, and combination varied immensely; laboratory tests also 398 varied as reporting units and standard reference ranges were different across facilities.",
+            "cite_spans": [
+                {
+                    "start": 394,
+                    "end": 397,
+                    "text": "383",
+                    "ref_id": null
+                },
+                {
+                    "start": 599,
+                    "end": 602,
+                    "text": "385",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 793,
+                    "end": 1080,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60   F  o  r  p  e  e  r  r  e  v  i  e  w  o  n  l  y   387",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "379"
+        },
+        {
+            "text": "Treatments may be confounding also in terms of drug approval, as explained elsewhere.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "399"
+        },
+        {
+            "text": "Thorough data verification and analytical deliberation is required before usage of these data; 401 thus, we did not include it in the current analysis. Moreover, hotels were utilized as isolation 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 Dissemination to participants and related patients and public communities 451 The study results will be shared with all the healthcare facilities which participated 452 and registered data in COVIREGI-JP. It will also be shared with the public on the website. 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 ",
+            "cite_spans": [
+                {
+                    "start": 948,
+                    "end": 951,
+                    "text": "451",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 196,
+                    "end": 421,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 422,
+                    "end": 647,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 648,
+                    "end": 873,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1134,
+                    "end": 1359,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1360,
+                    "end": 1585,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1586,
+                    "end": 1811,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1812,
+                    "end": 2037,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 2038,
+                    "end": 2263,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 2264,
+                    "end": 2489,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 2490,
+                    "end": 2715,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 2716,
+                    "end": 2941,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "400"
+        },
+        {
+            "text": "Use of steroid in one month 6 (0) 10 (1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Treatments prior to COVID-19"
+        },
+        {
+            "text": "Immunosuppressants b use in three months 26 (1) 18 (2) 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59 Present key elements of study design early in the paper 8 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 55,
+                    "end": 280,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 281,
+                    "end": 506,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 507,
+                    "end": 732,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 733,
+                    "end": 958,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 959,
+                    "end": 1184,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1185,
+                    "end": 1410,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1411,
+                    "end": 1636,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1637,
+                    "end": 1862,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59",
+                    "ref_id": "TABREF11"
+                },
+                {
+                    "start": 1921,
+                    "end": 2150,
+                    "text": "1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60",
+                    "ref_id": "TABREF11"
+                }
+            ],
+            "section": "(2) 24 (2)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus disease (COVID-19) pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Our World in Data",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Decreased Case Fatality Rate of COVID-19 in the Second Wave: A study in 53 countries or regions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Reference 1. World Health Organization. Coronavirus disease (COVID-19) pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Decreased Case Fatality Rate of COVID-19 in the Second Wave: A study in 53 countries or regions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Telemedicine-enabled Accelerated Discharge of Patients Hospitalized with COVID-19 to Isolation in Repurposed Hotel Rooms",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bruni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lalvani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Richeldi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "202",
+            "issn": "4",
+            "pages": "508--510",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/rccm.202004-1238OE"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Title: Risk factors for severity on admission and the disease progression during hospitalization in a large cohort of COVID-19 patients in Japan Mari Terada (0000-0002-5171-1828), R.Ph., M.P.H. 1,2 , Hiroshi Ohtsu, M.Sc. 2 , Sho Saito, M.D. 1 , Kayoko Hayakawa, M.D., Ph.D. 1,3 , Shinya Tsuzuki, M.D., M.Sc. 3,4 , Yusuke Asai, Ph.D. 3 , Nobuaki Matsunaga, M.D., M.P.H., Ph.D. 3 , Satoshi Kutsuna, M.D., Ph.D. 1 , Wataru Sugiura, M.D., Ph.D. 2 , Norio Ohmagari, M.D., M.Sc., Ph.D. 1,3 1) Department of Infectious Diseases, Disease Control and Prevention Center, National Center for Global Health and Medicine, Tokyo, Japan. 2) Center for Clinical Sciences, National Center for Global Health and Medicine, Tokyo, Japan. 3) AMR Clinical Reference Center, National Center for Global Health and Medicine, Tokyo, Japan. 4) Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium. Center for Clinical Sciences/Disease Control and Prevention Center, National Center for Global Health and Medicine, 1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan. review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "collected in a case report form (CRF) developed for COVIREGI-JP. This CRF includes modified information of the International Severe Acute Respiratory and Emerging",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": ". Although risk factors vary among studies, the comorbidities we identified are highly likely associated with fatality, backed up by clinical and non-clinical results.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Inhaled corticosteroids (ICS) are known to downregulate ACE2 62,63 and are being investigated for treating COVID-19 64 . ICS may have impeded aggravation in asthmatic patients with COVID-19 65 . Overall, further studies are needed to elucidate the true risk of asthma on COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Contributorship statementMT conceived and HO, SS, KH, ST and MT designed the study. ST, YA, SS, KH, and MT analyzed and interpreted the data. MT and ST drafted the first version of the manuscript.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "and implementation of crisis management functions for emerging and reemerging infectious diseases\", provided by the Japanese Ministry of Health, Labour, and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Distribution of the worst severity arranged by severe/non-severe at admission and presence/absence of comorbidities. Top bars represent non-severe cases at admission and bottom bars represent severe cases at admission. Each group of cases was divided based on the presence of comorbidities. Bars represent different categories of worst severity: light gray -no-oxygen, darker gray -oxygen, and darkest gray -IMV/ECMO.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "Distribution of the fatality arranged by severe/non-severe at admission and presence/non-presence of comorbidities Top bars represent non-severe cases at admission and bottom bars represent severe cases at admission. Each group of cases was divided based on the presence of comorbidities. Dark gray represents fatal cases while light gray represents non-fatal cases. Supplementary Figure 1. Distribution of worst severity by age group Supplementary Figure 2. Distribution of fatality by age group",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "setting, locations, and relevant dates, including periods of recruitment, exposure, follow-up, and data collection 8 (a) Give the eligibility criteria, and the sources and methods of selection of participants. Describe methods of followvariable of interest, give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen and why 11 (a) Describe all statistical methods, including those used to control for confounding 12 (b) Describe any methods used to examine subgroups and interactions 12 (c) Explain how missing data were addressed 13 (d) If applicable, explain how loss to follow-up was addressed Statistical methods 12 (e) Describe any sensitivity analyses Results (a) Report numbers of individuals at each stage of study-eg numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, Give characteristics of study participants (eg demographic, clinical, social) and information on exposures and potential confounders 14 (b) Indicate number of participants with missing data for each variable of interest 13 Descriptive data 14* (c) Summarise follow-up time (eg, average and total amount) 10Outcome data 15* Report numbers of outcome events or summary measures over time 14",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "Title: Risk factors for severity on admission and the disease progression during 2 hospitalization in a large cohort of COVID-19 patients in Japan 3 4 Mari Terada (0000-0002-5171-1828), R.Ph., M.P.H. 1,2 , Hiroshi Ohtsu, M.Sc. 2 , Sho Saito, 5 M.D. 1 , Kayoko Hayakawa, M.D., Ph.D. 1,3 , Shinya Tsuzuki, M.D., M.Sc. 3,4 , Yusuke Asai, 6 Ph.D. 3 , Nobuaki Matsunaga, M.D., M.P.H., Ph.D. 3 , Satoshi Kutsuna, M.D., Ph.D. 1 , Wataru 7 Sugiura, M.D., Ph.D. 2 , Norio Ohmagari, M.D., M.Sc., Ph.D. Department of Infectious Diseases, Disease Control and Prevention Center, National Center 10 for Global Health and Medicine, Tokyo, Japan. 11 2) Center for Clinical Sciences, National Center for Global Health and Medicine, Tokyo, Japan. 12 3) AMR Clinical Reference Center, National Center for Global Health and Medicine, Tokyo, 13 Japan. 14 4) Faculty of Medicine and Health Sciences, University of Antwerp, Antwerp, Belgium. Health and Medicine, 1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan. Mari Terada 18 pharmacist",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF15": {
+            "text": "on admission was converted into bivariate variables: severe and non-severe. Cases 177 met at least one of the following criteria were categorized as severe: (1) requiring invasive or 178 non-invasive mechanical ventilation, (2) requiring supplemental oxygen, (3) SpO 2 \u226494% in 179 room air, or (4) tachypnea with respiratory rate (RR) \u226424 breaths per minute 17 . Those who did 180 not meet the aforementioned were classified as non-severe.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "variability in the risk factors may be explained by the differences in study 352 population, definition for comorbidities, and ethnicity. First, the rate of comorbid patients had 353 been lower in our cohort as suggested by extensive cohort studies 19,20,66 . The degree of obesity 354 may also have been milder, as the average BMI is lower in the Asia-Pacific region than in other 355 global regions 67 .Secondly, obesity was judged by a physician in our study, and the results may 356 change if BMI was incorporated. Ethnic differences due to genetic properties are also plausible. 357 Individuals with stronger binding affinities of human leukocyte antigen (HLA) proteins to 358 SARS-CoV-2 virus peptides are less likely become severe or fatal 68-71 , and ethnic differences 359 are present in HLA allele frequency 72 . A few strong binder alleles were more frequent in 360 Northeast Asians; however, the complete picture is complicated. ACE1 polymorphism 73 and 361 Neanderthal haplotype 74 were also suggestive of lower risk of COVID-19 among Asians and 362",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "facilities from April 2020, and participant selection might have altered thereafter. COVIREGI-403JP is continuously open for new entry; the number of registrations is increasing, and subsequent 404 results may vary from ours.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "10.1164/rccm.202007-2902LE. doi:10.1164/rccm.202007-2902LE 7. Ram\u00edrez-Cervantes KL, Romero-Pardo V, P\u00e9rez-Tovar C, Mart\u00ednez-Al\u00e9s G, Quintana-Diaz M. A medicalized hotel as a public health resource for the containment of Covid-19: more than a place for quarantining [published online ahead of print, 2020 Aug 10]. J Public Health (Oxf). 2020;fdaa129. doi:10.1093/pubmed/fdaa129 8. Hayasaki E. Covid-19: how Japan squandered its early jump on the pandemic. BMJ. 2020;369:m1625. Published 2020 Apr 24. doi:10.1136/bmj.m1625 9. Matsunaga N, Hayakawa K, Terada M, et al. Clinical epidemiology of hospitalized patients with COVID-19 in Japan: Report of the COVID-19 REGISTRY JAPAN [published online ahead of print, 2020 Sep 28]. Clin Infect Dis. 2020;ciaa1470. doi:10.1093/cid/ciaa1470 10. Duan J, Wang X, Chi J, et al. Correlation between the variables collected at admission and progression to severe cases during hospitalization among patients with COVID-19 in Chongqing [published online ahead of print, 2020 May 29]. J Med Virol. 2020;10.1002/jmv.26082. doi:10.1002/jmv.26082 11. International Severe Acute Respiratory and Emerging Infection Consortium ISARIC). COVID-19 Clinical Research Resources. https://isaric.tghn.org/covid-19-clinical-researchresources/. Accessed October 3, 2020.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "REDCap)--a metadata-driven methodology and workflow process for providing translational research informatics support. J Biomed Inform. 2009;42(2):377-381. doi:10.1016/j.jbi.2008.08.010 13. Harris PA, Taylor R, Minor BL, et al. The REDCap consortium: Building an international community of software platform partners. J Biomed Inform. 2019;95:103208. doi:10.1016/j.jbi.2019.103208 14. Charlson ME, Pompei P, Ales KL, MacKenzie CR. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation. J Chronic Dis. 1987;40(5):373-383. doi:10.1016/0021-9681(87)90171-8 15. Schneeweiss S, Wang PS, Avorn J, Glynn RJ. Improved comorbidity adjustment for predicting mortality in Medicare populations. Health Serv Res. 2003;38(4):1103-1120. doi:10.1111/1475-6773.00165 16. Ministry of Health, Labour, and Welfare. Fatality and Severity risk factor of COVID-19 (Article in Japanese). https://www.mhlw.go.jp/content/10900000/000662183.pdf. Accessed October 3, 2020. 17. Beigel JH, Tomashek KM, Dodd LE, et al. Remdesivir for the Treatment of Covid-19 -Final Report [published online ahead of print, 2020 Oct 8]. N Engl J Med.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF21": {
+            "text": "Figure Legends",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "Distribution of the worst severity arranged by severe/non-severe at admission and presence/absence of comorbidities. Top bars represent non-severe cases at admission and bottom bars represent severe cases at admission. Each group of cases was divided based on the presence of comorbidities. Bars represent different categories of worst severity: light gray -no-oxygen, darker gray -oxygen, and darkest gray -IMV/ECMO.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "Distribution of the fatality arranged by severe/non-severe at admission and presence/non-presence of comorbidities Top bars represent non-severe cases at admission and bottom bars represent severe cases at admission. Each group of cases was divided based on the presence of comorbidities. Dark gray represents fatal cases while light gray represents non-fatal cases. Supplementary Figure 1. Distribution of worst severity by age group Supplementary Figure 2. Distribution of fatality by age group",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "variable of interest, give sources of data and details of methods of assessment (measurement). Describe comparability of assessment methods if there is more than one how quantitative variables were handled in the analyses. If applicable, describe which groupings were chosen and why 11 (a) Describe all statistical methods, including those used to control for confounding 12 (b) Describe any methods used to examine subgroups and interactions 12 (c) Explain how missing data were addressed 13 (d) If applicable, explain how loss to follow-up was addressed Statistical methods 12 (e) Describe any sensitivity analyses Results (a) Report numbers of individuals at each stage of study-eg numbers potentially eligible, examined for eligibility, confirmed eligible, included in the study, Give characteristics of study participants (eg demographic, clinical, social) and information on exposures and potential confounders 14 (b) Indicate number of participants with missing data for each variable of interest 13 Descriptive data 14* (c) Summarise follow-up time (eg, average and total amount) 10Outcome data 15* Report numbers of outcome events or summary measures over time 14",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Page 1 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Page 10 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Page 11 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Page 12 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Page 13 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Page 14 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "severe cases (2.0% vs 26.4%). Severe cases were older (50.0 vs 67.0), had higher BMI (22.9 vs 24.1), greater male dominance (56.3% vs 70.5%), and a higher prevalence of comorbidities excluding leukemia, compared to the non-severe group. The most prevalent symptoms in both groups were fever (non-severe 49.5%, severe 73.7%), cough (non-severe 53.8%, severe 64.9%), and fatigue (non-severe 40.3%, 59.9%), but was greater in the severe group. Conversely, prevalence of dysgeusia (25.9% vs 13.2%), dysosmia (22.6% vs 11.5%), headache (18.1% vs 14.7%), and runny nose (11.9% vs 8.9%) was higher in the non-severe group.Results of the multivariate logistic regression to determine the risk of severity on admission are shown inTable 2. Older age (OR 1.038 [1.032-1.044]) and male (OR 2.06 [1.69-2.51]) were considered a risk among the demographics and comorbidities included CVD (OR 1.61 [1.07-2.43]), respiratory disease (OR 2.59 [1.63-4.13]), diabetes (OR 1.39 [1.09-1.76]), obesity (OR 1.62 [1.12-2.35]), and hypertension (OR 1.31 [1.03-1.67]). Daysbetween onset to admission were non-significant (p = 0.376); the timing of admission did not affect the severity on admission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF11": {
+            "text": "depicts the study population from a different angle and is categorized by the worst severity (n=3,336) and fatality (n=3,376). Oxygen and IMV/ECMO cases were predominantly severe at admission (65.5% and 87.9%, respectively), whereas most no-oxygen cases come from non-severe group (90.2%). Prevalence of comorbidities was lowest in no-For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "Page 16 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "Page 17 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "Page 18 of 55 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml BMJ Open",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml response to produce antibodies is more favorable in females",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF18": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml propelled by different factors. Our results are practically useful for predicting the progression and preparing for the worst, based on patients' backgrounds. Moreover, based on our predictions, healthcare resources can be allocated to patients in the most suitable way.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF19": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF20": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Data on an individual level is shared with limitation to participating healthcare facilities through applications to COVIREGI-JP 11 .",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF21": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Bruni T, Lalvani A, Richeldi L. Telemedicine-enabled Accelerated Discharge of Patients Hospitalized with COVID-19 to Isolation in Repurposed Hotel Rooms. Am J Respir Crit Fenton ME, Wasko K, Behl V, Froh J, Schmalenberg M. An Expanded COVID-19 Telemedicine Intermediate Care Model Utilizing Repurposed Hotel Rooms [published For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml online ahead of print, 2020 Aug 13]. Am J Respir Crit Care Med. 2020;10.1164/rccm.202007-2902LE. doi:10.1164/rccm.202007-2902LE 7. Ram\u00edrez-Cervantes KL, Romero-Pardo V, P\u00e9rez-Tovar C, Mart\u00ednez-Al\u00e9s G, Quintana-Diaz M. A medicalized hotel as a public health resource for the containment of Covid-19: more than a place for quarantining [published online ahead of print, 2020 Aug 10]. J Public Health (Oxf). 2020;fdaa129. doi:10.1093/pubmed/fdaa129 8. Hayasaki E. Covid-19: how Japan squandered its early jump on the pandemic. BMJ. 2020;369:m1625. Published 2020 Apr 24. doi:10.1136/bmj.m1625 9. Matsunaga N, Hayakawa K, Terada M, et al. Clinical epidemiology of hospitalized patients with COVID-19 in Japan: Report of the COVID-19 REGISTRY JAPAN [published online ahead of print, 2020 Sep 28]. Clin Infect Dis. 2020;ciaa1470. doi:10.1093/cid/ciaa1470 10. Duan J, Wang X, Chi J, et al. Correlation between the variables collected at admission and progression to severe cases during hospitalization among patients with COVID-19 in Chongqing [published online ahead of print, 2020 May 29]. J Med Virol. 2020;10.1002/jmv.26082. doi:10.1002/jmv.26082 11. COVID-19 REGISTRY JAPAN. https://covid-registry.ncgm.go.jp/. Accessed October 3, 2020. 12. International Severe Acute Respiratory and Emerging Infection Consortium ISARIC). For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml COVID-19 Clinical Research Resources. https://isaric.tghn.org/covid-19-clinical-researchresources/. Accessed October 3, 2020. 13. Harris PA, Taylor R, Thielke R, Payne J, Gonzalez N, Conde JG. Research electronic data 14. Harris PA, Taylor R, Minor BL, et al. The REDCap consortium: Building an international community of software platform partners. J Biomed Inform. 2019;95:103208. doi:10.1016/j.jbi.2019.103208 15. Charlson ME, Pompei P, Ales KL, MacKenzie CR. A new method of classifying prognostic comorbidity in longitudinal studies: development and validation. J Chronic Dis. 16. Schneeweiss S, Wang PS, Avorn J, Glynn RJ. Improved comorbidity adjustment for predicting mortality in Medicare populations. Health Serv Res. 2003;38(4):1103-1120. doi:10.1111/1475-6773.00165 17. Ministry of Health, Labour, and Welfare. Fatality and Severity risk factor of COVID-19 (Article in Japanese). https://www.mhlw.go.jp/content/10900000/000662183.pdf. Accessed For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml 18. Beigel JH, Tomashek KM, Dodd LE, et al. Remdesivir for the Treatment of Covid-19 -Final Report [published online ahead of print, 2020 Oct 8]. N Engl J Med. 2020;NEJMoa2007764. doi:10.1056/NEJMoa2007764 19. R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/. 20. Ministry of Education, Culture, Sports, Science and Technology, Ministry of Health, Labour and Welfare. Ethical Guidelines for Medical Research Involving Human Subjects Tartof SY, Qian L, Hong V, Wei R, Nadjafi RF, Fischer H, Li Z, Shaw SF, Caparosa SL, Nau CL, Saxena T, Rieg GK, Ackerson BK, Sharp AL, Skarbinski J, Naik TK, Murali SB. ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor. Cell. activity are 17\u03b2-oestradiol-dependent and sex chromosome-independent. Biol Sex Differ. 61. Ssentongo P, Ssentongo AE, Heilbrunn ES, Ba DM, Chinchilli VM. Association of cardiovascular disease and 10 other pre-existing comorbidities with COVID-19 mortality: A 67. Shang Y, Liu T, Wei Y, et al. Scoring systems for predicting mortality for severe patients with COVID-19. EClinicalMedicine. 2020;24:100426. Published 2020 Jul 3. doi:10.1016/j.eclinm.2020.100426 68. Dong Y, Zhou H, Li M, et al. A novel simple scoring model for predicting severity of patients with SARS-CoV-2 infection [published online ahead of print, 2020 May 29]. Transbound Emerg Dis. 2020;10.1111/tbed.13651. doi:10.1111/tbed.13651 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Table 1. Characteristics of patients included in the present study For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF22": {
+            "text": "Factors associated with being \"severe\" at the time of admission For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF23": {
+            "text": "Characteristics of patients stratified by non-fatal/fatal cases and severity duringFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF24": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtmlSupplementary Figure 3. (a) Worst severity of cases aged <65 and \u226565 with no comorbidities (b) Fatality in cases aged <65 and \u226565 with no comorbidities For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Distribution of the worst severity arranged by severe/non-severe at admission and presence/absence of comorbiditiesFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Distribution of the fatality arranged by severe/non-severe at admission and presence/non-presence of comorbidities For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF25": {
+            "text": "Proportion of therapeutics used for each comorbidity Indicate the study's design with a commonly used term in the title or the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF26": {
+            "text": "Note: An Explanation and Elaboration article discusses each checklist item and gives methodological background and published examples of transparent reporting. The STROBE checklist is best used in conjunction with this article (freely available on the Web sites of PLoS Medicine at http://www.plosmedicine.org/, Annals of Internal Medicine at http://www.annals.org/, and Epidemiology at http://www.epidem.com/). Information on the STROBE Initiative is available at http://www.strobe-statement.org.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF27": {
+            "text": "To investigate the risk factors contributing to severity on admission.62Participating facilities cover a wide range of hospitals where COVID-19 patients are admitted in 80 obesity had major effect on worst severity, their impact was mild on fatality in the Japanese 81 population. Some studies contradict our results; therefore, detailed analyses, considering in-",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF28": {
+            "text": "117has not been conducted are of interest to physicians globally. this CRF underwent revisions twice to update therapeutic options or definitions, as 143 new evidence emerges. Study data were collected and managed using Research Electronic Data Steroids, chemotherapy, and immunosuppressants administered prior to hospitalization were 161 collected as pre-hospitalization treatments. Steroids included those equivalent to 20 mg/day 162 prednisolone for \u22651 month and are not considered as immunosuppressants. Chemotherapy and 163 immunosuppressants was applicable if administered 3 months prior to hospitalization. Treatment during hospitalization was studied on systemic steroids, favipiravir, ciclesonide,165   heparin, and tocilizumab, due to the frequent use in Japan. Heparin use included those given for",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF30": {
+            "text": "196variables and chi-squared tests for categorical variables. We conducted univariate analyses and a multivariable logistic regression analysis to198   identify the factors associated with the patients' severity on admission. We included age, sex, 207 included in the model were chosen based on the previous findings 18-20 , and expert opinions.214   patients owing to the non-invasive, non-interventional nature of this observational study215   according to the local Ethical Guidelines 22 . Information regarding opting out of our study is depicts the study population from a different angle and is categorized by the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF31": {
+            "text": "304trend similar to our results 18 , whereas other studies reported that obesity is being confounded by 305 age and sex 27,28 . The presence of hypertension and the use of angiotensin-converting enzyme 322 Different trends were seen in the rates of IMV/ECMO and death for each comorbidity. Although rates of IMV/ECMO were comparable in all comorbid cases, those with obesity, 327 and CRD were comparable or higher than IMV/ECMO rates. The number of death actually Our results did not show prominent difference in fatality between males and females.340The lower-than-expected fatality rate in our male population may be attributed to comorbidity 341 prevalence, treatments, age, and/or degree of obesity.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF41": {
+            "text": "65. Johnson RM, Vinetz JM. Dexamethasone in the management of covid-19. BMJ. 2020;370:m2648. Published 2020 Jul 3. doi:10.1136/bmj.m2648 66. Perez-Guzman PN, Daunt A, Mukherjee S, et al. Clinical Characteristics and Predictors of Outcomes of Hospitalized Patients With Coronavirus Disease 2019 in a Multiethnic London National Health Service Trust: A Retrospective Cohort Study. Clinical Infectious Diseases. 2020. doi:10.1093/cid/ciaa1091. 67. NCD Risk Factor Collaboration (NCD-RisC). Trends in adult body-mass index in 200 countries from 1975 to 2014: a pooled analysis of 1698 population-based measurement studies with 19\u00b72 million participants [published correction appears in Lancet. 2016 May 68. Amoroso A, Magistroni P, Vespasiano F, et al. HLA and AB0 Polymorphisms May Influence SARS-CoV-2 Infection and COVID-19 Severity. Transplantation. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF42": {
+            "text": "2021;105(1):193-200. doi:10.1097/TP.0000000000003507 69. Novelli A, Andreani M, Biancolella M, et al. HLA allele frequencies and susceptibility to COVID-19 in a group of 99 Italian patients. HLA. 2020;96(5):610-614. doi:10.1111/tan.14047 70. Lorente L, Mart\u00edn MM, Franco A, et al. HLA genetic polymorphisms and prognosis of patients with COVID-19. Polimorfismos gen\u00e9ticos de los HLA y pron\u00f3stico de pacientes con COVID-19. Med Intensiva. 2021;45(2):96-103. doi:10.1016/j.medin.2020.08.004 71. Wang W, Zhang W, Zhang J, He J, Zhu F. Distribution of HLA allele frequencies in 82 Chinese individuals with coronavirus disease-2019 (COVID-19). HLA. 2020;96(2):194-196. doi:10.1111/tan.13941 72. Barquera R, Collen E, Di D, et al. Binding affinities of 438 HLA proteins to complete proteomes of seven pandemic viruses and distributions of strongest and weakest HLA peptide binders in populations worldwide. HLA. 2020;96(3):277-298. doi:10.1111/tan.13956 73. Yamamoto N, Ariumi Y, Nishida N, et al. SARS-CoV-2 infections and COVID-19 mortalities strongly correlate with ACE1 I/D genotype. Gene. 2020;758:144944. doi:10.1016/j.gene.2020.144944 74. Zeberg H, P\u00e4\u00e4bo S. The major genetic risk factor for severe COVID-19 is inherited from For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF43": {
+            "text": "Neanderthals. Nature. 2020;587(7835):610-612. doi:10.1038/s41586-020-2818-3 75. Rhodes JM, Subramanian S, Laird E, Griffin G, Kenny RA. Perspective: Vitamin D deficiency and COVID-19 severity -plausibly linked by latitude, ethnicity, impacts on 76. Palacios C, Gonzalez L. Is vitamin D deficiency a major global public health problem?. J Steroid Biochem Mol Biol. 2014;144 Pt A:138-145. doi:10.1016/j.jsbmb.2013.11.003 77. Saito S, Asai Y, Matsunaga N, et al. First and second COVID-19 waves in Japan: A comparison of disease severity and characteristics. J Infect. 2021;82(4):84-123. doi:10.1016/j.jinf.2020.10.033 78. Ioannidis JPA, Axfors C, Contopoulos-Ioannidis DG. Second versus first wave of COVID-19 deaths: Shifts in age distribution and in nursing home fatalities. Environ Res. 2021;195:110856. doi:10.1016/j.envres.2021.110856 79. Jalali SF, Ghassemzadeh M, Mouodi S, Javanian M, Akbari Kani M, Ghadimi R, Bijani A. Epidemiologic comparison of the first and second waves of coronavirus disease in Babol, North of Iran. Caspian J Intern Med. 2020 Fall;11(Suppl 1):544-550. doi: 10.22088/cjim.11.0.544. PMID: 33425273; PMCID: PMC7780865. 80. Zhao Z, Chen A, Hou W, et al. Prediction model and risk scores of ICU admission and For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF44": {
+            "text": "mortality in COVID-19. PLoS One. 2020;15(7):e0236618. Published 2020 Jul 30. doi:10.1371/journal.pone.0236618 81. Shang Y, Liu T, Wei Y, et al. Scoring systems for predicting mortality for severe patients with COVID-19. EClinicalMedicine. 2020;24:100426. Published 2020 Jul 3. doi:10.1016/j.eclinm.2020.100426 82. Dong Y, Zhou H, Li M, et al. A novel simple scoring model for predicting severity of patients with SARS-CoV-2 infection [published online ahead of print, 2020 May 29]. Transbound Emerg Dis. 2020;10.1111/tbed.13651. doi:10.1111/tbed.13651 83. National Institute of Health. Coronavirus Disease 2019 (COVID-19) Treatment Guidelines. https://www.covid19treatmentguidelines.nih.gov/. Accessed April 8, 2021. 84. Wu Z, McGoogan JM. Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA. 2020;323(13):1239-1242. doi:10.1001/jama.2020.2648For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF45": {
+            "text": "Table 1. Characteristics of patients included in the present studyFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF47": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF48": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF50": {
+            "text": "a. Factors associated with being \"severe\" at the time of admission (univariate For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF51": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF53": {
+            "text": "b. Factors associated with being \"severe\" at the time of admissionFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF54": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF56": {
+            "text": "Characteristics of patients stratified by non-fatal/fatal cases and severity duringFor peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF57": {
+            "text": "For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF58": {
+            "text": "Page 54 of 62For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtmlSupplementary Figure 3. (a) Worst severity of cases aged <65 and \u226565 with no comorbidities (b) Fatality in cases aged <65 and \u226565 with no comorbidities For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Distribution of the worst severity arranged by severe/non-severe at admission and presence/absence of comorbidities. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Distribution of the fatality arranged by severe/non-severe at admission and presence/non-presence of comorbidities For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF59": {
+            "text": "Proportion of therapeutics used for each comorbidity Numbers in brackets represent percentages. Convalescent Plasma therapy was not utilized in Japan at the time of data collection. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF60": {
+            "text": "Page 62 of 62 For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml Give unadjusted estimates and, if applicable, confounder-adjusted estimates and their precision (eg, 95% confidence interval). Make clear which confounders were adjusted for and why they were included 14 (b) Report category boundaries when continuous variables were categorized 14 If relevant, consider translating estimates of relative risk into absolute risk for a meaningful time period Other analyses 17 Report other analyses done-eg analyses of subgroups and interactions, and sensitivity analyses Discussion Key results 18 Summarise key results with reference to study objectives 17 Limitations 19 Discuss limitations of the study, taking into account sources of potential bias or imprecision. Discuss both direction and magnitude of any potential bias Interpretation 20 Give a cautious overall interpretation of results considering objectives, limitations, multiplicity of analyses, results from similar studies, and other relevant evidence 21 Generalisability 21 Discuss the generalisability (external validity) of the study results 21 Give the source of funding and the role of the funders for the present study and, if applicable, for the original study on which the present article is based 22 *Give information separately for exposed and unexposed groups. Note: An Explanation and Elaboration article discusses each checklist item and gives methodological background and published examples of transparent reporting. The STROBE checklist is best used in conjunction with this article (freely available on the Web sites of PLoS Medicine at http://www.plosmedicine.org/, Annals of Internal Medicine at http://www.annals.org/, and Epidemiology at http://www.epidem.com/). Information on the STROBE Initiative is available at http://www.strobe-statement.org. For peer review only -http://bmjopen.bmj.com/site/about/guidelines.xhtml",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

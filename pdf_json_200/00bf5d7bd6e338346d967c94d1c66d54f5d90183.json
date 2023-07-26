@@ -1,0 +1,1764 @@
+{
+    "paper_id": "00bf5d7bd6e338346d967c94d1c66d54f5d90183",
+    "metadata": {
+        "title": "Personalized Medicine The Impact of SARS-CoV-2 Pandemic on the New Cases of T1DM in Children. A Single-Centre Cohort Study",
+        "authors": [
+            {
+                "first": "Anca",
+                "middle": [],
+                "last": "Andreea Boboc",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carmen",
+                "middle": [
+                    "Nicoleta"
+                ],
+                "last": "Novac",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [
+                    "Teodora"
+                ],
+                "last": "Ilie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mara",
+                "middle": [
+                    "Ioana"
+                ],
+                "last": "Ies",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Felicia",
+                "middle": [],
+                "last": "Galos",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mihaela",
+                "middle": [],
+                "last": "B\u0103lgr\u0103dean",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elena",
+                "middle": [
+                    "Camelia"
+                ],
+                "last": "Berghea",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Marcela",
+                "middle": [],
+                "last": "Daniela Ionescu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Citation: Boboc, A.A.; Novac, C.N.; Ilie, M.T.; Ies , anu, M.I.; Galos , , F.; B\u0203lgr\u0203dean, M.; Berghea, E.C.; Ionescu, M.D.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Type 1 diabetes mellitus (T1DM) is a metabolic disease characterized by the autoimmunemediated destruction of the pancreatic \u03b2-cells that leads to a deficit in the production of insulin with various repercussions on the intermediary metabolism. T1DM represents one of the most frequent chronic illnesses in pediatric population and has shown a continuously increasing incidence over the last decades [1] . The most frequent clinical manifestations of T1DM are weight loss, polyuria, and polydipsia; therefore, the rapid recognition of these symptoms plays a key role in making an early diagnosis and thus avoiding the progression towards diabetic ketoacidosis (DKA). DKA is a life-threatening acute complication that can be associated with the onset of T1DM. The incidence of DKA varies widely from one geographic region to another, ranging from 15% to 70% in Europe and North America [2] .",
+            "cite_spans": [
+                {
+                    "start": 400,
+                    "end": 403,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 885,
+                    "end": 888,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The specific etiopathogenetic mechanisms involved in the development of T1DM are not completely understood so far, but they are known to entail a complex interaction between the genome, metabolic processes, immune system characteristics, environmental factors, and microbiome [3] . Among the environmental factors, viral infections have long 2 of 12 been considered triggers of the autoimmune process leading to the development of T1DM. Various mechanisms could explain the role that viral infections play in promoting the onset of T1DM in children. In patients with a predisposing background of genetic and immunological factors, the exposure to certain viruses might accelerate the final processes leading to the onset of the disease [4] .",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 279,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 342,
+                    "end": 349,
+                    "text": "2 of 12",
+                    "ref_id": null
+                },
+                {
+                    "start": 736,
+                    "end": 739,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 is a highly infectious respiratory disease determined by SARS-CoV-2 that spread rapidly across the world, having been declared a pandemic on 11 March 2020. In children, the disease has a milder course, being asymptomatic in many cases and having a mortality rate of 0.18% in patients hospitalized for COVID-19 [5] . In Romania, the first case of SARS-CoV-2 infection was reported on 26 February 2020. On 28 February 2021, the total number of confirmed cases exceeded 800,000 (41.77 per 1 million people, a prevalence that made the country rank 24th in the world by the number of infections). Over 40,000 (5%) of these infections were reported among children [6] .",
+            "cite_spans": [
+                {
+                    "start": 319,
+                    "end": 322,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 667,
+                    "end": 670,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Although extensive evidence has been gathered since the beginning of the COVID-19 pandemic about the complex bidirectional relation between SARS-CoV-2 infection and diabetes, data regarding T1DM specifically remain sparse. A multicentre study reported an 80% increase in new T1DM cases in children, some of these patients having a confirmed history of SARS-CoV-2 infection [7] . Several studies reported a significant increase in the frequency of DKA present at the diagnosis of T1DM, with a higher percentage of the severe form of this metabolic complication [7] [8] [9] [10] [11] [12] . It was hypothesized that an explanation for this phenomenon is the delay in the presentation of these patients caused by the parents' fear of accessing the healthcare system [9, 10] . However, reports from the United Kingdom showed a short duration of symptoms in the majority of children newly diagnosed with T1DM [7] . More information about the complex interactions between T1DM and COVID-19 was gathered due to a study which showed that SARS-CoV-2 is able to infect cultured human pancreatic islets and replicate inside these cells, altering the subcellular morphology and the response to glycemic variations [13] . The pancreatic endocrine cells strongly express the angiotensin converting enzyme 2 (ACE2) receptor, a main binding site for SARS-CoV-2 [14] .",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 376,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 560,
+                    "end": 563,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 564,
+                    "end": 567,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 568,
+                    "end": 571,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 577,
+                    "end": 581,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 582,
+                    "end": 586,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 763,
+                    "end": 766,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 767,
+                    "end": 770,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 904,
+                    "end": 907,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1202,
+                    "end": 1206,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1345,
+                    "end": 1349,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Another possible mechanism that could play a role in the observed increased number of patients with T1DM and other autoimmune disorders during the pandemic could be the decreased vitamin D levels, a possible consequence of strict lockdown measures with people spending significantly less time outside. Vitamin D, due to its immunomodulatory properties, shows multiple beneficial effects in T1DM [15] . This idea is supported by a study reporting that 2000 UI cholecalciferol per day reduced T1DM incidence by 78% [16] . Moreover, the decision of the Finish authorities to fortify dietary milk products with vitamin D had led to a decrease in the number of T1DM cases [16] . From another point of view, the capacity of vitamin D to enhance the immune system might ensure a protective effect from developing severe forms of SARS-CoV-2 infection and reduce the risk of contracting the disease [17] .",
+            "cite_spans": [
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 667,
+                    "end": 671,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 890,
+                    "end": 894,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aims of this study were to assess a possible increase in the number of T1DM new cases in children from Bucharest and the surrounding areas during the COVID-19 pandemic, compared to previous years, to analyze the differences in patient and disease characteristics between the pre-pandemic and pandemic periods and to evaluate predictors (including presentation time) of DKA associated with the onset of the disease and DKA severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We performed an observational retrospective cohort study that included pediatric patients with T1DM from Marie Curie Emergency Children's Hospital, Bucharest. Our institution is a reference centre for pediatric T1DM, all the new cases from Bucharest and the south-east region of Romania (approximately one quarter of the 3,895,000 children in Romania are living here) being managed here. In order to analyze the temporary evolution of newly diagnosed pediatric T1DM cases, we extracted from the electronic hospital registry the numbers of all new T1DM cases diagnosed in patients younger than 18 years old, for each month of 2018, 2019, and 2020. Patients with other types of diabetes were excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Population"
+        },
+        {
+            "text": "In order to further assess patients and disease differences between children diagnosed during (March 2020-February 2021; pandemic group) and before the COVID-19 pandemic (2003-2019; pre-pandemic group), we split the study sample into 2 groups. The pre-pandemic group included patients under 18 years old, diagnosed with T1DM, with extensive follow-up and complete and easily available medical records. The pandemic group included all the children diagnosed with T1DM in the period mentioned before; thus, the follow-up criteria being impossible to apply considering the recent onset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Population"
+        },
+        {
+            "text": "The data were collected from the digital and paper-based medical records of the hospital. For each patient, we gathered the following information: age at the onset of T1DM, gender, living area, glycosylated hemoglobin (HbA1c) levels, pH, and duration of T1DM specific symptomatology. The diagnosis of T1DM was made on the following criteria: fasting plasma glucose levels higher than 126 mg/dL or symptoms of hyperglycemia (polyuria, polydipsia, unexplained weight loss) with a random plasma glucose level \u2265200 mg/dL or 2-h plasma glucose \u2265200 mg/dL during an oral glucose tolerance test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Disease Characteristics"
+        },
+        {
+            "text": "The pH was determined at the time of presentation, and a level lower than 7.3 was defined as DKA. The degree of severity of DKA was classified according to 2018 International Society for Paediatric and Adolescent Diabetes (ISPAD) guidelines: mild DKA (pH < 7.3), moderate DKA (pH < 7.2), severe DKA (pH < 7.1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Disease Characteristics"
+        },
+        {
+            "text": "HbA1c was measured through an immunoturbidimetric method (DCCT standardized: Diabetes Control and Complications Trial and NGSP certificated: National Glycohemoglobin Standardization Program). The normal levels were 4.8-6.4%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Disease Characteristics"
+        },
+        {
+            "text": "Patients and disease characteristics were reported as absolute and relative frequencies for categorical variables, medians, and interquartile ranges (IQR) for non-normally distributed continuous variables and means and standard deviations for normally distributed continuous variables. Tests of normality were conducted with the Kolmogorov-Smirnov and Shapiro-Wilks tests. The variables were reported for the overall study sample, and separately, according to the time of diagnosis (pre-pandemic/pandemic group), according to DKA presence and DKA severity. Differences between the groups were tested using \u03c7 2 statistics for categorical variables, Wilcoxon or Kruskal-Wallis rank sum tests for nonnormally distributed continuous variables, and t-tests or ANOVA for normally distributed continuous variables. The eight cases that presented SARS-CoV-2 infection at the time of T1DM diagnosis were described separately based on multiple variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Logistic regression was performed to determine the effects of patient characteristics and time of presentation (independent variables) on the likelihood of DKA being present at the time of T1DM diagnosis (dependent variable). Proportional odds logistic regression was performed to assess effects on the likelihood of increased DKA severity (3-level ordered variable) for the subset of patients presenting DKA. Univariable and multivariable analyses were conducted for both outcomes. Patients' characteristics were included in multivariable analysis, regardless of their significance in univariable analysis, in order to estimate the independent effect of time of presentation on the outcomes. Furthermore, to address selection bias induced by the selection of patients in the pre-pandemic group, the analyses were repeated on a propensity score-matched dataset. Propensity scores for being diagnosed during or before the pandemic period were estimated with logistic regression, using all baseline measured characteristics. Patients were matched using 1:1 greedy nearest neighbor matching without replacement. The balance of individual characteristics between the pandemic and pre-pandemic groups, before and after matching, was assessed using standardized mean differences (SMD). In the matched dataset, containing patients with similar characteristics, the effects of time of presenta-tion (pre-pandemic or pandemic) on presence of DKA and DKA severity were estimated. Residual differences in observed characteristics between the pre-pandemic and pandemic groups were accounted for by covariate adjustment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Restricted cubic splines were used to test for non-linear relationships between continuous independent variables (age, HbA1c) and the outcomes of interest in the model development phase. The estimated associations were reported as odds ratios (OR) and 95% confidence intervals (95% CI). To assess if the predictive strength of multivariable models was increased by adding time of presentation as a covariate, the proportion of explained outcome variability was calculated using model Nagelkerke's pseudo-R 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "The percentage of missing values for each variable was reported in the descriptive tables and regression analyses were conducted on complete cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "The data were statistically analyzed using ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "In March and April 2020 the number of new T1DM cases was lower than the same period of 2018 and 2019. Between May 2020 and February 2021 the monthly number of new T1DM cases was higher, with a mean of 13.2 cases/month compared to the same period of the last two years with a mean of 9.4 cases/month (p-value = 0.015). The total number of newly diagnosed T1DM increased by 30.08% from 113, between March 2019 and February 2020, to 147 cases reported between March 2020 and February 2021 ( Figure 1 ). pensity scores for being diagnosed during or before the pandemic period were estimated with logistic regression, using all baseline measured characteristics. Patients were matched using 1:1 greedy nearest neighbor matching without replacement. The balance of individual characteristics between the pandemic and pre-pandemic groups, before and after matching, was assessed using standardized mean differences (SMD). In the matched dataset, containing patients with similar characteristics, the effects of time of presentation (pre-pandemic or pandemic) on presence of DKA and DKA severity were estimated. Residual differences in observed characteristics between the pre-pandemic and pandemic groups were accounted for by covariate adjustment.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 488,
+                    "end": 496,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Analysis of Monthly New Type 1 Diabetes Cases"
+        },
+        {
+            "text": "Restricted cubic splines were used to test for non-linear relationships between continuous independent variables (age, HbA1c) and the outcomes of interest in the model development phase. The estimated associations were reported as odds ratios (OR) and 95% confidence intervals (95% CI). To assess if the predictive strength of multivariable models was increased by adding time of presentation as a covariate, the proportion of explained outcome variability was calculated using model Nagelkerke's pseudo-R 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of Monthly New Type 1 Diabetes Cases"
+        },
+        {
+            "text": "The percentage of missing values for each variable was reported in the descriptive tables and regression analyses were conducted on complete cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of Monthly New Type 1 Diabetes Cases"
+        },
+        {
+            "text": "The data were statistically analyzed using Microsoft Excel ( Microsoft Corp. S.R.L, Michigan, USA), GraphPad Prism? (version 6.0; GraphPad Prism Inc., California, USA), (; ), R (R version 4.0.3; R Foundation for Statistical Computing, Vienna, Austria) and R Studio (version 1.1.463; R Studio, Inc., Boston, Massachusetts, USA) considering statistical significance at a two-sided p-value of 0.05. Nearest neighbor matching was performed using the MatchIt package in R.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of Monthly New Type 1 Diabetes Cases"
+        },
+        {
+            "text": "In March and April 2020 the number of new T1DM cases was lower than the same period of 2018 and 2019. Between May 2020 and February 2021 the monthly number of new T1DM cases was higher, with a mean of 13.2 cases/month compared to the same period of the last two years with a mean of 9.4 cases/month (p-value = 0.015). The total number of newly diagnosed T1DM increased by 30.08% from 113, between March 2019 and February 2020, to 147 cases reported between March 2020 and February 2021 ( Figure 1 ). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 488,
+                    "end": 496,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Analysis of Monthly New Type 1 Diabetes Cases"
+        },
+        {
+            "text": "The study included a number of 459 pediatric patients with a mean age at diagnosis of 7.59 years, the age group with the highest percentage of patients being 8-11 years (32.68%). The male/female ratio was 53%/47% (245/214), the background was urban in 352 cases (77%), and rural in 107 (23%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic Analysis"
+        },
+        {
+            "text": "The patients in the pandemic group had a higher median age at the onset of T1DM than those diagnosed during the period 2003-2019 (7.20 [7.07, 7 .30] years vs. 7.00 [3.00, 10 .00] years, p < 0.001). The sex ratio was lower in the pandemic group compared to the prepandemic group (M/F = 1.19 and 1.04, respectively, p = 0.55). The percentage of patients living in an urban area decreased from 83.65% before 2020 to 61.90% during the pandemic (p-value < 0.001). There was no significant difference in the mean duration of T1DM symptoms before presentation between the two groups (25.39 \u00b1 2.23 days vs. 24.52 \u00b1 1.83 days, p = 0.51). In the pandemic group the values of HbA1c were higher than those of the patients from the pre-pandemic group (mean HbA1C 12.47 \u00b1 2.19% vs. 11.32 \u00b1 2.18%, p < 0.001) (Table 1, Figure 2 ). In the pandemic group, one patient was diagnosed with both autoimmune thyroiditis and celiac disease at the time of T1DM diagnosis. of 7.59 years, the age group with the highest percentage of patients being 8-11 years (32.68%). The male/female ratio was 53%/47% (245/214), the background was urban in 352 cases (77%), and rural in 107 (23%).",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 143,
+                    "text": "[7.07, 7",
+                    "ref_id": null
+                },
+                {
+                    "start": 171,
+                    "end": 173,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 804,
+                    "end": 812,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Differences between the Pre-Pandemic and the Pandemic Group of Patients"
+        },
+        {
+            "text": "The patients in the pandemic group had a higher median age at the onset of T1DM than those diagnosed during the period 2003-2019 (7.20 [7.07, 7 .30] years vs. 7.00 [3.00, 10 .00] years, p < 0.001). The sex ratio was lower in the pandemic group compared to the pre-pandemic group (M/F = 1.19 and 1.04, respectively, p = 0.55). The percentage of patients living in an urban area decreased from 83.65% before 2020 to 61.90% during the pandemic (p-value < 0.001). There was no significant difference in the mean duration of T1DM symptoms before presentation between the two groups (25.39 \u00b1 2.23 days vs. 24.52 \u00b1 1.83 days, p = 0.51). In the pandemic group the values of HbA1c were higher than those of the patients from the pre-pandemic group (mean HbA1C 12.47 \u00b1 2.19% vs. 11.32 \u00b1 2.18%, p < 0.001) (Table 1, Figure 2 ). In the pandemic group, one patient was diagnosed with both autoimmune thyroiditis and celiac disease at the time of T1DM diagnosis. Figure 3 ). The proportion of DKA at the onset of the disease increased during the pandemic with 67.40%, from 39.42% in the pre-pandemic group to 65.99% in the pandemic group (OR = 2.98, CI 95% = 1.97-4.49, p < 0.0001). In the pandemic group, a higher percent of DKA cases developed the severe form compared to the pre-pandemic group (42.27% vs. 26.83%, OR = 1.99, CI 95% = 1.13-3.51, p = 0.016). (Table 2, Figure 3 ). ",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 143,
+                    "text": "[7.07, 7",
+                    "ref_id": null
+                },
+                {
+                    "start": 171,
+                    "end": 173,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 805,
+                    "end": 813,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 949,
+                    "end": 957,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1356,
+                    "end": 1364,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Differences between the Pre-Pandemic and the Pandemic Group of Patients"
+        },
+        {
+            "text": "In order to further assess the development of DKA the sample was divided into two groups based on the presence and absence of DKA at the time of diagnosis. The gender distribution and the background distribution did not differ significantly between the two groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "The median age was lower in the group of patients that presented with DKA (7.00 [3.00, 10.00] vs. 8.00 [5.00, 11.00], p = 0.006). Also, in this group HbA1c had a higher mean value (11.96 \u00b1 2.19 vs. 11.45 \u00b1 2.27), and a significantly higher percent of patients were diagnosed during the pandemic (44.1% vs. 20.9%) ( Table 3) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 323,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "In order to further assess the development of DKA the sample was divided into two groups based on the presence and absence of DKA at the time of diagnosis. The gender distribution and the background distribution did not differ significantly between the two groups.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "The median age was lower in the group of patients that presented with DKA (7.00 [3.00, 10.00] vs. 8.00 [5.00, 11.00], p = 0.006). Also, in this group HbA1c had a higher mean value (11.96 \u00b1 2.19 vs. 11.45 \u00b1 2.27), and a significantly higher percent of patients were diagnosed during the pandemic (44.1% vs. 20.9%) ( Table 3) . The group of patients that presented DKA at the time of diagnosis was further divided into three subgroups based on DKA severity. Gender distribution, the median age at diagnosis, background distribution, mean HbA1c, and the time of diagnosis (i.e., prepandemic/pandemic) did not differ significantly between the two groups (Table 4 ). In univariable analysis, a significant association with a higher likelihood of being diagnosed with DKA was found for younger age (OR 0.94 per year increase in age, 95% CI 0.90-0.98), higher levels of HbA1c (OR 1.11 per percent increase in HbA1c, 95% CI 1.02-1.21) and presentation during COVID-19 pandemic (OR 2.98, 95% CI 1.99-4.52 compared to the pre-pandemic period). All three variables remained significantly associated with the likelihood of DKA in multivariable analysis, with the same direction of effects and larger effect estimates: OR 0.87 per year increase in age (95% CI 0.82-0.92), OR 1.17 per percent increase in HbA1c (95% CI 1.06-1.30) and OR 3.23 for presentation during the pandemic, compared to the pre-pandemic period (95% CI 2.06-5.15). Gender and urban/rural background were not significantly associated with the likelihood of being diagnosed with DKA in our sample. Multivariable model Nagelkerke's pseudo-R2 for DKA diagnosis was 8% without time of presentation and 15% with time of presentation (Table 5 ). In sensitivity analysis (n = 439), excluding patients with active SARS-CoV 2 infection at the time of T1DM diagnosis, the effects of the variables remained similar in both magnitude and significance: OR 3.15 for presentation during the pandemic, compared to the pre-pandemic period (95% CI 2.00-5.05) in multivariable analysis. In the subgroup of patients with DKA, the only variable that demonstrated a significant association with increased DKA severity was presentation during the pandemic (OR 1.85 compared to the pre-corona period, 95% CI 1.07-3.23 in multivariable analysis). Multivariable model Nagelkerke's pseudo-R2 for DKA severity was 1% without time of presentation and 4% with time of presentation. (Table 6 ). In sensitivity analysis (n = 212), excluding patients with active SARS-CoV 2 infection at the time of T1DM diagnosis, presentation during the pandemic was similarly the only variable to display a significant effect on increased DKA severity: OR 1.99, compared to the pre-pandemic period (95% CI 1.13-3.51) in multivariable analysis. HbA1c) and outcome were detected. c Nagelkerke's pseudo-R 2 of the multivariable model increased from 0.01 to 0.04 when adding presentation time in the model.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 323,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 650,
+                    "end": 658,
+                    "text": "(Table 4",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 1684,
+                    "end": 1692,
+                    "text": "(Table 5",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 2408,
+                    "end": 2416,
+                    "text": "(Table 6",
+                    "ref_id": "TABREF8"
+                },
+                {
+                    "start": 2753,
+                    "end": 2759,
+                    "text": "HbA1c)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "The cohort of propensity score-matched patients included 294 patients and consisted of all the patients in the pandemic group and their matched \"controls\" from the prepandemic group. The balance of individual characteristics between the groups, before and after matching, is presented in Supplementary Table S1 and Supplementary Figure S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 329,
+                    "end": 338,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "The positive effect of presentation during the pandemic on presence of DKA at the time of T1DM diagnosis was significant in the matched cohort, in both univariable analysis (OR 3.2 compared to the pre-pandemic period, 95% CI 2-5.2, p < 0.001) and multivariable analysis with covariate adjustment (OR 3.4 compared to the pre-pandemic period, 95% CI 2.1-5.6, p < 0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "In the subset of 152 patients with DKA from the matched cohort, presentation during the pandemic was significantly associated with increased DKA severity, in both univariable analysis (OR 2.03 compared to the pre-pandemic period, 95% CI 1.1-3.77, p = 0.024) and multivariable analysis with covariate adjustment (OR 2.03 compared to the pre-pandemic period, 95% CI 1.09-3.82, p = 0.027).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Association of Patient Characteristics with DKA Diagnosis and Severity"
+        },
+        {
+            "text": "Eight of the patients diagnosed with T1DM in 2020 presented SARS-CoV-2 infection at the same time. The diagnosis of COVID was made on the positive results of the RT-PCR for SARS-CoV-2 tests. These patients' ages ranged from 1 year to 17 years, with a mean value of 8.87 and the male/female ratio was 1/1. None of the patients presented any significant past medical history. Regarding the presence of type 1 diabetes or other autoimmune diseases in the family medical history, two patients' mothers were diagnosed with autoimmune thyroiditis and one patient's cousin was diagnosed with T1DM. In half of these cases, the duration of T1DM characteristic symptoms (polyuria, polyphagia, weight loss) was 14 days; in two cases, it was 7 days; one patient had a 60 days history of the specific clinical manifestations, and one other patient presented no symptoms before the diagnosis. Among the eight patients, seven presented DKA which was mild in three cases, moderate in three, and severe in one patient. The HbA1c had a mean value of 12.19%, with a minimum of 10.70% and a maximum of 13.80%. The COVID-19 infection was completely asymptomatic in four of the children, one patient aged 2 presented fever (maximum temperature = 40 \u2022 C), eating refusal, and somnolence, two patients experienced vomiting, and abdominal pain (that could have been determined by SARS-CoV-2 infection, as well as by DKA) and one patient was diagnosed with stomatitis and streptococcal pharyngitis. The presence of inflammation based on an increased level of C reactive protein was detected in five patients, with slightly elevated levels in three patients and a maximum value of 39.98 mg/dL in the patient that presented fever. Vitamin D deficiency was identified in two of the five measurements performed (Table 7 ). ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1781,
+                    "end": 1789,
+                    "text": "(Table 7",
+                    "ref_id": "TABREF9"
+                }
+            ],
+            "section": "SARS-CoV-2 Infection at the Onset of Type 1 Diabetes Mellitus"
+        },
+        {
+            "text": "Given the paucity of available information on the subsiding complex relations between SARS-CoV-2 infection and other illnesses, it is important to explore the possible effects of the pandemic on the incidence, severity, pattern, and evolution of the existing conditions in order to adjust the healthcare response to the present situation and to anticipate what the future may hold. Taking that into consideration, this article assessed the evolution of the number and severity of new T1DM cases during the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Between March 2020 and February 2021 there was an increase of 30.08% in T1DM cases compared to the same period of the previous year (147 vs. 113). This observation is in agreement to another study showing an increase in new T1DM cases in children in 2020 [7] . It is important to mention that the changes in the functioning and organization of the healthcare system as a response to the pandemic could not have contributed significantly to the increase in the number of new cases, because of the fact that the majority of new T1DM cases from the south-east region of Romania were referred to our hospital both before and during the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 258,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, in the first 2 months of the pandemic, the number of new T1DM cases was lower than that reported in the same period of the previous year, the same difference being reported in another study which analyzed the number of children diagnosed with T1DM in Italy in the first 2 months of the pandemic [10] . In those first weeks of the pandemic, in our country a strict lockdown was imposed, with the population being allowed to leave the house only for a few clearly defined reasons like buying food and essential products, going to work in cases where the job was an essential one, and for mandatory medical assistance. Therefore, the lifestyle of children went through significant changes, one consequence being a significantly reduced exposure to common infectious microorganisms. Considering the potential of viral infections to act as triggers for the development of T1DM, the decreased incidence of this category of diseases might be an important cause of the lowered T1DM new cases at the beginning of the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The physiopathological mechanisms that could play a role in the increase of the T1DM cases are yet to be completely understood but important progress in this direction was made by gathering evidence that SARS-CoV-2 is able to infect and replicate in pancreatic \u03b2-cells, leading to impaired function [13] .",
+            "cite_spans": [
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The children included in this study and diagnosed between March 2020 and February 2021 had a higher risk of presenting with DKA, time of presentation being significantly associated with increased likelihood of DKA diagnosis and higher DKA severity when adjusting for known predictors. While younger age, higher levels of HbA1C and presentation during the pandemic were significantly associated with a higher likelihood of being diagnosed with DKA, presentation during the pandemic was the only variable significantly associated with increased DKA severity. Previous studies found that the risk of developing DKA is higher in females, children with migration background, lower socio-economic status, children under 3 years old, early teenage years, patients without any first-degree relatives with T1DM and delayed diagnosis [18] [19] [20] .",
+            "cite_spans": [
+                {
+                    "start": 824,
+                    "end": 828,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 829,
+                    "end": 833,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 834,
+                    "end": 838,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The addition of time of presentation to the multivariable explanatory model resulted in increased predictive performance, as reflected by a 2-fold increase in Nagelkerke's pseudo-R 2 for the DKA diagnosis model and a 4-fold increase for the DKA severity model. However, the absolute proportions of explained variability are relatively low even when including time of presentation, which indicates poor predictability of the outcomes given the variables we have considered. Although the purpose of this analysis is effect estimation rather than prediction, weak [18] predictive performance might indicate that other important predictors of outcome exist, which we did not consider in our analysis. The strong effect we have identified for time of presentation could be confounded by such an important unobserved predictor, and as such our results should be interpreted with caution.",
+            "cite_spans": [
+                {
+                    "start": 561,
+                    "end": 565,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "An increase in DKA frequency and severity has been prior reported in other countries [7] [8] [9] [10] [11] [12] . As DKA is a life-threatening condition that requires complex management, sometimes possible only in an intensive care unit, the increased frequency of this metabolic complication could lead to extensive pressure on an already overwhelmed healthcare system. On the other hand, pointing out that an increase in the incidence of a chronic pediatric disease might be one of the consequences of SARS-CoV-2 exposure might change the paradigm that children are not remarkably affected by the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 88,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 93,
+                    "end": 96,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The duration of symptoms did not differ significantly during the pandemic compared to the previous years, this observation supporting the fact that an early diagnosis was made in these cases and being in contradiction with the hypotheses suggesting that the increase in the DKA frequency is caused by a delay in the diagnosis of T1DM [9, 10] . A multicentre study performed in the United Kingdom also reported a short duration of symptoms in the majority of children [7] .",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 337,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 338,
+                    "end": 341,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 467,
+                    "end": 470,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another interesting observation was that the mean age at diagnosis was higher in the pandemic group. Considering that it has long been recognized that DKA is more frequent in children of younger ages at the onset of T1DM [2] , an increase in DKA frequency would be expected to associate a lower mean age of the patients.",
+            "cite_spans": [
+                {
+                    "start": 221,
+                    "end": 224,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "One limitation of this study is represented by the fact that the pre-pandemic group included only the children that were under observation in our hospital during the evolution of T1DM and not all the cases diagnosed, while the pandemic group included all children diagnosed with T1DM in our hospital during the pandemic. This has been addressed in the effect estimation analysis for presence of DKA and DKA severity by using a propensity score matched cohort, in which every patient diagnosed in the pandemic period was matched to a patient diagnosed in the pre-pandemic period. In the matched cohort, the effect of presentation during the pandemic remained significantly associated with both higher likelihood of DKA at diagnosis and higher DKA severity. Another limitation is that the SARS-CoV-2 specific antibodies were not available for the new cases of T1DM. Additionally, the duration of symptoms might be insufficiently accurate as the information was gathered from the patients' parents or guardians. The main strength of this study, on the other hand, is represented by the large sample used: a relatively high number of patients were included in the analysis. Moreover, all patients included in the study were diagnosed with T1DM in the same hospital and all the blood tests referenced were performed in the same laboratory, which ensures consistency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As explained at the beginning of this paper, it is highly necessary to further investigate the relation between the increase in the number of cases and severity of T1DM cases in children and SARS-CoV-2 infection. More data supporting this link could be gathered by analyzing the presence of SARS-CoV-2 antibodies as evidence of previous infection in children newly diagnosed with T1DM.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Considering the fact that T1DM is one of the most frequent chronic pediatric illnesses and that its main acute complication, DKA is a life-threatening condition, it is important to analyze the repercussions that the new global pandemic might determine. Between March and February 2020, in Bucharest (Romania) and the surrounding areas there was a 30.08% increase in the total number of new T1DM cases in children. The patients that presented during the pandemic had a lower mean age, higher values of HbA1c, and were living more frequently in a rural area compared to the previous years. The number of diabetic ketoacidosis presentations also showed an increase during the pandemic, patients diagnosed after March 2020 having a significantly higher risk of developing DKA, when adjusting for other predictors. Moreover, a higher percentage of children presented a severe form of this metabolic complication. In the subgroup of patients that presented with DKA, the time of diagnosis (i.e., during the pandemic) was the only variable that showed a significant association with increased severity. These findings are supporting the idea that an increase in the incidence and severity of T1DM in children could be one of the consequences of COVID-19 pandemic. The duration of T1DM symptoms did not differ significantly between the pandemic and the pre-pandemic group; therefore, a delay in the presentation is unlikely to have been the main cause of the increased number of DKA presentations. Among the patients with the T1DM onset during the pandemic, 8 of them also presented SARS-CoV2 infection at the time of diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Taking all these results into consideration we believe that further investigations are needed in order to discover other possible particular characteristics of T1DM cases diagnosed during the pandemic. Also, we are taking into consideration that a prospective cohort study including these patients could bring relevant additional data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Supplementary Materials: The following are available online at https://www.mdpi.com/article/10 .3390/jpm11060551/s1, Figure S1 : title, Table S1 : title, Video S1: title.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 117,
+                    "end": 126,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 136,
+                    "end": 144,
+                    "text": "Table S1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Stages of type 1 diabetes in children and adolescents",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Couper",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Haller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Greenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-G",
+                    "middle": [],
+                    "last": "Ziegler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wherrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Knip",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Craig",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ispad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clinical Practice Consensus",
+            "volume": "19",
+            "issn": "",
+            "pages": "20--27",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/pedi.12734"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Practice Consensus Guidelines 2018: Diabetic ketoacidosis and the hyperglycemic hyperosmolar state",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Wolfsdorf",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Glaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Agus",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fritsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hanas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rewers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sperling",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Codner",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Clinical",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Pediatr. Diabetes",
+            "volume": "19",
+            "issn": "",
+            "pages": "155--177",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/pedi.12701"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Type 1 diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dimeglio",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Evans-Molina",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Oram",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Lancet",
+            "volume": "391",
+            "issn": "",
+            "pages": "2449--2462",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(18)31320-5"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Viral Trigger for Type 1 Diabetes: Pros and Cons. Diabetes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Filippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Von Herrath",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "57",
+            "issn": "",
+            "pages": "2863--2871",
+            "other_ids": {
+                "DOI": [
+                    "10.2337/db07-1023"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Pediatric COVID-19: Systematic review of the literature",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Am. J. Otolaryngol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.amjoto.2020.102573"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Date la zi, COVID-19",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "New-Onset Type 1 Diabetes in Children During COVID-19: Multicenter Regional Findings in the U.K. Diabetes Care",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Unsworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oliver",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yeung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kshirsagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Naidu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M W"
+                    ],
+                    "last": "Kwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Logan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "43",
+            "issn": "",
+            "pages": "170--171",
+            "other_ids": {
+                "DOI": [
+                    "10.2337/dc20-1551"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Ketoacidosis in Children and Adolescents With Newly Diagnosed Type 1 Diabetes During the COVID-19 Pandemic in Germany",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kamrath",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f6nkem\u00f6ller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Biester",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rohrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Warncke",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hammersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Holl",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.13445"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Increased paediatric presentations of severe diabetic ketoacidosis in an Australian tertiary centre during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Seckold",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Smart",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Howley",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Feltrin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Diabet. Med",
+            "volume": "38",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/dme.14417"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Has COVID-19 Delayed the Diagnosis and Worsened the Presentation of Type 1 Diabetes in Children? Diabetes Care",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rabbone",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schiaffini",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cherubini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maffeis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scaramuzza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "43",
+            "issn": "",
+            "pages": "2870--2872",
+            "other_ids": {
+                "DOI": [
+                    "10.2337/dc20-1321"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Paediatric critical care referrals of children with diabetic ketoacidosis during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Basatemur",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ramnarayan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Arch. Dis. Child",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/archdischild-2020-320471"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Increased frequency of severe diabetic ketoacidosis at type 1 diabetes onset among children during COVID-19 pandemic lockdown: An observational cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "D\u017cyga\u0142o",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nowaczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Szwilling",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kowalska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatr. Endocrinol. Diabetes Metab",
+            "volume": "26",
+            "issn": "",
+            "pages": "167--175",
+            "other_ids": {
+                "DOI": [
+                    "10.5114/pedm.2020.101003"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 infects and replicates in cells of the human endocrine and exocrine pancreas",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gro\u00df",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Conzelmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Merle",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Steinhart",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Weil",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Koepke",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bozzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Read",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Metab",
+            "volume": "2021",
+            "issn": "",
+            "pages": "149--165",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s42255-021-00347-1"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Binding of SARS coronavirus to its receptor damages islets and causes acute diabetes",
+            "authors": [
+                {
+                    "first": "J.-K",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-S",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-J",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "L.-M",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Acta Diabetol",
+            "volume": "47",
+            "issn": "",
+            "pages": "193--199",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00592-009-0109-4"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Glycemic changes after vitamin D supplementation in patients with type 1 diabetes mellitus and vitamin D deficiency",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Aljabri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bokhari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann. Saudi Med",
+            "volume": "30",
+            "issn": "",
+            "pages": "454--458",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/0256-4947.72265"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The Big Vitamin D Mistake",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Papadimitriou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Prev. Med. Public Heal",
+            "volume": "50",
+            "issn": "",
+            "pages": "278--281",
+            "other_ids": {
+                "DOI": [
+                    "10.3961/jpmph.16.111"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Association between population vitamin D status and SARS-CoV-2 related serious-critical illness and deaths: An ecological integrative approach",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Papadimitriou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Vassaras",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Holick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "World J. Virol",
+            "volume": "10",
+            "issn": "",
+            "pages": "111--129",
+            "other_ids": {
+                "DOI": [
+                    "10.5501/wjv.v10.i3.111"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Predictors of diabetic ketoacidosis in children and adolescents with type 1 diabetes. Experience from a large multicentre database",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fritsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rosenbauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Schober",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Neu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Placzek",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Holl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Pediatr. Diabetes",
+            "volume": "12",
+            "issn": "",
+            "pages": "307--312",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1399-5448.2010.00728.x"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Diabetic ketoacidosis in children newly diagnosed with type 1 diabetes mellitus: Role of demographic, clinical, and biochemical features along with genetic and immunological markers as risk factors. A 20-year experience in a tertiary Belgian center",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vicinanza",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Messaaoui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tenoutasse",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dorchy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pediatr. Diabetes",
+            "volume": "20",
+            "issn": "",
+            "pages": "584--593",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/pedi.12864"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Diabetic ketoacidosis in children and adolescents",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Raghupathy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Indian J. Endocrinol. Metab",
+            "volume": "19",
+            "issn": "",
+            "pages": "55--57",
+            "other_ids": {
+                "DOI": [
+                    "10.4103/2230-8210.155403"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Microsoft Excel (Microsoft Corp. S.R.L, MI, USA), GraphPad Prism? (version 6.0; GraphPad Prism Inc., CA, USA), R (R version 4.0.3; R Foundation for Statistical Computing, Vienna, Austria) and R Studio (version 1.1.463; R Studio, Inc., Boston, MA, USA) considering statistical significance at a two-sided p-value of 0.05. Nearest neighbor matching was performed using the MatchIt package in R.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The number of new T1DM cases per month for the periods March 2018-February 2019, March 2019-February 2020 and March 2020-February 2021.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Comparison between the pre-pandemic (pre-PG) and pandemic group(PG) of patients based on several parameters. (A) Age of onset; (B) Symptoms duration; (C) HbA1c.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "DKA presence and severity in the pre-pandemic group of patients (pre-PG) and the pandemic group (PG).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "DKA presence and severity in the pre-pandemic group of patients (pre-PG) and the pandemic group (PG).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characteristics of the study sample according to the time of diagnosis. a p values correspond to \u03c7 2 statistics for categorical variables, Wilcoxon rank sum tests for non-normally distributed continuous variables (age, pH) and t-tests for normally distributed continuous variables (HbA1c), comparing the two subgroups. The p value assesses compatibility with the null hypothesis of no differences between subgroups.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Characteristics of the study sample according to the time of diagnosis.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "The proportion of DKA at the onset of the disease increased during the pandemic with 67.40%, from 39.42% in the pre-pandemic group to 65.99% in the pandemic group (OR = 2.98, CI 95% = 1.97-4.49, p < 0.0001). In the pandemic group, a higher percent of DKA cases developed the severe form compared to the pre-pandemic group (42.27% vs. 26.83%, OR = 1.99, CI 95% = 1.13-3.51, p = 0.016).(Table 2,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "DKA presence and severity at the time of diagnosis in the pre-pandemic and pandemic group.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "DKA presence and severity at the time of diagnosis in the pre-pandemic and pandemic group.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Characteristics of the study sample, overall and according to DKA diagnosis.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Characteristics of the DKA subset, according to DKA severity.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Logistic regression of variables associated with DKA diagnosis.Outcome: Positive DKA Diagnosis OR > 1 Mean Higher Likelihood of Outcome",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Proportional odds logistic regression of variables associated with increased DKA severity.Outcome: Higher DKA Severity Class OR > 1 Mean Higher Likelihood of Outcome",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Characteristics of the patients presenting SARS-CoV-2 inffection at the time of diagnosis of T1DM.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

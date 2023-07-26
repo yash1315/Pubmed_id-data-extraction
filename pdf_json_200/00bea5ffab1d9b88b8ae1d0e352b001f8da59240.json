@@ -1,0 +1,540 @@
+{
+    "paper_id": "00bea5ffab1d9b88b8ae1d0e352b001f8da59240",
+    "metadata": {
+        "title": "The VITOM\u00ae exoscope in oculoplastic surgery: the 5 year Coventry experience",
+        "authors": [
+            {
+                "first": "V",
+                "middle": [],
+                "last": "Kadaba",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [
+                    "F"
+                ],
+                "last": "Shafi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [
+                    "H S"
+                ],
+                "last": "Ahluwalia",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background Intraoperative imaging is a desirable tool in oculoplastic surgery; however, there are few modalities which allow surgeons to capture and edit the images in real time without compromising the sterility of the surgical field. We describe the set-up of the VITOM\u00ae exoscope system based on our 5 years' experience of using it as an effective intraoperative video imaging and teaching modality for extraocular surgery. Methods The VITOM\u00ae is a specially designed exoscope mounted onto a versatile mechanical arm. It is attached to a high definition (HD) digital camera displayed on the HD video monitor of a standard endoscopy stack. This technology has been utilised in other surgical subspecialties, but there is no documented use within extraocular surgery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results The exoscope was simple to set-up and allowed real-time recording and editing with an HD image display system. The theatre team were able to view the precise surgical steps, contributing to improved theatre flow. Trainees reported that the VITOM\u00ae images significantly improved their visualisation and understanding of key surgical anatomy and steps. Conclusions Our experience showed that the VITOM\u00ae exoscope is an excellent intraoperative video imaging and teaching aid, as it allows real-time capture and editing of open surgery and seems to improve theatre flow. With newer models using 3D stereoscopic vision, it could be further evaluated as a heads-up viewing system within extraocular and oculoplastic surgery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Advances in technology have led to the development of VITOM\u00ae (Karl Storz Endoscopy GmbH, Tuttlingen, Germany), a high definition (HD), compact video microscope for open surgery. It has been shown to be an effective replacement for the traditional microscope and loupes in neurosurgery, plastic surgery and paediatric surgery [1] [2] [3] . We report 5 years' experience of using the VITOM\u00ae exoscope as an intraoperative video imaging and teaching modality in oculoplastic and extraocular surgery, which to our knowledge, has not been reported in the literature.",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 328,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 329,
+                    "end": 332,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 333,
+                    "end": 336,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "VITOM\u00ae exoscope specifications",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical techniques and technology"
+        },
+        {
+            "text": "The VITOM\u00ae system we use has a 0\u00b0telescope (catalogue number 916025 AA) which has a diameter of 10 mm and length of 11 cm. The H3-Z HD camera is mounted on the proximal end, with the illumination provided by a cold-light fountain Xenon-300W connected by a 4.8 mm fibre optic light cable, plugged into the light port on the endoscopy stack.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Clinical techniques and technology"
+        },
+        {
+            "text": "On our endoscopy stack (Karl Storz Endoscopy Gmbh, Tuttlingen, Germany), system images are displayed on two HD monitors and an additional wireless slave monitor that can be placed anywhere within the operation theatre which makes it ideal for teaching (Fig. 1) . The camera provides \u00d72-16 magnification.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 252,
+                    "end": 260,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Video display"
+        },
+        {
+            "text": "The exoscope is mounted onto a mechanical arm which is attached to the side of the operating table (Fig. 2) . The mechanical arm consists of a rotating rail clamp, (catalogue number 28172 HR) that allows for easy attachment to the operating table, with a butterfly nut. An L shaped articulating stand (catalogue number 28172 HC) is secured within the rail clamp and consists of its own central clamp with all five joint functions. A quick-release KSLOCK\u00ae (female) allows further manipulation of the exoscope. At the proximal end of the articulating stand, a clamping jaw (catalogue number 28172 UGK) with a ball joint and quickrelease KSLOCK\u00ae (male) secures the exoscope, providing fine adjustment in three planes of space intraoperatively. The movable, operating-table fixated device's camera is positioned above and in front of the patient's head, (25-60 cm working distance) away from the surgical field, which does not interfere with the surgeon's manoeuvres or operating field. This allows for the observation of detailed anatomy, including fine vascularisation, the lid margin and tissue planes (Fig. 3) . Controls on the camera head allow for adjusting finer focus and the zoom settings.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 99,
+                    "end": 107,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1101,
+                    "end": 1109,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Positioning the exoscope"
+        },
+        {
+            "text": "The entire setting-up of the exoscope takes~10 min (Fig. 4 ) at the commencement of each theatre list. Intraoperative sterility is maintained with the use of a sterile image intensifier drape which covers the mechanical arm, exoscope, camera and light pipe. This sterile drape is adapted to accommodate the exoscope tip by cutting out a small hole in one corner and securing it with a 2.5 cm sterile adhesive tape. This allows the surgeon full flexibility to adjust the exoscope and camera position, thereby achieving the desirable field for each procedure. Sterile access to the mechanical arm and camera controls allows recording and editing in real time. This feature is difficult to achieve without using an operating microscope, which is often not ideal or practical for oculoplastic surgery. The exoscope and light pipe can be autoclaved and stored in a wire tray (catalogue number 39501A2), when not in use.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 51,
+                    "end": 58,
+                    "text": "(Fig. 4",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Maintaining a sterile surgical field"
+        },
+        {
+            "text": "We recorded a large variety of eyelid procedures (ptosis, entropion, ectropion, tumour excision, eyelid reconstruction and trauma repair) and orbital procedures (evisceration, enucleation, lacrimal gland surgery, dermoid cyst excision and anterior orbital biopsy).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recording oculoplastic procedures"
+        },
+        {
+            "text": "We were able to capture highly detailed video footage of the surgical steps for a wide range of eyelid and anterior orbital procedures with the aid of the VITOM\u00ae exoscope. We found the VITOM\u00ae device easy to set-up by mounting it on to a mechanical arm and attaching it to a standard operating table. We could use it with our standard endoscopy stack for recording oculoplastics and extraocular surgery. It did not interfere with surgical access or the sterility of the surgical field and allowed for real-time image capture and editing. The theatre team were able to view the surgical steps, in greater detail, which facilitated flow of the surgery and kept the entire team engaged. The setting-up of the VITOM\u00ae exoscope did not impact on theatre session times, as the setting-up was carried out after the theatre team briefing and prior to the patient being brought into theatre.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Trainees not scrubbed for the procedure felt that the VITOM\u00ae images displayed on the wireless slave screen significantly improved their visualisation of the operation, as they could view it without compromising the sterile field and competing with the surgical assistant for an optimal view. This aided their understanding of surgical anatomy and key operative steps. The improved training experience has been reported in neurosurgery and paediatric urology surgery [3] [4] [5] . Furthermore, we have been able to compile a video library of oculoplastic procedures, which have been used as a teaching aid, especially for infrequent procedures.",
+            "cite_spans": [
+                {
+                    "start": 466,
+                    "end": 469,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 470,
+                    "end": 473,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 474,
+                    "end": 477,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The system is relatively inexpensive, as we were able to utilise our standard endoscopy stack, only having to purchase the exoscope and mechanical arm. The same exoscope could be utilised for the whole list, as we used a sterile drape to cover it on all occasions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, we felt that the VITOM\u00ae was limited in its ability to capture HD images in deeper planes (>2.5 cm) especially when viewing through a small incision, e.g. external dacryocystorhinostomy or deeper orbital procedures. This is possibly due to the lack of background illumination of deeper structures, which is required to focus the exoscope.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The VITOM\u00ae exoscope has been used extensively in other specialities, particularly neurosurgery and paediatric surgery, with great success [2, 5] . With its ability to record HD images intraoperatively and display them, we feel that it could be used more extensively in oculoplastic and anterior orbital surgery. Future developments in technology might herald the use of 3D viewing platforms and it also has the potential to replace surgical loupes by providing a heads-up display system. Although the headsup approach is used in other surgical disciplines, further evaluation would be required regarding its suitability in Oculoplastic surgery. This might be worth further exploring given the current challenges we face with the current Covid-19 pandemic. This could potentially offer a greater working distance compared to surgical loupes which traditionally allow a working distance between 30 and 40 cm. Step-by-step guide to setting-up the exoscope.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 142,
+                    "end": 144,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The VITOM\u00ae exoscope in oculoplastic surgery: the 5 year Coventry experience Conclusion VITOM\u00ae exoscope is an ideal intraoperative video recording and teaching modality which also allows for real-time image capture and editing in oculoplastics and extraocular surgery. It is far superior to any other available intraoperative imaging modality for imaging oculoplastic and extraocular surgery for which the operating microscope is often not ideal. It is relatively inexpensive and offers the opportunity to record and edit surgery in real time without compromising sterility or surgical access. Its main limitation is in the visualisation of deep surgical planes accessed through small incisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "What was known before \u2022 Recording devices for oculoplastic surgery often impeded on the surgical field trainees struggled with getting good view of the surgery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Summary"
+        },
+        {
+            "text": "\u2022 New way of capturing real-time imaging for extraocular surgery teaching tool for use in theatre.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What this study adds"
+        },
+        {
+            "text": "Author contributions VK was responsible for writing and editing the paper. FS was involved in editing the paper and acquiring the images. HA edited the paper and provided the data/experience.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What this study adds"
+        },
+        {
+            "text": "Conflict of interest The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        },
+        {
+            "text": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Preliminary clinical experience with the 4 K3-dimensional microvideoscope (VITOM 3D) system for free flap head and neck reconstruction. Head Neck",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Virgilio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mercante",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gaino",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mondello",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Malvezzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/hed.25979"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The exoscope in neurosurgery: an innovative \"point of view\". a systematic review of the technical, surgical, and educational aspects",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ricciardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chaichana",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cardia",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Stifano",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rossini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Olivi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "World Neurosurg",
+            "volume": "124",
+            "issn": "",
+            "pages": "136--180",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.wneu.2018.12.202"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Evaluation of a video telescopic operating microscope (VITOM) for pediatric surgery and urology: a preliminary report",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Frykman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Duel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gangi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berci",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Freedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J Laparoendosc Adv Surg Tech",
+            "volume": "23",
+            "issn": "",
+            "pages": "639--682",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/lap.2013.0125"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Use of the video telescope operating monitor (VITOM) as an alternative to the operating microscope in spine surgery",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shirzadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mukherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Drazin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Paff",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Perri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mamelak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Spine",
+            "volume": "37",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/BRS.0b013e3182709cef"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Initial clinical experience with a high-definition exoscope system for microneurosurgery. Neurosurgery",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mamelak",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nobuto",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "67",
+            "issn": "",
+            "pages": "476--83",
+            "other_ids": {
+                "DOI": [
+                    "10.1227/01.NEU.0000372204.85227.BF"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The VITOM\u00ae system for your exoscopy in the operating room",
+            "authors": [
+                {
+                    "first": "Karl",
+                    "middle": [],
+                    "last": "Storz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Endoscopy stack and slave screen. A The set-up of the camera and main stack. B Slave screen image.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Detailed intraoperative anatomical pictures. Images A and B obtained in real-time surgeries.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Flow diagram for set-up.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

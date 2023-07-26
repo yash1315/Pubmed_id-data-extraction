@@ -1,0 +1,935 @@
+{
+    "paper_id": "00cad4ab77953b4d684e7eb8dc02c1c993561c11",
+    "metadata": {
+        "title": "Meningitis caused by Listeria monocytogenes in a locally advanced cervical cancer patient with pyometra: A case report",
+        "authors": [
+            {
+                "first": "Yusuke",
+                "middle": [],
+                "last": "Matoba",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hiroshi",
+                "middle": [],
+                "last": "Nishio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Koji",
+                "middle": [],
+                "last": "Sekiguchi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shunsuke",
+                "middle": [],
+                "last": "Uno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kenta",
+                "middle": [],
+                "last": "Masuda",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Makiko",
+                "middle": [],
+                "last": "Hiramatsu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mio",
+                "middle": [],
+                "last": "Takahashi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maki",
+                "middle": [],
+                "last": "Oishi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yoshifumi",
+                "middle": [],
+                "last": "Uwamino",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sho",
+                "middle": [],
+                "last": "Uchida",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yugaku",
+                "middle": [],
+                "last": "Dat\u00e9",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tohru",
+                "middle": [],
+                "last": "Morisada",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kouji",
+                "middle": [],
+                "last": "Banno",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [],
+                "last": "Nakahara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daisuke",
+                "middle": [],
+                "last": "Aoki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Keio University School of Medicine",
+                    "location": {
+                        "addrLine": "35 Shinanomachi, Shinjuku-ku",
+                        "postCode": "160-8582",
+                        "settlement": "Tokyo",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Locally advanced cervical cancer occasionally induces pyometra, but there have been no reports of meningitis where pyometra is the cause of infection. Here, we report a case of Listeria monocytogenes meningitis related to pyometra during concurrent chemoradiotherapy (CCRT) in a cervical cancer patient. The patient, a 77-year-old woman, was diagnosed with Stage IIB (FIGO 2018) cervical adenocarcinoma, and CCRT was initiated. Pyometra was exacerbated during CCRT, and after her first brachytherapy, she presented at our hospital with fever and decreased consciousness level. After admission to the Intensive Care Unit, the patient lost consciousness and experienced frequent seizures; tracheal intubation was required. Whole-body computed tomography revealed pyometra; therefore, transvaginal removal of the abscess was performed. Laboratory tests and vital signs indicated septic shock, and meropenem was administered. L. monocytogenes was detected in the abscess from the uterine cavity and the blood cultures on the third day of hospitalization. A lumbar puncture was performed on the same day to investigate whether the patient had meningitis. A FilmArray meningitis/encephalitis panel test of the spinal fluid revealed L. monocytogenes. After the diagnosis of meningitis with L. monocytogenes, ampicillin and gentamicin were started, and the blood test results gradually improved. Five months after the initial episode, her consciousness recovered, however she still received mechanical ventilatory support. L. monocytogenes infections can occur in patients undergoing chemotherapy, even without the use of steroids or immunosuppressive agents. In cases with pyometra, intrauterine manipulation can increase the risk of severe infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Pyometra, an accumulation of pus in the uterine cavity, is caused by impaired spontaneous excretion from the uterine cavity. Pyometra is caused by cervical cancer, cervicitis, and aging. Concurrent chemoradiotherapy (CCRT) for cervical cancer can also cause pyometra (Imachi et al., 1993) . The main pathogenic bacteria in pyometra are Escherichia coli and Bacteroides fragilis (Yildizhan et al., 2006) , and the symptoms include abdominal pain, abnormal vaginal discharge, and irregular genital bleeding. More than half of the cases of pyometra are asymptomatic (Imachi et al., 1993) ; however asymptomatic pyometra can cause uterine perforation, which can lead to serious peritonitis or septic shock (Imachi et al., 1993; Yildizhan et al., 2006) .",
+            "cite_spans": [
+                {
+                    "start": 267,
+                    "end": 288,
+                    "text": "(Imachi et al., 1993)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 378,
+                    "end": 402,
+                    "text": "(Yildizhan et al., 2006)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 563,
+                    "end": 584,
+                    "text": "(Imachi et al., 1993)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 702,
+                    "end": 723,
+                    "text": "(Imachi et al., 1993;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 724,
+                    "end": 747,
+                    "text": "Yildizhan et al., 2006)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The main causative agents of meningitis in adults are Streptococcus pneumoniae and Streptococcus meningitidis (Pagliano et al., 2016) ; however, in immunocompromised patients, Listeria monocytogenes, a Grampositive pathogenic bacterium, is also a common causative agent of meningitis (Pagliano et al., 2016) . L. monocytogenes is widely distributed. It is transmitted to humans through contaminated dairy products and can cause sepsis and meningitis in immunocompromised patients (Pagliano et al., 2016) . L. monocytogenes meningitis has a high mortality rate and may be associated with neurological sequelae even when the patient survives (Pagliano et al., 2017) .",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 133,
+                    "text": "(Pagliano et al., 2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 284,
+                    "end": 307,
+                    "text": "(Pagliano et al., 2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 480,
+                    "end": 503,
+                    "text": "(Pagliano et al., 2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 640,
+                    "end": 663,
+                    "text": "(Pagliano et al., 2017)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here, we report a case of L. monocytogenes meningitis with pyometra exacerbation during CCRT for cervical cancer. To the best of our knowledge, this is the first case of L. monocytogenes meningitis related to pyometra.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A 77-year-old woman who experienced menopause at 52 years of age, came to our hospital for adenocarcinoma diagnosed with endometrial cytology. Magnetic resonance imaging (MRI) revealed a primary malignant tumor located in the uterine cervix. Additionally, MRI showed a small amount of fluid accumulation in the uterine cavity (Fig. 1A) . Adenocarcinoma was diagnosed on cervical biopsy, and she was diagnosed with Stage IIB cervical cancer (FIGO 2018) .",
+            "cite_spans": [
+                {
+                    "start": 440,
+                    "end": 451,
+                    "text": "(FIGO 2018)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 326,
+                    "end": 335,
+                    "text": "(Fig. 1A)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Case presentation"
+        },
+        {
+            "text": "CCRT with cisplatin (40 mg/m 2 , six cycles), whole-pelvis irradiation (50.4 Gy/28 fractions), and brachytherapy (18 Gy/3 fractions) was scheduled and initiated. MRI before brachytherapy showed that the primary tumor had apparently shrunk, and the fluid retention in the uterine cavity appeared to be increasing (Fig. 1B) . On the day of the first brachytherapy, the patient showed no signs of infection, and laboratory tests demonstrated a white blood cell count (WBC) of 1400/\u00b5L, neutrophils: 868/\u00b5L, lymphocytes: 448/\u00b5L, and C-reactive protein (CRP) concentration: 0.41 mg/dL. The fifth cycle of cisplatin was administered the day after brachytherapy.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 312,
+                    "end": 321,
+                    "text": "(Fig. 1B)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Case presentation"
+        },
+        {
+            "text": "Two days after the fifth administration of cisplatin, that is, 3 days after the brachytherapy, she presented to the outpatient clinic with a fever of 38.8 \u2022 C and malaise. She was confirmed negative for COVID-19 and was discharged from the outpatient clinic. However, the following day, she came to the emergency department because of decreased consciousness and worsening general condition, presenting with a fever of 37.9 \u2022 C and a Glasgow Coma Scale (GCS) score of 13 points (E3, V4, M6). Laboratory tests showed the following: WBC: 2300/\u00b5L, neutrophils: 2254/\u00b5L, lymphocytes: 56/\u00b5L, and CRP: 1.39 mg/dL. Computed tomography (CT) imaging revealed extensive pyometra and small inflammation of the small intestine, indicating the focus of infection. Subsequently, her consciousness level worsened to a GCS score of 7 points (E2, V1, M4), with the appearance of left conjugate eye deviation and suspected right paralysis, although there was no nuchal rigidity. Head CT and MRI showed only subacute cerebral infarction in the left occipital lobe with an unknown relationship to the worsening consciousness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case presentation"
+        },
+        {
+            "text": "Based on the results, pyometra was considered the predominant site of infection, and we performed transcervical drainage. The intrauterine purulent material was reddish-yellow in color (Fig. 2. ). We suspected that her generalized deterioration of consciousness and general condition was because of sepsis, and intravenous meropenem was administered. However, her general condition continued to worsen, her respiratory condition became unstable, and she developed frequent seizures; therefore, tracheal intubation was performed. Because the seizures were frequent, we administered the anti-epileptic mediation, levetiracetam, after consulting with neurologists.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 193,
+                    "text": "(Fig. 2.",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Case presentation"
+        },
+        {
+            "text": "On the third day after hospitalization, L. monocytogenes was detected in the pyometra material and on blood culture (Fig. 3) . From these results, administration of ampicillin and gentamicin as a treatment for L. monocytogenes was promptly initiated. Subsequently, lumbar puncture (LP) was performed to determine the cause of the prolonged unconsciousness. In LP, the initial cerebral spinal fluid (CSF) pressure was 18 cmH 2 O, and the CSF gross findings showed sunshine dust. CSF examination revealed an increased polynuclear cell count (1157 cells/ \u00b5L) and total protein (455 mg/dL). FilmArray meningitis/encephalitis panel assay (BioFire Diagnostics, LLC, Salt Lake City, UT, USA) detected L. monocytogenes and cytomegalovirus. Based on these results, the patient was diagnosed with L. monocytogenes meningitis triggered by pyometra. Intravenous administration of ampicillin and gentamicin was continued, and ganciclovir was initiated for the cytomegalovirus.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 116,
+                    "end": 124,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Case presentation"
+        },
+        {
+            "text": "Following the diagnosis of meningitis, her vital signs and blood test results improved, and she was moved from the intensive care unit to a general bed on the 24th day of hospitalization. Four months after her first admission, she was able to open her eyes spontaneously, and her state of consciousness was generally stable (GCS: 8 points, E4, VT, M4).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case presentation"
+        },
+        {
+            "text": "Here, we present a case of meningitis caused by L. monocytogenes in a locally advanced cervical cancer patient with exacerbation of pyometra during CCRT. Ampil et al. reported only one patient who developed pyometra after radiotherapy with brachytherapy among 12 cervical cancer patients with hydrometra before treatment (Ampil and Bell, 1997) . According to the report, the incidence rate of pyometra is small. However, in our case, MRI during CCRT showed increased fluid accumulation in the uterine cavity, suggesting that fluid accumulation developed secondary to treatment. The patient had sepsis and meningitis related to the pyometra, partly owing to immunocompromise caused by CCRT. There are several reports of pyometra developing to sepsis, mainly owing to induced uterine perforation and peritonitis (Imachi et al., 1993; Yildizhan et al., 2006) . In such cases, abdominal pain is one of the chief complaints (Yildizhan et al., 2006) . However, our patient had no complaint of abdominal pain at the outpatient clinic the day before the consciousness deterioration, and no intra-abdominal free space was identified on CT performed at hospital admission. Therefore, it is unlikely that the sepsis was induced by uterine perforation. In this case, grade 2 leukopenia, grade 3 neutropenia, and grade 4 lymphopenia were observed before the administration of CCRT, suggesting that manipulation of the uterine cavity during brachytherapy under an immunosuppressive situation may have been the main cause. CCRT with brachytherapy has been reported to cause grade \u2265 3 leukopenia in approximately 7.5% of cases (Jakubowicz et al., 2014) , and some cases, like our patient, experienced a high risk of infection. This suggests that pyometra should be eliminated when invasive procedures are performed in such cases. (Drevets and Bronze, 2008) ; however, intrauterine infection in post-menopausal patients following CCRT has never been reported. L. monocytogenes usually enters human hosts via the gastrointestinal tract after ingesting contaminated food (Drevets and Bronze, 2008) . The bacterial culture of the vaginal discharge from our patient did not prove L. monocytogenes; thus, there is a possibility that pyometra developed hematogenously rather than via an ascending route, as with other causative agents, such as Enterobacterales. L. monocytogenes can be internalized in both phagocytic and nonphagocytic cells (Radoshevich and Cossart, 2018) , avert host immune systems, and be transported to an infected organ inside infected monocytes (Drevets and Bronze, 2008) . Therefore, the presence of a lesion in the uterus that could have been infiltrated by monocytes may have been a predisposing factor in this patient. During the brachytherapy, the applicators were inserted into the uterine cavity in the presence of pyometra, and this procedure might have triggered eventual bacterial spread.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 343,
+                    "text": "(Ampil and Bell, 1997)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 810,
+                    "end": 831,
+                    "text": "(Imachi et al., 1993;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 832,
+                    "end": 855,
+                    "text": "Yildizhan et al., 2006)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 919,
+                    "end": 943,
+                    "text": "(Yildizhan et al., 2006)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1611,
+                    "end": 1636,
+                    "text": "(Jakubowicz et al., 2014)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1814,
+                    "end": 1840,
+                    "text": "(Drevets and Bronze, 2008)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 2052,
+                    "end": 2078,
+                    "text": "(Drevets and Bronze, 2008)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 2419,
+                    "end": 2450,
+                    "text": "(Radoshevich and Cossart, 2018)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2546,
+                    "end": 2572,
+                    "text": "(Drevets and Bronze, 2008)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "L. monocytogenes is a common causative agent of meningitis in patients with compromised immunity. Patients older than 50 years of age, those receiving long-term glucocorticosteroids, patients with comorbidities, and HIV-infected patients are at high risk of developing L. monocytogenes meningitis. In a report examining the background of patients with L. monocytogenes meningitis, the highest percentage of patients had a malignancy (24%), followed by transplant recipients (21%), alcohol dependence/hepatic disease (13%), immunosuppression/steroid use (11%), diabetes mellitus (8%), and HIV/AIDS patients (7%) (Mylonakis et al., 1998) . Considering these reports, our case was a high-risk case regarding L. monocytogenes meningitis because of her age (77 years), her locally advanced cancer state, and treatment-induced leukopenia.",
+            "cite_spans": [
+                {
+                    "start": 611,
+                    "end": 635,
+                    "text": "(Mylonakis et al., 1998)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "L. monocytogenes is a well-known bacterial cause of intrauterine infection in pregnant women"
+        },
+        {
+            "text": "In the present case, meropenem and vancomycin were initiated as early empiric antibiotic treatments when the site of infection was undetectable. The efficacy of meropenem against L. monocytogenes has been proven in animal studies (Thonnings et al., 2016) ; however, the clinical use of meropenem for meningitis caused by L. monocytogenes is limited; therefore, ampicillin and benzylpenicillin are considered firstline agents (Pagliano et al., 2016) . Th\u00f8nnings et al. reported that the 30-day mortality rate of patients who received meropenem as definitive antibiotic therapy for meningitis caused by L. monocytogenes was higher than that of patients treated with ampicillin or benzylpenicillin (Thonnings et al., 2016) . In this case, after L. monocytogenes was detected in the endometrial pus, ampicillin was started immediately, and we selected appropriate antibiotics.",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 254,
+                    "text": "(Thonnings et al., 2016)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 425,
+                    "end": 448,
+                    "text": "(Pagliano et al., 2016)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 695,
+                    "end": 719,
+                    "text": "(Thonnings et al., 2016)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "L. monocytogenes is a well-known bacterial cause of intrauterine infection in pregnant women"
+        },
+        {
+            "text": "To our knowledge, this is the first case of L. monocytogenes meningitis with pyometra in a patient undergoing CCRT for cervical cancer. When patients have fever and deterioration of their general condition and consciousness, meningitis should be included as a differential diagnosis, and immediate diagnostic tests should be performed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "L. monocytogenes is a well-known bacterial cause of intrauterine infection in pregnant women"
+        },
+        {
+            "text": "Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the Editor-in-Chief of this journal on request. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Computed tomography-detected hydrometra before irradiation for cancer of the cervix",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ampil",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Eur. J. Gynaecol. Oncol",
+            "volume": "18",
+            "issn": "",
+            "pages": "368--370",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Listeria monocytogenes: epidemiology, human disease, and mechanisms of brain invasion",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Drevets",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bronze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "FEMS Immunol. Med. Microbiol",
+            "volume": "53",
+            "issn": "",
+            "pages": "151--165",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Spontaneous perforation of pyometra presenting as generalized peritonitis in a patient with cervical cancer",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Imachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tanaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ishikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Matsuo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Gynecol. Oncol",
+            "volume": "50",
+            "issn": "",
+            "pages": "384--388",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Toxicity of concurrent chemoradiotherapy for locally advanced cervical cancer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jakubowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Blecharz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Skotnicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reinfuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Walasek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Luczynska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Eur. J. Gynaecol. Oncol",
+            "volume": "35",
+            "issn": "",
+            "pages": "393--399",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Central nervous system infection with Listeria monocytogenes. 33 years' experience at a general hospital and review of 776 episodes from the literature",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mylonakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hohmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Calderwood",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Medicine (Baltimore)",
+            "volume": "77",
+            "issn": "",
+            "pages": "313--336",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Listeria monocytogenes meningitis in the elderly: epidemiological, clinical and therapeutic findings",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pagliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ascione",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Boccia",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "De Caro",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Esposito",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Infez Med",
+            "volume": "24",
+            "issn": "",
+            "pages": "105--111",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Epidemiology and treatment of the commonest form of listeriosis: meningitis and bacteraemia",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pagliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Arslan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ascione",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Infez Med",
+            "volume": "25",
+            "issn": "",
+            "pages": "210--216",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Listeria monocytogenes: towards a complete picture of its physiology and pathogenesis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Radoshevich",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Cossart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Rev. Microbiol",
+            "volume": "16",
+            "issn": "",
+            "pages": "32--46",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Antibiotic treatment and mortality in patients with Listeria monocytogenes meningitis or bacteraemia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thonnings",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Knudsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schonheyder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sogaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arpi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Gradel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin. Microbiol. Infect",
+            "volume": "22",
+            "issn": "",
+            "pages": "725--730",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Spontaneous perforation of pyometra",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yildizhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Uyar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sismanoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gulluoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kavak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Infect. Dis. Obstet. Gynecol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "A: T2-weighted (T2WI) sagittal image before the start of concurrent chemoradiotherapy (CCRT). B: T2WI sagittal image before the end of CCRT. The fluid accumulation in the uterine cavity, which was present before the start of CCRT, was increased. The cervical tumor had shrunk.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Purulent fluid drained from the uterine cavity using a catheter.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Gram-stained images of intrauterine fluid and blood cultures. A: Gram-stained image of the endometrial fluid. B: Gram-stained image of the blood culture. The Gram-stained image of the endometrial fluid showed no obvious gram-positive rods (GPR), but the Gram-stained image of the blood culture did show GPR. In the final culture results, Listeria monocytogenes was detected in both specimens.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Yusuke Matoba: Writing -original draft. Hiroshi Nishio: Writingreview & editing. Koji Sekiguchi: Writing -review & editing. Shunsuke Uno: Writing -review & editing. Kenta Masuda: Writing -review & editing. Makiko Hiramatsu: Writing -review & editing. Mio Takahashi: Writing -review & editing. Maki Oishi: Writing -review & editing. Yoshifumi Uwamino: Visualization. Sho Uchida: Writing -review & editing. Yugaku Dat\u00e9: Writing -review & editing. Tohru Morisada: Writing -review & editing. Kouji Banno: Supervision. Jin Nakahara: Writing -review & editing. Daisuke Aoki: Writing -review & editing, Project administration.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank Ms. Keiko Abe for helping to revise the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

@@ -1,0 +1,3443 @@
+{
+    "paper_id": "00bfa4a004d699718db8ea65b9fa91489b551d05",
+    "metadata": {
+        "title": "A theory of scaling for community-based fisheries management",
+        "authors": [
+            {
+                "first": "Dirk",
+                "middle": [
+                    "J"
+                ],
+                "last": "Steenbergen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [
+                    "M"
+                ],
+                "last": "Song",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Neil",
+                "middle": [],
+                "last": "Andrew",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Community-based approaches to fisheries management has emerged as a mainstream strategy to govern dispersed, diverse and dynamic small scale fisheries. However, amplifying local community led sustainability outcomes remains an enduring challenge. We seek to fill a theoretical gap in the conceptualization of 'scaling up community-based fisheries management'. We draw on literature of agriculture innovations to provide a framework that takes into account process-driven and structural change occurring across multiple levels of governance, as well as different phases of scaling. We hypothesize that successful scaling requires engagement with all aspects of a governing regime, coalescing a range of actors, and therefore, is an enterprise that is larger than its parts. To demonstrate where the framework offers value, we illustrate the development of community-based fisheries management in Vanuatu according to the framework's main scaling dimensions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "With less than a decade to run, there is increasing international focus on how governments are tracking toward achieving the Sustainable Development Goals (SDGs). The 17 interconnected goals boldly state ambitions to address global challenges in food security and human development. There have been mixed results thus far against the 169 SDG targets and with that, a growing urgency among donors and international agencies to accelerate progress.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Much of this ambition and imperative to move from 'small and few' to 'large and many' has been captured in the need to have impact at scale. Scaling has become integral to the vocabulary of rural development and sustainability programming (e.g. Gargani and McLean 2017; Butler et al. 2020; Lam et al. 2020; Sartas et al. 2020) . 'Scaling up' often features prominently in programme design and theories of change (ToC), wherein successful ideas or practices need to be 'brought to scale'. In moving from the activities, outputs, and intermediate outcomes that typically populate the earlier stages of ToC to the final outcomes and impacts needed to effect on-ground change, attribution becomes muddier and accountabilities less clear.",
+            "cite_spans": [
+                {
+                    "start": 245,
+                    "end": 269,
+                    "text": "Gargani and McLean 2017;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 270,
+                    "end": 289,
+                    "text": "Butler et al. 2020;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 290,
+                    "end": 306,
+                    "text": "Lam et al. 2020;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 307,
+                    "end": 326,
+                    "text": "Sartas et al. 2020)",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "More profoundly, scaling has become a critical research frontier that requires new transdisciplinary methods, relationships and modes of working. The literature on scaling has flourished in recent years as researchers and development practitioners grapple with the complexities and accountabilities of scaling. The subset of this literature most relevant here has focused on scaling agricultural innovations (e.g. Cooley and Linn 2014; Hermans et al. 2017; Dror 2020; Schut et al. 2020 ) and on the creation of 'innovation platforms' and exchanges to promote widespread uptake of successful ideas (Seifu et al. 2020) .",
+            "cite_spans": [
+                {
+                    "start": 414,
+                    "end": 435,
+                    "text": "Cooley and Linn 2014;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 436,
+                    "end": 456,
+                    "text": "Hermans et al. 2017;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 457,
+                    "end": 467,
+                    "text": "Dror 2020;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 468,
+                    "end": 485,
+                    "text": "Schut et al. 2020",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 597,
+                    "end": 616,
+                    "text": "(Seifu et al. 2020)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Despite this attention, 'scaling' remains a stubborn problem; transformative change is not the norm and development trajectories are too seldomly overturned. Critiques of the scaling literature suggest it remains too dependent on a theoretical framing provided by the diffusion of innovation literature (Rogers 2003; Johnson and Hagstr\u00f6m 2005) with its focus on technologies and the individual behaviours of innovators and adopters. This framing, it is thought, does not adequately account for governance contexts and cultural dimensions of how people live their lives and manage risk, and relies on the modality of spreading 'success' from case studies, proof of concept pilots, or nodes of learning . At worst, these framings situate innovation separately from the socio-political environment in which adoption and spreading take place.",
+            "cite_spans": [
+                {
+                    "start": 303,
+                    "end": 316,
+                    "text": "(Rogers 2003;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 317,
+                    "end": 343,
+                    "text": "Johnson and Hagstr\u00f6m 2005)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Here, we are concerned with scaling community-based fisheries management (CBFM) . Although CBFM has emerged in many guises (Aswani et al. 2012) , broad principles remain the same; namely that the resulting management is enacted by and for communities and that collective action towards the management of shared resources (sensu Wade 1987) encompasses ecosystem and social dimensions, and not just the sustainability of harvests.",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 79,
+                    "text": "(CBFM)",
+                    "ref_id": null
+                },
+                {
+                    "start": 123,
+                    "end": 143,
+                    "text": "(Aswani et al. 2012)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Community-based fisheries management"
+        },
+        {
+            "text": "With the 'tropical majority' (Kurien 2002) highly dependent on fish for food and income, the need for widespread sustainable management of inshore fisheries has never been more necessary (Aswani et al. 2012; Batista et al. 2014) . Physical and political remoteness of many coastal fishing communities in this part of the world, combined with often scarce state resources, means that national agencies are limited in their ability to centrally govern the dispersed, diverse and dynamic context of small-scale fisheries. In response to this limitation, CBFM has become a mainstream strategy in national programs for co-management of nearshore fisheries (Evans et al. 2011 ). This is evidenced in, for example, how CBFM forms a central component of high-level visions agreed globally for small-scale fisheries, as referenced in the 2015 Voluntary Guidelines for Securing Small-Scale Fisheries (FAO 2015) . Much of the work by government agencies, together with the support of non-governmental organizations (NGO) and academic communities, has, therefore, focused on finding effective ways to introduce, strengthen or support collaborative management arrangements by funding, researching and institutionalizing CBFM initiatives around the world (Wilson et al. 2003; d'Armengol et al. 2018) .",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 42,
+                    "text": "(Kurien 2002)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 187,
+                    "end": 207,
+                    "text": "(Aswani et al. 2012;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 208,
+                    "end": 228,
+                    "text": "Batista et al. 2014)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 651,
+                    "end": 669,
+                    "text": "(Evans et al. 2011",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 890,
+                    "end": 900,
+                    "text": "(FAO 2015)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1241,
+                    "end": 1261,
+                    "text": "(Wilson et al. 2003;",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1262,
+                    "end": 1285,
+                    "text": "d'Armengol et al. 2018)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Community-based fisheries management"
+        },
+        {
+            "text": "The question of how to amplify community-driven sustainability outcomes beyond a selected number of 'pilot communities' looms large. Despite significant progress in learning what forms of CBFM work in small places, a gap persists in understanding how spread of management capacity across broader constituencies can be achieved. Jagers et al. (2019) argue that spreading collective action institutions across larger domains requires deliberate and consistent intervention by external (third) parties such as governments, multilateral organisations, and even businesses.",
+            "cite_spans": [
+                {
+                    "start": 328,
+                    "end": 348,
+                    "text": "Jagers et al. (2019)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Scaling CBFM"
+        },
+        {
+            "text": "In the context of small-scale fisheries, attempts to bring CBFM to a wider coverage have been implemented in various locales with examples including Locally Managed Marine Areas (LMMAs) in the Asia-Pacific (Govan 2009; Steenbergen and Warren 2018) , inshore fisheries management based on Territorial Use Rights for Fisheries (TURFs) in Belize (Fujita et al. 2017) , Chile (Gelcich et al. 2017) and South Korea (Song 2015) , and ecosystem-based management in Japan (Makino et al. 2009 ) and the Philippines (Eisma-Osorio et al. 2009; Lowry et al. 2009 ). However, most scaling efforts have generated mixed results with adoption slowing once a saturation point is reached and/or reversing when initial excitement and momentum fades (Mascia and Mills 2018; Mills et al. 2019) .",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 218,
+                    "text": "(Govan 2009;",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 219,
+                    "end": 247,
+                    "text": "Steenbergen and Warren 2018)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 343,
+                    "end": 363,
+                    "text": "(Fujita et al. 2017)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 372,
+                    "end": 393,
+                    "text": "(Gelcich et al. 2017)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 410,
+                    "end": 421,
+                    "text": "(Song 2015)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 464,
+                    "end": 483,
+                    "text": "(Makino et al. 2009",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 506,
+                    "end": 532,
+                    "text": "(Eisma-Osorio et al. 2009;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 533,
+                    "end": 550,
+                    "text": "Lowry et al. 2009",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 730,
+                    "end": 753,
+                    "text": "(Mascia and Mills 2018;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 754,
+                    "end": 772,
+                    "text": "Mills et al. 2019)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Scaling CBFM"
+        },
+        {
+            "text": "Much of the theory informing scaling initiatives continues to rely on perspectives that treat CBFM innovations as something that is replicable and adoptable in a relatively similar form across many contexts. We argue that this framing struggles to capture the essential attributes of CBFM, where the agency, modus operandi and socialcultural-political function of community institutions have been de-emphasized. Hence, rather than technical prescriptions, it might be more accurate to consider CBFM as a set of principles around collective action and sustainability that incorporate notions of social justice, stewardship, fairness, equity, leadership, and conflict resolution. Further, scaling these principles has to be framed more broadly than just communities, individual projects or individual national agencies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scaling CBFM"
+        },
+        {
+            "text": "Model-based approaches seeking to 'roll out' CBFM, moreover, pay insufficient attention to what 'scaling' means for the communities expected to implement it, and about how the principles of CBFM may differ or clash with the norms under which communities operate. Such approaches require a refocus that integrates understandings of broader institutional and specific contextual conditions, and their conduciveness to catalyse spread.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scaling CBFM"
+        },
+        {
+            "text": "Considering the unique challenges associated with scaling a bundle of principles, the objective of this paper is to develop a conceptual framework that better captures complexities of scaling CBFM. The framework is grounded in the diverse literature on scaling that includes related ideas such as governance transformations and societal level transitions. Specifically, we utilise the 'PRactice-Oriented Multi-level perspective on Innovation and Scaling' (PRO-MIS) framework developed in the context of scaling agricultural innovations (Wigboldus et al. 2016 (Wigboldus et al. , 2017 . In doing so, we take up Wigboldus et al. (2016) 's invitation to apply perspectives from PROMIS across new sectors.",
+            "cite_spans": [
+                {
+                    "start": 536,
+                    "end": 558,
+                    "text": "(Wigboldus et al. 2016",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 559,
+                    "end": 583,
+                    "text": "(Wigboldus et al. , 2017",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 610,
+                    "end": 633,
+                    "text": "Wigboldus et al. (2016)",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Scaling CBFM"
+        },
+        {
+            "text": "Before discussing a theory of scaling for CBFM we outline below a series of considerations that seek to go beyond the conventional calls to create 'innovation platforms', or 'diffusion environments'. In doing so, we unpack drivers, influential processes, repercussions, and unforeseen impacts during scaling initiatives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCEPTUAL UNDERPINNINGS OF A THEORY OF SCALING"
+        },
+        {
+            "text": "The PROMIS framework conceptualizes scaling processes as an integral part of a systematic approach to innovation, and, therefore, not something to be taken for granted (i.e. 'once we have innovated, it will then naturally go to scale'). Analytically, it combines two approaches. First, the multi-level perspective (MLP) (Geels 2019) provides a lens through which to understand how innovations 'travel' across multi-scalar structures to ultimately be absorbed into systems and practice; moving from small experimental innovation to institutionalisation to broad societal absorption. Secondly, modal aspect theory is applied as a means to understand change pathways that result from scaling initiatives (Wigboldus et al. 2016) . It helps in revealing the diversity and coherence (or lack thereof) of everyday things and events, and ensures a broad recognition of how scaling can affect different aspects of people's lives or society as a whole. We focus particularly on the contributions of the multi-level perspective, given the already strong body of work in fisheries social science that explores the various impacts of governing initiatives on the complex lives and livelihoods of small-scale fishers (e.g. Jentoft and Chuenpagdee 2015) , which the modal aspect dimension of PROMIS addresses.",
+            "cite_spans": [
+                {
+                    "start": 701,
+                    "end": 724,
+                    "text": "(Wigboldus et al. 2016)",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1209,
+                    "end": 1238,
+                    "text": "Jentoft and Chuenpagdee 2015)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCEPTUAL UNDERPINNINGS OF A THEORY OF SCALING"
+        },
+        {
+            "text": "In the following sections we elaborate on three important considerations for when new ideas and/or practices are introduced into existing regimes, which are derived from the PROMIS framing around scaling agriculture innovations (Wigboldus et al. 2016) . This roots our framework in, firstly, a reflective perspective that considers possible consequences and implications of scaling; secondly, an understanding that deliberate innovations enter regimes through either direct change interventions (push) or measures that incentivise behaviour change (pull); and thirdly, a recognition that people and institutions follow habituated patterns that over time has become accepted practice and influence if and how new innovations are taken up.",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 251,
+                    "text": "(Wigboldus et al. 2016)",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCEPTUAL UNDERPINNINGS OF A THEORY OF SCALING"
+        },
+        {
+            "text": "'Responsible innovation and scaling' requires that negative effects of scaling be anticipated (Wigboldus and Leeuwis 2013) . This is a significant departure from a conventional understanding of scaling which assumes scaling as an inherently positive endeavour (i.e. more of 'good' things everywhere equals progress). Responsible scaling acts upon the admission that what is promoted as a solution and scaled at one point in time may later be considered a hazard; that technologies and practices working in a particular geographical or sociocultural domain may not work in other areas (and may even be counterproductive); that while some people reap the benefit from the scaled up innovation, others may be disadvantaged by it; and that when something has gone to scale, it may be difficult to reverse, even in the face of negative side effects (see also 'moral justification of scaling' in Gargani and McLean 2017; Augenstein et al. 2020) .",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 122,
+                    "text": "(Wigboldus and Leeuwis 2013)",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 890,
+                    "end": 914,
+                    "text": "Gargani and McLean 2017;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 915,
+                    "end": 938,
+                    "text": "Augenstein et al. 2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible scaling"
+        },
+        {
+            "text": "Considering responsible scaling requires seeing scaling as a part of a more continuous, cumulative process that is subject to ongoing fine-tuning (or even a wholesale correction when appropriate). This counters the conventional treatment of scaling as a one-off activity by which enabling conditions for scaling such as local adaptation processes, conducive institutional and market environments, or diffusion mechanisms are established. Also, by recognizing our insufficient capacity for predicting the long-term impact of scaled innovations, responsible scaling calls for making the purpose orientation of scaling explicit-what, for who, and why-, and then adjusting expectations and strategies as scaling practices take shape. Most fundamentally, the goal of scaling may require transitioning from developing a model to be replicated, to instead achieving a possible means to empower intended beneficiaries or benefit society (Muilerman et al. 2018) .",
+            "cite_spans": [
+                {
+                    "start": 929,
+                    "end": 952,
+                    "text": "(Muilerman et al. 2018)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Responsible scaling"
+        },
+        {
+            "text": "As with the common 'carrot and stick' analogy (Leeuwis 2000) , adoption of innovation occurs by means of 'push' and 'pull' (Wigboldus et al. 2016; Geels 2019; Totin et al. 2020) . Push approaches involve the deliberate introduction of something new to a system, like a technology or model of practice. A technology-focused approach promotes a technology that addresses a development problem as the subject-to-be-scaled. Such application is often justified by theories of change that assume 'if we introduce this, then that problem is solved'. In doing so, less attention is given to broader impacts beyond the defined problem-solution pairing. Goudzwaard et al. (2007) argue that technical solutions can result in new issues or even intensification issues as a consequence of narrow framing (see also 'solution paradox'). Model-focused approaches seek to overcome the complexity, variability and dynamism of contexts across large spaces (Wigboldus et al. 2016 ) by putting forward sets of defined processes and concepts as the subject for scaling. However, development experience has shown all too often how model approaches can produce blueprint solutions (Aswani et al. 2017) , reinforce uneven power relations (B\u00e9n\u00e9 et al. 2009 ), and create self-fulfilling outcomes (Steenbergen et al. 2017) .",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 60,
+                    "text": "(Leeuwis 2000)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 123,
+                    "end": 146,
+                    "text": "(Wigboldus et al. 2016;",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 147,
+                    "end": 158,
+                    "text": "Geels 2019;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 159,
+                    "end": 177,
+                    "text": "Totin et al. 2020)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 644,
+                    "end": 668,
+                    "text": "Goudzwaard et al. (2007)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 937,
+                    "end": 959,
+                    "text": "(Wigboldus et al. 2016",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1157,
+                    "end": 1177,
+                    "text": "(Aswani et al. 2017)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1213,
+                    "end": 1230,
+                    "text": "(B\u00e9n\u00e9 et al. 2009",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1270,
+                    "end": 1295,
+                    "text": "(Steenbergen et al. 2017)",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Push and pull approaches to introducing innovations"
+        },
+        {
+            "text": "Pull approaches on the other hand develop from a demand by a governance regime to deal with a persistent or new problem. Pull approaches may also be deliberate, like when demands are produced that require a response or solution, even though that solution may yet to be defined. Such approaches therefore seek to develop conducive systems and mechanisms that allow influential actors to mobilize into innovating solutions that ultimately lead to desired things happening, like behaviour change. Most commonly, innovations in the agriculture and development sector have drawn on push approaches, relying on new technology or models to drive change in practice, without sufficient application of pull (or the combination of both) approaches to social change (Wigboldus et al. 2016) .",
+            "cite_spans": [
+                {
+                    "start": 755,
+                    "end": 778,
+                    "text": "(Wigboldus et al. 2016)",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Push and pull approaches to introducing innovations"
+        },
+        {
+            "text": "Path dependency refers to the way a regime routinely operates, contributing to perceived stability. Core institutional beliefs, values, practices and rules are difficult to change. They arise from repetitive processes that have evolved to work in certain ways for certain reasons. Over time actors develop vested interest in the way things operate, interdependencies among actors or organizations develop that cement power relations and hierarchy. This may further translate to resistance for change or innovation in a regime, effectively reinforcing path dependency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Path dependency"
+        },
+        {
+            "text": "Disturbances to a regime, however, can rearrange, even if just temporarily, its institutional make-up, allowing a window of opportunity for the regime to take up an innovation and deviate from its path dependence (Tongur and Engwall 2017) . Uptake of innovations does not rid a regime of path dependency per se, but rather shifts or creates new path dependencies. Innovations therefore should be understood to be putting scaling processes onto a path dependent course, which on one hand is necessary to guide desired development but on the other hand can limit creative options that will see it deviate from status quo (Muilerman et al. 2018) .",
+            "cite_spans": [
+                {
+                    "start": 213,
+                    "end": 238,
+                    "text": "(Tongur and Engwall 2017)",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 619,
+                    "end": 642,
+                    "text": "(Muilerman et al. 2018)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Path dependency"
+        },
+        {
+            "text": "While the PROMIS framework has usefully broadened perspectives on scaling, its breadth is also a weakness, for ''it will not be feasible nor even desirable to apply the fully-fledged integrative perspective on each scaling initiative'' (Wigboldus et al. 2016, p.45) . The developers of PROMIS therefore suggest further refining of the framework to serve as a more relevant research tool (Wigboldus et al. 2016 ). The following section orientates a theory of scaling in the context of CBFM.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 265,
+                    "text": "(Wigboldus et al. 2016, p.45)",
+                    "ref_id": null
+                },
+                {
+                    "start": 387,
+                    "end": 409,
+                    "text": "(Wigboldus et al. 2016",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A FRAMEWORK FOR SCALING CBFM"
+        },
+        {
+            "text": "The conceptual framework is illustrated in Figs. 1 and 2. Where Fig. 1 introduces the main elements of our conceptual framing around scaling CBFM, Fig. 2 builds on this by depicting the structural and process-driven changes Fig. 1 The theoretical scaffold of scaling CBFM, indicating the core conceptual elements that make up the framework for scaling CBFM shown in Fig. 2 involved in both direct (e.g. project interventions) and indirect (e.g. spontaneous adoption by communities) introductions of CBFM innovations. The framework presents a normative perspective on transition towards a desired situation; in this case widespread CBFM practice instead of reliance on centrally-governed fisheries management. Below we outline the different components of the framework.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 70,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 147,
+                    "end": 153,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 224,
+                    "end": 230,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 366,
+                    "end": 372,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "A FRAMEWORK FOR SCALING CBFM"
+        },
+        {
+            "text": "Our framework makes explicit distinctions between structural and process-driven changes contributing to regime shifts towards widespread practice of CBFM. Structural change is characterized by the path-dependent sources of CBFM emergence, typically made visible through social behaviour or policy outputs supporting CBFM. Collective behaviour change in communities stemming from existing practices or local, independently-driven initiatives are represented by light blue blocks, while those resulting from externally-driven initiatives by projects or programs of NGOs, private sector or government agencies are represented by dark blue blocks (see Fig. 2 ). Similarly, supportive policies or amendments to national governing instruments that suit CBFM are represented by green blocks.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 648,
+                    "end": 654,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Distinguishing structure from process"
+        },
+        {
+            "text": "Process-driven change refers to the emergence of push and pull influences that work on structures. Push innovations are depicted by a series of red arrows converging on a particular structure, and may include national laws to which all citizens must adhere, or initiatives that respond to conflict or resource scarcity. Pull innovations are depicted by a series of yellow arrows fanning out from a particular structure, and may include national subsidy programs or non-government development funding opportunities. Black arrows converging on a single point represent stalled innovations; including trials that have ended in error or pilot initiatives that have not led to sustained uptake of any form. In the context of fisheries management, an example of a stalled innovation may include the disproportionate expansion of marine protected areas in relation to available management and enforcement capacity, resulting in 'paper parks' (De Santo 2013). Often, parts or lessons from stalled innovations may feed into new attempts at innovation, as, for example, when access rules around previously permanent fishery closure areas are adjusted spatially and/or temporally to address local food security and livelihood needs (Cohen and Steenbergen 2015) .",
+            "cite_spans": [
+                {
+                    "start": 1221,
+                    "end": 1249,
+                    "text": "(Cohen and Steenbergen 2015)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Distinguishing structure from process"
+        },
+        {
+            "text": "The framework combines these processes and structures together conceptually. As structural CBFM results emerge from push and pull innovations, they create collective uptake trajectories, illustrated by increased smaller clumping of blocks from left to right in Fig. 1 . With gradual but continued cumulative momentum in a relevant 'direction', a critical mass of uptake can contribute to regime shift, illustrated by dense clumping of blocks in a new configuration on the right in Fig. 2 . We illustrate here several examples of depicted block-and-arrow combinations. Light blue blocks drawn upwards by yellow arrows, for example, may symbolize communities that independently practice resource management as part of local custom. Influences of pull innovations (yellow arrows), like social networks across communities that offer means to exchange learning, share management responsibilities and strengthen governance around fisheries, may see the community networks expanding as new communities subscribe to it (Nong and Marchke 2006) . In doing so, customary practice finds compliment with broader strategies towards wider spread of management along coastlines. Dark blue blocks pushed upwards by red arrows, alternatively, may represent communities experiencing resource scarcity because of unsustainable fishing practices. The red arrows may be where the government has intervened to address this by, for example, establishing a collaborative arrangement to develop a local fisheries management plan. The deliberate interventions driving CBFM change encourage (i.e. push) a community towards fitting within a national coastal fisheries framework, thus simultaneously contributing to broader regime change. Green blocks representing national policy strategies that set out a development trajectory for coastal fisheries, or even global commitments (see sustainable development goals-UNDG 2015), may be framed as structural elements (exerting a push or inducing a pull) that drive local uptake and implementation of CBFM.",
+            "cite_spans": [
+                {
+                    "start": 1011,
+                    "end": 1034,
+                    "text": "(Nong and Marchke 2006)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 261,
+                    "end": 267,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 481,
+                    "end": 487,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Distinguishing structure from process"
+        },
+        {
+            "text": "The framework adopts the scalar organization of Niche, Regime and Landscape that forms the foundation of sociotechnical transition thinking, as developed by Geels (2002) for the MLP. These scales principally lay out degrees of structuration 1 in practice, whereby relatively loose structural rigidity (''niche'') allows new innovations to develop more easily (but also disappear more easily), while gradually more rigid structure further up the scale (''regime'' and ''landscape'') provide more resistance to change (but also more permanent change once achieved).",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 169,
+                    "text": "Geels (2002)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Degrees of structuration"
+        },
+        {
+            "text": "The niche scale represents phases or spaces wherein new ideas and practices can be introduced and tested. These happen at small scales and with relative autonomy to the workings of the larger system. This allows 'freedom' from the restrictions of broader institutional norms, practices and/ or rules that may otherwise restrain creative alternative approaches to be tested. This is not to say that a government's broader institutional boundaries and rule systems do not apply. On the contrary, they define both a particular allowable operating space with limits to how far 'pilot initiatives' can deviate from the norm, and the basic ethical considerations around testing new ideas in communities. In CBFM context various approaches and instruments gain traction once proven to contribute to local empowerment, knowledge and capacity building. In most cases this involves harnessing existing local fishing knowledge, practices and institutions, as shown in the Pacific region where customary tenure systems form the foundation from which various co-management arrangements have sprung (Foale et al. 2011) . In other cases, aspects of CBFM are introduced as something entirely new. In the Philippines, for example, community-based fishery monitoring activities has been introduced as a means to build knowledge of resource health and ecosystem behaviour, so as to inform adaptive management by a community and instil resource stewardship (Uychiaoco et al. 2005) . Alternative livelihoods that make peoples' dependence on natural resources more sustainable also frequent innovations as part of CBFM.",
+            "cite_spans": [
+                {
+                    "start": 1085,
+                    "end": 1104,
+                    "text": "(Foale et al. 2011)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1437,
+                    "end": 1460,
+                    "text": "(Uychiaoco et al. 2005)",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Degrees of structuration"
+        },
+        {
+            "text": "The regime scale represents ''incumbent systems that involve dominant configurations relating to e.g. science, infrastructure, market and technology, and that have established 'institutional logics''' (Funfschulling and Truffer 2014 In: Wigboldus et al. 2016, p.4) . As a most basic interpretation, this scale represents 'how things are done' at any one time. At a national level, a country's government operates according to principles and procedures enshrined in national constitutions that have developed from histories of civil engagement, social and political unrest, geopolitics, market influences and biophysical change. This makes regimes highly complex to interpret or depict in any one shape or form. With the continued influx of proven innovations over time, the regime may change in its configuration to a state that is more conducive to supporting CBFM.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 264,
+                    "text": "Wigboldus et al. 2016, p.4)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Degrees of structuration"
+        },
+        {
+            "text": "As noted in previous sections the institutional make-up and logic of a regime means it functions in path dependent ways. This is depicted by way of merging pathways into the regime scale (see merging white dotted line in Fig. 1 ). Innovations may integrate and impact regime through such paths. Such paths are dynamic in their ability to take up new innovations. For example, strategic long-term planning instruments for national agencies to strengthen coastal fisheries may be developed at any one time based on existing policy, and in doing so pave way for new innovations that are in line with CBFM to be adopted in the future. Schwarz et al. (2020) outline how almost a decade's worth of consultation in policy design processes in the Solomon Islands led to the eventual inclusion of CBFM plans in the Fisheries Act; thus formally recognizing customary marine tenure governance structures for the first time. They furthermore argue that its inclusion can empower local actors in fisheries management only if practitioners continually use it into the future. So where certain innovations can trigger more systemic change in the configuration and function of the regime, consistent adoption of these can lead then to more permanent transitions.",
+            "cite_spans": [
+                {
+                    "start": 631,
+                    "end": 652,
+                    "text": "Schwarz et al. (2020)",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 221,
+                    "end": 227,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Degrees of structuration"
+        },
+        {
+            "text": "The landscape scale indicates the highest level of structure and exhibits strongest rigidity to change (Geels 2019) . This refers to fundamental aspects of social and political reality in how people live. This is framed around culture, worldviews, politics and custom, and is shaped by biophysical character of the environment. Small island developing states (SIDS) with an atoll and archipelagic nature, for example, present a very different coastal fisheries landscape than that of a continental coastline. Similarly, places where traditional ecological knowledge and custom practices form the foundation of how people view and use fisheries will differ from places where globalizing influence of markets, migration, urbanisation and religion have become formative. Landscape scale influences can therefore inhibit or catalyse CBFM-related regime shifts.",
+            "cite_spans": [
+                {
+                    "start": 103,
+                    "end": 115,
+                    "text": "(Geels 2019)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Degrees of structuration"
+        },
+        {
+            "text": "In outlining a theory of scaling CBFM, we incorporate the four phases of socio-technical transitions envisioned in the MLP (and PROMIS). In the first phase, niche-innovations gradually build up internal momentum through experimentation and trial-and-error. There would be a high degree of newness, uncertainty and chances of failure as well as competing claims and promises about CBFM. We may see a bourgeoning academic literature that attempts to apply the broad CBFM thinking into a specific locale, buoyed by new sources of funding supporting research in development initiatives (Shilomboleni and De Plaen 2019) , and establishment of pilot sites. In the subsequent phase, CBFM would establish a foothold in the targeted geography. It stabilizes into a plausible large-scale design through activities such as experience sharing, standard setting and model building, which help to articulate best practices and how-to guidelines (Geels 2019) . Often these are led by government fisheries departments and/or (external) development agencies. The articulation of positive cultural visions is also important in this phase to help legitimize the CBFM principles and attract wider backing (Song and Chuenpagdee 2014) . Vocal opposition to CBFM may surface by social groups who experience negative side effects or feel insufficiently involved in decision making. At the same time, this is the phase where government officers, fishery extension workers, and fishing communities would start to embed or reinforce CBFM principles in the daily routines and practices (see Song et al. 2019) .",
+            "cite_spans": [
+                {
+                    "start": 582,
+                    "end": 614,
+                    "text": "(Shilomboleni and De Plaen 2019)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 931,
+                    "end": 943,
+                    "text": "(Geels 2019)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1185,
+                    "end": 1212,
+                    "text": "(Song and Chuenpagdee 2014)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1563,
+                    "end": 1580,
+                    "text": "Song et al. 2019)",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phases of scaling"
+        },
+        {
+            "text": "The third phase, 'disruption', is characterized with the struggles between CBFM and the existing ways of managing fisheries (or lack thereof), as CBFM is pushed to take advantage of structural windows of opportunity created by landscape developments and niche-internal drivers. These struggles may play out in the economic domain involving fish capture and market institutions. The struggles could also engender policy disruptions as well as cultural and cognitive conflicts about the framing of fisheries problems and solutions. There is no guarantee that CBFM as niche-innovations will inevitably win these struggles. The principles of responsible scaling have told us that there are likely winners and losers from the process of scaling. Thus, disruptions, if anything, should generate an opportunity to critically reflect upon the merits of an emergent CBFM approach. If sufficient momentum is maintained, CBFM would then enter the fourth phase where it becomes institutionalized forming a 'new norm' that anchors regulations, fisher expectations and operational standards.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phases of scaling"
+        },
+        {
+            "text": "In reality, how CBFM is scaled to coastal communities is observed to follow a non-linear pattern, consistent with what we can expect in the non-orderly progression of these idealized phases (Geels and Raven 2006) . Based on case studies in Solomon Islands, Abernethy et al. (2014) conclude that the studied communities moved forwards and backwards in their progression towards CBFM institutionalization based on the fluctuating degree of political support. Periods of rapid change or stagnation have also been documented. For example, CBFM in South Korea has so far failed to garner the sustained motivation of fishing communities despite the government's vigorous promotion for nearly two decades commencing in the early 2000s (Park 2018) . Understanding scaling via these four phases can therefore help raise crucial questions about the present and future trajectories of CBFM cases around the world.",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 212,
+                    "text": "(Geels and Raven 2006)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 257,
+                    "end": 280,
+                    "text": "Abernethy et al. (2014)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 728,
+                    "end": 739,
+                    "text": "(Park 2018)",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phases of scaling"
+        },
+        {
+            "text": "Lastly, our framework recognizes the role of external drivers of change-both social and biophysical, as indicated in the outer perimeters of in Fig. 1 -that can strengthen or destabilize niche and regime level developments, and Fig. 2 A conceptual framework for scaling CBFM that draws from PROMIS framing of scaling innovations. The figure depicts (spontaneous and deliberated) processes and structures transitioning a regime towards a desired outcome based on a generic vision of 'implementing CBFM principles'; namely inter-and intra-connected sets of networks involving stakeholders doing and/or supporting CBFM that enables decentralized, polycentric governance of coastal fisheries over a defined large (national) space \u00d3 The Author(s) 2021 www.kva.se/en landscape contexts. Economic external pressures such as macro-economic recessions or trade sanctions may erode the financial resource base of an otherwise thriving innovation, while socio-political external pressures may be related to social movement protests, changing government coalitions or persistent negative media coverage to affect the legitimacy and political support for an existing niche or regime innovation (Geels 2019). Community-based fisheries is prone to such external influences and more. Highlevel policy discourses and global finances have historically produced a sizable effect on the way communitybased fisheries are imagined and practised, although not always in the best interest of the communities themselves (Steenbergen et al. 2017 ). More sudden external influences include natural disasters and severe weather events, which can devastate coastal areas and overwhelm communities' capacity to a quick recovery as learned from the typhoon impacts in the Philippines (Monteclaro et al. 2018) . Most recently, the COVID-19 pandemic has critically exposed the vulnerability of coastal fisheries to the sudden realities of blocked market access, border restrictions and economic loss, creating a damaging effect on fish value chains and the livelihoods of the communities (FAO 2020). Scaling of CBFM in such extraordinary times, may potentially be undermined by emergency governing responses of the government taking precedence over community bylaws and other CBFM proceedings. Conversely, the (over)burdens caused by COVID-19 on central governments around the world can highlight the need for local fisheries management capacity as a means to overcome the pandemic-induced community vulnerabilities (Steenbergen et al. 2020) . Such calls could add impetus among national and regional institutions towards furthering scaling progress.",
+            "cite_spans": [
+                {
+                    "start": 1495,
+                    "end": 1519,
+                    "text": "(Steenbergen et al. 2017",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 1753,
+                    "end": 1777,
+                    "text": "(Monteclaro et al. 2018)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 2483,
+                    "end": 2508,
+                    "text": "(Steenbergen et al. 2020)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 144,
+                    "end": 150,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 228,
+                    "end": 234,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "External drivers"
+        },
+        {
+            "text": "Despite increased focus on scaling local-level collective action institutions like CBFM, there has been less attention given to the theory guiding such initiatives and therefore an insufficient understanding of what it means to scale innovations of such type. Drawing on PROMIS thinking (Wigboldus et al. 2016 ) around agriculture innovations we move theory beyond diffusion perspectives, and assumptions of linear, sequential implementation, by presenting a framework with a more integrative, cumulative perspective that incorporates reflexive insights on what scaling CBFM might involve. This perspective takes into account process-driven as well as structural change across multiple levels of governance, phases of innovation and stages of institutionalisation. In doing so, we highlight the fundamental interplay between targeted action at the niche (e.g. community) scale and cumulative conditioning of an environment to enable change or drive 'regime shifts'. In essence, we hypothesize that successful scaling requires engagement with all aspects of the governing regime, and therefore, is an enterprise that is larger than its parts.",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 309,
+                    "text": "(Wigboldus et al. 2016",
+                    "ref_id": "BIBREF65"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "The framework intends to lay the ground work for a comprehensive understanding of scaling CBFM. It provides a set of non-sequential areas of inquiry that direct us to (i) reflect on the potential positive and negative consequences of a scaling initiative (i.e. who benefits, who lags, are there ethical concerns, are there alternatives?); (ii) identify push and pull factors and their relative strengths and efficacy; (iii) understand regime-specific path-dependent 'stickiness' that may exert influence on scaling; (iv) examine the dynamics of scaling through combined process-driven and structural-driven changes; (v) assess, and potentially track, the relative 'position' of a scaling initiative in terms of degrees of structuration and phases of scaling; and (vi) consider impacts of external drivers on scaling trajectories. Such considered inquiry is imperative to allow subsequent translation into pragmatic tools and strategic guidance that can inform development of coherent (national) scaling programs. It can highlight potential entry points for design of effective monitoring mechanisms that drive mutually-responsive policy design and ground-level implementation. Box 1 briefly illustrates an application of the framework. Without offering an in-depth analysis, the CBFM case in Vanuatu preliminarily demonstrates the utility of the perspective offered through the four main dimensions of the framework (See ''Distinguishing structure from process-External drivers'' sections). Using the aforementioned ambition to develop 'national CBFM scaling programs' as an example of the way the framework can make sense of a regime shift over time, it highlights how the framework can further offer guidance and help to coordinate emerging CBFM scaling strategies and/or retrospectively identify gaps in scaling initiatives that are underway.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "Although our thinking focuses in particular on scaling CBFM, the insights generated may be applicable across a broader set of initiatives that depend on local collective action for progress. Programs seeking spread in participatory natural resource management, rural livelihood enhancement, participatory conservation, remote health care provision and community development, all rely on synergetic collective organization at local levels. Ultimately, the framework holds potential as a tool with which to inform design and long-term planning for national development strategies. In that, the deliberate focus is on setting out principles and perspectives instead of proposing a type of governance model that would otherwise stipulate institutional structure and operational BOX 1: AN APPLICATION OF THE THEORY FOR SCALING CBFM Here we illustrate how the early evolution of a national coastal fisheries program can be usefully understood by considering a holistic scaling perspective as outlined by the different dimensions of the framework. In Vanuatu the evolution of CBFM can be traced to early initiatives in the 1990s. Raubani et al. (2017) write that at least seven externally-funded projects have had particular influence in shaping today's approach to CBFM in Vanuatu. The aim to develop and refine a CBFM approach for broad application in Vanuatu was first demonstrated with the implementation of the Japanese government-funded project, ''Grace of the Sea'' in 2006. Later, ambitions to scale CBFM were made more explicit through the Australian Government-funded ''Pathways'' project. Important developments at all three scales of structuration have been at play. At the niche scale, the series of bilateral projects worked in communities in partnership with the government. The trochus rehabilitation programme in the early 1990s provided early lessons to the government about the importance of community engagement. Raubani et al (2017, p.8 ) make note of Johannes (1998)'s observation that the government ''catalysed a striking upsurge in tradition-based marine resource management'' among communities during that period. Niche innovations consistently followed, both in the government (e.g. see Sami et al. 2020 ) and non-government sector (e.g. see Neihapi et al. 2019) , and over time were influential in the government's recognition of CBFM in the national Fisheries Act. Further evidence of this is the long-term strategic planning framework that sets out a national vision to 2030 for CBFM (Vanuatu Fisheries Department 2019). At the regime scale, western governance influence over time established a foundation for centralised fisheries management. However, the various niche-level interventions over the years have helped the government to strongly adopt CBFM (Raubani et al. 2017) . At the landscape scale, traditional structure and customary law provides the overarching cultural framework for regulating resource use and access, making the communities proforma owners of the resources.",
+            "cite_spans": [
+                {
+                    "start": 1123,
+                    "end": 1144,
+                    "text": "Raubani et al. (2017)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1926,
+                    "end": 1950,
+                    "text": "Raubani et al (2017, p.8",
+                    "ref_id": null
+                },
+                {
+                    "start": 2207,
+                    "end": 2223,
+                    "text": "Sami et al. 2020",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2262,
+                    "end": 2282,
+                    "text": "Neihapi et al. 2019)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 2779,
+                    "end": 2800,
+                    "text": "(Raubani et al. 2017)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "CBFM outcomes often depend on internal community processes, not just the external support a community receives. According to Tavue et al. (2016) , during the ''Grace of the Sea'' project, there was notable willingness of the communities to enrol in CBFM, which may be seen as the promising sign of CBFM spreading throughout Vanuatu. Even then, however, excessive reliance of CBFM systems on external agencies has been an ongoing issue. Once external support dries up, sustaining CBFM activities largely depends on the ability of communities to negotiate different visions within the communities, resolve conflicts and engineer ways to continue to enforce community rules (L\u00e9opold et al. 2013) . The experiences of scaling CBFM in Vanuatu resemble the stage of stabilisation; through the continuing niche-level interventions in the form of external projects, combined with an increasingly strong commitment of the government, there is a plausible pathway to the adoption of a national program in Vanuatu. Influences of external drivers have been evident and will continue to impact pathways for change into the future. Various socio-political struggles have disrupted the trajectory, including pauses in foreign funding, introduction of new management paradigms, changes in government leadership or national emergency measures around COVID-19; as have biophysical disruptions in the form of natural disasters (tropical cyclone Pam and Harold in 2015 and 2020). All these elements play a part in constructing the trajectory of Vanuatu's CBFM regime shift across scales of structuration and phases of innovation.",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 144,
+                    "text": "Tavue et al. (2016)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 671,
+                    "end": 692,
+                    "text": "(L\u00e9opold et al. 2013)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "Photos: (i) CBFM workshop on Tanna Island, Vanuatu, and (ii) Small-scale fisher from Ambae Island, Vanuatu (Photos by Paul Jones) guidelines. Whereas the increased connectivity of a globalized world is often framed as a challenge to community development, sound theoretical guidance can harness such connectivity to strengthen networks of all relevant partners who make up nodes of collective action as part of national policy programs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons. org/licenses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Two steps forward, two steps back: The role of innovation in transforming towards community-based marine resource management in Solomon Islands",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Abernethy",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "Bodin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Olsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hilly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schwarz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Global Environmental Change",
+            "volume": "28",
+            "issn": "",
+            "pages": "309--321",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "One size does not fit all: Critical insights for effective community-based resource management in Melanesia",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aswani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Albert",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Love",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Marine Policy",
+            "volume": "81",
+            "issn": "",
+            "pages": "381--391",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The way forward with ecosystem-based management in tropical contexts: reconciling with existing management systems",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aswani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Christie",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Muthiga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mahon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Primavera",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Barbier",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Granek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Marine Policy",
+            "volume": "36",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "From niche to mainstream: the dilemmas of scaling up sustainable alternatives",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Augenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bachmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Egermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hermelingmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hilger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jaeger-Erben",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P M"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "143--147",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Tropical artisanal coastal fisheries: Challenges and future directions",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Batista",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fabr\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C M"
+                    ],
+                    "last": "Malhado",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ladle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Reviews in Fisheries Science & Aquaculture",
+            "volume": "22",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Power struggle, dispute and alliance over local resources: analyzing 'democratic' decentralization of natural resources through the lenses of Africa Inland fisheries",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "B\u00e9n\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Belal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Baba",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ovie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Raji",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Malasha",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Njaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Na"
+                    ],
+                    "last": "Andi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "World Development",
+            "volume": "37",
+            "issn": "",
+            "pages": "1935--1950",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "How feasible is the scaling-out of livelihood and food system adaptation in Asia-Pacific Islands?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R A"
+                    ],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Rochester",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Skewes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wise",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bohensky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Katzfey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G C"
+                    ],
+                    "last": "Kirono",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Frontiers in Sustainable Food Systems",
+            "volume": "4",
+            "issn": "",
+            "pages": "1--2",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Social dimensions of local fisheries co-management in the Coral Triangle",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Environmental Conservation",
+            "volume": "42",
+            "issn": "",
+            "pages": "278--288",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Taking innovations to scale: methods, applications and lessons. Washington: Results for Development Institute",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cooley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Linn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "A systematic review of co-managed small-scale fisheries: Social diversity and adaptive management improve outcomes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Armengol",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Castillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ruiz-Mall\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Corbera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Global Environmental Change",
+            "volume": "52",
+            "issn": "",
+            "pages": "212--225",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Missing marine protected area (MPA) targets: How the push for quantity over quality undermines sustainability and social justice",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Santo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Environmental Management",
+            "volume": "124",
+            "issn": "",
+            "pages": "137--146",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Scaling better together: The International Livestock Research Institute's framework for scaling",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "A W N"
+                    ],
+                    "last": "Dror",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Scaling up local government initiatives toward ecosystem-based fisheries management in Southeast Cebu Island Philippines",
+            "authors": [
+                {
+                    "first": "R.-L",
+                    "middle": [],
+                    "last": "Eisma-Osorio",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Amolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Maypa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Christie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Coastal Management",
+            "volume": "37",
+            "issn": "",
+            "pages": "291--307",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Assessing the impact of fisheries co-management interventions in developing countries: a meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cherrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pemsl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Environmental Management",
+            "volume": "92",
+            "issn": "",
+            "pages": "1938--1949",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Voluntary guidelines for securing sustainable small-scale fisheries in the context of food security and poverty eradication",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "How is COVID-19 affecting the fisheries and aquaculture food systems",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Tenure and taboos: Origins and implications for fisheries in the Pacific",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Foale",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Januchowski-Hartley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Macintyre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Fish and Fisheries",
+            "volume": "12",
+            "issn": "",
+            "pages": "357--369",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Scaling territorial use rights in fisheries (TURFs) in Belize",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fujita",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Battista",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Karr",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Higgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Landman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Carcamo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Bulletin of Marine Science",
+            "volume": "93",
+            "issn": "",
+            "pages": "137--153",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Scaling science",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gargani",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mclean",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Stanford Social Innovation Review",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Non-linearity and expectations in niche-development trajectories: ups and downs in dutch biogas development",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Geels",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Raven",
+                    "suffix": ""
+                }
+            ],
+            "year": 1973,
+            "venue": "Technology Analysis & Strategic Management",
+            "volume": "18",
+            "issn": "",
+            "pages": "375--392",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Technological transitions as evolutionary reconfiguration processes: A multi-level perspective and a case-study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Geels",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Research Policy",
+            "volume": "31",
+            "issn": "",
+            "pages": "1257--1274",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Socio-technical transitions to sustainability: A review of criticisms and elaborations of the Multi-Level Perspective",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Geels",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Current Opinion in Environmental Sustainability",
+            "volume": "39",
+            "issn": "",
+            "pages": "187--201",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Fishers' perceptions on the Chilean coastal TURF system after two decades: Problems, benefits, and emerging needs",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gelcich",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cinner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Donlan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tapia-Lewin",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Godoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Castilla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "93",
+            "issn": "",
+            "pages": "53--67",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The constitution of society: Outline of the theory of structuration",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giddens",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Hope in troubled times: a new vision for confronting global crises",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Goudzwaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Vennen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Heemst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Achieving the potential of locally managed marine areas in the South Pacific",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Govan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "SPC Traditional Marine Resource Management and Knowledge Information Bulletin",
+            "volume": "25",
+            "issn": "",
+            "pages": "16--25",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Social network analysis of multi-stakeholder platforms in agricultural research for development: Opportunities and constraints for innovation and scaling",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sartas",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Schagen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Van Asten",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS ONE",
+            "volume": "12",
+            "issn": "",
+            "pages": "169--634",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "On the preconditions for large-scale collective action",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jagers",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Harring",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c5",
+                    "middle": [],
+                    "last": "L\u00f6fgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sj\u00f6stedt",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alpizar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Brulde",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Langlet",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nilsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ambio",
+            "volume": "49",
+            "issn": "",
+            "pages": "1282--1296",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s13280-019-01284-w"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Interactive governance for small-scale fisheries: global reflections",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jentoft",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chuenpagdee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "MARE Publication Series",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Government-supported, village-based management of marine resources in Vanuatu",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Johannes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Ocean & Coastal Management",
+            "volume": "40",
+            "issn": "",
+            "pages": "165--186",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The translation perspective as an alternative to the policy diffusion paradigm: The case of the Swedish methadone maintenance treatment",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Hagstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Social Policy",
+            "volume": "34",
+            "issn": "",
+            "pages": "365--388",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "People and the sea: A 'tropical-majority' world perspective",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kurien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Maritime Studies (MAST)",
+            "volume": "1",
+            "issn": "",
+            "pages": "9--26",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Scaling the impact of sustainability initiatives: A typology of amplification processes",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P M"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mart\u00edn-L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wiek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Frantzeskaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Horcea-Milcu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Urban Transformations",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Reconceptualizing participation for sustainable rural development: Towards a negotiation approach",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Development and Change",
+            "volume": "31",
+            "issn": "",
+            "pages": "931--959",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Community-based management of near-shore fisheries in Vanuatu: What works?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "L\u00e9opold",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Beckensteiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kaltavara",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Raubani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Caillon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Marine Policy",
+            "volume": "42",
+            "issn": "",
+            "pages": "167--176",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Scaling up to networks of marine protected areas in the Philippines: Biophysical, legal, institutional, and social considerations",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lowry",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Christie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Coastal Management",
+            "volume": "37",
+            "issn": "",
+            "pages": "274--290",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Expanding fisheries co-management to ecosystem-based management: A case in the Shiretoko World Natural Heritage area Japan",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Makino",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Matsuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sakurai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Marine Policy",
+            "volume": "33",
+            "issn": "",
+            "pages": "207--214",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "When conservation goes viral: The diffusion of innovative biodiversity conservation policies and practices",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mascia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Conservation Letters",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "How conservation initiatives go to scale",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bode",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mascia",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Weeks",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gelcich",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dudley",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Govan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Archibald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Sustainability",
+            "volume": "2",
+            "issn": "",
+            "pages": "935--940",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Impacts of Typhoon Haiyan on Philippine capture fisheries and implications to fisheries management",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Monteclaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Quinitio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Moscoso",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Napata",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Espectato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anraku",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ishikawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ocean & Coastal Management",
+            "volume": "158",
+            "issn": "",
+            "pages": "128--133",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Scaling and institutionalization within agricultural innovation systems: the case of cocoa farmer field schools in Cameroon",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muilerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wigboldus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "International Journal of Agricultural Sustainability",
+            "volume": "16",
+            "issn": "",
+            "pages": "167--186",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Twisting and spinning' theatre into coastal fisheries management: Informing and engaging communities to address challenges",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Neihapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sokach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koran",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Devine",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dorras",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "SPC Women in Fisheries Information Bulletin",
+            "volume": "30",
+            "issn": "",
+            "pages": "24--29",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Building networks of support for community-based coastal resource management in Cambodia. Communities, Livelihoods and Natural Resources. Action Research and Policy Change in Asia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S R"
+                    ],
+                    "last": "Marchke",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Warwickshire",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "151--168",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Fisheries co-management in Korea started with missteps. Current Ocean",
+            "authors": [
+                {
+                    "first": "J.-M",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Past experiences and the refinement of Vanuatu's model for supporting community-based fisheries management",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Raubani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eriksson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Neihapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Baereleo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Amos",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pakoa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gereva",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Nimoho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "SPC Traditional Marine Resource Management and Knowledge Information Bulletin",
+            "volume": "38",
+            "issn": "",
+            "pages": "3--13",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Diffusion of innovations",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "A novel participatory catch monitoring approach: The Vanuatu experience. SPC Fisheries Newsletter",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sami",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Neihapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koran",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ephraim",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Malverus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sokach",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Joy",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Scaling Readiness: Science and practice of an approach to enhance impact of research for development",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sartas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schut",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Proietti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Thiele",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Agricultural Systems",
+            "volume": "183",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Science of Scaling: Understanding and guiding the scaling of innovation for societal outcomes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schut",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Thiele",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Agricultural Systems",
+            "volume": "184",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Nudging statutory law to make space for customary processes and community-based fisheries management in Solomon Islands",
+            "authors": [
+                {
+                    "first": "A.-M",
+                    "middle": [],
+                    "last": "Schwarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gordon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ramofafia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Maritime Studies",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Anchoring innovation methodologies to 'go-to-scale'; a framework to guide agricultural research for development",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seifu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Paassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klerkx",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Agricultural Systems",
+            "volume": "182",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Scaling up research-fordevelopment innovations in food and agricultural systems",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shilomboleni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "De Plaen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Development in Practice",
+            "volume": "29",
+            "issn": "",
+            "pages": "723--734",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Towards a governable co-management in South Korean small-scale fisheries: Interactions of institutions and stakeholders' mindset",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Interactive governance for small-scale fisheries: Global reflections",
+            "volume": "",
+            "issn": "",
+            "pages": "687--704",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Exploring stakeholders' images of coastal fisheries: A case study from South Korea",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chuenpagdee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Ocean & Coastal Management",
+            "volume": "100",
+            "issn": "",
+            "pages": "10--19",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Multi-scale policy diffusion and translation in Pacific Island coastal fisheries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Hanich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Morrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Ocean & Coastal Management",
+            "volume": "168",
+            "issn": "",
+            "pages": "139--149",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Understanding influences in policy landscapes for sustainable coastal livelihoods",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Clifton",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Visser",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stacey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mcwilliam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Marine Policy",
+            "volume": "82",
+            "issn": "",
+            "pages": "181--188",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "COVID-19 restrictions amidst cyclones and volcanoes: A rapid assessment of early impacts on livelihoods and food security in coastal communities in Vanuatu. Marine Policy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Neihapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sami",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Malverus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ephraim",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Implementing strategies to overcome social-ecological traps: the role of community brokers and institutional bricolage in a locally managed marine area",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Warren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Ecology and Society",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "What influences the form that community-based fisheries management takes in Vanuatu? SPC Traditional Marine Resource Management and Knowledge Information Bulletin",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tavue",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Neihapi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Raubani",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Bertram",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "37",
+            "issn": "",
+            "pages": "22--34",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Exploring window of opportunity dynamics in infrastructure transformation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tongur",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Engwall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Environmental Innovation and Societal Transitions",
+            "volume": "25",
+            "issn": "",
+            "pages": "82--93",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Scaling practices within agricultural innovation platforms: Between pushing and pulling",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Totin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Mierlo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klerkx",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Agricultural Systems",
+            "volume": "179",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Transforming our world: the 2030 agenda for sustainable development",
+            "authors": [
+                {
+                    "first": "Undg",
+                    "middle": [],
+                    "last": "Ambio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Monitoring and evaluation of reef protected areas by local fishers in the philippines: tightening the adaptive management cycle",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Uychiaoco",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Arceo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T D L"
+                    ],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Gaite",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ali\u00f1o",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Biodiversity & Conservation",
+            "volume": "14",
+            "issn": "",
+            "pages": "2775--2794",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "The management of common property resources: Collective action as an alternative to privatisation or state regulation",
+            "authors": [
+                {
+                    "first": "Biosecurity",
+                    "middle": [],
+                    "last": "Wade",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Vanuatu Fisheries Department. 2019. Vanuatu National Roadmap for Coastal Fisheries: 2019-2030. Port Vila",
+            "volume": "11",
+            "issn": "",
+            "pages": "95--106",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Scaling green rubber cultivation in Southwest China: An integrative analysis of stakeholder perspectives",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wigboldus",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hammond",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-F",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klerkx",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Science of The Total Environment",
+            "volume": "580",
+            "issn": "",
+            "pages": "1475--1482",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Systemic perspectives on scaling agricultural innovations A review",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wigboldus",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Klerkx",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schut",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Muilerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jochemsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Agronomy for Sustainable Development",
+            "volume": "36",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Towards responsible scaling up and out in agricultural development: An exploration of concepts and principles. Discussion paper prepared for the CGIAR Research Program on Integrated Systems for the Humid Tropics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wigboldus",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Leeuwis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "The fisheries comanagement experience: Accomplishments, challenges, and prospects",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Degnbol",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "His research interests include rural development, small scale fisheries and co-management of natural resources; with particular focus and experience in the Asia-Pacific region. Address: Australian Centre for Ocean Resources and Security (ANCORS)",
+            "authors": [
+                {
+                    "first": "Dirk",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Steenbergen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Song is a lecturer and Australian Research Council DECRA Fellow at the University of Technology Sydney. His research interests include fisheries governance and maritime security",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Andrew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Address: Faculty of Arts and Social Sciences",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "He works at the interface between food security, coastal fisheries, and ecological research and policy. Address: Australian Centre for Ocean Resources and Security (ANCORS)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Acknowledgements This research is supported by the Australian government through ACIAR project FIS-300-2016. Andrew Song acknowledges the support of the Australian Research Council (DE200100712). The authors thank Jason Raubani and colleagues at the Vanuatu Department of Fisheries (VFD) for their valuable input, and two anonymous reviewers for their constructive feedback.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

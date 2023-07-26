@@ -1,0 +1,5337 @@
+{
+    "paper_id": "00d3b04b65d94f5617723cd972604c08d4d0bb4b",
+    "metadata": {
+        "title": "Metabolomic analysis coupled with extreme phenotype sampling identified that lysophosphatidylcholines are associated with multisite musculoskeletal pain",
+        "authors": [
+            {
+                "first": "Ming",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zikun",
+                "middle": [],
+                "last": "Xie",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christie",
+                "middle": [
+                    "A"
+                ],
+                "last": "Costello",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Weidong",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Liujun",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Dake",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Andrew",
+                "middle": [],
+                "last": "Furey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Edward",
+                "middle": [
+                    "W"
+                ],
+                "last": "Randell",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Guangju",
+                "middle": [],
+                "last": "Zhai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Musculoskeletal pain often occurs simultaneously at multiple anatomical sites. The aim of the study was to identify metabolic biomarkers for multisite musculoskeletal pain (MSMP) by metabolomics with an extreme phenotype sampling strategy. The study participants (n 5 610) were derived from the Newfoundland Osteoarthritis Study. Musculoskeletal pain was assessed using a self-reported pain questionnaire where painful sites were circled on a manikin by participants and the total number of painful sites were calculated. Targeted metabolomic profiling on fasting plasma samples was performed using the Biocrates AbsoluteIDQ p180 kit. Plasma cytokine concentrations including tumor necrosis factor-a, interleukin-6, interleukin-1b, and macrophage migration inhibitory factor were assessed by enzyme-linked immunosorbent assay. Data on blood cholesterol profiles were retrieved from participants' medical records. Demographic, anthropological, and clinical information was self-reported. The number of reported painful sites ranged between 0 and 21. Two hundred and five participants were included in the analysis comprising 83 who had $7 painful sites and 122 who had #1 painful site. Women and younger people were more likely to have MSMP (P # 0.02). Multisite musculoskeletal pain was associated with a higher risk of having incontinence, worse functional status and longer period of pain, and higher levels of low-density lipoprotein and non-high-density lipoprotein cholesterol (all P # 0.03). Among the 186 metabolites measured, 2 lysophosphatidylcholines, 1 with 26 carbons with no double bond and 1 with 28 carbons with 1 double bond, were significantly and positively associated with MSMP after adjusting for multiple testing with the Bonferroni method (P # 0.0001) and could be considered as novel metabolic markers for MSMP.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Musculoskeletal pain is a major cause of disability worldwide. 17 It has the tendency to recur and quite often affects multiple anatomical sites simultaneously. The prevalence of multisite musculoskeletal pain (MSMP) ranges from 34% to 54%-2 to 3 times of that of single-site pain. 6, 15 It is highly persistent 31 and is a major contributor of reduced productivity and economic loss at all levels. 14, 15, 22 Multisite musculoskeletal pain is strongly associated with reduction in health-related quality of life, increasing occurrence of health care utilization and restrictions of work, 12, 14, 30 and imposes even more serious health issues on the elderly population. 4, 47, 53, 67 Although the pathogenesis of MSMP remains elusive, a number of potential risk factors for MSMP have been reported, including older age, 7 female sex, 7,10 greater fat mass index (FMI), 3, 46 sleep deprivation, 18 high physical demands, 10, 24 and psychological factors such as somatising tendency, 7,54 pain catastrophizing, and fear of pain. 45 However, the findings on most of these risk factors such as age, sex, sleep quality, physical demands, and somatising tendency were conflicting partly due to different case definitions and study populations. 7, 10, 18, 24, 40, 44, 46, 54 The role of cytokines in pain modulation has been intensively studied. Altered levels of proinflammatory cytokines including interleukin-6 (IL-6), interleukin-1 beta (IL-1b), tumour necrosis factor-alpha (TNF-a), and macrophage migration inhibitory factor (MIF) have been reported in patients with pain syndromes such as fibromyalgia, 52 advanced cancer, 49 neuropathic pain after spinal cord injury, 35 complex regional pain syndrome, 11 and chronic prostatitis/chronic pelvic pain Sponsorships or competing interests that may be relevant to content are disclosed at the end of this article. syndrome. 39 These findings have provided rationale and guidance for therapeutic interventions such as anticytokine therapies for pain. However, the role of these proinflammatory cytokines in MSMP remains elusive. 62 Metabolomics, an emerging and rapidly evolving field, has been highlighted as one of the broadest and more reliable tools for physiological status investigation, discovery of new biomarkers, and metabolic pathway analysis. 5 Metabolomics involves quantitative detection of a large number of small molecule metabolites in biological system, and their steady-state levels can be regarded as the ultimate response of biological systems to genotype, phenotype, and environment. 74 Metabolomics studies have identified metabolic markers associated with a number of diseases including cancer, 26 diabetes, 1 Alzheimer disease, 60 and cardiovascular diseases. 16 We have recently applied metabolomics approach to osteoarthritis (OA) and have identified several metabolic markers that are potentially clinical actionable. [77] [78] [79] However, data on metabolomics of MSMP are still sparse. Therefore, we hypothesized that systemic factors may play a role in the development of MSMP and undertook the current study to identify metabolic biomarkers for MSMP using a metabolomics approach coupled with an extreme phenotype sampling strategy. We expected that systemic factors affecting MSMP would be more likely to be detected in those who had a greater number of painful sites. Single-site pain could arise from local tissue damage. Such study design has been used in genetic case-control studies, comparing genetic backgrounds using 2 extreme groups. 2 ",
+            "cite_spans": [
+                {
+                    "start": 63,
+                    "end": 65,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 282,
+                    "end": 284,
+                    "text": "6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 285,
+                    "end": 287,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 312,
+                    "end": 314,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 407,
+                    "end": 409,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 589,
+                    "end": 592,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 593,
+                    "end": 596,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 597,
+                    "end": 599,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 671,
+                    "end": 673,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 674,
+                    "end": 677,
+                    "text": "47,",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 678,
+                    "end": 681,
+                    "text": "53,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 682,
+                    "end": 684,
+                    "text": "67",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 870,
+                    "end": 872,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 873,
+                    "end": 875,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 895,
+                    "end": 897,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 921,
+                    "end": 924,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 925,
+                    "end": 927,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1028,
+                    "end": 1030,
+                    "text": "45",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1239,
+                    "end": 1241,
+                    "text": "7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 1242,
+                    "end": 1245,
+                    "text": "10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1246,
+                    "end": 1249,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1250,
+                    "end": 1253,
+                    "text": "24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1254,
+                    "end": 1257,
+                    "text": "40,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1258,
+                    "end": 1261,
+                    "text": "44,",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1262,
+                    "end": 1265,
+                    "text": "46,",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1266,
+                    "end": 1268,
+                    "text": "54",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1604,
+                    "end": 1606,
+                    "text": "52",
+                    "ref_id": null
+                },
+                {
+                    "start": 1624,
+                    "end": 1626,
+                    "text": "49",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 1705,
+                    "end": 1707,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1872,
+                    "end": 1874,
+                    "text": "39",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 2076,
+                    "end": 2078,
+                    "text": "62",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 2302,
+                    "end": 2303,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2553,
+                    "end": 2555,
+                    "text": "74",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 2666,
+                    "end": 2668,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2700,
+                    "end": 2702,
+                    "text": "60",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 2732,
+                    "end": 2734,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2893,
+                    "end": 2897,
+                    "text": "[77]",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 2898,
+                    "end": 2902,
+                    "text": "[78]",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 2903,
+                    "end": 2907,
+                    "text": "[79]",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 3524,
+                    "end": 3525,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The study participants were derived from the Newfoundland Osteoarthritis Study, which was initiated in 2011 and aimed at identifying novel genetic, epigenetic, and biochemical markers for OA and other musculoskeletal conditions. 9, 76 The study recruited 1086 patients who underwent total knee or hip replacement surgeries largely due to OA with a small number of patients due to other joint diseases such as rheumatoid arthritis and psoriatic arthritis between 2011 and 2017 in St. Clare's Mercy Hospital and Health Science Centre General Hospital in St. John's, Newfoundland and Labrador, Canada. The study was approved by the Health Research Ethics Authority of Newfoundland and Labrador (HREB # 2011.311), and written consent was obtained from all participants. Patients of all disease status were included in the current study.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 231,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 232,
+                    "end": 234,
+                    "text": "76",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study participants"
+        },
+        {
+            "text": "Multisite musculoskeletal pain was assessed before patients' total joint replacement (TJR) surgery using a simple pain questionnaire where participants were asked to circle painful sites on a manikin (Fig. 1) , and then, the numbers of all painful sites including the knee and/or hip were summed up. Based on the distribution of MSMP, we chose 2 extreme groups, patients with pain sites #1 and those with $7 pain sites for the current study. We used painful sites $7 as the threshold as a simple measure to define MSMP, which was also the revised criteria recently proposed to define widespread pain. 68 Pain intensity and functional deficit at specific joint (knee or hip) at the same time point was assessed by the Western Ontario and McMaster Universities Osteoarthritis Index version 3.0, where pain was rated between 0 and 20 and functional deficit between 0 and 68, with 0 representing no pain or functional difficulties for each scale.",
+            "cite_spans": [
+                {
+                    "start": 601,
+                    "end": 603,
+                    "text": "68",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 200,
+                    "end": 208,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Multisite musculoskeletal pain data collection"
+        },
+        {
+            "text": "Date of birth and sex data were collected with a general health questionnaire, and age at the time of MSMP assessment was then calculated. Weight and height data were retrieved from Eastern Health Meditech Health Care Information System, and body mass index (BMI) was calculated as weight in kg/squared height in meters. Presence or absence of 46 comorbidities in cardiology, immunology, gastroenterology, endocrinology, neurology, oncology, rheumatology, dermatology, audiology, ophthalmology, and urology was collected by a general health questionnaire. Pain experience longer than 24 hours was also reported on the same questionnaire. Data on conventional blood lipid profiles including total cholesterol, high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, non-HDL cholesterol, total cholesterol-to-HDL ratio, and triglycerides were retrieved from Eastern Health Meditech Health Care Information System, which were performed as routine clinic examination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Demographic and medical information, and conventional blood lipid profiles"
+        },
+        {
+            "text": "Whole venous peripheral blood samples were collected either before TJR surgery or at least 3 months after TJR surgery with 4-mL Vacutainer EDTA tubes (36786, BD, NJ) after at least 8 hours' fasting. The blood was centrifuged at 2000 rpm for 10 minutes, and the plasma was transferred into microcentrifuge tubes and stored at 280\u02daC until analysis. Targeted metabolic profiling was performed using the Biocrates AbsoluteIDQ p180 kit (BIOCRATES Life Sciences AG, Innsbruck, Austria), which quantifies 186 metabolites including acylcarnitines (n 5 40), amino acids (n 5 22), biogenic amines (n 5 18), hexoses (sum of hexoses) (n 5 1), and phospholipids and sphingolipids (n 5 105) (see Table, Supplemental Digital Content 1, which lists the details of the 186 metabolites that were determined using the Biocrates AbsoluteIDQp180 kit, available at http://links.lww.com/PAIN/ B160). The profiling was performed using an API4000 Qtrap tandem mass spectrometry instrument (Applied Biosystems/ MDS Analytical Technologies, Foster City, CA) equipped with Agilent 1100 HPLC system at The Metabolomics Innovation Centre (https://www.metabolomicscentre.ca). The targeted metabolite concentration complete analytical process was performed using the MetIQ software package, which is an integral part of the AbsoluteIDQ kit, and the concentrations were reported in micromolar. The complete metabolic profiling method using this kit was as described previously. 75 Our in-house reproducibility of the assay was performed in 23 samples as previously described 75 ; the mean coefficient of variation (CV) for all metabolites was 0.07 6 0.05 mM (mean 6 SD).",
+            "cite_spans": [
+                {
+                    "start": 1445,
+                    "end": 1447,
+                    "text": "75",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 1542,
+                    "end": 1544,
+                    "text": "75",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 682,
+                    "end": 688,
+                    "text": "Table,",
+                    "ref_id": null
+                }
+            ],
+            "section": "Plasma metabolic profiling"
+        },
+        {
+            "text": "Plasma levels of MIF, TNF-a, IL-6, and IL-1b were measured in duplicates in 17 non-MSMP and 16 MSMP patients using sandwich enzyme-linked immunosorbent assay (ELISA) kits (Human MIF DuoSet ELISA, DY289; DuoSet ELISA Ancillary Reagent Kit 2, DY008; Human TNF-alpha Quantikine HS ELISA, SSTA00E; Human IL-6 Quantikine HS ELISA Kit, SS600C; Human IL-1 beta Quantikine HS ELISA Kit, SSLB00D, R&D systems, Minneapolis, MA). Briefly, microplates for MIF were prepared by adding capture antibody and incubated overnight. The microplates were then washed 3 times with wash buffer and blocked with 1% bovine serum albumin in phosphate-buffered saline for at least 1 hour, followed by wash step. Microplates for TNF-a, IL-6, and IL-1b were precoated. Assay diluent was added to the microplates (with the exception of MIF assay), followed by the addition of standards or samples. The microplates were incubated for 2 hours and then washed 4 times. The biotinylated detection antibody was added, and the microplates were incubated for 1 hour (2 hours for MIF) and then washed. The horseradish peroxidase-conjugated streptavidin was added, and the microplates were incubated for 30 minutes (20 minutes for MIF). After wash step, the tetramethylbenzidine substrate solution was added. After 30 minutes (20 minutes for MIF) of incubation, sulfuric acid was added to stop the reaction, and the optical density was measured with a microplate reader (Bio-Rad, model 3550) at 450 nm with an optical density correction at 540 nm within 30 minutes. Standard curves were plotted using fourparameter logistic curve fit. Cytokine concentrations were calculated according to respective standard curves and reported in ng/mL for MIF and pg/mL for TNF-a, IL-6, and IL-1b. The intraassay CV% of MIF, TNF-a, IL-6, and IL-1b was #2.5%, 2.2%, 4.7%, and 4.4%, respectively, and inter-assay CV% was #6.7%, 10.8%, and 10.7% for TNF-a, IL-6, and IL-1b, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Plasma cytokine measurements"
+        },
+        {
+            "text": "Quality control (QC) procedures for metabolomics data were applied as the following: Metabolites were removed from analysis if more than 10% of the samples had values below the limit of detection to minimize the false-positive results as a standard practice in metabolomics studies; missing values of the remaining metabolites were imputed by the mean of the given metabolites. Among the 186 metabolites, 163 passed the QC procedure and were included in the analysis. The 163 metabolite concentrations were then natural logtransformed for normalization. Normality of distribution was tested with the Shapiro-Wilk test. Two-group comparison of normally distributed continuous variables was performed with the independent-samples Student t test, whereas the Mann-Whitney U test was used to compare non-normally distributed continuous variables. Categorical variables were compared with the x 2 test or Fisher exact test when appropriate. Logistic regression was used for adjustment for potential confounding factors. Spearman correlation coefficients were calculated to evaluate the relationships between metabolites that were associated with MSMP, as well as between the proinflammatory cytokines, blood lipids, and these MSMPassociated metabolites. Significant level was defined at alpha 5 0.0003 to control multiple testing with Bonferroni methods for 163 metabolites we tested. For other variables including demographic factors, proinflammatory cytokines, blood cholesterol profiles, and other clinical factors, we considered the association was significant if P , 0.05. All analyses were performed in R Studio with R version 3.6.3. Visualizations of the results were performed with ggplot2 R package.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Among a total of 1086 patients recruited into the Newfoundland Osteoarthritis Study, 610 participants had musculoskeletal pain data available. Of these, 20% reported no pain or single-site musculoskeletal pain (non-MSMP, n 5 122), 66% at 2 to 6 sites (n 5 405), and 14% at 7 to 21 sites (MSMP, n 5 83). Subsequent analyses focused on the 2 extremes: non-MSMP and MSMP. Multisite musculoskeletal pain patients were younger and included more women than non-MSMP patients (all P # 0.02), but there was no difference in BMI between the 2 groups ( Table 1 ). The majority of study participants were OA patients, but there was no difference in the prevalence of OA between non-MSMP and MSMP groups (96.72% vs 91.57%; P 5 0.12). Approximately 1.64% of non-MSMP and 4.82% of MSMP patients were affected by rheumatoid arthritis, but the difference was not statistically significant (P 5 0.23). Approximately 1.64% of non-MSMP and 3.61% of MSMP patients had other joint conditions, but the difference was not statistically significant (P 5 0.40) ( Table 1) . We had data on blood lipid profiles for 87 non-MSMP and 51 MSMP patients and found that LDL and non-HDL cholesterol but no other blood lipids were significantly associated with MSMP (P # 0.03; Table 1 ). Also, LDL and non-HDL were highly correlated with each other (rho 5 0.94; P 5 2.2 3 10 216 ). Because all the study participants underwent TJRs of the knee or hip, we had data on pain intensity and functional deficit scores of the replaced joints and found that both pain and joint functional deficit scores were significantly associated with MSMP (both P # 0.007; Table 1 ). Approximately 62% of the patients in the MSMP group reported having had pain lasting longer than 24 hours, while only 38% patients in the non-MSMP group had pain of the same duration (P 5 0.001; Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 543,
+                    "end": 550,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1038,
+                    "end": 1046,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1242,
+                    "end": 1249,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1618,
+                    "end": 1625,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1824,
+                    "end": 1832,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Among those 46 comorbidities we assessed, all those accompanying diseases were not associated with MSMP except for incontinence for which 21% MSMP patients reported experiencing incontinence compared with 4% among non-MSMP patients (P 5 0.0006; see Table, Supplemental Digital Content 2, which presents the prevalence of comorbidities and ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 249,
+                    "end": 255,
+                    "text": "Table,",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Among the 163 metabolites that passed QC, we found 21 metabolites to be associated with MSMP with P , 0.05 (the list of the 21 metabolites is provided in Supplemental Digital Content 3, available at http://links.lww.com/PAIN/B160). Among these 21 associated metabolites, 2 reached the predefined significance level after controlling multiple testing. Both metabolites belong to lysophosphatidylcholines, 1 with 26 carbons but no double bond (lysoPC 26:0) and 1 with 28 carbons and 1 double bond (lysoPC 28:1). The natural log-transformed concentration of lysoPC 26: 0 was 21.65 6 0.47 log mM in MSMP and 21.91 6 0.46 log mM in non-MSMP (mean 6 SD, P 5 0.0001), and that of lysoPC 28:1 was 21.21 6 0.33 log mM and 21.39 6 0.32 log mM (mean 6 SD, P 5 0.00007) (Fig. 2) . The natural log-transformed concentrations of these 2 metabolites were highly correlated (rho 5 0.69, P 5 2.20 3 10 216 , Fig. 3) . Per log mM increase in lysoPC 26:0 and lysoPC 28:1 was associated with 3.36 and 6.17 times increased risk of MSMP (P # 0.0002), respectively. The significances remained after adjustment for age and sex (odds ratio [OR] 5 3.53 and 4.98; 95% confidence interval [CI], 1.88-6.94 and 1.95-13.47 for lysoPC 26:0 and lysoPC 28:1, respectively), and additional adjustment for incontinence (OR 5 3.44 and 3.95; 95% CI, 1.79-6.93 and 1.51-10.93, respectively). In the subset of the study cohort with available data on blood lipids, lysoPC 28:1 but not lysoPC 26:0 was found to be correlated with both LDL and non-HDL (both rho 5 0.25, P , 0.004). LysoPC 26:0 remained significant with further adjustment (OR 5 3.21; 95% CI, 1.37-8.03) for non-HDL/LDL, but LDL became nonsignificant in the model. Because of the collinearity, lysoPC 28:1 and LDL/non-HDL cannot be assessed in the same logistic model.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 758,
+                    "end": 766,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 891,
+                    "end": 898,
+                    "text": "Fig. 3)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Metabolic markers for multisite musculoskeletal pain"
+        },
+        {
+            "text": "To demonstrate the potential of the 2 metabolic markers in clinical utility, we examined the concentrations in the betweengroup (patients with 2-6 painful sites) and found that the mean The study cohort was OA-predominant; thus, to examine whether these MSMP-associated lysoPCs were affected by OA status, we compared the natural log-transformed concentrations of lysoPC 26: 0 and lysoPC 28:1 between OA (n 5 194) and non-OA (n 5 11) patients and found that they were not significantly different (P . 0.46). To further examine whether surgery trauma had any effect on these MSMP-associated lysoPCs, we compared the natural logtransformed concentrations of lysoPC 26:0 and lysoPC 28:1 between blood samples collected before and after TJR surgery, and there was no significant difference (P . 0.2).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Metabolic markers for multisite musculoskeletal pain"
+        },
+        {
+            "text": "MIF, TNF-a, IL-6, and IL-1b were the 4 mostly studied cytokines related to pain, but our data showed no association between MSMP and each of them (see Table, Supplemental Digital Content 4, which presents the plasma proinflammatory cytokine levels in non-MSMP and MSMP groups, available at http://links.lww.com/PAIN/B160). Furthermore, we found no correlation between these 4 cytokines and the 2 MSMP-associated metabolites lysoPC 28:1 and lysoPC 26:0 except for IL-6 and lysoPC 26:0 (rho 5 20.39, P 5 0.02; see Table, Supplemental Digital Content 5, which presents the correlations between the levels of plasma proinflammatory cytokines and metabolites associated with MSMP, available at http://links.lww. com/PAIN/B160).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 151,
+                    "end": 157,
+                    "text": "Table,",
+                    "ref_id": null
+                },
+                {
+                    "start": 512,
+                    "end": 518,
+                    "text": "Table,",
+                    "ref_id": null
+                }
+            ],
+            "section": "Multisite musculoskeletal pain and proinflammatory cytokines"
+        },
+        {
+            "text": "In this study, we used an extreme phenotype sampling strategy with painful sites $7 as the cutoff to define MSMP. The strategy has allowed us to detect 2 specific lysophosphatidylcholines-lysoPC 68 Our study demonstrated that such definition can help produce robust results.",
+            "cite_spans": [
+                {
+                    "start": 195,
+                    "end": 197,
+                    "text": "68",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Hadr\u00e9vi J et al. 21 conducted a metabolomic study on women with widespread pain, localized pain, and no pain and demonstrated systemic differences in serum metabolome between the studied groups, suggesting the role of systemic factors in widespread pain. Livshits et al. 38 found the serum level of epiandrosterone sulfate was associated with widespread musculoskeletal pain in an OMICS analysis. However, the association became borderline (P 5 0.052) after adjustment for FMI, 38 which has been associated with MSMP in a longitudinal study. 46 The potential mechanisms for the association between FMI and MSMP were hypothesized to be metabolic effects of the fat tissue. 46 In the current study, we documented that 2 bioactive proinflammatory lipids-lysoPC 26:0 and lysoPC 28:1-were strongly associated with MSMP. The linear increase of plasma concentrations of these 2 lysoPCs from non-MSMP, in-between, and MSMP patients suggested they could be considered as novel biomarkers for MSMP.",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 19,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 271,
+                    "end": 273,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 478,
+                    "end": 480,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 542,
+                    "end": 544,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 672,
+                    "end": 674,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "LysoPC is a class of lipid biomolecule derived from hydrolysis of lipoprotein phosphatidylcholine (PC) through phospholipase A2 (PLA2) or the transfer of fatty acids from PC to free cholesterol by lecithin:cholesterol acyltransferase (LCAT) in the circulatory system. Under normal physiological conditions, lysoPCs are transported into the cell by albumin or alpha-1-acid glycoprotein and then converted back to PCs by the enzyme lysophosphatidylcholine acyltransferase in the presence of Acyl-CoA. As components of very-low-density lipoprotein, PCs are secreted into the blood stream for the production of lysoPCs. 34 Overproduction of lysoPC occurs when PLA2 or/and LCAT is overexpressed or their activity is enhanced. Our previous study in OA patients showed that an increased conversion of PC to lysoPC in OA patients was due to overexpression of PLA2 in joint cartilage and synovium. 72 Plasma lysoPC is stored in lipoprotein and constitutes 40% of the total lipid content of oxidized LDL 48 which plays a vital role in atherosclerosis. 55 Although we did not have data on oxidized LDL, we found clinical routinely measured LDL and non-HDL were associated with MSMP. However, the association of LDL became nonsignificant when adjusting for lysoPC 26:0, and LDL and non-HDL were correlated with lysoPC 28:1, suggesting that lysoPC might be the key factor for the association between LDL/non-HDL and MSMP.",
+            "cite_spans": [
+                {
+                    "start": 616,
+                    "end": 618,
+                    "text": "34",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 889,
+                    "end": 891,
+                    "text": "72",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1042,
+                    "end": 1044,
+                    "text": "55",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Studies have shown that lysoPCs regulate a broad range of cell processes and have proinflammatory effects by its ability to alter the adhesive properties of endothelial cells, induce chemotaxis of monocytes and T-lymphocytes, and stimulate T-cell and macrophage activation, leading to enhanced Fc-mediated phagocytosis. 69 Furthermore, excessive lysoPC in plasma could be hydrolyzed by the exoenzyme autotaxin, generating choline and lysophosphatidic acid (LPA). 43, 58 Lysophosphatidic acid activates G protein-coupled receptors LPAR1-6, leading to central sensitization and downregulation of myelin proteins, resulting in neuropathic pain. 25, 27, 28, 41, 63, 65, 70 Lysophosphatidic acid also changes density and activity of Ca 11 , K 1 , and TRP ion channels in microglial cells and neurons, leading to allodynia and hyperalgesia, playing a central role in initiating and maintaining neuropathic pain. 27, 29 Systemic lipid homeostasis is crucial for maintaining physiological states. In a monozygotic twin study, lysoPC level was found to be increased in obese cotwins, 50 which could be explained by lysoPC's role as an important lipid intermediate that links saturated fatty acids to insulin resistance. 23 In cancers, accelerated degradation of extracellular lysoPC leads to reduced lysoPC level in circulation, which undermines the inhibition of cancer cell adhesion and invasion that is exerted by lysoPC. 37 In OA, we previously identified higher lysoPC-to-PC ratio in plasma, driven by higher lysoPC and lower PC concentrations, to be associated with knee OA risk and progression. 72, 77 This increased conversion of PCs to lysoPCs, mediated by overexpression of PLA2, 72 leads to the release of long-chain polyunsaturated fatty acids and the activation of eicosanoid pathways and production of bioactive compounds such as prostaglandins, leading to OA joint symptoms. 73 The alteration of phospholipid levels in MSMP was distinct from that in OA. The 2 MSMP-associated lysoPCs have not been reported to be linked to OA risk or progression, 72, 77 and PC levels were increased, although it did not reach predefined significance level (Supplemental Digital Content 3, available at http://links.lww.com/PAIN/ B160); also, no lysoPC/PC ratio was found to be associated with MSMP (data not shown). It is possible that in MSMP, the overabundant lysoPCs provide substrate for exoenzyme autotaxin, and then, the hydrolysis product LPA activates pain signaling pathways through interaction with G protein-coupled receptors and ion channels. Further studies on LPA will provide insight into this.",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 322,
+                    "text": "69",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 463,
+                    "end": 466,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 467,
+                    "end": 469,
+                    "text": "58",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 642,
+                    "end": 645,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 646,
+                    "end": 649,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 650,
+                    "end": 653,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 654,
+                    "end": 657,
+                    "text": "41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 658,
+                    "end": 661,
+                    "text": "63,",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 662,
+                    "end": 665,
+                    "text": "65,",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 666,
+                    "end": 668,
+                    "text": "70",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 906,
+                    "end": 909,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 910,
+                    "end": 912,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1211,
+                    "end": 1213,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1416,
+                    "end": 1418,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1593,
+                    "end": 1596,
+                    "text": "72,",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1597,
+                    "end": 1599,
+                    "text": "77",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 1881,
+                    "end": 1883,
+                    "text": "73",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 2053,
+                    "end": 2056,
+                    "text": "72,",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 2057,
+                    "end": 2059,
+                    "text": "77",
+                    "ref_id": "BIBREF76"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "LysoPC 26:0 is clinically used as the diagnostic marker for X-linked adrenoleukodystrophy (X-ALD), a condition caused by mutations in ATP-binding cassette subfamily D member 1 (ABCD1) gene that encodes a peroxisomal transmembrane protein, resulting in accumulation of very-long-chain fatty acids, particularly C26:0, and subsequent PC 26:0 and lysoPC 26: 0 before the onset of demyelination. 13, 57, 59 Gong et al. 20 reported that in cultured ABCD1-deficient microglia, lysoPC 26:0 enhanced the expression of phagocytosis-related marker milk fat globule-EGF factor 8 (MFGE8), aggravated phagocytosis, and led to neuronal injury. Interestingly, clinical presentation of adult-form X-ALD includes pain, bladder dysfunction, and impaired movement. 59 The association between MSMP and incontinence in the current study is consistent with this. LysoPC28:1 was found to be negatively associated with microvascular function improvement of hyperlipidemic patients undergoing lipoprotein apheresis, 51 which seemed to be attributed to lysoPC's ability of downregulating endothelial nitric oxide synthase, enhancing production of reactive oxygen species, inducing endothelial cell apoptosis, and inhibiting cell migration during damage repair. 33 These 2 MSMP-associated lysoPCs were highly correlated, indicating they were likely involved in the same biological pathways in MSMP. Because of the nature of the crosssectional analyses in the current study, we could not infer any causal relationship between these 2 lysoPCs and MSMP; longitudinal studies or Mendelian randomization approach is required to reveal the potential mechanism for the observed association.",
+            "cite_spans": [
+                {
+                    "start": 392,
+                    "end": 395,
+                    "text": "13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 400,
+                    "end": 402,
+                    "text": "59",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 403,
+                    "end": 417,
+                    "text": "Gong et al. 20",
+                    "ref_id": null
+                },
+                {
+                    "start": 746,
+                    "end": 748,
+                    "text": "59",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 991,
+                    "end": 993,
+                    "text": "51",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1235,
+                    "end": 1237,
+                    "text": "33",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Consistent with previous findings, 6,15,32 we found the prevalence of pain at multiple sites was higher than that of single-site pain and higher in female sex. However, we did not find any association between MSMP and BMI mostly because most study participants were overweight or obese. We also observed younger age was associated with MSMP, which could be due to higher physical workload and mental stress before retirement in the MSMP group, 24, 66 supporting what Neupane et al. 44 suggested that MSMP in midlife often persisted to old age in a MSMP trajectory study over 28 years. Cytokines are believed to play a role in pain modulation 19, 42, 64 ; however, we did not observe any association between MSMP and plasma levels of MIF, IL-6, IL-1b, or TNF-a. Although further studies are needed to confirm this, our findings were consistent with others. 56, 61 In addition, it has been reported that lysoPC can promote the expression of IL-1b and secretion of IL-6 and TNF-a in endothelial cells in vitro. 8, 36 However, we observed a negative correlation between IL-6 and lysoPC 26:0, contradicting what was observed in those in vitro studies. 8, 37 In vivo studies are needed to verify the role of lysoPCs in regulating cytokine expression.",
+            "cite_spans": [
+                {
+                    "start": 444,
+                    "end": 447,
+                    "text": "24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 448,
+                    "end": 450,
+                    "text": "66",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 482,
+                    "end": 484,
+                    "text": "44",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 642,
+                    "end": 645,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 646,
+                    "end": 649,
+                    "text": "42,",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 650,
+                    "end": 652,
+                    "text": "64",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 856,
+                    "end": 859,
+                    "text": "56,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 860,
+                    "end": 862,
+                    "text": "61",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 1008,
+                    "end": 1010,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1011,
+                    "end": 1013,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 1147,
+                    "end": 1149,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1150,
+                    "end": 1152,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are some limitations to this study. The targeted metabolic profiling only measures a total of 186 metabolites; thus, we may miss other important metabolites. Because of the questionnaire used in the study, we were unable to capture the chronicity of MSMP. Taking regular analgesia might affect plasma cytokine or metabolomics profiles, and we did not have data on it; however, this would be less likely to have an influence on the observed association because all the patients suffered severe joint pain and loss of joint function and required TJR; thus, the distribution of analgesic use would likely be similar between MSMP and non-MSMP patients. In addition, MSMP could contain 2 overlapping features-multisite joint pain and multisite soft-tissue or bone pain. Owing to 91.6% of our MSMP patients with both features, we were unable to examine 2 features separately. However, the association remained when only examining 7 MSMP patients who were purely due to multisite joint pain (data not shown), suggesting the observed association might be driven by multisite joint pain. Further studies with larger sample size and 2 separate MSMP features are required to confirm this. More than 74% of the subjects provided their blood samples after TJR surgery, whereas their pain assessment was performed before their TJR surgery. However, this would not affect the findings because we found there was no difference in lysoPC concentrations between blood samples collected before and after TJR surgery. Thus, the blood samples collected after TJR surgery could serve as surrogates for blood samples that were supposed to be collected before TJR surgery. Finally, most study participants were OA-affected, which may limit the generalizability of the findings to other populations. Osteoarthritis has been associated with a number of metabolites including certain lysoPCs and PCs 71,74 ; thus, using an OA-predominant cohort in the current study might reduce our ability to identify other important markers for MSMP. Using non-OA cohorts to validate the findings and identify other novel markers for MSMP is warranted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, using extreme phenotype sampling and metabolomics approach, we identified 2 bioactive proinflammatory lipid compounds lysoPC 26:0 and 28:1 to be associated with MSMP, warranting further investigation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Metabolomics of type 1 and type 2 diabetes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Arneth",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arneth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Mol Sci",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Powerful extreme phenotype sampling designs and score tests for genetic association studies",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bjornland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bye",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ryeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Wisloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Langaas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Stat Med",
+            "volume": "37",
+            "issn": "",
+            "pages": "4234--51",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Body composition is associated with multisite lower body musculoskeletal pain in a community-based study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mamuaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cicuttini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wluka",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hussain",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Urquhart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Pain",
+            "volume": "16",
+            "issn": "",
+            "pages": "700--706",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The impact of multisite pain on functional outcomes in older adults: biopsychosocial considerations",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Butera",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Roff",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Buford",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cruz-Almeida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Pain Res",
+            "volume": "12",
+            "issn": "",
+            "pages": "1115--1140",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Novel strategies for clinical investigation and biomarker discovery: a guide to applied metabolomics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Carneiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Radcenco",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Evaristo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Monnerat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Horm Mol Biol Clin Investig",
+            "volume": "38",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Chronic musculoskeletal pain rarely presents in a single body site: results from a UK population study",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Carnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Parsons",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ashby",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Breen",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pincus",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Underwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "46",
+            "issn": "",
+            "pages": "1168--70",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "DFMG reverses proliferation and migration of vascular smooth muscle cells induced by co-culture with injured vascular endothelial cells via suppression of the TLR4-mediated signaling pathway",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mol Med Rep",
+            "volume": "17",
+            "issn": "",
+            "pages": "5692--5701",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Metabolomics signature for non-responders to total joint replacement surgery in primary osteoarthritis patients: the Newfoundland osteoarthritis study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Costello",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Orthop Res",
+            "volume": "38",
+            "issn": "",
+            "pages": "793--802",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Surgery is physically demanding and associated with multisite musculoskeletal pain: a cross-sectional study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dalager",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "S\u00f8gaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Boyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mogensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Surg Res",
+            "volume": "240",
+            "issn": "",
+            "pages": "30--39",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Autoinflammatory and autoimmune contributions to complex regional pain syndrome",
+            "authors": [
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tawfik",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tajerian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kingery",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mol Pain",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Multisite joint pain in older Australian women is associated with poorer psychosocial health and greater medication use",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "De Luca",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eklund",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fernandez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Byles",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Parkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ferreira",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hartvigsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chiropr Man Therap",
+            "volume": "27",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Poll-The BT. X-linked adrenoleukodystrophy (X-ALD): clinical presentation and guidelines for diagnosis, follow-up and management",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Engelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kemp",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "De Visser",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Geel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Aubourg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Orphanet J Rare Dis",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Associations of multisite pain with healthcare utilization, sickness absence and restrictions at work",
+            "authors": [
+                {
+                    "first": "Rcp",
+                    "middle": [],
+                    "last": "Fernandes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Burdorf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Int Arch Occup Environ Health",
+            "volume": "89",
+            "issn": "",
+            "pages": "1039--1085",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Multisite peripheral joint pain: a cross-sectional study of prevalence and impact on general health, quality of life, pain intensity and consultation behaviour",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Finney",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dziedzic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Healey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMC Musculoskelet Disord",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Identification and validation of plasma metabolomics reveal potential biomarkers for coronary heart disease",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int Heart J",
+            "volume": "60",
+            "issn": "",
+            "pages": "1387--97",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "GDaIIaP Collaborators. Global, regional, and national incidence, prevalence, and years lived with disability for 354 diseases and injuries for 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study",
+            "authors": [],
+            "year": 2017,
+            "venue": "Lancet",
+            "volume": "392",
+            "issn": "",
+            "pages": "1789--858",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Insomnia, sleep duration, depressive symptoms, and the onset of chronic multisite musculoskeletal pain",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Generaal",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vogelzangs",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Penninx",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dekker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sleep",
+            "volume": "40",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/sleep/zsw030"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Neuraxial cytokines in pain states",
+            "authors": [
+                {
+                    "first": "Gon\u00e7",
+                    "middle": [],
+                    "last": "Alves Dos Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Delay",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yaksh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Corr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Microglial dysfunction as a key pathological change in adrenomyeloneuropathy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sasidharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Laheji",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frosch",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Musolino",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tanzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Biffi",
+                    "suffix": ""
+                },
+                {
+                    "first": "El",
+                    "middle": [],
+                    "last": "Khoury",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Eichler",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Ann Neurol",
+            "volume": "82",
+            "issn": "",
+            "pages": "813--840",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Systemic differences in serum metabolome: a cross sectional comparison of women with localised and widespread pain and controls",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadr\u00e9vi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bj\u00f6rklund",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kosek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "H\u00e4llgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Antti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fahlstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hellstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Scientific Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Sick leave due to musculoskeletal pain: determinants of distinct trajectories over 1 year",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hallman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Holtermann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bj\u00f6rklund",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "N\u00f8rregaard",
+                    "middle": [],
+                    "last": "Rasmussen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int Arch Occup Environ Health",
+            "volume": "92",
+            "issn": "",
+            "pages": "1099--108",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Lysophosphatidylcholine as an effector of fatty acid-induced insulin resistance",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Quan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cheon",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dal Rhee",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Lipid Res",
+            "volume": "52",
+            "issn": "",
+            "pages": "1234--1280",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Physical workload, leisure-time physical activity, obesity and smoking as predictors of multisite musculoskeletal pain. A 2-year prospective study of kitchen workers",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Haukka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ojaj\u00e4rvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Takala",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Viikari-Juntura",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Leino-Arjas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Occup Environ Med",
+            "volume": "69",
+            "issn": "",
+            "pages": "485--92",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Role of lysophosphatidic acid in ion channel function and disease",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hern\u00e1ndez-Araiza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Morales-L\u00e1zaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Canul-S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Islas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Rosenbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Neurophysiol",
+            "volume": "120",
+            "issn": "",
+            "pages": "1198--211",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Prospective analysis of circulating metabolites and breast cancer in EPIC",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "His",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Viallon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Dossus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gicquiau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Achaintre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scalbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ferrari",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Romieu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Onland-Moret",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Weiderpass",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dahm",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Overvad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Olsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tj\u00f8nneland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fournier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothwell",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Severi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "K\u00fchn",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Fortner",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Boeing",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Trichopoulou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Karakatsani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martimianaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Masala",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tumino",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vineis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Panico",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Van Gils",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "N\u00f8st",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sandanger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Skeie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Quir\u00f3s",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Agudo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "S\u00e1nchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Amiano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Huerta",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ardanaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Travis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Riboli",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tsilidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Christakoudi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rinaldi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "BMC Med",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Initiation of neuropathic pain requires lysophosphatidic acid receptor signaling",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Inoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rashid",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fujita",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Contos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ueda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "712--730",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Lysophosphatidylcholine induces neuropathic pain through an action of autotaxin to generate lysophosphatidic acid",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Inoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Matsushita",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aoki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ueda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Neuroscience",
+            "volume": "152",
+            "issn": "",
+            "pages": "296--304",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Upregulation of the T-type calcium current in small rat sensory neurons after chronic constrictive injury of the sciatic nerve",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jagodic",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pathirathna",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Joksovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Naik",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Jevtovic-Todorovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Todorovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Neurophysiol",
+            "volume": "99",
+            "issn": "",
+            "pages": "3151--3157",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Number of pain sites is associated with demographic, lifestyle, and health-related factors in the general population",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kamaleri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Natvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ihlebaek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Benth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bruusgaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Eur J Pain",
+            "volume": "12",
+            "issn": "",
+            "pages": "742--750",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Change in the number of musculoskeletal pain sites: a 14-year prospective study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kamaleri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Natvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ihlebaek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Benth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bruusgaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PAIN",
+            "volume": "141",
+            "issn": "",
+            "pages": "25--30",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Localized or widespread musculoskeletal pain: does it matter?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kamaleri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Natvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ihlebaek",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bruusgaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PAIN",
+            "volume": "138",
+            "issn": "",
+            "pages": "41--47",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Local production of lipoprotein-associated phospholipase A2 and lysophosphatidylcholine in the coronary circulation: association with early coronary atherosclerosis and endothelial dysfunction in humans",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mcconnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rihal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mathew",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Lerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lerman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Circulation",
+            "volume": "115",
+            "issn": "",
+            "pages": "2715--2736",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "An updated review of lysophosphatidylcholine metabolism in human diseases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Marathe",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Parveen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Int J Mol Sci",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Glucocorticoids and macrophage migration inhibitory factor (MIF) are neuroendocrine modulators of inflammation and neuropathic pain after spinal cord injury",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lerch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Puga",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Bloom",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Popovich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Semin Immunol",
+            "volume": "26",
+            "issn": "",
+            "pages": "409--423",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Lysophospholipids induce innate immune transdifferentiation of endothelial cells, resulting in prolonged endothelial activation",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Biol Chem",
+            "volume": "293",
+            "issn": "",
+            "pages": "11033--11078",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The mechanisms of lysophosphatidylcholine in the development of diseases",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Life Sci",
+            "volume": "247",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "An omics investigation into chronic widespread musculoskeletal pain reveals epiandrosterone sulfate as a potential biomarker",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Livshits",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Macgregor",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Malkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moayyeri",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Grallert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Emeny",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Spector",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kastenmuller",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PAIN",
+            "volume": "156",
+            "issn": "",
+            "pages": "1845--51",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Assessing chronic pelvic pain syndrome patients: blood plasma factors and cortisol saliva",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lundh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hedelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jonsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Larsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Scand J Urol",
+            "volume": "47",
+            "issn": "",
+            "pages": "521--529",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "No strong temporal relationship between obesity and multisite pain-results from a population-based 20-year follow-up study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Magnusson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "\u00d8ster\u00e5s",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mowinckel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Natvig",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hagen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Eur J Pain",
+            "volume": "18",
+            "issn": "",
+            "pages": "120--127",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Identification of an intracellular receptor for lysophosphatidic acid (LPA): LPA is a transcellular PPARgamma agonist",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcintyre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Pontsler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "St",
+                    "middle": [],
+                    "last": "Hilaire",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hinshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zimmerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Aoki",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Arai",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Prestwich",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "100",
+            "issn": "",
+            "pages": "131--137",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Cytokine and chemokine regulation of sensory neuron function",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bhangoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Handb Exp Pharmacol",
+            "volume": "194",
+            "issn": "",
+            "pages": "417--466",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Autotaxin-an LPA producing enzyme with diverse functions",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nakanaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hama",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Aoki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Biochem",
+            "volume": "148",
+            "issn": "",
+            "pages": "13--24",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Multisite musculoskeletal pain trajectories from midlife to old age: a 28-year followup of municipal employees",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neupane",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nyg\u00e5rd",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Prakash",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Bonsdorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Bonsdorff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Seitsamo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rantanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ilmarinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leino-Arjas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Occup Environ Med",
+            "volume": "75",
+            "issn": "",
+            "pages": "863--70",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "An experimental approach to examining psychological contributions to multisite musculoskeletal pain",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Niederstrasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Slepian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mankovsky-Arnold",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Larivi\u00e8re",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Vlaeyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjl",
+                    "middle": [],
+                    "last": "Sullivan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Pain",
+            "volume": "15",
+            "issn": "",
+            "pages": "1156--65",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Associations between fat mass and multisite pain: a five-year longitudinal study",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Laslett",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blizzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cicuttini",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Winzenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Arthritis Care Res (Hoboken)",
+            "volume": "69",
+            "issn": "",
+            "pages": "509--525",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Pain at multiple sites is associated with prevalent and incident fractures in older adults",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aitken",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cicuttini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Bone Miner Res",
+            "volume": "34",
+            "issn": "",
+            "pages": "2012--2030",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Essential role of phospholipase A2 activity in endothelial cell-induced modification of low density lipoprotein",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Parthasarathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Steinbrecher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Witztum",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "82",
+            "issn": "",
+            "pages": "3000--3004",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The relationship between pro-inflammatory cytokines and pain, appetite and fatigue in patients with advanced cancer",
+            "authors": [
+                {
+                    "first": "\u00d8",
+                    "middle": [],
+                    "last": "Paulsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Laird",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Aass",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lea",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fayers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaasa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klepstad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS One",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Acquired obesity is associated with changes in the serum lipidomic profile independent of genetic effects-a monozygotic twin study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pietilainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sysi-Aho",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rissanen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Seppanen-Laakso",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yki-Jarvinen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kaprio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oresic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "PLoS One",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Metabolomic distinction of microvascular effects of lipoprotein apheresis-a pilot study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reimann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peitzsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ziemssen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julius",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Eisenhofer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Atheroscler Suppl",
+            "volume": "14",
+            "issn": "",
+            "pages": "143--152",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Multi-site pain is associated with long-term patient-reported outcomes in older adults with persistent back pain",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Rundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Krook",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Heagerty",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Suri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Friedly",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Turner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Deyo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Bauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Nerenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Avins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nedeljkovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jarvik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pain Med",
+            "volume": "20",
+            "issn": "",
+            "pages": "1898--906",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Work-related and psychological determinants of multisite musculoskeletal pain",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Solidaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chatzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bitsios",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Markatzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Plana",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Palmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Coggon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kogevinas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Scand J Work Environ Health",
+            "volume": "36",
+            "issn": "",
+            "pages": "54--61",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Beyond cholesterol. Modifications of low-density lipoprotein that increase its atherogenicity",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Parthasarathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Carew",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Khoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Witztum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "N Engl J Med",
+            "volume": "320",
+            "issn": "",
+            "pages": "915--939",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Alterations of antiinflammatory lipids in plasma from women with chronic widespread paina case control study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stensson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ghafouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gerdle",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ghafouri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Lipids Health Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Phospholipids in X-linked adrenoleukodystrophy white matter: fatty acid abnormalities before the onset of demyelination",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Theda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Moser",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Powers",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Moser",
+                    "suffix": ""
+                }
+            ],
+            "year": 1992,
+            "venue": "J Neurol Sci",
+            "volume": "110",
+            "issn": "",
+            "pages": "195--204",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Identification of human plasma lysophospholipase D, a lysophosphatidic acid-producing enzyme, as autotaxin, a multifunctional phosphodiesterase",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tokumura",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Majima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kariya",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tominaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kogure",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yasuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fukuzawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J Biol Chem",
+            "volume": "277",
+            "issn": "",
+            "pages": "39436--39478",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "X-linked adrenoleukodystrophy: pathology, pathophysiology, diagnostic testing, newborn screening and therapies",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Turk",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Theda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fatemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Moser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Dev Neurosci",
+            "volume": "80",
+            "issn": "",
+            "pages": "52--72",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Association of branched-chain amino acids and other circulating metabolites with risk of incident dementia and Alzheimer's disease: a prospective study in eight cohorts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tynkkynen",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chouraki",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Der Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hernesniemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Beiser",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "S\u00e4\u00e4ksj\u00e4rvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Shipley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Singh-Manoux",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gerszten",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Havulinna",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "W\u00fcrtz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Demirkan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ikram",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lehtim\u00e4ki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "K\u00e4h\u00f6nen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Perola",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Metspalu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kangas",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Soininen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ala-Korpela",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kivim\u00e4ki",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Duijn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Seshadri",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Salomaa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Alzheimers Dement",
+            "volume": "14",
+            "issn": "",
+            "pages": "723--756",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Systematic review with meta-analysis: cytokines in fibromyalgia syndrome",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "U\u00e7 Eyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "H\u00e4user",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sommer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Musculoskelet Disord",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Reduced levels of antiinflammatory cytokines in patients with chronic widespread pain",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Uceyler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Valenza",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stock",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schedel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sprotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sommer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Arthritis Rheum",
+            "volume": "54",
+            "issn": "",
+            "pages": "2656--64",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Peripheral mechanisms of neuropathic pain -involvement of lysophosphatidic acid receptor-mediated demyelination",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ueda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Mol Pain",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Cytokines in pain: harnessing endogenous anti-inflammatory signaling for improved pain management",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Vanderwall",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Milligan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Immunol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Lysophosphatidic acid receptors (LPARs): potential targets for the treatment of neuropathic pain",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Velasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "O&apos;sullivan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sheridan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Neuropharmacology",
+            "volume": "113",
+            "issn": "",
+            "pages": "608--625",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "A prospective study of work-private life conflict and number of pain sites: moderated mediation by sleep problems and support",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vleeshouwers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Knardahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Christensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Behav Med",
+            "volume": "42",
+            "issn": "",
+            "pages": "234--279",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Investigating multisite pain as a predictor of self-reported falls and falls requiring health care use in an older population: a prospective cohort study",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Welsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mallen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ogollah",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wilkie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcbeth",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS One",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Revised chronic widespread pain criteria: development from and integration with fibromyalgia criteria",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Butler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fitzcharles",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "H\u00e4user",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mease",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rasker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Walitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Scand J Pain",
+            "volume": "20",
+            "issn": "",
+            "pages": "77--86",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "The bioactive phospholipid, lysophosphatidylcholine, induces cellular effects via Gprotein-dependent activation of adenylyl cyclase",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schoenwaelder",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Salem",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J Biol Chem",
+            "volume": "271",
+            "issn": "",
+            "pages": "27090--27098",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "LPA receptor signaling: pharmacology, physiology, and pathophysiology",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yung",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stoddard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Lipid Res",
+            "volume": "55",
+            "issn": "",
+            "pages": "1192--214",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Alteration of metabolic pathways in osteoarthritis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Metabolites",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/metabo9010011"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Activation of the phosphatidylcholine to lysophosphatidylcholine pathway is associated with osteoarthritis knee cartilage volume loss over time",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Pelletier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aitken",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martel-Pelletier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sci Rep",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Serum lysophosphatidylcholines to phosphatidylcholines ratio is associated with symptomatic responders to symptomatic drugs in knee osteoarthritis patients",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Pelletier",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martel-Pelletier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Arthritis Res Ther",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Metabolomics of osteoarthritis: emerging novel markers and their potential clinical utility",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "57",
+            "issn": "",
+            "pages": "2087--95",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Serum branched-chain amino acid to histidine ratio: a novel metabolomic biomarker of knee osteoarthritis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang-Sattler",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Arden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hakim",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Illig",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Spector",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Ann Rheum Dis",
+            "volume": "69",
+            "issn": "",
+            "pages": "1227--1258",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Classification of osteoarthritis phenotypes by metabolomics analysis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Likhodii",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aref-Eshghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMJ Open",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Lysophosphatidylcholines to phosphatidylcholines ratio predicts advanced knee osteoarthritis",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Aitken",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Likhodii",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "55",
+            "issn": "",
+            "pages": "1566--74",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Metabolomic analysis of human synovial fluid and plasma reveals that phosphatidylcholine metabolism is associated with both osteoarthritis and diabetes mellitus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Likhodii",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aref-Eshghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Metabolomics",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Metabolomic analysis of human plasma reveals that arginine is depleted in knee osteoarthritis patients",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Likhodii",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Aref-Eshghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furey",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Randell",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Osteoarthritis Cartilage",
+            "volume": "24",
+            "issn": "",
+            "pages": "827--861",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Manikins used in the pain questionnaire for MSMP assessment. Participants were asked to circle painful sites on the manikins (front and back), and then, the numbers of painful sites were summed up. (A) An example of non-MSMP; (B) an example of MSMP. MSMP, multisite musculoskeletal pain.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "pain in non-MSMP and MSMP groups, available at http://links.lww.com/PAIN/B160).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "concentrations were right between the 2 extremes. The natural log-transformed concentrations of lysoPC 26:0 were 21.91 6 0.46 log mM; 21.88 6 0.52 log mM; and 21.65 6 0.47 log mM (mean 6 SD) for patients with painful sites #1; 2 to 6; and $7, respectively. They were 21.39 6 0.32 log mM; 21.36 6 0.36 log mM; and 21.21 6 0.33 log mM (mean 6 SD) for lysoPC 28:1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Boxplots for natural log-transformed concentrations (log mM) of lysoPC 26:0 and lysoPC 28:1 in plasma in MSMP and non-MSMP groups. LysoPC 26: 0-lysophosphatidylcholine with 26 carbons and no double bond; lysoPC 28:1-lysophosphatidylcholine with 28 carbons and 1 double bond. MSMP, multisite musculoskeletal pain; P values were obtained from the Student t test.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Correlation between natural log-transformed concentrations (log mM) of lysoPC 26:0 and lysoPC 28:1 in plasma. LysoPC 26:0lysophosphatidylcholine with 26 carbons and no double bond; lysoPC 28:1-lysophosphatidylcholine with 28 carbons and 1 double bond. Correlation coefficient was obtained by the Spearman correlation method.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Epidemiological factors, blood lipid profiles, and disease status of the study participants.*",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank all the study participants who made the study possible and all staff in the operation room who assisted with the sample collection. The metabolic profiling was performed at The Metabolomics Innovation Centre (TMIC ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors have no conflicts of interest to declare.Appendix A. Supplemental digital content",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest statement"
+        }
+    ]
+}

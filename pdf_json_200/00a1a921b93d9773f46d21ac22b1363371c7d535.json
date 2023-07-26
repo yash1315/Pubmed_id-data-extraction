@@ -1,0 +1,3125 @@
+{
+    "paper_id": "00a1a921b93d9773f46d21ac22b1363371c7d535",
+    "metadata": {
+        "title": "A national cross-sectional survey of public perceptions of the COVID-19 pandemic: Self- reported beliefs, knowledge, and behaviors",
+        "authors": [
+            {
+                "first": "Jeanna",
+                "middle": [
+                    "Parsons"
+                ],
+                "last": "Leigh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Dalhousie University",
+                    "location": {
+                        "settlement": "Halifax",
+                        "region": "Nova Scotia",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kirsten",
+                "middle": [],
+                "last": "Fiest",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [],
+                "last": "Brundin-Mather Id",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kara",
+                "middle": [],
+                "last": "Plotnikoff",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Soo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emma",
+                "middle": [
+                    "E"
+                ],
+                "last": "Sypes",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Liam",
+                "middle": [],
+                "last": "Whalen-Browneid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sofia",
+                "middle": [
+                    "B"
+                ],
+                "last": "Ahmed",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karen",
+                "middle": [
+                    "E A"
+                ],
+                "last": "Burns",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Toronto",
+                    "location": {
+                        "settlement": "Toronto",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alison",
+                "middle": [],
+                "last": "Fox-Robichaudid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "McMaster University",
+                    "location": {
+                        "settlement": "Hamilton",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shelly",
+                "middle": [],
+                "last": "Kupsch",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shelly",
+                "middle": [],
+                "last": "Longmore",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Srinivas",
+                "middle": [],
+                "last": "Murthy",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vancouver British Columbia",
+                    "location": {
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniel",
+                "middle": [
+                    "J"
+                ],
+                "last": "Niven",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bram",
+                "middle": [],
+                "last": "Rochwerg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "McMaster University",
+                    "location": {
+                        "settlement": "Hamilton",
+                        "region": "Ontario",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Henry",
+                "middle": [
+                    "T"
+                ],
+                "last": "Stelfox",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Calgary",
+                    "location": {
+                        "settlement": "Calgary",
+                        "region": "Alberta",
+                        "country": "Canada"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Efforts to mitigate the global spread of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) causing Corona Virus Disease-19 (COVID-19) have largely relied on broad compliance with public health recommendations yet navigating the high volume of evolving information can be challenging. We assessed self-reported public perceptions related to COVID-19 including, beliefs (e.g., severity, concerns, health), knowledge (e.g., transmission, information sources), and behaviors (e.g., physical distancing) to understand perspectives in Canada and to inform future public health initiatives.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "a1111111111 a1111111111 a1111111111 a1111111111 a1111111111",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Since the emergence of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in December 2019 [1] , the global public has been inundated with information related to the rapidly evolving Corona Virus Disease 2019 (COVID-19) pandemic [2] . Organizations such as the World Health Organization (WHO) [3] , worldwide public health networks [4] , and government public health agencies [5] have used multiple media platforms (e.g., internet, television, radio, print) in attempts to keep the public informed of emerging details and public health recommendations. In Canada, this messaging has included mitigation strategies such as appropriate hand and face hygiene practices [5] , physical distancing policies including closing non-essential business and public spaces [5] , restrictions and limitations on visitation in hospitals and long-term care facilities [6] , and travel restrictions [5] . Effective and transparent communication of evolving information related to COVID-19 is needed to ensure the public understands how and why to adapt their behaviors to bolster public safety [7] . However, the influx of COVID-19 information and widespread circulation and exchange of misinformation (i.e., false or inaccurate information) [8, 9] have been linked to increased public fear [10] , under-use of health services [11] , and distrust in government messaging [12] -a phenomenon the WHO has characterized as an 'infodemic' (a term originally coined in 2003 by David Rothkopf in the Washington Post during SARS), to describe when the proliferation of information about a problem detracts from possible solutions) [9] .",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 243,
+                    "end": 246,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 307,
+                    "end": 310,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 390,
+                    "end": 393,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 680,
+                    "end": 683,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 774,
+                    "end": 777,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 866,
+                    "end": 869,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 896,
+                    "end": 899,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1091,
+                    "end": 1094,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1239,
+                    "end": 1242,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1243,
+                    "end": 1245,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1288,
+                    "end": 1292,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1324,
+                    "end": 1328,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1368,
+                    "end": 1372,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1620,
+                    "end": 1623,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Effective pandemic management is dependent on understanding public views and behaviors, including concerns, frequently used and trusted sources of information, and reasons to observe or violate public health mandates [7, 13] . Countries around the world have used online crosssectional surveys to rapidly assess public awareness, understand health behaviors, and identify sources of information and misinformation during COVID-19 [13] [14] [15] [16] [17] . A survey of the American and British public very early in the pandemic indicated adequate public awareness of disease transmission but a lack of understanding of appropriate preventative measures as well as high uptake of common misconceptions which were circulating on social media [18] . Evidence collected from public surveys [14, [16] [17] [18] [19] may inform the development of targeted public health messaging and track uptake of new information [20] ; however, to date no comprehensive Canadian-based surveys investigating public perspectives related to COVID-19 and potential variations by geographic region have been published. This may be particularly important given the variation across provinces and territories in COVID-19 case burden and local government response [21] . We conducted a national survey of adults residing in Canada to gain a better understanding of public perceptions in several important domains-beliefs (e.g. severity of pandemic, concerns, impact on health), knowledge acquisition (e.g. sources, topics), and behaviors (e.g. isolation and physical distancing)-related to the COVID-19 pandemic. This benchmarking data will help inform future public health messaging and initiatives.",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 220,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 221,
+                    "end": 224,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 440,
+                    "end": 444,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 450,
+                    "end": 454,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 791,
+                    "end": 795,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 796,
+                    "end": 800,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 801,
+                    "end": 805,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 806,
+                    "end": 810,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 910,
+                    "end": 914,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1237,
+                    "end": 1241,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We developed a cross-sectional, online, anonymous survey and contracted Ipsos Incorporated (https://www.ipsos.com/en-ca), a world-wide market research and polling firm, to administer it across Canada. We first iteratively synthesized a comprehensive list of questions based on broad content areas reported in previously published survey research on pandemics [22] [23] [24] [25] and in current COVID-19 public opinion polls [15] . We subsequently invited seven members of the research team (co-investigators, research assistants, and patient partners) to provide feedback on question format, comprehensiveness, clarity, and flow [26] . We refined the questionnaire based on feedback.",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 363,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 369,
+                    "end": 373,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 374,
+                    "end": 378,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 424,
+                    "end": 428,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 629,
+                    "end": 633,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "The questionnaire domains and sub-domains are illustrated in S1 Fig. Question types included 5-point unipolar scales (e.g., 1 = not at all/poor, 5 = extremely/excellent), 7-point bipolar agreement scales (1 = strongly disagree to 7 = strongly agree), single-response multiple choice, and multiple response multiple choice. We randomized the order of the response options to reduce response selection bias [26] . We compared respondents' retrospective ratings of five domains of overall health (mental/emotional, physical, social, economic, spiritual) at the start of 2020 to ratings of their health status at the time of data collection, with differences categorized into 'worse', 'same', or 'better'. We provided respondents with definitions for self-isolation and social/physical distancing. Self-isolation was defined as \"separating yourself from others, including those within your home, with the purpose of preventing the spread of the virus (whether diagnosed or undiagnosed, with or without symptoms\" and social/physical distancing defined as \"limiting your time in spaces occupied by others, including reducing trips to visit others in person and reducing time spent in public spaces.\"",
+            "cite_spans": [
+                {
+                    "start": 405,
+                    "end": 409,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "To ascertain whether the questionnaire could be completed within 15-minutes, we piloted it with a sample of 104 Canadian residents. No changes to the questionnaire were made and we therefore included the pilot responses in the final data set. The questionnaire was optimized for 'device agnosticism' to ensure its compatibility across most systems (e.g., mobile phone, computer, tablet). The final questionnaire (see S1 Appendix) was formatted in English and French and consisted of 21 demographic and 46 COVID-19-related questions covering three overarching domains of self-reported perceptions: beliefs, knowledge acquisition, and behaviors. Dalhousie University (#2020-5121) and University of Calgary (#20-0538) Research Ethics Boards approved this study. Prior to entering the questionnaire, respondents reviewed an informed consent page; consent was implied by completing the questionnaire.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "The questionnaire was distributed electronically through Ipsos' proprietary iSay panel of approximately 250,000 Canadians using direct email and social media posts. Panelists were eligible to complete the survey if they were adults (\ufffd18 years), lived in Canada, and were able to read English or French. We screened respondents by age (18-34, 35-55, >55) , sex at birth (female/male), and provincially defined regions (British Columbia, Alberta, Saskatchewan/ Manitoba, Ontario, Qu\u00e9bec, and Atlantic provinces) to ensure population representation based on 2016 census data [27] . Respondents received Ipsos reward points after completing the questionnaire; points are accumulated and redeemed for gift cards and merchandise.",
+            "cite_spans": [
+                {
+                    "start": 334,
+                    "end": 353,
+                    "text": "(18-34, 35-55, >55)",
+                    "ref_id": null
+                },
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Questionnaire administration"
+        },
+        {
+            "text": "We derived a minimum sample size estimate of 385 based on a normal approximation to the binomial distribution with a finite population correction applied [28] (assuming an observed proportion of respondents selecting a specific response option of 50%) that incorporated population size (~36.3 million in Canada), a 95% confidence level and a margin of error of 5%. We elected to collect 2,000 questionnaires to allow for regional subgroup analyses and calculated the associated margin of error to be +/-2.2% at a 95% confidence level.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample size calculations"
+        },
+        {
+            "text": "We used descriptive statistics (frequencies (percent) or means (standard deviation)) to summarize respondent characteristics. We weighted responses by age, sex, and regional population estimates derived from 2016 census data [27] . Likert scales were reported as frequencies with percent for each point on the scale. We tested for overall differences between regions using weighted chisquared tests. If p was less than 0.05, we followed with post-hoc comparisons using weighted logistic region to quantify differences between regions with odds ratios (OR) using Ontario as the comparison group. We conducted all quantitative data analyses using SPSS, version 23 and R, version 3.5.1 [29] . We used the R package \"survey\" version 3.36 [30] to obtain weighted descriptive statistics, chi-squared tests, and OR estimates. Statistical significance was set at \u03b1 = 0.05.",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 683,
+                    "end": 687,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 734,
+                    "end": 738,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "We collected data from April 26 th to May 1 st , 2020. We excluded four respondents who reported being unaware of the current COVID-19 pandemic, resulting in a final sample of 1,996 respondents. On the last date data was collected (May 1 st ) there were 56,158 confirmed cases of COVID-19 in Canada; 83% of the cases were in the two most populated provinces, Qu\u00e9bec (51%) and Ontario (32%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Of the 1,996 respondents, 135 respondents (6.8%, 95% Confidence Interval (CI) 5.7%-7.9%) reported that they currently or previously had an illness that they believed was COVID-19. Only 12 (0.6%, 95%CI 0.3%-0.9%) of these reported ever testing positive for COVID-19, 41 (2.1%, 95% CI 1.4%-2.7%) tested negative, and 82 (4.1%, 95% CI 3.2%-5.0%) were not tested. Most (n = 1,858, 93.2%, 95%CI 92.1%-94.3%) were either uncertain (n = 96, 4.8%, 95% CI 3.9%-5.8%) or believed they had not contracted COVID-19 (n = 1762, 88.4%, 95%. CI 87.0%-89.8%); one-fifth of all respondents (n = 404, 20.3%, 95% CI 18.5%-22.0%) reported personally knowing someone diagnosed with COVID-19. Our survey sample is proportionally similar to the Canadian population [27] in terms of sex (female, 54vs51), age distribution (18-29 years, 15vs19; 30-44 years, 25vs24; 45-64 years, 32vs35), marital status (single, 25vs24; married/living together, 58vs58; separated/divorced/widowed, 14vs14), college or university educated (56vs54), and housing (detached dwelling, 55vs54). The percentage of respondents 65 years and older was somewhat higher in our sample (28%) than reported in the national census (21%). Just over one-half (n = 563, 50.1%) of the 1001 employed respondents in our survey were working in a job deemed essential and 14 percent (n = 143) of unemployed respondents (n = 995) reported their unemployment being a direct result of COVID-19. Respondent characteristics are summarized in Table 1 as unweighted results. ",
+            "cite_spans": [
+                {
+                    "start": 741,
+                    "end": 745,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1470,
+                    "end": 1477,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "A majority (n = 1,236, 62.1%, 95%CI 59.9%-64.2%) of respondents perceived COVID-19 to be a very serious problem in Canada though only a small proportion (n = 268, 13.5%, 95% CI 11.9%-15.0%) rated it to be slightly more or much serious than in other countries ( Table A in S2 Appendix). More respondents were moderately or extremely concerned about a family member contracting COVID-19 (n = 889, 45.3%, 95%CI 43.0%-47.5%) than were concerned about themselves contracting the disease (568/1,885 reported not believing they had contracted COVID-19, 30.1%, 95%CI 28.1%-32.2%) (Fig 1) . In rating concerns about the impacts of COVID-19 on the health system , a greater proportion of respondents were moderately or extremely concerned that there would be insufficient personal protective equipment (PPE) for hospital staff to stay safe (n = 1,024, 51.7%, 95%CI 49.5%-53.9%) compared to concerns about access to healthcare and availability of equipment to care for COVID-19 patients (Fig 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 261,
+                    "end": 268,
+                    "text": "Table A",
+                    "ref_id": null
+                },
+                {
+                    "start": 572,
+                    "end": 579,
+                    "text": "(Fig 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 976,
+                    "end": 983,
+                    "text": "(Fig 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Self-reported beliefs"
+        },
+        {
+            "text": "Just under half (n = 898, 45.2%, 95%CI 43.0%-47.4%) of respondents agreed or strongly agreed that the pandemic was stressful; however, fewer (n = 566, 28.5%, 95%CI 26.5%-30.5%) agreed or strongly agreed that it was something that made them feel helpless (Fig A in S2 Appendix). When asked to sequentially rate their past (start of 2020) and present health (physical, mental/emotional, social, economic, spiritual), respondents expressed experiencing declines in all dimensions of health with the largest decreases reported for social health (n = 964, 48.5%, 95%CI 46.3%-50.7%) and mental/emotional health (n = 778, 39.1%, 95%CI 36.9%-41.2%) (Fig 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 254,
+                    "end": 266,
+                    "text": "(Fig A in S2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 641,
+                    "end": 648,
+                    "text": "(Fig 2)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Self-reported beliefs"
+        },
+        {
+            "text": "The majority of respondents (n = 1,741, 87.5%, 95%CI 86.1%-89.0%) rated their understanding of how the virus was spread as good (n = 629, 31.6%, 95%CI 29.5%-33.7%), very good (n = 793, 39.9%, 95%CI 37.7%-42.0%), or excellent (n = 319, 16.1%, 95%CI 14.4%-17.7%). Fig  3 shows respondents' level of agreement to a series of statements about the transmission of the virus that causes COVID-19. The highest consensus among respondents was in agreeing or strongly agreeing that people can be infected with COVID-19 and not show any symptoms (n = 1,713, 86.5%, 95%CI 84.9%-88.0%). There was greater variability across respondents in their degree of agreement to other knowledge-based statements (Fig 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 287,
+                    "text": "Fig  3 shows respondents'",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 689,
+                    "end": 696,
+                    "text": "(Fig 3)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Self-reported knowledge acquisition"
+        },
+        {
+            "text": "When respondents were asked how often they search for information about COVID-19, over half (n = 1,345, 67.9%, 95%CI 65.8%-69.9%) reported searching once per day or more ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Self-reported knowledge acquisition"
+        },
+        {
+            "text": "and predominantly accessing and trusting Canadian over American or other international sources for their information. The top accessed source was Canadian news-based television, print, or websites (n = 1,488, 75.6%, 95% CI 73.6%-77.5%) (Fig 4) . The lowest rated sources for COVID-19 information included social media posts from influencers or celebrities (n = 1,039, 54.8% selected as least trusted, 95% CI 52.5%-57.1%) and American news television, print, and websites (n = 711, 50.4% selected as source of misinformation, 95% CI 47.7%-53.0%). Consistent with valuing Canadian sources, respondents most frequently reported going directly to government or health authority sources (n = 979, 50.6%, 95% CI 48.4%-52.8%) to verify information (Fig B in S2 Appendix) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 236,
+                    "end": 243,
+                    "text": "(Fig 4)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 741,
+                    "end": 763,
+                    "text": "(Fig B in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Half of respondents surveyed (n = 1,017, 51.3%, 95% CI 49.1%-53.5%) agreed or strongly agreed that they were able to find the kind of information they want about COVID-19 ( Fig C  in S2 Appendix) . Information about COVID-19 infection rates dominated respondent's searches (n = 1,414, 71.5%, 95% CI 69.5%-73.5%) (Fig D in S2 Appendix) , while information about vaccines and treatments were most frequently (n = 933, 48.9%, 95% CI 46.7%-51.2%) cited as topics of misinformation (Fig D in S2 Appendix) from those who reported having seen or heard incorrect or misleading information related to COVID-19 during the previous two weeks (n = 1,520, 75.3%, 95% CI 73.4%-77.3%). Yet, only half (n = 937, 47.4%, 95% CI 45.2%-49.6%) of respondents felt moderately or extremely confident that they could identify incorrect or misleading information about COVID-19 (Fig E in S2 Appendix) , and comparable numbers reported being uncertain (n = 455, 23.0%, 95% CI 21.2%-24.9%) or agreeing (n = 634, 32.1%, 95% CI 30.0%-34.2%) that they find it hard to determine if an information source was trustworthy or not (Fig C in S2 Appendix) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 173,
+                    "end": 195,
+                    "text": "Fig C  in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 312,
+                    "end": 334,
+                    "text": "(Fig D in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 477,
+                    "end": 499,
+                    "text": "(Fig D in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 853,
+                    "end": 875,
+                    "text": "(Fig E in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1096,
+                    "end": 1118,
+                    "text": "(Fig C in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "https://doi.org/10.1371/journal.pone.0241259.g001",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig 1. Respondents' concerns about contracting the virus that causes COVID-19 and the impacts on healthcare."
+        },
+        {
+            "text": "Just under half of respondents indicated they were in self-isolation (n = 842, 43.4%, 95% CI 41.2%-45.6%). Of those who were not self-isolating (n = 1,144), the vast majority (n = 1,083, 95.1%, 95% CI 93.8%-96.4%) reported that they practiced physical distancing always (n = 783, 68.8%, (95% CI 66.0%-71.5%) or often (n = 300, 26.3%, 95% CI 23.7%-28.9%). Furthermore, many (n = 814, 41.0%, 95% CI 38.9%-43.2%) respondents felt that they could reasonably sustain their current level of physical distancing longer than six months (or as long as needed) (Fig 5) . Self-reported distancing behaviors were consistent with respondent perceptions of 'self' as effective agents to prevent the spread of the virus, with most (n = 1,380, 69.7%, 95% CI 67.7%-71.8%) agreeing or strongly agreeing that they were doing a good job at preventing the spread of the virus with changes to their behavior; about one-third (n = 677, 34.9%, 95% CI 32.7%-37.0%) agreed or strongly agreed that they were doing a better job than other people (Fig C in S2 Appendix) . Respondents (mean age of 50) most commonly perceived teenagers as least consistently practicing physical distancing (n = 855, 43.2%, 95% CI 41.0%-45.4%) while identifying middle-aged adults (n = 786, 39.6%, 95%CI 37.4%-41.8%) and seniors (n = 744, 37.5%, 95%CI 35.4%-39.6%) as most consistently practicing physical distancing (Fig F in S2  Appendix) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 551,
+                    "end": 558,
+                    "text": "(Fig 5)",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 1018,
+                    "end": 1040,
+                    "text": "(Fig C in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1369,
+                    "end": 1392,
+                    "text": "(Fig F in S2  Appendix)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Self-reported behaviors"
+        },
+        {
+            "text": "The most frequently selected reasons (Fig 6) for self-isolating or physical distancing were to protect oneself (n = 1,602, 81.0%, 95% CI 79.2%-82.7%), to protect other people in one's household (n = 970, 49.1%, 95% CI 46.8%-51.3%) and to protect other members of the general public (n = 962, 48.6%, 95% CI 46.4%-50.8%). Three-quarters (n = 1,436, 75.8%, 95% CI 73.9%-77.8%) of respondents reported that they would get vaccinated for the virus when a vaccine became available. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 37,
+                    "end": 44,
+                    "text": "(Fig 6)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Self-reported behaviors"
+        },
+        {
+            "text": "Regional differences. Overall analyses based on the Chi-squared tests revealed several associations between the region in which respondents resided and their self-reported perceptions (see Table A in S3 Appendix). Post-hoc multiple comparisons presented as Odds Ratios are in Table B in S3 Appendix. In comparison to respondents in Ontario, respondents in all other regions were less likely to believe that COVID-19 was a very serious problem in Canada (0.50 to 0.74 times as likely to report COVID-19 was a very serious problem) and were more likely to be \"not at all\" concerned about the impact of COVID-19 on hospitals (e.g. 1.86 to 2.50 times as likely to report being \"not at all\" concerned at lack of PPE) and patients (e.g. limited access to necessary services, 1.72 to 2.84 times as likely to report being \"not at all\" concerned). A complete lack of concern about themselves or a family member contracting the virus also was more likely to be expressed by respondents in regions outside of Ontario, compared to those in Ontario. This included respondents in Qu\u00e9bec in spite of being more likely to have close friends who tested positive for COVID-19 (OR 2.39, 95% CI 1.39-4.11) and having the highest rate of confirmed COVID-19 cases at the time. Respondents in British Columbia, Qu\u00e9bec, and Manitoba/Saskatchewan were less stressed by the pandemic than were respondents in Ontario, although Qu\u00e9bec respondents also were more likely to strongly agree that the pandemic made them feel helpless (OR 2.38, 95%CI 1.71-3.32). There were no statistically significant associations between region and self-reported ratings of physical, mental/emotional, social, or economic health. Respondents in Qu\u00e9bec felt least knowledgeable about how the virus is spread, reporting \"fair\" more often than respondents in Ontario (OR 1.53, 95%CI 1.08-2.18), while respondents in Manitoba/Saskatchewan were more likely to report \"very good\" understanding than did respondents in Ontario (OR 1.65, 95% CI 1.13-2.40) but less ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 196,
+                    "text": "Table A",
+                    "ref_id": null
+                },
+                {
+                    "start": 276,
+                    "end": 283,
+                    "text": "Table B",
+                    "ref_id": null
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "likely to report \"excellent\" (OR 0.37, 95% CI 0.19-0.73). Respondents in Alberta and the Atlantic provinces were less likely to access Canadian news than respondents from Ontario, and along with respondents from Qu\u00e9bec, were less likely to access American news. Respondents from all regions but British Columbia were less likely to access international sources than respondents from Ontario. Respondents in Qu\u00e9bec were less likely to agree (15%) or strongly agree (36.9%) that they would get vaccinated compared to those in Ontario (OR 0.71, 95% 0.52-0.98 and OR 0.68, 95% CI 0.53-0.87, respectively) while respondents from Alberta were more likely to strongly disagree (9.1%) that they will get vaccinated (OR 1.91, 95% 1.08-3.40). With changes to their behavior, respondents in Quebec are more likely to strongly agree that they are doing a good job at preventing the spread of COVID-19 compared to respondents from Quebec (OR 1.31, 95% CI 1.02-1.69).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "The COVID-19 pandemic has substantially altered many aspects of public life, yet little is known about the perspectives and experiences of broader populations. Our study provides a national cross-sectional description of public perceptions, knowledge and behaviors related to COVID-19 in the context of the evolving pandemic, adding to survey data published early in the outbreak [16] [17] [18] . Our data suggest that Canadians are concerned about the threat of COVID-19 to the healthcare system, to themselves and their family members, and that they consider the ongoing pandemic a serious problem on both national and international levels. There are three main findings of the survey: (1) the negative impact of the pandemic on Canadians' perceptions of their health, (2) the frequent searching for up-to-date information about COVID-19 (largely via Canadian based sources), and (3) current and future perceived desire and ability of the public to comply with public health recommendations (e.g. physical distancing, vaccination for COVID-19 if/when available). To our knowledge, this is the first national survey in Canada to comprehensively assess multiple domains of public perceptions important to understanding the public's response to the ongoing pandemic.",
+            "cite_spans": [
+                {
+                    "start": 380,
+                    "end": 384,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 390,
+                    "end": 394,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We found that overall health has been markedly impacted by pandemic conditions, and that this is largely irrespective of personal infection with COVID-19. In fact, very few of our respondents reported ever testing positive for COVID-19, yet many perceived that aspects of their overall health had deteriorated, particularly mental/emotional and social health. This is further evidenced in high agreement among our respondents that the pandemic is stressful, which may be unassociated with case burden. Although respondents in Ontario, a province with a high number of confirmed COVID-19 cases, were more likely to report stress than those in other provinces, respondents in Qu\u00e9bec, also a province with high cases, did not. The need to assess and respond to health impacts beyond infection with SARS-Cov-2 has been increasingly recognized as a critical part of pandemic response [31] [32] [33] [34] [35] [36] [37] . For example, dramatic shifts in routines, livelihoods and behaviors during quarantine, coupled with the unfulfilled basic need for human connection [33] , have been described as significant threats to mental health and well-being. In addition, findings from surveys commissioned by the UK Academy of Medical Sciences (AMS) and the charity MQ: Transforming Mental Health through Research reported widespread public concern about isolation, loneliness, practical aspects of ",
+            "cite_spans": [
+                {
+                    "start": 879,
+                    "end": 883,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 884,
+                    "end": 888,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 889,
+                    "end": 893,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 894,
+                    "end": 898,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 899,
+                    "end": 903,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 904,
+                    "end": 908,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 909,
+                    "end": 913,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1064,
+                    "end": 1068,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "life (e.g. finances), and general negative feelings, and provided groundwork for the collaborative development of sweeping research priorities to improve these conditions [34] . In our survey, fewer respondents reported that the pandemic makes them feel helpless, suggesting some resiliency to the detrimental circumstances the pandemic has produced.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 175,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "The media's role in disseminating information that will concurrently educate and motivate public behaviors in accordance with recommended guidance and avoid creating undue stress, skepticism, or rebuff of guidelines is a critical factor in navigating pandemic response [32, 34, 38] . Our study found that the public frequently searches for information about COVID-19 and is primarily getting information from domestic news sources, including television, print, and websites that are not government or public health agency websites. Respondents in our study also view news sources as equally credible to national government and public health websites. This finding suggests that public health officials should view mainstream media, and in particular television, as important promoters or messengers of COVID-19-related information. Given this, it is crucial for mainstream media to take this responsibility seriously to ensure accurate information is conveyed. At the same time, perceptions of trust may be moderated by other factors not accounted for in this survey, such as perceived congruence between government guidelines and impact reducing virus spread. In our survey, respondents from Ontario and Qu\u00e9bec reported the least amount of trust in Canadian government and news sources and these were also the same provinces with the highest number of confirmed COVID-19 cases in Canada (32% and 51%, respectively).",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Much attention has been paid to the proliferation of information about COVID-19, raising concerns about parallel increases in misinformation. We found that a substantial proportion of respondents value science-based sources (e.g. government websites) which may explain ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "high rates of self-reported behavior change to prevent virus spread. This correlates with other public opinion data [39] ; however, about half of our respondents still expressed only moderate levels of confidence in being able to identify misleading information (Fig E in S2 Appendix) or determine if an information source is trustworthy (Fig C in S2 Appendix) . Of note, many respondents indicated that they do not view American news sources as trustworthy, and more specifically, see it as a source of misinformation. Familiarity with and interest in context-specific information may influence respondents' perceptions of credibility. Social media posts were also commonly identified as untrustworthy, however, these perceptions ranged depending on who was sharing the information. Posts from family and friends or influencers were viewed as less trustworthy than posts from government or public health agencies. As a quickresponse platform with open posting and limited moderation, misinformation is easily spread on social media [39] [40] [41] . While some social media platforms (e.g. Facebook, Twitter and Instagram) have increased efforts to monitor and remove incorrect or harmful information related to COVID-19 in an attempt to reduce public consumption of misinformation, the effectiveness of these efforts is currently unknown [42] . We found that our respondents most frequently fact checked their information using government and public health websites (51%) and scientific articles (30%), but greater efforts to better understand how individuals may proactively limit their exposure to misinformation, identify misinformation, and fact check information are needed.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 120,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1033,
+                    "end": 1037,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1038,
+                    "end": 1042,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1043,
+                    "end": 1047,
+                    "text": "[41]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1339,
+                    "end": 1343,
+                    "text": "[42]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 284,
+                    "text": "(Fig E in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 338,
+                    "end": 360,
+                    "text": "(Fig C in S2 Appendix)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "The vast majority of respondents in our study reported practicing a high level of physical distancing, and a surprisingly high number felt that they could maintain this for a long period of time (6 months or more) if necessary. This finding is somewhat unexpected given the high level of reported self-isolation amongst our respondents. Although it may be that not all respondents clearly understood the difference between self-isolation and physical distancing, it is evident that most were motivated to limit social and physical interactions as a means to protect themselves and others from becoming infected with COVID-19. The lower than predicted infection rates in many countries has been credited largely to the high public compliance of mandated preventative measures. However, this comes at a price, including significant global economic losses [43] . In our survey, 14% of respondents reported unemployment as a result of the pandemic, and 34% of all respondents reported worse economic health.",
+            "cite_spans": [
+                {
+                    "start": 853,
+                    "end": 857,
+                    "text": "[43]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "In contrast to respondents' positive association to physical distancing recommendations, we report slightly lower numbers of respondents who intend to receive a COVID-19 vaccine once available as compared to other recent surveys [44] . While this is another somewhat unanticipated finding given the reported propensity of respondents to access and trust sources considered 'reputable' (e.g., public health agencies), individual and social determinants of vaccination are wide-ranging [45] [46] [47] [48] . Previous research has highlighted that the media can both hinder [49, 50] and enhance [50] vaccination uptake. To optimize potential future vaccine uptake, public health agencies should align key messaging with public perceptions, concerns, and information needs (e.g. preferred sources) [51, 52] , tailoring by jurisdiction. For example, in our study, respondents from the province with the highest number of COVID-19 cases (Qu\u00e9bec) were significantly less likely to report that they plan to get vaccinated (Table B in S3 Appendix) and reported the least amount of trust in Canadian government and news sources. Such complexities must be taken seriously if we are to ensure that public health recommendations are effectively communicated.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[44]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 484,
+                    "end": 488,
+                    "text": "[45]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[46]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 494,
+                    "end": 498,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 499,
+                    "end": 503,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[49,",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 576,
+                    "end": 579,
+                    "text": "50]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 592,
+                    "end": 596,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 794,
+                    "end": 798,
+                    "text": "[51,",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 799,
+                    "end": 802,
+                    "text": "52]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1014,
+                    "end": 1022,
+                    "text": "(Table B",
+                    "ref_id": null
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Our survey has limitations. Although providing a broad snapshot of population, cross-sectional surveys capture relevant data only at a single moment in time on specific topics. In a rapidly changing landscape, it is expected that self-reported perceptions and behaviors would change with new information. The use of serial surveys [13, 14, 44] is one strategy to strengthen cross-sectional survey designs. At the same time, our study provides useful descriptive data at a pandemic peak in Canada. Subsequent qualitative methodologies will further enrich our understanding of public actions and reactions to the COVID-19 pandemic. Second, as we elected to set a survey response quota, we are not able to determine a response rate. While there is a risk of non-response bias, the rapid collection of responses to reach our 2,000 quota (five days) and methodological strengths in our design (rigorous development including pre-testing and device agnosticism, large sample size, population representation and weighting by age, sex at birth, and region) outweigh this limitation. Third, differences in public perceptions that may be associated with socio-demographic factors such as age and gender were not addressed in this manuscript but will be the focus of future investigation. Finally, though overall results may be affected by larger numbers of respondents from Canada's two largest provinces (Ontario and Qu\u00e9bec), the weighting ensures results accurately reflect the actual regional populations within Canada. At the same time, regional differences should be cautiously interpreted as we did not adjust for multiple comparisons.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 336,
+                    "end": 339,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "44]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations"
+        },
+        {
+            "text": "We conducted a national survey including a representative sample of the Canadian public to assess overall perceptions, knowledge, and behaviors related to the COVID-19 pandemic. Our results highlight the impact of the pandemic on individual perceptions of health which may be further exacerbated by salient concerns around risks of infection, healthcare safety, and access. We found that knowledge about COVID-19 is largely acquired through domestic news sources, which may explain high self-reported compliance with prevention measures. The findings of this study should be used to inform public health communications during COVID-19 and future pandemics. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Novel coronavirus-China: Disease outbreak news: WHO; 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Misinformation During the Coronavirus Disease 2019 Outbreak: How Knowledge Emerges From Noise. Critical Care Explorations",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rochwerg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Parke",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Murthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fernando",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leigh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CCE.0000000000000098"
+                ],
+                "PMID": [
+                    "02107256"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "World Health Organization. Coronavirus disease (COVID-19) pandemic: WHO; 2020",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The Global Public Health Intelligence Network and early warning outbreak detection: a Canadian contribution to global public health",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mykhalovskiy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Weir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Can J Public Health",
+            "volume": "97",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF03405213"
+                ],
+                "PMID": [
+                    "16512327"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus disease (COVID-19): Government of Canada",
+            "authors": [
+                {
+                    "first": "Canada",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Infection prevention and control for COVID-19: Interim guidance for long term care homes",
+            "authors": [
+                {
+                    "first": "Canada",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "How behavioural science data helps mitigate the COVID-19 crisis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Betsch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature human behaviour",
+            "volume": "4",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-020-0866-1"
+                ],
+                "PMID": [
+                    "32221514"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Social Media and Emergency Preparedness in Response to Novel Coronavirus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Merchant",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lurie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "20",
+            "pages": "2011--2013",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4469"
+                ],
+                "PMID": [
+                    "32202611"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "How to fight an infodemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zarocostas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30461-X"
+                ],
+                "PMCID": [
+                    "PMC7133615"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Fear of the novel coronavirus",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kelvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rubino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dev Ctries",
+            "volume": "14",
+            "issn": "1",
+            "pages": "1--2",
+            "other_ids": {
+                "DOI": [
+                    "10.3855/jidc.12496"
+                ],
+                "PMID": [
+                    "32088678"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Delayed access or provision of care in Italy resulting from fear of COVID-19. The Lancet Child & adolescent health",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lazzerini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Apicella",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Marchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cardinale",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Trobia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2352-4642(20)30108-5"
+                ],
+                "PMID": [
+                    "32278365"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "We need everyone for this': U.S. hospitals harnessing resources to brace for any spike in coronavirus cases: STAT News",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Thielking",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Survey tool and guidance: Rapid, simple, flexible behavioural insights on COVID-19 Copenhagen: WHO Regional Office for Europe",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Use of Rapid Online Surveys to Assess People's Perceptions During Infectious Disease Outbreaks: A Cross-sectional Survey on COVID-19",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Geldsetzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Internet Res",
+            "volume": "22",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/18790"
+                ],
+                "PMID": [
+                    "32240094"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19 Public Opinion Research Hub",
+            "authors": [],
+            "year": 2002,
+            "venue": "Canadian Research Insights Council",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Knowledge and Behaviors Toward COVID-19 Among US Residents During the Early Days of the Pandemic: Cross-Sectional Online Questionnaire. JMIR public health and surveillance",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Clements",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/19161"
+                ],
+                "PMID": [
+                    "32369759"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Perceptions of the adult US population regarding the novel coronavirus outbreak",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcfadden",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Aguolu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Willebrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Omer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS One",
+            "volume": "15",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0231808"
+                ],
+                "PMID": [
+                    "32302370"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Knowledge and Perceptions of COVID-19 Among the General Public in the United States and the United Kingdom: A Cross-sectional Online Survey",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Geldsetzer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/m20-0912"
+                ],
+                "PMID": [
+                    "32196071"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Knowledge, attitudes, and practices towards COVID-19 among Chinese residents during the rapid rise period of the COVID-19 outbreak: a quick online cross-sectional survey",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Biol Sci",
+            "volume": "16",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7150/ijbs.45221"
+                ],
+                "PMID": [
+                    "32226294"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Understanding coronavirus disease (COVID-19) risk perceptions among the public to enhance risk communication efforts: a practical approach for outbreaks",
+            "authors": [
+                {
+                    "first": "A-L",
+                    "middle": [],
+                    "last": "Lohiniva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sane",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sibenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Puumalainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salminen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.13.2000317"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Who did what and when? The choice of measures and the timing of them offer some early lessons as a kind of \"COVID-19 federalism\" emerges. Policy Options Politiques",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Breton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Public response to MERS-CoV in the Middle East: iPhone survey in six countries",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alqahtani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rashid",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Basyouni",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alhawassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Bindhim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Infect Public Health",
+            "volume": "10",
+            "issn": "5",
+            "pages": "534--574",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jiph.2016.11.015"
+                ],
+                "PMID": [
+                    "28185821"
+                ],
+                "PMCID": [
+                    "PMC7102840"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "attitude and practice towards SARS",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bener",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Khal",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Knowledge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J R Soc Promot Health",
+            "volume": "124",
+            "issn": "4",
+            "pages": "167--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/146642400412400408"
+                ],
+                "PMID": [
+                    "15301314"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "SARS risk perception, knowledge, precautions, and information sources, the Netherlands",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brug",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oenema",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "De Zwart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Richardus",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bishop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg Infect Dis",
+            "volume": "10",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid1008.040283"
+                ],
+                "PMID": [
+                    "15496256"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Perceived threat, risk perception, and efficacy beliefs related to SARS and other (emerging) infectious diseases: results of an international survey",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "De Zwart",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Veldhuijzen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Elam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aro",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Bishop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Int J Behav Med",
+            "volume": "16",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12529-008-9008-2"
+                ],
+                "PMCID": [
+                    "PMC2691522"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A guide for the design and conduct of self-administered surveys of clinicians",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Burns",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Duffett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Meade",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sinuff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "CMAJ",
+            "volume": "179",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1503/cmaj.080372"
+                ],
+                "PMID": [
+                    "18663204"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Census Ottawa: Government of Canada",
+            "authors": [],
+            "year": 2016,
+            "venue": "Statistics Canada. Census Profile",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Biostatistics: A Foundation for Analysis in the Health Sciences",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Daniel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "A language and environment for statistical computing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R Core Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Analysis of Complex Survey Samples",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lumley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.18637/jss.v009.i08"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Including the public in pandemic planning: a deliberative approach",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Braunack-Mayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Street",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Givney",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hiller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "BMC Public Health",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2458-10-501"
+                ],
+                "PMID": [
+                    "20718996"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Mental health problems and social media exposure during COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS One",
+            "volume": "15",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0231924"
+                ],
+                "PMID": [
+                    "32298385"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The Impact of Covid-19 on Mental Health: The Interactive Roles of Brain Biotypes and Human Connection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hagerty",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Brain Behav Immun Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbih.2020.100078"
+                ],
+                "PMID": [
+                    "32382727"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Multidisciplinary research priorities for the COVID-19 pandemic: a call for action for mental health science",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "O&apos;connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Tracey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wessely",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Arseneault",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Psychiatry",
+            "volume": "7",
+            "issn": "6",
+            "pages": "547--60",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30168-1"
+                ],
+                "PMID": [
+                    "32304649"
+                ],
+                "PMCID": [
+                    "PMC7159850"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Psychological Distress and Loneliness Reported by US Adults",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mcginty",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Presskreischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Barry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JAMA",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.9740"
+                ],
+                "PMID": [
+                    "32492088"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Study of knowledge, attitude, anxiety & perceived mental healthcare need in Indian population during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tripathy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kar",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kaushal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian J Psychiatr",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajp.2020.102083"
+                ],
+                "PMID": [
+                    "32283510"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Initial psychological impact of COVID-19 and its correlates in Indian Community: An online (FEEL-COVID) survey",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Varshney",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Parel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Raizada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sarin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS One",
+            "volume": "15",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0233874"
+                ],
+                "PMID": [
+                    "32470088"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Effective health risk communication about pandemic influenza for vulnerable populations",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Vaughan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Tinker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Am J Public Health",
+            "volume": "99",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/AJPH.2009.162537"
+                ],
+                "PMID": [
+                    "19797744"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Inoculating against an Infodemic: A Canada-wide COVID-19 News, Social Media, and Misinformation Survey. V1 ed: Scholars Portal Dataverse",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gruzd",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Coronavirus Goes Viral: Quantifying the COVID-19 Misinformation Epidemic on Twitter",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kouzy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Abi",
+                    "middle": [],
+                    "last": "Jaoude",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kraitem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "El Alam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Karam",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Adib",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cureus",
+            "volume": "12",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7759/cureus.7255"
+                ],
+                "PMID": [
+                    "32292669"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "YouTube as a source of information on COVID-19: a pandemic of misinformation?",
+            "authors": [
+                {
+                    "first": "Ho-Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bailey",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huynh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ global health",
+            "volume": "5",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjgh-2020-002604"
+                ],
+                "PMID": [
+                    "32409327"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Why is it so hard to stop COVID-19 misinformation spreading on social media? The Conversation",
+            "authors": [
+                {
+                    "first": "Tr G",
+                    "middle": [],
+                    "last": "Keller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The socio-economic implications of the coronavirus pandemic (COVID-19): A review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Alsafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sohrabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kerwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Jabir",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Iosifidis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Surg",
+            "volume": "78",
+            "issn": "",
+            "pages": "185--93",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijsu.2020.04.018"
+                ],
+                "PMID": [
+                    "32305533"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "COVID-19 Snapshot Monitoring (COSMO Canada) Impact Canada: Impact Canada Initiative",
+            "authors": [
+                {
+                    "first": "Canada",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Monitoring the level of government trust, risk perception and intention of the general public to adopt protective measures during the influenza A (H1N1) pandemic in The Netherlands",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Van Der Weerd",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Timmermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Beaujean",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Oudhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Van Steenbergen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "BMC Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2458-11-575"
+                ],
+                "PMID": [
+                    "21771296"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Longitudinal investigation of public trust in institutions relative to the 2009 H1N1 pandemic in Switzerland",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bangerter",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Krings",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mouton",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Gilles",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cl\u00e9mence",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "11",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0049806"
+                ],
+                "PMID": [
+                    "23185444"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "The challenge of providing the public with actionable information during a pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gerwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Law Med Ethics",
+            "volume": "40",
+            "issn": "3",
+            "pages": "630--54",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1748-720X.2012.00695.x"
+                ],
+                "PMID": [
+                    "23061590"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Roots of vaccine hesitancy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "S D Med",
+            "volume": "",
+            "issn": "",
+            "pages": "52--59",
+            "other_ids": {
+                "PMID": [
+                    "23444592"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Likely correlation between sources of information and acceptability of A/H1N1 swine-origin influenza virus vaccine in Marseille, France",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nougair\u00e8de",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lagier",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ninove",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sartor",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Badiaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Botelho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS One",
+            "volume": "5",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0011292"
+                ],
+                "PMID": [
+                    "20593024"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Pandemic Public Health Paradox\": Time Series Analysis of the 2009/10 Influenza A / H1N1 Epidemiology, Media Attention, Risk Perception and Public Reactions in 5 European Countries",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Reintjes",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Klemm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Richardus",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Kessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS One",
+            "volume": "11",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0151258"
+                ],
+                "PMID": [
+                    "26982071"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "What the public was saying about the H1N1 vaccine: perceptions and issues discussed in on-line comments during the 2009 H1N1 pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Henrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0018479"
+                ],
+                "PMID": [
+                    "21533161"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Communicating during a pandemic: information the public wants about the disease and new vaccines and drugs",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Henrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Health Promot Pract",
+            "volume": "12",
+            "issn": "4",
+            "pages": "610--619",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1524839910363536"
+                ],
+                "PMID": [
+                    "21059872"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Difference in five domains of overall health at the start of 2020 compared to the time of questionnaire completion. Notes: Prefer not to answer responses are excluded from data analyses (range: n = 5, 0.3% to n = 107, 5.4%). Five-point scale ratings were poor, fair, good, very good, and excellent. https://doi.org/10.1371/journal.pone.0241259.g002",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Respondents' understanding of virus transmission and mitigation. Notes:Prefer not to answer response options are excluded from data analyses (range: n = 15, 0.8% to n = 146, 7.3%). \ufffd Percentage for somewhat disagree = 1%; percentage for disagree/strongly disagree = 1%.https://doi.org/10.1371/journal.pone.0241259.g003",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Information sources accessed, selected as most trustworthy, least trustworthy, and sources of misinformation indicated by respondents. Notes: Prefer not to answer responses are excluded from analysis (range: n = 5, 0.3% to n = 99, 5.0%). Canadian news is a combined category of Canadian television news, Canadian newspapers/magazines, and Canadian news websites. American news is a combined category of American television news, American newspapers/magazines, and American news websites. HCPs = healthcare providers; WHO = World Health Organization.https://doi.org/10.1371/journal.pone.0241259.g004",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Proportion of respondents who indicated how long they believe they could sustain their current level of physical distancing. Note: Prefer not to answer response options are excluded from data analyses (n = 12, 0.6%).https://doi.org/10.1371/journal.pone.0241259.g005",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Respondents' motivations for practicing either self-isolation (n = 852) or physical distancing (n = 1,126). Notes: Prefer not to answer response options are excluded from data analyses (n = 6, 0.7% and n = 4, 0.4%, respectively).https://doi.org/10.1371/journal.pone.0241259.g006",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Appendix. Public perceptions survey (English and French versions). (DOCX) S2 Appendix. Additional aggregate data figures and tables. (DOCX) S3 Appendix. Regional differences in self-reported perceptions. (DOCX) S1 Fig. Survey content domains and sub-domains. (DOCX) Author Contributions Conceptualization: Jeanna Parsons Leigh, Kirsten Fiest, Henry T. Stelfox. Data curation: Andrea Soo.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Andrea Soo. Funding acquisition: Jeanna Parsons Leigh. Investigation: Jeanna Parsons Leigh, Rebecca Brundin-Mather, Kara Plotnikoff, Andrea Soo, Liam Whalen-Browne.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Respondent characteristics (total sample size = 1,996).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "(Continued)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

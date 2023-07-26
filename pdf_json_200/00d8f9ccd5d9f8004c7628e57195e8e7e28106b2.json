@@ -1,0 +1,1295 @@
+{
+    "paper_id": "00d8f9ccd5d9f8004c7628e57195e8e7e28106b2",
+    "metadata": {
+        "title": "COVID-19 transmission in Hong Kong despite universal masking",
+        "authors": [
+            {
+                "first": "Mario",
+                "middle": [],
+                "last": "Mart\u00edn-S\u00e1nchez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wen",
+                "middle": [],
+                "last": "Lim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [],
+                "last": "Yeung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dillon",
+                "middle": [
+                    "C"
+                ],
+                "last": "Adam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Taslim",
+                "middle": [],
+                "last": "Ali",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Eric",
+                "middle": [
+                    "H Y"
+                ],
+                "last": "Lau",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Peng",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kwok-Yung",
+                "middle": [],
+                "last": "Yuen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory for Emerging Infectious Diseases",
+                    "institution": "Li Ka Shing Faculty of Medicine",
+                    "location": {
+                        "settlement": "Pokfulam"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gabriel",
+                "middle": [
+                    "M"
+                ],
+                "last": "Leung",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Benjamin",
+                "middle": [
+                    "J"
+                ],
+                "last": "Cowling",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "WHO Collaborating Centre for Infectious Disease Epidemiology and Control",
+                    "institution": "Hong Kong Special Administrative Region",
+                    "location": {
+                        "country": "China"
+                    }
+                },
+                "email": "bcowling@hku.hk"
+            },
+            {
+                "first": "D",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Taslim",
+                "middle": [
+                    "Ali Mario"
+                ],
+                "last": "Mart\u00edn",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Mask-wearing outside the home has been almost universal in Hong Kong since late January 2020 with very high compliance. Nevertheless, community spread of COVID-19 has still occurred. We aimed to assess the settings where COVID-19 transmission occurred and determine the fraction of transmission events that occurred in settings where masks are not usually worn.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We reviewed detailed information provided by the Hong Kong Department of Health on local COVID-19 cases diagnosed up to 30 September 2020 to determine the most likely settings in which transmission occurred. We classified them in probably mask-on or mask-of and compared the prevalence of asymptomatic infections in these settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Among the 2425 cases (65.3%, 2425/3711) with information on transmission setting, 77.6% of the transmission occurred in household and social settings where face masks are not usually worn. Infections that occurred in mask-on settings were more likely to be asymptomatic (adjusted odds ratio 1.33; 95% confidence interval: 1.04, 1.68).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We conclude that universal mask-wearing can reduce transmission, but transmission can continue to occur in settings where face masks are not usually worn. The higher proportion of asymptomatic cases in mask-on settings could be related to a milder disease presentation or earlier case detection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The first case of coronavirus disease 2019 in Hong Kong was confirmed on 23 January 2020 in a visitor from Wuhan, China (1) . The Hong Kong government implemented strict control measures to limit the introduction and spread of the virus including border controls, strict case isolation and quarantine of their close contacts, and social distancing measures in the community (2) (3) (4) . Mask-wearing outside the home has been almost universal since late January 2020 with very high compliance (1) , and the local government made it mandatory to wear masks in public from 22 July 2020 onwards (1) .",
+            "cite_spans": [
+                {
+                    "start": 120,
+                    "end": 123,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 374,
+                    "end": 377,
+                    "text": "(2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 378,
+                    "end": 381,
+                    "text": "(3)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 382,
+                    "end": 385,
+                    "text": "(4)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 494,
+                    "end": 497,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 593,
+                    "end": 596,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Face masks have proven efficacy in reducing the escape of respiratory virus droplets and aerosols into the environment from infected persons (5) and in reducing COVID-19 transmission at the population level (6) (7) (8) . However, despite the high use of face masks in Hong Kong, community outbreaks have still occurred, and there were 9798 laboratoryconfirmed cases and 166 deaths by 20 January 2021.",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "(5)",
+                    "ref_id": null
+                },
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "(6)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 211,
+                    "end": 214,
+                    "text": "(7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 215,
+                    "end": 218,
+                    "text": "(8)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this study, we aimed to assess the settings where COVID-19 transmission occurred and thereby determine the fraction of transmission events that have occurred in settings where masks are not usually worn. A considerable fraction of infections identified in Hong Kong have been asymptomatic, and here we also examined the prevalence of asymptomatic infections that occurred in mask-on versus mask-off settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We analysed a detailed line list provided by the Hong Kong Department of Health including all confirmed COVID-19 cases diagnosed up to 30 September 2020. We divided the study 5 period into two phases based on the pattern of case occurrence in Hong Kong. The first phase, from 23 January to 30 April 2020, was characterised by a high proportion of imported cases and the progressive implementation of community and travel-related restrictive measures. The second phase, from 1 May to 30 September 2020, initiated with the easing of community restrictions and low incidence until a resurgence in transmission in July that led to the retightening of community restrictive measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "For each case that acquired infection locally in Hong Kong, we examined detailed case notification data to determine the setting in which infection likely occurred. A cluster was defined as a grouping of two or more cases with an epidemiological link. We used cluster characteristics and locations to assign the setting of transmission to all clustered cases except for the cluster primary cases. For cases not linked to clusters, we individually reviewed their contact history and, social and occupational risk exposures to assign the setting of transmission. Date of symptom onset and description of symptoms at the moment of diagnosis were used to classify cases in asymptomatic and symptomatic. Occupation was grouped in five categories (clerical and service workers, executives and professionals, production workers, self-employed and not economically active) based on case self-reported occupation, as previously described (9) .",
+            "cite_spans": [
+                {
+                    "start": 929,
+                    "end": 932,
+                    "text": "(9)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "We classified settings in which people do not usually wear masks as mask-off, including household (family households and roommates) and social settings (exposure outside the household including restaurants, bars, meeting with friends and other gatherings that involved dining). We classified settings in which mask-wearing is required or masks are worn most of the time as mask-on, including common areas of housing estates, modes of transportation, residential care homes for the elderly and for disabled people, workplaces, schools, and 6 healthcare settings. In healthcare settings, we included health care workers infected from coworkers or patients, and patients infected from other patients while in a healthcare facility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "We conducted descriptive analyses to summarize key variables and contrasted characteristics of cases with unknown and known setting of transmission. We compared the prevalence of asymptomatic cases in mask-on and mask-off settings using chi-square tests. A p-value <0.05 was used to indicate statistical significance. We calculated age and sex adjusted odds ratios using a multivariable logistic regression. All statistical analyses were conducted using R ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "There were 5088 COVID-19 cases diagnosed in Hong Kong up to 30 September 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Among these, 1377 were classified as having been infected outside of Hong Kong, and not considered further. Of the remaining 3711 cases, information on the setting of exposure was available for 2425 (65.3%), differential characteristics of cases with known and unknown setting of transmission are summarized in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 311,
+                    "end": 318,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Most of the transmission (1882/2425, 77.6%) occurred in mask-off settings, especially in households (1367/2425, 56.4%). The most common mask-on setting where transmission occurred was workplaces (316/2425, 13.0%), followed by residential care homes (139/2425, There were 362 (19.2%) asymptomatic cases exposed in mask-off settings and 129 (23.8%) in mask-on settings. After adjusting for age, sex, and epidemiological phase, the prevalence of asymptomatic infection was higher in mask-on settings (adjusted odds ratio 1.33; 95% confidence interval: 1.04, 1.68; P-value 0.02).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "We studied 3711 local COVID-19 cases diagnosed in Hong Kong up to 30 September 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Among the 2425 cases for which information on exposure setting was available, we found that almost 80% of the transmission occurred in social and household settings. Hong Kong with mandatory mask-wearing requirements and high mask usage did not prevent community Moreover, the real-life effectiveness of face masks is limited considering improper usage and handling and the high variability in filtration efficiency based on mask type and quality (10) (11) (12) .",
+            "cite_spans": [
+                {
+                    "start": 447,
+                    "end": 451,
+                    "text": "(10)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "(11)",
+                    "ref_id": null
+                },
+                {
+                    "start": 457,
+                    "end": 461,
+                    "text": "(12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Household transmission was a common setting identified in our study. Hong Kong has one of the highest population densities in the world, not only in terms of persons per square kilometre in the city, but also in terms of the small living area of typical family homes. Tight living conditions can make it more challenging to self-isolate effectively when mildly symptomatic, and potentially increase the chance of within household transmission. It is also important to note the settings in which transmission was not identified in our study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Excluding a cluster of 11 people in a Buddhist worship hall in which people shared meals (13) , there was no other transmission associated with places of worship, in contrast to other parts of the world (14) . Face-to-face religious activities did continue during the initial periods of community transmission in Hong Kong in both phases but with masks being worn, perhaps reducing the risk of transmission. There were only six cases linked to transmission in schools, which could be affected by the prolonged period of school dismissal with online learning.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "(13)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "(14)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Although social transmission was responsible for a considerable proportion of cases, the exposure of one fifth of them (100/515, 19.4%) were related to super-spreading events in bars and a banquet (13) .",
+            "cite_spans": [
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "(13)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "social settings compared to transmission in the community or the healthcare setting (15, 16) .",
+            "cite_spans": [
+                {
+                    "start": 84,
+                    "end": 88,
+                    "text": "(15,",
+                    "ref_id": null
+                },
+                {
+                    "start": 89,
+                    "end": 92,
+                    "text": "16)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "These differences may be related to the adherence to other hygienic measures such as hand hygiene, the length of the exposure, the closeness of the interaction or the characteristics of 9 the setting (16) . Nevertheless, mask-wearing, besides its limitations, also plays an important role (17) . Face masks reduce the dissemination of coronaviruses by infected people in aerosols and large respiratory droplets (5) , and they have proven to be effective also for personal protection, filtering infective particles and reducing the exposure of the wearer (11).",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "(16)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 289,
+                    "end": 293,
+                    "text": "(17)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "(5)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "Although transmission in situations in which both infector and infectees are wearing masks is still possible (18) , it is expected that COVID-19 transmission will be reduced in settings where mask are worn most of the time.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "(18)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "In addition to reducing transmission, a hypothesis has also been posited that masks could reduce the disease severity of infections that do occur, by reducing the viral load that infectees receive when exposed (19, 20) . Evidence in support of such a variolation phenomenon is still scarce, but our study does provide data consistent with this hypothesis showing that people exposed in mask-on settings had 33% higher odds of being asymptomatic compared to those exposed in mask-off settings. Nevertheless, since symptoms information was only collected at the moment of diagnosis, some cases classified as asymptomatic may actually be pre-symptomatic which may be related to earlier case detection.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "(19,",
+                    "ref_id": null
+                },
+                {
+                    "start": 215,
+                    "end": 218,
+                    "text": "20)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "We also found that there was higher proportion of transmission in mask-off settings during the first phase studied compared to the second. A study in Hunan, China, showed that community restrictive measures induced changes in the settings of transmission (16) . This could also be applied to Hong Kong, where stricter social distancing measures may have limited exposures in social settings during the second phase.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "(16)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "Our study has several limitations. We were unable to assign the setting of the exposure for one-third of the cases and they were excluded from the analysis. Cases with unknown setting of exposure where generally older and a higher proportion were symptomatic. These cases may have been exposed outside the household, in settings in which links between cases are not easily traceable and might therefore tended to have occurred in mask-on settings in the general community. The classification of mask-on and mask-off settings was based on the place where transmission probably occurred, and some epidemiological information may have been incomplete leading to misclassification errors. Finally, we could not determine which settings had higher absolute risks of transmission since we did not have data on the total number of people exposed in each type of setting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        },
+        {
+            "text": "In conclusion, most transmission of COVID-19 in Hong Kong occurred in household and social settings. Universal mask-wearing alone had a limited effect controlling the spread of COVID-19 transmission in the community, since almost an 80% of the transmission occurred in settings where people do not usually wear masks. Infections that occurred in mask-on settings were more likely to be asymptomatic which could be related to a milder disease presentation or to an earlier case detection in these settings. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Previous studies have shown higher risk of transmission of COVID-19 in households and"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The role of community-wide wearing of face mask for control of coronavirus disease 2019 (COVID-19) epidemic due to SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "So",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sridhar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "1",
+            "pages": "107--121",
+            "other_ids": {
+                "PMID": [
+                    "32335167"
+                ],
+                "PMCID": [
+                    "PMC7177146"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Epidemiological characteristics of the first 100 cases of coronavirus disease",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "China, a city with a stringent containment policy",
+            "authors": [],
+            "year": 2020,
+            "venue": "Int J Epidemiol",
+            "volume": "49",
+            "issn": "4",
+            "pages": "1096--105",
+            "other_ids": {
+                "PMID": [
+                    "32601677"
+                ],
+                "PMCID": [
+                    "PMC7337784"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Impact assessment of non-pharmaceutical interventions against coronavirus disease 2019 and influenza in Hong Kong: an observational study. Lancet Public Health",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Twy",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jcm",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "279--88",
+            "other_ids": {
+                "PMID": [
+                    "32311320"
+                ],
+                "PMCID": [
+                    "PMC7164922"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Public Health Measures to Slow Community Spread of",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Aiello",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Respiratory virus shedding in exhaled breath and efficacy of face masks",
+            "authors": [],
+            "year": null,
+            "venue": "Nat Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Face masks considerably reduce COVID-19",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mitze",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kosfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rode",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Walde",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Trends in County-Level COVID-19 Incidence in Counties With and Without a Mask Mandate -Kansas",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "69",
+            "issn": "",
+            "pages": "1777--81",
+            "other_ids": {
+                "PMID": [
+                    "33237889"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Community Use Of Face Masks And COVID-19: Evidence From A Natural Experiment Of State Mandates In The US",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wehby",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Health Aff",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Changing disparities in COVID-19 burden in the ethnically homogeneous population of Hong Kong through pandemic waves: an observational study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "33406238"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A reality check on the use of face masks during the COVID-19 outbreak in Hong Kong",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Poon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hkw",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Filtration Efficiency of Face Masks Used by the Public During the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Steinbrook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "33300958"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "An overview of filtration efficiency through the masks: Mechanisms of the aerosols penetration",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shirinbayan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Bioact Mater",
+            "volume": "6",
+            "issn": "1",
+            "pages": "106--128",
+            "other_ids": {
+                "PMID": [
+                    "32817918"
+                ],
+                "PMCID": [
+                    "PMC7426537"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Clustering and superspreading potential of SARS-CoV-2 infections in Hong Kong",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cauchemez",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Transmission potential and severity of COVID-19 in South Korea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tariq",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chowell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "93",
+            "issn": "",
+            "pages": "339--383",
+            "other_ids": {
+                "PMID": [
+                    "32198088"
+                ],
+                "PMCID": [
+                    "PMC7118661"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Epidemiology and transmission dynamics of COVID-19 in two Indian states",
+            "authors": [],
+            "year": null,
+            "venue": "Science",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Transmission heterogeneities, kinetics, and controllability of SARS-CoV-2. Science",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "33234698"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Face masks and COVID-19: don't let perfect be the enemy of good",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "49",
+            "pages": "",
+            "other_ids": {
+                "PMID": [
+                    "33303063"
+                ],
+                "PMCID": [
+                    "PMC7730488"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "SARS-CoV-2 infection among healthcare workers despite the use of surgical masks and physical distancing -the role of airborne transmission. Open Forum Infectious Diseases",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Goldberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Levinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Marcus",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hoffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gafner",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hadas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Facial Masking for Covid-19 -Potential for \"Variolation\" as We Await a Vaccine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gandhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Rutherford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "18",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Inoculum at the time of SARS-CoV-2 exposure and risk of disease severity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Guallar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Meirino",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Donat-Vargas",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Corral",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jouve",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Soriano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "version 4.0.3 (R Foundation for Statistical Computing, Vienna, Austria).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "transmission. Although face mask wearing is an important measure to control the spread of COVID-19 and several studies have shown that increased mask use has reduced COVID-19 transmission at the population level (1, 6-8), universal wearing of face masks is insufficient to stop a community epidemic. There are contexts in which people do not usually wear face 8 masks and it is in these contexts where most of the transmission occurred in Hong Kong.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": ". Both of these could have included some transmission events that occurred while masks were not worn, although we classified them as mask-on settings. There were 49 cases (49/2425, 2.0%) with exposure in housing estates. Very few cases were associated with transmission in health care settings (32/2425, 1.3%), schools (6/2425, 0.2%) or modes of transportation (1/2425, < 0.1%). Transmission in mask-off settings was more common among younger cases: 95.8% (229/239) among cases aged younger than 19, 80.4% (704/876) among those aged 19 to 44 years, 73.6% (609/828) among those aged 45 to 64 and 70.5% (340/482) among cases older than 64 years. Transmission in mask-off settings was more common during the first phase (236/266, 88.7%) than during the second phase (1646/2159, 76.2%; p-value<0.001). Transmission settings changed across phases. Social was the most common during the first phase (157/266,",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Characteristics of laboratory confirmed COVID-19 cases, by information availability on setting of transmission.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "COVID-19 setting of Transmission, by Mask-Wearing Classification.*Including residential care homes for the elderly and for the disabled, classified here as mask-on settings but we note the difficulty in maintaining compliance with mask use particularly among residents with disabilities or cognitive impairment. \u2020 Workplaces are classified here as mask-on settings, but some transmission may have occurred in break rooms where masks were not worn.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

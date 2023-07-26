@@ -1,0 +1,1011 @@
+{
+    "paper_id": "00d998577dfe95b8f775355b2449c83ec7620389",
+    "metadata": {
+        "title": "International Organization for the Study of Inflammatory Bowel Disease: Global Strategies for Telemedicine and Inflammatory Bowel Diseases Uma Mahadevan a ; for the International Organization for the Study of Inflammatory Bowel Diseases (IOIBD)",
+        "authors": [
+            {
+                "first": "Sara",
+                "middle": [],
+                "last": "Lewin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "settlement": "San Francisco",
+                        "region": "CA",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Charles",
+                "middle": [],
+                "last": "Lees",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Edinburgh",
+                    "location": {
+                        "settlement": "Edinburgh",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Miguel",
+                "middle": [],
+                "last": "Regueiro",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Cleveland Clinic",
+                    "location": {
+                        "settlement": "Cleveland",
+                        "region": "OH",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ailsa",
+                "middle": [],
+                "last": "Hart",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "St Mark's Hospital",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Before the onset of the COVID-19 pandemic, the majority of care for inflammatory bowel disease patients was provided in-person. The practice of gastroenterology care has since rapidly transformed, with telemedicine emerging as an essential tool to provide medical care to patients while maintaining social distancing and conserving personal protective equipment. This article provides insight into past and current practices among inflammatory bowel disease specialists and shares regulatory, financial and practical considerations for incorporating telemedicine into clinical practice. Continued government and other payer support for telemedicine and ongoing innovation to provide remote objective patient data will help to sustain the use of telemedicine long after the current pandemic subsides.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The COVID-19 pandemic has radically transformed the practice of clinical medicine, with telemedicine rapidly expanding as a critical technology to provide medical care to patients while reducing the risk of transmission of COVID-19. One major shift has been the rapid implementation and widespread adoption of telemedicine. While these are forced adaptations, the lessons learned and skills gained will promote lasting changes in the way we practise medicine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What is Telemedicine?"
+        },
+        {
+            "text": "Telemedicine can be defined as the application of information and communication technologies for providing healthcare services at a distance without direct contact with the patient. 1 Before the COVID-19 pandemic, telemedicine was already in use in some gastroenterology and inflammatory bowel disease [IBD] practices. However, barriers to broader adoption included requirement of a face-to-face visit before a telemedicine visit, stringent technology requirements, restrictions on teleconsultation across regional lines, and uncertain reimbursement compared to in-person visits. 2 Additionally, patient and provider expectations of the traditional paradigm of in-person visits with a 'hands-on' physical examination may have also contributed to slower adoption of telemedicine.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 183,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 302,
+                    "end": 307,
+                    "text": "[IBD]",
+                    "ref_id": null
+                },
+                {
+                    "start": 580,
+                    "end": 581,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What is Telemedicine?"
+        },
+        {
+            "text": "Major international gastroenterology societies [e.g. American Gastroenterological Association, American College of Gastroenterology, American Association for the Study of Liver Diseases, American Society for Gastrointestinal Endoscopy, British Society of Gastroenterology, European Crohn's and Colitis Organisation] have recommended that elective office visits be conducted remotely, via telemedicine if possible, to decrease density in the office and to provide care to patients who are less willing or unable to travel. [3] [4] [5] In the USA, the Department of Health and Human Services has temporarily waived certain restrictions on telemedicine services for Medicare beneficiaries in order to facilitate increased use of teleconsultation. 6 These waivers have allowed for more flexibility on the use of communication platforms to be compliant with the Health Insurance Portability and Accountability Act [HIPAA] privacy rules, fewer restrictions on providing care across state lines, and more consistent reimbursement.",
+            "cite_spans": [
+                {
+                    "start": 522,
+                    "end": 525,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 526,
+                    "end": 529,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 744,
+                    "end": 745,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What is Telemedicine?"
+        },
+        {
+            "text": "In Asia and Europe, easing of restrictions on the use of telemedicine and increased opportunities for reimbursement have also facilitated increased adoption of telemedicine. 7 Nonetheless, regulatory barriers and the availability of technology still vary across borders. For example, in a survey of general practitioners in Lombardy, Italy, during the COVID-19 pandemic, 73% of patient encounters were provided by telephone compared to 24% by video. 8 In the USA, by contrast, many practices aim to perform most remote visits in video format.",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 175,
+                    "text": "7",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 450,
+                    "end": 451,
+                    "text": "8",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "What is Telemedicine?"
+        },
+        {
+            "text": "In IBD patients, telemedicine even before the COVID-19 pandemic had already been shown to be a cost-effective means of delivering high-quality care, with associated high patient satisfaction scores. 9 However, in-person visits still predominated as the primary means of providing care. To assess pandemic-related changes in clinical practice, we conducted a survey of IBD practitioners attending a virtual IOIBD meeting in April 2020. The great majority of survey respondents, 37/44 [84%], reported that before the onset of the COVID-19 pandemic, >75% of their patient encounters had been performed in person. Indeed, 30/44 [68%] survey respondents reported having performed no video consultation at all before the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 200,
+                    "text": "9",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Recent Shifts in Telemedicine Use in IBD"
+        },
+        {
+            "text": "These proportions have now shifted dramatically. Among these same 44 respondents, since the onset of the COVID-19 pandemic, 38 [86%] respondents are providing less than < 25% of patient care in person, with 19 [43%] conducting at least 50% of patient visits using telephone consultation and 16 [36%] conducting at least 50% of patient visits using video consultation. An additional 12 respondents [27%] planned to use video consultation in some capacity in the future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recent Shifts in Telemedicine Use in IBD"
+        },
+        {
+            "text": "Moreover, a Twitter poll conducted by Miguel Regueiro, MD, from April 19 to April 22, 2020, found that 94% of 274 respondents planned to continue to do telemedicine even when they could see patients in person again, with 41% stating that they plan to do more telemedicine than before the COVID-19 pandemic. Similarly, in an international survey with 802 respondents from 56 countries, 10 the vast majority of respondents reported that pre-pandemic, only 0-25% of clinical encounters were conducted via telemedicine, whereas now, during the current pandemic, the majority of respondents reported > 75% of clinical encounters are being conducted via telephone or video. Respondents further reported that telemedicine would remain a significant part of their medical care of the patient with IBD post-pandemic, estimating 25-50% of clinical encounters will be conducted via telemedicine after lifting of shelter restrictions.",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 387,
+                    "text": "10",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Recent Shifts in Telemedicine Use in IBD"
+        },
+        {
+            "text": "Some patients may not be able to participate in a video visit due to a lack of access to the internet or necessary technology [a smartphone, tablet, or computer with a microphone and video camera], insufficient social support to set up a visit, limited technological literacy, or technical problems on the day of the visit. A telephone visit allows the provider to communicate with patients in another location, while obtaining a detailed history and communicating a plan for management of the patient's disease. Telephone visits do not require additional technology or training on the part of the provider or patient. Commercial insurance reimbursement [ Table 1 ] for telephone visits has been only about half that for in-person and video visits of the same length, although this has been recently adjusted in the USA, and the gap may be less of a consideration in single-payer systems. While some commercial payers and other health plans are supporting telephone visits during the pandemic, the coverage might not be sustained in the future.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 656,
+                    "end": 663,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Telephone Visits"
+        },
+        {
+            "text": "For a successful telephone visit, both provider and patient must have an adequate telephone connection and a quiet space in which to conduct the visit, although visual distractions are less of a concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Telephone Visits"
+        },
+        {
+            "text": "Although the traditional aspects of the physical exam including palpation, auscultation and percussion cannot be performed by the provider over video, much data can be obtained by inspection alone. A comprehensive physical exam can still be obtained and documented [ Table 2 ] that will allow for assessment of multiple organ systems and maximize the complexity of the visit for billing purposes.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 267,
+                    "end": 274,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Video Visits"
+        },
+        {
+            "text": "A visit between a provider and a new and/or established patient using both an audio and video connection can be accomplished via several telecommunication platforms. Some platforms are fully integrated into the electronic medical record [EMR], such as Epic virtual visit platforms, and others are linked to the EMR, such as American Well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Video Visits"
+        },
+        {
+            "text": "Examples of non-integrated platforms include Zoom for Healthcare, Cisco Webex Meetings, GoToMeeting, Doxy.me, Doximity, VSee and Skype for Business, all of which are HIPAAcompliant. In the UK, the platforms Attend Anywhere and Consultant Connect have been successfully piloted by the National Health Services. Additionally, during the COVID-19 pandemic, the US Department of Health and Human Services announced a temporary loosening of restrictions on use of popular applications that allow for video visits including Apple FaceTime, WhatsApp, Google Hangouts/Duo and Facebook Messenger Chat. Regardless of the platform used, it is important to understand the platform's security and patient privacy functions to prevent security breaches [e.g. 'Zoom bombing']. Patient consent to use telemedicine platforms should be obtained before the start of the visit and clearly documented in the medical record. The Centers for Medicare & Medicaid Services are reimbursing visits provided using these platforms that provide real-time communication with interactive audio and video telecommunication at the same rate as regular, in-person visits, for both new and established patients during the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Video Visits"
+        },
+        {
+            "text": "In the USA, interstate restrictions for providing care for patients across state lines have also been loosened, allowing for providers to treat patients remotely who reside out of the state where the provider is licensed. While licensing, malpractice and competition concerns may limit this practice post-pandemic, it may be a way to provide high-level IBD care in segments of the country that lack this expertise. In Europe, practice varies by country, with participants in the national healthcare scheme eligible for that country's telemedicine service anywhere in the world, but residents of other countries eligible in limited cases by private payment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Video Visits"
+        },
+        {
+            "text": "Telemedicine visits have the advantage of allowing providers to not only speak with patients, but also to visually assess patients through video. A successful video visit is contingent on both patient and provider having access to appropriate technology, internet or data connection, and a quiet and non-distracting environment in which to conduct the visit. 11 Patients may be contacted ahead of time to ensure that they understand how to utilize the telemedicine platform and troubleshoot any technological problems that may arise, so that the appointment time can be designated to health concerns and not technical challenges. Additionally, pre-charting by medical assistants, nurses and others may be done in advance, similar to an in-person visit. Telemedicine notes may be entered as a template that include pre-charting of outside medical records, integration of symptom scores, quality of life and other patient-reported outcomes. Trainees and advanced health practitioners can also be incorporated into visits, either by participating in the video visit with the supervising provider or by using their own virtual meeting room. Most platforms support the addition of an interpreter [ideally also via video connection].",
+            "cite_spans": [
+                {
+                    "start": 359,
+                    "end": 361,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Video Visits"
+        },
+        {
+            "text": "Telemedicine for inpatient consultation had been piloted for inpatient palliative care, dermatology and medicine subspecialties even before the COVID-19 pandemic began. 12, 13 In the COVID-19 era, similar to the outpatient environment, telemedicine promises to limit exposure of both patients and providers and additionally conserves personal protective equipment required for in-person consultation. Besides traditional inpatient visits, inpatient consultation can be provided as an e-consult [chart review with no direct patient contact], telephone consultation or video visit [ Table 3 ].",
+            "cite_spans": [
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 173,
+                    "end": 175,
+                    "text": "13",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 581,
+                    "end": 588,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Inpatient Visits"
+        },
+        {
+            "text": "Video teleconsultation can be conducted with hospital-provided technology or alternatively using the patient's personal smartphones/ devices if hospital resources are limited. Similar to the outpatient setting, a high-quality internet connection and support for the patient to set up the teleconsultation are required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Inpatient Visits"
+        },
+        {
+            "text": "In the inpatient setting, the bedside nurse or a patient care assistant may facilitate the visit by assisting the patient in setting up the video platform, ensuring the patient can adequately hear and see, and minimizing other distractions in the room [such as blaring television or beeping medical equipment]. 14 Inpatient consultations that may be best suited to teleconsultation include: stable patients with a narrow or straightforward consultation question, low likelihood that an in-person examination will change management and/ or recommendations, follow-up consultation after initial in-person consultation, and an absence of patient communication barriers [e.g. hearing impairment]. The decision to pursue teleconsultation should be discussed directly with the primary medical team, to ensure that expectations are aligned. Video telemedicine consultations may be reimbursed at the same rate as similarly complex in-person consultations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Inpatient Visits"
+        },
+        {
+            "text": "As both patients and providers adjust to a 'new normal' as the COVID-19 pandemic progresses and social distancing restrictions evolve, comfort with and interest in telemedicine are likely to persist for years to come. Fewer regulatory hurdles, increased reimbursement and innovation in telemedicine will also facilitate sustained adoption of telemedicine. Innovation is already underway to develop new tools that can enrich the telemedicine encounter. Many telemedicine programs in gastroenterology and IBD already include an electronic survey of symptoms and telemonitoring systems. 15, 16 The physical exam can already be augmented using tools such as smart watches and devices that can record heart rate, record respiratory rate, generate an ECG tracing or serve as an in-home stethoscope. 17 The use of mobile applications to monitor patient-reported outcomes has been studied extensively, but has not achieved widespread adoption. Point-of-care and home testing (e.g. kits for faecal calprotectin or finger stick for blood evaluation) may provide valuable information to providers regarding IBD disease activity, especially if access to a laboratory or capacity to perform endoscopic staging procedures is limited. A study of three calprotectin home tests with companion enzyme-linked immunosorbent assay [ELISA] tests showed 76-87% agreement for faecal calprotectin \u2264 500 \u03bcg/g, 18 suggesting this measure could be an accessible management strategy for objective assessment of disease activity.",
+            "cite_spans": [
+                {
+                    "start": 584,
+                    "end": 587,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 588,
+                    "end": 590,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 793,
+                    "end": 795,
+                    "text": "17",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The Future of Telemedicine"
+        },
+        {
+            "text": "Chatbots, artificial intelligence devices with natural language processing capabilities, are able to provide virtual conversations with patients while mimicking human interactions. Chatbots have already been deployed for screening in COVID-19 patients, but also could be utilized to efficiently gather history and data from a patient that could be auto-populated into the electronic medical record for review by the provider either in advance of or during the patient encounter. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The Future of Telemedicine"
+        },
+        {
+            "text": "The delivery of clinical care has changed rapidly with the COVID-19 pandemic. Providers and patients alike must adapt to these changes, which include rapid adoption of telemedicine. Table 4 summarizes best practices. A wide array of technology options and loosening restrictions on how telemedicine can be deployed and reimbursed have paved the way for telemedicine to become an integral part of clinical practice now and in the future. Further technological innovations allowing at-home collection of objective patient data as well as increased familiarity with and enthusiasm for telemedicine will help to cement telemedicine's role in clinical care in the future.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 182,
+                    "end": 189,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        },
+        {
+            "text": "This paper was published as part of a supplement financially supported by ECCO and IOIBD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Remote patient monitoring in IBD: current state and future directions",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Atreja",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Otobo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ramireddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deorocki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr Gastroenterol Rep",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Integration of telemedicine into clinical gastroenterology and hepatology practice",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cross",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clin Gastroenterol Hepatol",
+            "volume": "15",
+            "issn": "",
+            "pages": "175--81",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "ECCO Information on COVID-19. European Crohn's and Colitis Organisation",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "COVID-19 Clinical Insights for Our Community of Gastroenterologists and Gastroenterology Care Providers",
+            "authors": [
+                {
+                    "first": "Hbj",
+                    "middle": [],
+                    "last": "El-Serag",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pochapin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vargo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "British Society of Gastroenterology guidance for management of inflammatory bowel disease during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lamb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gut",
+            "volume": "69",
+            "issn": "",
+            "pages": "984--90",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Medicare Telemedicine Health Care Provider Fact Sheet",
+            "authors": [],
+            "year": 2020,
+            "venue": "Centers for Medicare and Medicaid Services",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "China empowers Internet hospital to fight against COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "",
+            "pages": "67--68",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinician Education and Adoption of Preventive Measures for COVID-19: a survey of a convenience sample of general practitioners in",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fiorino",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Colombo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Natale",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Azzolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lagioia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Danese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "20--1447",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Delivering high value inflammatory bowel disease care through telemedicine visits",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Inflamm Bowel Dis",
+            "volume": "23",
+            "issn": "",
+            "pages": "1678--81",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "International Organization for the Study of Inflammatory Bowel D. Innovation in IBD care during the COVID-19 pandemic: results of a global telemedicine survey by the International Organization for the Study of Inflammatory Bowel Disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lees",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Regueiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Mahadevan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastroenterology",
+            "volume": "",
+            "issn": "20",
+            "pages": "34735--34736",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Telemedicine in the time of coronavirus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Calton",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Abedini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fratkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pain Symptom Manage",
+            "volume": "60",
+            "issn": "",
+            "pages": "12--16",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Inpatient eDermatology (Teledermatology) can help meet the demand for inpatient skin disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Georgesen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Karim",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moorhead",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Falo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "English",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Telemed J E Health",
+            "volume": "26",
+            "issn": "",
+            "pages": "872--880",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "It all just clicks: development of an inpatient E-Consult Program",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Najafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Harrison",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Duong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Hosp Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "332--336",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Rapid implementation of inpatient telepalliative medicine consultations during COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Humphreys",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Schoenherr",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Elia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pain Symptom Manage",
+            "volume": "60",
+            "issn": "",
+            "pages": "54--63",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "E-health in inflammatory bowel diseases: more challenges than opportunities?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bossuyt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pouillon",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bonnaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Danese",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peyrin-Biroulet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Dig Liver Dis",
+            "volume": "49",
+            "issn": "",
+            "pages": "1320--1326",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A randomized controlled trial of TELEmedicine for Patients with Inflammatory Bowel Disease (TELE-IBD)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cross",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Langenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Regueiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Am J Gastroenterol",
+            "volume": "114",
+            "issn": "",
+            "pages": "472--82",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Technology platforms for remote monitoring of vital signs in the new era of telemedicine",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tsien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Expert Rev Med Devices",
+            "volume": "12",
+            "issn": "",
+            "pages": "411--440",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Head-to-head comparison of three stool calprotectin tests for home use",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Haisma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Galaurchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Almahwzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adekanmi",
+                    "middle": [],
+                    "last": "Balogun",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Muller",
+                    "middle": [],
+                    "last": "Kobold",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Van Rheenen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS One",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Work relative value unit [wRVU] reimbursements for inpatient and outpatient clinical encounters",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Physical exam template for teleconsultation",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Options for performing inpatient consultations Traditional' in-person consult \u2022 History and physical examination performed at bedside \u2022 Consultant provides formal, written advice \u2022 Appropriate for complex patients with complex consult questionTable 4. Best practices for a successful telemedicine visit Telemedicine setup Choose a telemedicine platform that: \u2022 can provide a secure, private connection \u2022 is compliant with local government regulations of telemedicine \u2022 can be easily implemented by both patients and provider Pre-visit preparation Prior to a telemedicine visit: \u2022 Develop a workflow to identify patients who are appropriate for telemedicine visit [vs those who need in-person evaluation] \u2022 Provide instructions to patient on how to access telemedicine platform, including tips for troubleshooting \u2022 Clinic staff may opt to perform a 'dress rehearsal' with patient to ensure patient can easily access telemedicine platform \u2022 Utilize electronic tools to collect history and data from patient [online questionnaire, eHealth, IBDoc, myIBDcoach]. Ideally, this can auto-populate in the electronic medical record \u2022 Clinic staff [e.g. medical assistants, nurses or others] can 'pre-' chart and input clinical information including IBD scores \u2022 Find a space that is quiet, private and without distractions to conduct visit \u2022 Determine if telemedicine visit must be performed by provider in a clinic space [rather than from home] in order to optimize reimbursement and meet regulatory requirements During the visit \u2022 Medical Assistant may 'room' the patient and review insurance, demographics, preferred pharmacy and perform medication reconciliation \u2022 Obtain verbal consent to perform video visit \u2022 Obtain history and limited physical examination \u2022 Complete visit, communicating follow-up plan Addressing technology challenges \u2022 Can mostly be avoided by pre-visit trial with medical staff and/or providing a tips sheet for troubleshooting ahead of time \u2022 Trial of alternative platform [e.g. FaceTime, WhatsApp] \u2022 If all else fails, convert to telephone visit After the visit \u2022 Provide electronic copy of after-visit summary. \u2022 Route prescriptions and laboratory orders electronically. Drive-through pharmacy and delivery options should be encouraged \u2022 Instruct staff to contact patient to schedule follow-up care Documentation \u2022 Use similar note template to in-person documentation \u2022 Use a physical exam template appropriate for video visit \u2022 Document that patient provided consent to conduct telemedicine visit \u2022 Document the modality used for the visit [e.g. real-time audio and video connection]",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank John Paul Achkar, MD, for technical input on virtual visits and fee structure. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

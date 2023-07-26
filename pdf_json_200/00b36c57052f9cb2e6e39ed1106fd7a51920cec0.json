@@ -1,0 +1,2076 @@
+{
+    "paper_id": "00b36c57052f9cb2e6e39ed1106fd7a51920cec0",
+    "metadata": {
+        "title": "CMT in TREC-COVID Round 2: Mitigating the Generalization Gaps from Web to Special Domain Search",
+        "authors": [
+            {
+                "first": "Chenyan",
+                "middle": [],
+                "last": "Xiong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": "chenyan.xiong@microsoft.com"
+            },
+            {
+                "first": "Zhenghao",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Si",
+                "middle": [],
+                "last": "Sun",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhuyun",
+                "middle": [],
+                "last": "Dai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": "zhuyund@cs.cmu.edu"
+            },
+            {
+                "first": "Kaitao",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Yu",
+                "middle": [
+                    "\u2665"
+                ],
+                "last": "Shi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhiyuan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "\u2665",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Hoifung",
+                "middle": [],
+                "last": "Poon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": "hoifung@microsoft.com"
+            },
+            {
+                "first": "\u2660",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jianfeng",
+                "middle": [],
+                "last": "Gao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": "jfgao@microsoft.com"
+            },
+            {
+                "first": "Paul",
+                "middle": [],
+                "last": "Bennett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Carnegie Mellon University",
+                    "location": {}
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Neural rankers based on deep pretrained language models (LMs) have been shown to improve many information retrieval benchmarks. However, these methods are affected by their the correlation between pretraining domain and target domain and rely on massive fine-tuning relevance labels. Directly applying pretraining methods to specific domains may result in suboptimal search quality because specific domains may have domain adaption problems, such as the COVID domain. This paper presents a search system to alleviate the special domain adaption problem. The system utilizes the domain-adaptive pretraining and few-shot learning technologies to help neural rankers mitigate the domain discrepancy and label scarcity problems. Besides, we also integrate dense retrieval to alleviate traditional sparse retrieval's vocabulary mismatch obstacle. Our system performs the best among the non-manual runs in Round 2 of the TREC-COVID task, which aims to retrieve useful information from scientific literature related to COVID-19. Our code is publicly available at https://github.com/thunlp/OpenMatch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Recent years have witnessed continuous successes of neural ranking models in information retrieval [6, 17, 19, 25] . Most notably, deep pretrained language models (LMs) achieve state-of-the-art performance on several web search benchmarks [4, 18, 27] . Their success relies on the learned semantic information from general domain corpus with the language model pretraining [4, 28] .",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "[6,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 243,
+                    "end": 246,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 247,
+                    "end": 250,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 373,
+                    "end": 376,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 377,
+                    "end": 380,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "However, ranking models in specific domains usually face the domain adaption problem, which comes from two generalization gaps between the general and the specific domain. The first gap derives from the discrepancy of vocabulary distributions in different domains. Taking the COVID domain as an example [23, 24] , the earliest related publication appeared at the end of 2019. Even pretrained LMs targeting the biomedical domain [2, 13] are unfamiliar with new medical terms like COVID-19 because their pretraining corpora have not contained such new terminologies. The other gap is the label scarcity. For the specific searching scenario, large-scale relevance labels are luxury, such as biomedical and scientific domains. * indicates equal contribution.",
+            "cite_spans": [
+                {
+                    "start": 303,
+                    "end": 307,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 308,
+                    "end": 311,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 428,
+                    "end": 431,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 432,
+                    "end": 435,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In addition, most information retrieval (IR) systems usually use sparse ranking methods in the first-stage retrieval, such as BM25, which are based on term-matching signals to calculate the relevance between query and document. Nevertheless, these systems may fail when queries and documents use different terms to describe the same meaning, which is known as the vocabulary mismatch problem [5, 8] .",
+            "cite_spans": [
+                {
+                    "start": 392,
+                    "end": 395,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 396,
+                    "end": 398,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The vocabulary mismatch problem of sparse retrieval has become an obstacle to existing IR systems, especially for specific domains that have lots of in-domain terminologies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This paper presents a solution to alleviate the specific domain adaption problem with three core technics. The first one conducts domain-adaptive pretraining (DAPT) [10] to help pretrained language models learn semantics of special domain terminologies to keep the language knowledge is the latest. The second one uses Contrast Query Generation (ContrastQG) and ReInfoSelect [29] to mitigate the label scarcity problem in the specific domain. ContrastQG and ReInfoSelect focus on generating and filtering pseudo relevance labels to further improve ranking performance, respectively. Finally, our system integrates dense retrieval to alleviate the sparse retrieval's vocabulary mismatch bottleneck. Dense retrieval can encode query and document to dense vectors to measure the relevance between query and document in the latent semantic space [3, 9, 12, 14, 25] .",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 375,
+                    "end": 379,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 842,
+                    "end": 845,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 846,
+                    "end": 848,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 849,
+                    "end": 852,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 853,
+                    "end": 856,
+                    "text": "14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 857,
+                    "end": 860,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Using above technologies, our system achieves the best performance among non-manual groups in Round 2 of TREC-COVID [23] , which is a COVID-domain TREC task to evaluate information retrieval systems for searching COVID-19 related literature.",
+            "cite_spans": [
+                {
+                    "start": 116,
+                    "end": 120,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The next section will analyze the generalization gaps and vocabulary mismatch faced by the COVID domain search. Sec.3 and Sec.4 describe in detail how our system alleviates these problems. Sec.5 shows the evaluation results and hyperparameter study. In the Sec. 6 and Sec.7, we discuss the negative attempts and our concerns of the residual collection evaluation [21] used in TREC-COVID.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 263,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 363,
+                    "end": 367,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This section studies the generalization gaps from web to COVID domain, and the vocabulary mismatch problem of sparse retrieval.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA STUDY"
+        },
+        {
+            "text": "Domain Discrepancy. Most existing pretrained language models divide uncommon words into subwords, which aims to alleviate the out-of-vocabulary problem [22] . As shown in Figure 1 , the subword ratio of TREC-COVID queries is dramatically higher than that of the web domain dataset, MS MARCO [1] . The results show that existing pretrained language models treat most COVID-domain arXiv:2011.01580v1 [cs.IR] 3 Nov 2020",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 291,
+                    "end": 294,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 179,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "DATA STUDY"
+        },
+        {
+            "text": "Pretraining Corpus Domain TREC-COVID MS MARCO Figure 1 : The proportion of query words that are decomposed into subwords by the pretrained language model's vocabulary.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 46,
+                    "end": 54,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "DATA STUDY"
+        },
+        {
+            "text": "terminologies as unfamiliar words, indicating a considerable discrepancy between the existing pretraining and the COVID domain. Label Scarcity. The label scarcity in the COVID domain search is very prominent. Only 30 queries were judged in the second round of TREC-COVID. In contrast, medical MS MARCO contains more than 78,800 annotated queries, which is the medical subset of MS MARCO filtered by the previous work [16] .",
+            "cite_spans": [
+                {
+                    "start": 417,
+                    "end": 421,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DATA STUDY"
+        },
+        {
+            "text": "Vocabulary Mismatch. We observed that BM25 only covered 35% of relevant documents in the top 100 retrieved documents. The result reveals that retrieving relevant documents only according to term-matching signals will hinder the search system's effectiveness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA STUDY"
+        },
+        {
+            "text": "Our system employs a two-stage retrieval architecture, which utilizes BM25 for base retrieval and SciBERT [2] for reranking. The domainadaptive pretraining and two few-shot learning techniques are used to mitigate the generalization gaps faced by SciBERT in the COVID domain. Dense retrieval is also incorporated into our system to alleviate BM25's vocabulary mismatch problem.",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SYSTEM DESCRIPTION"
+        },
+        {
+            "text": "SciBERT has been used in our system since it is pretrained with scientific texts and biomedical publications. However, COVID is a new concept that has not appeared in previous pretraining corpora. Therefore, we conduct domain-adaptive pretraining (DAPT) [10] for SciBERT. Our approach is straightforward to continuously train SciBERT with CORD-19 corpus [24] , which is a growing collection of scientific papers about COVID-19 and coronavirus.",
+            "cite_spans": [
+                {
+                    "start": 254,
+                    "end": 258,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 354,
+                    "end": 358,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Domain-Adaptive Pretraining"
+        },
+        {
+            "text": "We introduce two few/zero-shot learning methods named ContrastQG and ReInfoSelect [29] to alleviate the label scarcity challenge when fine-tuning the neural ranking model. Specifically, we first use Con-trastQG to generate weakly supervised data in a zero-shot manner and then utilize a weak supervision data selection method, ReInfoSelect, to recognize high quality training data.",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 86,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "ContrastQG is a zero-shot data synthetic method aiming to generate queries for synthesizing weakly supervised relevance signals. Unlike the prior work [15] , ContrastQG synthesizes a query given a relevant text pair rather than a single related text, which can capture the specificity between two documents to generate more meaningful queries instead of keyword-style queries.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "The entire synthesis process uses two query generators named and , which aim to generate pseudo queries according to documents. Both and are implemented with standard GPT-2 [20] .",
+            "cite_spans": [
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "is trained on medical MS MARCO's positive passage-query pairs ( + , ) following the previous method [15] .",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "is directly trained on medical MS MARCO's triples by encoding the concatenated text of positive and negative passages ( + , \u2212 ) to generate query .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "At inference time, we first leverage to generate queries based on a single COVID domain document :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "Then we utilize BM25 to retrieve two related documents ( \u2032 + , \u2032 \u2212 ) that show different correlation according to the generated query . Finally, is used to generate another query \u2032 based on the two contrastive documents ( \u2032 + , \u2032 \u2212 ):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "is used as weakly supervised data to train the neural ranker.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "ReInfoSelect [29] uses reinforcement learning to select weak supervision data. ReInfoSelect evaluates the neural ranker's performance on the target data and regards the NDCG difference as the reward. Then the reward signal from target data is propagated to guide data selector via the policy gradient.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "In our system, we use ContrastQG and medical MARCO to construct the weakly supervised data. The annotated data of TREC-COVID Round 1 is used as the target data. The trial-and-error learning mechanism of ReInfoSelect can select proper weakly supervised data according to neural ranker's performance in the target domain, which helps to further mitigate the domain discrepancy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Few-Shot Learning"
+        },
+        {
+            "text": "Dense retrieval maps queries and documents to the same distributed representation space and retrieves related documents based on the similarities between document vectors and query vectors [12, 25] .",
+            "cite_spans": [
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Dense Retrieval"
+        },
+        {
+            "text": "Let each training instance contain a query , relevant (positive) document + and irrelevant (negative) documents \u2212 = { \u2212 } =1 . Dense retrieval first encodes the query and all documents to dense vectors and . Then the similarity of and is calculated as ( , ). The training objective can be formulated as learning a distributed representation space that the positive document has a higher similarity to the query than all negative documents:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dense Retrieval"
+        },
+        {
+            "text": "where the similarity (\u00b7, \u00b7) is the dot product between vectors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dense Retrieval"
+        },
+        {
+            "text": "In this section, we describe the system's implementation details.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "IMPLEMENTATION DETAILS."
+        },
+        {
+            "text": "Dataset. The testing data of TREC-COVID Round 2 contains the May 1, 2020 version of the CORD-19 document set [24] (59,851 COVID-related papers) and 35 queries written by biomedical professionals. Among these queries, the first 30 queries have been judged System Setup. For data preprocessing, we concatenated title and abstract to represent each document and deleted stop words for all queries. Our system utilized the BM25 constructed by Anserini [26] as the base retrieval and adopted the dense retrieval implementation provided by Gao, et al. [9] . The neural ranker based on SciBERT [2] was used in dense retrieval and reranking stages [16] with the learning rate of 2e-5 and the batch size of 32. We set the warm-up proportion as 0.1 and limited the maximum sequence length to 256. The NDCG@10 score on the development set is used to measure the convergence and is calculated every three training steps. Our system is based on PyTorch, and the training process it involves can be implemented on a GeForce RTX 2080 Ti.",
+            "cite_spans": [
+                {
+                    "start": 109,
+                    "end": 113,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 546,
+                    "end": 549,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 587,
+                    "end": 590,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 640,
+                    "end": 644,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "IMPLEMENTATION DETAILS."
+        },
+        {
+            "text": "This section presents evaluation results and hyperparameter studies. Table 1 shows the overall performance of different models in the TREC-COVID task. Three top systems during Round 2 evaluation and several variants of our systems are compared.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 69,
+                    "end": 76,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "EVALUATION RESULTS"
+        },
+        {
+            "text": "Our system achieved the best performance in Round 2 of TREC-COVID. From our detailed experimental results, our method significant improves the ranking performance of SciBERT in the COVID domain. The domain-adaptive pretraining (DAPT) helps to improve SciBERT, which illustrates that learning the semantics of these new terminologies is crucial for language models. Then the system's performance has been further improved with about 6.5% NDCG@10 gains by ContrastQG and ReInfoSelect. ContrastQG generates lots of pseudo relevance labels, which provides more training guidance for neural rankers in the specific domain. ReInfoSelect further boosts models with more fine-grained selected supervisions. The most significant improvement comes from the fusion of dense retrieval, where the P@5 score is increased by 11.8%. This result shows that dense retrieval can significantly improve retrieval effectiveness by alleviating sparse retrieval's vocabulary mismatch problem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Overall Results"
+        },
+        {
+            "text": "Among all hyperparameters, we found the reranking depth significantly impacts the neural ranking model's effectiveness. As shown in Table 2 , SciBERT's performance is significantly limited at the shallow reranking depth (\u226420), mainly caused by the low ranking accuracy of BM25. With the increase the reranking depth to 50 and 100, the neural ranker shows stable performance and achieves the best. Nevertheless, the reranking accuracy begins to drop as the depth continues to increase. The possible reason is that the neural ranker is not good enough to distinguish truly relevant documents when more noisy documents are included. Figure 2 shows the testing results of each query. The first 30 queries have been judged in Round 1, and others are newly added in Round 2 (query 31-35). Our system outperforms baselines on most queries with previous annotations. Besides, our system is also comparable to the T5 Fusion system on new queries and avoids the sharp drop of the SciBERT Fusion system (such as 34th query), which shows our system's robustness.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 132,
+                    "end": 139,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 630,
+                    "end": 638,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Hyperparameter Study"
+        },
+        {
+            "text": "This section discusses some of our failed attempts and experience.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FAILED ATTEMPTS"
+        },
+        {
+            "text": "Manual Labeling. A straightforward approach to mitigate the label scarcity is to annotate more data within this domain manually. We recruited three medical students who compiled 50 COVID-related queries and assigned the relevance label to the top 20 documents retrieved by BM25 for each query. However, our annotations were not able to get good agreement with TREC-COVID's annotations. 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 Ours @2 @3 @4 @5 @6 @7 @8 @9 @10 Top@10 Feedback System Corpus Filtering. MacAvaney et al. [16] proposed to narrow the retrieval scale by filtering out the document published before 2020. Nevertheless, our analysis found that this method excluded more than 80% of documents from the second round of corpus, dropping a large amount of useful COVID-related literature, such as SARS and MERS. Thus, we did not adopt this method in our system.",
+            "cite_spans": [
+                {
+                    "start": 549,
+                    "end": 553,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FAILED ATTEMPTS"
+        },
+        {
+            "text": "Neural Reranker. We also attempted two other neural ranking models besides SciBERT for document reranking, including BERT [7] and Conv-KNRM [6] . Our experimental results show that BERT-Large has no obvious advantage over SciBERT-Base and Conv-KNRM performs the worst. The main reason for the poor performance of Conv-KNRM is that we did not use its subword version [11] , which led to a severe out-of-vocabulary problem.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 125,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 366,
+                    "end": 370,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FAILED ATTEMPTS"
+        },
+        {
+            "text": "Fusion Attempts. Two fusion methods have been tried to integrate dense retrieval into our system. One approach is to combine dense retrieval with BM25 in the base retrieval stage. The other is to fuse dense retrieval into SciBERT's reranking processing directly. The second method works better in our limited attempts.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FAILED ATTEMPTS"
+        },
+        {
+            "text": "This section discusses our observations about the residual collection evaluation used in the TREC-COVID task. In residual collection evaluation, test queries can be divided into old queries and new queries. The old queries have been annotated in previous rounds, but their annotated documents will be removed from the collection before scoring. TREC-COVID allows IR systems to use old queries' relevance judgments and classify such systems as feedback types. Figure 3 shows the evaluation results of the top 10 feedback systems in Round 2 of TREC-COVID. Although these systems performed closely in overall scores, they showed significant differences in the old and new queries. E.g., the 2nd system's performance in the new query is greatly better than that in the old query. In contrast, some systems' ranking accuracy for the new query is considerably lower than in the old query, even worse than the base retrieval BM25 Fusion system, such as the 3rd-5th and 9th systems. A powerful search system is desirable to achieve balanced performance on known and unknown queries. However, this result shows that the residual collection evaluation may bias towards seen queries, which are much easier in real production scenarios.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 459,
+                    "end": 467,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "CONCERNS ON RESIDUAL EVALUATION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ms marco: A human generated machine reading comprehension dataset",
+            "authors": [
+                {
+                    "first": "Payal",
+                    "middle": [],
+                    "last": "Bajaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daniel",
+                    "middle": [],
+                    "last": "Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nick",
+                    "middle": [],
+                    "last": "Craswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jianfeng",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiaodong",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rangan",
+                    "middle": [],
+                    "last": "Majumder",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrew",
+                    "middle": [],
+                    "last": "Mcnamara",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bhaskar",
+                    "middle": [],
+                    "last": "Mitra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tri",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1611.09268"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SciBERT: A Pretrained Language Model for Scientific Text",
+            "authors": [
+                {
+                    "first": "Iz",
+                    "middle": [],
+                    "last": "Beltagy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kyle",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Arman",
+                    "middle": [],
+                    "last": "Cohan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of EMNLP-IJCNLP",
+            "volume": "",
+            "issn": "",
+            "pages": "3606--3611",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Pre-training tasks for embedding-based large-scale retrieval",
+            "authors": [
+                {
+                    "first": "Wei-Cheng",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Felix",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yin-Wen",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yiming",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sanjiv",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2002.03932"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Overview of the trec 2019 deep learning track",
+            "authors": [
+                {
+                    "first": "Nick",
+                    "middle": [],
+                    "last": "Craswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bhaskar",
+                    "middle": [],
+                    "last": "Mitra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Emine",
+                    "middle": [],
+                    "last": "Yilmaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Daniel",
+                    "middle": [],
+                    "last": "Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ellen",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Voorhees",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2003.07820"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Search engines: Information retrieval in practice",
+            "authors": [
+                {
+                    "first": "Bruce",
+                    "middle": [],
+                    "last": "Croft",
+                    "suffix": ""
+                },
+                {
+                    "first": "Donald",
+                    "middle": [],
+                    "last": "Metzler",
+                    "suffix": ""
+                },
+                {
+                    "first": "Trevor",
+                    "middle": [],
+                    "last": "Strohman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "520",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Convolutional neural networks for soft-matching n-grams in ad-hoc search",
+            "authors": [
+                {
+                    "first": "Zhuyun",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chenyan",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jamie",
+                    "middle": [],
+                    "last": "Callan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhiyuan",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of WSDM",
+            "volume": "",
+            "issn": "",
+            "pages": "126--134",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "authors": [
+                {
+                    "first": "Jacob",
+                    "middle": [],
+                    "last": "Devlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ming-Wei",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kenton",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kristina",
+                    "middle": [],
+                    "last": "Toutanova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of NAACL",
+            "volume": "",
+            "issn": "",
+            "pages": "4171--4186",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The vocabulary problem in human-system communication",
+            "authors": [
+                {
+                    "first": "George",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Furnas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Thomas",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Landauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Louis",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gomez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Susan",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dumais",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Commun. ACM",
+            "volume": "30",
+            "issn": "",
+            "pages": "964--971",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Complementing Lexical Retrieval with Semantic Residual Embedding",
+            "authors": [
+                {
+                    "first": "Luyu",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhuyun",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhen",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jamie",
+                    "middle": [],
+                    "last": "Callan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.13969"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "2020. Don't Stop Pretraining: Adapt Language Models to Domains and Tasks",
+            "authors": [
+                {
+                    "first": "Ana",
+                    "middle": [],
+                    "last": "Suchin Gururangan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Swabha",
+                    "middle": [],
+                    "last": "Marasovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kyle",
+                    "middle": [],
+                    "last": "Swayamdipta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Iz",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Doug",
+                    "middle": [],
+                    "last": "Beltagy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Noah A",
+                    "middle": [],
+                    "last": "Downey",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.10964"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "On the effect of low-frequency terms on neural-IR models",
+            "authors": [
+                {
+                    "first": "Sebastian",
+                    "middle": [],
+                    "last": "Hofst\u00e4tter",
+                    "suffix": ""
+                },
+                {
+                    "first": "Navid",
+                    "middle": [],
+                    "last": "Rekabsaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carsten",
+                    "middle": [],
+                    "last": "Eickhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "Allan",
+                    "middle": [],
+                    "last": "Hanbury",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of SIGIR",
+            "volume": "",
+            "issn": "",
+            "pages": "1137--1140",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+            "authors": [
+                {
+                    "first": "Vladimir",
+                    "middle": [],
+                    "last": "Karpukhin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Barlas",
+                    "middle": [],
+                    "last": "Oguz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sewon",
+                    "middle": [],
+                    "last": "Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ledell",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sergey",
+                    "middle": [],
+                    "last": "Edunov",
+                    "suffix": ""
+                },
+                {
+                    "first": "Danqi",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wen-Tau",
+                    "middle": [],
+                    "last": "Yih",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.04906"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+            "authors": [
+                {
+                    "first": "Jinhyuk",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wonjin",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sungdong",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Donghyeon",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sunkyu",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chan",
+                    "middle": [],
+                    "last": "Ho So",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jaewoo",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioinformatics",
+            "volume": "36",
+            "issn": "",
+            "pages": "1234--1240",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Sparse, Dense, and Attentional Representations for Text Retrieval",
+            "authors": [
+                {
+                    "first": "Yi",
+                    "middle": [],
+                    "last": "Luan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jacob",
+                    "middle": [],
+                    "last": "Eisenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kristina",
+                    "middle": [],
+                    "last": "Toutanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.00181"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Zeroshot Neural Retrieval via Domain-targeted Synthetic Query Generation",
+            "authors": [
+                {
+                    "first": "Ji",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ivan",
+                    "middle": [],
+                    "last": "Korotkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yinfei",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Keith",
+                    "middle": [],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ryan",
+                    "middle": [],
+                    "last": "Mcdonald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.14503"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "SLEDGE: A Simple Yet Effective Baseline for Coronavirus Scientific Knowledge Search",
+            "authors": [
+                {
+                    "first": "Sean",
+                    "middle": [],
+                    "last": "Macavaney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Arman",
+                    "middle": [],
+                    "last": "Cohan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nazli",
+                    "middle": [],
+                    "last": "Goharian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.02365"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "CEDR: Contextualized embeddings for document ranking",
+            "authors": [
+                {
+                    "first": "Sean",
+                    "middle": [],
+                    "last": "Macavaney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrew",
+                    "middle": [],
+                    "last": "Yates",
+                    "suffix": ""
+                },
+                {
+                    "first": "Arman",
+                    "middle": [],
+                    "last": "Cohan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nazli",
+                    "middle": [],
+                    "last": "Goharian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of SIGIR",
+            "volume": "",
+            "issn": "",
+            "pages": "1101--1104",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Passage Re-ranking with BERT",
+            "authors": [
+                {
+                    "first": "Rodrigo",
+                    "middle": [],
+                    "last": "Nogueira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kyunghyun",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1901.04085"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Deeprank: A new deep architecture for relevance ranking in information retrieval",
+            "authors": [
+                {
+                    "first": "Liang",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yanyan",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiafeng",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jun",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jingfang",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xueqi",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of CIKM",
+            "volume": "",
+            "issn": "",
+            "pages": "257--266",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Language models are unsupervised multitask learners",
+            "authors": [
+                {
+                    "first": "Alec",
+                    "middle": [],
+                    "last": "Radford",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jeffrey",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rewon",
+                    "middle": [],
+                    "last": "Child",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Luan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dario",
+                    "middle": [],
+                    "last": "Amodei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ilya",
+                    "middle": [],
+                    "last": "Sutskever",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Improving retrieval performance by relevance feedback",
+            "authors": [
+                {
+                    "first": "Gerard",
+                    "middle": [],
+                    "last": "Salton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chris",
+                    "middle": [],
+                    "last": "Buckley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Journal of the American society for information science",
+            "volume": "41",
+            "issn": "",
+            "pages": "288--297",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Neural machine translation of rare words with subword units",
+            "authors": [
+                {
+                    "first": "Rico",
+                    "middle": [],
+                    "last": "Sennrich",
+                    "suffix": ""
+                },
+                {
+                    "first": "Barry",
+                    "middle": [],
+                    "last": "Haddow",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alexandra",
+                    "middle": [],
+                    "last": "Birch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1508.07909"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection",
+            "authors": [
+                {
+                    "first": "Ellen",
+                    "middle": [],
+                    "last": "Voorhees",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tasmeer",
+                    "middle": [],
+                    "last": "Alam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Steven",
+                    "middle": [],
+                    "last": "Bedrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dina",
+                    "middle": [],
+                    "last": "Demner-Fushman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "William",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kyle",
+                    "middle": [],
+                    "last": "Hersh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kirk",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ian",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lucy",
+                    "middle": [
+                        "Lu"
+                    ],
+                    "last": "Soboroff",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.04474"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The Covid-19 Open Research Dataset",
+            "authors": [
+                {
+                    "first": "Lucy",
+                    "middle": [
+                        "Lu"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kyle",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yoganand",
+                    "middle": [],
+                    "last": "Chandrasekhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Russell",
+                    "middle": [],
+                    "last": "Reas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiangjiang",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Darrin",
+                    "middle": [],
+                    "last": "Eide",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kathryn",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rodney",
+                    "middle": [],
+                    "last": "Kinney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ziyang",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "William",
+                    "middle": [],
+                    "last": "Merrill",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.10706"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval",
+            "authors": [
+                {
+                    "first": "Lee",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chenyan",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ye",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kwok-Fung",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jialin",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paul",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "Junaid",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Arnold",
+                    "middle": [],
+                    "last": "Overwijk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2007.00808"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Anserini: Enabling the use of Lucene for information retrieval research",
+            "authors": [
+                {
+                    "first": "Peilin",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jimmy",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of SIGIR",
+            "volume": "",
+            "issn": "",
+            "pages": "1253--1256",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Simple applications of BERT for ad hoc document retrieval",
+            "authors": [
+                {
+                    "first": "Wei",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Haotian",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jimmy",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1903.10972"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Generic intent representation in web search",
+            "authors": [
+                {
+                    "first": "Hongfei",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xia",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chenyan",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Corby",
+                    "middle": [],
+                    "last": "Rosset",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Paul",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nick",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "Saurabh",
+                    "middle": [],
+                    "last": "Craswell",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tiwary",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Proceedings of SIGIR",
+            "volume": "",
+            "issn": "",
+            "pages": "65--74",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Selective Weak Supervision for Neural Information Retrieval",
+            "authors": [
+                {
+                    "first": "Kaitao",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chenyan",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhenghao",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhiyuan",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of WWW",
+            "volume": "",
+            "issn": "",
+            "pages": "474--485",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Round 2 testing result on each query of baselines and our system's best version (SciBERT + DAPT + Dense Retrieval). The X-axis denotes the Query ID in Round 2 of TREC-COVID, and Y-axis represents the NDCG@10 score. Noted that Queries 1-30 have been annotated in Round 1, and Queries 31-35 are newly added in Round 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The NDCG@10 gain of the top 10 feedback systems relative to BM25 Fusion system. 'All' represents the average gain of all queries in TREC-COVID Round 2, 'Old' and 'New' mean the annotated queries in Round 1 and the newly added queries in Round 2, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Overall accuracy in Round 2 of TREC-COVID. The testing results of baselines and our three submitted runs (marked with asterisk * ) are from official evaluations. Compared baselines are BM25 Fusion (base retrieval), T5 Fusion as well as SciBERT Fusion.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Dev results of SciBERT with different reranking depth in Round 2 of TREC-COVID. The top 10 hole rate denotes the unlabeled proportion of the top 10 reranked results.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgments. We thank Luyu Gao for sharing the implementation of Dense Retrieval, the Track organizers for hosting this track, Sean Macavaney for releasing the medical MS MARCO filter, and Jimmy Lin & the Anserini project for open sourcing the well-rounded BM25 first stage retrieval.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

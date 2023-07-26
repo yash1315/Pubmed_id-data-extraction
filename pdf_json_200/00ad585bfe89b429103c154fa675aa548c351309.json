@@ -1,0 +1,2632 @@
+{
+    "paper_id": "00ad585bfe89b429103c154fa675aa548c351309",
+    "metadata": {
+        "title": "Differential expression and correlation analysis of miRNA-mRNA profiles in swine testicular cells infected with porcine epidemic diarrhea virus",
+        "authors": [
+            {
+                "first": "Xiaoqian",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chang",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bingzhou",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zhonghua",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Zeng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rui",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jiyue",
+                "middle": [],
+                "last": "Cao",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Guofu",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shengxian",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qigai",
+                "middle": [],
+                "last": "He",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "State Key Laboratory of Agricultural Microbiology",
+                    "institution": "Huazhong Agricultural University",
+                    "location": {
+                        "postCode": "430070",
+                        "settlement": "Wuhan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The variant virulent porcine epidemic diarrhea virus (PEDV) strain (YN15) can cause severe porcine epidemic diarrhea (PED); however, the attenuated vaccine-like PEDV strain (YN144) can induce immunity in piglets. To investigate the differences in pathogenesis and epigenetic mechanisms between the two strains, differential expression and correlation analyses of the microRNA (miRNA) and mRNA in swine testicular (ST) cells infected with YN15, YN144, and mock were performed on three comparison groups (YN15 vs Control, YN144 vs Control, and YN15 vs YN144). The mRNA and miRNA expression profiles were obtained using next-generation sequencing (NGS), and the differentially expressed (DE) (p-value < 0.05) mRNA and miRNA were obtained using DESeq R package. mRNAs targeted by DE miRNAs were predicted using the miRanda algortithm. 8039, 8631 and 3310 DE mRNAs, and 36, 36, and 22 DE miRNAs were identified in the three comparison groups, respectively. 14,140, 15,367 and 3771 DE miRNA-mRNA (targeted by DE miRNAs) interaction pairs with negatively correlated expression patterns were identified, and interaction networks were constructed using Cytoscape. Six DE miRNAs and six DE mRNAs were randomly selected to verify the sequencing data by real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR). Based on bioinformatics analysis, we discovered the differences were mostly involved in host immune responses and viral pathogenicity, including NF-\u03baB signaling pathway and bacterial invasion of epithelial cells, etc. This is the first comprehensive comparison of DE miRNA-mRNA pairs in YN15 and YN144 infection in vitro, which could provide novel strategies for the prevention and control of PED.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "As an acute enteric disease of piglets, porcine epidemic diarrhea (PED) is typically characterized by watery diarrhea accompanied by vomiting, dehydration and high mortality 1 . PED virus (PEDV), a member of the Coronaviridae family, is the etiological agent of PED and a single-stranded positive-sense RNA virus whose genome is approximately 28 kb in size. The genome includes at least seven open reading frames (ORFs) of which ORF1a and ORF1b encode nonstructural proteins. The other five ORFs encode four structural proteins and one accessory protein, namely spike (S) protein, ORF3, envelope (E) protein, membrane (M) protein, and nucleocapsid (N) protein in sequence 1 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Since the late 2010s, a severe outbreak of PED has affected Asian, Europe and the Americas, and has caused great financial losses to the swine industry throughout the world 2-4 . The variant PEDV YN1 strain was isolated, passaged to 15 generations to obtain the variant virulent strain. This strain was passaged further for a total of 144 passages to obtain the attenuated, YN144 5 . In animal experiments, rather than inducing diarrhea in piglets, the YN144 strain induced innate immunity and neutralizing antibody responses, and provided protection to piglets challenged with a variant virulent strain 5 . In order to better understand the pathogenic mechanism of the variant PEDVs, a proteomics study was performed in vivo following the variant and attenuated strain infection, whose differentially expressed proteins are associated with immune function and stress responses 6 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Accumulating studies have demonstrated that microRNA (miRNA) can regulate the signaling pathways of host cells to defend against viral infections 7 . miRNA is a single-stranded, noncoding RNA of approximately 18-24 nucleotide length and is derived from longer preprimary transcripts 8 . The target recognition sequence of a mature miRNA, called the seed region, is highly conserved and is located within positions 2-8 of the miRNA. miRNA can regulate the expression of target mRNAs by binding to the 3\u2032 or 5\u2032 untranslated region of target mRNA using its seed region and ultimately inducing mRNA degradation, thereby playing a crucial role in controlling posttranscriptional gene expression in almost all known physiological and pathophysiological processes 9 . miRNA has two distinct anti-viral mechanisms. First, miRNA directly targets viral mRNA 10 . Second, miRNA can activate the host immune responses to control viral replication 11 . Next-generation sequencing (NGS) has become a powerful tool to analyze the expression profiles of miRNA and mRNA 12 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In this study, the differential expression and correlation analysis of the differentially expressed (DE, p-value < 0.05) miRNA and mRNA in swine testicular (ST) cells infected with the variant virulent PEDV strain (YN15) and the attenuated vaccine-like PEDV strain (YN144) were investigated to understand the roles of the miRNA-mRNA network in PEDV pathogenesis using NGS technology. These findings could lead to novel ideas for the prevention and control of PED.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "ST cells were monitored at different time points after YN15 or YN144 infection (Fig. 1) . The growth curves of the two PEDV strains, YN15 and YN144, in ST cells show that both strains peak at 48 h post-infection (pi), then gradually decline (Fig. 1a) . In order to make the process of replication kinetics and identification of the intracellular PEDV (YN15 and YN144 strains) more visual, indirect immunofluorescence assay (IIFA) was used to track the intracellular PEDV strains. The intracellular PEDV replication over the first three 12 h interval time points was validated, and there was a high virus yield at 24 h pi (Fig. 1b) . RNA samples were prepared using the cell pellets collected at 24 h pi for further small RNA and mRNA sequencing.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 87,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 241,
+                    "end": 250,
+                    "text": "(Fig. 1a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 621,
+                    "end": 630,
+                    "text": "(Fig. 1b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "To investigate mRNA expression profiles during PEDV (YN15 or YN144) infection, gene transcripts were analyzed using RNA-seq, and the same total RNAs were used to construct nine sample sequence libraries. The quality assessment of the sequencing data is summarized in Supplementary Table S1. Among the clean reads, most were mapped to the Sus scrofa genome, and the sequence alignment results are shown in Supplementary Table S2 . Genes were defined as DE when the p-value for the difference in expression was < 0.05 (padj < 0.05). Table S3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 405,
+                    "end": 427,
+                    "text": "Supplementary Table S2",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 531,
+                    "end": 540,
+                    "text": "Table S3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Global mRNA expression patterns in ST cells after YN15 and YN144 infection."
+        },
+        {
+            "text": "Gene Ontology (GO)-based analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) mapping were performed to explore the biological functions of all of the DE mRNAs. The most significantly enriched GO terms for target mRNAs in the three comparison groups are shown in Fig. 2b . All of the KEGG enrichment pathways are shown in Supplementary Table S4 ; among them each of the top 20 significantly enriched KEGG pathways is shown in Fig. 2c . Although the DE mRNAs differ depending on the specific experimental group comparison, most of them were involved in biological process (bp), cellular component (cc) and molecular function (mf). There were some commonly enriched GO terms, including protein binding, metabolic process, organic substance metabolic process, intracellular part, and organelle. In addition to the commonly enriched GO terms, the uniquely DE mRNAs in the YN15 vs Control comparison group, are involved in extracellular exosome, membrane-bounded vesicle, extracellular organelle, and vesicle. The uniquely DE mRNAs in the YN144 vs Control comparison group are involved in macromolecule metabolic process, cellular component organization, nucleoplasm, and binding. In the YN15 vs YN144 comparison group, the top 30 enriched GO terms for the DE mRNAs are involved in immune system process, regulation of cellular process, regulation of biological process, programmed cell death, apoptotic processes, and inflammatory response. According to the KEGG mapping of the DE mRNAs, most of the top 20 significant signaling pathways were different across the three comparison groups, except for pathway in cancer, tumor necrosis factor (TNF) signaling pathway and toxoplasmosis. The DE mRNAs are mostly involved in Fc gamma R-mediated phagocytosis, fatty acid metabolism, apoptosis, AMPK signaling pathway, and bacterial invasion of epithelial cells in the YN15 vs Control comparison group. While, the DE mRNAs in the YN144 vs Control comparison group are involved in viral carcinogenesis, RIG-I-like receptor signaling pathway, NOD-like receptor signaling pathway, chronic myeloid leukemia, and endocytosis. In the YN15 vs YN144 comparison group, the DE mRNAs are mostly involved in Toll-like signaling pathway, apoptosis, extracellular matrix protein (ECM)-receptor interaction, and the nuclear factor kappa-B (NF-\u03baB) signaling pathway.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 270,
+                    "end": 277,
+                    "text": "Fig. 2b",
+                    "ref_id": null
+                },
+                {
+                    "start": 329,
+                    "end": 351,
+                    "text": "Supplementary Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 433,
+                    "end": 440,
+                    "text": "Fig. 2c",
+                    "ref_id": null
+                }
+            ],
+            "section": "Global mRNA expression patterns in ST cells after YN15 and YN144 infection."
+        },
+        {
+            "text": "To confirm the results obtained from RNA-seq, six randomly selected mRNAs (activating transcription factor 3 (ATF3), cramped chromatin regulator homolog (CRAMP), natural killer cell triggering receptor (NKTR), www.nature.com/scientificreports/ member 10 (TNFSF10)) were measured using real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR) and their changes in expression showed trends consistent with the RNA-seq results (Fig. 2d) , indicating that the RNA-seq data are reflective of actual changes at the genetic level.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 457,
+                    "end": 466,
+                    "text": "(Fig. 2d)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Global mRNA expression patterns in ST cells after YN15 and YN144 infection."
+        },
+        {
+            "text": "the libraries derived from YN15, YN144 and control groups were generated. Clean reads were obtained after filtration. The clean reads successfully mapped to the reference genome sequence of Sus scrofa, as shown in Supplementary Table S5 . The length of the majority of clean reads obtained were 22-24 nucleotides (nt), and the size of 23 nt was the most common (Fig. 3a) . The percentage of nucleic acid represented by miRNAs in YN15, YN144, and control groups is shown in Fig. 3b Table S8 ).As shown in the Venn diagram (Fig. 3d) , 25 commonly and 22 uniquely DE miRNAs were identified between the YN15 vs Control Table S9 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 228,
+                    "end": 236,
+                    "text": "Table S5",
+                    "ref_id": null
+                },
+                {
+                    "start": 361,
+                    "end": 370,
+                    "text": "(Fig. 3a)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 473,
+                    "end": 480,
+                    "text": "Fig. 3b",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 481,
+                    "end": 489,
+                    "text": "Table S8",
+                    "ref_id": null
+                },
+                {
+                    "start": 521,
+                    "end": 530,
+                    "text": "(Fig. 3d)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 615,
+                    "end": 623,
+                    "text": "Table S9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Global miRNA expression patterns in ST cells after YN15 and YN144 infection. Raw reads from"
+        },
+        {
+            "text": "To identify the data obtained from small RNA-seq, six randomly selected miRNAs (ssc-miR-9-1, ssc-miR-27a, ssc-miR-32, ssc-miR-192, ssc-miR-671-5p and ssc-miR-1306-5p) were evaluated by real-time relative qRT-PCR (Fig. 3e) . The comparable results indicate that the data obtained by RNA-seq were valid.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 221,
+                    "text": "(Fig. 3e)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Global miRNA expression patterns in ST cells after YN15 and YN144 infection. Raw reads from"
+        },
+        {
+            "text": "of DE miRNA identified in the three comparison groups (YN15 vs Control, YN144 vs Control, and YN15 vs YN144) were predicted using the miRanda algorithm (Table. 1 ). GO and KEGG analyses were performed to characterize the functions of the predicted target mRNAs. The most significantly enriched GO terms of target mRNAs between the three comparison groups are involved in the biological processes of bp, cc and mf (Fig. 4a) . All of the enriched pathways identified through KEGG mapping are shown in Supplementary Table S10; among them, the top 20 significantly enriched pathways represented by predicted target mRNAs from each comparison group were identified (Fig. 4b) . In the YN15 vs Control comparison group, the target mRNAs were associated with immune-and bowel disease-related signaling pathways, including T cell receptor signaling pathway, Tolllike receptor signaling pathway, and inflammatory bowel disease (IBD), etc. In the YN144 vs Control comparison group, the enriched genes were involved in immune-related signaling pathways, including T cell receptor signaling pathway, intestinal immune network for IgA production, human T-cell leukemia virus type 1 (HTLV-1) infection, Fc gamma R-mediated phagocytosis, and B cell receptor signaling pathway. When YN15 and YN144 infected cells were compared, the target mRNAs of DE miRNAs were almost all connected to immune-and bowel disease-related signaling pathways, either IBD, Rap1 signaling pathway, HTLV-1 infection, Fc gamma R-mediated phagocytosis, T cell receptor signaling pathway, or the NF-\u03baB signaling pathway.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 161,
+                    "text": "(Table. 1",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 413,
+                    "end": 422,
+                    "text": "(Fig. 4a)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 660,
+                    "end": 669,
+                    "text": "(Fig. 4b)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Prediction and functional characterization of target mRNAs of DE miRNAs. The target mRNAs"
+        },
+        {
+            "text": "Using the strategy illustrated in Fig. 5a , a large number of DE miRNA-mRNA pairs were identified (p-value < 0.05). Our work indicated that one mRNA can be targeted and regulated by multiple miRNAs, and one miRNA can regulate a large number of mRNAs, simultaneously. With the exception of one miRNA that had a negative correlation with its target mRNAs, the miRNA and target mRNA expression profiles from ST cells infected with YN15 or YN144 were positively correlated. Our research also revealed DE miRNAs with target mRNAs that change in the opposite direction and form inversely correlated DE miRNA-mRNA interaction pairs, including up-regulated miRNA-downregulated mRNA pairs and down-regulated miRNA-up-regulated mRNA pairs (Supplementary Table S11 ). The numbers of inversely regulated DE miRNA-mRNA pairs in PEDV-infected ST cells in the three comparison groups are shown in Table 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 41,
+                    "text": "Fig. 5a",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 744,
+                    "end": 753,
+                    "text": "Table S11",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 882,
+                    "end": 889,
+                    "text": "Table 2",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Joint functional analysis of DE miRNAs and DE target mRNAs."
+        },
+        {
+            "text": "A joint analysis of the interactions between DE miRNA-mRNA pairs with a negative correlation was performed. When comparing ST cells infected with YN15 and cells infected with YN144, GO and KEGG enrichment among up-regulated and down-regulated DE target mRNAs were performed. The top 20 most significantly enriched GO terms are involved in the biological functions of bp, cc and mf (Fig. 5c ). All KEGG enrichment pathways of the DE target mRNAs are shown in Supplementary Table S12 . The 20 most significantly enriched KEGG mapped pathways of the inversely regulated DE miRNA-mRNA pairs are shown in Fig. 5d . These DE miRNA-mRNA pairs were jointly analyzed according to functionally enriched GO terms and enriched KEGG pathways, and the two interaction networks were formed using Cytoscape software (Fig. 5e ). One interaction network shows that the differentially up-regulated miRNA-down-regulated mRNA pairs during YN15 infection in comparison with YN144 infection are involved in focal adhesion, endocytosis, regulation of action cytoskeleton, PI3K-Akt signaling pathway, and bacteria invasion of epithelial cells. The second interaction network shows that the differentially down-regulated miRNA-up-regulated mRNA pairs are involved in the NF-\u03baB signaling pathway, TNF signaling pathway, B cell receptor signaling pathway, Toll-like receptor signaling pathway, T cell receptor signaling pathway, Janus kinase/signal transduction and activator of transcription (JAK-STAT) signaling pathway, and apoptosis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 389,
+                    "text": "(Fig. 5c",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 458,
+                    "end": 481,
+                    "text": "Supplementary Table S12",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 600,
+                    "end": 607,
+                    "text": "Fig. 5d",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 800,
+                    "end": 808,
+                    "text": "(Fig. 5e",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Joint functional analysis of DE miRNAs and DE target mRNAs."
+        },
+        {
+            "text": "miRNA-mRNA interaction networks have emerged as crucial regulators in virus-host interactions, and NGS technology has become a powerful tool to analyze the expression profiles of miRNA and mRNA 12 . In view of the significant differences in pathogenesis and epigenetic mechanisms between the variant virulent PEDV strain YN15 and the attenuated vaccine-like PEDV strain YN144 in vivo, we suppose that miRNA and mRNA may play essential roles in PEDV virulence. This is the first reported comparative analysis of ST cell responses to infection with a virulent and attenuated strain of PEDV using small RNA-seq and mRNA-seq to explore the molecular mechanisms in the virus-host interaction.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "According to our sequencing data, the ST cell transcriptional responses to infection with PEDV YN15 (virulent) and YN144 (attenuated) strains were very different in the early stage of infection (24 h pi, MOI = 0.001). According to the comprehensive GO and KEGG pathway enrichment analysis of DE miRNA-mRNA pairs with negatively correlated expression patterns in the YN15 vs YN144 comparison group, the main signaling pathways enriched were involved in host immunity and viral pathogenicity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The main innate immune-related signaling pathways including NF-\u03baB signaling pathway and JAK-STAT signaling pathway excited our interest. The NF-\u03baB signaling pathway plays a crucial part in host immunity during viral infections 13 . The PEDV N protein is capable of inhibiting the activation of this signaling pathway activation in HEK-293 T cells 14 The JAK-STAT signaling pathway also plays a major role in host innate immunity, especially as it pertains to inflammatory pathogenesis as seen in IBD 15 . In this work, cytokines related to this signaling pathway were found to be up-regulated during variant PEDV strain infection, especially during YN144 infection. The phosphorylation and translocation of STAT1, STAT2 and STAT3 promotes the antiviral ability of cells by up-regulating the transcription of interferon (IFN) -stimulated genes (ISG) to fight viral infection 16 . Our deep sequencing data showed that STAT1 and STAT3 were markedly up-regulated in YN144-infected ST cells (YN144 vs Control, STAT1: p-value = 9.0857E\u221217, and STAT3: p-value = 3.00E\u221211) compared with YN15-infected ST cells (YN15 vs Control, STAT1: p-value = 6.43E\u221212, and STAT3: p-value > 0.05). STAT2 expression displayed no obvious changes during YN144 infection (YN144 vs Control, p-value > 0.05), but was notably decreased during YN15 infection (YN15 vs Control, p-value = 6.81E\u221208). As key members of this signaling pathway, both the oligoadenylate synthetase (OAS) protein family (OAS1, OAS2, and OASL) and the Mx dynamin-like GTPases (MX1 and MX2) induced by type I and type III IFN participate in antiviral activity and inhibit virus replication 17, 18 . Our research shows that the expressions of the above genes can be substantially activated at early stages of YN144 infection, while their expressions were moderate at early stages of YN15 infection (YN15 vs YN144, OAS1:",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 229,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 347,
+                    "end": 349,
+                    "text": "14",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 500,
+                    "end": 502,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 874,
+                    "end": 876,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1633,
+                    "end": 1636,
+                    "text": "17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1637,
+                    "end": 1639,
+                    "text": "18",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this work, the NF-\u03baB signaling pathway was found to be regulated by ssc-miR-155-5p, ssc-miR-29b, and ssc-miR-139-5p, and the JAK-STAT signaling pathway was regulated by ssc-miR-155-5p, ssc-miR-29b, ssc-miR-1307, ssc-miR-10a-5p, and ssc-miR-30d. All of miR-155-5p, miR-139-5p and miR-29b have been proved to have immense effects on inflammation and negatively regulate the innate immune responses to various microorganisms [19] [20] [21] . For example, miR-155 and miR-139-5p can constitute a negative feedback loop in the NF-\u03baB signaling pathway by targeting multiple key proteins, leading to the repression of NF-\u03baB activation in response to viral or microbial stimuli 19, 20 . The expression of miR-155 was enhanced in microglial cells during Japanese encephalitis virus (JEV) infection, and JEV-induced IFN-\u03b2 as well as downstream ISG mRNA expression was significantly reduced in microglial overexpressing miR-155 19 .The knock-out or inhibition of miR-155 decreases hepatitis C virus (HCV) viremia in children with leukemia 22 . miR-29b is capable of inhibiting the JAK-STAT signaling pathway by IFN-\u03b3 in CD8 + T cells and TH1 effector cells 21 . Interestingly, our sequencing data showed that ssc-miR-155-5p and ssc-miR-139-5p were markedly up-regulated in YN15-infected ST cells compared with YN144-infected ST cells (YN15 vs YN144, ssc-miR-155-5p: p-value = 4.991E-03, and ssc-miR-139-5p: p-value = 1.671E-3). Ssc-miR-29b was significantly up-regulated in ST cells infected with YN15, but down-regulated in cells infected with YN144. These differences could explain our previous results that YN144 can more effectively activate the host immune response than YN15 5 .",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 429,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 673,
+                    "end": 676,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 677,
+                    "end": 679,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 920,
+                    "end": 922,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1149,
+                    "end": 1151,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A particularly noteworthy phenomenon was observed for the expression patterns of ssc-miR-1307, ssc-miR-10a-5p and ssc-miR-30d. All three were markedly down-regulated in ST cells during YN15 infection, but were significantly up-regulated during YN144 infection (shown in Supplementary Table S8 ). Interestingly, many studies have shown that all three play crucial roles in promoting host innate immunity during viral infection [23] [24] [25] . Qi et al. have provided evidence that miR-1307 can be significantly up-regulated in PK-15 cells after infection with foot-and-mouth disease virus 23 . The overexpression of this miRNA greatly up-regulates the expression of IFN-\u03b2, ISG54, 2\u2032,5\u2032-OAS, and NF-\u03baB subunit p65/RELA, and activates the innate immune response, including the NF-\u03baB and JAK-STAT signaling pathways, at early stages of viral infection 23 . Other research has demonstrated that miR-10a is highly expressed in the intestines and plays a crucial role in the host immune response to the microbiota in a mouse model, and the intestinal microbiota negatively regulates miR-10a expression by targeting IL-12/ IL-23p40 24 . The miR-30 family plays an important role in the immune response during viral infection 28 . miR-30b and miR-30c are markedly up-regulated with IFN-\u03b1 treatment and inhibit HCV replication in Huh 7.5 cells 25 .",
+            "cite_spans": [
+                {
+                    "start": 426,
+                    "end": 430,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 431,
+                    "end": 435,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 589,
+                    "end": 591,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 849,
+                    "end": 851,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1125,
+                    "end": 1127,
+                    "text": "24",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1335,
+                    "end": 1337,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 270,
+                    "end": 292,
+                    "text": "Supplementary Table S8",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Interestingly, we found that the above DE miRNAs are all involved in host immune action, although through different means and pathways. All of the DE miRNAs that were up-regulated during YN144 infection and downregulated during YN15 infection are capable of activating the host immune response. Even more surprising, the same phenomenon occurs among all commonly up-regulated miRNAs that the expression levels of the up-regulated miRNAs during YN15 infection were significantly higher than during YN144 infection, and all of them have been reported to inhibit the NF-\u03baB or JAK-STAT signaling pathway. Therefore, we predict that the above DE miRNAs may play an indispensable role in regulating the host innate immunity during early PEDV (e) Results of real-time relative qRT-PCR analysis (alongside RNA-seq analysis) of ssc-miR-9-1, ssc-miR-27a, ssc-miR-32, ssc-miR-192, ssc-miR-671-5p and ssc-miR-1306-5p fold-change in the two comparison groups (YN15 vs Control and YN144 vs Control). The relative expression of each miRNA was calculated using the 2 -\u0394\u0394Ct method. The data are presented as mean \u00b1 SEM from three independent experiments. www.nature.com/scientificreports/ infection in vitro, and the above differences may be some of the reasons that YN15 and YN144 can cause different immunity action in vitro and vivo. In contrast, YN15 can invade intestinal epithelial cells and cause serious intestinal injury and inflammation, leading to serious diarrhea in piglets. It is worth noting that diarrhea in piglet is often caused by viral-bacterial co-infections in the farm setting 26 . Coincidentally, the GO and KEGG enrichment analysis of up-regulated mRNA-down-regulated miRNA pairs in YN15-infected ST cells compared with YN144-infected ST cells, showed that the major signaling pathways represented include focal adhesion, regulation of action cytoskeleton, endocytosis, PI3K-Akt signaling pathway, and bacterial invasion of epithelial cells. All of these pathways are closely related to pathogenicity, and in particular, the destruction of host cell structure during microbial invasion 27 .",
+            "cite_spans": [
+                {
+                    "start": 1583,
+                    "end": 1585,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2094,
+                    "end": 2096,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Integrin (ITG), vinculin (VCL), and fibronectin (FN1) are associated with these signaling pathways. ITGs are heterodimeric proteins expressed on the cell surface that act as receptors for the interaction between cells and microorganisms and are exploited by microorganisms to gain entry into host cells 28 . ITG\u03b1v\u03b23 is an entry receptor for PEDV infection in Vero E6 and porcine intestinal epithelial cells 29 . During enterohemorrhagic E. coli (EHEC) O157:H7 infection, ITG\u03b21 on the surface of the intestinal epithelia acts as receptors for intimin expressed by EHEC, to promote bacterial infection 30 .",
+            "cite_spans": [
+                {
+                    "start": 303,
+                    "end": 305,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 407,
+                    "end": 409,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 600,
+                    "end": 602,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Both talin and VCL are actin-cytoskeleton-associated, adapter proteins for the dynamic interaction between ITG and actin cytoskeleton to generate focal adhesions between cells and ECM and establish bacterial and viral infections 31 . For example, Ebola virus infection promotes talin-VCL expression 31 . IpaA secreted by Shigella interacts with VCL to initiate the formation of focal adhesion-like structures required for the efficient bacterial invasion of epithelial cells 32 . FN1 can polymerize to form a linear and branched meshwork on the cell surface, and a vast number of bacteria and viruses, such as Staphylococcus aureus and Influenza A Virus, express FN-binding proteins to promote cellular invasion [33] [34] [35] .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 231,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 299,
+                    "end": 301,
+                    "text": "31",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 475,
+                    "end": 477,
+                    "text": "32",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 712,
+                    "end": 716,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 717,
+                    "end": 721,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 722,
+                    "end": 726,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The PI3K-Akt signaling pathway is activated by variety of pathogens leading to accentuate diseases 36 . For example, activation of this signaling pathway promotes actin rearrangement, leading to the host inflammatory response that persists in IBD 37 . Additionally, cell destruction caused by viruses can expose cryptic receptors to promote bacteria adhesion and it is well known, that some symbiotic gut microbiota and invasive intestinal pathogens invade epithelial cells, and cause extensive intestinal damage [38] [39] [40] . Transmissible gastroenteritis virus (TGEV) infection can expose the adhesion proteins of intestinal epithelial cells, thereby providing the attachment sites for enterotoxigenic E. coli K88 (ETEC) invasion, inducing an epithelial-mesenchymal transition-like phenotype, and resulting in virus-bacteria co-infection 41 . Like TGEV, PEDV disrupts porcine intestinal epithelial cells; however, the mechanism of PEDV and bacteria co-infection is not clear 40 . Interestingly, paramyxovirus and Streptococcus pneumonia co-infection can only be supported by the highly pathogenic virus strains and not by the low pathogenic virus strains 42 . In addition, mTOR, a downstream factor of the PI3K-Akt signaling pathway, can inhibit T helper cell differentiation and thus suppress the host immune response 43 . Importantly, the above phenomenon is reflected in our sequencing data demonstrationg that YN15 causes significantly greater activation of the above signaling pathways than dose YN144, as measured by the up-regulation of effector genes encoding mTOR, FN1, VCL, ITG\u03b13, ITG\u03b15, ITG\u03b16, ITG\u03b18, ITG\u03b21, and ITG\u03b24 (YN15 vs YN144, p-value = 7.98E-06, p-value = 3.27E-04, p-value = 8.96E-08, p-value = 5.25E-12, p-value = 3.27E-04, p-value = 9.61E-20, p-value = 2.04E-12, p-value = 1.41E-03, and p-value = 2.52E-12, respectively) in ST cells. This may provide an explanation as to why YN15 causes serious intestinal inflammation and pathological damage, whereas YN144 does not.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 101,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 247,
+                    "end": 249,
+                    "text": "37",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 513,
+                    "end": 517,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 523,
+                    "end": 527,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 843,
+                    "end": 845,
+                    "text": "41",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 980,
+                    "end": 982,
+                    "text": "40",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1160,
+                    "end": 1162,
+                    "text": "42",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1324,
+                    "end": 1326,
+                    "text": "43",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We found that several DE miRNAs regulate these pathogenicity-related signaling pathways, including ssc-miR-9, ssc-miR-30d, ssc-miR-425-5p, and ssc-miR-184. miR-9-3p has been shown to suppress cell proliferation, migration and invasion via the down-regulation of FN1, ITG\u03b21, ITG\u03b15 44 . In the present study, YN15 exhibited greater inhibition of ssc-miR-9 expression and greater activation of FN1, ITG\u03b21, and ITG\u03b15 expression than the YN144 strain. These results may provide us with new insights into how to inhibit PEDV replication and secondary bacterial infection. To promote cell invasion and metastasis, miR-425-5p could activate ITG\u03b21expression through the suppression of suppressor of cancer cell invasion (SCAI) expression 45 . It is worth mentioning that miR-184 is normally found in abundance in healthy individuals; however, down-regulation of miR-184 leads to epithelial thinning and prolonged wound healing, possibly contributing to pathology 46 . Our sequencing data show that ST cells infected with YN15 produce a more pronounced decrease in the expression of these miRNAs than when infected with YN144 (ssc-miR-9: p-value = 3.624E-03, ssc-miR-425-5p: p-value = 7.41E-04, and ssc-miR-184: p-value = 3.92E-07). Overexpression of miR-30 in breast cancer cells inhibits the expression of a number of genes associated with invasiveness (e.g., ITG\u03b15, ITG\u03b23) and tumor cell invasion in vitro 47 . Our sequencing data show that ssc-miR-30d were up-regulated during YN144 infection and down-regulated during YN15 infection.",
+            "cite_spans": [
+                {
+                    "start": 729,
+                    "end": 731,
+                    "text": "45",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 954,
+                    "end": 956,
+                    "text": "46",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1399,
+                    "end": 1401,
+                    "text": "47",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, PEDV infection can activate and inhibit various of genes in the same signaling pathway, and the same gene can simultaneously play different roles in different signaling pathways and present different www.nature.com/scientificreports/ www.nature.com/scientificreports/ expression ability in different stage. Based on our sequencing data, genes enrichment analysis, and information from the literature, we speculate that YN15 infection would cause more serious pathological damage, and YN144 infection would markedly activated host immune responses in vivo and vitro, which correspond well with our previous studies in piglets and prediction that YN144 does not causes clinical symptoms, but still results in effective antibody production comparable to levels achieved by vaccination 5 . All differences are very attractive in helping researchers unravel a new antiviral mechanism of PEDV infection, and therefore provide researchers with further avenues to the porcine industry.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Cells and viruses. ST Library preparation and sequencing of mRNA. The library preparation and sequencing analyses of RNA were performed by Novogene Company (Bejing, China). A total quantity of 3 \u03bcg RNA per sample was used as input for the RNA sample preparations. Sequencing libraries were generated using NEBNext Ultra RNA Library Prep Kit for Illumina (NEB, USA) and index codes were added to attribute sequences to each sample. In order to select cDNA fragments of 150-200 bp in length, library fragments were purified using the AMPure XP system (Beckman Coulter, Beverly, USA). The PCR products were purified (AMPure XP system) and library quality was assessed on the Agilent Bioanalyzer 2100 system. The clustering of the index-coded samples was performed on a cBot Cluster Generation System using TruSeq PE Cluster Kit v3-cBot-HS (Illumina). The library preparations were then sequenced on an Illumina HiSeq platform and 125 bp/150 bp paired-end reads were generated. The index of the reference genome was constructed using Bowtie v2.2.3 and paired-end clean reads were aligned to the reference genome using TopHat v2.0.12. Library preparation, sequencing, prediction and analysis of miRNA. A total of 3 \u03bcg RNA per sample was used as input for each small RNA library. NEBNext Multiplex Small RNA Library Prep Set for Illumina (NEB, USA) was used to generate the sequencing libraries and index codes that were added to attribute sequences to each sample. Library quality was assessed on the Agilent Bioanalyzer 2100 system using DNA High Sensitivity Chips. After cluster generation of the index-coded samples, performed on a cBot Cluster Generation System using TruSeq SR Cluster Kit v3-cBot-HS (Illumina), the library was sequenced on an Illumina HiSeq 2500/2000 platform, and 50 bp single-end reads were generated. The small RNA tags were mapped to the Sus scrofa sequence by Bowtie 49 . The miRBase20.0 database was used as the reference, and modified software mirdeep2 and sRNA-tools-cli were used to obtain potential miRNA and predict their secondary structures 50 . The available software miREvo and mirdeep2 were integrated to predict novel miRNAs 50, 51 .",
+            "cite_spans": [
+                {
+                    "start": 19,
+                    "end": 21,
+                    "text": "ST",
+                    "ref_id": null
+                },
+                {
+                    "start": 2072,
+                    "end": 2074,
+                    "text": "50",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 2160,
+                    "end": 2163,
+                    "text": "50,",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 2164,
+                    "end": 2166,
+                    "text": "51",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "To explore the occurrence of the miRNA families identified in this study in other species, miFam.dat (http:// mirba se.org/ftp.shtml ) was used to search for known miRNA families, and novel miRNA precursors were submitted to Rfam (http://rfam.sange r.ac.uk/searc h/) to search for Rfam families.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "miRNA expression levels were estimated by TPM (transcript per million) using the following criterion-normalization formula: normalized expression = mapped read count/ total reads \u00d7 1000000 52 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Differential expression of miRNA and mRNA, and target gene prediction. Analysis of DE miRNA from the three experimental groups (YN15, YN144 and control) was performed using the DESeq R package (1.8.3). Differentially expressed mRNAs from the three comparison groups were analyzed using the DESeq R package (1.18.0). The p-value was adjusted using the Benjamini & Hochberg method. A corrected p-value of 0.05 was set as the threshold for significantly different expression by default (p-value < 0.05, and padj < 0.05). Prediction of the miRNA target gene was performed using psRobot-tar in miRanda for Sus scrofa 53 . GO and KEGG enrichment analysis of differentially expressed genes. Gene Ontology (GO) functional enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis of DEGs were performed using Goseq R package and KOBAS 2.0 software (Available online: http://kobas .cbi.pku.edu.cn/ home.do).",
+            "cite_spans": [
+                {
+                    "start": 612,
+                    "end": 616,
+                    "text": "53 .",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "To generate the miRNA-mRNA interaction network, a negative correlation analysis of DE miRNAs and DE mRNAs was performed, and Cytoscape v2.8.3 software (http://www.cytos cape.org/) was used to construct the miRNA-mRNA interaction network.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation analysis of DE miRNAs and DE mRNAs."
+        },
+        {
+            "text": "To validate the sequencing data, 6 DE mRNAs and 6 DE miRNAs were randomly selected and analyzed using realtime relative qRT-PCR and three independent biological replicates were performed at minimum.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR)."
+        },
+        {
+            "text": "For detection of DE mRNAs, RNA was reverse transcribed into single strand cDNA using Prime Script RT reagent Kit RR036A (TaKaRa, Shiga-ken, Japan) on a S1000 Thermal Cycler (Bio-Rad, CA, USA). The GAPDH gene was used as the internal control. The primers used are listed in Supplementary Table S13 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 296,
+                    "text": "Supplementary Table S13",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR)."
+        },
+        {
+            "text": "For detection of DE miRNAs, RNA was reverse transcribed into single strand cDNA using PrimeScript RT reagent Kit RR037A (TaKaRa, Shiga-ken, Japan) on a S1000 Thermal Cycler (Bio-Rad, CA, USA). Hieff qPCR SYBR Green Master Mix (Low Rox Plus) (YEASEN, Shanghai, CHN) was used to perform qRT-PCR. The expression of U6 small nuclear RNA (snRNA) was used as the endogenous control. The primers used are listed in Supplementary Table S13. Real-time relative qRT-PCR was performed in a 10 \u03bcL volume containing 100 nM of each of forward primer and reverse primer, cDNA template, and Faststart DNA Master SYBR Green I Mix reagent kit (Roche) on a ViiA 7 Real-Time PCR System (Life Technologies, CA, USA) under the following cycle conditions: 95 \u00b0C for 10 min, 40 cycles with 95 \u00b0C for 15 s, 56 \u00b0C for 30 s, and 72 \u00b0C for 31 s.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 408,
+                    "end": 432,
+                    "text": "Supplementary Table S13.",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR)."
+        },
+        {
+            "text": "The relative expression of each target was calculated using the 2 -\u0394\u0394CT method with a control group as calibrator 54 . Statistical significance was determined by Student's t-test, with p-value < 0.05 deemed to be statistically significant. ",
+            "cite_spans": [
+                {
+                    "start": 114,
+                    "end": 116,
+                    "text": "54",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Real-time relative quantitative reverse transcription polymerase chain reaction (qRT-PCR)."
+        },
+        {
+            "text": "The datasets generated and analysed during the current study are available from the corresponding author on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A new coronavirus-like particle associated with diarrhea in swine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pensaert",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "De Bouck",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Arch. Virol",
+            "volume": "58",
+            "issn": "",
+            "pages": "243--247",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Genetic characteristics of porcine epidemic diarrhea virus in Chinese mainland, revealing genetic markers of classical and variant virulent parental/attenuated strains",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Gene",
+            "volume": "588",
+            "issn": "",
+            "pages": "95--102",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "New porcine epidemic diarrhoea virus variant with a large deletion in the spike gene identified in domestic pigs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Masuda",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Murakami",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Arch. Virol",
+            "volume": "160",
+            "issn": "",
+            "pages": "2565--2568",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Origin, evolution, and genotyping of emergent porcine epidemic diarrhea virus strains in the United States",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Allan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pablo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Comparative genomic analysis of classical and variant virulent parental/attenuated strains of porcine epidemic diarrhea virus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Viruses",
+            "volume": "7",
+            "issn": "",
+            "pages": "5525--5538",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Comparative proteome analysis of porcine jejunum tissues in response to a virulent strain of porcine epidemic diarrhea virus and its attenuated strain",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Viruses",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The microRNAs miR-302b and miR-372 regulate mitochondrial metabolism via the SLC25A12 transporter, which controls MAVS-mediated antiviral innate immunity",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yasukawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nakagawa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Biol. Chem",
+            "volume": "295",
+            "issn": "",
+            "pages": "444--457",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "MicroRNAs: Genomics, biogenesis, mechanism, and function",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bartel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Cell",
+            "volume": "116",
+            "issn": "",
+            "pages": "281--297",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Posttranscriptional regulation of the heterochronic gene lin-14 by lin-4 mediates temporal pattern formation in C. elegans",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wightman",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ha",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ruvkun",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Cell",
+            "volume": "75",
+            "issn": "",
+            "pages": "855--862",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Cellular miR-130b inhibits replication of porcine reproductive and respiratory syndrome virus in vitro and in vivo",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Sci. Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Host miR-26a suppresses replication of porcine reproductive and respiratory syndrome virus by upregulating type I interferons",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Virus Res",
+            "volume": "195",
+            "issn": "",
+            "pages": "86--94",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Comparative expression profile of miRNA and mRNA in primary peripheral blood mononuclear cells infected with human immunodeficiency virus (HIV-1)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pruthvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS ONE",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "MicroRNAs in NF-kappaB signaling",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Becker Buscaglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Barker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Mol. Cell Biol",
+            "volume": "3",
+            "issn": "",
+            "pages": "159--166",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Porcine epidemic diarrhea virus infection induces NF-\u03baB activation through the TLR2, TLR3 and TLR9 pathways in porcine intestinal epithelial cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Gen. Virol",
+            "volume": "96",
+            "issn": "",
+            "pages": "1757--1767",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Involvement of JAK/STAT signaling in the pathogenesis of inflammatory bowel disease",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Coskun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Salem",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pedersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Pharmacol. Res",
+            "volume": "76",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Signal transducer and activator of transcription (STAT) signalling and T-cell lymphomas",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Immunology",
+            "volume": "114",
+            "issn": "",
+            "pages": "301--312",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The oligoadenylate synthetase family: An ancient protein family with multiple antiviral activities",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kristiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Gad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eskildsen-Larsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Interferon Cytokine Res",
+            "volume": "31",
+            "issn": "",
+            "pages": "41--47",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Dynamin-like antiviral machines of innate immunity",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Haller",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Staeheli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Mx"
+                    ],
+                    "last": "Schwemmle",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gtpases",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Trends Microbiol",
+            "volume": "23",
+            "issn": "",
+            "pages": "154--163",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "MiR-155 induction in microglial cells suppresses Japanese encephalitis virus replication and negatively modulates innate immune responses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pareek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Roy",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kumari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Neuroinflammation",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "MicroRNA-139-5p regulates chronic inflammation by suppressing nuclear factor-\u03baB activity to inhibit cell proliferation and invasion in colorectal cancer",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Ming",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Exp. Ther. Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "4049--4057",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "miR-29b and miR-198 overexpression in CD8 + T cells of renal cell carcinoma patients downmodulates JAK3 and MCL-1 leading to immune dysfunction",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gigante",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Paola",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wolfgang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Transl. Med",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "In vitro knock-out of miR-155 suppresses leukemic and HCV virus loads in pediatric HCV-4-associated acute lymphoid leukemia: A promising target therapy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hassan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nashwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elshimy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Cell. Biochem",
+            "volume": "121",
+            "issn": "",
+            "pages": "2811--2817",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Host microRNA miR-1307 suppresses foot-and-mouth disease virus replication by promoting VP3 degradation and enhancing innate immune response",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virology",
+            "volume": "535",
+            "issn": "",
+            "pages": "162--170",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Microbiota downregulates dendritic cell expression of miR-10a, which targets IL-12/IL-23p40",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Immunol",
+            "volume": "187",
+            "issn": "",
+            "pages": "5879--5886",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "MicroRNA expression profiling in HCV-infected human hepatoma cells identifies potential anti-viral targets induced by interferon-\u03b1",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Daucher",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Armistead",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS ONE",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A novel watery diarrhoea caused by the co-infection of neonatal piglets with Clostridium perfringens type A and Escherichia coli (K88, 987P)",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Vet. J",
+            "volume": "197",
+            "issn": "",
+            "pages": "812--816",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Novel roles of focal adhesion kinase in cytoplasmic entry and replication of influenza A viruses",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Elbahesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cline",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Baranovich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "6714--6728",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Integrin-dependent phagocytosis: Spreading from microadhesion to new concepts",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Dupuy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Caron",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Cell Sci",
+            "volume": "121",
+            "issn": "",
+            "pages": "1773--1783",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Integrin \u03b1v\u03b23 enhances replication of porcine epidemic diarrhea virus on Vero E6 and porcine intestinal epithelial cells",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Vet. Microbiol",
+            "volume": "237",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The established intimin receptor Tir and the putative eucaryotic intimin receptors nucleolin and beta1 integrin localize at or near the site of enterohemorrhagic Escherichia coli O157:H7 adherence to enterocytes in vivo",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sinclair",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dean-Nystrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "O&apos;brien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Infect. Immun",
+            "volume": "74",
+            "issn": "",
+            "pages": "1255--1265",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Increased talin-vinculin spatial proximities in livers in response to spotted fever group rickettsial and Ebola virus infections",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lab. Invest",
+            "volume": "100",
+            "issn": "",
+            "pages": "1030--1041",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Modulation of bacterial entry into epithelial cells by association between vinculin and the Shigella IpaA invasin",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Van Nhieu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ben-Ze&apos; Ev",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "EMOB J",
+            "volume": "16",
+            "issn": "",
+            "pages": "2717--2729",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "A multidomain host adhesin targeted by bacterial fibronectin-binding proteins",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nair",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pallas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fibronectin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "FEMS Microbiol. Rev",
+            "volume": "35",
+            "issn": "",
+            "pages": "147--200",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The role of fibronectin binding proteins in the pathogenesis of Staphylococcus aureus infections",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Menzies",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Curr. Opin. Infect. Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "225--229",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Entry of influenza A Virus with a \u03b12, 6-linked sialic acid binding preference requires host fibronectin",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "",
+            "pages": "10704--10713",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Reactive oxygen species generation mediated by NADPH oxidase and PI3K/Akt pathways contribute to invasion of Streptococcus agalactiae in human endothelial cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S S"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Moraes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mem. Inst. Oswaldo Cruz",
+            "volume": "113",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Activation of PI3K/Akt/mTOR signaling pathway triggered by PTEN downregulation in the pathogenesis of Crohn's disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Dig. Dis",
+            "volume": "14",
+            "issn": "",
+            "pages": "662--669",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Influenza virus neuraminidase contributes to secondary bacterial pneumonia",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Peltola",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Murti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mccullers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Infect. Dis",
+            "volume": "192",
+            "issn": "",
+            "pages": "249--257",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Stress, nutrition, and intestinal immune responses in pigs-a review. Asian-Austr",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kye",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Anim. Sci",
+            "volume": "29",
+            "issn": "",
+            "pages": "1075--1082",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Porcine epidemic diarrhea virus infection induces NF-\u03baB activation through the TLR2, TLR3 and TLR9 pathways in porcine intestinal epithelial cells",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ge",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Gen. Virol",
+            "volume": "96",
+            "issn": "",
+            "pages": "1757--1767",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Understanding TGEV-ETEC coinfection through the lens of proteomics: A tale of porcine diarrhea",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Arango Duque",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Acevedo Ospina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proteom. Clin. Appl",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The novel parainfluenza virus hemagglutinin-neuraminidase inhibitor BCX 2798 prevents lethal synergism between a paramyxovirus and Streptococcus pneumoniae",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Alymova",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Portner",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Takimoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "49",
+            "issn": "",
+            "pages": "398--405",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Roquin suppresses the PI3K-mTOR signaling pathway to inhibit T helper cell differentiation and conversion of Treg to Tfr cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Essig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guimaraes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Immunity",
+            "volume": "47",
+            "issn": "",
+            "pages": "1067--1082",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Elevation of MiR-9-3p suppresses the epithelial-mesenchymal transition of nasopharyngeal carcinoma cells via down-regulating FN1, ITGB1 and ITGAV",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cancer Biol. Ther",
+            "volume": "18",
+            "issn": "",
+            "pages": "414--424",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "MiR-425-5p promotes invasion and metastasis of hepatocellular carcinoma cells through SCAImediated dysregulation of multiple signaling pathways",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Oncotarget",
+            "volume": "8",
+            "issn": "",
+            "pages": "31745--31757",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Conjunctival MicroRNA expression in inflammatory trachomatous scarring",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Derrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Roberts",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajasekhar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Negl. Trop. Dis",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "S. miRNA-30 family members inhibit breast cancer invasion, osteomimicry, and bone destruction by directly targeting multiple bone metastasis-associated genes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Croset",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pantano",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cancer Res",
+            "volume": "78",
+            "issn": "",
+            "pages": "5259--5273",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Trapnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pertea",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nat. Biotechnol",
+            "volume": "28",
+            "issn": "",
+            "pages": "511--515",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Langmead",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Trapnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pop",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Genome Biol",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "miRDeep2 accurately identifies known and hundreds of novel microRNA genes in seven animal clades",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Friedl\u00e4nder",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mackowiak",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nucleic Acids Res",
+            "volume": "40",
+            "issn": "",
+            "pages": "37--52",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "An integrative microRNA evolutionary analysis platform for next-generation sequencing experiments",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mirevo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "BMC Bioinform",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Integrated profiling of MicroRNAs and mRNAs: MicroRNAs located on Xq27.3 associate with clear cell renal cell carcinoma",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "PLoS ONE",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "PsRobot: A web-based plant small RNA meta-analysis toolbox",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nucleic Acids Res",
+            "volume": "40",
+            "issn": "",
+            "pages": "22--28",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2 \u2212\u0394\u0394CT method",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Livak",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Schmittgen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Methods",
+            "volume": "25",
+            "issn": "",
+            "pages": "402--408",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Compared with the control group (uninfected ST cells), 8039 (3959 up-regulated and 4080 down-regulated) DE mRNAs were identified in the YN15 infection group and 8631 (4355 up-regulated and 4276 down-regulated) DE mRNAs were identified in the YN144 infection group. When the DE mRNAs in YN15 group were compared to those of YN144 group, 3310 (1494 up-regulated and 1816 down-regulated) DE mRNAs were commonly DE in both (Fig. 2a and Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The growth curves of the two PEDV strains (YN15 and YN144) in ST cells (0.001 multiplicity of infection (MOI)). (a) The growth curves of the two PEDV strains (YN15 and YN144) in ST cells. (b) Confirmation of YN15 and YN144 replication in ST cells at 12, 24, and 36 h pi by IIFA. Mock-infected ST cells at 36 h pi were set as control. Scale bar = 100 \u03bcm.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "miRNA expression profiles in PEDV-infected ST cells. (a) Length of distribution of small RNA-seq reads. (b) Pie charts of small RNA-seq results showing the percentage of small RNA components in PEDV YN15-, YN144-, and mock-infected (Control) ST cells. (c) Volcano plots of up-regulated and down-regulated differentially expressed microRNAs (DE miRNAs) in three comparison groups (YN15 vs Control, YN144 vs Control, and YN15 vs YN144) (p-value < 0.05). (d) Venn diagram of the number of the commonly and uniquely DE miRNAs between the two comparison groups (YN15 vs Control and YN144 vs Control). Each number in a circle represents the number of the DE miRNAs found in each comparison group. The number in the overlapping area represents miRNAs commonly DE between the two comparison groups. The number in each non-overlapping area indicates the unique DE miRNAs in each comparison group. (p-value < 0.05).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "DE miRNAs and their predicted target mRNAs in PEDV-infected ST cells. (a) GO analysis of the predicted target genes of the DE miRNAs from the three comparison groups. (b) KEGG analysis of the predicted target genes of the DE miRNAs from the three comparison groups. Each panels indicates the top 20 significantly enriched pathways identifed by KEGG analysis of each of the three comparison groups (Left, YN15 vs Control; Middle, YN144 vs Control; Right, YN15 vs YN144).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Joint functional analysis of DE miRNA and inversely DE target mRNA in PEDV-infected ST cells. (a) Flow diagram of joint analysis of DE miRNA-mRNA pairs in the three comparison groups. (b) GO analysis of DE miRNA-mRNA pairs between YN15 infection and YN144 infection. The top panel shows the GO enrichment analysis of up-regulated miRNA-down-regulated mRNA pairs, and the lower panel shows the GO enrichment analysis of down-regulated miRNA-up-regulated mRNA pairs during YN15 infection compared with YN14 infection. (c) KEGG analysis of the genes of the DE miRNA-mRNA pairs between YN15 infection and YN144 infection. The left panel shows the KEGG pathways of the top 20 significantly up-regulated miRNA-down-regulated mRNA pairs, and the right panel shows the KEGG pathways of the top 20 significantly down-regulated miRNA-up-regulated mRNA pairs during YN15 infection compared with YN144 infection. (d) The DE miRNA-mRNA interaction networks in PEDV-infected ST cells. The left panel shows the significant interactions of the up-regulated miRNA-down-regulated mRNA pairs, and the right panel shows the significant interactions of the down-regulated miRNA-up-regulated mRNA pairs during YN144 infection in comparison with YN15 infection. p-value < 0.05. .6.1 was used to count the read numbers mapped to each gene. Then, fragments per kilobase of exon model per million reads mapped (FPKM) of each gene was calculated based on the length of the gene and numbers of reads mapped to the gene 48 .",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Rho family GTPase 1 (RND1), small cell adhesion glycoprotein (SMAGP) and tumor necrosis factor superfamily",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": ". The numbers of mapped known and novel miRNAs are listed in Supplementary Table S6. After BLASTN analysis by miRBase 20.0 with Sus scrofa miRNAs, 275 known and 279 novel mature miRNAs were obtained (SupplementaryTable S7).Identification of DE miRNAs was performed based on p-value < 0.05. Based on the volcano plots, three DE miRNA clusters emerged(Fig. 3c). Among these DE miRNAs, YN15 infection was found to increase the expression of 15 miRNAs and decrease the expression of 21 miRNAs in ST cells, YN144 infection up-regulated 15 miRNAs and down-regulated 21 miRNAs, and 22 miRNAs, 9 up-and 13 down-regulated, were identified when comparing ST cells infected with YN15 and ST cells infected with YN144 (Fig. 3c andSupplementary Table S8). Among all of DE miRNAs, seven novel miRNAs were discovered (Supplementary",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Figure 2. mRNAs expression profiles in PEDV-infected ST cells. (a) The bar graph shows the number of DE mRNAs in each one of the three comparison groups, red represents the amount of up-regulated DE mRNAs, green represents the count of down-regulated DE mRNAs (p-value < 0.05). (b) GO analysis of the DE mRNAs in PEDV infection ST. The three panels show the GO enrichment analysis of each of the top 30 significantly most DE mRNAs from the three comparison groups",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". Our sequencing data shows that NF\u03baB1, a member of the NF-\u03baB family of transcription factors that can activate the NF-\u03baB signaling pathway, was substantially up-regulated in ST cells during YN144",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Number of DE miRNAs and their target mRNAs. Table shows the numbers of up-regulated miRNA and down-regulated miRNA, and their target mRNAs in each of the three comparison groups, respectively.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Number of inversely DE miRNA-mRNA pairs. Table displaying the numbers of DE miRNA-mRNA pairs between the three comparison groups.www.nature.com/scientificreports/",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Any custom code used during the current study is available from the corresponding author on reasonable request. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Code availability"
+        },
+        {
+            "text": "X.Z. has full access to all of the data in the research and takes responsibility for the integrity of the data and the accuracy of the data analysis; Research conception and design: X.Z., C.L., B.Z., Z.L., W.Z., R.L., G.C., J.C., S.F., and Q.H.; Acquisition of data: X.Z., C.L., B.Z., Z.L., and W.Z.; Analysis and interpretation of data: X.Z., C.L., B.Z., R.L., G.C., J.C., and S.F.; X.Z. wrote the paper. All authors reviewed the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "The online version contains supplementary material available at https ://doi. org/10.1038/s4159 8-021-81189 -5.Correspondence and requests for materials should be addressed to Q.H.Reprints and permissions information is available at www.nature.com/reprints.Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        },
+        {
+            "text": "License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creat iveco mmons .org/licen ses/by/4.0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International"
+        }
+    ]
+}

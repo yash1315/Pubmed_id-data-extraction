@@ -1,0 +1,3778 @@
+{
+    "paper_id": "00a39ba7eabd28bb99ab1dcc4c39fca27f18458f",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Carolina",
+                "middle": [],
+                "last": "Ibar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica. Residencia en Bioqu\u00edmica Cl\u00ednica. 2 Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Federico",
+                "middle": [],
+                "last": "Fortuna",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica. Residencia en Bioqu\u00edmica Cl\u00ednica. 2 Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Diego",
+                "middle": [],
+                "last": "Gonzalez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Juan",
+                "middle": [],
+                "last": "Jamardo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Dario",
+                "middle": [],
+                "last": "Jacobsen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lucas",
+                "middle": [],
+                "last": "Pugliese",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Laura",
+                "middle": [],
+                "last": "Giraudo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica. Residencia en Bioqu\u00edmica Cl\u00ednica. 2 Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Veronica",
+                "middle": [],
+                "last": "Ceres",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica. Residencia en Bioqu\u00edmica Cl\u00ednica. 2 Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Cynthia",
+                "middle": [],
+                "last": "Mendoza",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Esteban",
+                "middle": [
+                    "M"
+                ],
+                "last": "Repetto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas (CONICET). Facultad de Farmacia y Bioqu\u00edmica. Buenos Aires",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Graciela",
+                "middle": [],
+                "last": "Reboredo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Hospital de Cl\u00ednicas Jos\u00e9 de San Martin. \u00c1rea Ambulatoria del tratamiento y seguimiento del HIV-SIDA. 7 C\u00e1tedra de Qu\u00edmica Anal\u00edtica Instrumental",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {
+                        "settlement": "Buenos Aires",
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Silvia",
+                "middle": [],
+                "last": "Iglesias",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sergio",
+                "middle": [],
+                "last": "Azzara",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "C\u00e1tedra de Metodolog\u00eda para la Investigaci\u00f3n Psicol\u00f3gica I",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {
+                        "settlement": "Buenos Aires",
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gabriela",
+                "middle": [],
+                "last": "Berg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Farmacia y Bioqu\u00edmica. Instituto de Fisiopatolog\u00eda y Bioqu\u00edmica Cl\u00ednica (INFIBIOC). Buenos Aires",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Damian",
+                "middle": [],
+                "last": "Zopatti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Universidad de Buenos Aires. Facultad de Medicina. Direcci\u00f3n de Estad\u00edstica y Archivo M\u00e9dico. Hospital de Cl\u00ednicas Jos\u00e9 de San Martin",
+                    "institution": "",
+                    "location": {
+                        "country": "Argentina"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Bibiana",
+                "middle": [],
+                "last": "Fabre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universidad de Buenos Aires",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "San",
+                "middle": [
+                    "Martin"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In the critical context of COVID-19 pandemic, healthcare workers are on the front line, participating directly in the care, diagnosis, and treatment of patients with COVID-19. This exposes them to a higher risk of developing chronic stress, psychological distress, and any other mental health symptoms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Objective: to evaluate stress and burnout in a health workers population and, in addition, to measure hair cortisol concentration as a current biomarker of stress.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Materials and methods: 234 health workers from Hospital de Cl\u00ednicas \"Jos\u00e9 de San Mart\u00edn\", Buenos Aires University, were included in this study. In this population hair samples were obtained from the posterior vertex as close to the scalp as possible and the individuals completed the following surveys: perceived stress, social support, burnout scale, life event scale, and sociodemographic data. Hair cortisol was measured by an automated chemiluminescent method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The studied population was divided into three groups considering those individuals below the healthy reference sample range (<40 pg/mg hair), within the healthy reference range (40-128 J o u r n a l P r e -p r o o f pg/mg hair) and above the reference range (>128 pg/mg hair). This study used a transversal and observational design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our results show that 40% of the studied population presented hair cortisol values outside of the healthy reference range. In the whole studied population, a direct correlation was found between hair cortisol concentration and perceived stress as well as between hair cortisol concentration and the emotional exhaustion component of burnout (r = 0.142, p = 0.030; r = 0.143, p = 0.029, respectively). 12% of the studied population showed Burnout (52% doctors and residents, 19% nurses, 19% administrative personnel). Higher values in hair cortisol levels were found in the group with burnout versus individuals without burnout (p=0.034). Finally, a mediation analysis was performed, finding that depersonalization is a mediating variable in the relationship between self-perceived stress and hair cortisol level (F = 4.86, p = 0.0086; indirect effect IC: 0.0987-1.8840).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusion: This is the first study in which a stress biomarker such as hair cortisol is evaluated in this population and in this context. Healthcare workers are subjected to increased levels of stress and burnout. High depersonalization, emotional exhaustion, and decreased personal sense of accomplishment characterize this population. It is the responsibility of the health authorities to implement strategies to manage this psychological emergency.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We thank Dr. Angel Zaninovich for providing comments on an earlier draft. T able 1. Sociodemographic and psychological characteristics of the study population Variable Results Age (years, mean\u00b1SD) 41\u00b111 Gender % (n) F:71 (166); M: 29 (68) BMI (Kg/m 2 ) 25.7 (18-39) Smoker (%) Yes (76) No (24) Dyed hair (%) Yes (55) No (45) Cosmetic hair treatment (%) Yes (17) No (83) Anti-dandruff shampoo (%) Yes (88) No (12) Profession/Occupation (n, %) Physician (n=34, %=14) Nurses (n=25, %=11) Residents (n=35, %=15) Other health professionals (n=39, %=17) Administrative staff (n=63, %=27) Maintenance assistants (n=27, %=11) Auxiliary health technicians (n=11, %=5) Psychological scale (score) Perceived stress Social support Life events scale Personal accomplishment (AP) Dersonalisation (DP) Emotional exhaustion (EE) Median (range) 6 (0-15) 14.5 (2-20) 180 (0-1002) 37 (0-48) 6 (0-27) 23 (0-49) F: female; M: male. Results are expressed as mean \u00b1 standard deviation (SD) or median (range), according to the data distribution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "J o u r n a l P r e -p r o o f Highlights \uf0b7 Hair cortisol levels were altered in 40% of the health workers. \uf0b7 12% of the studied population presented burnout. \uf0b7 Individuals with burnout had significantly higher hair cortisol levels. \uf0b7 Hair cortisol levels were higher in those who were in direct contact with patients. \uf0b7 Depersonalization mediated between self-perceived stress and hair cortisol levels. J o u r n a l P r e -p r o o f Declaration of interest: none J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "During December 2019, in Wuhan China, cases of severe atypical viral pneumonia emerged, spreading rapidly all over the country, causing a significant number of deaths (\"WHO. Novel coronavirus-China, https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en (Jan J o u r n a l P r e -p r o o f 12, 2020) (accessed Dic 19, 2020),\" 2020; Zhu et al., 2020) . Subsequently, the virus genome was sequenced, determining that it was a new coronavirus called SARS-CoV-2. This virus caused a new disease called COVID-19 that quickly spread worldwide. The World Health Organization (WHO) declared COVID-19 a pandemic disease on March 11 th .",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 365,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Today, it has caused more than 1.900.000 deaths worldwide and has affected up to 191 countries (\"Johns Hopkins Coronavirus Resource Center https://coronavirus.jhu.edu/map.html,\"2020). Thus, this pandemic is today considered an international public health emergency (Jee, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 276,
+                    "text": "(Jee, 2020)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this critical context, healthcare workers are on the front line, participating directly in the care, diagnosis, and treatment of patients with COVID-19. This exposes them to a higher risk of developing chronic stress, psychological distress, and any other mental health symptom. The increasing number of confirmed and suspected cases, overwhelming workload, lack of personal protective equipment, widespread media coverage, lack of specific treatment and feelings of inadequate support can all contribute to the mental burden of these health workers (Maunder et al., 2008) .",
+            "cite_spans": [
+                {
+                    "start": 553,
+                    "end": 575,
+                    "text": "(Maunder et al., 2008)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Previous studies conducted during the 2003 SARS outbreak showed adverse psychological reactions among healthcare workers. In this population, high levels of stress, anxiety, and symptoms of depression (Lee et al., 2007) associated with uncertainty, stigmatization, reluctance to work and resignation (Bai et al., 2004; Maunder et al., 2003) were observed. Several studies found that the emergency nursery department was more likely to develop distress and behavioral disconnection Shih et al., 2007; Wong et al., 2005) . At present, facing the pandemic caused by COVID-19, health workers who take care of these patients experience similar effects on their mental health. The public health crisis creates an environment of uncertainty and stress that demands both assessment and containment of health personnel. So far, most of the studies about COVID-19 have focused on epidemiological investigations, prevention, diagnosis, and treatment. Few studies have investigated the mental J o u r n a l P r e -p r o o f health problems that affect health workers during the pandemic (Spoorthy et al., 2020; Zhang et al., 2020) In hospital settings, the burnout syndrome has been extensively studied, even though the most widely accepted definition of burnout is that proposed by Maslach & Jackson (1986) who identified it as a three-dimensional syndrome involving: a) high emotional exhaustion (tiredness and diminished personal resources to face the demands of the task) , b) high depersonalization (development of a negative and insensitive attitude towards the recipients of the service), and c) diminished sense of personal accomplishment (perception that professional achievements fall below personal expectations and low personal self-worth). The study of burnout is important because its negative effects can impact both on the professional who suffers it, causing different signs and symptoms, and also on the health institution itself, by increasing staff absenteeism, and on the quality of care provided by increasing medical errors and diminishing patient safety .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 219,
+                    "text": "(Lee et al., 2007)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 300,
+                    "end": 318,
+                    "text": "(Bai et al., 2004;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 319,
+                    "end": 340,
+                    "text": "Maunder et al., 2003)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 481,
+                    "end": 499,
+                    "text": "Shih et al., 2007;",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 500,
+                    "end": 520,
+                    "text": "Wong et al., 2005) .",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 1075,
+                    "end": 1098,
+                    "text": "(Spoorthy et al., 2020;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1099,
+                    "end": 1118,
+                    "text": "Zhang et al., 2020)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1271,
+                    "end": 1295,
+                    "text": "Maslach & Jackson (1986)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Some studies have shown that younger physicians, those performing high-risk procedures and/or experiencing work-life conflicts were at greatest risk (Lacy and Chan, 2018) . The phenomena of physician burnout were adequately studied and have a direct negative impact on stress, anxiety, depression, poor patient quality care, among others (Patel et al., 2018; Shah et al., 2020) . Besides, chronic stress related to work environment, known as burnout, leads to a hypothalamic-pituitaryadrenal (HPA) axis deregulation which leads to an altered cortisol release (Wingenfeld et al. 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 170,
+                    "text": "(Lacy and Chan, 2018)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 338,
+                    "end": 358,
+                    "text": "(Patel et al., 2018;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 359,
+                    "end": 377,
+                    "text": "Shah et al., 2020)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 559,
+                    "end": 582,
+                    "text": "(Wingenfeld et al. 2009",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Several studies report that chronic stress alters HPA axis activity, which contributes to the development of psychiatric disorders such as depression, anxiety, and burnout (Chrousos, 2009; Miller et al., 2007; Tsigos and Chrousos, 2002) . However, most of studies evaluating HPA axis alterations in burnout are controversial. Some studies report increased cortisol values (Grossi et al., 2005) , others do not show any modification in cortisol levels (Bellingrath et al., 2008) and others even show reduced activity of the axis (Pruessner et al., 1999) .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 188,
+                    "text": "(Chrousos, 2009;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 189,
+                    "end": 209,
+                    "text": "Miller et al., 2007;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 210,
+                    "end": 236,
+                    "text": "Tsigos and Chrousos, 2002)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 372,
+                    "end": 393,
+                    "text": "(Grossi et al., 2005)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 451,
+                    "end": 477,
+                    "text": "(Bellingrath et al., 2008)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 528,
+                    "end": 552,
+                    "text": "(Pruessner et al., 1999)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the last years, hair cortisol evaluation arose as a suitable biomarker for adrenal axis evaluation, reflecting the individual's exposure to chronic stressful events. Given that on average, hair grows 1 cm per month, 3 cm of hair would reflect the cortisol levels to which the individual was exposed in the last 3 months (Sauv\u00e9 et al., 2007) .",
+            "cite_spans": [
+                {
+                    "start": 323,
+                    "end": 343,
+                    "text": "(Sauv\u00e9 et al., 2007)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Currently, worldwide hair cortisol measurement is performed mostly by mass spectrometry or by manual methods with low analytical precision and high cost (e.g., ELISA). However, in the last years, Gonzalez et al. (2019) have developed and evaluated the analytical performance of a procedure that enables hair cortisol measurement by an automated system that allows a fast response time with a greater number of samples with high analytical precision.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 218,
+                    "text": "Gonzalez et al. (2019)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In the present study, we propose to explore the deregulation of the HPA axis through a mediation model including hair cortisol concentrations and psychological variables to evaluate the effect of third variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Taking this into account, the aim of our study was to evaluate chronic stress and burnout in health workers during COVID-19 pandemic in a university public hospital, as well as its association with a biological biomarker such as hair cortisol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Health workers (n= 234; 68 men (39.6 \u00b1 10 years) and 166 women (41 \u00b1 12 years)) from Hospital de Cl\u00ednicas \"Jos\u00e9 de San Mart\u00edn\", Buenos Aires University (UBA) were included in this study. They were recruited via email. Individuals under treatment with glucocorticoids, psychotropic drugs, with HPA axis alterations or a previous diagnosis of mental health disorders were excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Additionally, individuals with less than 3 cm hair length on the posterior vertex were also excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "This study used a transversal observational design. The normal reference interval was obtained in a previous study using percentile (P) 2.5 and 97.5 from hair cortisol levels measured in 213 healthy individuals (Gonzalez et al 2019) . The participants did not receive any kind of compensation for participating in the study and all of them gave written prior informed consent. The study was J o u r n a l P r e -p r o o f approved in advance by the Ethics Committee of the Hospital and was performed following the Helsinki Declaration for medical studies in humans.",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 232,
+                    "text": "(Gonzalez et al 2019)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Hair samples were obtained with scissors from the posterior vertex as close to the scalp as possible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hair sample collection and hair cortisol measurement"
+        },
+        {
+            "text": "Considering that hair grows approximately 1 cm per month, 3 cm were obtained in order to evaluate hair cortisol levels of the last 3 months. Each sample was stored in a paper envelope at room temperature until it was processed. Once the samples were obtained, three centimeters were measured from the root segment adjacent to the cutting. Then, each sample was weighed, and cortisol was extracted and processed by an automated chemiluminescent method (Immulite 2000 autoanalyzer, Siemens, LA, USA) according to the patented procedure developed in our laboratory.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hair sample collection and hair cortisol measurement"
+        },
+        {
+            "text": "The results were expressed in pg/mg. Hair cortisol concentration reference interval in healthy individuals with low levels of stress is 40-128 pg/mg hair (P2.5-P97.5) (Gonzalez et al., 2019) . The studied population was divided into three groups considering this healthy reference sample range: below the lower value (<40 pg/mg hair), within the healthy reference sample range (40-128 pg/mg hair) and above the reference range (>128 pg/mg hair).",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 190,
+                    "text": "(Gonzalez et al., 2019)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hair sample collection and hair cortisol measurement"
+        },
+        {
+            "text": "All participants were asked to complete an epidemiological sheet including data about: age, sex, weight, height, family nucleus, medication, dye hair, used shampoo, any cosmetic hair treatment, smoking, profession, workplace, and pre-existing pathologies. In addition, they completed the following surveys: perceived stress (Cohen et al., 1988) , social support (Timmerman et al., 2000) , burnout scale (Maslach et al., 1997) , and life event scale Homes-Rahe (Holmes and Rahe, 1967) .",
+            "cite_spans": [
+                {
+                    "start": 324,
+                    "end": 344,
+                    "text": "(Cohen et al., 1988)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 362,
+                    "end": 386,
+                    "text": "(Timmerman et al., 2000)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 403,
+                    "end": 425,
+                    "text": "(Maslach et al., 1997)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 460,
+                    "end": 483,
+                    "text": "(Holmes and Rahe, 1967)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Epidemiological data and psychological tests"
+        },
+        {
+            "text": "Perceived stress survey consists in 4 items, answered on a 5-point Likert scale ranging from \"never\" to \"very often\". Social support survey consists in 5 items, answered using a Likert scale ranging J o u r n a l P r e -p r o o f from 1 to 4 each item. Holmes-Rahe life events scale consist in an inventory of 45 life events with different scores from 11 to 100 each event. For the analysis, median values were used as follows, for social support (median score 14.5), perceived stress (median score 6) and life events (median score 180).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epidemiological data and psychological tests"
+        },
+        {
+            "text": "The reliability analysis of the psychological tools used yielded a Cronbach's alpha of 0.708 for perceived stress survey, 0.805 for burnout survey and 0.815 for social support scale.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Epidemiological data and psychological tests"
+        },
+        {
+            "text": "The multidimensional concept of burnout was measured by Maslach Burnout Inventory -Human Services Survey (MBI -HSS) This scale consists of 22 items distributed into three subscales: emotional exhaustion (EE) scoring from 0 to 54, depersonalization (DP) scoring from 0 to 30 and personal accomplishment (PA) scoring from 0 to 48. Item responses are from 0 (never) to (6) every day (Maslach and Leiter, 2016) , the definition of burnout requires the presence of the three subscales: high EE (score> 26), high DP (score > 9) and low PA (score < 34).",
+            "cite_spans": [
+                {
+                    "start": 380,
+                    "end": 406,
+                    "text": "(Maslach and Leiter, 2016)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Burnout"
+        },
+        {
+            "text": "Since its development in 1981, the MBI -HSS (Maslach and Jackson, 1981) has a long history of reliability and validity testing in human services workers (Schaufeli et al., 1996) ",
+            "cite_spans": [
+                {
+                    "start": 44,
+                    "end": 71,
+                    "text": "(Maslach and Jackson, 1981)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 153,
+                    "end": 177,
+                    "text": "(Schaufeli et al., 1996)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Burnout"
+        },
+        {
+            "text": "Europe and the United States (Poghosyan et al., 2009 ).",
+            "cite_spans": [
+                {
+                    "start": 29,
+                    "end": 52,
+                    "text": "(Poghosyan et al., 2009",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "and in nurses from"
+        },
+        {
+            "text": "We first tested the distribution of variables using normality tests (kurtosis and skewness). Results were expressed as mean \u00b1 standard deviation (SD) or median (range), according to data distribution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Correlations between variables were calculated using Pearson (parametric distribution data) or Spearman test (non-parametric distribution data). Median differences were performed by t-test or Mann-Whitney test according to data distribution. We performed the Kruskal Wallis analysis to evaluate differences between medians when we had more than two groups. We then used a binary logistic regression analysis to test whether hair cortisol, perceived stress, social support, and life events were predictors of burnout, controlling for necessary confounders, age, BMI. Finally, the J o u r n a l P r e -p r o o f mediation analysis was performed using Hayes PROCESS macro in SPSS statistical software (Bolin, 2014) . All analyses were conducted with SPSS 19.0 statistical software.",
+            "cite_spans": [
+                {
+                    "start": 698,
+                    "end": 711,
+                    "text": "(Bolin, 2014)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analyses"
+        },
+        {
+            "text": "Samples from 234 health workers from Hospital de Cl\u00ednicas Jos\u00e9 de San Martin were analyzed. Table 1 shows the sociodemographic data of the analyzed population and median (range) to score perceived stress; social support, life events scale, depersonalization (DP), Emotional exhaustion (EE) and Personal accomplishment (AP)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 92,
+                    "end": 99,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Sociodemographic and psychological characteristics of the study population"
+        },
+        {
+            "text": "Our results show that 40% (n = 94) of the studied population presented hair cortisol values outside of the healthy reference range. Out of this 40%, 63% showed values higher than the upper limit of the reference value for the methodology (128 pg/mg of hair) and 37% presented values below the lower limit of reference 40 pg / mg of hair.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stress and hair cortisol concentration"
+        },
+        {
+            "text": "Considering the whole population, hair cortisol concentration directly correlated with perceived stress (r=0.142, p=0.030) as well as with the EE (r=0.143, p=0.029). In addition, an inverse correlation was found between hair cortisol concentration and age (r=-0.182, p= 0.005).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stress and hair cortisol concentration"
+        },
+        {
+            "text": "When dividing the population into three groups according to their hair cortisol concentration (<40 pg/mg of hair, between 40-128 pg/mg, and > 128 pg mg), an association was observed between hair cortisol concentration and DP only in those individuals with hair cortisol levels over 128 pg/mg (r = 0.297, p = 0.021). In this group, perceived stress was also associated to life events (r = 0.462, p <0.0001), as well as with DP and EE (r=0.367, p=0.004; r=0.680, p <0.0001, respectively). Besides, in these subject's social support showed an inverse association with life events and a direct association with AP (r=-0.263, p=0.042; r=0.299, p=0.020, respectively).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Stress and hair cortisol concentration"
+        },
+        {
+            "text": "When considering the group of individuals with altered hair cortisol levels (<40 and >128 pg/mg of hair, n = 94) an association was observed between hair cortisol and perceived stress (r = 0.230, p = 0.026) as well as with DP (r = 0.221, p = 0.032). Table 2 shows hair cortisol concentration according to the profession/occupation of the population.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 250,
+                    "end": 257,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Physicians were those with higher hair cortisol levels and they were significantly different from health workers who performed administrative and maintenance activities (p= 0.019, p= 0.015, respectively).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "When the studied population was divided according to interaction with patients, hair cortisol levels were significantly higher in those who were in direct contact with patients (physicians, nurses, residents) than in those who were not in direct contact with patients (administrative, maintenance personnel), (Table 2, p = 0.04).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "12% of the studied population showed burnout with the following distribution: 52% physicians and residents, 19% nurses, 19% administrative personnel and the rest were technical and maintenance personnel. High DP and EE and low PA were more frequent among healthcare workers who were in direct contact with patients compared to those workers who performed tasks that do not involve direct contact with patients. When comparing hair cortisol levels, individuals with burnout presented significantly higher levels than individuals without burnout, (91 (40-280) vs 77 (40-423) pg /mg hair; p = 0.037).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Burnout and hair cortisol concentration"
+        },
+        {
+            "text": "A binary logistic regression, considering the presence of burnout as dependent variable, and hair cortisol concentration, perceived stress, social support, and life events as independent variables was performed. Hair cortisol concentration (b=0.006, OR = 1.006 (CI 95%: 1.000-1.011) p = 0.047), and perceived stress (b = 0.235, OR = 1.265 (95% CI: 1.075-1.488) p = 0.002) explained 15% of the variance of the dependent variable, even after adjusting for BMI and age.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Burnout and hair cortisol concentration"
+        },
+        {
+            "text": "Even though only 12% of the studied population (n=28) presented burnout (2 of 3 burnout altered components were present in 22% of the subjects (n=51)). Furthermore, it was observed that 36% J o u r n a l P r e -p r o o f (n=85) of the studied population presented decreased PA (score: 0-33), 33% (n=79) increased DP (score: 10-30) and 38% (n = 90) increased EE (score: 27-54). Moreover, significant differences were observed in hair cortisol levels when comparing individuals with low PA vs those with high PA (91 vs 60 pg / mg of hair, p = 0.05). The same is observed when comparing individuals with low DP vs individuals with high DP (70 vs 90 pg / mg of hair, p=0.05), while in the case of individuals with low EE vs individuals with high EE only a tendency was observed (75 vs 90 pg / mg of hair, p = 0.07).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Burnout and hair cortisol concentration"
+        },
+        {
+            "text": "The statistical mediation analysis supported that DP mediated the relationship between self- ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of mediation"
+        },
+        {
+            "text": "In this study, stress and burnout were evaluated in health workers at \"Hospital de Cl\u00ednicas Jos\u00e9 de San Martin\" in the context of COVID-19 pandemic. To our knowledge, this is the first study in which a stress biomarker such as hair cortisol is evaluated in this population and in this context. Our results show that 40% of the studied population presented altered hair cortisol values. In addition, an association between perceived stress and hair cortisol levels was observed, particularly in individuals with altered cortisol levels. These findings highlight the usefulness of the measurement of hair cortisol as a suitable biomarker in the evaluation of stress (Iglesias et al., 2015) .",
+            "cite_spans": [
+                {
+                    "start": 664,
+                    "end": 687,
+                    "text": "(Iglesias et al., 2015)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Recent studies have similarly shown that COVID-19 affects mental health outcomes such as anxiety, depression, and post-traumatic stress symptoms (Salari et al., 2020) . Furthermore, healthcare workers constitute a population particularly vulnerable to develop adverse mental health events due to long working hours, risk of infection, lack of personal protection elements, physical fatigue and separation from their families .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 166,
+                    "text": "(Salari et al., 2020)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, a direct correlation was also observed between hair cortisol levels and the EE. Sagherian et al. (2020) found higher levels of EE and some degree of DP in nursing staff, additionally, an increased sense of DP was observed among those who cared for patients with COVID-19. Different studies show that certain work-related characteristics (work schedule, type of work environment, and years of experience) affect levels of poor sleep, fatigue, recovery between shifts, and burnout in nurses (Dall'Ora et al., 2015; Hirsch Allen et al., 2014; Sagherian et al., 2017) . We found an association between hair cortisol and DP, only in individuals with altered cortisol levels. So far, no associations have been reported between this biomarker and any of the burnout components in healthcare workers.",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 118,
+                    "text": "Sagherian et al. (2020)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 504,
+                    "end": 527,
+                    "text": "(Dall'Ora et al., 2015;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 528,
+                    "end": 554,
+                    "text": "Hirsch Allen et al., 2014;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 555,
+                    "end": 578,
+                    "text": "Sagherian et al., 2017)",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "When analysing the studied population according to their profession, it was observed that physicians presented higher and significantly different hair cortisol levels compared to other J o u r n a l P r e -p r o o f healthcare workers who perform administrative or maintenance tasks. There is evidence of adverse psychological effects on medical personnel during infectious diseases outbreaks such as SARS, MERS, and H1N1 influenza (Brooks et al., 2020; Khalid et al., 2016; Koh et al., 2005; Maunder et al., 2003) . Cai et al. (2020) showed that the main stressors for medical personnel were the perceived risk of infection for themselves and their families, patient mortality, and the lack of a specific treatment. In 2005, Wong et al. (2020) found that during SARS outbreak psychological stress was higher in nurses, followed by emergency physicians and then auxiliary health personnel, and the most important variables associated with stress were also vulnerability to infection and fear of spreading the new virus.",
+            "cite_spans": [
+                {
+                    "start": 432,
+                    "end": 453,
+                    "text": "(Brooks et al., 2020;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 454,
+                    "end": 474,
+                    "text": "Khalid et al., 2016;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 475,
+                    "end": 492,
+                    "text": "Koh et al., 2005;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 493,
+                    "end": 514,
+                    "text": "Maunder et al., 2003)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 517,
+                    "end": 534,
+                    "text": "Cai et al. (2020)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 726,
+                    "end": 744,
+                    "text": "Wong et al. (2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "To our knowledge, this is the first study to analyse health personnel, including not only physicians and nurses but also non-medical health personnel (biochemists, kinesiologists, psychologists, radiologists), maintenance personnel, medical and non-medical residents, technical staff and workers who perform administrative tasks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The prevalence of burnout in our population was lower than the reported by Takahiro Matsuo et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "(2020) who found that more than 40% of nurses and more than 30% of radiological technologists and pharmacists met the criteria for burnout. Nevertheless, we found that burnout was more frequent in health personnel who were in direct contact with patients (physicians, nurses and residents), as well as higher values of EE and DP and lower values of AP than those obtained by workers who were not in direct contact with patients (Maslach and Leiter, 2016) . Decreased AP values have been reported to be associated with a negative evaluation of the abilities to carry out work tasks. The increase in burnout parameters in workers who are in direct contact with patients may be due to the fact that physicians and nurses are facing a high workload in providing health services. Burnout among physicians has been found to be associated with a wide range of occupational stressors, which are likely to increase during COVID-19 pandemic (Pappa et al., 2020; Rajkumar, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 428,
+                    "end": 454,
+                    "text": "(Maslach and Leiter, 2016)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 931,
+                    "end": 951,
+                    "text": "(Pappa et al., 2020;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 952,
+                    "end": 967,
+                    "text": "Rajkumar, 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The binary logistic regression analysis showed that hair cortisol and perceived stress explain 15% of burnout. This result is consistent with the scientific literature that reports that burnout and depressive symptoms are associated with self-perceived stress and exposure to stressful events (Sawatzky et al., 2012) . Furthermore, according to binary logistic regression analysis hair cortisol and self-perceived stress are associated with burnout.",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 316,
+                    "text": "(Sawatzky et al., 2012)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Besides, the mediation analysis carried out in our study revealed that depersonalization is a mediating variable between perceived stress and hair cortisol concentration. This finding becomes relevant since depersonalization has been associated in different studies with anxiety, and significant levels of stress and emotional hyperactivity (Michal et al., 2009) . Several studies have shown that when subjects do not have personal resources to face conflict situations, depersonalization acts as a dysfunctional coping strategy (Magdalena Escamilla-Quintal, 2008; Sierra-Siegert, 2008; Gil Monte et al.,1998) . Thompson and Jaque (2017) state that to counteract the negative effects of greater emotionality, people with high depersonalization need to acquire and use even more task-oriented strategies to compensate their emotional tendencies. In this sense, our interdisciplinary work team has implemented an Online Training Program to Improve Stress Management aimed to health workers belonging to the Hospital de Cl\u00ednicas \"Jos\u00e9 de San Mart\u00edn\", Buenos Aires University (UBA).",
+            "cite_spans": [
+                {
+                    "start": 341,
+                    "end": 362,
+                    "text": "(Michal et al., 2009)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 529,
+                    "end": 564,
+                    "text": "(Magdalena Escamilla-Quintal, 2008;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 565,
+                    "end": 586,
+                    "text": "Sierra-Siegert, 2008;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 587,
+                    "end": 609,
+                    "text": "Gil Monte et al.,1998)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 612,
+                    "end": 637,
+                    "text": "Thompson and Jaque (2017)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Considering the lack of data on burnout prevalence in health workers during COVID-19 pandemic, it would be interesting to evaluate this especially susceptible population in the future (postpandemic) to know more precisely the effects of the pandemic on them. On that account, to establish health strategies with the aim of improving their mental health and life quality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "There are some limitations in our study. One limitation is that only one single measure of hair cortisol concentration has been performed during the pandemic context. Secondly, it would be important to evaluate hair cortisol levels in a non-hospital population, as well as stress and burnout, in pandemic to observe possible associations. Finally, even though we have implemented J o u r n a l P r e -p r o o f programs to reduce stress levels, we have not yet been able to evaluate the impact of these programs on stress and burnout.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In summary, our study demonstrates the importance of evaluating stress and burnout in health workers, a vulnerable population in the context of COVID-19 pandemic. As occurred during the MERS and SARS pandemics, an impact on mental health was observed in this population, being more important in those who work in direct contact with COVID patients. Additionally hair cortisol concentrations has been a valuable screening instrument for stress and burnout",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In this historically unexpected period, healthcare workers are under higher levels of stress and burnout. Given the current pandemic context, personnel in direct contact with patients face an increased risk of exposure to the disease, a greater workload, moral dilemmas during care and fears about their own personal health. From our research, hair cortisol evaluated by an automated method fulfills the requirement for evaluating stress in this vulnerable population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "All authors should have made substantial contributions to all of the following:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Ibar C: acquisition of data, analysis and interpretation of data, drafting the article, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Fortuna F: acquisition of data, analysis and interpretation of data, drafting the article, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Gonzalez D: acquisition of data, analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted. J o u r n a l P r e -p r o o f Jamardo J: acquisition of data, analysis and interpretation of data, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Jacobsen D: acquisition of data, analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Pugliese L: acquisition of data, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Giraudo L: acquisition of data, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Ceres V: acquisition of data, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Mendoza C: acquisition of data, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Repetto EM: analysis and interpretation of data, revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Reboredo G: revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Iglesias S: revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Azzara S: analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Berg G: analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Zopatti D: the conception and design of the study, acquisition of data, analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "Fabre B: the conception and design of the study, acquisition of data, analysis and interpretation of data, drafting the article or revising it critically for important intellectual content, final approval of the version to be submitted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "None declared. J o u r n a l P r e -p r o o f ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interests"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Survey of Stress Reactions Among Health Care Workers Involved With the SARS Outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-C",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-M",
+                    "middle": [],
+                    "last": "Chue",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Psychiatric Services",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1176/appi.ps.55.9.1055"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Cortisol dysregulation in school teachers in relation to burnout, vital exhaustion, and effort-reward-imbalance",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bellingrath",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Weigl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kudielka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biological Psychology",
+            "volume": "78",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.biopsycho.2008.01.006"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bolin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrew",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hayes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Educational Measurement",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jedm.12050"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brooks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Woodland",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wessely",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Greenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rubin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30460-8"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Stress and disorders of the stress system",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chrousos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nature Reviews Endocrinology",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrendo.2009.106"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Effects of induced mood on self-reported life events and perceived and received social support",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Towbes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flocco",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Journal of Personality and Social Psychology",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/0022-3514.55.4.669"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Association of 12 h shifts and nurses' job satisfaction, burnout and intention to leave: findings from a cross-sectional study of 12 European countries",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dall&apos;ora",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ball",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Aiken",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BMJ Open",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmjopen-2015-008331"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "A model of burnout process development: An alternative from appraisal models of stress",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gil Monte",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Valc\u00e1rcel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "COeG",
+            "volume": "4",
+            "issn": "",
+            "pages": "165--179",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Hair Cortisol Measurement by an Automated Method",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jacobsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ibar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pavan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Monti",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fernandez Machulsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Balbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fritzler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jamardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Repetto",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fabre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Scientific Reports",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-019-44693-3"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The morning salivary cortisol response in burnout",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grossi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ekstedt",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lindstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Holm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Journal of Psychosomatic Research",
+            "volume": "59",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpsychores.2005.02.009"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Impact of Work Schedules on Sleep Duration of Critical Care Nurses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hirsch Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Adhami",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sirounis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tholin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dodek",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ayas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "American Journal of Critical Care",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4037/ajcc2014876"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The social readjustment rating scale",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Rahe",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Journal of Psychosomatic Research",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0022-3999(67)90010-4"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Hair cortisol: A new tool for evaluating stress in programs of stress management",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Iglesias",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jacobsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Azzara",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Repetto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jamardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mesch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berg",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Fabre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Life Sciences",
+            "volume": "141",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.lfs.2015.10.006"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "WHO International Health Regulations Emergency Committee for the COVID-19 outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiology and Health",
+            "volume": "42",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4178/epih.e2020013"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The mental health of medical workers in Wuhan, China dealing with the 2019 novel coronavirus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Psychiatry",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2215-0366(20)30047-X"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Healthcare Workers Emotions, Perceived Stressors and Coping Strategies During a MERS-CoV Outbreak",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Khalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Khalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Qabajah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Qushmaq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clinical Medicine & Research",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3121/cmr.2016.1303"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Risk Perception and Impact of Severe Acute Respiratory Syndrome (SARS) on Work and Personal Lives of Healthcare Workers in Singapore",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Koh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Chew",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Muttakin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Emmanuel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Koh",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-C",
+                    "middle": [],
+                    "last": "Fones",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Medical Care",
+            "volume": "43",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/01.mlr.0000167181.36730.cc"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Physician Burnout: The Hidden Health Care Crisis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lacy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clinical Gastroenterology and Hepatology",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cgh.2017.06.043"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Factors Associated With Mental Health Outcomes Among Health Care Workers Exposed to Coronavirus Disease",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Stress and Psychological Distress among SARS Survivors 1 Year after the Outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcalonan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sham",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-M",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P.-C",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "The Canadian Journal of Psychiatry",
+            "volume": "52",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/070674370705200405"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Cynicism: a differential coping strategy as a function of gender",
+            "authors": [
+                {
+                    "first": "Magdalena",
+                    "middle": [],
+                    "last": "Escamilla-Quintal",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-M",
+                    "middle": [
+                        "J M P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "T M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Psicothema",
+            "volume": "20",
+            "issn": "",
+            "pages": "592--602",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The measurement of experienced burnout",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maslach",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Journal of Organizational Behavior",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/job.4030020205"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The Maslach Burnout Inventory Manual",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maslach",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leiter",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "191--218",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Understanding the burnout experience: recent research and its implications for psychiatry",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maslach",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Leiter",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "World Psychiatry",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/wps.20311"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "The immediate psychological and occupational impact of the 2003 SARS outbreak in a teaching hospital",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Maunder",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vincent",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peladeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leszcz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sadavoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Verhaeghe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Steinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mazzulli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
+            "volume": "168",
+            "issn": "",
+            "pages": "1245--1251",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Applying the Lessons of SARS to Pandemic Influenza",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Maunder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leszcz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Savage",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Peladeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Romano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Schulman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Canadian Journal of Public Health",
+            "volume": "99",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/BF03403782"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Prevalence, Correlates, and Predictors of Depersonalization Experiences in the German General Population",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Michal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wiltink",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Subic-Wrana",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zwerenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Tuin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lichy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Br\u00e4hler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Beutel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The Journal of Nervous and Mental Disease",
+            "volume": "197",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/NMD.0b013e3181aacd94"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "If it goes up, must it come down? Chronic stress and the hypothalamic-pituitary-adrenocortical axis in humans",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Psychological Bulletin",
+            "volume": "133",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/0033-2909.133.1.25"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Prevalence of depression, anxiety, and insomnia among healthcare workers during the COVID-19 pandemic: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pappa",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ntella",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Giannakas",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Giannakoulis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Papoutsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Katsaounou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain, Behavior, and Immunity",
+            "volume": "88",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbi.2020.05.026"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Factors Related to Physician Burnout and Its Consequences: A Review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bachu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Adikey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Behavioral Sciences",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/bs8110098"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Factor structure of the Maslach burnout inventory: An analysis of data from large scale cross-sectional surveys of nurses from eight",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Poghosyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Aiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sloane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Burnout, Perceived Stress, and Cortisol Responses to Awakening",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pruessner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hellhammer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Kirschbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Psychosomatic Medicine",
+            "volume": "61",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00006842-199903000-00012"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "COVID-19 and mental health: A review of the existing literature",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Rajkumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian Journal of Psychiatry",
+            "volume": "52",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajp.2020.102066"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Fatigue, Work Schedules, and Perceived Performance in Bedside Care Nurses. Workplace Health & Safety 65",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sagherian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Clinton",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Abu-Saad",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Huijer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Geiger-Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/2165079916665398"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Insomnia, fatigue and psychosocial well-being during COVID-19 pandemic: A cross-sectional survey of hospital nursing staff in the United States",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sagherian",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Steege",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cobb",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Nursing",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jocn.15566"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Prevalence of stress, anxiety, depression among the general population during the COVID-19 pandemic: a systematic review and metaanalysis",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Salari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hosseinian-Far",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jalali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vaisi-Raygani",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rasoulpoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mohammadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rasoulpoor",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Shabnam",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Khaledi-Paveh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Globalization and Health",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12992-020-00589-w"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Measurement of cortisol in human Hair as a biomarker of systemic exposure",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sauv\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Koren",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tokmakejian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Van Uum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Clinical & Investigative Medicine",
+            "volume": "30",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.25011/cim.v30i5.2894"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Stress and Depression in Students",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sawatzky",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ratner",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Washburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sudmant",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mirwaldt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nursing Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Maslach Burnout Inventory -General Survey (GS). Maslach Burnout Inventory Manual",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Schaufeli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Leiter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Maslach",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "How Essential Is to Focus on Physician's Health and Burnout in Coronavirus (COVID-19) Pandemic? Cureus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chaudhari",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kamrai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lail",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7759/cureus.7538"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Dying and caring on the edge: Taiwan's surviving nurses' reflections on taking care of patients with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "F.-J",
+                    "middle": [],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "M.-L",
+                    "middle": [],
+                    "last": "Gau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-C",
+                    "middle": [],
+                    "last": "Kao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C.-Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-S",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y.-C",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S.-J",
+                    "middle": [],
+                    "last": "Sheu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Applied Nursing Research",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "La despersonalizaci\u00c3: aspectos cl\u00c3nicos y neurobiol\u00c3",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sierra-Siegert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Revista Colombiana de Psiquiatr\u00c3a",
+            "volume": "37",
+            "issn": "",
+            "pages": "40--55",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Mental health problems faced by healthcare workers due to the COVID-19 pandemic-A review",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Spoorthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pratapa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mahant",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Asian Journal of Psychiatry",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajp.2020.102119"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "The social support inventory (SSI): a brief scale to assess perceived adequacy of social support",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "G H"
+                    ],
+                    "last": "Timmerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Emanuels-Zuurveen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M G"
+                    ],
+                    "last": "Emmelkamp",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Clinical Psychology & Psychotherapy",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/1099-0879"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Hypothalamic-pituitary-adrenal axis, neuroendocrine factors and stress",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tsigos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chrousos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of Psychosomatic Research",
+            "volume": "53",
+            "issn": "",
+            "pages": "429--433",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0022-3999(02"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Elevated diurnal salivary cortisol in nurses is associated with burnout but not with vital exhaustion",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wingenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schulz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Damkroeger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rose",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Driessen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Psychoneuroendocrinology",
+            "volume": "34",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psyneuen.2009.02.015"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "The psychological impact of severe acute respiratory syndrome outbreak on healthcare workers in emergency departments and how they cope",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K Y"
+                    ],
+                    "last": "Yau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L W"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S Y"
+                    ],
+                    "last": "Kwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M Y"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "European Journal of Emergency Medicine",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00063110-200502000-00005"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Mental Health and Psychosocial Problems of Medical Health Workers during the COVID-19 Epidemic in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Leng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shangguan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cosci",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychotherapy and Psychosomatics",
+            "volume": "89",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000507639"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "perceived stress and hair cortisol concentration (Indirect effect: b=0.69, SE=0.42, IC: 0.0987-1.8840) as shown in Figure 1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Proposed mediation model a: B=0.41, SE=0.14, t=2.62, p=0.005, IC [0.129-0.6903]; b: B=1.71, S=0.67, t=2.53, p=0.012, IC [0.3834-3.0379]; c: B=2.67, SE=1.49, t=1.78, p=0.070, IC [-0.2117-5.6060]; c\u00b4: B=1.97, SE=1.499, t=1.3148, p=0.189, IC [-0.9830-4.9262]. IV: Independent variable; DV: Dependent variable; M: Mediator.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Hair cortisol concentration and Burnout in the studied population.Kruskall Wallis test p=0.139, *vs# p=0.019 *vs**p=0.015Mann Whitney test 1vs2 p=0.014; +vs++ p=0.04",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,2550 @@
+{
+    "paper_id": "00dca478ed7f7d2f68730c8b365499e27b3c6fc1",
+    "metadata": {
+        "title": "Individualism and Egalitarianism Can Kill: How Cultural Values Predict Coronavirus Deaths Across the Globe",
+        "authors": [
+            {
+                "first": "Markus",
+                "middle": [],
+                "last": "Kemmelmeier",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Evert",
+                "middle": [],
+                "last": "Van De Vliert",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Selin",
+                "middle": [],
+                "last": "Atalay",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Dominik G\u00fcss",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Florida",
+                    "location": {
+                        "settlement": "Jacksonville",
+                        "region": "FL",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ma",
+                "middle": [
+                    "Teresa"
+                ],
+                "last": "Tuason",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of North Florida",
+                    "location": {
+                        "settlement": "Jacksonville",
+                        "region": "FL",
+                        "country": "United States"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "While in some countries, many people have died due to the coronavirus , in other countries, only a few have died. Based on the cultural values theory, our first hypothesis was that in countries that are predominantly individualistic, the number of deaths will be high, whereas in countries with predominantly collectivist values, the number of deaths will be low. Our second hypothesis was that countries with high power distance and hierarchy will have fewer deaths compared to countries with low power distance and egalitarianism. The hypotheses were tested by referring to two different value studies (Hofstede's study of 76 countries and Schwartz's study of 75 countries) while also controlling for GDP per capita, Gini index, population density, median age per country, and BMI per country. Of the five control variables GDP and BMI significantly predicted coronavirus deaths. Taking into account GDP, Gini index, population density, median age, and BMI, hierarchical regression analyses confirmed the first hypothesis on individualism and the second hypothesis on egalitarianism. Therefore, in the case of this current pandemic, group-oriented and collectivist values and low egalitarianism values lead to specific health-related behaviors that ultimately keep more people alive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Almost every country in the world is battling the coronavirus (COVID-19) pandemic. As of October 1, 2020, over 33 million people worldwide (33, 842, 281) had contracted COVID-19, and over 1 million (1,010,634) people had died due to the virus (World Health Organization, 2020). The countries with the highest confirmed COVID-19 cases are the United States, Brazil, and India while those with the least number of cases are Fiji, Jamaica, and Namibia (World Health Organization, 2020). On the other hand, the countries with the highest death rates per 100,000 people are Belgium, Great Britain, and Spain, while those with the lowest death rates per 100,000 people are Taiwan, Thailand, and Jordan (Johns Hopkins University, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "(33,",
+                    "ref_id": null
+                },
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "842,",
+                    "ref_id": null
+                },
+                {
+                    "start": 149,
+                    "end": 153,
+                    "text": "281)",
+                    "ref_id": null
+                },
+                {
+                    "start": 667,
+                    "end": 728,
+                    "text": "Taiwan, Thailand, and Jordan (Johns Hopkins University, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Although a country's wealth, healthcare resources, and technological advancements may be factors that lead to the successful handling of the crisis and reduced risk (Takian et al., 2020) , they are not the only factors. The United States, for example, has a Gross Domestic Product (GDP) of $21M (World Bank), but it accounts for most deaths that have occurred due to COVID-19. As of July 18, 2020, there had been 137,674 deaths in the United States alone and in March 2021, there were over 500,000 deaths in the United States. On the other hand, many of the poorest countries, such as Fiji (with a GDP of $5,535), Jamaica (with a GDP of $16,458), and Namibia (with a GDP of $12,366), have handled the situation relatively well. Researchers have debated, and it has been found that social factors, such as inequality and poverty, lead to more increased exposure to the virus and increased risk of death (Elgar et al., 2020; Marmot and Allen, 2020; Patel et al., 2020) . Thus, we assessed the relationship between a country's level of development-using the GDP per capita, the Inequality-adjusted Human Development Index (IHDI, which combines the three dimensions of health, education, and income in one score and adjusts for inequalities within countries), the Gini index (as a measure of income inequality), and healthcare-related expenses per capita-and the number of COVID-19 related deaths.",
+            "cite_spans": [
+                {
+                    "start": 165,
+                    "end": 186,
+                    "text": "(Takian et al., 2020)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 902,
+                    "end": 922,
+                    "text": "(Elgar et al., 2020;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 923,
+                    "end": 946,
+                    "text": "Marmot and Allen, 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 947,
+                    "end": 966,
+                    "text": "Patel et al., 2020)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We argue that additional factors that exacerbate exposure to COVID-19 and increase the risk of death are certain sociogeographic features of a country, such as population density. One would argue that the more a country is densely populated, the higher the risks for exposure, spread, and death-a finding supported by Zhang and Schwartz (2020) when studied within the United States. However, some countries have been able to control the virus relatively well-despite population density, while some countries have not. For example, countries that are densely populated have sometimes managed to quickly enforce effective public health practices; one such example is Taiwan, which, due to its experiences with the SARS epidemic, has implemented the following policies: using facial masks, screening incoming travelers, using 4-h test kits, quarantining symptomatic patients, and employing rapid contact tracing and widespread testing (Chen, 2020; Lin et al., 2020; Wang C. J. et al., 2020) . Thailand, another densely populated country, also managed to quickly enforce measures, such as having temperature checks in workplaces, imposing curfews along with the police guarding checkpoints, installing spraying stalls to disinfect people, and providing protective shields at street food stalls and for each table in schools (Beech, 2020) . Thus, we wanted to assess whether population density relates to the spread of Low infection rates in Thailand were also due to the partnership among various governmental and private sectors (Tantrakarnapa et al., 2020) . Similarly, Jordan became one of the first countries to implement a severe lockdown (Alqutob et al., 2020) ; it closed airports, borders, and stores and was able to prioritize the needs of vulnerable groups such as the poor, children, elderly, and refugees. This was done by immediately distributing food to the poor, providing government assistance to 50% of their citizens, and banning companies from laying off their workers while still allowing companies to reduce employee wages and reduce public sector salaries (Arraf, 2020) . As seen in these countries, as well as in a study of 84 countries, death rates have been impacted by societal governance factors such as confidence in state institutions, civic engagement, and implementation of certain policies and regulations of behaviors that are followed by their citizens (Elgar et al., 2020) . Thus, in studying health behaviors surrounding COVID-19 and death risk, we are including government effectiveness, one of the six worldwide governance indicators, which specifically highlights the perceptions of the quality of public services independent from political pressures, the formulation of policies and their implementation, and the quality of infrastructures in serving the people (Kaufmann et al., 2010) .",
+            "cite_spans": [
+                {
+                    "start": 318,
+                    "end": 343,
+                    "text": "Zhang and Schwartz (2020)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 932,
+                    "end": 944,
+                    "text": "(Chen, 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 945,
+                    "end": 962,
+                    "text": "Lin et al., 2020;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 963,
+                    "end": 987,
+                    "text": "Wang C. J. et al., 2020)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1320,
+                    "end": 1333,
+                    "text": "(Beech, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1526,
+                    "end": 1554,
+                    "text": "(Tantrakarnapa et al., 2020)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1640,
+                    "end": 1662,
+                    "text": "(Alqutob et al., 2020)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2074,
+                    "end": 2087,
+                    "text": "(Arraf, 2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 2383,
+                    "end": 2403,
+                    "text": "(Elgar et al., 2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2798,
+                    "end": 2821,
+                    "text": "(Kaufmann et al., 2010)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Equally important in health behaviors implemented by the government to decrease exposure to COVID-19 and to decrease the risk for mortality are individuals' protective health factors. As protective health factors, young age and low body mass index have been discussed (e.g., Tartof et al., 2020; Wang X. Q. et al., 2020) . Conversely, obesity and older age are identified as factors that make people vulnerable to mortality among COVID-19 inpatients (Pettit et al., 2020) . In addition, health behaviors, such as consistently wearing masks and face shields, staying 6 ft apart from people, staying away from crowds and places with poor ventilation, regular hand washing, etc. (Center for Disease Control Prevention, 2020), are related to fewer COVID-19 deaths (Conyon et al., 2020) . These health behaviors, which mitigate the pandemic, are supported by extant social and behavioral research, including cultural values specified in individual and collective interests and the social and cultural context (Bavel et al., 2020) . We thus argue that health behaviors are directly related to certain cultural values. Values are the guiding principles for people's thoughts and behaviors; they are desirable goals that motivate action (Kluckhohn and Strodtbeck, 1961; Schwartz, 1994; Kemmelmeier et al., 2002; G\u00fcss, 2011) . Following cultural values theory, we argue that the cultural values of Individualism-Collectivism and Power Distance have a direct impact on people's behaviors that protect them from the virus exposure and, ultimately, on the number of COVID-19 related deaths.",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 295,
+                    "text": "Tartof et al., 2020;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 296,
+                    "end": 320,
+                    "text": "Wang X. Q. et al., 2020)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 450,
+                    "end": 471,
+                    "text": "(Pettit et al., 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 760,
+                    "end": 781,
+                    "text": "(Conyon et al., 2020)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1004,
+                    "end": 1024,
+                    "text": "(Bavel et al., 2020)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1229,
+                    "end": 1261,
+                    "text": "(Kluckhohn and Strodtbeck, 1961;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1262,
+                    "end": 1277,
+                    "text": "Schwartz, 1994;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1278,
+                    "end": 1303,
+                    "text": "Kemmelmeier et al., 2002;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1304,
+                    "end": 1315,
+                    "text": "G\u00fcss, 2011)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Individualism refers to the dominant values in a society where people are loosely connected to each other and where the expectation is to care for oneself and one's immediate family only (Hofstede, 2001; Hofstede et al., 2010) . Individualism prioritizes the pursuit of one's own ideas and satisfying one's needs for curiosity, freedom, independent enjoyment, and positive experience (Schwartz, 2020) . Alternatively, collectivism in society exists when people are interconnected since birth, relationships are solid, and people watch out for each other (Hofstede, 2001; Hofstede et al., 2010) . The focus is on how people regard collective identity, the meaning derived from these connections, and involvement in common goals and shared activities (Schwartz, 2020) . Hypothesis 1: the extent to which a country is individualistic correlates to thinking of oneself only in this pandemic and behaving with lesser regard for the safety of others, such as not social distancing and not wearing face masks, thereby increasing exposure to the virus, which may increase the risk for coronavirus infections and deaths.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 203,
+                    "text": "(Hofstede, 2001;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 204,
+                    "end": 226,
+                    "text": "Hofstede et al., 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 384,
+                    "end": 400,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 554,
+                    "end": 570,
+                    "text": "(Hofstede, 2001;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 571,
+                    "end": 593,
+                    "text": "Hofstede et al., 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 749,
+                    "end": 765,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "A second value dimension that possibly influences health behaviors related to coronavirus infections and deaths is Power Distance. According to Hofstede (Hofstede, 2001; Hofstede et al., 2010) , Power Distance is the degree to which people in society assume and anticipate that power is unevenly distributed. In the case of high Power Distance, individuals consent to the hierarchy and to the uneven allocation of influence, authority, and wealth. Hypothesis 2: Our second hypothesis is that the extent to which people assume and accept unequal power distribution in a country and the extent to which powerful people make decisions for the less powerful in this pandemic, to mitigate the risk of exposure such as lockdowns, relates to fewer confirmed COVID-19 cases and deaths.",
+            "cite_spans": [
+                {
+                    "start": 153,
+                    "end": 169,
+                    "text": "(Hofstede, 2001;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 170,
+                    "end": 192,
+                    "text": "Hofstede et al., 2010)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The scientific community has discussed whether it is legitimate to divide the one dimension into the two dimensions Individualism/Collectivism and Power Distance [see e.g., critique of Minkov et al. (2017) and Van de Vliert and Kong (2019) ] as Hofstede has done since the two dimensions correlate highly with each other [r = \u22120.55, see e.g., Hofstede et al. (2010), p. 486] . When, however, as the authors state, national wealth is controlled for, the correlation weakens and becomes \u22120.36. Some researchers identify the dimensions as separate and others as one. For this study, we use the dimensions separately. In addition to using the cultural values of Hofstede, we also included the cultural values of Schwartz. Schwartz states (1994, p. 117 ) that when compared to Hofstede's dimensions his ideal value types are different based on different \"theoretical reasoning, different methods, a different set of nations, different types of respondents, data from a later historical period, a more comprehensive set of values, and value items screened to be reasonably equivalent in meaning across cultures.\" Whereas, Hofstede assumes four (he later added a fifth dimension Long-Term versus Short-Term Orientation and a sixth dimension Indulgence vs. Restraint) value dimensions: Individualism-Collectivism, Power Distance, Uncertainty Avoidance, and Masculinity-Femininity, Schwartz (2020) identified three bipolar value dimensions: autonomy (intellectual and affective) vs. embeddedness, egalitarianism vs. hierarchy, and harmony versus mastery.",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 205,
+                    "text": "Minkov et al. (2017)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 210,
+                    "end": 239,
+                    "text": "Van de Vliert and Kong (2019)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 343,
+                    "end": 374,
+                    "text": "Hofstede et al. (2010), p. 486]",
+                    "ref_id": null
+                },
+                {
+                    "start": 708,
+                    "end": 747,
+                    "text": "Schwartz. Schwartz states (1994, p. 117",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "It is noteworthy, though, that empirically, given all the differences, the autonomy (intellectual and affective) vs. embeddedness dimension is similar to the Individualism-Collectivism dimension, as Schwartz noted himself (1994, p. 117) . The egalitarianism vs. hierarchy dimension is similar to Hofstede's Power Distance dimension. Hierarchy refers to assuming submissiveness from people below (Schwartz, 2020) . Alternatively, low Power Distance or Egalitarianism is society's appreciation of individuals as equals and sharing of interests fairly (Schwartz, 2020) . Despite their similarities, cultural values identified by Hofstede and Schwartz are treated as separate constructs.",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 236,
+                    "text": "Schwartz noted himself (1994, p. 117)",
+                    "ref_id": null
+                },
+                {
+                    "start": 395,
+                    "end": 411,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 549,
+                    "end": 565,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The current study used secondary data that were collected in two large-scale, global studies of cultural values that were conducted across 76 countries and regions by Hofstede (2001) and Hofstede et al. (2010) and across 75 countries by Schwartz (2020) , with a combined sample size of over 150,000 participants. The present study did not consider data for all the countries and regions because either no COVID-19 death numbers were available for some of these countries and regions or the studies had reported subsamples within countries (e.g., Hofstede's combined scores for Arab countries or East African countries or Schwartz's separation of scores for Israeli Muslims and Israeli Jews). Some of the studies also reported subsamples for countries such as Canada, Germany, Israel, and Switzerland, but we only considered the overall country score. In the case of both studies, we only included data for values that reflected, or were most closely related to, Individualism-Collectivism and Power Distance.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 182,
+                    "text": "Hofstede (2001)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 187,
+                    "end": 209,
+                    "text": "Hofstede et al. (2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 237,
+                    "end": 252,
+                    "text": "Schwartz (2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants, Instruments, and Data Sources"
+        },
+        {
+            "text": "Additionally, data on confirmed coronavirus cases and deaths were retrieved from Johns Hopkins University (2020) and from the World Health Organization (2020). For the correlational analysis, the results were based on 70 countries from the Hofstede study (survey participants were IBM employees) and 74 countries from the Schwartz study (survey participants were school teachers, undergraduate students, adolescents, and adults; see Table 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 433,
+                    "end": 440,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Participants, Instruments, and Data Sources"
+        },
+        {
+            "text": "Cultural values reported by Hofstede were based on his survey conducted in the multinational corporation IBM between 1967 and 1973 with more than 116,000 respondents from 72 countries in 20 languages. Additional research and country scores were added and updated (Hofstede et al., 2010) and used in the current study. The results showed the statistical independence of the four initial value dimensions of Individualism-Collectivism, Power Distance, Uncertainty Avoidance, and Masculinity-Femininity. Later, two other dimensions were added: Long-term versus Shortterm orientation and Indulgence versus Restraint. For the current study, we only included the value dimensions of Individualism-Collectivism and Power Distance. These two dimensions have been replicated in other studies as well (e.g., Van Nimwegen, 2002) .",
+            "cite_spans": [
+                {
+                    "start": 263,
+                    "end": 286,
+                    "text": "(Hofstede et al., 2010)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 798,
+                    "end": 817,
+                    "text": "Van Nimwegen, 2002)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hofstede"
+        },
+        {
+            "text": "In Individualism-Collectivism, \"Individualism stands for a society in which the ties between individuals are loose: everyone is expected to look after him/herself and his/her immediate family only. Collectivism stands for a society in which people from birth onward are integrated into strong, cohesive in-groups, which throughout people's lifetime continue to protect them in exchange for unquestioning loyalty\" (Hofstede, 2001, p. 225 ). Individualism and Collectivism were assessed using 14 workgoal-related questions.",
+            "cite_spans": [
+                {
+                    "start": 413,
+                    "end": 436,
+                    "text": "(Hofstede, 2001, p. 225",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hofstede"
+        },
+        {
+            "text": "Power Distance is \"the extent to which the less powerful members of institutions and organizations within a country expect and accept that power is distributed unequally\" (Hofstede, 2001, p. 98) . Power Distance was assessed using three items.",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 194,
+                    "text": "(Hofstede, 2001, p. 98)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hofstede"
+        },
+        {
+            "text": "Cultural values reported by Schwartz (2020) were based on data collected between 1988 and 2002 from 233 samples from 68 countries. In total, there were 67,145 participants. The samples were obtained through convenience sampling and included school teachers, undergraduate students, adolescents, and adults. Schwartz distinguished three value dimensions: Autonomy (Affective and Intellectual) versus Embeddedness, Egalitarianism vs. Hierarchy, and Harmony vs. Mastery [see also Schwartz and Boehnke (2004) ]. These values were assessed using the Schwartz Value Survey, which included 56 or 57 value items (SVS:12). The SVS presents two lists of abstract value items. The first list contains 30 items describing potentially desirable end-states in noun form (e.g., equality) including a short explanation (\"EQUALITY-equal opportunity for all\"). The They are encouraged to express their own preferences, feelings, and ideas. \"Intellectual autonomy encourages individuals to pursue their own ideas and intellectual directions independently\" (Schwartz, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 28,
+                    "end": 43,
+                    "text": "Schwartz (2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 477,
+                    "end": 504,
+                    "text": "Schwartz and Boehnke (2004)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1037,
+                    "end": 1053,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Schwartz"
+        },
+        {
+            "text": "Affective Autonomy: \"Affective autonomy encourages individuals to pursue arousing, affectively positive personal experience\" (Schwartz, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 141,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Schwartz"
+        },
+        {
+            "text": "Embeddedness: In embedded cultures, people are viewed as entities embedded in collectivity. Meaning in life is expected to be derived largely through \"social relationships, through identifying with the group, participating in its shared way of life, and striving toward its shared goals\" (Schwartz, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 304,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Schwartz"
+        },
+        {
+            "text": "Egalitarianism: \"Egalitarian cultures seek to induce people to recognize one another as moral equals who share basic interests as human beings. They try to socialize their members to internalize a commitment to cooperate and to feel concern for everyone's welfare\" (Schwartz, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 281,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Schwartz"
+        },
+        {
+            "text": "Hierarchy: Hierarchy cultures rely on hierarchical systems of ascribed roles. \"They define the unequal distribution of power, roles, and resources as legitimate and even desirable. People are socialized to take a hierarchical distribution of roles for granted to comply with the obligations and rules attached to their roles, to show deference to superiors, and to expect deference from subordinates\" (Schwartz, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 417,
+                    "text": "(Schwartz, 2020)",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Schwartz"
+        },
+        {
+            "text": "Johns Hopkins University: Johns Hopkins University JHU maintains a website that reports daily confirmed coronavirus cases, coronavirus deaths, fatality rate, and combined coronavirus deaths per 100,000 population for 164 countries (https://coronavirus.jhu.edu/data/mortality). We used coronavirus deaths reported for July 14, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 Confirmed Cases and Deaths"
+        },
+        {
+            "text": "World Health Organization: The World Health Organization collects and reports data from 216 countries and territories related to the coronavirus pandemic. Every day, it releases a situation report with data on the confirmed total coronavirus cases, confirmed new cases, total deaths, total new deaths, and transmission classification (https://www.who. int/emergencies/diseases/novel-coronavirus-2019/situationreports). We used COVID-19 related deaths per 1 million population reported for December 29, 2020, as there were no reports of deaths provided during summer 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 Confirmed Cases and Deaths"
+        },
+        {
+            "text": "The reason why we used COVID-19 deaths data from the WHO and from JHU is that, before August 27, 2020, the WHO only reported absolute numbers of deaths and not relative numbers according to population. The reason why we did not use data from JHU for December is a change in their data presented on their website not allowing us to search for a specific date anymore. Ultimately, both WHO and JHU data should be identical, although there is no way for us to verify.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 Confirmed Cases and Deaths"
+        },
+        {
+            "text": "Inequality-adjusted Human Development Index IHDI: The IHDI represents a national average of human development combining the three dimensions of health, education, and income; it also accounts for within-country differences in the three dimensions, as provided by the United Nations Development Programme (2020). The range in our study was from 0.32 to 0.89 (M =0.68, SD =0.16, N = 84). The higher the IHDI, so we predicted, the lower would be the COVID-19 death rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Government effectiveness: Government effectiveness is one of six worldwide governance indicators relevant to our current study. Government effectiveness captures \"perceptions of the quality of public services, the quality of the civil service and the degree of its independence from political pressures, the quality of policy formulation and implementation, and the credibility of the government's commitment to such policies.\" (Kaufmann et al., 2010, p. 4 ). The range can be from \u22122.5 to + 2.5. For our sample of 88 countries, it was from \u22122.28 to 2.22 (M = 0.47, SD = 0.93). It might indicate how effective governments implement public health policies related to COVID-19. The higher the government effectiveness, so we predicted, the lower would be the COVID-19 death rate.",
+            "cite_spans": [
+                {
+                    "start": 428,
+                    "end": 456,
+                    "text": "(Kaufmann et al., 2010, p. 4",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Gross domestic product GDP per capita: The GDP per capita is the purchasing power parity PPP of all goods and services produced within a country in a given year divided by the population for the same year. It takes into account relative costs of living and inflation and is therefore also an indicator of a country's standard of living. We used the GDP per capita data of the World Bank (2019). We predicted that the higher the GDP per capita, the easier it would be for a country to finance measures to fight COVID-19 and the lower would ultimately be the COVID-19 related death rate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Gini Index: The Gini index developed by Corrado Gini is a measure of income inequality (Giorgi and Gigliarano, 2017) . The Gini coefficient can vary between 0 and 100%, where 0% stands for perfect equality with everyone having the same income and 100% stands for maximal inequality with a few having almost all income and almost everyone else having almost no income. We report the data of the World . We predict that the number of coronavirus deaths will be smaller in countries with income equality compared to countries with high income inequality.",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 116,
+                    "text": "(Giorgi and Gigliarano, 2017)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Health care expenses per capita: This is a measure indicating how much money, both public and private, is spent for health per capita. We refer to data from the World Health Organization (World Health Organization, 2018) . It shows total health expenditure per capita in 2018 PPP inflation-adjusted U.S. dollars. We predict that high expenses could help prevent COVID-19 related deaths.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 220,
+                    "text": "(World Health Organization, 2018)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Population density: We also included population density per square km as a potential variable linked to the spreading of the coronavirus. We used the data from the United Nations (United Nations, Department of Economic and Social Affairs, 2019). Although some studies show a positive relationship between population density and COVID-19 deaths [e.g., Zhang and Schwartz (2020) within the United States], other studies do not show such a relationship (e.g., Carozzi et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 351,
+                    "end": 376,
+                    "text": "Zhang and Schwartz (2020)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 457,
+                    "end": 478,
+                    "text": "Carozzi et al., 2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Median age: We included the median age for 2020 provided by the United Nations, Department of Economic and Social Affairs (2020). The range was from 16.7 to 48.4 years (M = 35.4, SD = 8.4, N = 88). To check its validity, we correlated this median age with the median age provided by the CIA Worldfactbook for 2018. The correlation for the 86 countries (two missing: Hong Kong and Taiwan) was 0.987, p < 0.001. We predicted that the higher the median age, the higher would be the COVID-19 death rate [see also Wang X. Q. et al. (2020) and Li et al. (2021) ].",
+            "cite_spans": [
+                {
+                    "start": 509,
+                    "end": 533,
+                    "text": "Wang X. Q. et al. (2020)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 538,
+                    "end": 554,
+                    "text": "Li et al. (2021)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "Body Mass Index BMI: The BMI is defined by the body weight in kilograms divided by the square of the body height in meters (kg/m 2 ). A BMI below 18.5 indicates underweight, a BMI greater than 30 indicates obesity. We included BMI overall means per country from the World Health Organization (World Health Organization, 2014) since some studies have shown obesity to be a high-risk factor of COVID-19 deaths (e.g., Fakhry AbdelMassih et al., 2020; Tartof et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 392,
+                    "end": 447,
+                    "text": "COVID-19 deaths (e.g., Fakhry AbdelMassih et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 448,
+                    "end": 468,
+                    "text": "Tartof et al., 2020)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "The control variables we included refer to two combined variables (IHDI and government effectiveness), three economic variables of countries (GDP, Gini index, and Health care expenses per capita), one socio-geographic variable (population density), and two individual-biological/physiological variables (median age and Body Mass Index).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Control Variables"
+        },
+        {
+            "text": "We combined the data about the confirmed coronavirus cases and deaths, as reported by the Johns Hopkins University and the World Health Organization for each country (accessed on July 14, 2020), with all the control variables and the Individualism-Collectivism and Power Distance values reported by Hofstede and Schwartz (see Table 1 ; for descriptive statistics of all variables see Table 2 ), and then conducted Pearson correlations for all measures (see Table 3 ). Since the number of confirmed COVID-19 cases is highly dependent on the extent of testing, we only used the number of COVID-19 related deaths for further analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 326,
+                    "end": 333,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 384,
+                    "end": 391,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 457,
+                    "end": 464,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Procedure/Data Analysis"
+        },
+        {
+            "text": "Analyzing the Pearson Correlations of the control variables for values higher than 0.75 and thus for possible multicollinearity (see Table 3 ), it becomes clear that IHDI and government effectiveness correlate highly with each other and with other control variables such as median age or GDP. This is not surprising since IHDI and government effectiveness are a combination of other variables. Additionally, GDP per capita correlates highly with health care expenses per capita (0.92). Considering these high correlations and considering that it is difficult to interpret the combined variables, we excluded the three control variables IHDI, government effectiveness, and healthcare expenses per capita from the regression analyses. Among the cultural values, there are only three correlations higher than 0.72, namely, between intellectual autonomy, affective autonomy, and embeddedness. Since from a theoretical perspective, affective autonomy, seems least relevant, we decided to exclude it from the regression analyses to avoid multicollinearity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 133,
+                    "end": 140,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Procedure/Data Analysis"
+        },
+        {
+            "text": "For the hierarchical regression analyses (see Tables 4, 5 ) we entered in Step 1 the five \"control\" variables: GDP per capita, Gini index, Population density, Median age, and BMI. In Step 2, we included the six cultural values; two of Hofstede (Individualism and Power Distance) and four of Schwartz (Intellectual Autonomy, Embeddedness, Egalitarianism, and Hierarchy). COVID-19 related deaths were not normally distributed variables, so we ran bootstrapped analyses with 1,000 samples.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 46,
+                    "end": 57,
+                    "text": "Tables 4, 5",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Procedure/Data Analysis"
+        },
+        {
+            "text": "The first hypothesis stated that individualism would be positively related to coronavirus deaths, while collectivism would be negatively related to coronavirus deaths. Hofstede saw individualism-collectivism as a continuum of one dimension; Schwartz assessed these values with different dimensions. Additionally, we predicted that high power distance or hierarchy would be negatively related to coronavirus deaths, and low power distance or egalitarianism would be positively correlated to coronavirus deaths, while we control for the influence of the five control variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "As of July 14, 2020, the mean number of coronavirus deaths per 100,000 people was 12.10 (SD = 17.91) as per the data from the Johns Hopkins University. As of December 29, 2020, the Tables 1, 2 for data and descriptive statistics of all variables). The World Health Organization did not provide data on coronavirus deaths per population during the summer of 2020. The number of COVID deaths from July correlates highly with the number of deaths from December, r = 0.70, p < 0.001.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 181,
+                    "end": 192,
+                    "text": "Tables 1, 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The number of deaths in July correlated positively and significantly with GDP and median age. These deaths correlated significantly and positively with individualism values across all countries and all measures (see Table 3 ). The number of deaths in July also correlated positively and significantly with Hofstede's Individualism, with Schwartz's Intellectual Autonomy, and with Schwartz's Affective Autonomy. When collectivism values were assessed using Schwartz's scale (Embeddedness), the coronavirus deaths correlated significantly and negatively with collectivism values across all countries.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 216,
+                    "end": 223,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Correlational Analyses"
+        },
+        {
+            "text": "The results for Power Distance were not as consistent. As predicted, the coronavirus deaths were significantly and negatively correlated with Schwartz's Hierarchy, andas predicted-significantly and positively correlated with Schwartz's Egalitarianism. However, the deaths did not correlate significantly with Hofstede's Power Distance. Controlling Hofstede's I/C for Hofstede's PDI, and vice versa, does not affect the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlational Analyses"
+        },
+        {
+            "text": "The number of deaths in December correlated positively and significantly with median age and BMI (see Table 3 ). These December deaths correlated significantly and positively with all the same values as during July, except that the correlation between Individualism Hofstede and the number of deaths was now 0.23, p = 0.06.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 109,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Correlational Analyses"
+        },
+        {
+            "text": "We then conducted hierarchical regression analyses once for the COVID-19 deaths on July 14, 2020, from the Johns Hopkins University data (see Table 4 ) and once for the deaths on December 29, 2020, from the World Health Organization data (see Table 5 ). For July, the five control variables entered together in Step 1 predict COVID-19 related deaths significantly, F (5, 45) = 2.74, p = 0.03, explaining 23% of the variance in deaths. GDP and BMI were marginally significant predictors of COVID-19 deaths. The cultural values added together in Step 2, significantly predict COVID-19 related deaths, F (6, 39) = 4.88, p = 0.001, explaining an additional 33% of the variance in deaths. The three values, Individualism H, Egalitarianism S, and Power Distance H (marginally), were significant predictors. The overall model explained 56.2% of the variance in COVID-19 deaths, F (11, 39) = 4.55, p < 0.001.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 142,
+                    "end": 149,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 243,
+                    "end": 250,
+                    "text": "Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Hierarchical Regression Analyses"
+        },
+        {
+            "text": "For December, the five control variables entered together in Step 1 predict COVID-19 related deaths significantly, F (5, 45) = 3.86, p = 0.005, explaining 30% of the variance in deaths (see Table 5 ). Only BMI was a significant predictor of COVID-19 deaths. The cultural values added together in Step 2, significantly predict COVID-19 related deaths, F (6, 39) = 2.44, p = 0.04, explaining an additional 19% of the variance in deaths. The two values, Intellectual Autonomy S and Egalitarianism S were significant predictors. The overall model explained 49.1% of the variance in COVID-19 deaths, F (11, 39) = 3.42, p = 0.002.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 190,
+                    "end": 197,
+                    "text": "Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Hierarchical Regression Analyses"
+        },
+        {
+            "text": "Results of both hierarchical regression analyses were relatively consistent. Considering both models, among the five control variables GDP and BMI are the strongest predictors of COVID-19 deaths. The values, Individualism H, Power Distance H, Intellectual Autonomy S, and Egalitarianism S were significant predictors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hierarchical Regression Analyses"
+        },
+        {
+            "text": "With news of some countries being able to flatten the curve and contain the coronavirus infections and some others living in great uncertainty and dread because of rising coronavirus infections, the goal of this study was to investigate whether the confirmed coronavirus deaths relate to the cultural values of Individualism-Collectivism/Autonomy-Embeddedness and Power-Distance/Hierarchy-Egalitarianism. In order to acknowledge different countries' varying levels of development and differences in demographics, we controlled for the two economic variables: GDP and Gini index; for one socio-geographic variable: population density; and for two individual health factors: median age and BMI. Findings of the regression analyses show that of the five control variables, only GDP and BMI were significant. The higher the BMI, the higher the number of COVID-19 related deaths. This finding is supported by Fakhry AbdelMassih et al. (2020) and Pettit et al. (2020) , who found that obesity is a potent predictor of death from COVID-19: as the BMI increases, the risk for mortality also increases.",
+            "cite_spans": [
+                {
+                    "start": 941,
+                    "end": 961,
+                    "text": "Pettit et al. (2020)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is surprising that the higher the GDP per capita, the higher the number of COVID-19 related deaths. One potential explanation is that people from more affluent countries travel more across the world (are more mobile and can afford lifestyles that support the spread, such as eating at restaurants) and are therefore more likely to get infected and spread the coronavirus. This argument is validated by the total number of air travelers per country.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Regarding cultural values, both regression analyses showed that countries with high individualistic values and high intellectual autonomy were found to be significantly and consistently associated with high COVID-19 deaths, whereas countries with higher collectivist values were associated with fewer COVID-19 deaths, both in July and December 2020. High collectivism will increase the likelihood to comply with Covid-19 protective guidelines, while individuals with high individualistic and person-focused values might be less likely to comply [see also Wolf et al. (2020) ]. Our findings validate what Elgar et al. (2020) propose that some dimensions of social capital, such as caring for the community, lead to fewer deaths. Other research found that higher prosocial tendencies were related to an acceptance of making sacrifices such as accepting a temporary economic lockdown (Howard, 2021) . While reiterating that cultural values influence how communities react to and behave in this pandemic [see also Seale et al. (2020) ], our findings indicate that people who care primarily for themselves and have less regard for the consequences of their actions on others behave in ways that are related to personal gain, convenience, and enjoyment, which may increase exposure and risk to the virus. When this happens, the spread of COVID-19 increases, which then ultimately leads to an increase in the number of deaths. However, when a society unites and cares for all other people in their community in solidarity, people behave in ways that consider the consequences for other people's health and safety. As a result, the spread of COVID-19 is mitigated, which then leads to lower death rates.",
+            "cite_spans": [
+                {
+                    "start": 555,
+                    "end": 573,
+                    "text": "Wolf et al. (2020)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 604,
+                    "end": 623,
+                    "text": "Elgar et al. (2020)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 881,
+                    "end": 895,
+                    "text": "(Howard, 2021)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1010,
+                    "end": 1029,
+                    "text": "Seale et al. (2020)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Additionally, high Power-Distance/low-Egalitarianism was significantly related to a higher number of COVID-19 related deaths. Countries that are more egalitarian had a higher number of COVID-19 deaths in July and December. According to this finding, when citizens regard each other as equals and do not regard hierarchical roles in society, they might be less willing to follow policies that mitigate the spread of COVID-19. Our findings show that it is exactly this social aspect of compliance that is important and unique in preventing the virus spread during a pandemic (Wolf et al., 2020) as well as adopting avoidance behaviors that are associated with trust in government/authorities (Seale et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 573,
+                    "end": 592,
+                    "text": "(Wolf et al., 2020)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 690,
+                    "end": 710,
+                    "text": "(Seale et al., 2020)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "There is a sense of responsibility in those who govern and those who are governed. Therefore, there is a system of preventive and precautionary efforts, as seen in Conyon et al. (2020) where more preventive health behaviors are present due to lockdown policies that are stricter, and where COVID-19 death rates are found to be lower. On the other hand, when societies do not accept hierarchies as a given, there is more regard for each other as equals. In such a case, citizens might question their leaders more and pay little or no heed to leaders' policies or efforts. Consequently, COVID-19 can spread faster, and the number of deaths unfortunately increases.",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 184,
+                    "text": "Conyon et al. (2020)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The findings of this study are based on data obtained from two different value studies, Hofstede's study with over 116,000 respondents from 76 countries and Schwartz's study with over 67,000 participants from 75 countries, in addition to data on current COVID-19 cases and deaths. Although some of the data have been conducted decades ago, the cultural value dimensions have been replicated and validated many times (e.g., Van Nimwegen, 2002; Cheng et al., 2013) . Moreover, even though research has shown an overall tendency for countries to be moving slightly toward individualism, cultural differences have remained quite stable over time (Manfredo et al., 2017; Santos et al., 2017) . This is because the manner in which values are formed and sustained makes them fairly resistant to change. Further, although the study is correlational and no causation can be assumed, findings show significant relationships between cultural values worldwide and COVID-19 deaths.",
+            "cite_spans": [
+                {
+                    "start": 423,
+                    "end": 442,
+                    "text": "Van Nimwegen, 2002;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 443,
+                    "end": 462,
+                    "text": "Cheng et al., 2013)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 642,
+                    "end": 665,
+                    "text": "(Manfredo et al., 2017;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 666,
+                    "end": 686,
+                    "text": "Santos et al., 2017)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Based on these findings, political leaders, organizations, communities, and families could stress the importance of the community aspect within society, interconnectedness, and collectivist caring in mitigating the pandemic. It is not primarily economic variables that can prevent COVID-19 deaths. It is not solely individual health-related factors, the primary of which is the BMI, that predict COVID-19 related deaths. It is noteworthy that, according to our findings, especially when pertinent variables are controlled for, it is the bottom-up cultural values in a country that are related to COVID-19 deaths. These values, which have remained quite stable over time (Manfredo et al., 2017; Santos et al., 2017) , are significantly associated with mortality from COVID-19. In countries where individualism is predominant, there is a challenge to change what is believed and regarded as important. With COVID-19 as a precursor to change, countries would make significant strides against the increasing number of deaths when public health policies stress the common good, collective health, and valuing the community and each other. Change happens on the individual level-valuing individuals as separate and disconnected from other individuals cannot sustain the world in this nor any pandemic.",
+            "cite_spans": [
+                {
+                    "start": 670,
+                    "end": 693,
+                    "text": "(Manfredo et al., 2017;",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 694,
+                    "end": 714,
+                    "text": "Santos et al., 2017)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The original contributions presented in the study are included in the article, further inquiries can be directed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 crisis in Jordan: response, scenarios, strategies, and recommendations",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Alqutob",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Al Nsour",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tarawneh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ajlouni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Khader",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Aqel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JMIR Publ. Health Surveillance",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/19332"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Jordan's Prime Minister Says His Country Contained COVID-19 by \"Helping the Weakest",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Arraf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Using social and behavioural science to support COVID-19 pandemic response",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J V"
+                    ],
+                    "last": "Bavel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Baicker",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Boggio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Hum. Behav",
+            "volume": "4",
+            "issn": "",
+            "pages": "460--471",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-020-0884-z"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Urban density and COVID-19, IZA Discussion Papers",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Carozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Provenzano",
+                    "suffix": ""
+                },
+                {
+                    "first": "Roth",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "How to Protect Yourself and Others",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The U.S. has a Lot to Learn From Taiwan's COVID Fight",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Cultural meaning of perceived control: a meta-analysis of locus of control and psychological symptoms across 18 cultural regions",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chio",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-M",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Psychol. Bullet",
+            "volume": "139",
+            "issn": "",
+            "pages": "152--188",
+            "other_ids": {
+                "DOI": [
+                    "10.1037/a0028596"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Lockdowns and COVID-19 deaths in Scandinavia",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Conyon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thomsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The trouble with trust: time-series analysis of social capital, income inequality, and COVID-19 deaths in 84 countries",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Elgar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stefaniaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J A"
+                    ],
+                    "last": "Wohl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Soc. Sci. Med",
+            "volume": "263",
+            "issn": "",
+            "pages": "113365--113386",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.socscimed.2020.113365"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Obese communities among the best predictors of COVID-19-related deaths",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fakhry Abdelmassih",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ghaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gaballah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kamel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Heikal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cardiovasc. Endocrinol. Metabol",
+            "volume": "9",
+            "issn": "",
+            "pages": "102--107",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/XCE.0000000000000218"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The Gini concentration index: a review of the inference literature",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gigliarano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Econ. Surveys",
+            "volume": "31",
+            "issn": "",
+            "pages": "1130--1148",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/joes.12185"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Fire and ice: testing a model on cultural values and complex problem solving",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "G\u00fcss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J. Cross-Cult. Psychol",
+            "volume": "42",
+            "issn": "",
+            "pages": "1279--1298",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0022022110383320"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Culture's Consequences: Comparing Values, Behaviors, Institutions, and Organizations Across Nations, 2nd Edn",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hofstede",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cultures and Organizations: Software of the Mind",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hofstede",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hofstede",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Minkov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Who wants to reopen the economy during the COVID-19 pandemic? The daring and uncaring",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Howard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Personal. Individ. Differ",
+            "volume": "168",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.paid.2020.110335"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Coronavirus Resource Center. Maps and Trends. Mortality Analyses. Available online at",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The Worldwide Governance Indicators: A Summary of Methodology, Data and Analytical Issues",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kaufmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kraay",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mastruzzi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Values, economics, and proenvironmental attitudes in 22 societies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kemmelmeier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kr\u00f3l",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Cross-Cult. Res",
+            "volume": "36",
+            "issn": "",
+            "pages": "256--285",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/10697102036003004"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Variations in Value Orientations",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Kluckhohn",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Strodtbeck",
+                    "suffix": ""
+                }
+            ],
+            "year": 1961,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Epidemiology of COVID-19: a systematic review and meta-analysis of clinical characteristics, risk factors, and outcomes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Med. Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "1449--1458",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.26424"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Policy decisions and use of information technology to fight coronavirus disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Braund",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Auerbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Teng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Taiwan. Emerg. Infect. Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2607.200574"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Why social values cannot be changed for the sake of conservation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manfredo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Bruskotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Teel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fulton",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Arlinghaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Conserv. Biol. J. Soc. Conserv. Biol",
+            "volume": "31",
+            "issn": "",
+            "pages": "772--780",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/cobi.12855"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19: exposing and amplifying inequalities",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marmot",
+                    "suffix": ""
+                },
+                {
+                    "first": "Allen",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Epidemiol. Commun. Health",
+            "volume": "74",
+            "issn": "",
+            "pages": "681--682",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/jech-2020-214720"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "A revision of Hofstede's individualism-collectivism dimension: A new national index from a 56-country study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Minkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dutt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schachner",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jandosova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Cross Cult. Strat. Manag",
+            "volume": "24",
+            "issn": "",
+            "pages": "386--404",
+            "other_ids": {
+                "DOI": [
+                    "10.1108/CCSM-11-2016-0197"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Poverty, inequality and COVID-19: the forgotten vulnerable",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Nielsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Badiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Assi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Unadkat",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Public Health",
+            "volume": "183",
+            "issn": "",
+            "pages": "110--111",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.puhe.2020.05.006"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Obesity is associated with increased risk for mortality among hospitalized patients with COVID-10",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Pettit",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mackenzie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ridgway",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pursell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ash",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Obesity",
+            "volume": "28",
+            "issn": "",
+            "pages": "1806--1810",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/oby.22941"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Global increases in individualism",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E W"
+                    ],
+                    "last": "Varnum",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Grossmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Psychol. Sci",
+            "volume": "28",
+            "issn": "",
+            "pages": "1228--1239",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0956797617700622"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Beyond individualism/collectivism: new cultural dimensions of values",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "Cross-Cultural Research and Methodology Series",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "National culture as value orientations: consequences of value differences and cultural distance",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Handbook of the Economics of Art and Culture",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Evaluating the structure of human values with confirmatory factor analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Boehnke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Res. Personal",
+            "volume": "38",
+            "issn": "",
+            "pages": "230--255",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0092-6566(03)00069-2"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "COVID-19 Is rapidly changing: examining public perceptions and behaviors in response to this evolving pandemic",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Seale",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Heywood",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Leask",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sheel",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Durrheim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0235112"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "COVID-19 and the need to prioritize health equity and social determinants of health",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Takian",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kiani",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khanjankhani",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "; Z Tantrakarnapa",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bhopdhornangkul",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nakhaapakorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Public Health",
+            "volume": "65",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10389-020-01329-5"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Obesity and mortality among patients diagnosed with COVID-19: results from an integrated health care organization",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tartof",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Nadjafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann. Internal Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "773--781",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-3742"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "World Population Prospects",
+            "authors": [],
+            "year": 2019,
+            "venue": "Population Density. Available",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "File POP/5: Median Age by Region, Subregion and Country",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van De Vliert",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Handbook of Culture and Psychology",
+            "volume": "",
+            "issn": "",
+            "pages": "93--122",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/oso/9780190679743.003.0004"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Global Banking, Global Values: The In-House Reception of the Corporate Values of ABN AMRO. (Ph.D. dissertation)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Van Nimwegen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Response to COVID-19 in Taiwan: big data analytics, new technology, and proactive testing",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Brook",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "323",
+            "issn": "",
+            "pages": "1341--1342",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3151"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Association between ageing population, median age, life expectancy and mortality in coronavirus disease (COVID-19)",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging",
+            "volume": "12",
+            "issn": "",
+            "pages": "24570--24578",
+            "other_ids": {
+                "DOI": [
+                    "10.18632/aging.104193"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "The importance of (shared) human values for containing the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wolf",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Haddock",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S R"
+                    ],
+                    "last": "Manstead",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Maio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br. J. Soc. Psychol",
+            "volume": "59",
+            "issn": "",
+            "pages": "618--627",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/bjso.12401"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "GDP per capita (current US$)",
+            "authors": [
+                {
+                    "first": "World",
+                    "middle": [],
+                    "last": "Bank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Gini Index. Available online at",
+            "authors": [
+                {
+                    "first": "World",
+                    "middle": [],
+                    "last": "Bank",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Global Status Report on Noncommunicable Diseases",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Global Health Expenditure Database",
+            "authors": [],
+            "year": 2018,
+            "venue": "World Health Organization",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Coronavirus Disease (COVID-19): Situation Report, 176. World Health Organization",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Spatial disparities in coronavirus incidence and mortality in the United States: an ecological analysis as of",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Rural Health",
+            "volume": "36",
+            "issn": "",
+            "pages": "433--445",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jrh.12476"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "stands for Hofstede values; \"S\" stands for Schwartz values. *p < 0.05, **p < 0.01, ***p \u2264 0.001.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Descriptive statistics for study variables in the 88 countries. Frontiers in Psychology | www.frontiersin.org TABLE 1 | Continued",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Descriptive statistics for all variables.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Pearson correlations of COVID-19 deaths, control variables, and cultural values.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Hierarchical regression results for COVID-19 deaths per 100,000 people on July 14, 2020 (JH).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "All authors listed have made a substantial, direct and intellectual contribution to the work, and approved it for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "This research was also supported in part by a grant from the University of North Florida's Delaney Presidential Professorship to the first author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FUNDING"
+        },
+        {
+            "text": "The authors would like to thank Dr. Shalom Schwartz for sharing his cultural values data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2021 G\u00fcss and Tuason. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest:"
+        }
+    ]
+}

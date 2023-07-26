@@ -1,0 +1,2362 @@
+{
+    "paper_id": "00c8c64a9619ed6170caa24496dd81329ff85b18",
+    "metadata": {
+        "title": "Nanobodies, the potent agents to detect and treat the Coronavirus infections: A systematic review",
+        "authors": [
+            {
+                "first": "Hamed",
+                "middle": [],
+                "last": "Zare",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Birjand University of Medical Sciences",
+                    "location": {
+                        "settlement": "Birjand",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hossein",
+                "middle": [],
+                "last": "Aghamollaei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baqiyatallah University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maryam",
+                "middle": [],
+                "last": "Hosseindokht",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Birjand University of Medical Sciences",
+                    "location": {
+                        "settlement": "Birjand",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammad",
+                "middle": [],
+                "last": "Heiat",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baqiyatallah University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [],
+                "last": "Razei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Baqiyatallah University of Medical Science",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hamid",
+                "middle": [],
+                "last": "Bakherad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Isfahan University of Medical Sciences",
+                    "location": {
+                        "settlement": "Isfahan",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The newly emerged coronavirus (SARS-CoV-2) continues to infect humans, and no effective treatment has yet been found. Antibody therapy is one way to control infection caused by COVID-19. However, the use of classical antibodies raises complex issues. Heavy chain antibodies (HCAbs) are single-domain antibodies derived from the Camelidae family. The variable part of these antibodies (Nanobodies or VHH) has interesting properties such as small size, cost-effective production, and good tissue permeability, causing VHH to be regarded as an antiviral therapeutics. However, the small size of nanobodies may lead to low antigen binding affinity and rapid renal clearance. In this systematic review, the application of nanobodies in the treatment of COVID-19 infection and other similar infections (MERS and SARS) was reviewed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As a mattered pathogen, coronaviruses (CoVs) can infect various organs, including the respiratory tract, liver, gastrointestinal tract, and nervous system [1] . The emergence of Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS) diseases in 2002 and 2012, respectively, are associated with the coronavirus [2, 3] . In December 2019, a new coronavirus (2019-nCoV) was identified. The new coronavirus, also named SARS-CoV-2, is known as a public health problem worldwide.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 158,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 340,
+                    "end": 343,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 344,
+                    "end": 346,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Description of the new corona crisis"
+        },
+        {
+            "text": "Currently, there is a lack of appropriate medication for COVID-19 infection. Prevention or treatment for COVID-19 includes antibody therapy and the use of drugs such as interferon and other antiviral drugs [4] . The use of methods that can specifically detect viruses and act against them can be highly helpful. Almost all related sciences are concurrently scrambling to come up with applicable approaches to put out the fire of such crisis. For instance nanodrugs as innovative products of nanotechnology show a set of advantages [5] . Likewise, in the fight against COVID-19, antiviral nano-formulated drugs could prevent the replication of viruses, inhibit apoptotic cellular death caused by viruses, or induce an immune reaction against the SARS-CoV-2 infection [6] . Nevertheless, owing to the ability of antibodies to detect and neutralize viruses, they are totally trustworthy to be used as diagnostic and therapeutic agents against viruses.",
+            "cite_spans": [
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 531,
+                    "end": 534,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 766,
+                    "end": 769,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "New corona detection and treatments problems"
+        },
+        {
+            "text": "Nanobodies are a new class of the recombinant antibody derived from a particular type of antibodies called heavy-chain antibodies existing in camels and sharks. Unlike traditional antibodies, the variable domain of these types of antibodies is made of a single region [7] . These types of antibodies have specific properties distinguishing them from other types of antibodies such as small size, higher solubility and resistance to denaturation, stability in intolerable conditions (high and low pH, high temperature), recognition of the broad diversity of epitopes, fast tissue permeability, low immunogenicity due to high sequence accommodation with human antibodies caused, and cost-effective production [7] [8] [9] [10] .",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 271,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 707,
+                    "end": 710,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 711,
+                    "end": 714,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 715,
+                    "end": 718,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 719,
+                    "end": 723,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nanobodies potentials"
+        },
+        {
+            "text": "The mechanisms of action of antibodies are include: delocalization strategy, direct inhibitory effect, targeted degradation, chromobody, and detection of protein-protein interactions ( Fig. 1 ) [11] .",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 191,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Nanobodies potentials"
+        },
+        {
+            "text": "Another type of nanobodies called VNAR has been discovered in sharks that is structurally similar to camel nanobodies and has special advantages. First, the advantage of the Shark VNAR is that in the evolutionary relationship, it is far from mammals on the phylogenetic tree. Owing to the large differences between the two species epitopes, it is possible to produce high affinity and selectivity antibodies against most mammalian antigens in the shark's body. Second, longer CDR3 regions in camel and shark nanobodies lead to higher diversity and improved cryptic epitope detection ability of this type of antibody compared to the classical ones. Third, to maintain the osmotic pressure in seawater, shark blood has a high concentration of urea, causing shark antibodies to be highly resistant to this chaotropic detergent [7, 8] .",
+            "cite_spans": [
+                {
+                    "start": 824,
+                    "end": 827,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 828,
+                    "end": 830,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nanobodies potentials"
+        },
+        {
+            "text": "Nanobodies derived from animal heavy chain antibodies may cause immunogenic reactions in the human body. Although VHH domains are very similar to their human equivalent, but for therapeutic applications, humanization strategies have been developed to adapt the sequence of amino acid in the framework regions to their human heavy chain variable domain counterparts [12, 13] .",
+            "cite_spans": [
+                {
+                    "start": 365,
+                    "end": 369,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nanobodies potentials"
+        },
+        {
+            "text": "Also, due to the simple structure of nanobodies and the low complexity of these proteins, nanobodies can be produced in prokaryotic and eukaryotic hosts. Strong production efficiency makes nanobody a powerful tool for defeating infectious disease pandemics [12] . In one study by Gai et al., a specific nanobody against SARS-CoV-2 was produced in Pichia pastoris, and the yield of target protein in fermentation supernatant has even reached 20 g/L [14] .",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 261,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 448,
+                    "end": 452,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nanobodies potentials"
+        },
+        {
+            "text": "Nanobodies are now widely used and tested in the treatment of many diseases (Fig. 2) . Currently, many nanobodies have been produced against various viruses such as Hepatitis B virus, influenza virus, poliovirus, rabies virus, HIV, respiratory syncytial virus, FMDV, rotavirus [15] [16] [17] [18] . RBD (receptor-binding domain) is the most important domain of the corona virus family to bind with the cell surface receptor and enter the cell. Nanobodies may be able to detect this domain and prevent the virus from entering the cell.",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 282,
+                    "end": 286,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 84,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Neutralizing nanobody in viral infection"
+        },
+        {
+            "text": "The present study aims to review research that has used nanobodies to control viral infections similar to what occurs by SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Neutralizing nanobody in viral infection"
+        },
+        {
+            "text": "An evidence-based systematic review of literature was according to the PRISMA guidelines [19] . PubMed, LitCOVID, and Scopus were searched on July 8, 2020, to extract articles published on the use of nanobodies in coronaviruses. The search key words were SARS, Corona, COVID-19, SARS-CoV-2, Corona viruses, MERS-CoV, Nanobody, Camelid antibody, Single chain antibody, Heavy chain anti body and VHH. We used Boolean functions as follows: (SARS OR MERS OR corona OR SARS-CoV OR coronavirus) AND (Nanobody OR Nanobodies OR Camelid antibody OR Single chain antibody OR Heavy chain anti body OR VHH). Two investigators compared the data extraction for consistency, and removed some sources, since they did not have the full text or were in the non-English language.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Searching strategy and methodology"
+        },
+        {
+            "text": "The search yielded 132 studies. After initial screening and reviewing the mined articles, unrelated ones and articles related to the phage display technique were removed. The eligibility of the articles was further reviewed, and irrelevant articles were also removed. Eventually, 21 articles met inclusion criteria (Fig. 3) . The results related to therapeutic applications of nanobody are mentioned in the first part, and in the second part, brief explanations are given about the role of nanobodies in the detection of coronaviruses infection. chimeric HCAbs was produced, which consisted of the camel VHH attached to a human Fc domain. This chimeric HCAbs had a long halflife in the serum and protected mice against a deadly MERS-CoV infection [20] . Zhao et al. (2018) isolated nanobodies against the RBD domain of MERS-CoV, which demonstrated high affinity for this domain and potently inhibited MERS-CoV virus to infected host cells. In this study, the effect of nanobody (NbMS10) and nanobody fused to human-FC antibodies on virus pathogenicity was investigated, and these nanobodies showed high affinity to MERS-CoV and potent cross neutralizing activities against different MERS-CoV strains isolated from various hosts. FC fused nanobody exhibited increased half-life in vivo, and this construct was able to efficiently protect humanized mice from the lethal MERS-CoV test [21] .",
+            "cite_spans": [
+                {
+                    "start": 747,
+                    "end": 751,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 754,
+                    "end": 772,
+                    "text": "Zhao et al. (2018)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1382,
+                    "end": 1386,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 323,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In the next step, He et al. (2019) built dimeric and trimeric nanobodies to increase the binding efficiency with the RBD of MERS-CoV. These engineered nanobodies had special features, so that they demonstrated higher ability than monomeric nanobodies in different MERS-CoV strains. This trimeric nanobody potently blocked the RBD domain of MERS-CoV from attaching to the cell surface receptor (DPP4) and prevented entering of the virus in the animal's cell. These inventive nanobodies have higher capacity to neutralize MERS-CoV strains archived from different countries and hosts [22] . Furthermore, increasing the size of engineered nanobodies has not negative effects on stability under extreme conditions such as alkaline and acidic pH, high temperature, urea, and protease activity.",
+            "cite_spans": [
+                {
+                    "start": 581,
+                    "end": 585,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "Feng et al. (2019) constructed a shark antibodies library with a size of 1.2 \u00d7 10 10 and high diversity. They used the library to isolate suitable nanobodies against SARS-CoV and MERS-CoV spike proteins. They isolated five shark nanobodies against MERS-CoV and one nanobody against the SARS-CoV spike protein with high binding affinity (K d = 10.1 nM) [23] . He et al. (2017) used the MERS-CoV RBD domain to immunize alpaca, and after immunization, they constructed a rich diversity phage display library of nanobodies against MERS-CoV. These researchers aimed to build a rich library with high divergence toward MERS-CoV [24] . In addition, Wrapp et al. (2020) described isolation of VHHs (single-domain antibodies) from a llama immunized with coronavirus spikes. In this study, spike proteins were stabilized by prefusion. These VHHs were capable of neutralizing MERS-CoV or SARS-CoV. The results of crystallography of these nanobodies demonstrated two distinct epitopes, and both VHHs inhibited the receptor binding. This study also confirmed a cross-reactivity between SARS-CoV-1 S-VHH and SARS-CoV-2 S. These results showed that this VHH was also able to neutralize pseudotyped SARS-CoV-2 S-like viruses. These findings revealed a molecular principle for beta-coronavirus inhibition by VHHs and indicated that these molecules could be useful for therapy during coronavirus outbreaks [25] .",
+            "cite_spans": [
+                {
+                    "start": 352,
+                    "end": 356,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 359,
+                    "end": 375,
+                    "text": "He et al. (2017)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 622,
+                    "end": 626,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1388,
+                    "end": 1392,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "Xiaojing Chi et al. reported five sdAbs against the spike receptor binding domain of SARS-CoV-2. These nanobodies revealed a range of Kd from subnanomolar to 35.5 nM. These antibodies showed no affinity or relatively low affinity to SARS-CoV-2. Neutralization evaluation of these recombinant antibodies was performed using a SARS-CoV-2 spikepseudotyped particle. The results demonstrated that all five nanobodies had inhibitory effects on the SARS-CoV-2 spike-pseudotyped particle. In addition, these monovalent antibodies showed neutralization activity on the SARS-CoV-2 live virus. The range of EC50 in this experiment was 0.13-0.51 \u03bcg/mL. Further investigation showed that two types of these sdABs (named 1E2 and 4D8) had potential to inhibit the binding of SARS-CoV-2 RBD with ACE2. Through fusion with the human IgG1-Fc region, the neutralization potency of constructs was improved, and EC50 reached the sub-nanomolar level [12] .",
+            "cite_spans": [
+                {
+                    "start": 929,
+                    "end": 933,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "In another study, after screening a VHH library by the phage display method followed by affinity maturation, two nanobodies named H11-H4 and H11-D4 were selected. These nanobodies showed high affinity to RBD (KD = 5 and 10 nM, respectively). These VHHs can block the binding of RBD and spike with ACE2. Additionally, the IgG1-Fc domain was fused to these nanobodies, and the ability of these constructs to block the ACE2 binding with RBD was measured. Using a binding assay, it was revealed that IC50 was 61 and 161 nM for H11-H4-Fc and H11-D4-Fc, respectively. Plaque reduction neutralization test showed that H11-H4-Fc and H11-D4-Fc could neutralize the SARS-CoV-2 virus. (ND = 6 and 18 nM for H11-H4-Fc and H11-D4-Fc, respectively) [13] .",
+            "cite_spans": [
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "Gai et al. constructed nanobody phage display libraries using four camels immunized with the SARS-CoV-2 RBD domain. Then, 381 nanobodies with the ability to recognize SARS-CoV-2 RBD were isolated. In addition, seven Nbs were able to block the interaction of RBD with the human ACE2 (angiotensin converting enzyme 2). These Nbs bound with RBD with high affinity (Kd = 21.6 nM-106 nM). Among these nanobodies, Nb11-59 had the highest activity against SARS-CoV-2. In this study, Nb11-59 was produced in the Pichia pastoris host with more than 99% purity [14] .",
+            "cite_spans": [
+                {
+                    "start": 551,
+                    "end": 555,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "In one study, using synthetic nanobody sequences and the yeast surface-displayed library technique, Schoof et al. isolated several nanobodies with high affinity for different epitopes of the SARS-CoV-2 spike protein. These nanobodies were classified into two classes. Class I included nanobodies attached to the RBD domain and prevented the virus from binding with the cell surface receptor (ACE2), and class II encompassed those attached to areas other than the RBD domain and were not fully capable of inhibitory function. In class I nanobodies, Nb6 exhibited the best performance, and the nanobodies could be attached to two RBD domains at the same time. Using the rationally engineered protein, the researchers designed NB6-derived nanobodies in bivalent and trivalent form and examined their functions and affinities. NB6 Nanobody inhibitory effect against SARS-CoV-2 with IC50 values of 2.0-2.4 \u03bcM were determined and its trivalent form with an IC50 of 1.2 nM showed a 2000-fold increase of inhibitory activity on SARS-CoV-2 virus. In the next step, the researchers of this project, using saturation mutagenesis, changed the sequences of Nb6-CDRs to increase the affinity of this nanobody to the SARS-CoV-2 spike. The nanobody generated by this method demonstrated 500-fold increased affinity to virus spike and its potency to inhibited SARS-CoV-2 infection increased more than 200-fold compared to Nb6 [26] .",
+            "cite_spans": [
+                {
+                    "start": 1409,
+                    "end": 1413,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "In another attempt, Dong et al. used a naive and synthetic llama VHH library to isolate potent nanobodies against the SARS-CoV-2 spike protein in order to neutralize it. The framework of the synthetic library was partially humanized to prevent an immune response in the human body. After panning against the recombinant SARS-CoV-2 spike protein, they finally reached 69 unique nanobodies that had good binding with the spike protein, but 15 of them prevented the spike from binding with the cell surface ACE2 receptor. After conducting experiments, the project researchers concluded that combination of some of these nanobodies had synergistic effects on blocking the interaction of the spike protein with the ACE2 receptor and increased the neutralization of SARS-CoV-2 infection. They used in-silico design via their own signature computer- aided antibody design (CAAD) to design the combination of nanobodies that improve affinity and avidity toward the RBD site of the spike protein and inhibit SARS-CoV-2 infection. Finally, they combined the resulting structure with human IgG Fc domains to make high-strength antibodies against SARS-CoV-2. The obtained antibody showed good results in inhibiting the infection with the following parameters (Kd, 0.25 nM -IC100, 36.7 nM -IC95, 12.2 nM -IC50, 1 nM) [27] .",
+            "cite_spans": [
+                {
+                    "start": 1304,
+                    "end": 1308,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "To obtain an effective nanobody against the SARS-CoV-2 virus, Hanke et al. used immunization of the llama against the FC conjugated SARS-CoV-2 spike protein and isolated the nanobodies using the phage display technique. After performing the two rounds of panning, the Ty1 nanobody was demonstrated to have potent binding with the RBD of the spike protein. Virus neutralization test showed that this nanobody neutralized SARS-CoV-2 at an IC50 of 0.77 \u03bcg/mL (54 nM). Cryoelectron microscopy structural studies have shown that CDR1 and CDR3 of the Ty1 nanobody play an important role in binding with two points of the RBD spike protein and inhibit the spike protein from binding with the ACE2 receptor. Combination of this nanobody with the FC domain of the classical antibody reduced its IC50 to 12 nm and effectively suppressed the SARS-CoV-2 virus [28] . Table 1 summarizes the nanobodies for the treatment of coronavirus infections.",
+            "cite_spans": [
+                {
+                    "start": 848,
+                    "end": 852,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 855,
+                    "end": 862,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Application of nanobodies in the treatment of coronavirus infection"
+        },
+        {
+            "text": "However, most of the articles obtained are about the therapeutic role of nanobodies; but nanobodies can also be used to diagnose this infection. The development of ELISA-based diagnostic methods will accelerate with the acquisition of specific nanobodies against coronavirus protein components. The rest of the isolated nanobodies with high affinity toward the S protein without blocking function were suitable targets for diagnostic applications to detect SARS-CoV-2 [27] .",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Application of nanobodies in the detection of coronavirus infection"
+        },
+        {
+            "text": "As reported in this systematic review study, most researchers use the spike protein, especially RBD domains, to make suitable nanobodies against SARS-CoV and MERS-CoV viruses. It appears that since it is possible to use nanobodies as an inhaler, the resulting nanobodies can be used to prevent the virus from infecting the lungs. Interestingly, owing to the high homology of the SARS-CoV-2 spike protein sequence with its ancestors, the libraries obtained in these studies against SARS-CoV and MERS-CoV can be used to isolate high affinity nanobodies against SARS-CoV-2 in order to prevent entering and infection of this virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19: immunopathology and its implications for therapy",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Rev. Immunol",
+            "volume": "20",
+            "issn": "5",
+            "pages": "269--270",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SARS virus infection of cats and ferrets",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Martina",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fouchier",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Rimmelzwaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Van Amerongen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "",
+            "volume": "425",
+            "issn": "",
+            "pages": "915--915",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Human infection with MERS coronavirus after exposure to infected camels",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Memish",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cotten",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alsahafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rabeeah",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sieberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Makhdoom",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Assiri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "20",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Pharmacologic treatments for coronavirus disease 2019 (COVID-19): a review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sanders",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Monogue",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Jodlowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cutrell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jama",
+            "volume": "323",
+            "issn": "18",
+            "pages": "1824--1836",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "How can nanotechnology help to combat COVID-19? Opportunities and urgent need",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Campos",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "De Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Guilger-Casagrande",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lima",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fraceto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Nanobiotechnol",
+            "volume": "18",
+            "issn": "1",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The potential of various nanotechnologies for coronavirus diagnosis/treatment highlighted through a literature analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alphand\u00e9ry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioconjugate Chem",
+            "volume": "31",
+            "issn": "8",
+            "pages": "1873--1882",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Production of nanobodies against prostate-specific membrane antigen (PSMA) recognizing LnCaP cells",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zare",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajabibazl",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rasooli",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ebrahimizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bakherad",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ardakani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L M"
+                    ],
+                    "last": "Gargari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int. J. Biol. Markers",
+            "volume": "29",
+            "issn": "2",
+            "pages": "169--179",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "In vivo neutralization of botulinum neurotoxins serotype E with heavy-chain camelid antibodies (VHH)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bakherad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L M"
+                    ],
+                    "last": "Gargari",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Rasooli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajabibazl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mohammadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ebrahimizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ardakani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Mol. Biotechnol",
+            "volume": "55",
+            "issn": "2",
+            "pages": "159--167",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Isolation and characterization of protective anti-LPS nanobody against V. cholerae O1 recognizing Inaba and Ogawa serotypes",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ebrahimizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gargari",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rajabibazl",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ardekani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zare",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bakherad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Appl. Microbiol. Biotechnol",
+            "volume": "97",
+            "issn": "10",
+            "pages": "4457--4466",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Isolation and characterization of a novel nanobody for detection of GRP78 expressing cancer cells",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Aghamollaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ghanei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rasaee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Latifi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bakherad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fasihi-Ramandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Taheri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L M"
+                    ],
+                    "last": "Gargari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biotechnol. Appl. Biochem",
+            "volume": "",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Use, Applications and Mechanisms of Intracellular Actions of Camelid VHHs",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Steels",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bertier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gettemans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Humanized single domain antibodies neutralize SARS-CoV-2 by targeting the spike receptor binding domain",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Neutralizing nanobodies bind SARS-CoV-2 spike RBD and block interaction with ACE2",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Le"
+                    ],
+                    "last": "Bas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Ruza",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Duyvesteyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Mikolajek",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Malinauskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rijal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dumoux",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Struct. Mol. Biol",
+            "volume": "27",
+            "issn": "9",
+            "pages": "846--854",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A Potent Neutralizing Nanobody against SARS-CoV-2 with Inhaled Delivery Potential",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "An alpaca nanobody inhibits hepatitis C virus entry and cell-to-cell transmission",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tarr",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lafaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Damier-Piolle",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Urbanowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Meola",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jestin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mckeating",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Hepatology",
+            "volume": "58",
+            "issn": "3",
+            "pages": "932--939",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Nanobody-Fc constructs targeting chemokine receptor CXCR4 potently inhibit signaling and CXCR4-mediated HIV-entry and induce antibody effector functions",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Bobkov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zarca",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Van Hout",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arimont",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Doijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bialkowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Toffoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Klarenbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Der Woning",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Der",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vliet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Biochem. Pharmacol",
+            "volume": "158",
+            "issn": "",
+            "pages": "413--424",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Generation and characterization of ALX-0171, a potent novel therapeutic nanobody for the treatment of respiratory syncytial virus infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Detalle",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stohr",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Palomo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Piedra",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Gilbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Millar",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Power",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stortelers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Allosery",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "60",
+            "issn": "1",
+            "pages": "6--13",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Influenza virus detection with pentabody-activated nanoparticles",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Virol Methods",
+            "volume": "169",
+            "issn": "2",
+            "pages": "282--289",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liberati",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tetzlaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Int. J. Surg",
+            "volume": "8",
+            "issn": "5",
+            "pages": "336--341",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Chimeric camel/human heavy-chain antibodies protect against MERS-CoV infection",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Raj",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Okba",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gutierrez-Alvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Drabek",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Dieren",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Widagdo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lamers",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Widjaja",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fernandez-Delgado",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sola",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science advances",
+            "volume": "4",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "A novel nanobody targeting Middle East respiratory syndrome coronavirus (MERS-CoV) receptor-binding domain has potent cross-neutralizing activity and protective efficacy against MERS-CoV",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Virol",
+            "volume": "92",
+            "issn": "18",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Enhanced ability of oligomeric nanobodies targeting MERS coronavirus receptor-binding domain",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Construction and next-generation sequencing analysis of a large phage-displayed VNAR single-domain antibody library from six naive nurse sharks",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Bian",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fleming",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Flajnik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Antibody therapeutics",
+            "volume": "2",
+            "issn": "1",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Construction and identification of nanobody phage display library targeting Middle East respiratory syndrome coronavirus, Xi bao yu fen zi mian yi xue",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ji",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "za zhi= Chinese journal of cellular and molecular immunology",
+            "volume": "33",
+            "issn": "12",
+            "pages": "1662--1668",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Structural Basis for Potent Neutralization of Betacoronaviruses by Single-Domain Camelid Antibodies",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Vlieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Van Breedam",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Roose",
+                    "suffix": ""
+                },
+                {
+                    "first": "V.-C",
+                    "middle": [],
+                    "last": "Van Schie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Covid",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "An Ultra-high Affinity Synthetic Nanobody Blocks SARS-CoV-2 Infection by Locking Spike into an Inactive Conformation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schoof",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Faust",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sangwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rezelj",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hoppe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boone",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Billesb\u00f8lle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zimanyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Development of multi-specific humanized llama antibodies blocking SARS-CoV-2/ ACE2 interaction with high affinity and avidity",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kankanamalage",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Titong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Microb. Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "An Alpaca Nanobody Neutralizes SARS-CoV-2 by Blocking Receptor Interaction",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hanke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L P"
+                    ],
+                    "last": "Vidakovics",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sheward",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Corcoran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Achour",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Hedestam",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "H\u00e4llberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Raj et al. (2018) identified a number of MERS-CoV-specific VHHs from the bone marrow of MERS-CoV-infected dromedary camels. These VHHs then effectively blocked the entry of viruses to the Huh7 cell (a type of human liver cell line) at picomolar concentrations under experimental conditions. The selected VHHs, with high affinity, bind with the RBD of the viral spike protein. In this study, a camel/human",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "A schematic picture of nanobody mechanisms. (a) By binding nanobodies to a localization signal (LS), the protein of interest (POI) can be enriched at a specific cellular site, such as mitochondria, (b) Nanobodies can perform a direct inhibitory effect and prevent from a protein activity, (c) Nanobodies can be used to target a for enzymatic degradation, (d) Fusion between the nanobody and the fluorescent protein (FP) results in the formation of a chromobody. POI can be visualized and traced using this chromobody.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Application of nanobodies in diagnosis and treatment of diseases.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Systematic review flow chart of the first literature search according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of Nanobodies and type of action.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Thanks to guidance and advice from \"Clinical Research Development Unit of Baqiyatallah Hospital\", Tehran, Iran.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgement"
+        }
+    ]
+}

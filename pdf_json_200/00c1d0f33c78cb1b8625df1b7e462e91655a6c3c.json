@@ -1,0 +1,1061 @@
+{
+    "paper_id": "00c1d0f33c78cb1b8625df1b7e462e91655a6c3c",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Ashis",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Das",
+                "middle": [],
+                "last": "1#",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Research Group",
+                    "institution": "The World Bank",
+                    "location": {
+                        "region": "Washington DC",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Devi",
+                "middle": [],
+                "last": "Kalyan Mishra",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Hitech Medical College",
+                    "location": {
+                        "region": "Rourkela",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Saji",
+                "middle": [
+                    "Saraswathy"
+                ],
+                "last": "Gopalan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ashis",
+                "middle": [
+                    "Kumar"
+                ],
+                "last": "Das",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: Due to preexisting conditions, older adults are at higher risk of COVID-19 related severe complications. Current evidence is limited on access to care for older adults during the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Objectives: To examine the extent of reduced access to care among older American adults during the COVID-19 pandemic, identify predictors and reasons of reduced access.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Using publicly available data from the COVID-19 module (interim release) of the Health and Retirement Study, we undertook descriptive analyses of older adults stratified by sex, age group, race, education, marital status, employment, receipt of social security benefits, health insurance, number of limitations in activities of daily living and preexisting conditions. Associations between reduced access to care and predictors were estimated using a multivariable logistic regression model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": ": About 30% of respondents delayed or avoided care during the pandemic. Reduced access was more likely to be reported by respondents that were female, younger, educated, not receiving social security benefits, with limitations in daily activities and three preexisting conditions. In terms of the reasons, the majority of the respondents (45.9%) reported that their visit was either cancelled or rescheduled by the provider; 13.9% thought they could wait, 10.9% could not get an appointment, 9.1% found it unaffordable, and 7.4% were afraid to visit the provider. Respondents reported of reduced access to doctor's visits, surgery, prescription filling, and dental care. : medRxiv preprint 3 Conclusions: We suggest urgent attention on improving access to care for older adults during the pandemic. For nonemergency conditions and routine care that can be delivered virtually, telehealth services can be strengthened. Additionally, health messaging can reemphasize that neglecting medical care might lead to increased morbidity and mortality among older adults from preexisting illnesses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As of November 24, 2020, the US has reported approximately 12.3 million confirmed cases and 257,016 deaths due to COVID-19. 1 The global evidence says that a pandemic of this scale has certain potential indirect effects on essential and routine healthcare usage patterns. [2] [3] [4] There could be several plausible determinants driving the access to essential healthcare patterns, apart from the pandemic mitigation strategies such as lock down and social distancing, and severity of the pandemic itself. The existing social, demographic, and economic contexts, and underlying health conditions could be a few of such determinants. However, the current evidence is limited globally and specifically, in the USA on the indirect effects of COVID-19 on access to care for older adults during the pandemic. Due to preexisting conditions, older adults are usually at higher risk of COVID-19 related severe complications. 5 Additionally, negligence of routine medical care for chronic illnesses can lead to higher morbidity and mortality among older adults. There are several attempts to inform the potential impact of COVID-19 on emergency care, cardiovascular disease care, cancer care, and other essential outpatient care encompassing the general population. 4,6-10 However, to the best of our knowledge no study has explored the dimensions of access to care among the elderly population. Understanding the neglect of healthcare and potential reasons among older adults could be relevant for the policy makers to improve elderly health as the pandemic continues.",
+            "cite_spans": [
+                {
+                    "start": 124,
+                    "end": 125,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 272,
+                    "end": 275,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 276,
+                    "end": 279,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 918,
+                    "end": 919,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this context, we explored access to care and its determinants among older American adults during the pandemic using a nationally representative survey. We also assessed the reasons for reduced access to care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The data were obtained from the COVID-19 module (interim release) of the Health and Retirement Study (HRS). The HRS is an ongoing prospective cohort study that is nationally representative of adults ages 50 and over in the USA. 11 Participants from the HRS are interviewed every two years and are followed-up actively through regular mail contact and phone interviews. The COVID-19 module of HRS 2020 was administered to half of the random subsample of households who were originally assigned to enhanced face-to-face interviewing.",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 230,
+                    "text": "11",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data source"
+        },
+        {
+            "text": "This was done over two phases using two randomly halved subsamples during June and September. In this study, we use the interim release data from the June study that includes 3,266 respondents. After excluding those with missing values, 3,129 respondents were included in the final analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data source"
+        },
+        {
+            "text": "The outcome of interest was reduced access to health care during the pandemic. In the COVID-19 module, the respondents were asked if they delayed getting medical care or did not get at all since March 2020. This response was collected as a binary variable in the data -yes if they delayed or forgone medical care and otherwise no. The predictors were age in groups (50-59, 60-69, 70-79, 80 and above), sex, education (below high school, high school, college and postcollege), employment (employed, unemployed, retired, homemaker), marital status (legally married and living with spouse, others), health insurance (none, Medicare/Medicaid, private, TriCare/VA), receipt of social security benefits, number of difficulties in activities of daily living -ADL (none, at least 1), and number of self-reported pre-existing conditions (none, 1, 2, 3, 4 or more). Difficulties in caring for the self as a result of health or physical issues constitute ADLs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variables"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variables"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint Caring for the self includes activities such as bathing, dressing up, eating, getting in or out of bed, or using toilets. Pre-existing conditions consisted of hypertension, diabetes, cancer, chronic lung disease, heart conditions, stroke, psychiatric problems, and arthritis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variables"
+        },
+        {
+            "text": "We undertook descriptive analyses for the respondent characteristics and presented the results stratified by subgroups for each characteristic. Correlation was tested among all respondent characteristics with the Pearson's correlation coefficient. Associations between reduced access to care and predictors (age group, sex, education, employment, marital status, health insurance, receipt of social security benefits, number of ADLs, and number of preexisting conditions) were estimated using a multivariable logistic regression model adjusting for all predictors. We considered the associations statistically significant if the p-value was below 0.05. The statistical analyses were performed using Stata Version 15 (StataCorp LLC. College Station, TX).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "Sampling weights were applied to all analyses to account for the HRS sampling design.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical methods"
+        },
+        {
+            "text": "The profile of respondents is shown in table 1. Out of 3,129 respondents, slightly more than half (53.1%) were females with the single largest age group being 60 to 69 years (38.9%). Whites constituted 79.5 per cent, followed by Blacks (10.9%) and others (9.6%). Around 41 per cent were legally married and living with their spouses, 44 per cent had college education, and about three-fifths received Social Security benefits (60.7%). A little above half (54.3%) had Medicare/Medicaid insurance, and a vast majority (88.4%) did not have any limitations in activities of daily living. Very few (14.4%) did not have any preexisting conditions. Closer to 30 per cent respondents reported of reduced access to care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint When asked about the reasons for reduced access, the majority of the respondents reported their visit was either cancelled or rescheduled by the provider (45.9%), whereas 13.9 per cent thought they could wait, 10.9 per cent could not get an appointment, 9.1 per cent found it unaffordable, and 7.4 per cent were afraid to visit the provider. There were 12.8 per cent with other reasons for reduced access. Among the various components of health care that were either delayed or avoided, 58.8 per cent of respondents did so for visiting a doctor, 14 per cent for surgery, 4.9 per cent for filling prescriptions, and 76.5 per cent for dental care. It is worth noting that respondents reported reduced access to multiple components of care simultaneously. Therefore, the proportions may add up to more than 100 per cent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint 1 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "(which was not certified by peer review) preprint"
+        },
+        {
+            "text": "The COVID-19 pandemic has directly and indirectly affected access to health care across the world. 7, 8, [12] [13] [14] In this study, we show that 30 per cent of older adults either delayed or forgone care during the pandemic. Moreover, reduced access was more likely to be reported by respondents that were female, younger, educated, not receiving social security benefits, with limitations in daily activities and three preexisting conditions.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 101,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 102,
+                    "end": 104,
+                    "text": "8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a web-based survey administered to American adults, the prevalence of reduced access among older adults over 65 years was 33.5 per cent. 15 This study also found females, multiple preexisting medical conditions, higher education and having health insurance were significantly associated with reduced access among all age groups. The Research and Development Survey (RANDS) undertaken by the National Center for Health Statistics during COVID-19 shows 39.5 per cent of older adults had reduced access to care. 16 Overall, females and education of above bachelor's degree were more likely to report missing care. Additionally, about 31 per cent of older adults reported to have scheduled at least one telehealth appointment. The proportion of respondents reporting reduced access to care in these studies are higher than our study. The differences in the reduced access to care are possibly due to differing methodologies and recall periods. For instance, our study includes a nationally representative sample of older adults, whereas it was not the case with other studies. However, in line with these similar studies, our study finds female respondents and those with higher education levels tend to report reduced access to care during the pandemic. Among the elderly, research shows that being female is associated with reduced access even during non-pandemic times. 17, 18 We believe that respondents with higher education could be more aware of the risk of exposure to COVID-19 infection and hence delayed or avoided care altogether. 19 . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 142,
+                    "text": "15",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 512,
+                    "end": 514,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1372,
+                    "end": 1375,
+                    "text": "17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1376,
+                    "end": 1378,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1541,
+                    "end": 1543,
+                    "text": "19",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org /10.1101 /10. /2020 As reported by the respondents in our study, the primary reasons for reduced access were due to cancellation, rescheduling, or not getting appointments. During the pandemic, health care providers and practices are striving to maintain stricter infection prevention and control guidelines with limited resources. 20, 21 This could have led to cancellations and rescheduling of visits to keep the patients and providers safe from potential spread of the infection. Respondents that need regular medical visits or prescription filling are more likely to have reduced access during the pandemic. Ironically, most of them suffer from preexisting conditions and research shows that they are at risk of developing serious complications if infected with COVID-19. 5 Based on our findings, we suggest urgent attention on improving access to care for older adults during the pandemic. For nonemergency conditions and routine care that can be delivered virtually, strengthening telehealth services will be helpful. Additionally, older adults' awareness on the availability and benefits of telehealth can be improved. Older adults would have to be reassured that the providers and healthcare facilities are taking adequate measures to ensure a safe environment and neglecting medical care might lead to increase morbidity and mortality from pre-existing illnesses. 22 Improving involvement of medical volunteers and voluntary organizations in supporting older adults can ensure timely care.",
+            "cite_spans": [
+                {
+                    "start": 87,
+                    "end": 95,
+                    "text": "/10.1101",
+                    "ref_id": null
+                },
+                {
+                    "start": 96,
+                    "end": 106,
+                    "text": "/10. /2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 419,
+                    "end": 422,
+                    "text": "20,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 423,
+                    "end": 425,
+                    "text": "21",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 863,
+                    "end": 864,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1460,
+                    "end": 1462,
+                    "text": "22",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study has three limitations. First, the HRS information is self-reported and thus, is subject to measurement errors, misreporting, and social desirability biases. 23 Secondly, due to the lack of reliable data, this study did not explore the nature of symptoms that the respondents delayed or avoided seeking care. Thirdly, the study did not collect specifically any information on virtual consultations. Due to the risk involved with in-person visits during the pandemic, many respondents might have opted for teleconsultations. Despite these limitations, our study contributes to the limited evidence on the patterns of access to care during the pandemic. To the . CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "23",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint best of our knowledge, this is the first study that explores access to care, predictors and reasons during the COVID-19 pandemic in a nationally representative population of older adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Using the nationally representative HRS data, we found the older population in the USA to have reduced access to doctor's visits, surgery, prescription filling, and dental care during the pandemic. The odds of reduced access were more among females, younger, educated, not receiving social security benefits, with limitations in daily activities, and those with three preexisting conditions. We suggest improving access to care for older adults by strengthening the availability of telehealth services and the involvement of medical volunteers and voluntary organizations. Awareness on the benefits of telehealth and the risks of delaying and neglecting care need to be reemphasized.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The data used to support the findings of this study are available publicly through the Health and Retirement Study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Availability"
+        },
+        {
+            "text": "The authors declare that there is no conflict of interest. The views expressed in the paper are that of the authors and do not reflect that of their affiliations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of interest"
+        },
+        {
+            "text": "This study did not receive funding from any source.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding statement"
+        },
+        {
+            "text": "We are grateful to the Health and Retirement Study for making this data publicly available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": ". CC-BY-ND 4.0 International license It is made available under a is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. (which was not certified by peer review) preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The copyright holder for this this version posted November 30, 2020. ; https://doi.org/10.1101/2020.11.29.20240317 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "United States COVID-19 Cases and Deaths by State",
+            "authors": [],
+            "year": 2020,
+            "venue": "Centers for Disease Control and Prevention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Utilization of non-Ebola health care services during Ebola outbreaks: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wilhelm",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Helleringer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Glob. Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7189/jogh.09.010406"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The COVID-19 Pandemic: Effects on Low-And Middle-Income Countries",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anesth. Analg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1213/ANE.0000000000004846"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Potential Indirect Effects of the COVID-19 Pandemic on Use of Emergency Departments for Acute Life-Threatening Conditions -United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lange",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR. Morb. Mortal. Wkly. Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6925e2"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiology of Covid-19 in a Long-Term Care Facility",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmichael",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N. Engl. J. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/nejmoa2005412"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Continuity of care and outpatient management for patients with and at high risk for cardiovascular disease during the COVID-19 pandemic: A scientific statement from the American Society for Preventive Cardiology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Khera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Prev. Cardiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajpc.2020.100009"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The Impact Of (Millwood)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Birkmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Barnato",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Birkmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Skinner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1377/hlthaff.2020.00980"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Difficulties in Treating a Patient with Multiple Cancers in the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Lupu\u015foru",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ciobanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ursaru",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "B\u0103lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Grigorovici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chirurgia (Bucur)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Coronavirus disease-19: The first 7,755 cases in the Republic of Korea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19 Pandemic: Impact on psychiatric care in the United States",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bojdani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychiatry Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.psychres.2020.113069"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Cohort profile: The Health and Retirement Study (HRS)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sonnega",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int. J. Epidemiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/dyu067"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Treatment delays and in-hospital outcomes in acute myocardial infarction during the COVID-19 pandemic: A nationwide study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Erol",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anatol. J. Cardiol",
+            "volume": "24",
+            "issn": "",
+            "pages": "334--342",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Impact of COVID-19 pandemic on tuberculosis laboratory services in Europe",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nikolayevskyy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur. Respir. J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1183/13993003.03890-2020"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Impact of the COVID-19 Pandemic on Cancer Patients",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Al-Quteimat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Amer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "American Journal of Clinical Oncology: Cancer Clinical Trials",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/COC.0000000000000712"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Delay or Avoidance of Medical Care Because of COVID-19-Related Concerns -United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "\u00c9"
+                    ],
+                    "last": "Czeisler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR. Morb. Mortal. Wkly. Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6936a4"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Research and Development Survey, RANDS during COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Barriers to health care access among the elderly and who perceives them",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fitzpatrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Am. J. Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2105/AJPH.94.10.1788"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Gender disparities in the receipt of home care for elderly people with disability in the United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kabeto",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Langa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Am. Med. Assoc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.284.23.3022"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Gaps in Knowledge About COVID-19 Among US Residents Early in the Outbreak",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mccormack",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Public Health Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0033354920970182"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "How should U.S. Hospitals prepare for coronavirus disease 2019 (COVID-19)?",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chopra",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Toner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Waldhorn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Washer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Internal Medicine",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-0907"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "COVID-19 and the Financial Health of US Hospitals",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Khullar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bond",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schpero",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA -J. Am. Med. Assoc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.6269"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Collateral damage of COVID-19 pandemic: Delayed medical care",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Masroor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Card. Surg",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/jocs.14638"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Using the Health and Retirement Study to Analyze Housing Decisions, Housing Values, and Housing Prices",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Benitez-Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eren",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Heiland",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jimenez-Martin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Predictors of reduced access to care (N=936)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

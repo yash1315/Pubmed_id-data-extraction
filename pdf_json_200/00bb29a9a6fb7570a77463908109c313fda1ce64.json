@@ -1,0 +1,414 @@
+{
+    "paper_id": "00bb29a9a6fb7570a77463908109c313fda1ce64",
+    "metadata": {
+        "title": "A CASE OF CHILDHOOD COVID-19 INFECTION WITH PLEURAL EFFUSION COMPLICATED BY POSSIBLE SECONDARY MYCOPLASMA PNEUMONIAE INFECTION",
+        "authors": [
+            {
+                "first": "Hong-Rui",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hao",
+                "middle": [],
+                "last": "Zou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mei",
+                "middle": [],
+                "last": "Xue",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhen-Bing",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wan-Xin",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We report a case of childhood coronavirus disease 2019 infection with pleural effusion complicated by possible secondary Mycoplasma pneumoniae infection. Fever and pulmonary lesions on computed tomography were the early clinical manifestations, and the patient developed nonproductive cough later. The hydrothorax in this coronavirus disease 2019 case was exudative, showing predominantly mature lymphocytes. . On February 22, we conducted PCR analysis of throat swabs PCR again which revealed positive SARS-COV-2. Therefore, we made the diagnosis as COVID-19 with complications of mycoplasma pneumonia and pleural effusion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "During the treatment, we used augmentin and ceftizoxime to control the infection, and used arbidol to suppress the virus. We also used supplementary oxygen for symptomatic treatment. As the child was diagnosed, he was transferred to COVID-19 designated hospital, Wuhan Children's Hospital, for isolation treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Abstract: The unexpected outbreak of Corona Virus Disease 19 had several consequences worldwide and on the Italian Health System. We report our experience in the reorganization of our Pediatric Department to prevent the risk of infection for both children and staff. We strongly believe that the need to face an unpredictable emergency situation should not affect the quality of the assistance to the non-Corona Virus Disease patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "I n December 2019, novel coronavirus disease 2019 broke out in Wuhan, China. The pathogen, SARS-CoV-2, is a novel \u03b2-coronavirus, and transmitted mainly through droplets and close contact. It is highly contagious and can spread quickly such that the entire human population is susceptible. Patients often present respiratory symptoms and fever 5-6 days after being infected with the virus (the latency period ranging 1-14 days). Most cases develop into mild infection that can self-heal but severe cases often lead to death, especially in elders. 1 In one study, among the 44,672 diagnosed cases, 87% were adults from 30 to 79 years of age, whereas the incidence in children and teenagers of 10-19 years was generally low (~1%). 2 SARS-CoV2 can complex with other pathogens, among which 8.6% were mycoplasma. 3 Pleural effusion is seldom seen in COVID-19. 4.5 In this case report, we present a 12-year-old boy who contracted COVID-19 accompanied with mycoplasma infection and secondary pleural effusion.",
+            "cite_spans": [
+                {
+                    "start": 546,
+                    "end": 547,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 808,
+                    "end": 809,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 855,
+                    "end": 858,
+                    "text": "4.5",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "A 12-year-old boy was admitted, on February 20 of 2020, to the Wuhan Union Hospital, which is at the center of the COVID-19 outbreak, with a history of 16-day fever and a 1-day of nonproductive cough. Since February 4, the boy experienced recurrent fever without apparent causes. His maximum temperature was 38\u00b0C without chills, convulsions or vomiting. His body temperature occasionally dropped to normal without treatment. Routine blood examination in local hospitals was normal, with C-reactive protein level at 27.53 mg/L. The chest computed tomography (CT) showed ground-glass opacities in the right upper lung (Fig. 1A, C) . After using Mezlocillin, the child had defervescence. On the evening of February 11, he suffered fever again with body temperature of 37.6\u00b0C. On February 13, the child had paroxysmal colic in the right lower abdomen at night without apparent causes, which became aggravated after exercise. He had no diarrhea and his stools were normal. He also had fever and night sweat with a maximum temperature of 38\u00b0C. Local hospital considered acute appendicitis. His colic pain was relieved following a symptomatic treatment. On February 19, the child developed nocturnal cough with sputum difficult to cough out. He also had fever with the maximum temperature of 37.4\u00b0C, and had no thoracalgia or oppression in chest. Local hospital's laboratory showed hemoglobin concentration 116 g/L, platelet 339 \u00d7 10 9 /L, leucocyte count 7.09 \u00d7 10 9 /L (neutrophils 51.6%, lymphocyte 32.9% and monocyte 8.4%), eosinophil count 0.49 \u00d7 10 9 /L and C-reactive protein 40.163 mg/L. Mid-turbinate swabs were negative for influenza virus A and influenza virus B. Mycoplasma IgM and chlamydia IgM were also negative from blood examination. Chest CT revealed moderate effusion in the right pleural cavity (Fig. 1B, D) . After an outpatient evaluation, he was admitted to our hospital for further treatment on February 20.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 616,
+                    "end": 628,
+                    "text": "(Fig. 1A, C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1808,
+                    "end": 1820,
+                    "text": "(Fig. 1B, D)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "CASE REPORT"
+        },
+        {
+            "text": "After admission, the physical examination showed body temperature of 36.9\u00b0C, heart rate 106 beats per minute and respiratory rate 22 breaths per minute. The breathing sounds on the right lung were stronger compared with left side. Pleuritic rub, rhonchus and crackles were not heard. The abdomen examination was normal. He used to be healthy, without history of hepatitis, tuberculosis or other communicable diseases. With the clinical presentation of pneumonia and the appropriate epidemiologic risk, we considered the child as suspected COVID-19 patient complicated by pleural effusion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CASE REPORT"
+        },
+        {
+            "text": "The laboratory examination results were hemoglobin concentration 122g/L, erythrocyte count 4.25 \u00d7 10 12 /L, platelet 403 \u00d7 10 9 /L, mean platelet volume 10.7 fl, platelet distribution width 12.9%, plateletcrit 0.43%, leucocyte count 7.75 \u00d7 10 9 /L (neutrophils 69.5%, lymphocyte 19.9%, monocyte 8.5%, eosinophil 1.8% and basophil 0.3%), neutrophil count 5.39 \u00d7 10 9 /L, lymphocyte count 1.54 \u00d7 10 9 /L, monocyte count 0.66 \u00d7 10 9 /L, d-dimer levels 11.35 mg/L fibrinogen equivalent units, fibrinogen degradation product 57.6 \u00b5g/mL, fibrinogen 4.48 g/L, urea nitrogen 2.4 mmol/L, glomerular filtration rate 159.93 mL/(min/1.73 m2), high density lipoprotein cholesterol 0.74 mmol/L, low density lipoprotein cholesterol 1.58 mmol/L, total carbon dioxide 19.9 mmol/L, c-reactive protein 35.46 mg/L and lactate dehydrogenase was normal. On pathogen examination, both mycoplasma pneumonia IgM (1.69 AU/mL, reference value > 1.1 AU/mL was positive) and IgG (59.70 AU/mL, reference value > 36.0 AU/mL was positive) were weekly positive, Chlamydia pneumoniae IgG (195.00 AU/ mL and reference value > 25.0 AU/mL was positive) was positive while IgM was negative. IgM of adenovirus, syncytial virus and coxsackie virus were all negative. Mycobacterium tuberculosis antibodies were negative. Throat swabs were negative for influenza virus A and influenza virus B, respiratory syncytial virus, adenovirus. SARS-COV-2 was negative by polymerase chain reaction (PCR) from throat swabs. Examination for lymphocyte subsets by flow cytometry showed CD8+ cell 32.5%, slightly increased.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CASE REPORT"
+        },
+        {
+            "text": "Furthermore, we collected 300 mL of hydrothorax from the child. The liquid was yellow and slightly turbid. The Rivalta test was positive. The laboratory results were total cell count 5860.0 \u00d7 10 6 /L, leucocyte count 3060 \u00d7 10 6 /L, mononuclear white blood cell (WBC) 98%, multiple-nuclear WBC 2%, total protein 45.8 g/L, albumin 32.7 g/L, globulin 13.1 g/L, albumin:globulin ratio 2.5, total cholesterol 1.80 mmol/L and lactate dehydrogenase 291 U/L. Mycobacterium tuberculosis-DNA and rifampicin resistance were negative. Cytologic examination of hydrothorax showed that mature lymphocytes predominate, with a small number of activated heterotypic lymphocytes, a small number of mesothelial cells and few neutrophils (Fig. 2) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 719,
+                    "end": 727,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "CASE REPORT"
+        },
+        {
+            "text": "The reported main symptoms for COVID-19 in children are fever and nonproductive cough. In addition, some children may manifest weakness, myalgia, nausea, vomiting, diarrhea, etc. 6 Most cases present with mild or moderate fever, and some cases may even not have fever. In our case, the boy's main symptoms were recurrent fever with temperature from 37.4 to 38.0\u00b0C. He presented with nonproductive cough after 16 days of developing fevers. During this time, he suffered severe abdominal pain which is generally rare in the clinic. Late though his respiratory symptom appeared, and CT suggested pulmonary pathology 15 days earlier before he started coughing. This case study validated the importance of CT imaging in the diagnosis of COVID-19. In the early stage of disease, CT results indicated viral pneumonia in the right upper lung, which developed, 16 days later, into ground-glass opacities on both sides of the lung with pleural effusion. Despite significant CT changes, the child's clinic manifestations were overall mild with minor hyphemia and normal WBC count. Coagulation function see d-dimer levels 11.35 mg/L fibrinogen equivalent units, fibrinogen degradation product 57.6 \u00b5g/mL and fibrinogen 4.48 g/L. C-reactive protein increased in all time. From The Diagnosis and Treatment Plan for novel coronavirus in China (the 7th edition), in the early stage of COVID-19, peripheral blood generally shows normal or decreased WBC count, with occasional reduction in lymphocyte count. 5 Some patients may have transaminase, lactate dehydrogenase, myoglobin and creatine kinase increased. Most cases have C-reactive protein and erythrocyte sedimentation increased or normal, procalcitonin can be normal. In severe cases, D-dimer levels can be increased with lymphocyte count decreased. Inflammatory cytokine may increase in critical and severe cases. Some critical cases present troponin increased.",
+            "cite_spans": [
+                {
+                    "start": 179,
+                    "end": 180,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1490,
+                    "end": 1491,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "According to the clinical characteristics of confirmed cases of child SARS-COV-2 infection, it can be divided into mild type (had acute upper respiratory infection symptom without positive changes in lung. Some child may only have positive of SRAS-COV-2 by PCR), and common type (imageology revealed pneumonia) symptoms such as fever and respiratory tract were common. While some children had no clinical symptoms with imageology changes were subclinical type), severe type (patients suffered from anoxia such as dyspnea and had oxygen saturation \u2264 0.92%), critical type (present to acute respiratory distress syndrome or respiratory failure or shock, with multiple organ dysfunction that may endanger life). 5, 6 Although the level of D-dimer in this case increased and coagulation function was abnormal, it did not meet the standard of severe pneumonia in children and should be attributed to common type. This child has been suffering from intermittent fever since the onset of the disease. On February 19, CT reported viral pneumonia in the right upper lung and present pleural effusion. Except for weak positive of mycoplasma and chlamydia, the examination of other pathogens including SARS-COV-2 was negative. COVID-19 was not confirmed until throat swabs PCR was made twice. Therefore, with the low sensitivity of SARS-COV-2 PCR examination, if there were respiratory symptoms and related epidemic history, do not exclude SARS-COV-2 infection easily, medical staff should still make strict relevant protection. As mycoplasma pneumonia IgM and IgG were weekly positive, we consider the mycoplasma infection as early stage. Hence, mycoplasma pneumonia was secondary. About 4%-20% of Mycoplasma pneumoniae complicated with pleural effusion, most of them were minor. 7, 8 The hydrothorax in this case was moderate. Because mycoplasma was newly infected and at early stage, we attribute the pleural effusion to COVID-19. Because pleural effusion content has never been studied in the COVID-19 infected children, we here for the first time in the world reported the hydrothorax cytology images as mature lymphocytes predominate. Besides, further investigation of the viral load in the pleural effusion is in need.",
+            "cite_spans": [
+                {
+                    "start": 709,
+                    "end": 711,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 712,
+                    "end": 713,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1770,
+                    "end": 1772,
+                    "text": "7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1773,
+                    "end": 1774,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Novel coronavirus disease (COVID-19) broke out in Wuhan, China, in December of 2019. Here, we present a case report of a child COVID-19 patient accompanied with mycoplasma infection and a rare clinic symptom, pleural effusion. Fever and pulmonary lesions on CT were the manifestations of the illness onset, while nonproductive cough presented later. Because pleural effusion content has never been studied in the COVID-19 infected children, we here for the first time reported the hydrothorax cytology images that show predominantly mature lymphocytes. Though pleural effusion was a rare clinical manifestation in COVID-19, the diagnosis of SARS-COV-2 infection should not be ignored or denied as a result of one negative nucleic acid test. For highly suspected cases, virus nucleic acid test should be performed at least twice and medical staff should properly protect themselves.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). 2020. Available at",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical characteristics of 140 patients infected with SARS-CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Diagnosis, treatment, and prevention of 2019 novel coronavirus infection in children: experts' consensus statement",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "World J Pedatr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Diagnosis and Treatment of Novel Coronavirus Pneumonia (the 7th edition)",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Recommendations for the diagnosis, prevention and control of the 2019 novel coronavirus infection in children (first interim edition). (The Society of Pediatrics",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chinese Medical Association). Chin J Pediatr",
+            "volume": "58",
+            "issn": "",
+            "pages": "169--174",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Diagnosis and treatment of pleural effusion caused by Mycoplasma pneumoniae in children",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Chin J Pract Pediatr",
+            "volume": "32",
+            "issn": "",
+            "pages": "171--174",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Mycoplasma pneumoniaerelated community-acquired pneumonia and parapneumonic pleural effusion in children and adolescents",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Vervloet",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Vervloet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tironi",
+                    "middle": [],
+                    "last": "Junior",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Bras Pneumol",
+            "volume": "38",
+            "issn": "",
+            "pages": "226--236",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "CT image of the child. A: Ground-glass opacities in the right upper lobe on February 5. B: Progressive ground-glass opacities in both lungs on February 19. C: Little pleural effusion on February 5. D: Moderate pleural effusion on February 19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Morphologic characteristics of hydrothorax cytology. A: Mature lymphocytes predominate with a few welldifferentiated mesothelial cells. B: Some of the mature lymphocytes have irregular nuclei, and there is an activated lymphocyte with huge soma, large nucleus and rich cytoplasm. C: Mature lymphocytes predominate with a few neutrophils. D: Some lymphocytes with a few eosinophils.",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

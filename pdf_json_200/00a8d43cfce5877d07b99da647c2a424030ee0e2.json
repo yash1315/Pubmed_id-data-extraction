@@ -1,0 +1,2310 @@
+{
+    "paper_id": "00a8d43cfce5877d07b99da647c2a424030ee0e2",
+    "metadata": {
+        "title": "Incidentally recognized COVID-19 pneumonia in routine oncologic 18 F-FDG PET/CT examinations: a local experience during pandemic era",
+        "authors": [
+            {
+                "first": "Susan",
+                "middle": [],
+                "last": "Adil",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Moustafa",
+                "middle": [
+                    "Mahmoud"
+                ],
+                "last": "Abdelkawi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: CT chest findings of COVID-19 pneumonia can be detected before the clinical symptoms become evident in many cases. In this work, we presented our experience in incidental detection of COVID-19-associated pneumonia in asymptomatic patients coming for routine oncologic 18 F-FDG PET/CT examinations during the COVID-19 pandemic, which contribute in the detection of the affected patients early to be isolated and properly managed. We reported the cases with incidental finding of COVID-19 pneumonia among 764 asymptomatic patients who were referred for whole-body 18 F-FDG PET/CT examinations for routine oncologic indications in the period between 15 March and 15 June 2020, and RT-PCR testing for them was requested for confirmation. Results: Among the 764 scanned patients, we had recognized 87 patients (11.3%) having features of COVID-19 pneumonia. RT-PCR testing of them confirmed COVID-19 infection in 78 cases, yet 3 were negative and no RT-PCR testing was performed in 6 cases (only isolated and carefully monitored). Conclusion: 18 F-FDG PET/CT is sensitive for early COVID-19 detection, even in asymptomatic patients that guide proper management and also highlight the key role of a radiologist and the importance of applying safety measures in clinical services during the pandemic to minimize the spread of infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Background COVID-19 is a novel coronavirus of zoonotic origin that occurred initially in Wuhan, China, during December 2019, and then spread worldwide, becoming a pandemic [1] [2] [3] . The most common manifestations of COVID-19 clinically include fever, cough, dyspnea, myalgia, and fatigue. However, others may initially or entirely remain asymptomatic and significantly propagate infection in the community [4] . Although reverse transcriptase-polymerase chain reaction (RT-PCR) from nasopharyngeal swabs is considered the gold standard for the diagnosis of COVID- 19 infection, yet false negative results are not uncommon (sensitivity 60-70%) [5, 6] . Therefore, another examination with higher accuracy is needed to improve the detection of affected patients during the pandemic. Radiology can be helpful by identifying the pattern of pulmonary involvement of COVID-19 in chest radiologic studies [7] . CT chest findings, which consist of multiple mainly subpleural ground-glass opacities (GGOs) or consolidations, typically describe COVID-19-associated pneumonia [8, 9] . While 18 F-FDG PET/CT examinations are not used in the primary diagnosis of COVID-19 infection, yet incidental detection of patterns of COVID-19 pneumonia in asymptomatic but infected cases referred for 18 F-FDG PET/CT scans for other oncologic indications may necessitate further management for the patients and the health care workers [10] . This also illustrates the importance of strictly applying the recommended containing measures to limit the spread of viral infection by accurate cleaning and sterilization of the imaging room at the end of each procedure and providing adequate personal protective equipment (PPE) to all patients and to the staff members [11] .",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 175,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 176,
+                    "end": 179,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 180,
+                    "end": 183,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 647,
+                    "end": 650,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 651,
+                    "end": 653,
+                    "text": "6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 902,
+                    "end": 905,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1069,
+                    "end": 1072,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1073,
+                    "end": 1075,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1415,
+                    "end": 1419,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1743,
+                    "end": 1747,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The purpose of the present study was to highlight the important role of detection of occasional radiologic findings in this historic period by presenting our local experience in incidental detection of COVID-19-associated pneumonia in our routine 18 F-FDG PET/CT examinations for asymptomatic oncologic patients, as they are considered a hidden source of the spread of infection in the community and also affect further management for these patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This cross-sectional study was conducted in the period from 15 March to 15 June 2020 and included 764 asymptomatic patients referred for whole-body 18 F-FDG PET/CT scanning for routine oncologic indications. Two hundred ninety-six patients came for initial assessment of recently diagnosed primary neoplasia and 468 came for a follow-up to assess the therapeutic response or for detection of recurrence. The cases with incidental findings of COVID-19 pneumonia were reported, and RT-PCR testing was requested for confirmation. The 18 F-FDG PET/CT studies were performed after obtaining informed written consent from the patients, and the study protocol was approved by the institutional research ethics committee. 18 ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients"
+        },
+        {
+            "text": "Combined PET/CT scan using a hybrid PET/CT system (PHILIPS; Ingenuity TF 128 PET/CT scanner; USA) was performed for all patients. The rules of patient preparation were followed strictly. Complete fasting except for glucose-free hydration for about 6-8 h before the study and their blood glucose value was kept less than 200 mg/ dl at the time of the tracer injection. The scan was performed about 60 min after IV injection of 0.1 mCi of 18 F-FDG/kg adjusted according to patient's weight. The study was done with the patient in a supine position on the whole body from the skull base down to the mid thighs. Initial PET scan with several bed positions (5-7) was performed and each with approximately 15-cm axial field of view per bed position with 4-mm in-plane spatial resolution and was covering the same field of view of the CT. The time of acquisition emission data was about 2 min for each bed position and in time range between 13 and 17 min.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F-FDG PET/CT technique"
+        },
+        {
+            "text": "A diagnostic contrast-enhanced CT transmission scan was done immediately after PET scanning covering the identical transverse field of view using the following parameters: 350 mA, 120 kV, 0.5-s tube rotation time, 5-mm slice thickness, and 8-mm table feed. An iodinated non-ionic contrast agent (Omnipause 350) was administrated IV (100 ml) using an injector, with an injection flow of 5 ml/s just before the beginning of the scan. The lung CT images were reconstructed using a 512 \u00d7 512 matrix and iterative reconstruction, 1.25 mm (D-690) or 2.5 mm (D-STE) slice thickness and 1.25 mm interval, lung filter with a window setting with 1600 Hounsfield units (HU) window width and 480 HU window level.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F-FDG PET/CT technique"
+        },
+        {
+            "text": "A PHILIPS workstation was used to view all CT, PET, and PET/CT images, and they were reconstructed in multi-planar reformation and viewed in different planes for all as well as \"3D maximum intensity projection (MIP) images\" PET image in a video mode. A teamwork, including a nuclear medicine physician and a radiologist (of 10 years of experience), had reviewed and interpreted the PET, CT, and fused PET/ CT images.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F-FDG PET/CT technique"
+        },
+        {
+            "text": "The collected data were coded, tabulated, and analyzed; categorical variables (qualitative data) were presented as number and percentage; and descriptive analysis was done for numerical (quantitative) data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "F-FDG PET/CT technique"
+        },
+        {
+            "text": "Among the 764 patients (413 males and 351 females) who were included in the study, 87 patients ( about 11.4%) show incidental CT features of COVID-19-associated pneumonia that are FDG avid on the corresponding PET images (ranged between 4.3 and 12.6 SUVmax).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The patients (59 males and 28 females) ranged in age between 26 and 73 years with a mean age of about 53.5 \u00b1 4.2 years. Thirty-two patients came for initial PET/ CT assessment (Figs. 1, 2, and 3), and fifty-five patients came for follow-up PET/CT scans (Figs. 4, 5, 6, and 7). Thirty-two patients had lymphoma, twenty-six patients had breast cancer, fourteen patients had lung cancer, eleven patients had colon cancer, three patients had renal cancer, and one patient had ovarian cancer ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 489,
+                    "end": 497,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The CT features suggesting COVID-19-associated pneumonia in the enrolled patients include multiple, mainly peripheral, ground-glass opacities and consolidations found bilaterally in 79 (90.8%) patients (Figs. 1, 2, 3, 4, 5, and 6) and unilaterally in 8 (9.2%) patients (Fig.  7) . Pure ground-glass opacities were found in 62 (71.3%) patients, and mixed ground-glass opacities and consolidation patches were found in 25 (28.7%) patients. Intralobular reticulations were seen superimposed on the ground-glass opacities in 14 patients (16%), resulting in a crazy-paving pattern which is usually associated with more advanced stages of the disease (Fig. 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 278,
+                    "text": "(Fig.  7)",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 645,
+                    "end": 653,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Mild pulmonary affection was found in 57 patients (65.5%), moderate pulmonary affection was found in 28 patients (32.2%), and severe pulmonary affection was found in 2 patients (2.3%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "On PET images, the pneumonic lesions show variable FDG avidity. The SUVmax ranged between 4.3 and 7 in 46 patients, between 7 and 9 in 27 patients, and between 9 and 12.6 in 14 patients. All the previous data is shown in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 221,
+                    "end": 228,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "We detected 9 patients in the period from 15 to 31 March, 7 patients between 1 and 15 April, 12 patients between 16 and 30 April, 14 patients between 1 and 15 May, 19 patients between 16 and 31 May, and 26 patients between 1 and 15 June (Fig. 8) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 237,
+                    "end": 245,
+                    "text": "(Fig. 8)",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "RT-PCR testing was done for confirmation of COVID-19 infection in 81 cases (Fig. 9) and was positive in 52 cases and negative in 29 cases that repeated it within 48 h, according to WHO recommendations, and turned positive in 26 cases (3 were still negative, yet they were isolated and carefully monitored for 2 weeks). In 6 of the 87 suspected patients, no RT-PCR testing was performed (was not mandatory in the absence of symptoms according to their physicians' recommendations), yet they also underwent quarantine with careful monitoring for 2 weeks. Six of the closely monitored 9 patients became symptomatic few days after the study, and their physicians managed them as COVID-19-positive cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 83,
+                    "text": "(Fig. 9)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "False negative results of nucleic acid testing (RT-PCR) to diagnose COVID-19 infection in substantial proportion of cases lead to significant missing of diagnosis especially in asymptomatic cases with more spread of the epidemic [12] . The Chinese authorities expanded the official definition of COVID-19 infection to include patients with typical CT findings, even with a first negative RT-PCR result [13] . Common CT findings of COVID-19-associated pneumonia have been widely reported and sometimes appeared even before the clinical symptoms become evident. Thus, high-resolution chest CT is considered a preferred tool for screening, diagnosis, severity assessment, and monitoring of COVID-19 pneumonia [14] [15] [16] . Early in the disease, single or multiple pulmonary subpleural nodular or segmental ground-glass opacities and consolidations were found that enlarged and spread centrally as the disease progressed. They may be accompanied by dilated pulmonary vasculature, air bronchogram sign, crazy-paving sign, reverse halo sign, interlobular septal thickening, pleural effusion, reactive LNs, and others. These CT features may be similar to those seen in other viral pneumonia such as MERS-CoV and SARS-CoV-2 [17] . 18 F-FDG PET/CT is a nonspecific nuclear imaging tool, used mainly for oncologic patients for the detection and staging of many malignant tumors [18] [19] [20] . It is also used for the follow-up of cancer patients [21] [22] [23] . 18 F-FDG PET/CT is an efficient tool to assess response to treatment of different tumors [24, 25] . However, FDG uptake can be also seen in sites of active inflammation and infection [26] . Many recent case reports and studies reported findings of COVID-19 pneumonia in patients referred for routine nuclear imaging studies, including 18 F-FDG PET/CT scans [27] [28] [29] . Typical CT features were detected in localizing CT that show increased FDG in corresponding PET images [30] [31] [32] .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 402,
+                    "end": 406,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 706,
+                    "end": 710,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 711,
+                    "end": 715,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 716,
+                    "end": 720,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1219,
+                    "end": 1223,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1371,
+                    "end": 1375,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1376,
+                    "end": 1380,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1381,
+                    "end": 1385,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1441,
+                    "end": 1445,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1446,
+                    "end": 1450,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1451,
+                    "end": 1455,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1547,
+                    "end": 1551,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1552,
+                    "end": 1555,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1641,
+                    "end": 1645,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1815,
+                    "end": 1819,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1820,
+                    "end": 1824,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1825,
+                    "end": 1829,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1935,
+                    "end": 1939,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1940,
+                    "end": 1944,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1945,
+                    "end": 1949,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, 87 of included 764 patients (about 11.4%) show incidental CT features of COVID-19-associated pneumonia that are FDG avid on the corresponding PET images (ranged between 4.3 and 12.6 SUVmax).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results matched with those reported by Albano et al. [33] and Setti et al. [34] who incidentally identified features highly suspicious for COVID-19 pneumonia in asymptomatic Italian cancer patients coming for routine 18 Pellardy et al. detected CT abnormalities in 3.8% of asymptomatic cancer patients referred to a French PET center for routine oncological indication in the period from March 2020 to April 2020 and 18 F-FDG avidity was ranged between 1.58 and 13.64 [35] .",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 61,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 79,
+                    "end": 83,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This confirmed the possibility to have COVID-19 pneumonia without symptoms which increase the risk of spread of infection. Also, it emphasizes the importance of applying hygienic measures, optimizing distance, minimizing contact, and using protective equipment during this pandemic for the safety of both health care personnel and the patients (as cancer patients particularly those under chemotherapy are more susceptible for a severe infection) [36] . On the other hand, recognition and reporting of COVID-19-related findings to the referring physicians is important for immediate and appropriate action to be undertaken as home isolation with adequate clinical monitoring and postponing oncological treatments that are potentially affecting the patient's survival [33] .",
+            "cite_spans": [
+                {
+                    "start": 447,
+                    "end": 451,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 767,
+                    "end": 771,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Other studies had suggested the potential role of 18 F-FDG PET/CT scan in monitoring of treatment response and predicting the recovery time in COVID-19 cases. The higher the FDG uptake in the pulmonary lesions, the longer healing times [32, 37] . However, these are obviously just case observations, which need to be properly characterized in larger patient cohorts before conclusions can be drawn.",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Moreover, whole-body 18 F-FDG PET/CT scan may be of value to evaluate other changes elsewhere in the patient's body as damage to other organs such as the gastrointestinal tract, heart, kidneys, or bone marrow can also occur in COVID-19 infection [38] [39] [40] .",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 256,
+                    "end": 260,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The main limitation of our study was the small sample size, and future multicenter studies with larger number of enrolled patients are recommended to obtain more accurate results. Ali and Abdelkawi Egyptian Journal of Radiology and Nuclear Medicine (2020) 51:220 Page 8 of 10 18 F-FDG PET/CT is sensitive for early COVID-19 detection, even in asymptomatic patients which in turn contribute to proper management and minimize the spread of hidden infection. It also highlights the key role of the radiologist in the identification of imaging findings suggestive of the disease in this pandemic era and emphasizes the importance of following safety measures and the use of appropriate personal protective equipment to minimize COVID-19 transmission among the patients and health care givers. Ali and Abdelkawi Egyptian Journal of Radiology and Nuclear Medicine (2020) 51:220 Page 9 of 10",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A novel corona virus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus latest: WHO officially names disease COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nature News",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Sensitivity of chest CT for COVID-19: comparison to RT-PCR",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ying",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200432"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Correlation of chest CT and RT-PCR testing for coronavirus disease 2019 (COVID-19) in China: a report of 1014 cases",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200642"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Outbreak of novel coronavirus (COVID-19): what is the role of radiologists?",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Radiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00330-020-06748-2"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "30211--30218",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "CT imaging features of 2019 novel coronavirus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bernheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "295",
+            "issn": "",
+            "pages": "202--207",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The potential added value of FDG PET/CT for COVID-19 pneumonia",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Nucl Med Mol Imaging",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00259-020-04767-1"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "How to manage the COVID-19 diffusion in the angiography suite: experiences and results of an Italian interventional radiology unit",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tipaldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lucertini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Orgera",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zolovkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lauirno",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Ronconi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SciMedJ",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Positive RT-PCR test results in patients recovered from COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2783"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Chest CT findings in coronavirus disease-19 (COVID-19): relationship to duration of infection",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bernheim",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Mei",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fayad",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Diao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jacobi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Radiology",
+            "volume": "0",
+            "issn": "0",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200463"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Alwalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "30086--30090",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20)30086-4"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19 pneumonia: what has CT taught us",
+            "authors": [
+                {
+                    "first": "Eyp",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Khong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S14733099(20)30134-1"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Initial CT findings and temporal changes in patients with the novel coronavirus pneumonia (2019-nCoV): a study of 63 patients in Wuhan, China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Radiol",
+            "volume": "30",
+            "issn": "",
+            "pages": "3306--3309",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Radiographic and CT features of viral pneumonia",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Koo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Choe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Do",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Radiographics",
+            "volume": "38",
+            "issn": "",
+            "pages": "719--739",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Added value of combined 18F-FDG PET/CT for detection of osseous metastases in cancer patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Abdelkhalek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "EJRNM",
+            "volume": "47",
+            "issn": "2",
+            "pages": "453--458",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Value of integrated PET/CT in detection of hepatic metastatic deposits",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Abdelkhalek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "EJRNM",
+            "volume": "47",
+            "issn": "2",
+            "pages": "459--465",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The diagnostic efficacy of whole body 18F FDG PET CT in detection of unexpected second primary malignancy in cancer patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hamed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "EJRNM",
+            "volume": "48",
+            "issn": "3",
+            "pages": "671--676",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Transarterial chemoembolization using drug eluting microspheres in refractory colorectal liver metastases with 18F-FDG PET/CT follow-up to assess therapeutic response",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mansour",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "EJRNM",
+            "volume": "47",
+            "issn": "4",
+            "pages": "1467--1472",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Delayed post-diuretic 18F-FDG PET/CT: can it help in determination of the best clinical decision for muscle invasive UB cancer patients? EJRNM",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Abdelkawi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hussien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "50",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Efficiency of whole-body 18F-FDG PET CT in detecting the cause of rising serum AFP level in post-therapeutic follow-up for HCC patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Amin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Abdelkhalek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jpn J Radiol",
+            "volume": "38",
+            "issn": "5",
+            "pages": "472--479",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Comparison between RECIST and PERCIST criteria in therapeutic response assessment in cases of lymphoma",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Tawfik",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Monib",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yassin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EJRNM",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Role of 18 fluorinefluorodeoxyglucose positron emission tomography/computed tomography in assessment of neoadjuvant chemotherapy response in breast cancer patients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sarhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "El Gohary",
+                    "suffix": ""
+                },
+                {
+                    "first": "El",
+                    "middle": [],
+                    "last": "Moneim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ali",
+                    "middle": [],
+                    "last": "Sa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EJRNM",
+            "volume": "51",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The impact of infection and inflammation in oncologic 18F-FDG PET/CT imaging",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wale",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Viglianti",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Townsend",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Manganaroa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Biomed Pharmacother",
+            "volume": "117",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Incidental CT findings suspicious for COVID-19-associated pneumonia on nuclear medicine examinations: recognition and management plan",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tulchinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Fotos",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Slonimsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Nucl Med",
+            "volume": "45",
+            "issn": "7",
+            "pages": "531--533",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "COVID-19 incidentally detected on PET/CT during work-up for locally advanced head and neck cancer",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Brodin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tom\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kabarriti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "In Vivo",
+            "volume": "34",
+            "issn": "3",
+            "pages": "1681--1684",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Nuclear medicine in SARS-CoV-2 pandemia: 18F-FDG-PET/CT to visualize COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "L\u00fctje",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "K\u00fctting",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Attenberger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Essler",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bundschuh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nuklearmedizin",
+            "volume": "59",
+            "issn": "3",
+            "pages": "276--280",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Asymptomatic COVID-19 positive patient suspected on FDG-PET/CT",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Castanheira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mascarenhas",
+                    "middle": [],
+                    "last": "Gaiv\u00e3o",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mairos",
+                    "middle": [],
+                    "last": "Teixeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pereira",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Costa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nucl Med Commun",
+            "volume": "41",
+            "issn": "6",
+            "pages": "598--599",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "A case of coronavirus infection incidentally found on FDG PET/CT scan",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Doroudinia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tavakoli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Nucl Med",
+            "volume": "45",
+            "issn": "7",
+            "pages": "303--304",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "18F-FDG PET/CT findings of COVID-19: a series of four highly suspected cases",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Nucl Med Mol Imaging",
+            "volume": "47",
+            "issn": "5",
+            "pages": "1281--1286",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Incidental findings suggestive of COVID-19 in asymptomatic patients undergoing nuclear medicine procedures in a high-prevalence region",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Albano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bertagna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bertoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bosio",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lucchini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Motta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Nucl Med",
+            "volume": "61",
+            "issn": "5",
+            "pages": "632--636",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "FDG-PET/CT findings highly suspicious for COVID-19 in an Italian case series of asymptomatic patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Setti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kirienko",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Dalto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bonacina",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bombardieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Nucl Med Mol Imaging",
+            "volume": "47",
+            "issn": "7",
+            "pages": "1649--1656",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Incidental findings suggestive of COVID-19 in asymptomatic cancer patients undergoing 18F-FDG PET/CT in a low prevalence region",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pallardy",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rousseau",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Labbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liberge",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Milin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Bodere",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Fleury",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Nucl Med Mol Imaging",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00259-020-05014-3"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Managing cancer care during the COVID-19 pandemic: agility and collaboration toward a common goal",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ueda",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Martins",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hendrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mcdonnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Crews",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Natl Compr Canc Netw",
+            "volume": "20",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "FDG PET/CT of COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020200770"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Modeling [(18)F]-FDG lymphoid tissue kinetics to characterize non human primate immune response to Middle East respiratory syndromecoronavirus aerosol challenge",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chefer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Thomasson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Seidel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reba",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bohannon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lackemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "EJNMMI Res",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "novel coronavirus infection and gastrointestinal tract",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Dig Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/1751-2980.12851"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Myocardial inflammation predicts remodeling and neuroinflammation after myocardial infarction",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Thackeray",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hupe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bankstahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Berding",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ross",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Am Coll Cardiol",
+            "volume": "71",
+            "issn": "3",
+            "pages": "263--275",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "A 55-year-old male patient, presented with recently diagnosed left lung cancer and referred for initial PET/CT evaluation. a The wholebody MIP image shows an FDG avid upper left lung lesion with other multiple bilateral pulmonary metabolically active areas. Axial lung window CT (b) and corresponding fused PET/CT (c) images revealed an FDG avid left lung upper lobar speculated primary neoplastic mass (achieving 32.7 SUVmax), while axial CT images (d, f) revealed multiple bilateral subpleural variable-sized ground-glass opacities and patchy consolidation that show variable FDG avidity in corresponding fused PET/CT images (e, g) achieving up to 11.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "A 70-year-old female patient, presented with recently diagnosed cancer colon (adenocarcinoma grade II) and referred for initial PET CT evaluation. The whole-body MIP image (a) shows FDG avid lesion at the mid transverse colon (red arrow) with other bilateral pulmonary active lesions of variable FDG uptake (blue arrows). Axial abdominal CT and corresponding fused PET/CT images (b, c) revealed a short segment of FDG avid irregular circumferential malignant soft tissue mural thickening at the mid transverse colon. Axial lung window CT images (d, f) revealed bilateral subpleural ground-glass opacities and consolidations that show variable FDG avidity on corresponding fused PET/CT images (e, g) achieving up to 6.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "A 74-year-old female patient, presented with low back pain and previously done lumbosacral spine MRI which revealed malignant looking osseous lesions and referred for further assessment by PET/CT examination. The whole-body MIP image (a) shows multiple FDG avid nodal and osseous lesions with bilateral pulmonary areas of mild active FDG uptake. Axial lung window CT images (b, c) revealed small-sized bilateral subpleural ground-glass opacities that show mild FDG avidity on corresponding fused PET/CT images (d, e) achieving up to 4.A 62-year-old male patient, with a history of surgically resected rectal cancer and referred for PET/CT follow-up. The whole-body MIP image (a) shows bilateral pulmonary metabolically active areas. Axial lung window CT images (b, c) revealed bilateral subpleural variable-sized ground-glass opacities with consolidation that show variable FDG avidity on corresponding fused PET/CT images (d, e) achieving up to 5.2 SUVmax",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "A 51-year-old male patient, with a history of treated lymphoma 5 years ago, referred for follow-up PET/CT evaluation. a The whole-body MIP image shows multiple bilateral pulmonary metabolically active areas. Axial lung window CT images (b, c) revealed multiple bilateral subpleural variable-sized ground-glass opacities associated with septal thickening (crazy-paving pattern) that show variable FDG avidity on corresponding fused PET/CT images (d, e) achieving up to 7.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "A 47-year-old male patient, with a history of left testicular seminoma, underwent left orchidectomy and received CTH, referred for follow-up PET/CT examination. The whole-body MIP image (a) shows bilateral multiple pulmonary metabolically active areas. Axial lung window CT images (b, d, f, h) revealed multiple bilateral subpleural variable-sized consolidations and ground-glass opacities with crazypaving appearance that show variable FDG avidity on corresponding fused PET/CT images (c, e, g, i) achieving up to 10.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "F-FDG PET/CT examinations. Albano et al. detected typical CT features in 6 of 65 patients (9%), 4 patients had positive RT-PCR test and the remaining 2 patients were not tested but underwent quarantine and monitoring. Setti et al. found typical CT features in 5 out of 13 patients with SUVmax ranged between 4.3 and 11.3.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "A 75-year-old female patient, with a history of lymphoma, received chemotherapy and referred for follow-up PET/CT evaluation. a The whole-body MIP image shows mildly active areas at the right lung lower zone. Axial lung window CT images (b, d, f) revealed few unilateral subpleural variable-sized ill-defined ground-glass opacities at the right lower lung lobe that show mild FDG uptake in corresponding fused PET/ CT images (c, e, g) achieving up to 4.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Line chart representation of the number of patients with recognized COVID-19-associated pneumonia in their routine oncologic 18F-FDG PET/CT examinations during the study period (the Y axis represents the number of cases, and the X axis represents the study time interval)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "MERS-CoV: Middle East respiratory syndrome coronavirus; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; COVID-19: Coronavirus disease 2019; PET/CT: Positron emission tomography/computed tomography; 18 F-FDG: 18 F-Fluorodeoxyglucose; RT-PCR: Reverse transcriptase-polymerase chain reaction; HU: Hounsfield units; MIP: Maximum intensity projection; GGOs: Ground-glass opacities; WHO: World Health OrganizationFig. 9 Flow chart representation of the research methodology and results",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Demographic and imaging features of the study population",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Not applicable",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors contributed to the study conception and design. Material preparation, data collection, and analysis were performed by SA and MM. The first draft of the manuscript was written by SA, and MM read and approved the final manuscript. The authors read and approved the final manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        }
+    ]
+}

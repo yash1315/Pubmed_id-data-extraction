@@ -1,0 +1,630 @@
+{
+    "paper_id": "00a84c2778d0cfb3b19f49ee105bd9e4c7dfb0f5",
+    "metadata": {
+        "title": "Persistence of antibody response to SARS-CoV-2 in a cohort of haemodialysis patients with COVID-19",
+        "authors": [
+            {
+                "first": "Suzanne",
+                "middle": [],
+                "last": "Forbes",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": "suzanne.forbes2@nhs.net"
+            },
+            {
+                "first": "Maria",
+                "middle": [],
+                "last": "Davari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sahana",
+                "middle": [],
+                "last": "Gnanasampanthan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Noam",
+                "middle": [],
+                "last": "Roth",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gregor",
+                "middle": [],
+                "last": "Young",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ravindra",
+                "middle": [],
+                "last": "Rajakariar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Andrea",
+                "middle": [],
+                "last": "Cove-Smith",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Muhammed",
+                "middle": [
+                    "Magdi"
+                ],
+                "last": "Yaqoob",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Teresa",
+                "middle": [],
+                "last": "Cutino-Moguel",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Viyaasan",
+                "middle": [],
+                "last": "Mahalingasivam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kieran",
+                "middle": [],
+                "last": "Mccafferty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Barts Health NHS Trust",
+                    "location": {
+                        "postCode": "E1 1FR",
+                        "settlement": "Whitechapel, London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background. Haemodialysis patients are extremely vulnerable to . Their immune response after infection is unclear. We have found high seroconversion rates in this population with 95% developing antibodies. It is unclear if and how long these antibodies persist. Here we investigate this with serial antibody testing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We identified haemodialysis patients who had confirmed SARS-CoV-2 between March-May 2020 and measured monthly antibodies (IgG/IgM) in those who survived. We used a semiquantitative cut-off index (COI) to create a qualitative result and plotted optical density (OD) over time. We used linear regression to examine the slope, as well as noting peak OD and time to peak OD. We correlated these against baseline demographics, markers of illness severity, and comorbidities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results. 122 patients were analysed. All remained antibody positive during follow-up; for a minimum of 148 days. 71% had a positive gradient indicating increasing antibody positivity over time. We found that age (p=0.01), duration of PCR positivity (p=0.06) and presence of symptoms (p=0.05) were associated with a longer time to peak OD. Immunosuppression did not alter peak OD but did lead to a non-significant increase in time to peak OD and more patients had a subsequent fall in Ab levels (p=0.02). Diabetic patients were more likely to have a positive slope (OR 2.26).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "These results indicate that haemodialysis patients have a robust and sustained antibody response after confirmed COVID-19 infection with no suggestion that immunosuppression weakens this response. Although unclear what protection these antibodies confer, this encouraging that haemodialysis patients should respond to vaccination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "-Haemodialysis patients are extremely vulnerable to the effects of COVID-19 both in terms of their risk of infection given their inability to shield, as well as their risk of mortality with infection -Current understanding is that antibody seroconversion rates in haemodialysis patients who have confirmed infection is high, in the region of 95% -There is no available longer-term data about how long these antibodies persist or if the levels wane over time",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "-This study is, to the best of our knowledge, the first that tracks antibody levels serially over time in haemodialysis patients -Our data describes the trend of antibody positivity over time, the peak antibody levels and the time to reach peak antibody levels; it reassuringly shows that haemodialysis patients have a robust and sustained antibody response -We comprehensively analyse variables that could be associated with each of these outcome measures, including baseline patient demographics, comorbidities, medication use, additional immunosuppression and original COVID-19 disease severity",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "What this study adds?"
+        },
+        {
+            "text": "Just 1 year after the declaration of SARS-COVID-19 as a global health emergency, remarkable technological and medical advances have allowed us to go from identifying the causative agent of COVID-19 as SARS-CoV-2 to the development to diagnostic tests including serological and molecular tests. Antibody (Ab) tests that can detect IgG, IgM and IgA responses to spike or nucleoproteins of SARS-CoV-2 have been developed and allowed us to identify previous exposure or infection. In some populations these antibody tests have also become a surrogate marker of presumed immunity against reinfection. Despite limitations, commercial assays have shed some light on the response of individuals to infection, particularly in certain groups of patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Since the outset, it has been increasingly clear that patients with end-stage kidney disease are particularly susceptible to the effects of the virus, with published morbidity and mortality far in excess of that reported in generalised population data (1) . The renal community has learned that haemodialysis patients present a unique challenge. Balancing their need for ongoing thrice weekly life-sustaining haemodialysis in a health care facility against their vulnerable status and advice to shield has been a daunting task. In addition, haemodialysis patients are considered to be immunodeficient and so the longer-term effect in those who have survived the virus is even less clear than in those without underlying health problems (2). More guidance is now available about measures to put in place to protect haemodialysis patients, but the hope for the future depends on the efficacy of vaccination (3).",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 255,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Information is beginning to emerge around the varied immune response to SARS-CoV-2 in patients with normal renal function and there is a suggestion that IgG titres are durable but with modest declines at 6 to 8 months (4). One study, analysing IgG in dialysis patients up to 3 months showed a linear decline in levels over that time (5) but there is otherwise limited data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We have previously published on the outcomes of COVID in our population of over 1200 haemodialysis patients in East London. Barts Health NHS Trust provides haemodialysis to 1253 haemodialysis patients, including a large cohort in the Royal London Hospital, and then 4 separate satellite units. The population represents a diversity of ethnicity, dialysis vintage and cause of end-stage disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We reported morbidity and mortality rates in line with other published data. We found Ab seroconversion rates of known SARS-CoV-2 positive patients in the region of 95%. We also found a significant number of previously asymptomatic or swab negative patients had developed antibodies (11.5%) (6).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We have since undertaken regular monthly serum Ab testing on all haemodialysis patients in our cohort, as well as ongoing weekly nasopharyngeal swabbing for SARS-CoV-2 to identify new infectious cases. We here report the results of this regular longitudinal Ab screening in patients who have previously been tested as SARS-CoV-2 positive.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This project was approved by the Barts Health NHS Trust Hospital COVID-19 Research and Development committee (Number 11265).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "We report data on all haemodialysis patients from 5 dialysis units across London who had survived COVID-19, and who subsequently developed an Ab response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "From March to May, SARS-CoV-2 RNA qualitative detection was performed by RT-PCR testing using the Cobas\u00ae SARS-CoV-2 Test (Roche) or by transcription mediated amplification (TMA) using the Aptima\u00ae SlARS-CoV-2 Assay (Panther\u00ae System) when patients developed symptoms of COVID-19 infection or when they were screened as having a fever on the dialysis units. From June to September all patients were tested fortnightly regardless of the presence or absence of symptoms. From September to December all patients were tested weekly.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "Since the end of May 2020, the anti-SARS-CoV-2 nucleoprotein (NP) IgG and IgM response was measured in serial samples collected from patients using the Roche Elecsys \u00ae Anti-SARS-CoV-2 assay. The Roche Elecsys Anti-SARS-CoV-2 combined IgM-IgG assay is a modified double sandwich electrochemiluminescence immunoassay (ECLIA) commonly used in the UK, which detects anti-SARS-CoV-2 IgM and IgG targeted against the SARS-CoV-2 virus nucleocapsid (N).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "A semi-quantitative cut-off index (COI) is produced which is used to create a qualitative result. The cut off index (COI) from each sample was recorded as positive if COI > 1.0 and negative is COI <1.0. The optical density values (OD) were plotted over time and a linear regression analysis was performed for each patient using the gradient of this line to determine if the Ab titres were rising or falling over the course of the follow up. In addition, investigated the peak OD, defined as the highest OD during follow up, and the time take to get to peak OD, defined as the time in days between initial RNA positivity and the date of the peak OD, as outcome variables. As the assay used does not distinguish between IgG and IgM the results obtained are the sum of both.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "We then analysed the cohort for explanations of the variability of Ab responses over time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "We report Ab results from May through until October 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS"
+        },
+        {
+            "text": "Data were analysed using GraphPad Prism v9 (San Diego, CA) and SPSS v 27 Armonk NY). The study variables were described using sample mean with SD or median and interquartile range if nonparametric (Shapiro-Wilk Test).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Comparison of variables was performed using chi square for categorical variables and Mann-Whitney for nonparametric variables (with the exception of ethnicity when Kruskal-Wallis was used). Correlation between variables was assessed using spearman rank correlation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "We investigated any factors found to be associated with a positive Ab gradient slope further in a multivariable analysis using logistic regression. Factors were adjusted for age, sex and hospital admission as forced variables determined a priori for the regression model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "122 patients were included in analysis. These were all patients who had a confirmed SARS-CoV-2 test during the first wave, and who had tested Ab positive on serum taken in May.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Their baseline characteristics are shown in Table 1 . Median age was 63 and there was a male preponderance. Ethnicity reflects the ethnicity seen in our entire cohort. Nearly half of the patients were diabetic with diabetes the most common cause of ESRF, and cardiovascular disease coded in a third. Median dialysis vintage was 29 months and 13% had been previous transplanted.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 44,
+                    "end": 51,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Presenting symptoms are shown in Table 2 . Approximately one third required admission and the rest were managed in isolation dialysis facilities as an outpatient. We also gathered data on a variety of relevant laboratory parameters at the time of swab positivity, including CRP, troponin, d-dimer and white cell count as markers of disease severity (7).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 33,
+                    "end": 40,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The Ab response for the cohort took over 4 months to reach its peak. The median peak OD was 95. Given the cut off for classification as Ab positivity is >1, this suggests a robust response. Furthermore, during follow up, all patients remained Ab positive (all patients OD remained >1). In addition, for the majority of patients (71%) antibodies rose over time, with a positive slope of Ab response seen in the overall cohort ( Figure 1 )",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 427,
+                    "end": 435,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The median results of these is shown in Table 2 . We then performed linear regression of the OD results overtime to establish if the levels were rising or falling over time, and the trend of the slope, see Figure 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 40,
+                    "end": 47,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 206,
+                    "end": 214,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Across the whole cohort, the overall trend was for continued increase in Ab positivity as measured by OD, up to a maximum of 184 follow-up.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "We then analysed the cohort phenotype to look for any explanations of the variability of Ab response over time (see Table 3 )",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 116,
+                    "end": 123,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "None of the Ab outcome variables (peak OD, time to peak OD or gradient of antibody response) were correlated significantly with the following variables -BMI, dialysis vintage, white cell count, neutrophil count, lymphocyte counts, platelet count, CK, D dimer, CRP on admission, peak CRP or length of hospital stay. Age was positively correlated with the time to reach peak OD (p=0.01) and troponin was positively correlated with a more positive slope (p=0.02). In addition, how long patients remained antigen positive made no different to their slope of Ab response or absolute peak OD (p=0.86) but those patients who were antigen positive for longer also took longer to reach their peak OD (p=0.006) (Table 3) . To examine the effect of more prolonged antigen positively leading to a slower rise to peak OD we hypothesised that those with longer antigen positivity may start with a lower antibody response. To investigate this we correlated the duration of antigen positivity with the initial antibody OD. However we did not find a relationship between these two variables (r=0.04, p=0.62).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 701,
+                    "end": 710,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The presence of diabetes had no significant effect on the peak OD or time to peak OD (Table  4 ), but patients with DM were more likely than those without DM to have a positive slope (OR 2.26 (95% CI 1.00-5.10)) ( Figure 2A ). We investigated this further in our multivariable analysis (Table 5 ) and found this association was slightly weakened after adjusting for age (OR 2.18 (95% CI 0.97-4.87)), but that there was no evidence of further confounding by sex or hospital admission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 85,
+                    "end": 94,
+                    "text": "(Table  4",
+                    "ref_id": null
+                },
+                {
+                    "start": 214,
+                    "end": 223,
+                    "text": "Figure 2A",
+                    "ref_id": "FIGREF3"
+                },
+                {
+                    "start": 286,
+                    "end": 294,
+                    "text": "(Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Whether or not patients were symptomatic had no effect on peak OD but symptomatic patients took longer to reach peak OD than non-symptomatic patients. This was seen regardless of whether or not they were admitted; the peak OD or the slope were not associated with admission but the time taken to reach peak OD was longer in patients admitted (p=0.05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Neither gender nor ACE/ARB use made any difference to any of the variables, however patients on immunosuppression were more likely to have a positive slope and a higher slope gradient (p=0.02) than those not on immunosuppression, with similar peak OD and time to peak OD ( Figure 2B ). We were unable to investigate this further in multivariable analysis due to sparsity of data.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 273,
+                    "end": 282,
+                    "text": "Figure 2B",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Ethnicity had no effect on the outcome variables (Table 6) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 49,
+                    "end": 58,
+                    "text": "(Table 6)",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "To our knowledge our data is the first to examine Ab response serially over time in haemodialysis patients. We have previously published that 95% of haemodialysis patients mount an Ab response following COVID-19 (6). Here we extend this observation to show that all patients who mount an Ab response to initial infection remain Ab positive for a minimum of 145 days. Furthermore we demonstrate that in the majority of patients there is no significant decline (negative slope) over time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The only factors that correlated with having a positive slope were underlying diabetes and current immunosuppression.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "When the gradient of the slope was considered, those admitted with a higher serum troponin T, those who had a longer length of stay and use of immunosuppression was associated with a more positive gradient. When the peak OD value was considered, none of the measured variables was significantly associated with a higher peak OD. Older patients, those with a more prolonged antigen positivity and those symptomatic on presentation took longer to reach their peak OD.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is not clear why this cohort of vulnerable and relatively immunocompromised patients have developed such robust and sustained antibody responses, when seroconversion is traditionally thought of as more difficult to achieve, for example in hepatitis B vaccination (8).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "One possibility would be that they have a more severe disease but our data showed no clear relationship between admission or length of hospital stay on Ab outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Another possibility would be that they do not as efficiently clear the virus thus leading to an ongoing antigen stimulation of Ab. Our data suggests that the longer patients were antigen positive, the longer it took them to reach their peak OD, however there was no correlation with either the slope of Ab response nor the peak OD nor their initial Ab response. It is also worth considering that this population, despite being considered highly vulnerable, were unable to fully shield owing to regular visits to the dialysis units. It is possibly that ongoing exposure to the virus in the community and within the cohort, from asymptomatic or mildly symptomatic cases, could have acted as a continued booster to these antibody positive patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Also of interest is that those on additional immunosuppression, including steroids, were not found to have any difference in their peak OD, suggesting an equal response to initial viral infection. Immunosuppression did, however, lead to a non-significant (p=0.07) increase in the median time to get to peak OD by 28 days. In line with this finding that immunosuppression leads to a slower rise in antibody levels; the slope of the Ab rise was lower in those on immunosuppression and indeed more patients on immunosuppressives had a fall in Ab levels during the study (p=0.02). A potential explanation for this could be that immunosuppression leads to a delayed immune response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "This study has several limitations. We acknowledge that discussing Ab levels in terms of OD is not the gold-standard by which to do so. We also note that this is a combined IgG and IgM test, unable to discern which is the dominant Ab detected. It would have been useful to have been able to evaluate for levels of neutralising antibodies. Furthermore future works is required to measure T cell response which would help better understand the immune response seen. We currently do not know if these measured antibodies will confer ongoing protection in the face of re-exposure to SARS-CoV-19 virus and its new strains. Indeed we have recently published a concerning report of a patient in this cohort becoming critically unwell following a second episode of COVID-19, despite having positive antibodies with a last measured od of 95, who was subsequently found to have been exposed to the B.1.1.7, variant of SARS-CoV-2 (9). That this is the only such case of reinfection, however, in our large cohort is in itself reassuring, especially given high community prevalence in East London. This is obviously based on a relatively short period of follow-up and so it will be interesting to see if any protection persists and how we might usefully measure this to enable us to predict reinfection. Equally interesting will be to understand rates of re-infection with other mutations and any protective benefit conferred by these initial antibodies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "It is encouraging though to report that the vast majority of haemodialysis patients mount a robust Ab response and that this response does not wane over time. It is also encouraging that, although we reported this one case of reinfection, this seems to be an isolated case. No other previously positive patients from the first wave have been found to be either symptomatic or asymptomatic carriers, as assessed by weekly whole cohort swabbing, in this second wave, despite overall numbers in the dialysis cohort being currently higher than during the first wave. Further studies looking in more detail at immune response to both primary viral infection as well as vaccination will be essential to better understanding how to protect of our most vulnerable patients. 3 (1-7) Biochemical investigations median (IQR) White cell count (10 9 /L) 5.4 (4.1-8.3) Neutrophils count (10 9 /L) 3.9 (2.5-6.6) Lymphocyte count (10 9 /L) 0.8 (0.5-1. Table 5 . Multivariable analysis investigating the association between diabetes and positive antibody slope after adjusting sequentially for age, sex and hospital admission. P-values were obtained using likelihood ratio tests ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 936,
+                    "end": 943,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Results from the ERA-EDTA Registry indicate a high mortality due to COVID-19 in dialysis patients and kidney transplant recipients across Europe",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jager",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kramer",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chesnaye",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney International",
+            "volume": "98",
+            "issn": "6",
+            "pages": "1540--1548",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "diagnosis to last antibody result (days) 159 (145-166) Slope of antibody responce over time 0.16 (-0.05-0.36) Patients with rising antibody response over time n (%) 87 (71%)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Effect of Ethnicity on outcome measures of antibody response Optical density results of Ab responses for the cohort over time. Data displayed as median with IQR as error bars.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Optical density results of Ab responses for (A) diabetes vs non-diabetes, and (B) immunosuppression vs no immunosuppression. Data displayed as median with IQR as error bars.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Table 1. Baseline demographics, comorbidities and medication use of the cohort Symptom duration in days median (IQR)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Clinical outcomes, symptoms biochemical parameters and Ab outcome variables for the study cohort",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Correlation of continuous variables on Ab outcome responses. All data show results of Spearman rank with statistical significance in brackets",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to acknowledge all of our haemodialysis consultants and nurses, as well as our haemodialysis patients. We would also like to thank all of the virology team including the laboratory staff for their collaboration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "None of the authors declare any conflicts of interest.The results presented in this paper have not been published previously in whole or in part, nor in abstract form. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONFLICT OF INTEREST STATEMENT"
+        }
+    ]
+}

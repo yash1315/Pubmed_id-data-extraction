@@ -1,0 +1,3206 @@
+{
+    "paper_id": "00ab814a2083f29929af7241cf5e464792bdc807",
+    "metadata": {
+        "title": "Mutations in SARS-CoV-2; Consequences in structure, function, and pathogenicity of the virus",
+        "authors": [
+            {
+                "first": "Behnaz",
+                "middle": [],
+                "last": "Bakhshandeh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tehran",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zohreh",
+                "middle": [],
+                "last": "Jahanafrooz",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Maragheh",
+                    "location": {
+                        "settlement": "Maragheh",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ardeshir",
+                "middle": [],
+                "last": "Abbasi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tarbiat Modares University",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Matin",
+                "middle": [
+                    "Babaee"
+                ],
+                "last": "Goli",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tehran",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mahya",
+                "middle": [],
+                "last": "Sadeghi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Islamic Azad University",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammad",
+                "middle": [],
+                "last": "Sadeq Mottaqi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tehran",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maryam",
+                "middle": [],
+                "last": "Zamani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Tehran",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The third pandemic of coronavirus infection, called COVID-19 disease, began recently in China. The newly discovered coronavirus, entitled SARS-CoV-2, is the seventh member of the human coronaviruses. The main pathogenesis of SARS-CoV-2 infection is severe pneumonia, RNAaemia, accompanied by glass turbidity, and acute cardiac injury. It possesses a single-stranded positive-sense RNA genome which is 60-140 nm in diameter, and has a size of 26-32 kbp. Viral pathogenesis is accomplished with spike glycoprotein through the employment of a membrane-bound aminopeptidase, called the ACE2, as its primary cell receptor. It has been confirmed that various factors such as different national rules for quarantine and various races or genetic backgrounds might influence the mortality and infection rate of COVID-19 in the geographic areas. In addition to various known and unknown factors and host genetic susceptibility, mutations and genetic variabilities of the virus itself have a critical impact on variable clinical features of COVID-19. Although the SARS-CoV-2 genome is more stable than SARS-CoV or MERS-CoV, it has a relatively high dynamic mutation rate with respect to other RNA viruses. It's noteworthy that, some mutations can be founder mutations and show specific geographic patterns. Undoubtedly, these mutations can drive viral genetic variability, and because of genotype-phenotype correlation, resulting in a virus with more/lower/no decrease in natural pathogenic fitness or on the other scenario, facilitating their rapid antigenic shifting to escape the host immunity and also inventing a drug resistance virus, so converting it to a more infectious or deadly virus. Overall, the detection of all mutations in SARS-CoV-2 and their relations with pathological changes is nearly impossible, mostly due to asymptomatic subjects. In this review paper, the reported mutations of the SARS-CoV-2 and related variations in virus structure and pathogenicity in different geographic areas and genotypes are widely investigated. Many studies need to be repeated in other regions/ locations for other people to confirm the findings. Such studies could benefit patient-specific therapy, according to genotyping patterns of SARS-CoV-2 distribution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The COVID-19 disease first started spreading in China and then in almost every region of the globe. As more cases were confirmed, many countries worldwide announced restrictions for transportation and implemented quarantine [1] . Findings revealed that not only people with the disease who had a range of symptoms could transmit the virus, but even those who did not develop symptoms were carriers of the virus [2] . In some instances, people infected with the virus while not experiencing any symptoms of COVID-19 or even showing mild symptoms of the disease. On the other hand, signs of the disease may change from mild and moderate to acute (critical) and become severe, necessitating special care for the patient with the development of the acute respiratory distress syndrome (ARDS) syndrome and accumulation of fluids in the lungs [2] [3] [4] [5] [6] [7] . According to epidemiological researches, the clinical outcomes (ranging from asymptotic to death) are heavily influenced by factors such as age, demographic characteristics, clinical care quality, and other potential unknown parameters [8] [9] [10] .",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 227,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 837,
+                    "end": 840,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 841,
+                    "end": 844,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 845,
+                    "end": 848,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 849,
+                    "end": 852,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 853,
+                    "end": 856,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 857,
+                    "end": 860,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1099,
+                    "end": 1102,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1103,
+                    "end": 1106,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1107,
+                    "end": 1111,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 disease"
+        },
+        {
+            "text": "Additionally, a healthy diet is recognized as another substantial factor in preventing the development of the severe form of the disease by boosting the immune system [11] . The presence of some underlying diseases (e.g., diabetes) in a person is another factor affecting the increased probability of COVID-19 development and the incidence of a severe condition of the disease (Fig. 1) [12] . At the same time, the virus can cause bacterial pneumonia infections [13] . To ensure the presence of the virus in the body, polymerase chain reaction (PCR) molecular testing is done. The other technique is computed tomography of the chest. Additionally, the number of white blood cells, creatine phosphokinase (CPK), erythrocyte sedimentation rate (ESR), c-reactive protein (CRP), and lactate dehydrogenase D (LDHD) is measured in the blood [2, 14] .",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 386,
+                    "end": 390,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 462,
+                    "end": 466,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 835,
+                    "end": 838,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 839,
+                    "end": 842,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 377,
+                    "end": 385,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "COVID-19 disease"
+        },
+        {
+            "text": "SARS-CoV-2 belongs to a large family of viruses known as coronaviruses. Coronaviruses are the largest group of viruses belonging to the Nidovirales containing Coronaviridae families, Roniviridae, and Arteriviridae. Coronaviridae is a family of positive-sense single-stranded enveloped RNA viruses, with a genome between 26 and 32 kilobases in length. This viral group consists of four different genera, namely Alpha, Beta, Gamma, and Delta, and encompasses various human and animal coronaviruses [15] . Human coronavirus was first identified in the mid-1960s. Seven human coronaviruses have so far been identified that belong to the Alpha and Beta genera; as depicted in Fig. 2 , genus Alpha, including (human coronavirus NL63 (HCoV-NL63) and human coronavirus 229E (HCoV-229E)) and genus Beta, including (human coronavirus OC43 (HCoV-OC43), human coronavirus HKU1 (HCoV-HKU1), severe acute respiratory syndrome coronavirus (SARS-CoV), Middle East respiratory syndrome coronavirus (MERS-CoV) and current SARS-CoV-2) [16] . They bring about a wide range of diseases, including the common cold and respiratory diseases with mild and acute symptoms.",
+            "cite_spans": [
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1016,
+                    "end": 1020,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 671,
+                    "end": 677,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"
+        },
+        {
+            "text": "To date, five coronaviruses belonging to beta-coronavirus lineage have been detected in association with acute pneumonia in humans ( Fig. 2 ) [17] . SARS-CoV-2 is the third coronavirus after MERS and SARS-CoV [18, 19] .",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 133,
+                    "end": 139,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"
+        },
+        {
+            "text": "Bats have been reported to be an essential host for some coronaviruses. Examples include SARS-CoV, a virus with acute respiratory symptoms that spread through China, killing hundreds of people in [2003] [2004] . After that, MERS-CoV was reported in the middle east in 2012; both bat-originated viruses caused the infection and death of many people [17, 20] . In 2020, a new disease with a growing global prevalence was named COVID-19 by the World Health Organization.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 202,
+                    "text": "[2003]",
+                    "ref_id": null
+                },
+                {
+                    "start": 203,
+                    "end": 209,
+                    "text": "[2004]",
+                    "ref_id": null
+                },
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 353,
+                    "end": 356,
+                    "text": "20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"
+        },
+        {
+            "text": "The COVID-19 pandemic has recently emerged and then rapidly spread in more than 200 countries worldwide so far. According to the World Health Organization, 39.8 M global cases of COVID-19 were confirmed on October 16th with a mortality rate of 3.4%.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)"
+        },
+        {
+            "text": "Structural and non-structural proteins in the virus genome are encoded in the open reading frame (ORF) sequences (Fig. 3) . Almost 14 ORF have been sequenced in the SARS-CoV-2 genome so far [21] . Molecular analysis of the new coronavirus indicated that it possesses a single-stranded positive-sense RNA genome, which its size varies between 29.8 kb and 29.9 kb, being 60-140 nm in diameter. Its genome is almost 80% homologous with SARS-CoV, and nearly 96% of its genes are shared with the bat coronavirus (Bat-CoV) [22] . Each of these ORFs is responsible for coding 17 proteins, both structural and non-structural, that drive various processes during the entire life of the virus from its survival to virulence power [23, 24] . The genome starts with 5 \u2032 UTR, which consists of a variable number (between 6 and 11) of ORFs, including ORF1ab, ORF3, ORF6, ORF 7a, ORF 8, and ORF10. SARS-COV 2 has eight accessory proteins (3a, 3b, p6, 7a, 7b, 8b, 9b, and orf14), encoded by ORF3a, ORF6, ORF7a, ORF7b, and ORF8 genes, respectively. These genes contain vital information for virus replication, that has been preserved through successive generations [15] .",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 517,
+                    "end": 521,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 725,
+                    "end": 728,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1148,
+                    "end": 1152,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 113,
+                    "end": 121,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "The biology of SARS-CoV-2"
+        },
+        {
+            "text": "During the virus transformation phase, the first event is the expression of orf1ab and orf1a gene segments to produce two large polyproteins named pp1ab and pp1a. These two polyproteins are then cleaved into 16 Nsps, including Nsp1 to Nsp10 and Nsp12 to Nsp16 by the action of two protease enzymes as part of each of those polypeptides named papain-like proteases (PLpro) [25] . These Nsps participate in many viral processes; for example, the Nsp3 is the largest component among other constituents that forms the replication and transcription complex of coronaviruses, which its cleavage by the PL proteinase would result in the promotion of cytokine expression and suppression of the host's innate immune response. 3CLPro protease as another Nsp has an essential role in RNA replication. Many of the Nsps encoded in ORF1ab, including Nsp5, Nsp3, and the RNA-dependent RNA polymerase (RdRp, Nap12), are responsible for the assembly of the replicas-transcriptase complex in double-membrane vesicles (DMVs) [16] . Other replicas consist of proteins that facilitate viral replication and block the intrinsic host immune system by controlling the cellular machinery. Nsp8 and Nsp12 are two monomeric RdRps that are involved in the process of SARS-CoV-2 replication. Nsp8 replicates the virus genome through interacting with ORF6 accessory protein and Nsp9 replicas protein, by binding to RNA. In contrast to Nsp12, Nsp8 has primase capacity that makes it needless of any primers to initiate the viral replication process. In addition to these polymerases, the SARS-CoV-2 has a unique multimeric RNA polymerase composed of Nsp7 and Nsp8, which is responsible for both the initiation and elongation of the newly synthesized fragment of the viral genome [16, 23] .",
+            "cite_spans": [
+                {
+                    "start": 372,
+                    "end": 376,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1006,
+                    "end": 1010,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1748,
+                    "end": 1752,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1753,
+                    "end": 1756,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Non-structural proteins"
+        },
+        {
+            "text": "The 3 \u2032 end of the SARS-CoV-2 genome consists of four structural protein-encoding genes, which include spike (S), membrane (M), envelope (E), and nucleocapsid (N). From entering the host cells to virus particle formation, various viral processes are dependent on these proteins (Fig. 4) [21, 25, 26] .",
+            "cite_spans": [
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 292,
+                    "end": 295,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 296,
+                    "end": 299,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 286,
+                    "text": "(Fig. 4)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Structural proteins"
+        },
+        {
+            "text": "The spike or S glycoprotein is a transmembrane protein that resides on the outer surface of the virus, with nearly 150 kDa molecular weight that determines the host range and pathogenicity of the virus by its contribution to viral entry through mediating the attachment of the virus particle to the plasma membrane of the host cell. The S protein of SARS-CoV-1 and SARS-CoV-2 forms homo-trimers protruding in the viral surface that facilitates viral entry into the host cells via interacting with angiotensin-converting enzyme 2 (ACE2) that is their main receptor expressed in lower respiratory tract cells. However, in some circumstances, they might use CD209L as an alternative receptor. In contrast, MERS-CoV uses dipeptidyl peptidase 4 (DPP4) as the primary receptor. These viruses spread between different cell types with the help of this mechanism that suppresses virus-neutralizing antibody responses [16, 21, 25] .",
+            "cite_spans": [
+                {
+                    "start": 908,
+                    "end": 912,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 913,
+                    "end": 916,
+                    "text": "21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 917,
+                    "end": 920,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "S protein"
+        },
+        {
+            "text": "Membrane or M protein determines the shape of the virus envelope. It can function as a small transmembrane protein through binding to all other structural proteins. The M protein also contributes to the packaging of the viral RNA genome into a helical ribonucleocapsid during virion formation [16] .",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "M protein"
+        },
+        {
+            "text": "The Nucleocapsid or N protein is the structural constituent of SARS-CoV-2 that is bound to the RNA genome of the virus. This protein takes part in various processes related to the viral genome, including the replication cycle of viruses, viral genome signaling, and the host cells' response to viral infections [22, 25] . ORF1ab, as the largest gene, encodes the pp1ab protein that contains 15 Nsps (nsp1-nsp10 and nsp12-nsp16). It is located at the 5 \u2032 end of the genome. The 3 \u2032 terminus of the SARS-CoV-2 genome contains four structural genes, which encode four essential structural proteins: envelope (E), spike protein (S), nucleocapsid protein (N), membrane (M) and a gene for RNA-dependent RNA polymerase.",
+            "cite_spans": [
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 316,
+                    "end": 319,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "N protein"
+        },
+        {
+            "text": "The structural evidence shows that the N-amino terminal of the envelope or E protein is a short hydrophilic sequence consisting of 7-12 amino acids. It is followed by a large hydrophobic middle segment with 25 amino acids known as the transmembrane domain and possesses a long hydrophilic C-terminus which constitutes the most of the protein. E protein is involved in the production and maturation processes of the virus through interacting with the host cell membrane protein [22] .",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "E protein"
+        },
+        {
+            "text": "The presence of S protein in the process of pathogenesis of SARS-CoV-2 is critical. Spike protein uses a membrane-bound aminopeptidase called ACE2 as the primary cell receptor that binds to dipeptidyl peptidase-4 on the virus [27] . ACE2 is widely expressed in the various organs, including the heart, lungs, gastrointestinal tract, and kidneys [27] . Signal transmission through ACE2 is disrupted when severe myocardial damage and dysfunction in the lungs and other organs such as the kidneys and heart are induced when the virus attaches to the ACE2 receptor [28] . Besides, the determination of target cell specificity is influenced by the S glycoprotein interaction with cellular receptors. The location of the receptor binding domain (RBD) in S1 domain of S protein is determined by the structure of each virus, which can be variable. The RBD regions are located at N Terminal or C1 Terminal of S1. SARS-CoV-2 uses some peptidases as their cellular receptors, although their entry occurs even in the absence of secondary enzymes [25, 27] .",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 230,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 345,
+                    "end": 349,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 561,
+                    "end": 565,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1034,
+                    "end": 1038,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1039,
+                    "end": 1042,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The mechanism of SARS-CoV-2 infection"
+        },
+        {
+            "text": "After fastening to the receptor, the virus enters the host cell cytosol by transmembrane protease serine 2 (TMPRSS2) or other proteases such as furin, and fuses the viral and cell membranes. SARS-CoV-2 spike glycoprotein contains a cleft-like site. The furin detection location is crucial for detection by pyrolysis and, thus, in viral infection of the virus. This glycoprotein is broken down by furin proteinase into a subunit S1 and S2 like a host cell. Infection begins with the interaction of S1, containing RBD, with the host receptor ACE2, into the cell membrane. The S2 domain is a viral fusion protein and is involved in a mixture of virion glands. Immediately after the virus entrance to the cell, the S glycoprotein is cleaved by the CTSL cathepsin to kill the S2 fusion peptide, and then forms endocytosis and low-pH endosomes, hence activating the fusion of membranes within the endosomes. At the junction between the virus membrane and the cell membrane, a bundle is formed that is likely to release the virus genome into the cytoplasm. The following step in the infection cycle is the translation of replica genes from the RNA virus. The two polymer proteins pp1a and pp1 ab are encoded by two large proteins, ORF rep1a and rep1b. A sliding sequence (5 \u2032 -UUUAAAC-3 \u2032 ) and a pseudoknot RNA help express these proteins, leading to a deformation of the rep1a reading form in the ORF rep1b. Usually, the ribosome opens the pseudoknot structure and continues the translation process until it encounters a pause or reach the end of 11 repetitions in the codon. But sometimes, the ribosome is stopped by the pseudoknot, which prevents stretching and staying in the slippery sequence, and stops the nucleotide reading frame with a backward shift that results in the translation of pp1ab. After the translation process, viral RNA is synthesized, and viral replication complexes are collected. The set of viral replications by the transcription process results in cytopathic effects such as abnormalities in the vascular complexes. In the downstream region of the ridiculous proteins, subgenomic RNAs act as mRNAs for the structural genes of the virus [29] .",
+            "cite_spans": [
+                {
+                    "start": 2158,
+                    "end": 2162,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The mechanism of SARS-CoV-2 infection"
+        },
+        {
+            "text": "The next step is the binding and translating the of structural glycoproteins of virus, including S, M and E to ER. These proteins are secreted into the ER-Golgi intermediate chamber (ERGIC). Here, the viral genomes that encode structural proteins are encapsulated by the N-germ protein in the ERGIC membrane and become mature viruses. Proteinprotein interaction is mainly mediated by M glycoprotein, which is responsible for collecting CoVs. M protein, expressed with E protein, is involved in the formation of virus-like particles (VLPs) as well as in the formation of coatings for CoVs. While N glycoprotein causing the formation of VLPs, a combination of genomes encoded in ERGIC enhances virus growth. In the ERGIC chamber, S glycoprotein interacts with M glycoprotein due to being essential for its synthesis. Because M protein is abundant compared to E protein, M protein interaction can be a major source of motivation to mask puberty. Glycoprotein changes the host secretion pathway and releases the accumulation of the virus in the host. The M protein attaches to the nucleocapsid located at the C-terminus of endo domain M and signals viral assembly completion. After assembly, the viruses are transmitted by vesicles to the host cell membrane and are released by exocytosis. By being transported to the cell surface, the S protein combines cell fusion between infected and healthy cells, resulting in a large multinucleated cell that spreads the virus in the host and provides the conditions for the detection of specific antibodies against the virus (Fig. 5 ) [29] .",
+            "cite_spans": [
+                {
+                    "start": 1572,
+                    "end": 1576,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1562,
+                    "end": 1569,
+                    "text": "(Fig. 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "The mechanism of SARS-CoV-2 infection"
+        },
+        {
+            "text": "The pace of mutation in SARS-CoV-2 as an RNA virus is possibly 10 \u2212 4 replacement of bp for every year. Besides, variations may appear in the course of each genome replication cycle [30] . Single-nucleotide polymorphism (SNPs) is applied for the comparison of DNA sequences. It can be used for evolutionary investigations, being useful in identifying mutations in the coronavirus genome, where many mutations may occur by cause of an RdRp in the process of genome replication [31, 32] . Table 1 and Fig. 6 summarize the reported mutations in various parts of SARS-CoV-2 over the last months.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 476,
+                    "end": 480,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 481,
+                    "end": 484,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 487,
+                    "end": 494,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 499,
+                    "end": 505,
+                    "text": "Fig. 6",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "The SARS-CoV-2 mutations and related alterations in the virus"
+        },
+        {
+            "text": "In a study done by Yin, 558 COVID-19 strains were investigated to calculate the frequencies of mutations. The first regular SNP mutation in the virus genome was in nsp2 (241 C > T), which is a critical genomic location. It has been discovered that the nsp2 mutation (241 C > T) has emerged with three other critical mutations including, (3037 C > T), (14408 C > T), and (23403 A > G), that bring about mutations at the amino acid level of RNA primase, and S protein. The mutations as mentioned earlier (241 C > T, 14408 C > T, and 23403 A > G) are located in proteins which are essential for the replication of RNA (241C > T, 14408 C > T), and the spike protein (23403A > G) since it attaches to receptors. This paper recognized that these four mentioned-mutations are common in the SARS-CoV-2 European isolates genomes, where the severity of the infection is mostly more intense than in the other geographical regions. The second amplest SNP mutation in the isolates was (28144 T > C), which has appeared at nsp8, where the amino acid is changed (Leu to Ser), and the third one (26144 G > T) was in nsp3. The nsp3 collaborates with two other proteins called nonstructural protein-4 and 6, to bring about DMVs, which are complexes of the membrane that assist in replicating and assembling RNA. The most common mutation (23403 A > G) was positioned in the S protein sequence. This mutation in D614G (23403 A > G) was placed in the supposed S1-S2 junction part, which splits the spike protein. Analysis of the results demonstrated that nsp8, which is an RNA primase, had the greatest number of mutations (28881 G > A, 28144 T > C, 28882 G > A and 28883 G > C) in comparison to the remaining proteins. Mutations in RNA polymerase or RNA primase might increase fidelity and present obstruction to the usage of nucleotide analogs that are mutagenic. In strains from the US, three mutations in the sequences of nsp8 (28881 G > A, 28882 G > A, and 28883 G > C) have been discovered [16] .",
+            "cite_spans": [
+                {
+                    "start": 1975,
+                    "end": 1979,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and related alterations in the virus"
+        },
+        {
+            "text": "ORF1ab gene, which has the most length in the ORFs in the virus genome and is split into viral non-structural proteins (nsp1 to nsp16), was reported as a gene with a high number of missense mutations [23, 37] .",
+            "cite_spans": [
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 205,
+                    "end": 208,
+                    "text": "37]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and related alterations in the virus"
+        },
+        {
+            "text": "After analyzing around 48,000 SARS-CoV-2 genome sequences and comparing them with the reference sequence, researchers demonstrated that there reside at least three clades according to geological and genomic relevance. The clade common in Europe obtains the p.614(Asp to Gly) mutation associated with the S protein along with (14408 C > T), (241 C > T), and (3037 C > T). The other significant mutation was in the N protein (p.RG203KR) [34] .",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 439,
+                    "text": "[34]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and related alterations in the virus"
+        },
+        {
+            "text": "Based on a study that analyzed 220 genome sequences from COVID-19 patients, the scientists appraised the disposition of the virus mutations within four geographic regions by standardizing the number of genomes containing a likely mutation in each region. The appearance of mutations in nucleotide locations 3036, 8782, 11083, 28144, and 26143 has been confirmed. Besides, mutations were found in positions 1397, 2891, 14408, 17746, 17857, 18060, 23403, 28881, existing in sequences of ORF-1ab (1397, 2891, 14408, 17746, 17857, and 18060), S (23403) and N (28881). three silent mutations (locations 3036, 8782, and 18060) were observed among the twelve most common ones, considering that one mutation (location 11083) was not in the sequence of ORF. Also, mutations in these locations cause amino acids to change in this order: 1397 (Val to Ile), 14408 (Pro to Leu), 17746 (Pro to Leu),",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and related alterations in the virus"
+        },
+        {
+            "text": "The mechanism of coronavirus infection and spread. Coronaviruses bind to ACE-2 receptors on the surface of the target cell via their spike proteins. Next, the ACE2 receptor will be cleaved by the TMPRSS2 that results in the activation of the spike protein through which the virus enters the cell.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "17857 (Cys to Tyr), 23403 (Asp to Gly), 26143 (Gly to Val), 28144 (L to Ser). One mutation (location 28881) causes the substitution of 2 amino acids, particularly 28881 (Arg to Lys) and (Gly to Arg) [38] .",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 203,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "According to a paper that has analyzed the SARS-CoV-2 genomes, 10 out of the 48 sequences merely had lost their base pairs at the start and the end. However, 80 alternatives contained mutations including, 43 missenses, 21 synonymous, three deletions, and 13 noncoding deletion types. The most frequent alternatives (13 specimens) were in ORF-1ab (8782 C > T) and ORF-8 (28144 T > C), and after that, in N (29095 C > T) (5 specimens). Mutations in locations (8782 C > T) and (28144T > C) were observed at the same time. Also, (29095 C > T) is detected in both of them. The two mutations (8782 C > T) and (29095 C > T) were synonymous ones; nonetheless, (28144 T > C) has altered amino acid in the ORF8 region (p. L84S). Out of the 43 missense alternatives, 30 ones were observed in ORF-1ab. All three deletion mutations found in this study, are in-frame ones and were observed in nsp1, which is in ORF1ab. All of the noncoding deletion mutations were detected in 3 \u2032 -UTR or 5 \u2032 -UTR positions, and researchers suggest that they do not significantly influence the functions of the virus. Through various alignments with other SARS-CoV-2 ORF8 regions, they have found out that L84, which is engaged in (28144 T > C) (p.L84S), is not conserved [36] . Khailany et al. have confirmed these results in their separate research [23] .",
+            "cite_spans": [
+                {
+                    "start": 1241,
+                    "end": 1245,
+                    "text": "[36]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1320,
+                    "end": 1324,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "Wang et al. also analyzed 95 SARS-CoV-2 genome sequences. They compared the isolates with the reference sequence and depicted that the total homology was 99.99%, whereas 15 isolates were identical with the reference one. Also, the homology of the ORF-1a in the genome was 99.99%, whereas the homology in connection with the bulk of other parts being 100% while no alteration in regions of E, ORF-6, and ORF-7b, was found. The results show that by comparing the amino acids of the sequences, the overall homology was 99.99%, while the homology between the bulk of the isolates in individual parts was 100%. Mutations which occurred in more than three variants were observed in particular nucleotide positions including, ORF-1ab (2662, 8782, 11083, N (28854, 29095) . Notably, the highest mutation rate was detected in ORF8 (28144) which was about 30% (29 out of 95), where C took the place of T. Likewise, the mutation rate of position ORF-1ab (8782) was about 29% (28 out of 95), where mostly T took the place of C. Mutations in amino acid sequences appearing in more than three strains were p.3606(Leu to Phe), p.49(His to Tyr), p.860(Val to Gln), p.251(Gly to Val), p.62(Val to Leu), p.84(Leu to Ser), p.194(Ser to Leu). Besides, six deletion mutations were observed in 5 of the sequences. These mutations led to 4 various shortened variations in the sequence of amino acids. Moreover, two more deletion-type mutations were observed in 3 \u2032 -UTR or 5 \u2032 -UTR of the genome, respectively [24] .",
+            "cite_spans": [
+                {
+                    "start": 1487,
+                    "end": 1491,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 727,
+                    "end": 746,
+                    "text": "(2662, 8782, 11083,",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 747,
+                    "end": 763,
+                    "text": "N (28854, 29095)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "Yu et al. stated that 120 substitution locations were observed in 8 coding regions of the viral genomes, encompassing 79 transitions (66%) and 41 transversions (34%). The 120 substitution locations were engaged in 119 codons, containing 79 nonsynonymous (66%) and 40 synonymous (34%) mutations. Forty nonsynonymous mutations (51%) altered the biochemical characteristics of the original amino acids, and thus are probably engaged in the adjustment of the virus [39] . Multiple sequence alignment of 86 patient-isolated strains of the SARS-CoV-2 disclosed 93 mutations including 42 missense mutations in viral proteins except for the E protein, 29 missense mutations in the ORF1ab protein, and 8 of them in the S protein [40] .",
+            "cite_spans": [
+                {
+                    "start": 461,
+                    "end": 465,
+                    "text": "[39]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[40]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "In another paper, ten viral genomes derived out of the NCBI database were analyzed through sequence alignment. They did not see any divergence in the amino acid arrangement of N and M proteins. Two alternatives in terms of amino acid level, in spike protein, were detected. According to the reference sequence, the authors of this study suggested two SNP subtypes named \"L\" and \"S\". Two likely \"L\" and \"S\" mutations within the sequences of ORF1ab and ORF8 were discovered. One mutation was found through evaluating the sequence alignment of E protein, in which the mutation \"His\" was detected from a South Korean genome in contrast with \"Leu\" from alternative nine ones in the alignment. In the course of studying the spike protein, one mutation of \"Trp\" was found in a South Korean genome in contrast with \"Ser\" from the alternative nine ones. Also, one mutation of \"Arg\" from an Australian sequence was observed considering \"Ser\" from alternative nine ones [22] .",
+            "cite_spans": [
+                {
+                    "start": 959,
+                    "end": 963,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "Holland et al. discovered that one of the viral genomes had an 81 nucleotide in-frame deletion in the ORF-7a sequence, leading to a loss of 27 amino acids [41] . Comparable deletion mutations in the virus genomes has appeared, especially in the ORF-8 sequence, which may likely lessen the fitness of the SARS-CoV-2 [42, 43] .",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 159,
+                    "text": "[41]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "[42,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 320,
+                    "end": 323,
+                    "text": "43]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "By computational tools, established a reference genome sequence of SARS-CoV-2, and revealed 80 mutated bases at 47 locations. Besides, the most significant SNP mutation in the S protein was found to be A > G.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 5."
+        },
+        {
+            "text": "It is confirmed that the different mortality and infection rate of COVID-19 in geographic areas might be influenced by various factors such as different national rules for quarantine and movement restrictions, and also different races or the genetic backgrounds of people [38] ; in particular, SNP array data analyzing revealed that a specific haplotype of TMPRSS2 gene in a European population which results in upregulation of TMPRSS2 gene expression (as a crucial enzyme for SARS-CoV-2 entry into the host cell) in an androgen-dependent manner, showed association with disease severity in Italian population [45] . Moreover, viral mutations over time are regarded as the contributing factors in transmission and severity of the COVID-19 infection [38] . Whereas the SARS-CoV-2 genome is more stable than SARS-CoV or MERS-CoV, it has a relatively high dynamic mutation rate comparable to other RNA viruses [46] . It's noteworthy that, some mutations can be as founder mutations and show specific geographic patterns. For example, the D614G mutation in S protein is a founder mutation in Europe (appearance from February 16, 2020) [47] . Undoubtedly, these mutations can drive viral genetic variability, and because of genotype-phenotype correlation, resulting in a virus with more/lower/no decrease in natural pathogenic fitness or on the other hand, facilitating their rapid antigenic shifting in order to escape the host immunity and also creating a drug resistance virus, hence converting it to a more infectious or deadly virus (Table 2 ) [47] [48] [49] . Issa et al. discovered 51 distinct non-synonymous amino-acid substitutions in the ORF3a proteins by analyzing 2782 SARS-CoV-2 sequenced isolates. The functional domains of the ORF3a protein are related to pathogenicity and virulence [50] .",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 276,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 610,
+                    "end": 614,
+                    "text": "[45]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 749,
+                    "end": 753,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 907,
+                    "end": 911,
+                    "text": "[46]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1131,
+                    "end": 1135,
+                    "text": "[47]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1544,
+                    "end": 1548,
+                    "text": "[47]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1549,
+                    "end": 1553,
+                    "text": "[48]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1554,
+                    "end": 1558,
+                    "text": "[49]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 1794,
+                    "end": 1798,
+                    "text": "[50]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1533,
+                    "end": 1541,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Eleven SARS-CoV-2 Chinese patient-isolated viral genome sequences were analyzed through ultra-deep sequencing regarding the mutations in the genome. Then researchers evaluated their infectivity in the Vero-E6 cells by Cycle threshold values (Ct) to quantify the viral load through in-vitro assays that resulted in identification of a total of 33 mutations. They recognized that these viral isolates demonstrate up to 270-fold differences in viral load and cytopathogenic effects (CPE) during spreading among Vero-E6 cells. After researching 12,343 SARS-CoV-2 genome patient-isolated sequences worldwide, Toyoshima et al. found ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Strengthen Phenotype [47] 131 mutations with frequencies of more than 10%. After multipleregression analysis, they discovered that the frequency of p.614(Asp to Gly) in spike protein, and P4715L in ORF1ab had depicted positive correlations with the fatality rate of the virus (r = 0.45, P = 0.070; r = 0.49, P = 0.047, respectively). They also found out that several epitopes which include locations of the two mentioned-mutations are likely to attach to HLA molecules [51] .",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 25,
+                    "text": "[47]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 469,
+                    "end": 473,
+                    "text": "[51]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "To clarify the effect of a mutation on virus fitness, Yao et al. infected Vero-E6 cells (high similarity of its ACE2 or virus gate protein to human one) by employing 11 patient-derived SARS-CoV-2 isolates. They showed that mutations in RBD of S protein, as one of the most variable segments of SARS-CoV-2, has influenced the pathogenicity of SARS-CoV-2. According to the mentioned study, S-D614G has a significantly positive effect on viral replication [47] . Following Yao et al. study, another research showed that S protein is highly mutated, and some of its mutations such as D614G can potentially increase virus infection activity and also the severity of disease [48] . One study showed that a 15-30 nt deletion in the S1/S2 junction region which happened during passaging virus in Vero-E6 cells, reduced the infection rate of theSARS-CoV-2. S1/S2 junction region is cleaved during virus entry to the cell by TMPRSS2 and therefore, deletion mutations in this region can attenuate the infection rate of the virus. So far, the pre-mentioned deletion in the S1/S2 junction region has not been detected in isolated sequences from COVID-19 patients [49] .",
+            "cite_spans": [
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[47]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 669,
+                    "end": 673,
+                    "text": "[48]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1150,
+                    "end": 1154,
+                    "text": "[49]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Interestingly, it was suggested that mutations of the S1/S2 junction region could potentially increase vaccine development [49] . In another study, it was reported that 8782 C > T in ORF1-ab (synonymous mutation), 28144 T > C in ORF-8 (missense), 29095 C > T in the N gene (synonymous mutation) are the most common mutations till April 5, 2020 and may have some effects on transmission and severity of COVID-19 in most area. Notably, genomic sequences analysis showed that the transition of C to T is considered the most common nucleotide variation, leading to significantly higher frequencies of synonymous mutation and missense mutations rather than deletion and insertion ones [23] .",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 127,
+                    "text": "[49]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 680,
+                    "end": 684,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "After bio-informatic analysis of 351 genome sequences of the SARS-CoV-2 patients, researchers detected two mutations in the recent isolates, involving nsp6 and adjacent regions of the ORF10 (at AA locations: 3691 and 9659). Analytics applying a Maximum Likelihood tree implies that both of the mentioned-mutations reduce the stability of the structures of the proteins [54] .",
+            "cite_spans": [
+                {
+                    "start": 369,
+                    "end": 373,
+                    "text": "[54]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Causative agents of the virus genome mutations are various, including fidelity of RdRp (as a main replication/transcription enzyme of the virus), host enzymes, effects of physical and chemical mutagens, and genetic recombination [38] . By analyzing genomic sequences from the GISAID database derived from COVID-19 patients, it was reported that viruses with a missense (P to L) mutation in position 14408 of RdRp have a higher number of mutations compared to viruses without the mutation in RdRp [38] . Also, after RdRp 14408 nt mutation occurrence (from February 16, 2020), the pattern of other variations has been changed, and new versions have been introduced to the virus genome in Europe. However, similar mutation pattern in North America was not observed in the SARS-CoV-2 genome sequences isolated from infected people, which had RdRp 14408 nt mutation. As though, the simultaneous occurrence of RdRp 14408 nt mutation with nsp3 3036 nt, S protein 23403 nt, and nucleocapsid phosphoprotein 28881 nt in Europe and with nsp13 (helicase) 17746 nt and 17857 nt, and nsp14 (ExoN) 18060 nt in North America had happened [38] .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1122,
+                    "end": 1126,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Therefore, the co-appearance of the other mutations with RdRp 14408 nt mutation is also geographically distinct. Despite the possible effect of RdRp 14408 nt mutation in the occurrence of the aforementioned mutations, other unknown factors have also influenced them. The frequency of RdRp 14408 nt in Europe is significantly higher than in North American and Asia. Detected virus genome variation from European and North American patients (mainly Europe) showed a higher number than Asia during the viral spread out of China, and as a result, the infection has a higher mortality rate out of the China [38] .",
+            "cite_spans": [
+                {
+                    "start": 602,
+                    "end": 606,
+                    "text": "[38]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Despite the reported effect of some virus genome mutations on the severity of COVID-19, so far, the researchers found less evidence of the imposed modification by the identified mutations (such as D614G in virus S protein) on the virus's transmissibility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "Through in-silico methods, researchers identified the most damaging mutations in two of the functional domains of the viral S protein, including RBD (p.408 (Arg to Ile), p.455 (Leu to Tyr), p.486 (Phe to Leu), p.493 (Gln to Asn), p.498 (Gln to Tyr), and p.501 (Asn to Thr)) and heptad repeat 1 (HR1) domain (p.930 (Ala to Val), p.936 (Asp to Tyr)) [53] . Another study investigated the S protein mutations and their biological importance by analyzing 80 SARS-CoV-2 variants and 26 mutant ones. They discovered that variants with p.614 (Asp to Gly) mutation were quite more infectious and most of the variants with a mutation in the RBD domain were less infectious. Sequences containing p.475 (Ala to Val), p.452 (Leu to Arg), p.483 (Val to Ala), and p.490 (Phe to Leu) showed resistance to several neutralizing antibodies [52] .",
+            "cite_spans": [
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[53]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 822,
+                    "end": 826,
+                    "text": "[52]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The SARS-CoV-2 mutations and its related variabilities in clinical manifestations"
+        },
+        {
+            "text": "In addition to various known and unknown factors and host genetic susceptibility, mutations and genetic variabilities of the virus itself have a critical impact on variable clinical features of COVID-19 infection. Overall, at this time, detection of all the appeared mutations in SARS-CoV-2 and their relation with pathological changes is nearly impossible, mainly because of asymptomatic subjects. Notably, the asymptomatic situation in some affected persons with the mentioned disease could be due to attenuated occurred mutations in SARS-CoV-2, which needs to be clarified in future studies. Furthermore, to confirm the results of the findings, many studies need to be repeated in other regions/ locations for other people. Such studies could favor patient-specific therapy, by revealing genotyping patterns of SARS-CoV-2 distribution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Spatial modelling, risk mapping, change detection, and outbreak trend analysis of coronavirus (COVID-19) in Iran (days between",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Pourghasemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pouyan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Heidari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Farajzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R F"
+                    ],
+                    "last": "Shamsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Babaei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "98",
+            "issn": "",
+            "pages": "90--108",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A review of coronavirus disease-2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Singhal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J. Pediatr",
+            "volume": "",
+            "issn": "",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "New insights on the antiviral effects of chloroquine against coronavirus: what to expect for COVID-19?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Devaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rolain",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Colson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Raoult",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Antimicrob. Agents",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "SARS-CoV-2 cell entry depends on ACE2 and TMPRSS2 and is blocked by a clinically proven protease inhibitor",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kleine-Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kr\u00fcger",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Herrler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Erichsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "2",
+            "pages": "271--280",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiological, clinical characteristics of cases of SARS-CoV-2 infection with abnormal imaging findings",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "81--87",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Is COVID-19 receiving ADE from other coronaviruses? Microb",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tetro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect",
+            "volume": "22",
+            "issn": "",
+            "pages": "72--73",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The SARS-CoV-2 outbreak: what we know",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Infect. Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "44--48",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Clinical and epidemiological features of 36 children with coronavirus disease 2019 (COVID-19) in Zhejiang, China: an observational cohort study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect. Dis",
+            "volume": "20",
+            "issn": "6",
+            "pages": "689--696",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Clinical features of COVID-19 in elderly patients: a comparison with young and middle-aged patients",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Infect",
+            "volume": "80",
+            "issn": "6",
+            "pages": "14--18",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Variants in ACE2; potential influences on virus infection and COVID-19 severity",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bakhshandeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sorboni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Javanmard",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mottaghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mehrabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sorouri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Infect. Genet. Evol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Evidence that vitamin D supplementation could reduce risk of influenza and COVID-19 infections and deaths",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lahore",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mcdonnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Baggerly",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "French",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Aliano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nutrients",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Diabetes is a risk factor for the progression and prognosis of COVID -19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab Res Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and corona virus disease-2019 (COVID-19): the epidemic and the challenges",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hsueh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Antimicrob. Agents",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Molecular immune pathogenesis and diagnosis of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Geng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Pharm. Anal",
+            "volume": "10",
+            "issn": "2",
+            "pages": "102--108",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "All about COVID-19 in brief",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ghandi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Allameh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Saffarpour",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New Microbes New Infect",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Genotyping coronavirus SARS-CoV-2: methods and implications",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Genomics",
+            "volume": "112",
+            "issn": "5",
+            "pages": "3588--3596",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Structure, function, and antigenicity of the SARS-CoV-2 spike glycoprotein",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Walls",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tortorici",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mcguire",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Veesler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "181",
+            "issn": "2",
+            "pages": "281--292",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The natural history, pathobiology, and clinical manifestations of SARS-CoV-2 infections",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Machhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Herskovitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Senan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dutta",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nath",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oleynikov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Neuroimmune Pharmacol",
+            "volume": "",
+            "issn": "",
+            "pages": "1--28",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Wild birds as reservoirs for diverse and abundant gammaand deltacoronaviruses",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wille",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "FEMS Microbiol. Rev",
+            "volume": "44",
+            "issn": "",
+            "pages": "631--644",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Coronavirus disease 2019 (COVID-19) pandemic and pregnancy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Dashraath",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J L"
+                    ],
+                    "last": "Jeslyn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M X"
+                    ],
+                    "last": "Karen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Min",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sarah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Biswas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am. J. Obstet. Gynecol",
+            "volume": "222",
+            "issn": "6",
+            "pages": "521--531",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Genome composition and divergence of the novel coronavirus (2019-nCoV) originating in China",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Host & Microbe Commentary",
+            "volume": "27",
+            "issn": "",
+            "pages": "325--328",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Genomic analysis and comparative multiple sequences of SARS-CoV2",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chiou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Chin. Med. Assoc",
+            "volume": "83",
+            "issn": "",
+            "pages": "537--543",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Genomic characterization of a novel SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khailany",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Safdar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ozaslan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gene Rep",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Review of the 2019 novel coronavirus (SARS-CoV-2) based on current evidence",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Antimicrob. Agents",
+            "volume": "55",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2): an overview of viral structure and host response",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Astuti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Srafil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab Syndr",
+            "volume": "14",
+            "issn": "",
+            "pages": "407--412",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "An overview of coronaviruses including the SARS-2 coronavirus e Molecular biology, epidemiology and clinical implications",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Current Medicine Research and Practice",
+            "volume": "10",
+            "issn": "",
+            "pages": "54--64",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Molecular mechanism, diagnosis, and potential treatment for novel coronavirus (COVID-19): a current literature review and perspective",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ratre",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kahar",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V K S"
+                    ],
+                    "last": "Bhaskar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Verma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Biotech",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Cardiovascular disease and COVID-19. Diabetes & metabolic syndrome",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bansal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Res. Rev",
+            "volume": "14",
+            "issn": "3",
+            "pages": "247--250",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Understanding the Molecular Mechanism(s) of SARS-CoV2 Infection and Propagation in Human to Discover Potential Preventive and Therapeutic Approach",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Raj",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chandel",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Epidemiology, genetic recombination, and pathogenesis of coronaviruses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C K"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Trends Microbiol",
+            "volume": "24",
+            "issn": "",
+            "pages": "490--502",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "RNA virus mutations and fitness for survival",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Domingo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Holland",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Annu. Rev. Microbiol",
+            "volume": "51",
+            "issn": "",
+            "pages": "151--178",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Viral evolution and the emergence of SARS coronavirus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "May",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mclean",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Pattison",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Phil. Trans. Roy. Soc. Lond. B Biol. Sci",
+            "volume": "359",
+            "issn": "",
+            "pages": "1059--1065",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Geographic and genomic distribution of SARS-CoV-2 mutations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mercatelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Giorgi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front. Microbiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Emerging SARS-CoV-2 mutation hot spots include a novel RNA-dependent-RNA polymerase variant",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pachetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Marini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Benedetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Giudici",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mauro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Storici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Transl. Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Variant Analysis of COVID-19 Genomes",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Koyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Platt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Parida",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Genetic diversity and evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Genet. Evol",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Emerging SARS-CoV-2 mutation hot spots include a novel RNA-dependent-RNA polymerase variant",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pachetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Marini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Benedetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Giudici",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mauro",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Storici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Transl. Med",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Decoding the evolution and transmissions of the novel pneumonia coronavirus (SARS-CoV-2/HCoV-19) using whole genomic data",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Corlett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Zool. Res",
+            "volume": "41",
+            "issn": "",
+            "pages": "247--257",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Genetic diversity and evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect. Genet. Evol",
+            "volume": "81",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "An 81-nucleotide deletion in SARS-CoV-2 ORF7a identified from sentinel surveillance in Arizona",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Holland",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kaelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Maqsood",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Estifanos",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Varsani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Virol",
+            "volume": "94",
+            "issn": "14",
+            "pages": "711--00720",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Attenuation of replication by a 29 nucleotide deletion in SARS-coronavirus acquired during the early stages of human-to-human transmission",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Muth",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Roth",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Binger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dijkman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Gottula",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Sci. Rep",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Discovery of a 382-nt Deletion during the Early Evolution of SARS-CoV-2, bioRxiv",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Linster",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kalimuddin",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "ACE2 and TMPRSS2 Variants and Expression as Candidates to Sex and Country Differences in COVID-19 Severity in Italy, medRxiv",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Asselta",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Paraboschi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mantovani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Patient-derived Mutations Impact Pathogenicity of SARS-CoV-2, medRxiv",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Spike Mutation Pipeline Reveals the Emergence of a More Transmissible Form of SARS-CoV",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Korber",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fischer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Gnanakaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yoon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Theiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Abfalterer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Attenuated SARS-CoV-2 variants with deletions at the S1/S2 junction",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "W Y"
+                    ],
+                    "last": "Mok",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Microb. Infect",
+            "volume": "9",
+            "issn": "",
+            "pages": "837--842",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "SARS-CoV-2 and ORF3a: nonsynonymous mutations, functional domains, and viral pathogenesis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Issa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Merhi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Panossian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Salloum",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tokajian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "SARS-CoV-2 genomic variations associated with mortality rate of COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Toyoshima",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nemoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Matsumoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nakamura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kiyotani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Hum. Genet",
+            "volume": "65",
+            "issn": "12",
+            "pages": "1075--1082",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The impact of mutations in SARS-CoV-2 spike on viral infectivity and antigenicity",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "182",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Insights into the structural and dynamical changes of spike glycoprotein mutations associated with SARS-CoV-2 host receptor binding",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ahamad",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kanipakam",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Biomol. Struct. Dyn",
+            "volume": "",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Evolutionary analysis of SARS-CoV-2: how mutation of Non-Structural Protein 6 (NSP6) could affect viral autophagy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benvenuto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Angeletti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Giovanetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bianchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pascarella",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cauda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Infect",
+            "volume": "81",
+            "issn": "",
+            "pages": "24--27",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Possible influencing factors on variable symptoms and severity of COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Classification and outbreaks of coronaviruses in human society.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The genomic organization of SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Schematic structure of SARS-CoV-2 with the minimal set of structural proteins.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Linear positions of the reported mutations in various regions of the SARS-CoV-2 genome.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Some reported mutations in various parts of SARS-CoV-2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Correlation of SARS-CoV-2 mutations with pathogenicity.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors received no specific funding for this work.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The authors declare no conflicts of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        }
+    ]
+}

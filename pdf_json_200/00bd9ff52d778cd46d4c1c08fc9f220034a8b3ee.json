@@ -1,0 +1,1128 @@
+{
+    "paper_id": "00bd9ff52d778cd46d4c1c08fc9f220034a8b3ee",
+    "metadata": {
+        "title": "Correlation between laboratory parameters on admission and outcome of COVID-19 in maintenance hemodialysis patients",
+        "authors": [
+            {
+                "first": "Weifeng",
+                "middle": [],
+                "last": "Shang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yuanyuan",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hua",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chengxu",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yuan",
+                "middle": [],
+                "last": "Cai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Junwu",
+                "middle": [],
+                "last": "Dong",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Purpose This present study aims to investigate the relationship between laboratory parameters on admission and prognosis of coronavirus disease 2019 in maintenance hemodialysis patients, as well as providing a theoretical basis for clinical evaluation of prognosis and corresponding intervention measures. Methods Retrospective analysis was performed on the clinical data of 47 maintenance hemodialysis patients who infected with COVID-19 and admitted to our hospital. According to their clinical outcome, these patients were divided into a survival group (n = 38) and a fatality group (n = 9). Information on the general condition and laboratory parameters of the patients were collected. Laboratory parameters were compared between different groups. The area under the curve (AUC) was used to evaluate the prognosis of COVID-19 in maintenance hemodialysis patients. Results Statistically significant differences were observed in age, white blood cell count, neutrophil count, albumin, C-reactive protein (CRP), procalcitonin, and lactate dehydrogenase (LDH) on admission (P < 0.05). Receiver operating characteristic (ROC) curve analysis showed that the values of AUC of CRP, neutrophil count, LDH, white blood cell count, albumin, and procalcitonin were 0. 895, 0.813, 0.758, 0.757, 0.743, and 0.728, respectively. Conclusions Laboratory parameters including CRP, neutrophil count, LDH, white blood cell count, albumin, and procalcitonin were predictive on the prognosis of maintenance hemodialysis patients with COVID-19. Among them, CRP was the strongest single predictive laboratory indicator.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In late 2019, a series of pneumonia cases of unknown cause were recognized in Wuhan, Hubei Province, China. By Jan 7, 2020, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), previously known as 2019 novel coronavirus (2019-nCoV), was detected in samples of bronchoalveolar lavage fluid from a patient in Wuhan [1, 2] . On February 11, 2020, the world health organization officially named the disease caused by SARS-CoV-2 as coronavirus disease 2019 . COVID-19 is a major infectious disease that seriously endangers the health of people. As of April 6, 2020, a total of 81,740 cases of COVID-19 have been confirmed and 3331 patients have died of the disease in China [3] . COVID-19 is primarily manifested as an acute respiratory illness but it can affect multiple organs [4] . Previous studies have suggested that the elderly and those with underlying diseases were susceptible to COVID-19 infection, and more likely to become critical cases or decrease [5] . Wang's et al. study indicated that hemodialysis patients were at great risk of COVID-19 infection [6] . However, there is limited information regarding the prognosis of COVID-19 in maintenance hemodialysis patients. Therefore, we studied the association between laboratory parameters on the day of hospital admission and fatality of COVID-19 in maintenance hemodialysis patients. We hope that our findings could be helpful in finding key indicators of disease progression and unfavorable outcome, as well as providing guidance for subsequent clinical practice.",
+            "cite_spans": [
+                {
+                    "start": 322,
+                    "end": 325,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 326,
+                    "end": 328,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 678,
+                    "end": 681,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 783,
+                    "end": 786,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 966,
+                    "end": 969,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1070,
+                    "end": 1073,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "COVID-19 in maintenance hemodialysis patients who were discharged or died in Wuhan Fourth Hospital from February 3 to April 4, 2020 were enrolled in this study. Clinical data of these patients were retrospectively collected and analyzed. All patients enrolled in this study were not less than 18 years old, who were diagnosed with COVID-19 according to the guidance provided by the Chinese National Health Committee(trial version 5 revision). The clinical diagnosis criteria of Hubei Province were as follows: (1) fever or respiratory symptoms; (2) leukopenia or lymphopenia; (3) abnormal imaging of the lung. Those with \u2265 2 clinical criteria and/or a positive result on real-time polymerase chain reaction (PCR) assay or high throughput sequencing were diagnosed with COVID-19 [7] . Exclusion criteria: patients with acute kidney injury undergoing temporary hemodialysis; patients transferred to other hospitals during treatment; pneumonia caused by infection with other pathogens. Throat-swab specimens were obtained for SARS-CoV-2 real-time PCR in every patient. The final date of follow-up was April 5, 2020.",
+            "cite_spans": [
+                {
+                    "start": 778,
+                    "end": 781,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "Clinical data of the patients were collected from electronic medical records, including age, sex, previous medical history, laboratory findings [complete blood count; liver and renal function tests; C-reactive protein (CRP), procalcitonin, and lactate dehydrogenase (LDH) on the day of hospital admission], results of common bacterial and viral pathogens causing pneumonia, results of SARS-CoV-2 real-time PCR on throat swab specimens, and chest computed tomographic (CT) manifestations. The patients were divided into a survival group and a fatality group according to the clinical outcome.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Epidata 3.1 software was used for data collecting. Data input was performed twice for a double check to ensure accuracy. Categorical data were presented as counts and percentages, and the Chi-square test was used for comparison between groups. For the data of continuous variables, the normality test (Kolmogorov-Smirnov test) was first conducted. Nonnormally distributed continuous data were expressed by median (IQR) and the rank-sum test in the nonparametric test was used for pairwise comparison. Normally distributed continuous data were expressed as mean \u00b1 standard deviation and the t test was used for pairwise comparison. Spearman rank correlation coefficient was used to describe the correlation with outcome variables. We depicted the receiver operating characteristic (ROC) curve and calculate the area under the curve (AUC) to evaluate the accuracy of the laboratory index in predicting the prognosis of COVID-19 in maintenance hemodialysis patients. All statistical analyses were performed using IBM SPSS statistics version 21.0, and P < 0.05 was considered significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "between survival group and fatality group of COVID-19 in maintenance hemodialysis patients A total of 47 cases were included in this study, including 30 males and 17 females. The average age was 59.7 \u00b1 15.3 years. Results of common bacterial and viral pathogens causing pneumonia were negative in all patients. 20 patients were tested positive for SARS-CoV-2 by PCR. Comorbidities were present in all patients, with hypertension being the most common comorbidity. This study revealed that there were no statistically significant differences in gender distribution, hospital length of stay, lymphocyte count, platelet count, and D-dimer between the two groups (P > 0.05). However, there were statistically significant differences in age, white blood cell count, neutrophil count, albumin, CRP, procalcitonin, and LDH on admission (P < 0.05) ( Table 2 , the above laboratory parameters were of the certain value in predicting the prognosis of COVID-19 in maintenance hemodialysis patients (P < 0.05). The AUC, 95% CI, optimal threshold, sensitivity, specificity and Youden index of each parameter were shown in Table 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 842,
+                    "end": 849,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1109,
+                    "end": 1116,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Comparison of baseline data and laboratory parameters"
+        },
+        {
+            "text": "There were six previously identified coronaviruses that infected humans, four of which were more common and less pathogenic in humans. The other two were known as SARS-coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV), which caused severe respiratory diseases. The mortality of SARS has been reported as more than 10% and MERS at more than 35% [8, 9] . The SARS-CoV-2 was known as the seventh human coronavirus. The case fatality rate among hospitalized COVID-19 patients was reported to be 4.3-15% [5, [10] [11] [12] [13] , while the case fatality rate of COVID-19 in maintenance hemodialysis patients was 25-41% [14] [15] [16] . Our study showed that the case fatality rate of COVID-19 in maintenance hemodialysis patients was 19.1%. The mortality rate was much higher than that observed in the general population. Therefore, it is crucial to identify specific serological indicators for treatment decisions.",
+            "cite_spans": [
+                {
+                    "start": 377,
+                    "end": 380,
+                    "text": "[8,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 381,
+                    "end": 383,
+                    "text": "9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 532,
+                    "end": 535,
+                    "text": "[5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 536,
+                    "end": 540,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 541,
+                    "end": 545,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 546,
+                    "end": 550,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 551,
+                    "end": 555,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 647,
+                    "end": 651,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 652,
+                    "end": 656,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 657,
+                    "end": 661,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In terms of laboratory tests, the main characteristics of COVID-19 in maintenance hemodialysis patients were normal white blood cell count, normal neutrophil count, normal platelet count, decreased lymphocyte count, decreased albumin, increased CRP, increased procalcitonin, and increased LDH and D-dimer. For those who died, the white blood cell count, neutrophil count, CRP, procalcitonin, and LDH were Table 1 Comparison of demographic data and laboratory parameters of survival and fatality groups *One cell had expectation values between 1 and 5, thus Chi-square test for continuity correction was used # LDH was absent in 14 patients (13 in the survival group and one in the fatality group). D-dimer was absent in five patients (four in the survival group and one in the fatality group) Table 2 The AUC and optimal threshold of each related variable # LDH was absent in 14 patients (13 in the survival group and one in the fatality group), and the ROC curve was used to analyze the data of 33 patients; * The Youden index was calculated based on the sensitivity and specificity of the ROC curve, and the cut-off point with higher sensitivity was selected as the optimal threshold among several points with relatively large Youden index all significantly higher than that in the survival group, but the albumin was lower than that in the survival group. Elevated CRP and procalcitonin may indicate a secondary bacterial infection in the clinical course of hemodialysis patients with COVID-19. Low albumin and high LDH suggested poor prognosis for COVID-19 in hemodialysis patients, as well as COVID-19 patients without hemodialysis [17] .",
+            "cite_spans": [
+                {
+                    "start": 1637,
+                    "end": 1641,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 405,
+                    "end": 412,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 793,
+                    "end": 800,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study showed an association between laboratory parameters on admission and poor outcome for COVID-19 in hemodialysis patients. We found that white blood cell count, neutrophil count, albumin, CRP, procalcitonin, and LDH were all associated with the prognosis of COVID-19 in maintenance hemodialysis patients. Previous studies suggested that lymphopenia were a predictor of prognosis in COVID-19 patients [18] . However, our study showed no association between lymphopenia and prognosis of COVID-19 in maintenance hemodialysis patients. The reason may be that hemodialysis patients exist peripheral blood lymphopenia, which is accompanied by decreased lymphocyte proliferative response when stimulated by different antigens [19] .",
+            "cite_spans": [
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 727,
+                    "end": 731,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this study, the ROC curve was used to analyze the prognostic value of laboratory indicators. The AUC of white blood cell count, neutrophil count, albumin, CRP, procalcitonin, and LDH ranged from 0.728 to 0.895. The AUC of CRP was the largest. The optimal working point was 45.2 mg/L, and the sensitivity and specificity to predict the prognosis of maintenance hemodialysis patients infected with COVID-19 were 88.9% and 68.4%, respectively. CRP is a useful inflammatory marker and indicator that plays an important role in host resistance to invasive pathogens and inflammation [20] . CRP is highly correlated with acute lung injury in 2019-nCoVinfected patients [21] . Besides, higher CRP has been linked to unfavorable aspects of COVID-19 diseases, such as cardiac injury, and acute respiratory distress syndrome development, and fatality [22] [23] [24] . Therefore, the detection of CRP levels in COVID-19 with maintenance hemodialysis patients is of great value in assessing the severity of their condition.",
+            "cite_spans": [
+                {
+                    "start": 581,
+                    "end": 585,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 666,
+                    "end": 670,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 844,
+                    "end": 848,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 849,
+                    "end": 853,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 854,
+                    "end": 858,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Several limitations of this study should be acknowledged. First, our study was a single-center retrospective study and some patients were clinically diagnosed with COVID-19, which may affect the generalization of the results due to the limitation of enrolled patients. Second, some important laboratory results were incomplete. Finally, we did not conduct logistic regression analysis due to the small sample size, therefore, we cannot evaluate the effect of other clinical indicators other than laboratory parameters, especially age, on the results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Predictors of a fatal outcome in maintenance hemodialysis patients with COVID-19 included white blood cell count, neutrophil count, albumin, CRP, procalcitonin, and LDH. Among them, CRP was the strongest single predictive laboratory predictor. At present, a specific antiviral drug for COVID-19 is not available, and the fatality rate is still high. Moreover, the fatality rate of COVID-19 was even higher in maintenance hemodialysis patients. Therefore, clinicians should increase their awareness of COVID-19 in hemodialysis patients. Early detection and effective intervention might be a benefit on reducing mortality of COVID-19 in maintenance hemodialysis patients. Besides, effective medical measures are needed to prevent the spread of COVID-19 in hemodialysis centers, such as body temperature measurement when entering the hemodialysis ward, wearing a medical mask during hemodialysis, COVID-19 patients isolation by admission to designated hemodialysis centers.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "2020) A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "New Eng J Med",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--733",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "7798",
+            "pages": "265--269",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "National Health Commission of the People's Republic of China",
+            "authors": [],
+            "year": 2020,
+            "venue": "Update on novel coronavirusinfected pneumonia situation as of 24:00 on",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Kidney disease is associated with in-hospital death of patients with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney Int",
+            "volume": "97",
+            "issn": "5",
+            "pages": "829--838",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.kint.2020.03.005"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Lancet",
+            "volume": "395",
+            "issn": "20",
+            "pages": "30183--30188",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 in hemodialysis patients: a report of 5 cases",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Kidney Dis",
+            "volume": "76",
+            "issn": "1",
+            "pages": "141--143",
+            "other_ids": {
+                "DOI": [
+                    "10.1053/j.ajkd.2020.03.009"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "New coronavirus pneumonia prevention and control program (trial version 5 revision)",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "2/d4b89 5337e 19445 f8d72 8fcaf 1e3e1 3a/files /ab6be c7f93 e64e7 f998d 80299 1203c d6",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "From SARS to MERS Thrusting Coronaviruses into the Spotlight",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11010059"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "MERS, SARS and other coronaviruses as causes of pneumonia",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wunderink",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Respirology",
+            "volume": "23",
+            "issn": "2",
+            "pages": "130--137",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/resp.13196"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus-Infected Pneumonia in Wuhan China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "11",
+            "pages": "1061--1069",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Clinical characteristics of novel coronavirus cases in tertiary hospitals in Hubei Province",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin Med J",
+            "volume": "133",
+            "issn": "9",
+            "pages": "1025--1031",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CM9.0000000000000744"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30211--30218",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Clinical features of 69 cases with coronavirus disease 2019 in Wuhan China",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis Off Publ Infect Dis Soc Am",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa272"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Covid-19 and its impact on nephropathic patients: the experience at Ospedale \"Guglielmo da Saliceto\" in Piacenza",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Scarpioni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Manini",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Valsania",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "G Ital Nefrol: Organo Uff Della Soc Ital Nefrol",
+            "volume": "37",
+            "issn": "2",
+            "pages": "2020--2022",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "COVID-19: clinical course and outcomes of 36 hemodialysis patients in Spain",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Goicoechea",
+                    "suffix": ""
+                },
+                {
+                    "first": "S\u00e1nchez",
+                    "middle": [],
+                    "last": "C\u00e1mara",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mac\u00edas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Kidney Int",
+            "volume": "98",
+            "issn": "1",
+            "pages": "27--34",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.kint.2020.04.031"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Managing patients in dialysis and with kidney transplant infected with Covid-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Alberici",
+                    "suffix": ""
+                },
+                {
+                    "first": "Del",
+                    "middle": [],
+                    "last": "Barba",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Manenti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "G Ital Nefrol",
+            "volume": "37",
+            "issn": "2",
+            "pages": "117--120",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Hematological findings and complications of COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Terpos",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ntanasis-Stathopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Elalamy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Hematol",
+            "volume": "95",
+            "issn": "7",
+            "pages": "834--847",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ajh.25829"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Lymphopenia predicts disease severity of COVID-19: a descriptive and predictive study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Signal Trans Targeted Ther",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41392-020-0148-4"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Comparative analysis of immunophenotypic abnormalities in cellular immunity of uremic patients undergoing either hemodialysis or continuous ambulatory peritoneal dialysis",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Griveas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Visvardis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fleva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Ren Fail",
+            "volume": "27",
+            "issn": "3",
+            "pages": "279--282",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "C-reactive protein and inflammation: conformational changes affect function",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Potempa",
+                    "suffix": ""
+                },
+                {
+                    "first": "El",
+                    "middle": [],
+                    "last": "Kebir",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Biol Chem",
+            "volume": "396",
+            "issn": "11",
+            "pages": "1181--1197",
+            "other_ids": {
+                "DOI": [
+                    "10.1515/hsz-2015-0149"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Clinical and biochemical indexes from 2019-nCoV infected patients linked to viral loads and lung injury",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci China Life Sci",
+            "volume": "63",
+            "issn": "3",
+            "pages": "364--374",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11427-020-1643-8"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Inter Med",
+            "volume": "180",
+            "issn": "7",
+            "pages": "1--11",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamainternmed.2020.0994"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Association of cardiac injury with mortality in hospitalized patients with COVID-19 in Wuhan China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Cardiol",
+            "volume": "5",
+            "issn": "7",
+            "pages": "802--810",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamacardio.2020.0950"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Clinical characteristics of fatal and recovered cases of coronavirus disease 2019 in Wuhan, China: a retrospective study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Chin Med J",
+            "volume": "133",
+            "issn": "11",
+            "pages": "1261--1267",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/cm9.0000000000000824"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": ". 2. Spearman's rank correlation analysis In the present study, Spearman's rank correlation analysis manifested that the values of white blood cell count, neutrophil count, CRP, procalcitonin, and LDH were positively correlated with the prognosis of COVID-19 in maintenance The predictive value of each laboratory index on the prognosis of COVID-19 in maintenance hemodialysis patients In this study, as shown in",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank all the hospital staff for their",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

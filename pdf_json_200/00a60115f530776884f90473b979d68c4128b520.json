@@ -1,0 +1,3416 @@
+{
+    "paper_id": "00a60115f530776884f90473b979d68c4128b520",
+    "metadata": {
+        "title": "Evaluation of sampling frequency and normalization of SARS-CoV-2 wastewater concentrations for capturing COVID-19 burdens in the community",
+        "authors": [
+            {
+                "first": "Shuchen",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Milwaukee",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Adelaide",
+                "middle": [],
+                "last": "Roguet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Milwaukee",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jill",
+                "middle": [
+                    "S"
+                ],
+                "last": "Mcclary-Gutirrez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Milwaukee",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ryan",
+                "middle": [
+                    "J"
+                ],
+                "last": "Newton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Milwaukee",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nathan",
+                "middle": [],
+                "last": "Kloczko",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Madison, Evanston",
+                        "region": "Wisconsin, Illinois"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jonathan",
+                "middle": [
+                    "G"
+                ],
+                "last": "Meiman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Northwestern University",
+                    "location": {
+                        "settlement": "Madison, Evanston",
+                        "region": "Wisconsin, Illinois"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sandra",
+                "middle": [
+                    "L"
+                ],
+                "last": "Mclellan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Wisconsin-Milwaukee",
+                    "location": {
+                        "settlement": "Milwaukee",
+                        "region": "Wisconsin"
+                    }
+                },
+                "email": "mclellan@uwm.edu\u2020current"
+            },
+            {
+                "first": "Sandra",
+                "middle": [],
+                "last": "Mclellan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Wastewater surveillance for SARS-CoV-2 provides an approach for assessing the infection burden across a city. For these data to be useful for public health, measurement variability and the relationship to case data need to be established. We measured SARS-CoV-2 RNA concentrations in the influent of twelve wastewater treatment plants from August 2020 to January 2021. Replicate samples demonstrated that N1 gene target concentrations varied by \u00b121% between technical replicate filters and by \u00b114% between duplicate assays. COVID-19 cases were correlated significantly (rho\u22650.70) to wastewater SARS-CoV-2 RNA concentrations for seven plants,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "including large and small cities. SARS-CoV-2 data normalized to flow improved correlations to reported COVID-19 cases for some plants but normalizing to a spiked recovery control (BCoV) or a fecal marker (PMMoV or HF183) generally reduced correlations. High frequency sampling demonstrated that a minimum of two samples collected per week was needed to maintain accuracy in trend analysis. We found a significantly different ratio of COVID-19 cases to SARS-CoV-2 loads in one of three large communities, suggesting a higher rate of undiagnosed cases. These data demonstrate that SARS-CoV-2 wastewater surveillance can provide a useful community-wide metric to assess the course of the COVID-19 pandemic. : medRxiv preprint progression through communities. Following the first reports of SARS-CoV-2 RNA detection in untreated sewage [5] , wastewater surveillance has emerged as a promising tool for measuring community-wide levels of SARS-CoV-2, the virus responsible for COVID-19 [6] . As wastewater testing is not influenced by the availability of clinical testing resources, access to testing, or healthcare-seeking behavior, measuring SARS-CoV-2 concentrations in wastewater has the potential to offer insight into infection trends in the community that clinical testing might not capture.",
+            "cite_spans": [
+                {
+                    "start": 832,
+                    "end": 835,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 980,
+                    "end": 983,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Wastewater surveillance has the potential to offer cost-effective monitoring of SARS-CoV-2 prevalence at the population level, but there are still a number of challenges to overcome before it can be used effectively. Although SARS-CoV-2 is primarily a respiratory pathogen, it is also shed in feces at concentrations up to 10 7 copies per gram [7, 8] , which allows the viral RNA to be detected readily in wastewater treatment plant influent. However, SARS-CoV-2 concentrations in feces vary widely among infected individuals and over the course of infection [7,8], which makes it difficult to extrapolate the number of infected individuals from wastewater concentrations. For example, using the reported shedding rates, which span five orders of magnitude, detection of the virus in wastewater could represent 100 to 6 million infected individuals [9]. Although empirical infection prevalence estimates have not yet been achieved with wastewater surveillance, retrospective analysis has demonstrated that SARS-CoV-2 RNA concentrations in wastewater treatment plant (WWTP) influent or wastewater solids correlate to clinical case trends [10-13].",
+            "cite_spans": [
+                {
+                    "start": 344,
+                    "end": 347,
+                    "text": "[7,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 348,
+                    "end": 350,
+                    "text": "8]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Therefore, in instances when there are delays in reporting of diagnosed cases, wastewater can provide an early warning of later events such as hospitalizations or can indicate infection trends in communities with limited clinical testing resources [9, 10, 14, 15] .",
+            "cite_spans": [
+                {
+                    "start": 248,
+                    "end": 251,
+                    "text": "[9,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 252,
+                    "end": 255,
+                    "text": "10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 260,
+                    "end": 263,
+                    "text": "15]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The COVID-19 global pandemic has been challenging to control and marked by unchecked transmission and rapid spread. Community-wide burdens of COVID-19 have been difficult to assess, especially with limited availability of clinical testing at the beginning of the pandemic and spread by asymptomatic carriers [1, 2] , which has been reported to be as high as 30% [3, 4] . These difficulties result in under-ascertainment of cases and complicate tracking the transmission One major challenge to implementing widespread SARS-CoV-2 wastewater surveillance is the lack of a standard method. Enveloped viruses partition between the solid and liquid phases in waste streams [16] and research is underway to evaluate concentration methods for these viruses in wastewater [17, 18] . Using common controls can allow for comparison of results across different methods or laboratories [19] . A variety of surrogates have been used to estimate recovery, including bovine coronavirus (BCoV) [12, 17] , bovine respiratory syncytial virus (BRSV) [20] , and human coronavirus (OC43) [21] . In addition, normalizing SARS-CoV-2 RNA concentrations to WWTP flow, the estimated amount of human fecal material in the samples (the fecal strength), and/or the population contributing to the viral load is needed to compare across samples and WWTPs. One promising candidate for normalizing SARS-CoV-2 concentration data is the pepper mild mottle virus (PMMoV), found in high concentrations in sewage [22] . This fecal marker is introduced into humans through the diet [23] and is attractive because, as a single stranded RNA virus, it may also serve as a RNA recovery control. Overall, it is critical to determine the technical variability in SARS-CoV-2 RNA measurements in day-to-day samples to enable timely interpretation of these data, i.e., How much of a change can be attributed to sampling or measurement variability versus changes in the community SARS-CoV-2 loads?",
+            "cite_spans": [
+                {
+                    "start": 308,
+                    "end": 311,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 312,
+                    "end": 314,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 366,
+                    "end": 368,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 667,
+                    "end": 671,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 763,
+                    "end": 767,
+                    "text": "[17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 768,
+                    "end": 771,
+                    "text": "18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 873,
+                    "end": 877,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 977,
+                    "end": 981,
+                    "text": "[12,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1030,
+                    "end": 1034,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1066,
+                    "end": 1070,
+                    "text": "[21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1474,
+                    "end": 1478,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1542,
+                    "end": 1546,
+                    "text": "[23]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this study, we examined the ability of wastewater surveillance to capture community trends in SARS-CoV-2 burdens. Intensive sampling was used to understand methodological variability and identify optimal sampling frequency that balances information gained with laboratory resources.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We also assessed how recovery controls correlated to SARS-CoV-2 RNA detection and examined the usefulness of PMMoV and Human Bacteroides to normalize samples to fecal input. We also compared diagnosed COVID-19 cases to SARS-CoV-2 RNA concentrations in 12 WWTPs in Wisconsin, USA, from late summer 2020 to January 2021, which captured the November 2020 surge in cases reaching 100+ cases per 100,000 inhabitants, compared with ~10 cases per 100,000 before the rise.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Sample collection A total of 418 sewage influent samples were collected between August 30, 2020 and January 20, 2021 from 12 WWTPs in 10 cities in Wisconsin, United States ( Table 1) . Flowor time-weighted composite samples were collected one to two time per week over a 24-hour period by each WWTP according to the plant standard collection procedures and then transferred to 250-or 500-mL bottles. Samples were stored at 4\u00b0C prior to overnight shipping on ice. Upon arrival at the laboratory, samples were stored at 4\u00b0C before processing within 5 h. Influent chemical/physical measurements were taken by WWTP operators employing their routine procedures.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 95,
+                    "text": "August 30, 2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 174,
+                    "end": 182,
+                    "text": "Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "We also conducted a three-week high frequency sampling campaign from September 13, 2020 and Samples were filtered in replicate for a subset of samples (167 of 418), including the high frequency sampling period. The 50 mL tubes were kept on ice until they were filtered through 0.8 \u00b5m cellulose esters HA filters (47 mm diameter; MF-Millipore, Carrigtwohill, Ireland). HA filters were transferred to a 2-mL ZR BashingBead Lysis tube (Zymo, Irvine, CA, USA) containing 650 \u00b5L of PM1 lysing buffer from the RNeasy PowerMicrobiome Kit (Qiagen, Hilden, Germany).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "BashingBead lysis tubes were placed at -80\u00b0C for a minimum of 2 h or up to overnight before nucleic acid extraction. While the filters were still frozen, 6.5 \u00b5L of \u03b2-mercaptoethanol (Sigma-Aldrich, St. Louis, MO, USA) was added to each filter tube. The BashingBead lysis tubes were then bead-beat using a mini beadbeater (Biospec Products, Bartlesville, OK, USA) in two runs of 2.5 min with a 5 min rest on ice in between and also after each run. After bead-beating, total nucleic acids (DNA and RNA) were extracted from the HA filters using the RNeasy PowerMicrobiome kit following the manufacturer's instructions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "We also performed direct extractions (DE) on sewage influent samples and compared these to the samples processed using HA filters to assess HA filtering efficiency and recovery. Recovery of BCoV and PMMoV using HA filters was 7\u00b14% and 45\u00b126%, respectively (see Supplemental Text 2). The recovery efficiency of N1 and N2 could not be calculated owing to the unique sample above the limit of quantification from the direct extractions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Optimization of filtration and extraction methods are described in Supplemental Text 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Reverse transcriptase digital droplet PCR We used one-step reverse transcription droplet digital PCR (RT-ddPCR) to target the N1 and N2 regions of the SARS-CoV-2 N gene using primer and probe sets designed by the Centers for Disease Control and Prevention (CDC) [24] . All reactions were set up following the one-step RT-ddPCR Advanced Kit for Probes (Bio-Rad, Hercules, CA) manufacturer's instructions using the Mastercycler pro (Eppendorf, Hamburg, Germany) and the BioRad QX200 Droplet Digital System. Additional information is available in Table S1 . Raw droplet amplification data were extracted from the QuantaSoft Analysis BioRad software and processed using the R package twoddpcr v1.11.0 [25] . For all assays, we ran a no template control using nuclease-free water. For the N1/N2 duplex assay, an additional positive control using a 1:8 diluted Exact Diagnostics SARS-CoV-2 standard (Bio-Rad, Hercules, CA) was included in each run. The limit of detection (LOD) and limit of quantification (LOQ) were determined for the N1 and N2 assays (see Supplemental text 1). BCoV and PMMoV concentrations were determined in each sample using published assays [23, 26] . Inhibition was evaluated in a subset of 75 samples by spiking in a known amount of BRSV into samples or DI water and quantified by RT-ddPCR [20] (see Supplemental Text 1 for details). No inhibition was observed for any samples tested.",
+            "cite_spans": [
+                {
+                    "start": 262,
+                    "end": 266,
+                    "text": "[24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 697,
+                    "end": 701,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1158,
+                    "end": 1162,
+                    "text": "[23,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1163,
+                    "end": 1166,
+                    "text": "26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1309,
+                    "end": 1313,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 544,
+                    "end": 552,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Methods"
+        },
+        {
+            "text": "Bacteroides HF183 [27] were used to indicate the fecal strength of each sample ( Table S1 ). The HB assay [28] was used to detect the HF183 marker. Sample extracts were diluted 1:10 for PMMoV and 1:100 for the HB assay. The PMMoV assay was performed according to the onestep RT-ddPCR procedure as described above; for each run, at least one no template control (NTC) well was added. Samples within the three-week high-frequency sampling period were run in duplicate for PMMoV and in single wells thereafter. The HB assay was run in duplicate for all samples using quantitative PCR (qPCR) as previously described [28] . For each HB assay run, positive controls, internal controls, and a NTC were used. The HB standard curve had a Y-intercept of 37.14, a slope of -3.37, and an efficiency of 99.36%. Statistical analysis All statistical analysis was performed using R v3.6.3 [29] . Unless specified, we only used quantifiable data, i.e., above the LOQ in analyses. To assess the importance of the assay, filter and consecutive day sampling on SARS-CoV-2 measured concentration variation, we calculated the relative standard deviation (RSD) between replicate assays, replicate filters, and from samples collected over two consecutive days, respectively. We evaluated the total measurement variability explained by the assay, filter, sample and WWTP factors using a nested variance component analysis from six WWTPs for which we evaluated replicate assays and filters.",
+            "cite_spans": [
+                {
+                    "start": 18,
+                    "end": 22,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 106,
+                    "end": 110,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 612,
+                    "end": 616,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 873,
+                    "end": 877,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 81,
+                    "end": 89,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Human markers Two human fecal markers, pepper mild mottle virus (PMMoV) [23] and human"
+        },
+        {
+            "text": "We conducted a one-way analysis of variance (ANOVA) followed by Tukey's post-hoc test to explore the difference between BCoV recovery rate and PMMoV and HF183 concentrations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID"
+        },
+        {
+            "text": "ANOVA was also used to assess the difference in the ratio of diagnosed cases per capita to SARS-CoV2 loads per capita. Monte Carlo simulations were used to evaluate the impacts of different sampling schemes on observed trends during the three-week high frequency sampling period at the Milwaukee JI facility. For the analysis below, N1 and N2 concentration below the LOQ were included. However, when all assays were below the LOD for a given sample, averaged concentrations were censored, i.e., LOD concentration was divided by two. Spearman's rank correlation coefficient was used to determine the relationship between wastewater N1/N2 All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint concentration and COVID-19 case data, as well as wastewater N1/N2 concentrations normalized by dividing to BCoV recovery rate, HF183 and PMMoV concentrations, or normalized per capita (N1N2*flow:population served). To determine whether there is a lead time for wastewater concentration changes compared to clinical cases, we compared correlation coefficients between wastewater N1 concentrations and cases offest by -7 to +7 days. T-test was used to assess differences in correlations with a negative or positive offset. Statistical methodology is detailed in Supplemental Text 3.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID"
+        },
+        {
+            "text": "The SARS-CoV-2 N1 assay is more sensitive than N2 A significant positive correlation was observed between the N1 and N2 concentrations across all measured wastewater samples (Spearman's rank correlation coefficient, rho = 0.86, n = 410, P < 0.001). The ratio of N1 to N2 in these samples was 1.83 +/-0.72 (mean \u00b1 SD). The shift from a single to double quenched probe for N2 improved the limit of detection (from 5 droplets to 3 droplets) due to a better discrimination between the negative and positive droplets ( Figure S1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 514,
+                    "end": 523,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Even with this improvement, N2 was not as sensitive as N1, as the methodological change did not affect the limit of quantification (9 droplets for N2-single quenched probe while 10 droplets for the double quenched probe). Because of the high correlation between N1 and N2 and the efficiency of the N1 assay, we primarily focused on N1 concentrations for further analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "To determine the sources and levels of variability in the N1 measurements, we first measured the N1 concentration in assay replicates. Using only samples with concentrations above the LOQ, the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Assessment of variability in SARS-CoV-2 detection and sources of variance for quantifiable data"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Assessment of variability in SARS-CoV-2 detection and sources of variance for quantifiable data"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint median relative standard deviation (RSD) between N1 assay replicates was 14% (Figure 1) . In duplicate filters the median RSD was 21%, while it was 23% for samples collected on two consecutive days (Figure 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 223,
+                    "end": 233,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 344,
+                    "end": 353,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Assessment of variability in SARS-CoV-2 detection and sources of variance for quantifiable data"
+        },
+        {
+            "text": "Nested variance component analysis was performed using quantifiable data to quantify and compare the variability in measured N1 concentrations introduced by the assay, filters, and between samples collected over two consecutive days (Sunday-Monday) ( Figure S2 ). The total N1 variance was mostly attributable to the difference between samples (explaining 53% of the total variance), while the assay and filter factors contributed equally, explaining 24% and 22% of the total variance, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 251,
+                    "end": 260,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Assessment of variability in SARS-CoV-2 detection and sources of variance for quantifiable data"
+        },
+        {
+            "text": "The BCoV recovery rate across the time-series monitoring for all 12 WWTPs was on average 4.9 \u00b1 4.2% (mean \u00b1 SD). However, a significant difference was observed between the facilities ( Figure S4 , ANOVA, F(11) = 26.91, P < 0.001), with some WWTPs having more consistent recovery than others: e.g., Waukesha ranged from 0.21 to 3.0% (n=41) compared with Milwaukee Jones Island, which ranged from 0.89 to 28.0% (n=51). This recovery was not correlated to the total suspended solid concentrations in samples (Spearman, n=381, rho = -0.25).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 194,
+                    "text": "Figure S4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Role of recovery controls in SARS-CoV-2 wastewater detection and quantification"
+        },
+        {
+            "text": "We also examined the recovery of PMMoV from WWTP samples. The concentration across all samples was on average of 7.2 \u00b1 0.3 log10 cp/L (geometric mean \u00b1 SD). Similar to BCoV, a significant difference in PMMoV concentrations was observed between the WWTPs (Figure S4 , ANOVA, F(11) = 10.76, P < 0.001). Direct extraction of wastewater samples also resulted in similar differences in PMMoV concentrations between WWTPs (see Supplemental Text 2), All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 254,
+                    "end": 264,
+                    "text": "(Figure S4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Role of recovery controls in SARS-CoV-2 wastewater detection and quantification"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. suggesting that these differences represent variation in human fecal marker loads and were not a function of methodological variability.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of recovery controls in SARS-CoV-2 wastewater detection and quantification"
+        },
+        {
+            "text": "Samples processed on duplicate filters were used to assess the power of the recovery controls to correct for within-sample SARS-CoV-2 concentration variation. For this analysis, we compared the RSD of BCoV recovery rate and PMMoV concentrations to N1 concentrations between replicate filters of the same sample. Both BCoV and PMMoV poorly explained N1 variation (Spearman's rank correlation coefficients, BCoV, n = 62, rho = 0.11; PMMoV, n = 55, rho = 0.17), suggesting neither of these constituents mimic recovery of the SARS-CoV-2 enveloped virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of recovery controls in SARS-CoV-2 wastewater detection and quantification"
+        },
+        {
+            "text": "During our high-frequency data collection (i.e., 5 days per week with replicate filtration), we observed a steady and significant increase (~0.5 log10 cp/100 mL) in N1 concentrations at the Jones Island facility that corresponded to an increase in clinical case levels, allowing us to investigate the impact that a reduced sampling frequency and altered sampling scheme (days of the week) had on this observed trend (see Supplemental Text 3). We created a series of Monte Carlo simulations where, in each case, data points were simulated using a uniform distribution between the minimum and maximum SARS-CoV-2 N1 concentrations observed on each day and reducing either the number of replicates or the number of days sampled. By reducing to single data points per day (i.e., simulating a single filtration as opposed to duplicate filtration), a significant trend was still observed in >99% of simulations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "High frequency sampling to determine optimal sampling design"
+        },
+        {
+            "text": "The number of days sampled were adjusted either by clustering sampling at the beginning of the week or by spreading sampling throughout the week at different frequencies. By clustering samples at the beginning of the week, a reduction to 4 or 3 days of sampling (compared to 5) had All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "High frequency sampling to determine optimal sampling design"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. negligible impact on the observed trend, with >99% of simulations still resulting in a significantly increasing concentration (Figure 2) . However, sampling only on one or two days weekly at the beginning of each week resulted in a greater loss in significance for the observed trends simulated, with 62% and 44% of simulations resulting in no observable increased trend for one or two days sampled, respectively. By spreading sampling dates through the course of a week, a Sunday/Tuesday/Thursday sampling scheme resulted in no impact on the observed trend, while a Monday/Wednesday sampling scheme resulted in a loss of the observed trend in 14% of simulations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 262,
+                    "end": 272,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "High frequency sampling to determine optimal sampling design"
+        },
+        {
+            "text": "The HF183 human marker concentration was on average of 8.8 \u00b1 0.2 log10 cp/L (geometric mean \u00b1 SD) across all WWTPs, which was overall about an order of magnitude higher than PMMoV (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fluctuation in levels of bacterial and RNA viral human markers"
+        },
+        {
+            "text": "Using aggregated address level clinical case reports (by date of test), we determined the correlation of censored SARS-CoV-2 wastewater concentrations with the 7-day moving average of diagnosed cases of COVID-19 (Figure 4) . Spearman rank correlations ranged from rho=0.58 to 0.87, with no relation to the size of the WWTP.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 222,
+                    "text": "(Figure 4)",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "We also examined correlations of SARS-CoV-2 wastewater measurements to COVID-19 cases after normalizing to either flow or the human fecal markers, PMMoV or HF183 (Figure 5 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 162,
+                    "end": 171,
+                    "text": "(Figure 5",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "Correlations were only improved slightly when adjusting to flow and only in select cities. For example, the average correlation across the 12 WWTPs was rho=0.73 based on raw concentrations and 0.74 when adjusted to flow. Correcting for BCoV recovery, HF183, or PMMoV actually decreased the correlation coefficient in many cases, with average correlations falling to 0.59, 0.66 and 0.56, respectively. Three-day moving averages were also examined and did not increase the strength of the correlation (Figure S6 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 499,
+                    "end": 509,
+                    "text": "(Figure S6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "Our correlations used the date of the clinical test compared with wastewater concretions on that date, which removes effects of reporting delays on the correlations. Using flow normalized data, we examined whether correlations improved with cases moved to an earlier date (-1 to -7) or to a later date (+1 to +7 days) for four of the largest WWTPs. This analysis essentially moves the clinical case curve forward or backward from the SARS-CoV-2 RNA concentrations. We found that the correlations slightly improved as the cases were offset to a later date, but optimal timeframes were different for each WWTP (0 to +6 days; Figure S7 ). The correlations were significantly lower for the -1 to -7 offset compared with the -1 to +7 day offset (t-test, P<0.05).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 623,
+                    "end": 632,
+                    "text": "Figure S7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Correlation of SARS-CoV-2 concentrations to COVID-19 case rates and effects of normalization to human fecal markers, flow, or recovery."
+        },
+        {
+            "text": "Using case data from the sewershed boundaries of three largest communities, we examined whether the ratio of identified cases per 100,000 residents to wastewater SARS-CoV-2 concentrations (million gene copies (MGC)/person per day) was consistent across the WWTPs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Wastewater SARS-CoV-2 concentrations indicate undiagnosed cases"
+        },
+        {
+            "text": "Two of the communities are serviced by two WWTPs, which provides two different measurements within the community. We hypothesized that a comparatively lower cases:wastewater concentration ratio would indicate a higher number of undiagnosed cases. We found that Green Bay DP had the highest ratio, which was not significantly different from Green Bay PTL, Milwaukee SS, and Milwaukee JI ( Table 2) . Conversely, Racine had a significantly lower ratio compared to these other three WWTPs ( Table 2 , P \u2264 0.031). Testing coverage mirrored this trend as Green Bay DP had the highest number of tests per person and Racine had the lowest, supporting that the low ratio observed in Racine could be associated with undiagnosed cases.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 388,
+                    "end": 396,
+                    "text": "Table 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 488,
+                    "end": 495,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Wastewater SARS-CoV-2 concentrations indicate undiagnosed cases"
+        },
+        {
+            "text": "In this study, low technical variability and strong correlation to case reports show the utility of SARS-CoV-2 wastewater concentration data for providing a biologically independent measure of SARS-CoV-2 infections across a community. Our results indicate the HA filter method [30, 31] combined with one-step RT-ddPCR is effective for tracking SARS-CoV-2 concentrations in wastewater influent. Similarly to reports by Altruners [17] , we found the HA filter method was relatively fast and allowed an effective analysis volume for each ddPCR reaction (~1.5 mL), which provided the needed sensitivity to quantify SARS-CoV-2 when reported cases were as low as 9",
+            "cite_spans": [
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[30,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 282,
+                    "end": 285,
+                    "text": "31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 428,
+                    "end": 432,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "per 100,000 people in the watershed. We also found that the N1 assay was more sensitive than the N2 assay when levels were near the limits of detection, likely because of assay efficiency. Further, the ddPCR method is reported to be more sensitive than qPCR [12] , and combining multiple wells All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 258,
+                    "end": 262,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. can increase the effective sample volume analyzed. As community transmission decreases, more sensitive measures might be needed since early in the pandemic SARS-CoV-2 RNA levels were near or below the limits of detection [13, 30] . Analysis of primary solids might be useful for detection as recent reports show ~300-3000 fold increased in sensitivity [12] .",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 361,
+                    "text": "[13,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 362,
+                    "end": 365,
+                    "text": "30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 488,
+                    "end": 492,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Methods to detect and quantify SARS-CoV-2 RNA in the complex matrix of wastewater are time consuming and expensive, and balancing the need for technical replicates to define confidence in measurements with limited resources and the need for timely data is a reality for many laboratories.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a large comparison study of 31 laboratories, technical variability within a given standard operating procedure (SOP) for measuring wastewater SARS-CoV-2 was below \u00b11.15 log value for 80% of the SOPs [6] , so measurement inconsistency can be fairly high [8] , but this comparison study was conducted early in the pandemic when many laboratories were still optimizing and testing multiple methods. Here, we examined the variation in a consistent method, testing nearly 40% of our 418 samples in duplicate over nearly six months. We found the overall variability between replicate filters from the same sample to be relatively low (0.3 log value), and RT-ddPCR assays contributed an equivalent amount of variability as replicate filters from the same sample.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 205,
+                    "text": "[6]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 256,
+                    "end": 259,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Therefore, we suggest that once methods are evaluated and found to be acceptable, replicate filters are not necessary for reliable tracking of wastewater SARS-CoV-2 concentrations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our methods assessment also revealed 24-hour composite samples provide representative measurements of SARS-CoV-2 RNA concentrations. We assumed that SARS-CoV-2 burdens in the community change minimally from one day to the next and examined samples collected two days in a row. We found good agreement between samples. This is remarkable since flows into WWTPS are millions of gallons per day, and composite samples collect 1-2 L, with 25 ml analyzed on a single filter. WWTP influent is assumed to be a well-mixed sample of contributions from the All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint human population and previous studies in our laboratory [32, 33] have demonstrated that human fecal markers are at steady-state levels in WWTP influent, but for these markers, nearly every human in the service area is contributing. In the case of SARS-CoV-2 infections, only a small number per 100,000 people are contributing SARS-CoV-2 based on clinically diagnosed cases, albeit these data likely underestimate prevalence [34] . We note that our analysis of consecutive days examined primarily large sewersheds servicing more than 50,000 people. While the two smaller WWTPs also had good agreement in samples collected two days in a row, further analyses in smaller sewersheds are needed to understand the effect of size on sample representativeness.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "[32,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Identifying a sampling frequency for wastewater surveillance data that captures case dynamics is another important aspect of maximizing limited resources while making wastewater data meaningful and actionable for public health entities. We found that the least resource-intensive sampling scheme that maintained a high degree of confidence in observing moderate concentration changes (~0.5 log10 copies/100 mL) was two non-consecutive days per week. Our results also indicate that sampling frequency is more critical for data interpretation than analysis of replicate filters. We recognize that our analysis is limited by the dynamics specific to the three-week period analyzed and the service area, but our findings agree with those by Graham et al. [12] , who assessed wastewater solids and also concluded that sampling two days a week captured case trends equivalent to every day sampling.",
+            "cite_spans": [
+                {
+                    "start": 751,
+                    "end": 755,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Wastewater is complex and can be very different in composition across WWTPs. Proper controls are needed to verify the quality of the measurements and to compare between methods or WWTPs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Similar to Graham et al. [12] , we found that BCoV did not mimic the behavior of the SARS-CoV-2 virus in our replicate filters. We also found that normalizing SARS-CoV-2 RNA concentrations to recovery decreased correlations to case data ( Figure 5 ). This might be expected since enveloped All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 25,
+                    "end": 29,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 239,
+                    "end": 247,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. viruses like SARS-CoV-2 partition into solids in wastewater [16] and would have more contact time than a spiked control. In this study, we found lengthening the contact time of BCoV with wastewater from 30 minutes to a maximum of 48 hrs did not yield improved BCoV recovery ( Figure S3) , suggesting additional factors specific to the sewer environment may be influencing recovery differences between SARS-CoV-2 and surrogate viruses used as recovery controls. We also found that in general, samples with higher TSS did not yield higher SARS-CoV-2 concentrations. While BCoV recovery did not correlate to N1 or N2 recoveries, we did find that a very low BCoV recovery (e.g., <1%) was a reliable flag for method failure and typically resulted in very low or absent N1 or N2 detection.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 200,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 412,
+                    "end": 422,
+                    "text": "Figure S3)",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "We found that normalizing to waste stream characteristics (flow, human markers) had little effect on correlations to case data ( Figure 5) . Normalizing to flow slightly increased correlations, but not for every plant. Adjusting to the amount of fecal contribution coming into the WWTP using PMMoV or HF183 actually decreased correlations in most cases, which might suggest that variability across measurements (SARS-CoV-2, fecal markers) is a larger influence than differences in the fecal loads of samples. These fecal markers are likely more useful in instances were fecal loads would be highly variable, such as specialized sampling within the sewershed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 138,
+                    "text": "Figure 5)",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "PMMoV is attractive as a normalizing factor since it can be used simultaneously as an RNA recovery control. However, as the expected population sampled decreases, the variability in this diet-driven marker needs to be considered since individual contributors would more strongly influence measured concentrations [35] .",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 317,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "SARS-CoV-2 wastewater concentrations strongly correlated to diagnosed case rates, similar to other reports [10] [11] [12] 35] . Sewershed boundaries were used by the Department of Health Services to assign caseloads and create de-identified data, which increased the precision of these analyses. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 111,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 112,
+                    "end": 116,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 122,
+                    "end": 125,
+                    "text": "35]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Similar to reports by Graham et al. [12] we found trends mirrored clinical cases in all 12 WWTPs across both increasing and decreasing clinical case trends. We also found wastewater was not a leading indicator when the date of the test was used, suggesting that infected individuals did not contribute SARS-CoV-2 at appreciable levels to wastewater at appreciable levels before diagnosis.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, case reporting can take several days or even weeks for that information to reach public health officials and in such cases, wastewater could provide more timely information [14] . When case rates (by date of the test) were lagged in a positive direction (forward in date), correlations slightly improved, suggesting that diagnosed cases contribute for several days to the SARS-CoV-2 burdens. We also hypothesized that comparing the per capita case rate with SARS-CoV-2 loads in wastewater could be used as an undiagnosed cases indicator. We did find that the one community with significantly lower ratios of diagnosed cases:SARS-CoV-2 loads also had a low testing rate, which would support this hypothesis. Understanding these relationships will be useful when clinical testing wans, however more work is needed to validate these comparisons across time within and across communities.",
+            "cite_spans": [
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "SARs-CoV-2 wastewater surveillance can be highly effective for estimating changes in community COVID_19 burdens. We found that our sampling scheme of two days captured trends and our validated method had low variability, which improves confidence in interpreting SARS-CoV-2 RNA concentrations For this new tool to be useful to public health practitioners, key information should accompany data, including information on recovery controls, inhibition, and the technical variability in the method [19, 36] . We were also able to establish the degree in which diagnosed cases correlated to the SARS-CoV-2 wastewater data, which varied across communities and should be considered when interpreting possible trends. While the pandemic continues to All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 500,
+                    "end": 503,
+                    "text": "36]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint evolve, sensitive methods will be crucial, and may include concurrent strain surveillance [37, 38] and incorporation of models to estimate transmission dynamics [39].",
+            "cite_spans": [
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[37,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 241,
+                    "end": 244,
+                    "text": "38]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. Figure 1 . Distribution of N1 relative standard deviation percentages among assay duplicates (n=120 paired assay duplicates), filter replicates (n=83 samples in duplicate) and day-to-day collection (n=58 pairs of samples). The horizontal dashed line represents a 25% RSD. Only N1 concentrations above the LOQ were considered. Groups sharing the same letter are not significantly different (ANOVA, F(2) = 8.34, P < 0.001; Tukey-adjusted). All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 144,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Conclusions"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. All rights reserved. No reuse allowed without permission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "(which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Substantial undocumented infection facilitates the rapid dissemination of novel coronavirus (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pei",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "489--493",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Dynamic public health surveillance to track and mitigate the US COVID-19 epidemic: Longitudinal trend analysis study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Post",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Issa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Boctor",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ison",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Achenbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Resnick",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Med Internet Res",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Estimation of the asymptomatic ratio of novel coronavirus infections (COVID-19)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nishiura",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Miyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jung S Mok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kinoshita",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Akhmetzhanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "issn": "",
+            "pages": "154--155",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Prevalence of SARS-CoV-2 in Spain (ENE-COVID): a nationwide, population-based seroepidemiological study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poll\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "P\u00e9rez-G\u00f3mez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pastor-Barriuso",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Oteo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hern\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "P\u00e9rez-Olmeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sanmart\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fern\u00e1ndez-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fern\u00e1ndez",
+                    "middle": [],
+                    "last": "De Larrea",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "535--544",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Presence of SARS-Coronavirus-2 RNA in Sewage and Correlation with",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Medema",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Heijnen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Elsinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Italiaander",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Brouwer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Prevalence in the Early Stage of the Epidemic in the Netherlands",
+            "authors": [],
+            "year": null,
+            "venue": "Environ Sci Technol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "511--516",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Wastewater-Based Epidemiology: Global Collaborative to Maximize Contributions in the Fight against COVID-19",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bivins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "North",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Alm",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Been",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bijlsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Boehm",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Environ Sci Technol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.est.0c02388"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "W\u00f6lfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seilmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zange",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Niemeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vollmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rothe",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nature",
+            "volume": "2020",
+            "issn": "",
+            "pages": "465--469",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "SARS-CoV-2 in wastewater: State of the knowledge and research needs",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kitajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bibby",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carducci",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gerba",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Haramoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rose",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Computational analysis of SARS-CoV-2/COVID-19 surveillance by wastewater-based epidemiology locally and globally: Feasibility, economy, opportunities and challenges",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hart",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Halden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "730",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Measurement of SARS-CoV-2 RNA in wastewater tracks community infection dynamics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peccia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zulli",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Brackney",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Grubaugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kaplan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Casanovas-Massana",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Biotechnol",
+            "volume": "38",
+            "issn": "",
+            "pages": "1164--1167",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Early-pandemic wastewater surveillance of SARS-CoV-2 in Southern Nevada: Methodology, occurrence, and incidence/prevalence considerations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gerrity",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Papp",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stoker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Frehner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Water Res X",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 RNA in Wastewater Settled Solids Is Associated with COVID-19 Cases in a Large Urban Sewershed",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Loeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wolfe",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Catoe",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sinnott-Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yamahara",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sassoubre",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mendoza Grijalva",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Roldan-Hernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Environ Sci Technol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.est.0c06191"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "COVID-19 surveillance in Southeastern Virginia using wastewater-based epidemiology",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Curtis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bivins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bibby",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Weir",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yetka",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Keeling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gonzalez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Water Res",
+            "volume": "186",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Tracking COVID-19 with wastewater",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Larsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wigginton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Biotechnol",
+            "volume": "38",
+            "issn": "",
+            "pages": "1151--1153",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Making waves: Wastewater-based epidemiology for COVID-19 -approaches and challenges for surveillance and prediction",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Polo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Quintela-Baluja",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Corbishley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Singer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Romalde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Water Res",
+            "volume": "186",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Survivability, Partitioning, and Recovery of Enveloped Viruses in Untreated Municipal Wastewater",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ellenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wigginton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Environ Sci Technol",
+            "volume": "50",
+            "issn": "",
+            "pages": "5077--5085",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Evaluating recovery , cost , and throughput of different concentration methods for SARS-CoV-2 wastewater-based epidemiology",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Laturner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kalvapalle",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gamas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Crosby",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Avadhanula",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Weesner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hopkins",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Environmental Engineers and Scientists Have Important Roles to Play in Stemming Outbreaks and Pandemics Caused by Enveloped Viruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wigginton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Boehm",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Environ Sci Technol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.est.0c01476"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Development of a one-run real-time PCR detection system for pathogens associated with bovine respiratory disease complex",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kishimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tsuchiaka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rahpaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hasebe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Otsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sugimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Komatsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nagai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Omatsu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Vet Med Sci",
+            "volume": "79",
+            "issn": "",
+            "pages": "517--523",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Reproducibility and sensitivity of 36 methods to quantify the SARS-CoV-2 genetic signal in raw wastewater: Findings from an interlaboratory methods evaluation in the",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Pecson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Darby",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Haas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Amha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bartolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Danielson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dearborn",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giovanni",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Di",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Fevig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Environ Sci Water Res Technol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.11.02.20221622"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Pepper mild mottle virus as an indicator of fecal pollution",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rosario",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Symonds",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sinigalliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stewart",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Breitbart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Appl Environ Microbiol",
+            "volume": "75",
+            "issn": "",
+            "pages": "7261--7267",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "RNA viral community in human feces: Prevalence of plant pathogenic viruses",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Breitbart",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Run",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Swl",
+                    "middle": [],
+                    "last": "Soh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hibberd",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Rohwer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "PLoS Biol",
+            "volume": "4",
+            "issn": "",
+            "pages": "108--0118",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "CDC: 2019-Novel Coronavirus ( 2019-nCoV ) Real-time rRT-PCR Panel Primers and Probes Note. Div Viral Dis Centers Dis Control Prev",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "twoddpcr: an R/Bioconductor package and Shiny app for Droplet Digital PCR analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ayub",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dive",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "33",
+            "issn": "",
+            "pages": "2743--2745",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Detection of bovine coronavirus using a TaqMan-based real-time RT-PCR assay",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Decaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Elia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Desario",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Mari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Radogna",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Colaianni",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Cirone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tempesta",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Buonavoglia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Virol Methods",
+            "volume": "151",
+            "issn": "",
+            "pages": "167--171",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Quantification of humanassociated fecal indicators reveal sewage from urban watersheds as a source of pollution to Lake Michigan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Templar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dila",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bootsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Corsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Water Res",
+            "volume": "100",
+            "issn": "",
+            "pages": "556--567",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "A PCR Assay To Discriminate Human and Ruminant Feces on the Basis of Host Differences in Bacteroides-Prevotella Genes Encoding 16S rRNA",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bernhard",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Field",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Appl Environ Microbiol",
+            "volume": "66",
+            "issn": "",
+            "pages": "4571--4574",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "R : A Language and Environment for Statistical Computing. 2020",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R Core Team",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "First confirmed detection of SARS-CoV-2 in untreated wastewater in Australia: A proof of concept for the wastewater surveillance of COVID-19 in the community",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Angel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Edson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bibby",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bivins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jwo",
+                    "middle": [],
+                    "last": "Brien",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kitajima",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Simpson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "728",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Comparison of concentration methods for quantitative detection of sewage-associated viral markers in environmental waters",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Harwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gyawali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jps",
+                    "middle": [],
+                    "last": "Sidhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Toze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Appl Environ Microbiol",
+            "volume": "81",
+            "issn": "",
+            "pages": "2042--2049",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Sewage loading and microbial risk in urban waters of the Great Lakes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Corsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bootsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Boehm",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Borchardt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Elem Sci Anth",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Human-Associated Indicator Bacteria and Human-Specific Viruses in Surface Water: A Spatial Assessment with Implications on Fate and Transport",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lenaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Corsi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Borchardt",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Olds",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Dila",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Baldwin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Environ Sci Technol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.est.8b03481"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Seroprevalence of Antibodies to SARS-CoV-2 in 10 Sites in the United States",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Havers",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Reed",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Klena",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fry",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cannon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gibbons",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Catching a resurgence: Increase in SARS-CoV-2 viral RNA identified in wastewater 48 hours before COVID-19 clinical tests and 96 hours before hospitalizations",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "D&apos;aoust",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Graber",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mercier",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Montpetit",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Alexandrov",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Neault",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Baig",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mayne",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alain",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The MIQE Guidelines : M inimum I nformation for Publication of Q uantitative Real-Time PCR E xperiments SUMMARY",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bustin",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Benes",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Garson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellemans",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huggett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kubista",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mueller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nolan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Pfaffl",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Shipley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "622",
+            "issn": "",
+            "pages": "611--622",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Genome sequencing of sewage detects regionally prevalent SARS-CoV-2 variants",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Crits-Christoph",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kantor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Olm",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Whitney",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Al-Shayeb",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Flamholz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Greenwald",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hinkle",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "MBio",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Detection of SARS-CoV-2 variants in Switzerland by genomic analysis of wastewater samples",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dreifuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Topolsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kull",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ganesanandamoorthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fernandez-Cassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "B\u00e4nziger",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Stachler",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Fuhrmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Philipp",
+                    "middle": [],
+                    "last": "Jablonski",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "2020 for the two Milwaukee WWTPs (JI & SS). For all three weeks, flow-weighted composite samples were collected daily from Sunday through Thursday (30 samples total; 5 days per week for 3 weeks at 2 plants). Sample filtration and nucleic acid extraction Wastewater samples were mixed thoroughly by vigorous shaking, then 25 mL of each sample were pipetted into 50 mL tubes containing a magnesium chloride solution to reach a final concentration of 25 mM. We used BCoV that was obtained as the Calf Guard cattle vaccine (Zoetis, Parsippany, NJ) as a control for SARS-CoV-2 viral RNA recovery. The BCoV vaccine was rehydrated and 5 \u00b5L (about 100,000 cp/\u00b5L) was used for each sample filtration. See Supplemental Text 1 and Supplemental Figure S3 for additional details on the BCoV protocol and optimizations.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Figure 3). Both human fecal markers exhibited relatively consistent concentrations over time in a single WWTP (within an order of magnitude variation). However, HF183 concentrations were less variable than PMMoV across all WWTPs (HF183 RSD = 53% vs. PMMoV RSD = 184% for HA filters or 102% for direct extraction). Overall, neither of the human markers correlated to the flow for each plant(Figure S5). No trend was observed between decreasing variability of either marker or increasing population size, suggesting that the variability was not driven by sample size of the population. All rights reserved. No reuse allowed without permission.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Significance (p-values) of trendline slopes from Monte Carlo simulations. Each bar represents 10,000 simulations of the described sampling scheme (x axis). Red dots represent the slope p-value using all original data collected, and the blue dashed line marks a significance level of 0.05.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Time-series of censored N1/N2, PMMoV and HF183 average concentrations (upper panel) and BCoV recovery rate (lower panel) across 12 WWTPs. WWTPs are sorted from the smallest (Grafton) to the largest (Milwaukee South Shore) population size served.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Time-series of censored N1/N2 averaged per day and the 7-day moving average of COVID-19 cases per 100,000. Wastewater treatment plants are ordered from largest to smallest based on population served. Values display the Spearman's rank correlation coefficients between SARS-CoV-2 wastewater concentrations and case rate per capita. Open circles and triangles indicate BLQ and BLD concentrations, respectively. WWTPs are sorted from lowest (Grafton) to highest population served (Milwaukee South Shore).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Correlations between 7-day moving average of diagnosed COVID-19 cases and unadjusted average N1N2 targets for SARS-CoV-2 wastewater concentrations, and concentrations normalized to gene copy per capita (concentrations x flow)/sewershed population, BCoV recovery, HF183 or PMMoV concentrations. WWTPs are ordered from smallest to largest population served. P-value significance level:",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "-19 case data COVID-19 cases for each WWTP service area were obtained by matching clinically confirmed COVID-19 case data (georeferenced) to WWTPs sewershed boundaries in ArcGIS. Data was reported as cases per 100,000 people. The number of negative tests were also retrieved. The case rates (per 100,000) for the study sites are available through the Wisconsin Coronavirus Wastewater Monitoring Network (https://www.dhs.wisconsin.gov/covid-19/wastewater.htm).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "The copyright holder for this preprint this version posted February 19, 2021. ; https://doi.org/10.1101/2021.02.17.21251867 doi: medRxiv preprint",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank the Office of Health Informatics and the Bureau of Information Technology ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 72,
+                    "end": 82,
+                    "text": "Technology",
+                    "ref_id": null
+                }
+            ],
+            "section": "Acknowledgments"
+        }
+    ]
+}
