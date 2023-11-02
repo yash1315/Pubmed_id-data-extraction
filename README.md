@@ -1,0 +1,1 @@
+This repository primarily centers around the extraction and compilation of research papers based on their PubMed IDs from three distinct sources. The file "pdf_json_200" serves as a sample file, containing 200 data samples with partial paper information. In addition, we utilized two additional datasets, which cannot be disclosed here due to copyright constraints.
