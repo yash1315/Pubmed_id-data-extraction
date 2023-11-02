@@ -1,1 +1,2 @@
 This repository primarily centers around the extraction and compilation of research papers based on their PubMed IDs from three distinct sources. The file "pdf_json_200" serves as a sample file, containing 200 data samples with partial paper information. In addition, we utilized two additional datasets, which cannot be disclosed here due to copyright constraints.
+This work was used in [**"Ad-Hoc Monitoring of COVID-19 Global Research Trends for Well-Informed Policy Making"**](https://dl.acm.org/doi/full/10.1145/3576901) paper and was published in ACM-TIST journal. 
